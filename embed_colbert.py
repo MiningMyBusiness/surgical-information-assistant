@@ -35,6 +35,8 @@ def embed_with_colbert(filenames, full_texts):
     )
     return index_path
 
-# Run the full process
-passages = extract_passages_from_text()
-embed_with_colbert(passages, index_name)
+
+if __name__ == "__main__":
+    # Run the full process
+    filenames, passages = extract_passages_from_text()
+    embed_with_colbert(filenames, passages, index_name)
