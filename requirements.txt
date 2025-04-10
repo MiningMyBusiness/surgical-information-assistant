@@ -7,3 +7,4 @@ langchain_ollama
 python-dotenv
 ragatouille
 aiohttp
+psutil
