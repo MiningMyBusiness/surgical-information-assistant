@@ -124,7 +124,7 @@ def extract_text_from_pdfs():
     logging.info("Finished extracting text from all PDFs")
 
 # 2. Generate QA pairs from a text chunk
-async def generate_qa_pairs_from_text(text: str, semaphore: asyncio.Semaphore, chunk_size: int = 5) -> List[Dict[str, str]]:
+async def generate_qa_pairs_from_text(text: str, semaphore: asyncio.Semaphore, chunk_size: int = 10) -> List[Dict[str, str]]:
     sentences = sent_tokenize(text)
     chunks = [" ".join(sentences[i:i + chunk_size]) for i in range(0, len(sentences), chunk_size)]
     chunks = [chunk for chunk in chunks if len(chunk.strip()) >= 100]
