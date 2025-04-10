@@ -39,4 +39,4 @@ def embed_with_colbert(filenames, full_texts):
 if __name__ == "__main__":
     # Run the full process
     filenames, passages = extract_passages_from_text()
-    embed_with_colbert(filenames, passages, index_name)
+    embed_with_colbert(filenames, passages)
