@@ -214,6 +214,10 @@ def serial_generate_qa_pairs_from_text(text: str, chunk_size: int = 5) -> List[D
 def serial_generate_dataset():
     dataset = []
     request_count = 0
+    total_files = len([f for f in os.listdir(text_folder) if f.endswith(".txt")])
+    processed_files = 0
+    total_time = 0
+    total_qa_pairs = 0
 
     for filename in os.listdir(text_folder):
         if filename.endswith(".txt"):
@@ -221,9 +225,28 @@ def serial_generate_dataset():
             try:
                 with open(os.path.join(text_folder, filename), "r", encoding="utf-8") as f:
                     text = f.read()
+                
+                file_start_time = time.time()
                 qa_pairs = serial_generate_qa_pairs_from_text(text)
+                file_end_time = time.time()
+                
+                file_time = file_end_time - file_start_time
+                total_time += file_time
+                total_qa_pairs += len(qa_pairs)
+                
                 dataset.extend(qa_pairs)
                 request_count += len(qa_pairs)
+                
+                # Calculate and display timing information
+                avg_time_per_pair = file_time / len(qa_pairs) if qa_pairs else 0
+                processed_files += 1
+                remaining_files = total_files - processed_files
+                projected_remaining_time = (total_time / processed_files) * remaining_files if processed_files > 0 else 0
+                
+                logging.info(f"Generated {len(qa_pairs)} QA pairs for {filename}")
+                logging.info(f"Time taken: {file_time:.2f} seconds")
+                logging.info(f"Average time per QA pair: {avg_time_per_pair:.2f} seconds")
+                logging.info(f"Projected remaining time: {projected_remaining_time:.2f} seconds")
                 
                 # Check if we need to pause to respect rate limit
                 elapsed_time = time.time() - start_time[0]
@@ -234,11 +257,13 @@ def serial_generate_dataset():
                     start_time[0] = time.time()
                     request_count = 0
                 
-                logging.info(f"Generated {len(qa_pairs)} QA pairs for {filename}")
             except Exception as e:
                 logging.error(f"Error processing file {filename}: {str(e)}")
 
+    overall_avg_time = total_time / total_qa_pairs if total_qa_pairs > 0 else 0
     logging.info(f"Total QA pairs generated: {len(dataset)}")
+    logging.info(f"Total time taken: {total_time:.2f} seconds")
+    logging.info(f"Overall average time per QA pair: {overall_avg_time:.2f} seconds")
     return dataset
 
 
