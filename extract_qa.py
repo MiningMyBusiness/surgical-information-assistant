@@ -163,8 +163,8 @@ Respond in this format:
 def parse_response(response: str) -> dict:
     logging.debug(f"Parsing response: {response}")
     qa_pairs = response.split("</think>")[1].strip()
-    qa_pairs = [pair.split("<qa-pair>")[1].strip() for pair in qa_pairs.split("</qa-pair>")]
-    qa_pairs = [{"question": pair.split("|")[0].strip(), "answer": pair.split("|")[1].strip()} for pair in qa_pairs]
+    qa_pairs = [pair.replace("<qa-pair>", "").strip() for pair in qa_pairs.split("</qa-pair>")]
+    qa_pairs = [{"question": pair.split("|")[0].strip(), "answer": pair.split("|")[1].strip()} for pair in qa_pairs if '|' in pair]
     return qa_pairs
 
 
