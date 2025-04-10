@@ -149,7 +149,7 @@ Here is the passage:
 PASSAGE:
 {text_chunk}
 
-Think step-by-step and reason through the content of the passage to hypothesize potential question-answer pairs and then respond. This of at least 5 question-answer pairs but more, if possible.
+Think step-by-step and reason through the content of the passage to hypothesize potential question-answer pairs and then respond. This of at least 2 question-answer pairs but more, if possible.
 
 Respond in this format:
 <think> You reasoning here... </think>
@@ -161,7 +161,7 @@ Respond in this format:
 
 
 def parse_response(response: str) -> dict:
-    think, qa_pairs = response.split("</think>")[1].strip()
+    qa_pairs = response.split("</think>")[1].strip()
     qa_pairs = [pair.split("<qa-pair>")[1].strip() for pair in qa_pairs.split("</qa-pair>")]
     qa_pairs = [{"question": pair.split("|")[0].strip(), "answer": pair.split("|")[1].strip()} for pair in qa_pairs]
     return qa_pairs
