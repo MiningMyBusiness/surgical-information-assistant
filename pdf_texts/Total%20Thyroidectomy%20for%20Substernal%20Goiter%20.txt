@@ -1,0 +1,716 @@
+Total Thyroidectomy for Substernal Goiter 
+Salem I. Noureldine, Mohamad Sidani, José Gabriel Paixão 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction:  
+Thyroidectomy for a substernal goiter is 
+typically a skill-demanding and complex procedure, 
+yet very rewarding. The intricate neck anatomy is 
+usually distorted in these cases, and often in an 
+unpredictable pattern. Goiter size, shape, vascularity, 
+distortion of anatomy, substernal extension, and 
+restrictions imposed by the bones of the thoracic inlet 
+can make thyroidectomy challenging, as well as 
+recurrent laryngeal nerve (RLN) and parathyroid 
+gland identification and preservation extremely 
+difficult. That is why Halsted had said, “The 
+extirpation of the thyroid gland for goiter better 
+typifies perhaps than other operations, the supreme 
+triumph of the surgeon's art.” 
+This chapter is aimed at reviewing the 
+patterns of anatomical distortion presented by 
+substernal goiter, key points of preoperative 
+evaluation, and treatment options with an emphasis 
+on surgical approach.  
+ 
+Definition and Classification 
+There have been numerous definitions and 
+classification schemes proposed for substernal goiter. 
+They largely encompass the same definition; a goiter 
+that is associated with a sub clavicular or substernal 
+extension and therefore the thoracic component 
+requires 
+mediastinal 
+dissection 
+to 
+facilitate 
+extraction of the gland.  
+ 
+Classification of substernal goiters. (A) Grade I: <25% 
+substernal; (B) Grade II: 26% to 50% substernal; (C) Grade 
+III: 51% to 75% substernal; (D) Grade IV: >75%. Adapted with 
+permission from Cohen et al. Operative Techniques in 
+Otolaryngology-Head and Neck Surgery, vol 5, No 2 (June), 
+1994: pp 118-125 
+ 
+Moreover, a classification system is most 
+useful when it incorporates the features of the 
+substernal 
+goiter 
+that 
+must 
+be 
+appreciated 
+preoperatively for safe extraction. Thus, axial cross-
+sectional imaging to differentiate between the 
+various subtypes is necessary. We emphasize that IV 
+contrast should be avoided in these cases, as the 
+iodinated contrast can lead to acute goiter 
+enlargement and worsen compressive symptoms, 
+necessitating at times airway protection and urgent 
+surgical intervention.  
+Total Thyroidectomy for Substernal Goiter 
+Salem I. Noureldine, Mohamad Sidani, José Gabriel Paixão 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Substernal Goiter Classification - adapted from Randolph GW 
+et al. Surgery of Cervical and Substernal Goiter. Surgery of the 
+Thyroid and Parathyroid Glands – 2nd edition. Saunders 2013 
+ 
+When the thyroid gland extends into the 
+anterior mediastinum (Type I), it descends anterior 
+to the subclavian and innominate vessels and anterior 
+to the RLN. The normal and orthotopic relationship 
+of an anteriorly descended mediastinal goiter to the 
+RLN is therefore preserved (i.e., the nerve is deep to 
+the gland.)  
+ 
+Cross sectional computed tomography images of a patient with 
+a large substernal goiter extending into the right mediastinum. 
+The goiter descends anterior to the subclavian and innominate 
+vessels and anterior to the RLN. (Substernal goiter type I) 
+ 
+When the substernal goiter extends into the 
+posterior mediastinum (Type II), it assumes a space 
+posterior to the trachea, pushing the trachea 
+anteriorly and splaying the great vessels anteriorly. 
+The mediastinal extension of the gland then rests in 
+the space posterior to the innominate and subclavian 
+vessels, carotid sheath, RLN, and inferior thyroid 
+artery. Therefore, the normal relationship of the 
+thyroid gland and the RLN is reversed. The RLN 
+becomes ventral to the inferior component of the 
+thyroid and, if not recognized early on, can be 
+stretched, or inadvertently cut. The nerve can also be 
+entrapped between components of the posterior 
+mediastinal goiter. This increased rate of RLN injury 
+is 
+well 
+documented 
+in 
+series 
+comparing 
+thyroidectomy using only a cervical approach to 
+sternotomy with mediastinal dissection to aid 
+cervical removal. In those small series, there is a 
+significantly decreased rate of RLN injury in patients 
+who 
+underwent 
+sternotomy 
+for 
+mediastinal 
+dissection.  
+Posterior mediastinal goiters can come to rest 
+in a space bounded inferiorly by the azygous vein, 
+posteriorly by the vertebral column, laterally by the 
+first rib, medially by the trachea and esophagus, and 
+anteriorly by the carotid sheath, subclavian and 
+innominate vessels, superior vena cava, and phrenic 
+and RLNs. Therefore, it is important to be familiar 
+with the regional anatomy of the lower neck and 
+upper mediastinum.  
+Posterior mediastinal goiters can occur on the 
+same side as the enlarged lobe (Type IIA) or may 
+come to rest through a retro-tracheal extension in the 
+contralateral thorax (Type IIB.) Extension to the 
+right mediastinum is more commonly seen because 
+of the aortic arch and associated branch vessels 
+blocking the left posterior mediastinal descent 
+pathway. 
+Contralateral 
+posterior 
+mediastinal 
+extension may occur either behind the trachea and 
+esophagus (Type IIB1) or between the trachea and 
+esophagus (Type IIB2). Generally, the right 
+mediastinal caudal extension is limited at the level of 
+the azygous arch. 
+Although rare, thyroid masses within the 
+mediastinum may exist without connection to the 
+normal cervical thyroid gland, known as an ectopic 
+thyroid. Isolated mediastinal goiters are important to 
+recognize because unlike all other types of substernal 
+goiters, blood supply of the goiter may be through 
+purely mediastinal arteries (i.e., aorta, subclavian, 
+internal mammary, thyrocervical, and innominate) 
+and veins. This is extremely important in planning 
+their surgical resection. Also worth noting is that it is 
+not uncommon for a goiter to be dumbbell shaped, 
+when the substernal component is attached to the 
+cervical component through a narrow thin band of 
+Total Thyroidectomy for Substernal Goiter 
+Salem I. Noureldine, Mohamad Sidani, José Gabriel Paixão 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+thyroid parenchyma. Noting an ectopic thyroid goiter 
+or a dumbbell shaped thyroid goiter preoperatively is 
+crucial as complete resection is very difficult to 
+achieve through a cervical approach only, even if the 
+substernal component is not large or does not extend 
+significantly into the mediastinum. 
+ 
+Workup 
+In the workup of patients presenting with a substernal 
+goiter, 
+the surgeon needs to systematically 
+investigate all the following issues preoperatively: 
+1. Existence of compressive symptoms such as: 
+a.  Voice change or voice fatigue which 
+could hint at an RLN already under 
+excessive tension from displacement 
+b. Dysphagia and regurgitation which could 
+indicate significant mass effect on the 
+esophagus, and the greater risk of an 
+aspiration event upon induction of 
+general anesthesia 
+c. Airway compression, especially when the 
+patient lies flat and is fully relaxed upon 
+induction (i.e., loses most cervical muscle 
+tone and the full weight of the goiter 
+pushes down or further deviates the 
+trachea). It is also important to realize that 
+chronic mass effect of the goiter on the 
+trachea results in tracheomalacia, and 
+subsequently can leave the patient with a 
+high risk of airway obstruction even post 
+thyroidectomy.  
+2. Risk of malignancy, especially if the portion of 
+the 
+thyroid 
+that 
+contains 
+the 
+suspected 
+malignancy is substernal and not accessible for 
+percutaneous needle biopsies to establish the 
+diagnosis. 
+3. Presence of hyperthyroidism, which would 
+require medical therapy prior to thyroidectomy to 
+achieve a euthyroid state and minimize the risk 
+of a thyroid storm intraoperatively. Also, the risk 
+of bleeding during thyroidectomy for a toxic 
+thyroid goiter is slightly greater as they are 
+commonly more vascularized than nontoxic 
+goiters.  
+4. Integrity of the RLN should be assessed either 
+through ultrasound evaluation of the mobility 
+and symmetry of the vocal cords (which can be 
+challenging in patients with large goiters) or via 
+direct visualization with nasolaryngeal fiberoptic 
+endoscopy.  
+5. Subtype of mediastinal extension (Table, above) 
+and preoperative consultation with potential 
+surgical planning by a thoracic surgeon, if 
+available. The majority of substernal goiters will 
+be resected through cervical approach. But there 
+are a few characteristics that increase the risk for 
+an extra-cervical approach: Malignant histology, 
+Extension below the aortic arch’s convexity in 
+the cranio-caudal plane and posterior extension 
+to trachea in the anteroposterior plane.  
+It is important, in limited-resource countries, that 
+the surgeon be as independent as he/she can at 
+imaging interpretation. 
+ 
+Goiter physical examination: lateral and anterior view 
+ 
+ 
+Find a "sulcus" between thyroid and sternum's manubrium, 
+with mobile thyroid gland are a sign that there are minor or no 
+Total Thyroidectomy for Substernal Goiter 
+Salem I. Noureldine, Mohamad Sidani, José Gabriel Paixão 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+mediastinal extension. Thus, a cervical approach is more likely 
+to succeed. 
+ 
+ 
+As seen here, a widened mediastinum (on the right) and 
+deviation of the trachea (towards the left) are indications that 
+the airway is compromised and intubation may be more difficult.  
+ 
+Indications 
+It is generally agreed that thyroxine 
+suppression therapy and radioactive iodine ablation 
+are not acceptable interventions, and that surgery is 
+the gold standard for substernal goiter management. 
+Overall, these are the major indications for substernal 
+thyroidectomy: 
+1. Suspicion for or confirmed thyroid cancer 
+2. Compression of adjacent organs 
+3. Toxic multinodular goiter or toxic adenoma or 
+thyrotoxicosis 
+4. Cosmetic reasons 
+ 
+Most surgeons would favor thyroidectomy 
+even if asymptomatic, as substernal goiters will 
+continue to grow over time and become more 
+complex to resect when larger in size or extend 
+further into the mediastinum. Moreover, the thoracic 
+component of a substernal goiter poses difficulty for 
+ongoing clinical examination or fine needle 
+aspiration, as mentioned above. 
+Surgery usually comprises two different 
+approaches; one is completely transcervical, in 
+which only a cervicotomy is performed, and the other 
+requires an additional extracervical approach (e.g., 
+thoracoscopically or via sternotomy.) Several 
+different surgical techniques have been described; 
+however, no clearly defined consensus exists on the 
+indications for either approach to substernal thyroid 
+goiter excision. 
+ 
+A retrosternal goiter delivered through a trans-cervical 
+approach. The dissection of the inferior part of the enlarged 
+lobe was done with the surgeon’s finger, in the capsular plane 
+of the thyroid.  
+ 
+ 
+The completely removed specimen. The left lobe is 11cm in 
+craniocaudal length, and more than half of that was inside the 
+thoracic cavity, yet it could be removed through a trans-
+cervical approach. 
+ 
+Steps: 
+Intubation 
+Intubation is usually uneventful in patients 
+with substernal goiters, but sometimes can be 
+Total Thyroidectomy for Substernal Goiter 
+Salem I. Noureldine, Mohamad Sidani, José Gabriel Paixão 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+difficult, or even life-threatening, requiring an 
+emergent and very challenging tracheotomy due to 
+the overlying engorged goiter. A small portion of 
+patients may also have evidence of substantial 
+laryngeal deviation or vocal cord paralysis at 
+intubation. A large substernal goiter can compress 
+the venous drainage of the neck causing venous 
+congestion that results in pharyngeal, laryngeal, and 
+supraglottic soft tissue edema. Therefore, the 
+surgeon and anesthesiologist should review all the 
+preoperative data including cross sectional imaging 
+and preoperative laryngoscopy and, examine the 
+patient together before induction. The method of 
+intubation, 
+size 
+of 
+endotracheal 
+tube, 
+and 
+contingency plans can be discussed and decided 
+upon through these discussions.   
+Typically, a straightforward induction with 
+transoral intubation can be performed. Laryngeal 
+deviation does not generally pose difficulty and a 
+reasonably sized endotracheal tube can be used 
+despite the extrinsic tracheal compression. A safe 
+alternative method is an awake fiberoptic transoral or 
+transnasal intubation with the patient in a full sitting 
+position. Full knowledge and access to the 
+maneuvers and instruments that can be employed for 
+airway protection and better visualization of the 
+vocal cords should be readily available.  Newer video 
+laryngoscopes are also an excellent adjunct for 
+intubation in such patients. Ultimately, to decrease 
+the risk of laryngeal edema from intubation, it is best 
+to intubate once correctly, as studies have shown that 
+the larynx is easily made edematous with multiple 
+unsuccessful intubation attempts. A useful maneuver, 
+especially during awake intubations, is to grab the 
+tongue with a dry gauze and pull it forward as much 
+as the patient can tolerate. This will anteriorly 
+displace the swollen laryngeal and supraglottic 
+apparatus and improve cord visualization. “Armored” 
+endotracheal tubes can be used for patients with 
+significant tracheal compression distally. See also 
+the chapter Airway Management and Endotracheal 
+Intubation. 
+ 
+Fiberoptic transoral intubation. The epiglottis is seen on the 
+monitor. Note that the endotracheal tube is already on the 
+fiberoptic scope: once the scope enters the trachea, this can be 
+slid along the scope into position.  
+ 
+Extent of Surgery 
+The 
+extent 
+of 
+surgery 
+(i.e, 
+hemithyroidectomy or total thyroidectomy) should 
+be tailored to allow a favorable balance between the 
+risk of operative complications and disease 
+progression or recurrence. Complication rates must 
+be kept extremely low in the setting of benign disease. 
+Therefore, the minimum procedure should be a 
+hemithyroidectomy, reserving bilateral surgery for 
+significant bilateral goiter, malignant disease, or 
+toxic multinodular goiter/ diffuse hyperthyroidism. 
+Sometimes, when an ipsilateral nerve injury or an 
+ipsilateral loss of nerve signal during intraoperative 
+nerve monitoring occurs, the surgeon must change 
+plans intraoperatively and possibly defer resecting 
+the contralateral lobe. This helps avoid a potentially 
+disastrous case of bilateral RLN injury requiring 
+tracheostomy.  
+ 
+Positioning 
+Great emphasis should be placed on proper 
+positioning of the patient on the operating room table. 
+A shoulder roll should be placed under the patient’s 
+shoulder blades as to extend the neck safely as much 
+as possible with the head well supported. Additional 
+extension may be obtained by placing the patient in 
+a beach-chair mode position. 
+ 
+Total Thyroidectomy for Substernal Goiter 
+Salem I. Noureldine, Mohamad Sidani, José Gabriel Paixão 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Incision and Subcutaneous Flaps 
+A generous collar incision is usually needed. 
+Minimal access approaches are not appropriate for 
+substernal goiter extrication. The traditional Kocher 
+incision, extending to the lateral edge of the 
+sternocleidomastoid (SCM) muscle, may be required 
+for large bilateral goiters. 
+ 
+A simple transverse collar incision is often sufficient. For very 
+large glands, such as this one, the incision should be extended 
+upwards along the anterior border of the sternocleidomastoid. 
+Extending your incision further posteriorly does not help as 
+much to improve access, and gives the appearance of a 
+“decapitation.” 
+ 
+A subplatysmal upper flap is developed all 
+the way to at least the level of the cricoid cartilage; 
+consider going to the level of the hyoid bone in 
+especially large goiters. A generous lower flap is 
+typically not necessary. Flaps can be sutured in place, 
+or a self-retaining retractor can be used.  
+ 
+The same incision, now with the flap elevated in the sub-
+platysmal plane. Note the anterior jugular veins (Black arrows.) 
+You will be dissecting along these, so proper technique is 
+important to avoid troublesome bleeding.” Note also that this 
+vein should be ligated if the “strap” muscles are divided, as 
+described below.  
+ 
+“Strap” Muscles 
+Routine transverse sectioning of the strap 
+muscles (sternohyoid and sternothyroid) during 
+thyroidectomy for substernal goiter is not needed. 
+Preserving the strap muscles allows preservation of 
+the planes and anatomic organization of the central 
+compartment and neck base that can be substantially 
+altered by the goitrous change. However, if there is 
+any question that strap division would improve 
+mobilization, it should be done. Transverse 
+sectioning of the strap muscles should occur at the 
+top third of the muscle as the nerve innervation 
+comes in caudal to cranial. The strap muscles can 
+then be sutured back together at the completion of 
+surgery with little adverse effect. The anterior jugular 
+vein, running along the anterior surface of these 
+muscles, may be sizeable in these patients and should 
+be separately divided and ligated.  
+ 
+Total Thyroidectomy for Substernal Goiter 
+Salem I. Noureldine, Mohamad Sidani, José Gabriel Paixão 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Early Division of the Isthmus 
+Early division of the thyroid at the isthmus, 
+even in the setting of total thyroidectomy, facilitates 
+better exposure, retraction and RLN identification in 
+these cases. Dividing the isthmus early can allow for 
+more medial mobilization of the thyroid lobe to 
+facilitate exposure of the RLN as discussed later in 
+this chapter. This might be more challenging when 
+the most inferior aspect of the isthmus extends 
+substernally along with the substernal component of 
+the thyroid lobe. A key step to successfully perform 
+this maneuver is to correctly identify the plane, using 
+blunt dissection, above the cricothyroid muscle 
+where its fibers meet along the cricoid cartilage and 
+the isthmus. If the plane below the cricothyroid 
+muscle is entered the dissection will be bloody and 
+the risk of inadvertent penetration of the cricothyroid 
+membrane or even trachea is more likely. 
+ 
+Recurrent Laryngeal Nerve Identification and 
+Preservation 
+The most important rule to follow is that no 
+structure is cut until the RLN is identified visually 
+and, if nerve monitoring used, electrically. A 
+bloodless field is essential for identification and 
+preservation of the RLN. When operating on large 
+goiters, this requires an especially careful technique. 
+Once the inferior and superior poles are dissected, 
+the strap muscles are retracted laterally and the 
+thyroid, along with the trachea, should be retracted 
+as one unit medially. This opens the lateral thyroid 
+region. As the thyroid is dissected and freed from its 
+lateral cervical attachments, it is progressively pulled 
+medially and the airway itself is to some degree 
+displaced upwardly and rotated through this 
+retraction. This will expose the nerve at the RLN-
+inferior thyroid artery crossing junction. Gentle blunt 
+dissection helps in this maneuver. In this approach, 
+the nerve is not uncovered inferiorly at the thoracic 
+inlet. This approach helps to preserve parathyroid 
+vascular 
+supply, 
+especially 
+for 
+the 
+inferior 
+parathyroid. Care must also be taken on the right side 
+to identify a nonrecurrent right RLN. 
+In certain cases of large goiters or in cases in 
+which the tubercle of Zuckerkandl is well developed, 
+the lateral thyroid region may not be adequately 
+exposed to permit easy RLN identification. In such 
+circumstances the nerve is best identified inferiorly. 
+This involves identification of the RLN in the lateral 
+aspect of the thoracic inlet on the right and in the 
+paratracheal position at the thoracic inlet on the left. 
+This relationship is shown in the photo below. 
+Advantages of nerve identification at this location 
+include the soft areolar bed in which the nerve lies in 
+this region, allowing for atraumatic dissection. 
+Another advantage of finding the nerve in the 
+thoracic inlet is that the nerve here exists as one trunk 
+before extra-laryngeal branching, which can occur 
+above the inferior thyroid artery crossing point.  
+ 
+Photo after removal of the thyroid gland shows the course of 
+the right and left recurrent laryngeal nerves. The right nerve 
+(Red arrow) courses around the right subclavian artery, which 
+is very close to the area being dissected. Therefore, the nerve 
+must take a more medial-to-lateral course to reach the larynx. 
+The left nerve (White arrow) courses around the aortic arch, 
+which is farther down in the chest and closer to the midline. It 
+will therefore be taking a direction that is more straight cranio-
+caudal.  
+ 
+In some cases of large cervical or substernal 
+goiters where the size and distortion of the anatomy 
+make the lateral or inferior approach to identifying 
+the RLN impractical, identifying the early nerve at 
+the ligament of Berry-laryngeal entry point can be 
+done. To facilitate this approach, early transection of 
+the isthmus and initial dissection of the superior pole 
+allow for lateral and caudal retraction of the superior 
+pole to allow access to this segment of the nerve 
+during the initial phases of lobectomy. The inferior 
+Total Thyroidectomy for Substernal Goiter 
+Salem I. Noureldine, Mohamad Sidani, José Gabriel Paixão 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+cornu of the thyroid cartilage can be palpated to 
+assist in nerve location in this area. The disadvantage 
+of the RLN identification through this approach is 
+that the dissection occurs at the ligament of Berry, 
+which is fibrous and bleeds easily. Also, the nerve at 
+this region may be branched. This approach is 
+technically more challenging with large superior 
+poles. The exposure of this superior pole region can 
+be improved by division of the sternothyroid muscle, 
+as described above. 
+ 
+Parathyroid Preservation 
+The distal inferior thyroid artery is divided 
+after the RLN is identified and either before or after 
+goiter delivery. The artery is ligated and divided 
+directly on the thyroid capsule to reduce the risk of 
+parathyroid ischemia. The superior parathyroid 
+glands are more constant in position and are more 
+frequently seen at thyroidectomy for goiter; therefore, 
+they are more readily preserved. The inferior 
+parathyroid gland is more variable in position and 
+more likely to be significantly displaced by inferior 
+pole goitrous change. Therefore, real emphasis 
+during goiter surgery should be on superior 
+parathyroid preservation. Inferiorly, strict adherence 
+to capsular dissection to preserve displaced inferior 
+parathyroid glands should be performed. Lastly, any 
+resected thyroid specimen must be meticulously 
+examined for capsular parathyroid glands before 
+being sent to pathology. Any capsular parathyroid 
+glands that are found should be dissected off, 
+biopsied to confirm parathyroid tissue, and then 
+auto-transplanted. Briefly, the parathyroid gland is 
+cut into many tiny pieces with fine scissors or scalpel, 
+and then placed within a surgically created “pocket” 
+of adjacent muscle, usually the medial edge of the 
+sternocleidomastoid. Recall that parathyroid glands 
+may be found within folds and crevices of the goiter 
+surface. 
+ 
+Diagram showing the normal location of the parathyroid 
+glands relative to a vertical line drawn through the axis of the 
+recurrent laryngeal nerve, and a horizontal line drawn through 
+the axis of the tubercle of Zuckerkandl, the posterior-most 
+extent of the thyroid gland. The superior parathyroids, needing 
+to migrate less distance, are more consistent in their location. 
+The inferior parathyroids, having migrated farther and possibly 
+being displaced by the goiter, are more likely to be in an 
+abnormal position. Source: 
+ http://www.endocrinesurgery.net.au, used with permission. 
+ 
+Delivery of the Goiter from the Mediastinum 
+After the RLN is identified and completely 
+dissected away from the goiter, finger dissection in 
+the capsular plane can allow for safe goiter delivery. 
+The goiter is slowly mobilized upward out of the 
+chest. Fascial band attachments as well as vascular 
+pedicles are drawn up gently with the surgeon’s 
+finger are cauterized or clamped only after the RLN 
+location is completely identified along its entire 
+course. Nerve monitoring can also be extremely 
+helpful in this part of the procedure. Cysts within the 
+thyroid, 
+if 
+benign, 
+can 
+be 
+decompressed 
+intraoperatively with a large bore needle to decrease 
+the gland’s overall size.  
+Total Thyroidectomy for Substernal Goiter 
+Salem I. Noureldine, Mohamad Sidani, José Gabriel Paixão 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+A variety of instruments have been used to 
+facilitate substernal goiter delivery. A mediastinal 
+goiter “spoon” and a foley catheter placed in the 
+mediastinum have both been described to assist in the 
+delivery of substernal goiter without sternum 
+division. If all these maneuvers are not effective, 
+partial or complete sternotomy, or a thoracoscopic 
+approach may be needed. It is important that the 
+thyroid surgeon consults with their thoracic surgical 
+colleagues and arrange the surgical date when a 
+thoracic surgeon is available. 
+ 
+Pitfalls 
+• A complete preoperative workup is essential in 
+treating 
+patients 
+with 
+substernal 
+goiters. 
+Preoperative 
+identification 
+of 
+substernal 
+extension of the thyroid allows for appropriate 
+preoperative imaging and surgical planning. 
+Moreover, early identification of compressive 
+symptoms or RLN dysfunction helps avoid 
+perioperative complications. If CT scan is not 
+available, 
+careful 
+physical 
+examination 
+supplemented by plain x-rays and ultrasound 
+allows the surgeon to make a reasonable estimate 
+of the extent of the substernal portion.  
+• An anesthetist should review all the preoperative 
+data to include cross sectional imaging and 
+preoperative laryngoscopy and, examine the 
+patient before induction. This ensures that the 
+proper intubation technique and perioperative 
+care will be administered.  
+• Like routine thyroid surgery, the most important 
+rule to follow is that no structure is cut until the 
+RLN is identified visually and, if nerve 
+monitoring used, electrically. A bloodless field is 
+essential for identification and preservation of 
+the RLN. The surgeon should be aware of the 
+different techniques for RLN identification and 
+preservation during these difficult cases. 
+• Parathyroid identification and preservation is as 
+important as RLN identification in these cases. 
+Real emphasis should be placed on superior 
+parathyroid 
+preservation. 
+Inferiorly, 
+strict 
+adherence to capsular dissection to preserve 
+displaced inferior parathyroid glands should be 
+performed. Any resected thyroid specimen must 
+be 
+meticulously 
+examined 
+for 
+capsular 
+parathyroid glands, which are then auto-
+transplanted.  
+• Preoperative surgical consultation with thoracic 
+surgical colleagues, if available, is important and 
+arrangements must be made so that proper 
+intraoperative and postoperative care can be 
+administered if the patient were to require 
+sternotomy or thoracoscopy to assist with 
+delivery of the substernal component. Further 
+description of the sternotomy incision is in 
+another Chapter of this Manual.  
+ 
+Salem I. Noureldine MD 
+George Washington University School of Medicine 
+and Health Sciences 
+Washington, DC, USA 
+ 
+Mohamad Sidani MD 
+Texas Tech University Health Sciences Center 
+Lubbock, Texas, USA 
+ 
+José Gabriel Paixão MD 
+University Hospital João de Barros Barreto 
+Belém, Pará, Brazil 
+ 
+May 2023 
+ 
+ 
+ 

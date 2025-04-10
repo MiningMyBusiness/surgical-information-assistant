@@ -1,0 +1,1093 @@
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+INTRODUCTION:  
+This chapter will cover the topics of 
+decontamination, disinfection, and sterilization of 
+medical items, instruments and equipment. Due to its 
+broad (and non-sequential) nature, we will break this 
+chapter into four major parts: terms, theory, 
+tools/techniques and practices. Our hope is that this 
+overview will set a foundation for understanding the 
+basics 
+of 
+decontamination, 
+disinfection 
+and 
+sterilization. Note there is intentional redundancy 
+within this chapter, as with other chapters within the 
+Manual itself. 
+ 
+Scope of problem:  
+1. Safe surgery requires a sterile procedure to 
+minimize life-threatening infections. Sterile 
+procedures require sterile instruments.  
+2. Global access to safe surgery is limited by a 
+lack of access to sterilization.  
+3. Resource-constrained settings may not have 
+reliable access to reliable electricity, making 
+the use of the autoclave, the WHO standard 
+for sterilization, difficult or impossible. 
+4.  Staff responsible for cleaning and sterilizing 
+the surgical equipment may have limited 
+training in sterile processing techniques.  
+ 
+Impact of problem:  
+1. Approximately five billion people around the 
+world do not have access to much-needed 
+surgical care, and as much as 33% of 
+worldwide deaths are from surgically 
+treatable conditions. 
+2. Lack of proper instrument sterilization has 
+led to post-surgical infection rates as high as 
+46%.  
+3. Disposable kits, often thought of as a fix to 
+the problem, are not a viable solution because 
+they generate large amounts of biowaste that 
+is difficult to properly dispose of in low-
+resource areas. 
+ 
+TERMS: 
+1. Cleaning is defined as removing any visible 
+soil.  Cleaning is typically achieved by manually 
+combining water with enzymes or detergents and 
+using a brush to physically remove visible debris. 
+It is important to note that clean does not mean 
+sterile or disinfected. 
+2. Decontamination is defined as removing 
+pathogenic organisms in order to make objects 
+safe enough to handle, use, or dispose of. 
+3. Disinfection is the process of eliminating most 
+pathogenic organisms with the exception of 
+spores. This is usually accomplished with liquid 
+chemicals or wet pasteurization. 
+4. High-level disinfection is defined as the 
+complete elimination of all microorganisms in or 
+on an instrument, with the exception of a small 
+number of bacterial spores. 
+5. Intermediate-level 
+disinfection 
+is 
+the 
+elimination of all microorganisms, but not 
+spores. 
+6. Low-level disinfection kills fungi, most bacteria, 
+some viruses, and no spores. 
+7. Sterilization is the process of eliminating all 
+microorganisms, and is commonly achieved 
+through chemical and/or physical means. 
+8. Germicide is an agent that can eliminate 
+microorganisms. 
+Agents 
+with 
+‘cide/cidal’ 
+suffixes have some type of killing action that is 
+referenced in the name (i.e fungi-cide). Note that 
+germicides 
+include 
+both 
+antiseptics 
+and 
+disinfectants (remember disinfectant differs 
+from disinfection). 
+a. Antiseptic germicides are agents that can 
+be applied to living tissue (i.e skin). 
+b. Disinfectant is any germicide agent that 
+can be applied to non-living tissue (i.e. 
+not skin). It is only used to disinfect 
+surfaces of inanimate objects because of 
+the risk of injury to tissue. 
+9. Critical items are any items with a high chance 
+of 
+transmitting 
+an 
+infection 
+if 
+that 
+instrument/item becomes contaminated (surgical 
+instruments, urinary catheters, implants). These 
+items must be completely sterile. 
+10. Semi-critical items are any items/instruments 
+that come into contact with non-intact skin and/or 
+mucous membranes (respiratory / anesthesia 
+equipment). These items should undergo 
+cleaning, followed by high-level disinfection.  
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+11. Non-critical items are any items/instruments 
+that come in contact with intact skin and do not 
+come in contact with mucous membranes 
+(bedpans, computers, patient furniture). It is not 
+critical for these items to be sterile as long as they 
+do not come in contact with non-intact skin or 
+mucous membranes. 
+ 
+THEORY: 
+Before diving into the individual techniques 
+for achieving sterility, it is important to discuss the 
+factors that influence our ability to get an item clean, 
+decontaminated, disinfected, and/or sterilized. We 
+will divide these factors into those that are internal to 
+the offending organism and factors that are external 
+to the offending organism.   
+ 
+Factors internal to the organism 
+Organism type: The first major internal 
+factor is the type of microorganism(s) present on the 
+object and whether or not spores are involved. The 
+major 
+types of organisms to consider for 
+disinfection, listed in order of most-to-least difficult 
+to 
+eradicate, 
+are 
+prions, 
+bacterial 
+spores, 
+mycobacteria, non-lipid viruses, fungi, bacteria, and 
+lipid viruses. Each type of organism has a varying 
+level of susceptibility to destruction, which is related 
+to its physical structure (i.e lipid envelope or protein 
+capsid). For example, spores are generally resistant 
+to most disinfectants while mycobacteria are 
+generally resistant to alcohol, and prions are resistant 
+to heat at 200 oC for as long as two hours.   
+Organism quantity: Just as microbes grow at 
+an exponential rate, microbes also die at an 
+exponential rate.  As the number of organisms 
+increases, a longer exposure time is required to 
+achieve disinfection or sterility. Proper cleaning with 
+water and detergent or enzymatic cleansers prior to 
+disinfection or sterilization can help to reduce the 
+microbial load and increase the effectiveness of the 
+disinfectant or sterilant.  
+Most bacteria create a biofilm on solid 
+organic or inorganic surfaces when the number of 
+organisms reaches a certain level. The biofilms 
+contain an extracellular matrix of proteins and 
+polysaccharides that encourage binding of more 
+bacteria both to the matrix and to each other, 
+providing stability, nutrition, and protection. 
+Biofilms are known to significantly decrease the 
+effectiveness of antimicrobial agents through 
+different adaptations that shield one another  from 
+the toxic effects of the disinfectant, slow disinfectant 
+penetration, and even prevent antimicrobial agents 
+from reaching bacteria at the center of the biofilm, all 
+of which prevent sterility from being achieved.  
+ 
+Factors external to the organism 
+Surface factors: Smooth surfaces are easier 
+to disinfect while objects with rough surfaces are 
+more difficult because of the microscopic crevices 
+that can house microorganisms.  In addition, the 
+organic load – the presence of organic material like 
+blood or tissue – inhibits the action of disinfectants. 
+A high organic load can  block neutralizing agents 
+from reaching the surface, and biomaterial itself can 
+even inactivate agents such as bleach. Proper 
+cleaning with water and detergent or enzymatic 
+cleaners prior to disinfection or sterilization can 
+reduce 
+the 
+organic 
+load 
+and 
+increase 
+the 
+effectiveness of the disinfectant or sterilant. 
+Similarly, biofilms created by certain organisms 
+prevent agent contact with the organism itself, 
+thereby requiring both a longer contact time overall, 
+as well as higher agent concentration.  
+Agent factors: The concentration of the 
+disinfecting agent is an important factor to consider 
+when attempting disinfection or sterilization, as 
+higher concentrations of a chemical agent do NOT 
+always increase the microbial death rate. For 
+example, a 70% isopropyl alcohol solution can kill 
+microorganisms in seconds because water both 
+allows the isopropyl alcohol to enter and penetrate 
+the entire cell and increases the contact time of the 
+disinfectant on the surface by slowing the rate of 
+evaporation of the isopropyl alcohol. Conversely, 
+solutions with concentrations above 91% are not as 
+effective because the alcohol’s action on the outer 
+layer of microbes creates a protective layer of 
+denatured proteins, which actually shields other 
+proteins from becoming denatured. Lastly,  no 
+concentration of isopropyl alcohol effectively kills 
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+spores, thus alcohol cannot be used to achieve high-
+level disinfection or sterilization.  
+Duration of exposure: Time is also 
+important. The time required for disinfection is a 
+function of bacterial load, concentration of the 
+disinfecting agent, as well as intrinsic properties of 
+the disinfecting agent. For example, 70% isopropyl 
+alcohol can kill Mycobacterium tuberculosis in 5 
+minutes, whereas a 3% solution of phenol requires 2-
+3 hours to achieve the same effect.  
+The efficacy of disinfecting and sterilizing 
+agents is described by their decimal reduction time 
+(D-value), or death rate curve, which is the amount 
+of time it takes to kill 90% of the microbial 
+population. For example, an antimicrobial agent with 
+a D-value of one minute will kill 90 million cells in 
+a population of 100 million bacterial cells,  leaving 
+10 million cells alive after one minute. However, 
+after two minutes, one million bacterial cells will still 
+be alive because this agent is known to kill 90% of 
+the bacterial cells in one minute. Therefore, 
+sterilization, which requires eradication of all living 
+cells, viruses, and spores, can be achieved by certain 
+agents by increasing the duration of sterilization to 
+several D-values longer than the time needed to 
+theoretically reduce the microbial population down 
+to one cell.  For example, glutaraldehyde-based 
+solutions of ~2% can achieve high-level disinfection 
+(elimination of microorganisms but not spores) with 
+exposure times of 12-30 minutes, but sterilization 
+can be achieved with an exposure time of 10 hours. 
+Proper protocols, including concentration and 
+exposure time, should be carefully considered and 
+adhered to when selecting the appropriate agent for 
+disinfection or sterilization. 
+Physical 
+factors: 
+In 
+general, 
+most 
+disinfectants work at room temperature (~20-22C), 
+and, to some extent, the temperature is directly 
+proportional to the activity of the disinfectant. 
+Certain disinfectants require a specific pH to be 
+active, while others cannot be used together because 
+they can neutralize one another. Additionally, an 
+agent’s physical properties must be taken into 
+account. For an antimicrobial agent to effectively kill 
+microbes at the concentration and amount of time 
+determined by studies, the agent must remain in 
+contact with the item being disinfected for the entire 
+duration of time. For example, while 70% isopropyl 
+alcohol may kill M. tuberculosis in 5 minutes, if the 
+70% isopropyl alcohol being used evaporates within 
+30-60 seconds, then disinfection will not be 
+achieved. 
+ 
+TOOLS AND TECHNIQUES 
+As mentioned above, both the instrument 
+type and organism type must be considered when 
+determining the best method for sterilization. 
+Broadly, the techniques can be divided into physical 
+methods (heat) and chemical methods. In all 
+situations, the instruments must be disassembled as 
+much as possible and thoroughly cleaned with water 
+and detergent or enzymatic cleaners to remove all 
+foreign material from the surface of the equipment. 
+Failure to do so can significantly limit the 
+effectiveness of the sterilization process. 
+ 
+Physical methods: 
+The primary physical methods include 
+applications of dry heat and moist heat, with moist 
+heat being more effective due to water’s ability to 
+penetrate the cells.  
+Dry heat: Dry heat is used for sterilizing 
+metal objects, powders and glassware (all other 
+materials will melt).  It requires both higher 
+temperature (160 to 180 oC) and longer exposure 
+time (1-3 hours) than moist heat. Ovens are very 
+common in dental offices, and due to their simplicity, 
+they can be used in resource-constrained settings.   
+ 
+Electric heat sterilizer in a dentist’s office 
+ 
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Moist heat: Moist heat at high pressure, also 
+known as steam sterilization, is the simplest and most 
+frequently used method of heat sterilization. Moist 
+heat alone (boiling water at 100 °C) can effectively 
+kill most organisms, but spores easily survive. The 
+use of moist heat at high pressure raises the boiling 
+point of water to produce steam at a temperature that 
+can effectively kill spores and achieve sterilization. 
+Both pressure cookers and autoclaves use heat under 
+the pressure of steam to eliminate organisms. Unlike 
+dry heat, some hard plastics can be safely sterilized 
+in this manner, such as orthopedic implants or some 
+laparoscopic equipment.   
+Steam sterilization has four parameters: 
+steam, pressure, temperature, and time. Standard 
+sterilization procedures use steam at 121 °C (250 °F) 
+at 15 psi (pounds per square inch) for 20-30 minutes, 
+which effectively kills all spores to achieve sterility 
+in a gravity displacement autoclave.  At higher 
+temperatures of 134 °C (273 °F), sterilization can be 
+achieved in four minutes, if a pre-vacuum autoclave 
+is used. Note that instruments packaged in kits with 
+multiple layers, as well as liquids, require longer 
+times in the autoclave.  
+ 
+Minimum cycle times for steam sterilization; adapted from 
+CDC (reference at end of Chapter.)  
+ 
+ 
+If the release valve fails, the autoclave can be turned into a dry 
+heat autoclave, which creates higher temperatures and will 
+likely melt any plastics in the device (in this case sizers for a 
+knee arthroplasty set.). 
+ 
+Flash sterilization is a modification of the 
+standard steam sterilization that sterilizes unwrapped 
+items at 132 oC for 3-4 minutes at 27-28 psi. It is 
+designed for use only in emergency situations, when 
+there is not enough time for a standard sterilization 
+cycle. Items to be sterilized must have already gone 
+through the proper cleaning and decontamination 
+process. Since items are unwrapped, contamination 
+can occur as soon as the item is removed from the 
+sterilizer, increasing the risk of infection. Flash 
+sterilization should be avoided for any implantable 
+devices, and it should not be used as a method for 
+convenience.  
+Filtration: Filtration can be useful if an IV 
+medication used during a procedure must be 
+sterilized, since heat or chemical sterilization will 
+denature drug compounds. Micropore filters with 
+pore sizes of 0.2 μm will remove bacterial cells, but 
+not viruses. Filtration of viruses requires a pore size 
+of 20 nm.  
+Irradiation: Ultraviolet radiation has poor 
+penetration, therefore, it can only be used to sterilize 
+surfaces. Other forms of ionizing radiation, such as 
+gamma rays, are associated with higher costs and 
+harmful effects on equipment compared to other 
+methods of sterilization. Therefore, sterilization via 
+irradiation is not recommended. 
+ 
+Chemical methods:  
+The most common chemical methods are 
+iodine, 
+alcohols, 
+chlorine 
+derivatives, 
+glutaraldehyde, hydrogen peroxide, peracetic acid, 
+enzyme solutions, and ethylene oxide. Not all 
+chemicals can be used for sterilization, even with 
+increased exposure time, and careful consideration of 
+proper storage and disposal of these chemicals must 
+be taken when selecting the appropriate agent to use.  
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The chemicals in use can be tracked and standardized using an 
+erasable board such as this one, supplied by the manufacturer 
+of the chemicals. 
+ 
+Iodine: Iodine often comes in the form of a 
+tincture mixed with an alcohol or as an iodophor 
+(iodine mixed with a solubilizing agent). Iodophors, 
+which increase the activity of iodine, are found in 
+ointments, surgical scrubs, and solutions such as 
+Betadine (povidone-iodine). For iodine to become 
+effective, it must be properly diluted (~ 10% 
+solution), and have at least 30 seconds of contact 
+time with the object. It is important to note that 
+iodine is not sporicidal. 
+Alcohols: Isopropyl and ethyl alcohols are 
+the most common type of alcohol used for low-level 
+disinfection, but not sterility. Instruments are first 
+thoroughly cleaned by scrubbing with water and 
+detergent or enzymatic cleaner, then typically 
+submerged overnight in 70% solution (ranges from 
+60-90%). These agents work well against most gram 
+negative and gram positive bacteria, and are a 
+common option in severely resource-limited settings. 
+It is important to note that these alcohol agents are 
+not sporicidal and are ineffective against hydrophilic 
+viruses such as polio.  
+Chlorine: 
+Chlorine 
+and 
+its 
+derivative 
+compounds are halogens that are commonly used  for 
+disinfection, as it can kill all microbes but cannot kill 
+spores. The most common chlorine disinfectant is 
+sodium hypochlorite (Chlorox, or bleach) which has 
+a 1:10 dilution of 5.25% concentration (0.5% to 1% 
+is required for disinfection). As mentioned 
+previously, organic matter can inactivate bleach, so 
+proper cleaning to remove biomaterial prior to the 
+use of bleach is essential for proper disinfection. 
+ 
+Left: sodium percarbonate, tetraacetyl- ethylenediamine and 
+N-alkyl(C12-14)-N-benzyl-N, N-dimethylammonium chloride 
+tablets. 
+Right: 
+Didecylmethylammonium 
+Chloride 
+and 
+Chlorhexidine Gluconate solution.  
+ 
+Enzymatic solutions: Enzymatic solutions 
+use various proteases to break down biomaterial at 
+neutral pH. They are used after initial washing and 
+scrubbing, and can reduce organic load in difficult to 
+reach areas of equipment without destroying delicate 
+and expensive equipment. For this reason, enzymatic 
+solutions are ideal for endoscopic equipment. 
+Depending on the solution, these enzymes can be 
+combined with other chemical agents for instruments 
+to soak. The enzymes used in these cleaners break 
+down proteins on any surface it comes in contact 
+with; therefore, care must be taken while using these 
+cleaners to avoid skin contact, accidental ingestion, 
+contact with mucous membranes, or inhalation if 
+aerosols are used.  
+ 
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Enzymatic cleaner, a mixture of protease, amylase, lipase, 
+carbohydrase, and “proprietary enzymes.” This is mixed with 
+(non-sterile) 
+water 
+according 
+to 
+the 
+manufacturer's 
+instructions- the mixture is changed daily.  
+ 
+Glutaraldehyde: This solution, also known as 
+“Cidex” is a chemical solution that can be used for 
+cold disinfection. It requires a pH >7, with greatest 
+efficacy at pH 9-10. Items are submerged in a ≥2% 
+solution for 20-90 minutes at 20 oC to achieve high-
+level disinfection or 10 hours to achieve sterility. 
+This solution can be reused for 14-30 days. Note that 
+this solution can be quite toxic, therefore proper PPE 
+and procedural care must be taken to avoid inhalation 
+or skin contact. Although it is widely used in the 
+healthcare setting, especially for disinfection of 
+endoscopic equipment, this solution may not be legal 
+in all countries. 
+ 2% Glutaraldehyde solution: this is not to be diluted. .  
+ 
+Hydrogen peroxide can be used to achieve 
+high-level disinfection via a 7.5% solution for 30 
+minutes at 20 oC. Sterilization can be obtained by 
+increasing contact time to 6 hours. This solution can 
+be reused for 21 days. 
+Peracetic acid at a concentration of 0.2% at 
+50-56 oC can be used to achieve sterility when items 
+are submerged for 12 minutes. A solution of 7.35% 
+hydrogen peroxide with 0.23% peracetic acid can be 
+used to achieve high-level disinfection at 20 oC for 
+15 minutes. Increasing exposure time to 3 hours is 
+effective for sterilization. In addition, this solution 
+can be reused for 14 days. 
+Ethylene oxide: This is a poison gas that very 
+effectively sterilizes laparoscopic equipment as well 
+as plastic materials since it does not use heat or 
+moisture. A concentration of 700 mg/L can sterilize 
+at 38 oC (100.4 oF) in eight hours and at 54 oC (129 
+oF) in four hours. However, this method is not readily 
+available, as it requires a special ethylene oxide 
+chamber, and the used gas must be destroyed either 
+via a sulfuric acid scrubbing mechanism or catalytic 
+oxidation. In addition, this gas is explosive. 
+Therefore, in resource-limited settings other methods 
+should be used for disinfecting/sterilizing certain 
+equipment such as rubber, fragile plastic or 
+laparoscopic cameras. 
+ 
+PRACTICE 
+Given 
+that 
+this 
+topic 
+is 
+vast 
+and 
+sprawling,  focus will be placed on a few topics 
+related to common practices: general operating room 
+layout for optimal sterilization, a case-based walk 
+through of general steps to be taken after an 
+operation, and finally a few tips for operating 
+common sterilization tools. Remember, the steps to 
+achieve 
+sterilization 
+include 
+cleaning, 
+decontamination / cleaning, disinfection, and 
+sterilization. 
+ 
+Operating room and sterilization area design. 
+The operating room has a network of support 
+areas/rooms 
+that 
+allow 
+it 
+to 
+function: 
+decontamination area, packing area, sterilization 
+area, and sterile supply room. Each of these distinct 
+zones are necessary within your operating facility  to 
+keep operations going. 
+Decontamination area: This area is the first 
+stop after an operation is completed. It has a sink 
+used for mechanical removal of any bioburden, via 
+high pressure water, air, or manual scrubbing. It also 
+has an area for submersion disinfection (i.e 
+enzymatic cleaner or glutaraldehyde.) It is physically 
+separated from the other areas to reduce risk of cross-
+contamination. 
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The decontamination area is well ventilated, well drained, with 
+areas for disposing of contaminated waste and washing soiled 
+instruments.  
+ 
+Packing area: This area, which is separate 
+from the decontamination area, has large surfaces 
+such as tables where disinfected instruments can be 
+sorted, packed and wrapped. This packing area also 
+houses any disposable items, such as paper and 
+gloves, as well as linens. 
+ 
+In the packing area, clean and dry instruments are wrapped for 
+sterilization. In this instance, the table behind the technician 
+contains instruments that are air-drying (Red arrow.) Once 
+they are dry they are transferred to this area for wrapping.  
+ 
+Sterilization area: The sterilization area is 
+where the autoclaves are located. Ideally, multiple 
+autoclaves would be operating to allow for a more 
+efficient sterilization process, as autoclave cycles are 
+time-consuming and require an adequate drying time 
+before sterile packs can be handled and transported.  
+ 
+Wall-mounted autoclaves in the sterilization area, with a trolley 
+to support the rack as it is being unloaded. 
+ 
+Sterile supply room: After sterilization has 
+been achieved, the items must be properly stored. 
+However, it is important that the sterile packs are 
+completely dry before moving them to the sterile 
+supply room. Moisture encourages microbial growth, 
+and microbes can even travel to the inside of the 
+sterile packs causing contamination. 
+ 
+Instruments are stored in a cool, dry area with labeled shelves 
+for easy retrieval.  
+ 
+Case-based 
+example: 
+Decontamination 
+to 
+Sterilization to Storage 
+ 
+1. Initial handling, cleaning of contaminated 
+items, and movement  to decontamination 
+area 
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+At the conclusion of an operation, all 
+instruments (including unused instruments) must be 
+handled as if they are contaminated and moved to the 
+decontamination 
+area. 
+Any 
+tubing, 
+suction 
+containers, and/or fluid-filled basins must also be 
+placed on a cart, covered with a sheet, and then 
+moved to the decontamination area. Any fluids from 
+this cart can be offloaded into a fluid hopper once in 
+the decontamination area. 
+Once in the decontamination area, proper 
+personal protective  equipment (PPE) should be 
+donned; this includes face and eye protection, a thick 
+apron, thick gloves, as well as a long-handled brush. 
+If possible, forceps should be used to empty the 
+instruments from the cart or, more simply, 
+instruments can be dumped out onto a towel. Care 
+should be taken to never reach into any container or 
+tray without looking first; it should always be 
+assumed that each tray or container has sharp items 
+capable of breaking skin and causing infection. Any 
+biohazard or soiled linens should be placed in the 
+appropriate receptacle. 
+ 
+In this instance, the scrub technician has separated the 
+instruments that were not used during the surgery. They are 
+placed in an enzymatic solution to soak in case any unknown 
+contamination occurred during the surgery. 
+  
+ 
+Soiled linens are soaked in this decontamination solution 
+before being taken to the laundry for washing.  
+ 
+A note about instruments: Stainless steel 
+is  not actually stainless and can experience corrosion 
+from biological and chemical liquids. As a rule of 
+thumb, any soiled instruments should be cleaned 
+within twenty minutes of contamination. If 
+immediate cleaning is not possible, organic matter 
+such as blood or tissue can be prevented from drying 
+on the surface of the instrument by submerging dirty 
+instruments in water containing enzymatic detergent. 
+During a surgery, instruments can be submerged in 
+sterile, distilled water to clean and remove blood or 
+other visible debris while not in use.  
+The leading cause of pitting/stained surgical 
+equipment is moisture (pus, blood, cleaning 
+solutions). Use of housekeeping cleaning solutions, 
+laundry or dish detergent, and iodine based solutions 
+can also lead to staining and pitting of surgical 
+equipment. Make note of any instrument in disrepair 
+and set it to the side.  
+ 
+2. Cleaning while in decontamination area 
+All reusable instruments, tubes, suction 
+devices, and packing trays used during an operation 
+must be cleaned thoroughly prior to disinfection or 
+sterilization. The presence of biomaterial on the 
+surface of equipment hinders the sterilizing 
+capability of autoclaves and can inactivate chemical 
+sterilants and disinfectants. The general workflow is 
+to disassemble and sort, spray/soak, scrub, rinse, dry, 
+lubricate, and then disinfect or sterilize.   
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Disassembly: All equipment or devices with 
+removable parts should be disassembled according to 
+the manufacturer’s guidelines to facilitate removal of 
+all organic debris and allow better access to all parts 
+of the instrument by the disinfectant or sterilant. 
+Disassembled parts should be kept together for easy 
+reassembly later on. Sorting equipment into groups 
+that will be processed in the same way helps to 
+streamline the overall process. 
+Spray/Soak: After disassembly and sorting, 
+items are placed in the sink and sprayed with water 
+(preferably high pressure) and/or compressed air to 
+remove large chunks of debris. Items can then be 
+soaked in an enzymatic cleaning solution with a 
+neutral pH for 10-20 minutes to help remove debris 
+from hard-to-reach places and make the cleaning 
+process easier and more effective. Extensive 
+soaking, such as overnight soaks, can damage 
+equipment and should be avoided.  
+ 
+Near the washing area, contaminated instruments are placed in 
+the enzymatic solution before being scrubbed.  
+ 
+Scrub: If available, an ultrasonic cleaner 
+should be used to mechanically scrub items after 
+spraying down and soaking them. Manual scrubbing 
+may be used if this is not an option. It is important to 
+note that low-mineral water (distilled or reverse 
+osmosis water) is essential for cleaning instruments 
+because damage can be caused by high mineral 
+content water. Saline should also never be used in the 
+cleaning process. A nylon brush can be used to 
+manually scrub organic debris from instruments. If 
+debris is still present, a stainless steel brush can be 
+gently used, with care being taken to prevent scoring 
+or scratching of metal (which creates crevices for 
+organisms to hide, grow, and form biofilms).  
+ 
+As seen here, the technician has donned an impermeable gown 
+and thick gloves (as well as a mask and eye protection.) The 
+needle holder in her left hand has been opened and she is 
+scrubbing the rough surface inside its jaws with a heavy brush. 
+ 
+ 
+Even if all removable sharps (scalpel blades, needles) have 
+been removed, the technician must take special care because 
+some instruments can still cause injury. Examples include 
+penetrating towel clips (shown here) osteotomes, and other 
+sharp instruments.  
+ 
+Rinse: All equipment/devices should be 
+thoroughly rinsed after scrubbing to remove any 
+residual detergent. Residual detergent can react with 
+sterilizing solutions and disinfectants and hinder the 
+disinfectant or sterilization process.  
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Dry: After thoroughly rinsing, equipment 
+must then be allowed to completely dry, either by 
+hand or air-dried, for maximal efficacy of chemical 
+disinfectants. 
+ 
+Here, cleaned but still wet instruments are passed through a 
+window from the decontamination area to the sterilization area 
+to dry before being wrapped for sterilization.  
+ 
+Lubricate: After the instrument has been 
+cleaned of visible debris, a process called gross 
+decontamination, surgical instrument lubricant 
+should be applied to any mobile joints or hinges 
+before sterilization.  
+ 
+Do not use industrial lubricants like WD40 or any 
+oil-based lubricants. Instead, water soluble 
+lubricants that are steam-permeable should be 
+used.  
+ 
+At this point, semi-critical patient care items, such as 
+endoscopes, should undergo high-level disinfection. 
+Critical medical and surgical items should be 
+packaged for sterilization.   
+ 
+3a. High-level disinfection.  
+Semi-critical patient care items that have 
+been properly cleaned, rinsed, and dried should be 
+soaked in a high-level disinfectant for the minimum 
+effective time and concentration that has been 
+determined for that particular chemical disinfectant. 
+Lengthy submersion may cause damage, especially 
+to finer instruments. 
+ 
+Laparoscopic instruments, after being scrubbed, rinsed and 
+dried, are soaked in glutaraldehyde solution for the time 
+prescribed by the manufacturer.  
+ 
+It is important to note that unwrapped 
+instruments must be used either immediately after 
+sterilization, or placed in a dry, covered sterile tray, 
+where they can be stored safely for up to one week. 
+ 
+After soaking in glutaraldehyde, laparoscopic instruments are 
+rinsed in sterile saline and allowed to dry using strict sterile 
+technique. A technician then loads them into a sterile container.  
+ 
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Laparoscopic instruments that have been treated as above and 
+placed in a sterile container. When needed, they are retrieved 
+using sterile technique and placed on the surgical table.  
+ 
+ 
+Common disinfectants and sterilants and their concentrations 
+and exposure times.  
+ 
+Avoid using any benzyl ammonium chloride 
+solutions with instruments that have tungsten-
+carbide inserts.   
+ 
+If your surgical theater is set up with a dedicated 
+decontamination and clean area, ensure that soiled 
+items are loaded from the decontamination side 
+and then (after washing) clean instruments are 
+removed from the clean side. 
+ 
+3b. Packing and sterilization 
+After decontamination and disinfection, the 
+items can now be sterilized by equipment such as an 
+autoclave. First, a pack must be created.  
+A thoughtful strategy when making packs 
+can help reduce the “wear and tear” on instruments. 
+By creating smaller packs that can be added together 
+to make a larger unit, unnecessary future processing 
+can be avoided, which in turn minimizes repairs. 
+When packing surgical instruments into 
+sterilization pouches, ensure that the instruments are 
+open and in their UNLOCKED position, which 
+allows steam to reach all active surfaces, and 
+prevents cracks from heat expansion. Locking 
+jaws/blades will prevent proper sterilization and may 
+damage the  instrument’s box joints during the 
+heating sterilization process. Ensure that any  sharp 
+tips are covered, yet are covered in a way that still 
+allows steam to penetrate the covering.  
+Use disposable paper: Packs can be created 
+out of individual instruments or entire sets of 
+instruments, which will then be placed in the 
+autoclave to achieve sterilization. Pouches should 
+not be overpacked with instruments, and there should 
+be adequate room in the pouch for steam to  reach the 
+surfaces of the instruments.  
+ 
+The technician here is using a combination of paper and cloth. 
+He folds the instrument tray on all four sides, covering it 
+completely.  
+ 
+ 
+Here, he has secured the wrapping with both tape and string. 
+The instrument set is labeled as below.  
+ 
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The smaller strip of tape with the date on it is autoclave tape: 
+the fine white stripes on it will turn black when exposed to 
+sufficient temperature and pressure to sterilize the instruments. 
+The date of sterilization and expiry are noted in the upper part 
+of the photo. The name of the instrument tray is noted on the 
+lower part.  
+ 
+Using the autoclave: After the cleaned and 
+decontaminated, but non-sterilized packs have been 
+created, the pouches may be placed into the 
+autoclave to be sterilized. These packs, however, 
+should not be stacked because it will block steam 
+from circulating throughout the chamber. Once 
+properly packed, the autoclave may be started. 
+Depending on the model of the autoclave, once the 
+autoclave has cycled, the door may be opened 
+slightly (~ 1cm) to allow any steam to escape. The 
+door should not be opened fully as condensation can 
+form on the instruments and pouches as cold air 
+rapidly enters the autoclave. After running the dry 
+cycle, sterile tongs should be used to remove the dry 
+and sterile items. 
+Storage after sterilization: The sterilized 
+packs should be completely dry on the wire racks 
+before moving to sterile storage. If instruments are 
+wrapped, they can be stored indefinitely in a warm, 
+dry and closed space such as a cabinet  (provided the 
+pack remains intact and dry).   
+ 
+Sterilization Tips and Procedures for Various 
+Appliances 
+ 
+1. Commercial or Domestic Pressure Cookers 
+ 
+A simple electric pressure cooker autoclave. Source: Viv Rolfe, 
+CC BY-SA 4.0  
+https://creativecommons.org/licenses/by-sa/4.0, 
+via Wikimedia Commons 
+ 
+As discussed earlier, steam sterilization is 
+more effective than dry heat, and use of steam under 
+high pressures is effective at killing spores, provided 
+the appropriate parameters of temperature, pressure, 
+and time are used. Most commercial pressure 
+cookers can sterilize effectively since they can 
+achieve the pressure, temperature, and time 
+parameters of 15 psi, 121 oC, and 30 minutes that are 
+needed for sterilization.  Store-bought, or home 
+pressure cookers are relatively low-cost; however, 
+most are unable to reach the temperature and 
+pressure requirements needed to kill spores. One 
+study demonstrated sterilization using an “Instant 
+Pot,” home pressure cooker, but it required a duration 
+of 150 minutes to kill the spores in the test sample. 
+The extended time requirement has to be taken into 
+account when operating in low-resource settings 
+where electricity may not be reliable. One company 
+has created a pressure cooker, the EcoClave, that can 
+sterilize instruments in 30 minutes using burning 
+wood as the fuel source, making it a potentially  ideal 
+option for sterilization in very low resource settings 
+(source.) 
+When operating any pressure cooker, all 
+manufacturing instructions should be followed 
+closely for proper safety. First, all instruments must 
+be cleaned and decontaminated as discussed 
+previously. A barrier, such as a trivet or bowl, should 
+be placed between the inner surface of the pressure 
+cooker and the items being processed. Items to be 
+sterilized can also be placed into sterilization packs 
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+or bags, just like when using an autoclave. Autoclave 
+tape can also be used over the packs to ensure that 
+the proper temperature for sterilization has been 
+achieved. When placing items inside the cooker, 
+adequate spacing should be maintained to allow 
+proper circulation (just like an autoclave). Enough 
+distilled water should be added to reach a height of 
+2.5 cm from the bottom of the pot for steam 
+production. The cover should then be placed and 
+properly sealed. At this point, the external heat 
+source should be applied to the pressure cooker, 
+either wood fire, gas stove, or electric burner. (For 
+the Instant Pot, the device must be plugged into an 
+electric outlet and operating instructions followed for 
+a total cook time of 150 minutes). After heating has 
+started, steam should be allowed to exhaust for about 
+four minutes before closing the outlet.  
+The pressure gauge should be watched 
+carefully. When the pressure has reached the green 
+area, or 15 psi, sterilization has begun. The 
+instruments should be allowed to process for as long 
+as 35 minutes. After sufficient processing, the 
+pressure cooker should be removed from its heating 
+source and depressurized by opening the steam 
+outlet. No skin should be in contact with the hot 
+steam that escapes through the valve or serious burns 
+can occur. Once the gauge has reduced to zero, the 
+pressure cooker can be opened by lifting the lid in a 
+direction that is away from any person’s face or 
+body.  
+ 
+Never open a pressure cooker under pressure. 
+ 
+Once items are removed, they must be dried 
+properly before storing.  Items can be placed either 
+on a wire rack (covered with a fly net) or in an oven 
+to dry (~200 degrees for 6 hours). Once dry, these 
+items can be placed in a dated and labeled ziplock 
+bag.  
+ 
+Some home pressure cooker units cannot get hot 
+enough 
+or 
+attain 
+adequate 
+pressures 
+for 
+sterilization. In fact, they may fail and rupture. 
+However, the Instant Pot brand was shown to 
+effectively achieve sterilization after 150 minutes 
+of cook time. 
+ 
+2. Large Autoclaves 
+ 
+A large electronically controlled autoclave in a hospital in a 
+resource-rich country.  
+ 
+When using autoclaves, one of the most 
+important components of maintenance is regular use 
+and testing. When preparing to use an autoclave, 
+appropriate PPE should be used, and overcrowding 
+of the packs should be avoided.  Autoclave pouches 
+that can be penetrated by steam should be used, and 
+the packs should not be stacked on top of one 
+another. If glass is being placed in the autoclave, it 
+should be inspected for cracks to avoid shattering. If 
+liquids are to be sterilized, a secondary container 
+should be used to house the primary container to 
+catch any spills. Autoclave tape is often used as a 
+visual marker to ensure that adequate temperature for 
+sterilization has been achieved  during the autoclave 
+cycle.  
+ 
+Considerations for special equipment 
+This chapter has focused on general 
+instructions for routine sterilization of common 
+surgical instruments. However, there are special 
+considerations for other tools such as endoscopic 
+equipment.  
+Endoscope 
+sterilization: 
+Endoscope 
+sterilization is a unique process, requiring different 
+steps than a metal instrument like a clamp. These 
+Sterilization and Disinfection 
+Chris Gross, Sanaz Dovell 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+instruments also generally have a much higher 
+bioburden and microorganism load than other items 
+due to the nature of their use (i.e colonoscopy). 
+Therefore 
+extra-care 
+must 
+be 
+taken 
+to 
+properly/maximally disinfect/sterilize the equipment 
+while also maintaining its function. An additional 
+chapter will be dedicated to processing of special 
+equipment.  
+ 
+Further Reading: 
+United States Centers for Disease Control (CDC) 
+Guideline for Disinfection and Sterilization in 
+Healthcare Facilities (2008). 
+https://www.cdc.gov/infectioncontrol/pdf/guidelines
+/disinfection-guidelines-H.pdf  
+ 
+The Eco-Clave wood burning autoclave by MedAid 
+International:  
+https://medaid.co.uk/wp-
+content/uploads/2021/11/EcoClave-Booklet-
+2021.pdf  
+ 
+Chris Gross 
+University of Florida College of Medicine 
+Florida, USA 
+ 
+Sanaz Dovell, PhD 
+University of Florida College of Medicine 
+Florida, USA 
+ 
+The authors wish to acknowledge the work of Dr. 
+Bruce Steffes in preparing this material.  

@@ -1,0 +1,368 @@
+Introduction to Ultrasonography 
+Richard Davis 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Background:  
+ 
+Proficiency in ultrasound can be an 
+advantage to a surgeon practicing in a resource-
+limited setting. Ultrasound performed by the surgeon 
+can give tremendous insight into the patient’s 
+disease, especially if more advanced imaging such as 
+CT or MRI aren’t immediately available. In this 
+Chapter 
+we 
+explain 
+the 
+principles 
+of 
+Ultrasonography as they relate to you, and we give 
+some basic guidelines for performing ultrasound and 
+interpreting the images. In other chapters, we will 
+discuss Focused Abdominal Sonography for Trauma 
+(FAST) and Ultrasound-Guided Interventions.  
+ 
+Physics: 
+The Piezoelectric Effect:  
+Quartz is a solid made of Silicone and 
+Oxygen molecules in a highly ordered structure. 
+Ultrasound transducers contain a quartz crystal. 
+According to the Piezoelectric effect, when 
+electricity passes through a crystal it causes the 
+crystal to vibrate. And conversely, if a crystal is 
+made to vibrate, it emits electricity. The properties of 
+the crystal determine the frequency of the vibration. 
+ 
+A 
+piece 
+of 
+Quartz 
+crystal. 
+Source: 
+JJ 
+Harrison 
+(https://www.jjharrison.com.au/) - Own work, CC BY-SA 2.5, 
+https://commons.wikimedia.org/w/index.php?curid=6023737 
+ 
+ Inside the transducer, both forms of the 
+Piezoelectric effect occur. First, the ultrasound 
+waves are generated: electrical energy is applied to 
+the crystal and converted to high frequency 
+soundwaves, which  enter enter the tissue below the 
+transducer. These soundwaves interact with the 
+tissue, and then are reflected back towards the 
+transducer at different frequencies, based on the 
+characteristics of the tissue. When these sound waves 
+return, they interact with the same crystal. Here 
+again, mechanical energy is converted to electrical 
+energy, this time containing information about the 
+tissue it has been reflected from. This energy is then 
+converted to an image. 
+The sound waves emitted by the crystal are in 
+the range of 2-10 Megahertz (mHz, millions of 
+cycles per second.) By comparison, human hearing 
+occurs at 20Hz to 20kHz. 
+The tissue below the probe reflects the sound 
+waves differently based on its characteristics. The 
+more dense a tissue is, the more “bright” it appears 
+on the screen. Therefore, the image on the screen is 
+a reflection of the amount of time a sound wave takes 
+to return to the transducer (depth of the structure) and 
+the strength of the sound wave (brightness of the 
+image.)  
+ 
+The distance the wave travels, and its strength on return, cause 
+the crystal to vibrate differently than when the signal was 
+generated. The vibrations are transformed into electrical 
+signals, which are reconstructed to make a two dimensional 
+(depth and width) image. 
+ 
+Anatomy: 
+Acoustic Shadowing: 
+Some tissue does not allow sound to pass 
+through it at all. This causes an “acoustic shadow” 
+deep to the tissue, as no sound waves return from 
+below that area. The simplest example of this is when 
+the gel between the probe and the skin is inadequate, 
+literally all of the image will be an acoustic shadow.  
+Introduction to Ultrasonography 
+Richard Davis 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+When attempting to scan the chest cavity, the 
+ribs cause acoustic shadows. The best way to 
+overcome this effect is to rotate the transducer so that 
+it lies entirely within the space between the ribs. The 
+operator must therefore keep in mind the orientation 
+of the ribs wherever the transducer is being used.  
+ 
+Location and orientation of the ultrasound transducer for 
+echocardiography, over the anterior intercostal spaces. 
+ 
+ 
+Location and orientation for liver ultrasound, including 
+assessment of the hepatorenal space for FAST scan to detect 
+intra-abdominal fluid. By sliding the transducer posteriorly 
+along the intercostal space, the diaphragm and any fluid in the 
+thoracic cavity can be seen.  
+ 
+ 
+The liver, right kidney and hepatorenal recess are seen in this 
+ultrasound view taken with the transducer in between the ribs 
+on the right. The diaphragm is also seen (Red arrow.) By sliding 
+the transducer posteriorly within the intercostal space, more of 
+the diaphragm and lower right hemithorax could be seen. A rib 
+shadow (Red dot and below) obscures the view of the liver; this 
+view could be improved if the transducer was rotated a bit, so 
+that it aligned better with the intercostal space. Case courtesy 
+of Dr David Carroll, from the case 
+ https://radiopaedia.org/cases/64279?lang=us 
+ 
+Another effect of acoustic shadowing is the 
+detection of gallstones and other calculi. Although 
+calculi of the kidney, bladder or gallbladder can often 
+not be directly seen by ultrasound, their acoustic 
+shadows can be seen. An exception is any stone that 
+is not sufficiently calcified; these will reflect some 
+sound waves and may be seen as “masses” or 
+“sludge” in the gallbladder.  
+ 
+Ultrasound image of the gallbladder with stones and acoustic 
+shadowing. There is no data available from below the stones, 
+as no ultrasound waves are reflected back towards the 
+Introduction to Ultrasonography 
+Richard Davis 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+transducer. Case courtesy of Dr Hani Makky Al Salam, From 
+the case https://radiopaedia.org/cases/14461?lang=us  
+ 
+Setup and Orientation 
+ 
+If you have a portable machine, try to place it 
+opposite the patient from you. Then, as you are 
+performing the study or doing any interventions, the 
+images are right in front of you. Having the machine 
+on the same side as you forces you to turn your neck 
+or torso in an awkward manner to see the images as 
+you obtain them.  
+ 
+If possible, position yourself on the other side of the patient 
+from  the monitor, so that you can see it without turning to one 
+side.  
+ 
+ 
+Every transducer has external markings that 
+can be seen (or felt, when it is inside a sterile probe 
+cover.) These allow you to align the transducer with 
+the image on the screen, which also has a marker. 
+The screen marker is usually a blue dot. When the 
+transducer’s marker and screen’s marker are aligned, 
+the image on the screen correlates with the anatomy 
+being examined, and the images move in the same 
+direction as you move the transducer.  
+ 
+The transducer is held so that its marker aligns with the one on 
+the screen (Red arrows.) If you do not do this, the image you 
+see on the screen may be a “mirror image” of what you would 
+expect, and it will not correspond with your movements if you 
+attempt to maneuver the probe.  
+ 
+Transducers and Settings 
+ 
+Assuming you have a choice of transducers at 
+all, it is helpful to understand the different types and 
+their intended use.  
+ 
+The shape and frequency of the transducer 
+will determine its best use. The two shapes of 
+transducers are linear and curved.  
+Linear array transducers will be better for 
+shallow work such as breast assessment and biopsy, 
+vascular studies and vascular access. These will have 
+a higher frequency of 5-7.5mHz which can show 
+greater detail but will not penetrate tissue as deeply.  
+ 
+A linear array transducer. Note the arrow in the center of the 
+head improves accuracy during venous cannulation.  
+ 
+Curved array transducers are better suited for 
+abdominal or pelvic work. These have a lower 
+frequency, in the range of 2-3mHz, so they penetrate 
+tissue more deeply.  
+Introduction to Ultrasonography 
+Richard Davis 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+A curved array transducer.  
+ 
+The depth at which each transducer sees can 
+be set by the user. This will be visible as a column of 
+numbers on the right side of the screen. Each 
+transducer has a preset depth beyond which it will 
+not go, depending on its intended function. A 
+vascular transducer (linear array) can usually see up 
+to about 6cm. If you are trying to examine a vessel 
+that is 2cm deep, set the depth to 3cm to see 
+maximum detail. Similarly, when using a curved 
+transducer to examine all of the liver, set the depth 
+around 13cm. Once you have settled on a tumor that 
+is 6cm deep and decide to biopsy it, change the depth 
+on the probe to around 8cm. This allows you to see 
+the tumor in greater detail.  
+ 
+The depth setting on the ultrasound console.  
+ 
+ 
+The vertical column on the right of the screen shows the depth 
+setting. This can be adjusted to allow you to see the area of 
+interest in greater detail. Once you know their scale, the dots 
+also allow you to estimate the size of a structure on the screen. 
+In this case, the depth is set to 16cm (Red circle.)  
+ 
+ 
+The gain allows the surgeon to manipulate 
+the image by amplifying it. If the image is not 
+amplified enough, it will be too dark. If amplified too 
+much, it will be too light. The appropriate setting will 
+vary, even according to the depth of the image. 
+Therefore, most ultrasound machines allow the 
+operator to adjust the gain at various depths. On 
+portable machines there may be two dials, but on 
+console machines there typically 8 or more sliding 
+dials corresponding to the gain at 8 or more different 
+depths for the image.  
+ 
+On this portable ultrasound machine, the dial immediately 
+below the Red box controls the gain for the whole image. The 
+Introduction to Ultrasonography 
+Richard Davis 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+two dials inside the Red box separately control the gain for the 
+upper and lower portions of the screen.  
+ 
+ 
+On this console (less portable) ultrasound machine, these 
+sliding controls allow the operator to adjust the gain on the 
+image at 8 different levels. 
+ 
+ 
+If you are not seeing a useful image, it is 
+important to decide whether you are using the right 
+probe, one that is designed to see at the depth you are 
+trying to see, as explained above. Then assess the 
+amount of gel. Gel facilitates the passage of sound 
+waves so it is good to have a lot of it, especially over 
+an uneven surface such as the chest in a cachectic 
+person. If you are using a sterile transducer cover (or 
+a sterile glove), there should be adequate gel inside 
+the cover, between the transducer and the cover. Run 
+your finger over the transducer surface to remove any 
+bubbles between it and the sterile cover. We discuss 
+an easy way to make a sterile ultrasound transducer 
+cover in “Ultrasound-Guided Interventions.”  
+ 
+Once you have enough gel and no bubbles, if 
+you are still not happy with the image try adjusting 
+the gain.  
+ 
+Principles:  
+ 
+Using the ultrasound machine alone to 
+evaluate a patient is difficult. The images are hard to 
+comprehend, even if you use the right transducer and 
+apply all the principles we have explained so far.  
+In the abdomen, begin with the liver. With the 
+appropriate probe set to the right depth, enough gel, 
+and the gain set properly, you should be able to see 
+the hepatic tissue in one of the right lower intercostal 
+spaces. Once that is accomplished, try to find the 
+kidney, deep and inferior to the liver. Move caudally 
+and medially towards the abdomen and continue to 
+examine the liver, pushing the probe into the 
+abdomen under the costal margin and pushing 
+upwards. Move medially to find the vena cava with 
+its vein branches entering the liver. The aorta, a 
+pulsatile vascular structure that is farther to the left, 
+is also easy to locate relative to the liver. When 
+examining the pelvis, start by finding the bladder and 
+examine the surrounding structures. Pushing 
+downwards with the probe into the abdomen will 
+move the bowels out of the way and allow you to find 
+the uterus and the ovaries in a woman.  
+ 
+When performing ultrasound of the abdomen, start in the right 
+intercostal spaces over the liver. Orient the probe so that it is 
+parallel to the intercostal spaces. Adjust the gain and depth. 
+Then slide anteriorly or posteriorly within the interspace, move 
+to a lower interspace, or go below the costal margin and push 
+the probe towards the dorsum to see more of the liver.  
+ 
+ 
+View of the liver from one of the right intercostal spaces.  
+ 
+In the neck, start with the linear probe 
+oriented transversely over the lower 1/3 of the 
+Introduction to Ultrasonography 
+Richard Davis 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+sternocleidomastoid muscle. You will see the 
+common carotid artery, which is smaller and 
+pulsatile, and the jugular vein, which is larger and 
+collapses with inspiration. Move medially and you 
+will find the thyroid gland and, in the center, the 
+trachea, a round structure that creates a shadow, as 
+ultrasound waves can not pass through air. Move in 
+a cranial direction to follow the vessels upwards to 
+the submandibular gland.  
+ 
+In the neck, start with a linear array probe held transversely 
+and find the carotid artery, jugular vein, trachea and thyroid 
+gland. These familiar structures allow you to orient yourself 
+and then move upwards or to either side.  
+ 
+ 
+Looking transversely over the lower right neck just off midline, 
+you are rapidly oriented by finding the sternocleidomastoid 
+muscle (Purple dot,) the internal jugular vein (Blue dot,) the 
+common carotid artery (Red dot,) the right lobe of the thyroid 
+gland (Green dot,) and the trachea (White dot.) Case courtesy 
+of Dr. Derek Smith, From the case 
+https://radiopaedia.org/cases/65792?lang=us  
+ 
+ 
+Above all, take every opportunity you have 
+to practice your ultrasound technique. Ultrasound 
+can be used to diagnose many conditions and is very 
+useful in settings like ours. Its accuracy depends on 
+operator technique, so the more time you spend with 
+it, the more useful it will be to you.  
+ 
+Richard Davis MD, FACS, FCS(ECSA) 
+AIC Kijabe Hospital 
+Kenya 
+ 
+Reviewed by: 
+Geoffrey Mashiya, Dip (Rad) HND (Ultrasound) 
+AIC Kijabe Hospital  
+Kenya 
+ 
+ 
+ 
+ 
+ 

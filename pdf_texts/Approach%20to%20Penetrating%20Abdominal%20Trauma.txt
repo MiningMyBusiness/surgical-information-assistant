@@ -1,0 +1,576 @@
+Approach to Penetrating Abdominal Trauma 
+Richard Davis and Caleb Van Essen 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Background:  
+Penetrating abdominal trauma can challenge 
+even the seasoned clinician. Hemodynamically 
+unstable patients cause stress to both the surgeon and 
+the system, as they have ongoing bleeding and need 
+immediate surgery. On the other hand, sometimes 
+when patients present with penetrating abdominal 
+injuries, it can be difficult to decide whether surgery 
+is needed at all.  
+The initial evaluation of these patients 
+begins, as with all trauma patients, with a rapid 
+primary and secondary survey, according to the 
+principles of the Advanced Trauma Life Support 
+(ATLS) course. Secondary survey is supplemented 
+with carefully chosen adjuncts such as ultrasound 
+and plain x-rays, bearing in mind that a poorly 
+chosen study in our setting can cause a delay, 
+potentially making the outcome worse.  
+“Penetrating” trauma refers to stab wounds, 
+shrapnel injuries, and gunshot wounds. The latter 
+have much more tissue injury due to the velocity and 
+cavitation effect of the bullet. Remember also that 
+patients who present with apparent blunt trauma, as 
+after a motor vehicle accident, can have penetrating 
+trauma from vehicle fragments or stationary objects 
+that they struck. Such wounds can be missed if all 
+trauma patients are not thoroughly disrobed and 
+examined.  
+Most of the modern literature on decision-
+making in penetrating trauma is written in resource-
+rich environments. In this chapter we hope to address 
+the limitations that we face, including:  
+● Unavailability of advanced imaging technology 
+● Difficulty in quickly mobilizing resources such 
+as blood, anesthetists, and other operating room 
+staff 
+● More frequent delayed presentation 
+● Lack of sufficient personnel and excessive 
+fatigue or burnout in those who are present  
+ 
+Anatomy:  
+The 
+abdominal 
+cavity 
+is 
+lined 
+with 
+peritoneum, a thin lining that reacts in a unique way 
+to irritation. When peritoneum is in contact with pus, 
+succus, or blood, its irritation causes a reflex 
+contraction of the adjacent muscles.  
+ 
+Schematic cross-section of the lower abdomen: the peritoneum 
+is represented by a Red line. When the peritoneum is irritated, 
+the adjacent muscles contract in a reflexive manner, which can 
+be detected by careful physical examination. Notice also that 
+the ascending and descending colon are only partly 
+intraperitoneal: injury to them from posteriorly, as a stab 
+wound to the back, would not cause peritoneal irritation and 
+thus would be harder to detect on physical examination. .  
+ 
+In the anterior abdomen, reflex contraction of 
+muscles is detectable as classic “Peritoneal Signs” 
+The most obvious of these is rigidity of the muscles 
+with 
+severe 
+tenderness, 
+so 
+called 
+“Diffuse 
+Peritonitis.” More subtle signs include a reflex 
+tensing of the muscles when depressed steadily 
+(“Involuntary Guarding”) or pain after sudden 
+release of an examining finger that has slowly 
+pressed into the abdomen (“Rebound Tenderness.”) 
+These signs are sometimes present in one location 
+but not another- when this finding is present, it is 
+called “Localized Peritonitis.”  
+In 
+the 
+posterior 
+abdomen, 
+localized 
+peritonitis is more difficult to detect. It can be noted 
+by pain on passive movement of the muscles that are 
+adjacent to the posterior peritoneum, as through hip 
+flexion (“Psoas Sign”) or hip rotation (“Obturator 
+Sign.”)  
+The abdominal cavity’s boundaries extend 
+anteriorly from the inguinal ligaments and pubic 
+symphysis to the nipples, and posteriorly from the 
+upper buttocks to the inferior tips of the scapulae. In 
+other words, the abdominal cavity can extend well up 
+into the rib cage. The region of lower chest / upper 
+abdomen is called the “Junctional Zone,” to denote 
+the fact that penetrating objects in this area can cause 
+Approach to Penetrating Abdominal Trauma 
+Richard Davis and Caleb Van Essen 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+injuries in the chest, abdomen, mediastinum, or all of 
+these areas simultaneously.  
+ 
+The “Junctional Region,” an area where penetrating trauma 
+can potentially injure intrathoracic, mediastinal, or intra-
+abdominal contents, or both. The superior boundary is the 
+nipples anteriorly, and the tips of the scapulae posteriorly. The 
+inferior boundary is the costal margin. Remember to think 
+about diaphragm injury, which can be difficult to detect.  
+ 
+The retroperitoneum is an enclosed area 
+posterior to the viscera, with the thick muscles of the 
+flank and back shielding it from examination. The 
+ascending and descending colon and the duodenum 
+are partly or completely within the retroperitoneum. 
+Penetrating injuries to these structures can be quite 
+difficult to detect if spillage occurs only in the 
+retroperitoneum. 
+Abdominal 
+examination, 
+abdominal ultrasound, and even early CT scan may 
+not detect these injuries. The aorta, vena cava, renal 
+and iliac vessels are also contained in the 
+retroperitoneum. Injury to these structures will 
+usually be easier to detect, due to hemodynamic 
+instability, though they can present in a delayed 
+fashion.  
+ 
+Retroperitoneum with vessels, kidneys, ureters, bladder and 
+rectum shown. The ascending colon, duodenum and descending 
+colon are found within the Red boxes. Stab wounds to the flank 
+and back involving these organs can be undetected by physical 
+examination or even during laparotomy.  
+ 
+An isolated small bowel or colon injury that 
+causes spillage into the peritoneum may not be 
+detectable immediately; there may be a small amount 
+of spillage that cannot be detected by either careful 
+physical examination, ultrasound, or CT scan. Such 
+injuries will usually cause peritonitis and early sepsis 
+within 24-48 hours. This fact is the basis for Non-
+Operative Management, which we describe further 
+below. Briefly, this is careful serial abdominal 
+examination, done frequently enough to detect intra-
+abdominal spillage before it has irreversible 
+consequences. If this strategy is done properly it is a 
+very powerful screening tool, allowing the surgeon 
+to operate on those who need it and avoid operation 
+on those who don’t. If this strategy is undertaken 
+poorly, patients will get the operation they need too 
+late, or not at all, and will be in danger of death.  
+ 
+Principles:  
+ 
+Decision-making begins with the initial 
+primary and secondary survey, paying special 
+attention to the number of “holes” (even/odd) 
+identified. Perform immediate operation on patients 
+with penetrating abdominal trauma who present 
+with:  
+Approach to Penetrating Abdominal Trauma 
+Richard Davis and Caleb Van Essen 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+● Hemodynamic instability 
+● Peritonitis 
+● Evisceration 
+● Blood in the rectum 
+● Bloody vomitus or NG aspirate 
+● Bilious or feculent discharge from the wound. 
+ 
+Evisceration after a stab wound to the upper abdomen. This 
+patient is best treated by a midline laparotomy and exploration 
+for other injuries in the area. Source: Desalegn M et al, East 
+and Central African Journal of Surgery 
+https://doi.org/10.4314/ecajs.v25i3.8  
+ 
+Patients who have ongoing bleeding present with 
+hemodynamic instability that does not respond to 
+resuscitation,  or they will respond transiently and 
+then become hypotensive and tachycardic again. 
+They should undergo laparotomy as soon as possible. 
+The only reason to delay operation is if such a delay 
+would help you know where to operate. This 
+situation arises in injuries to the “Junctional Region,” 
+the area that extends from near the costal margin up 
+to the mid-chest. In this situation, you may have a 
+thoracoabdominal injury and be operating in the 
+abdomen while bleeding continues uncontrolled in 
+the chest. A chest tube can often assist in this 
+decision making. We discuss this situation further 
+below.  
+Patients who are hemodynamically stable 
+may or may not have an intra-abdominal injury that 
+you have not detected yet. You do not want to miss 
+an injury, but you also do not want to do a full 
+laparotomy if such an injury is not present.  
+In this situation, your toolkit includes Local 
+Wound Exploration, Diagnostic Peritoneal Lavage, 
+or Non-Operative Management. We discuss the 
+principles behind all these techniques below, 
+followed by principles of imaging. In the final 
+section, Decision Making, we bring all these 
+elements together into a cohesive strategy.  
+In considering all these techniques, keep in 
+mind that you are attempting to balance one bad 
+outcome, a negative laparotomy, against a much 
+worse outcome, a missed injury. Do not gamble with 
+the patient’s life; if there is any change in the 
+patient’s condition, do not hesitate to explore the 
+abdomen. Find more on the thinking required here in 
+the Chapter, “Detection of Post Operative Intra-
+Abdominal Complications.”  
+ 
+Local Wound Exploration 
+This operation ranges from widening and 
+exploring of a small stab wound under local 
+anesthetic, to a full unroofing and debridement of a 
+tangential gunshot wound tract in the operating 
+room. In all cases, the main goal is to detect 
+penetration, through the peritoneum, into the 
+abdominal cavity. 
+It is impossible to see the peritoneum on local 
+wound exploration. So, we use the most superficial 
+layer of fascia as a surrogate, as this breach can be 
+detected at local wound exploration. (We accept a 
+small false positive rate, for those rare cases where 
+the tip of the missile went through the outer layer of 
+the muscle fascia but no further.)  
+It is obvious, therefore, that the operation must 
+be conducted so that you can see the fascia clearly 
+and do not miss a penetration. Follow these 
+principles:  
+● Do the operation with excellent lighting, at least 
+one assistant to retract, and all the equipment you 
+need. In some resource-limited settings, these 
+conditions may only exist in the operating room.  
+● Conversely, if you are able to perform this 
+operation safely and well in the Casualty under 
+local anesthesia, the patient can be discharged 
+immediately after a negative exploration.  
+● If you take the patient to the operating room, or 
+if you put them to sleep for the exploration, have 
+them sign consent for both wound exploration 
+and laparotomy. Explain how you would deal 
+with a bowel injury if you found one, including 
+ostomy creation if that seems even remotely 
+possible.  
+● Open the wound enough to see as far down as you 
+need to. For example, in an obese patient who 
+was stabbed with a 2cm wide blade, you may 
+Approach to Penetrating Abdominal Trauma 
+Richard Davis and Caleb Van Essen 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+need to open the wound 10cm to definitely rule 
+out penetration into the fascia.  
+● Once you have finished, wash the wound well 
+and close it loosely.  
+● For gunshot wounds, consider local wound 
+exploration only if it seems highly likely that the 
+bullet passed through nothing more than skin and 
+fat. In other words,  there must be an even 
+number of holes (entry/exit), the trajectory 
+pattern must be superficial, and there must be no 
+hard signs of intraperitoneal violation as noted 
+above. These patients will need debridement of 
+clothing or shrapnel inside the wound at the same 
+time, so do these explorations in the operating 
+room with the appropriate anesthesia. Unroof the 
+entire tract between the entrance and exit wound, 
+debride any dead tissue, make sure there was no 
+entry into abdominal wall muscle, irrigate and 
+close the incision you made loosely, leaving the 
+bullet holes themselves open. 
+ 
+An apparently tangential gunshot wound (one wound is under 
+the examiner’s gloved index finger.) Especially if a CT scan is 
+not available, the tract between the two wounds should be 
+unroofed, explored to verify no entry into the peritoneum, 
+debrided, and loosely closed. Source: Bobjgalindo, CC BY-SA 
+4.0 
+https://creativecommons.org/licenses/by-sa/4.0 
+ 
+via 
+Wikimedia Commons 
+ 
+Non-Operative Management 
+ 
+As explained above, this strategy depends on 
+the “window” that exists between initial injury and 
+the serious consequences of that injury. This window 
+lasts 24 hours at most. It has been described primarily 
+for isolated solid organ injury, particularly the liver 
+and spleen, in high resource settings. However  it is 
+very useful for detecting intestinal injury as well. 
+During this time, patients can deteriorate slowly or 
+very quickly, depending on the size of the hole in 
+their intestine. Therefore, to make this strategy work 
+you must: 
+● Watch these patients very closely 
+● Intervene immediately at the first sign of 
+peritoneal irritation, sepsis or hemorrhagic shock  
+● Have blood products available, especially if there 
+is a known injury to the liver or spleen. 
+ 
+In a resource-limited hospital you may have 
+difficulty with these requirements. Regarding the 
+first requirement, you are committing that the same 
+team will examine the patient’s abdomen very 
+carefully every 4-6 hours for the next 24h. If you are 
+the only surgeon, do not make a habit of placing this 
+extra burden on yourself.  
+Regarding the second requirement, you must 
+be able to operate on this patient as soon as you 
+detect a change in their condition. If you have limited 
+operating theater space that is usually booked with 
+elective operations, and then the whole team goes 
+home to return at 8AM on the following day, this is 
+not the strategy for you.  
+The third requirement is also important when 
+monitoring solid organ injury. A delay in operative 
+intervention might ultimately require ongoing blood 
+transfusions. A thorough assessment of one's 
+resources is essential in making this decision.  
+Recall that this strategy was originally 
+described in high-resource settings. Most of these 
+patients get a high-resolution CT scan with IV and 
+sometimes oral contrast, then they are followed by a 
+dedicated in-house trauma team with an operating 
+room on standby. You may be enthusiastic about this 
+approach after reading their literature, but consider 
+whether their experience applies to you.  
+Another 
+caution 
+to 
+Non-Operative 
+Management should be applied to patients with 
+multiple injuries or head injuries. Any amount of 
+hypotension may worsen the prognosis here. Often it 
+is not clear where the injury is. Also, serial 
+examination is more difficult with multiple injuries 
+or decreased level of consciousness. We usually have 
+a low threshold to explore the abdomen of such 
+patients if there is any possibility of a missed injury: 
+the consequences would be very grave.  
+ 
+Diagnostic Peritoneal Lavage 
+Approach to Penetrating Abdominal Trauma 
+Richard Davis and Caleb Van Essen 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+This technique has fallen out of favor in high-
+resource settings as imaging has become more 
+advanced. Mention of this technique in textbooks 
+and research articles has fallen at a similar rate. 
+However, for a surgeon without a high-quality CT 
+scan or rapid access to an ultrasound machine, this 
+technique can be very useful. We have a separate 
+chapter describing it in more depth (see “Diagnostic 
+Peritoneal Lavage”).  
+This technique is most suited to patients with 
+back and flank penetrating trauma. Anterior 
+abdominal penetrating injuries can be evaluated with 
+local wound exploration. Consider it in patients who 
+have:  
+● Penetrating trauma to the back or flank and no 
+access to CT scan.  
+● Penetrating trauma to the back or flank with an 
+unreliable examination due to head injury, spinal 
+cord injury, intoxication, or other form of 
+impaired consciousness making serial abdominal 
+examination difficult 
+● Extensive bruising or soft tissue trauma to the 
+abdomen making examination unreliable.  
+● Penetrating trauma to the back or flank who are 
+in the operating room for another operation.  
+● Patients who are hemodynamically unstable after 
+any blunt or penetrating multiple trauma, where 
+the source of bleeding is not clear. This 
+indication has mostly been replaced by Focused 
+Abdominal Sonography for Trauma (FAST, See 
+Chapter.) If you do not have ready access to 
+ultrasound, you will be using peritoneal lavage.  
+ 
+Briefly, under general anesthesia a small 
+incision is made just above the umbilicus. If blood 
+returns immediately, proceed directly to laparotomy. 
+If not, a catheter is inserted into the abdomen and 
+directed towards the pelvis. 1L of Normal Saline is 
+run in through IV tubing under gravity, then the IV 
+bag is placed on the floor and the fluid runs back into 
+the bag. If the fluid is so cloudy (but not bloody) that 
+you cannot read a newspaper through the IV bag, 
+proceed immediately with abdominal exploration.  
+In resource-rich countries, the fluid is 
+assayed for serum amylase, and if the level is 3x the 
+serum amylase, the patient needs exploration. In our 
+setting, this result probably won’t return soon 
+enough to help with any decision-making, so the 
+Lavage is mostly useful for the immediate presence 
+of blood, or a positive “newspaper test.”  
+ 
+Imaging 
+ 
+You must know the limitations of each option 
+in order to interpret the results. On both ultrasound 
+and CT, blood and freshly spilled succus both have 
+the same appearance, that of “fluid.” Patients who 
+have a solid viscus injury such as spleen or liver 
+injury will have fluid in the abdomen on imaging. 
+You may be tempted to think that any intra-
+abdominal fluid is only blood from these organs. We 
+would recommend laparotomy in anyone with free 
+abdominal fluid on initial presentation, unless you 
+can do Non-Operative Management very well, as 
+described above.  
+The pitfall is, of course, thinking that the 
+intra-abdominal fluid is only blood when it is, in fact, 
+a mixture of blood and succus. This mistake is more 
+likely to occur in non-operative management of solid 
+organ injuries after blunt trauma.  
+When using abdominal ultrasound to make 
+management decisions, keep in mind that a patient 
+will have a “normal” abdominal ultrasound until 
+there is 600mL of fluid in the abdomen (an extremely 
+skilled operator can detect as little as 400mL.) Also 
+retroperitoneal injuries/blood may not be detected. 
+The useful thing about ultrasound is that it can be 
+easily repeated at the patient’s bedside. If a patient’s 
+ultrasound was initially negative but they become 
+unstable, repeat it. The amount of blood may have 
+increased and now be visible to you.  
+Blood, or freshly spilled succus, will look 
+black on ultrasound. Any fluid that looks “cloudy” or 
+has floating elements that can be made to move when 
+pressure is applied to the probe, is probably purulent. 
+Of course, this finding will happen in patients who 
+present late, or in whom you have missed the injury 
+previously.  
+A high quality IV contrasted CT image will 
+show other signs of viscus injury, such as thickening 
+of bowel wall or stranding of mesentery or other 
+adjacent fat. This depends on timing of injection and 
+quality of the scanner. To assist identifying the 
+penetration trajectory, place small metallic markers 
+(EKG pads are useful) on all stab or gunshot wounds. 
+Although it is helpful having CT imaging in 
+operative planning, do not take a hemodynamically 
+Approach to Penetrating Abdominal Trauma 
+Richard Davis and Caleb Van Essen 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+unstable patient to the CT scanner! If you aren’t clear 
+where the bleeding is, use ultrasound (or DPL if you 
+don’t have ultrasound.) 
+Plain x-rays should not be overlooked in 
+assisting diagnosis of injury. Place metallic markers 
+on all open wounds. Free air on upright or left lateral 
+decubitus indicates need for a laparotomy. 
+ 
+Decision Making: 
+As with all trauma patients, start with ATLS 
+primary and secondary evaluations. Often early, easy 
+decisions can be made with hemodynamically 
+unstable patients going straight to operation, without 
+any delay for time-consuming imaging. Portable x-
+rays and ultrasound (to confirm intra-peritoneal fluid 
+and identify cardiac injury) can be considered if they 
+can be performed quickly or performed without 
+delay in the operating room.  
+Beware the unstable patient with a junctional 
+injury pattern or multiple penetrating wounds. 
+Thoracoabdominal injuries requiring exploration of 
+two cavities have extremely high mortality rates. 
+You do not have time for imaging, but you do not 
+know exactly where to operate! Completely 
+exposing patients, rolling them and identifying the 
+number and trajectory of injuries can assist in the 
+operative approach. An early thoracostomy tube is 
+diagnostic and possibly therapeutic, identifying 
+which side of the diaphragm the injury is on.  
+See the chapter on trauma laparotomy for 
+details on performing the operation and decision 
+making regarding exploration of hematomas. 
+Briefly, in penetrating trauma, explore hematomas in 
+zone 1, 2 and 3 whether they are expanding or not.  
+Special considerations need to be made to 
+prepare for any type of injury and the subsequent 
+repair that is needed. Thus preparing and draping 
+patients from neck to knees and elbows, with arms 
+out, will allow exposure for central access, chest 
+cavity exploration and vein harvest for grafting of 
+vascular injury. Make plans for patients’ disposition 
+as soon as possible due to constraints mobilizing 
+support staff and equipment for ICU management.  
+Be thinking about the possible need for 
+damage control and temporary abdominal closure. 
+Damage control is a strategy that focuses on 
+immediate repair of life-threatening injuries, while 
+delaying other measures (such as bowel anastomosis 
+and abdominal closure) until the patient is more 
+stable. Focus first on controlling hemorrhage and GI 
+spillage. Once this is accomplished, consider 
+whether you should reconstruct and repair at this 
+time,  versus applying temporary abdominal closure 
+and stopping the operation for rewarming and 
+resuscitation. An experienced surgeon will often 
+recognize the situation and choose damage control 
+before the operation has even started.  
+ 
+To summarize, take no chances with the 
+patient. A negative laparotomy is better than a 
+missed bowel or vascular injury. Unclear injury 
+patterns can make management decisions difficult. 
+When you are not sure what intra-abdominal injuries 
+the patient might have, it is worth considering local 
+wound exploration, non-operative management and 
+diagnostic peritoneal lavage.  
+Remember that injuries in the junctional zone 
+can lead to ongoing bleeding in the chest, 
+mediastinum or abdomen.  
+Remember that both blood and spilled bowel 
+contents initially look like dark fluid on ultrasound 
+and CT scan. Do not mistake one for the other.  
+The ideal local wound exploration patient 
+includes: single anterior stab wound, known short 
+bladed knife, cooperative patient, insufficient 
+personnel for serial abdominal exam, experienced 
+surgeon and no additional injuries.  
+The 
+ideal 
+non-operative 
+management 
+(watchful waiting) patient includes: stab wound, in-
+house on-call trauma team (residents,) ability to do 
+an operation at any time,  an awake, alert and 
+cooperative patient, initial exam is completely 
+benign, and no advanced imaging available. 
+Consider it also in a very obese patient, in whom 
+local wound exploration would be morbid. 
+Most patients with abdominal gunshot 
+wounds will need laparotomy, unless it is quite clear 
+that the wound is tangential and didn’t enter the 
+peritoneum.  
+ 
+Richard E. Davis MD FACS FCS(ECSA) 
+AIC Kijabe Hospital 
+Kenya 
+ 
+Caleb Van Essen MD 
+General Surgeons of Western Colorado 
+Grand Junction, CO  USA 

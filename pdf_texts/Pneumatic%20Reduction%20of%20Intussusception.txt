@@ -1,0 +1,344 @@
+Pneumatic Reduction for Intussusception 
+Muse Freneh, Jason Axt 
+ 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction:  
+Ileocolic intussusception is one of the most 
+common causes of intestinal obstruction in infants 
+and toddlers. It occurs when a segment of the bowel 
+(intussusceptum) telescopes into an adjacent distal 
+segment (intussuscipiens), leading to progressive 
+obstruction. 
+As the intussusceptum advances further into 
+the intussuscipiens through peristalsis, it becomes 
+thickened, edematous, and swollen. This process first 
+obstructs the lumen, then causes venous congestion, 
+followed by arterial compromise, ultimately leading 
+to ischemia and necrosis if untreated. 
+Primary intussusception—the most common 
+form—occurs in the absence of a pathological “lead 
+point.” Cases have a seasonal variation, often 
+correlating with an increase in viral upper respiratory 
+infections and viral gastroenteritis. Some studies 
+suggest that up to 50% of cases are linked to prior 
+Rotavirus infection. 
+Secondary intussusception, which accounts 
+for 1.5% to 12% of cases, arises due to an underlying 
+pathological lead point. The most common cause is 
+Meckel’s diverticulum, though other potential lead 
+points include polyps, hemangiomas, ectopic 
+pancreatic tissue, the appendix, or other lesions. In 
+rare cases, an intestinal tumor serves as a lead point, 
+with incidence increasing with patient age. 
+ 
+Clinical presentation 
+Intussusception primarily affects children 
+between 3 months and 3 years of age, with peak 
+incidence occurring between 5 and 9 months. 
+The typical presentation includes sudden 
+onset of intermittent, crampy abdominal pain, often 
+accompanied by leg flexion toward the chest and 
+episodes of vomiting that last for a few minutes. 
+These symptoms alternate with periods where the 
+child appears normal. 
+If left untreated, progressive obstruction 
+leads to dehydration and lethargy. The classic triad 
+of intermittent abdominal pain, a palpable “sausage-
+shaped” mass, and “currant jelly” stools is seen in 
+less than 25% of cases, primarily in patients with 
+delayed presentation. Given this, clinicians must 
+maintain a high index of suspicion even in the 
+absence of all three signs. 
+ 
+Stool mixed with blood and mucus gives the appearance of 
+“currant jelly.”  
+ 
+A less common presentation involves 
+transanal protrusion of the intussusceptum, which 
+can be mistaken for rectal prolapse. Differentiation is 
+simple: inserting a lubricated tongue depressant or an 
+examining finger next to the prolapsed tissue. If the 
+instrument can be advanced more than 2 cm, 
+transanal protrusion of the intussusceptum should be 
+strongly suspected. 
+Pneumatic Reduction for Intussusception 
+Muse Freneh, Jason Axt 
+ 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Trans-anal protrusion of the intussusceptum results when the 
+process of intussusception proceeds far enough that the process 
+continues out the anus. Source: 
+https://doi.org/10.1016/j.epsc.2020.101405  
+ 
+In resource-limited settings, children often 
+present late, frequently with overwhelming sepsis 
+and severe electrolyte imbalances, which require 
+urgent correction before attempting reduction. 
+ 
+Diagnosis 
+Intussusception is primarily a clinical 
+diagnosis, based on characteristic symptoms and 
+signs. 
+However, 
+imaging 
+is 
+essential 
+for 
+confirmation. 
+• Abdominal ultrasound is the gold standard for 
+diagnosis, with near 100% sensitivity. The 
+hallmark finding is the “target sign”, representing 
+concentric layers of bowel within bowel. 
+• Additional investigations may be warranted to 
+evaluate for electrolyte imbalances, dehydration, 
+or sepsis, particularly in cases of delayed 
+presentation. 
+ 
+Ultrasound image demonstrating target sign. Source: 
+https://radiopaedia.org/articles/target-sign-intussusception  
+ 
+Initial management 
+Early and aggressive fluid resuscitation is 
+critical in children with intussusception, as 
+dehydration is common due to vomiting and third-
+spacing of fluids into the edematous bowel. 
+• Intravenous fluid resuscitation should be initiated 
+immediately. 
+• Electrolyte imbalances should be corrected, 
+particularly in cases of prolonged illness. 
+• Urine output must be adequate before proceeding 
+with pneumatic reduction or surgery, as 
+hypovolemia increases the risk of cardiovascular 
+collapse on induction of anesthesia. 
+ 
+ 
+In cases where patients present late, with 
+sepsis or shock, stabilization should take priority 
+over any procedural intervention. 
+Children presenting with peritonitis or septic 
+shock should undergo immediate resuscitation and 
+be taken expeditiously for surgical exploration. 
+Both pneumatic and hydrostatic reduction are 
+well-documented 
+techniques 
+with 
+comparable 
+success rates. However, pneumatic reduction is 
+Pneumatic Reduction for Intussusception 
+Muse Freneh, Jason Axt 
+ 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+preferred due to its relative ease of execution and 
+lower risk of contamination if perforation should 
+occur.  
+While some guidelines suggest that a 
+symptoms exceeding 48 hours make successful non-
+operative reduction less likely, we advocate for an 
+attempt at reduction regardless of delay, provided 
+there is no septic shock or peritonitis. Even partial 
+reduction 
+may 
+simplify 
+subsequent 
+surgical 
+intervention. 
+ 
+Laparotomy is indicated in cases where: 
+• Non-operative reduction fails. 
+• The patient is hemodynamically unstable despite 
+resuscitation. 
+• There are clear signs of bowel gangrene or 
+perforation. 
+ 
+The procedure is typically performed in the 
+operating room using C-arm fluoroscopy. It is 
+possible to follow the progress of reduction with 
+ultrasound alone, however this can be a difficult 
+technique to master.  
+Given the risk of complications, we strongly 
+recommend that pneumatic reduction in low-
+resource settings be conducted in an environment 
+where immediate surgical backup is available.  
+Pneumatic reduction is often well-tolerated 
+and can be performed with the child awake or under 
+light sedation. The stepwise approach to the 
+procedure is outlined below. 
+ 
+Materials. 
+• Manual sphygmomanometer system with a “Y” 
+connector 
+• Large size foley catheter (E.g. 20 Fr) 
+• 20 mL Syringe 
+• Large 
+bore 
+intravenous 
+catheter 
+for 
+decompression in case of perforation with 
+tension pneumoperitoneum 
+• Lubricant gel 
+• Fluoroscopy machine 
+ 
+ 
+Sphygmomanometer, inflator cuff, and “Y” connector, shown 
+before assembly. A mercury sphygmomanometer, or any other 
+manual device that shows pressure, is also acceptable 
+ 
+ 
+The 
+assembled 
+foley 
+catheter, 
+“Y” 
+connector 
+and 
+sphygmomanometer  
+ 
+Pneumatic Reduction for Intussusception 
+Muse Freneh, Jason Axt 
+ 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Steps: 
+1. The procedure can be done awake or with light 
+sedation. 
+ 
+The patient is positioned at the edge of the operating table in a 
+lithotomy position with the hip and knees flexed at 90 degrees. 
+ 
+2. 20 Fr Foley catheter is placed in the anus and 
+balloon inflated with 20-30cc of air to create an 
+airtight seal. We prefer air over water for 
+inflating the balloon, as it is easier to deflate in 
+case of respiratory compromise due to abdominal 
+distention 
+3. The catheter is connected to the “Y” connector of 
+the sphygmomanometer system 
+ 
+An assistant will compress the buttocks on either side while 
+pulling lightly on the catheter to create an airtight seal.  
+ 
+4. A single shot x-ray is taken with a fluoroscopy 
+machine viewing from the pelvis to the 
+diaphragm. 
+5. Air is instilled using the sphygmomanometer 
+device keeping the pressure between 80 and 
+100mmHg (no more than 120mmHg) while 
+directly observing the meniscus move with 
+continuous fluoroscopy. 
+ 
+Meniscus indicated by the arrow moves with instillation of air. 
+ 
+6. Air can be instilled according to the rule of threes: 
+three minutes at a time, with 3-minute breaks in 
+between and 3 different attempts. 
+Pneumatic Reduction for Intussusception 
+Muse Freneh, Jason Axt 
+ 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Between reduction attempts, residual air should be evacuated 
+either manually or via the Foley catheter by gently compressing 
+the abdomen while maintaining rectal patency with the other 
+hand.  
+7. A sudden increase in abdominal distention with 
+failure to evacuate air strongly suggests bowel 
+perforation.  If perforation occurs, air can rapidly 
+accumulate in the peritoneal cavity, leading to 
+tension 
+pneumoperitoneum 
+causing 
+severe 
+respiratory compromise and death if not 
+promptly managed. Immediate decompression 
+should be performed by inserting a large-bore 
+intravenous cannula through the abdominal wall. 
+The right upper quadrant is preferred, as it is 
+where free air tends to accumulate and has a 
+lower risk of bowel injury. A rush of escaping air 
+confirms the diagnosis.  Once perforation is 
+confirmed, the child should undergo urgent 
+exploratory laparotomy. 
+8. Reduction is continued until the meniscus moves 
+from the left lower quadrant all the way to 
+ileocecal valve and complete reduction is 
+confirmed with air visibly entering the small 
+bowel.  
+9.  If reduction is successful, the patient can be 
+transferred to the ward and feeding attempted. 
+Patients are typically observed overnight due to 
+challenges accessing healthcare in case of 
+recurrence or incomplete reduction. If the 
+attempt was unsuccessful, reduction can be 
+attempted up to 3 times at 4–6-hour intervals. 
+After three unsuccessful attempts, an exploration 
+should be performed.   
+ 
+ 
+Complete reduction of intussusception is confirmed by sudden 
+influx of air into the small bowel in the central portion of the 
+abdomen as shown above. 
+ 
+10. After reduction, patients typically have a 
+dramatic improvement in condition. A patient 
+who continues to vomit, has a distended 
+abdomen, or is unable feed should prompt 
+concern for incomplete reduction or recurrence. 
+Perform a repeat ultrasound. Reduction can be 
+performed up to three times.  A fourth 
+intussusception event suggests a pathologic lead 
+point and warrants an abdominal exploration. 
+ 
+Pitfalls 
+• Failure to form an airtight seal will reduce 
+chances of reduction. 
+• Failure to recognize and address a perforation 
+and pneumoperitoneum may cause respiratory 
+compromise and even death. As explained above, 
+remove the Foley catheter and perform needle 
+decompression in the right upper quadrant of the 
+abdomen.  
+Pneumatic Reduction for Intussusception 
+Muse Freneh, Jason Axt 
+ 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+• Failure to have a large bore intravenous cannula 
+nearby at the time of the procedure, leading to 
+“frantically searching” for it when it is needed.  
+• If a patient does not exhibit rapid reduction of 
+symptoms, suspect incomplete reduction or 
+recurrence. 
+ 
+Muse Freneh, MD 
+AIC Kijabe Hospital 
+Kenya 
+ 
+Jason Axt MD FACS FCS(ECSA) 
+Indiana University 
+Moi University School of Medicine 
+Kenya 
+ 
+March 2025 

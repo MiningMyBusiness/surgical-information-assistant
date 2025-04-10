@@ -1,0 +1,287 @@
+Medical Vacuum (Suction) 
+In Resource-Limited Settings 
+Jason Fader and Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction:  
+Medical Vacuum, more commonly called 
+“Suction,” is an integral part to any hospital, used in 
+the operating room, recovery room, endoscopy suite, 
+and on the ward. Sometimes it is used for negative 
+pressure wound therapy as well. Centralized suction 
+is usually built into hospitals in high-resource 
+settings, including piping within the walls and outlets 
+in patient care areas. We discuss the components of 
+centralized suction at the end of this chapter. 
+In a low-resource setting, mobile units such 
+as the Schuco S230A pictured below are very 
+valuable. One drawback to a machine like this is that 
+they are very loud: if it is in regular use in one place, 
+build a wooden box to contain it. 
+ 
+An electrical suction with cannister and tubing. This machine 
+is very loud and will disrupt patients’ sleep or clinicians’ 
+conversation if placed in a ward. Note also that the provided 
+suction cannister is made of plastic and intended for single use. 
+If washed and reused, it will inevitably develop cracks, making 
+suction less effective.  
+ 
+For Low-Continuous suction, it is better to 
+get a fish tank aerator pump and reverse the motor so 
+that it sucks instead of blows. This conversion is 
+described at the end of this chapter.  
+If you are installing individual suction 
+machines in every patient care area (operating room, 
+casualty bay, recovery room, intensive care unit,) 
+here are some helpful modifications to make: 
+• Enclose the suction machine in a box fixed to the 
+wall to keep the noise down. You can connect the 
+plug to a switch so that the units are easy to turn 
+on and off.  
+• Include 2 canisters in series so that fluid does not 
+arrive at the motor.  
+• Plastic canisters can be made to last a little longer 
+without cracking if you don’t remove the entire 
+lid, but instead empty it and clean it through one 
+of the small ports. Note that this technique will 
+not be effective if the material in the cannister 
+contains hardened clots or debris.  
+• Suction machines should be portable so that they 
+get to the patient, but not too portable so that they 
+easily go to other services. Build a cart or strap 
+them to a stool.  
+• Once fluid gets into the motor, it will need to be 
+taken apart and the bearing changed. The bearing 
+type and name can be found stamped on the seal 
+of the motor.  
+• If dedicated plastic suction tubing is difficult to 
+source in-country, silicone tubing works well and 
+can be steam sterilized.  
+• Use glass or polycarbonate bottles rather than 
+plastic ones. The latter are intended for single use; 
+if reused they will eventually develop cracks 
+which will decrease the effectiveness of the 
+suction.  
+ 
+Glass (left) or polycarbonate plastic (right) suction bottle with 
+rubber seals in the lids. These will last longer than plastic ones. 
+The rubber seals can often be purchased separately when these 
+wear out and compromise the suction.  
+Medical Vacuum (Suction) 
+In Resource-Limited Settings 
+Jason Fader and Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+  
+This plastic suction canister was originally intended for single 
+use in a high-resource setting. As it has been reused multiple 
+times, “patchwork” is needed to repair it and maintain suction. 
+Such canisters are probably more trouble than they are worth 
+in a low-resource setting. If it is possible to empty and wash the 
+cannister through one of the smaller holes on the lid, rather 
+than removing the lid itself, this can prolong the lifetime of the 
+cannister.  
+ 
+ 
+The suction apparatus in an operating room, housed inside a 
+wooden box for noise reduction (the front cover has been 
+removed. The suction bottle can be seen below the box. A wall 
+switch (Black arrow) allows the machine to be turned on and 
+off without opening the box. 
+ 
+Guide: Converting a Fish Tank Aerator for Use 
+as a Suction Device 
+Name brand negative pressure wound 
+therapy machines (KCI Wound Vac®) can be 
+expensive and often have proprietary, single use 
+parts which can be also expensive and hard to acquire 
+in resource-limited settings. And yet, negative 
+suction wound care is excellent for many types of 
+wounds. It also decreases the demand for nursing 
+Medical Vacuum (Suction) 
+In Resource-Limited Settings 
+Jason Fader and Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+care. Maintaining suction on chest tubes, when 
+indicated, also requires continuous low-pressure 
+suction. 
+It is possible to use a portable suction 
+machine for this purpose, such as the machine 
+described above. But these are often not designed to 
+be in operation for days at a time. Furthermore, they 
+are noisy. Fish tank aerators, on the other hand, are 
+made to function constantly and quietly, and they are 
+relatively inexpensive. The only issue is that as 
+manufactured, they push air, instead of pulling air. It 
+is possible to modify many types of fish tank aerators 
+such they pull air and allow for a very effective, yet 
+inexpensive negative pressure wound therapy device.  
+The air pump in the photos below was 
+sourced in the USA through Amazon.com. There are 
+different sizes available. This one is for a 40-60 
+gallon (150-225L) fish tank size and it works well for 
+negative pressure wound therapy. The one pictured 
+here is 110v and so you will need a very small 
+transformer to run it (it only uses 4 watts of power). 
+Ideally, source the pump in your country, or in a 
+country that uses the same voltage that yours does.  
+ 
+One example of a commercially available, small fish tank 
+aerator. This one is made for a 60 gallon (225L) aquarium, 
+which in our experience generates the proper amount of suction 
+when modified as shown below. 
+ 
+Even if your hospital does not have constant 
+power, this uses such a small amount of wattage that 
+you could use an inverter and car battery to keep it 
+running for many hours at a time. 
+ 
+There are many different brands of fish tank 
+aerators, but most are the same on the inside. The 
+process shown here can easily be adapted to any 
+aerator that uses a similar mechanism: the main idea 
+is to find the pump itself, which usually connected to 
+a rubber bellows that is driven by an electric motor. 
+Disconnect the bellows from the pump, remove the 
+pump, reverse its orientation, and reattach it to the 
+bellows.  
+ 
+Once this aerator has been opened, the bellows (Red arrow) is 
+clearly seen attached to the pump itself (White plastic piece.) 
+When the bellows is activated, air enters the pump as shown by 
+the Green arrow and exits as shown by the Blue arrow.  
+ 
+ 
+The first step of the conversion is to detach the bellows from the 
+pump. If possible, this should be done without disconnecting it 
+from the motor, as shown here.  
+Medical Vacuum (Suction) 
+In Resource-Limited Settings 
+Jason Fader and Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+ 
+The pump is then removed from its slot and reversed, so that its 
+entry and exit are now facing the opposite directions from 
+before.  
+ 
+ 
+Once the pump is reinserted, it is reconnected to the bellows. 
+Now the motor drives the air in the opposite direction, as shown 
+by the Green and Blue arrows. This process is repeated on the 
+other pump and bellows, if two are present as in this device.  
+ 
+After the cover is replaced, the air will flow 
+through the pump in the opposite direction: it now 
+“sucks” instead of “blowing” air as it did before.  
+ 
+Here, the modified pump draws 100mmHg of pressure; the 
+ideal is within 50-125mmHg. 
+ 
+When connecting the device to a patient, be 
+sure that the canister stays upright and prevents any 
+wound exudate from getting into the aerator, 
+otherwise, it will need to repaired. When this 
+happens, it is not difficult to dismantle and clean the 
+device: disconnect and remove the pump bellows in 
+a similar way to that shown above, wash and dry 
+them, out, and reassemble.  
+Medical Vacuum (Suction) 
+In Resource-Limited Settings 
+Jason Fader and Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The entire negative pressure assembly, including the modified 
+pump on the left. It is important to make sure the cannister 
+remains upright to prevent liquid from entering the pump; this 
+can be difficult in a crowded ward.  
+ 
+Guide: Components of Centralized Medical 
+Vacuum 
+ 
+Most high-resource hospitals have a vacuum 
+connection at the wall in patient-care areas. A 
+regulator connected here allows the user to adjust the 
+level of suction and connect devices. Each wall 
+connection is supported by tubing, which runs 
+through the walls or ceiling, to the central vacuum 
+apparatus.  
+ 
+The central vacuum apparatus consists of 
+pumps (usually several), buffer tank, and controls. 
+The buffer tank usually has a volume of 100 -1000L, 
+an inlet filter, and a draining valve.  
+ 
+Components of a centralized medical vacuum system for 
+hospital use: 1.Vacuum Pumps 2.Digital Electrical Control 
+Panel 3.Bacterial Filter 4.Vacuum Reservoir 5.Non-Return 
+Valves and Connection Pipe Source: DOI: 10.35629/5252-
+45122323  
+ 
+ 
+Centralized vacuum system in a hospital in a resource-limited 
+setting, with a control panel in the foreground and a back-up 
+system in the background (Red circle.) 
+ 
+ 
+The buffer tank of the same system as above, with a pressure 
+gauge that can easily be checked to confirm that the system is 
+working properly.  
+ 
+The pitfalls of central vacuum include the 
+need for the pumps to be run continuously and the 
+potential for leakage from the tubing and connecting 
+systems. Leakage can occur at the connecting 
+systems themselves, especially if the machinery is 
+old. It can also occur from the pipes, which is very 
+Medical Vacuum (Suction) 
+In Resource-Limited Settings 
+Jason Fader and Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+difficult to address if the pipes are inside a concrete 
+or stone wall.  
+The wall connection is usually proprietary to 
+the system being used: once you decide on this 
+system, you will need to use compatible regulators to 
+connect to the suction. When building a new hospital 
+out of donated materials, it may be tempting to use 
+donated regulators. Be sure that you will be able to 
+purchase more devices in-country if you need them. 
+“Future-proof” your hospital by using equipment 
+that can be sourced locally.  
+ 
+A wall connection for medical vacuum, unconnected (left) and 
+connected to a regulator (right). Other brands or types of 
+regulators cannot be used with this system.  
+ 
+Jason Fader, MD  
+Kibuye Hospital  
+Burundi 
+ 
+Richard Davis MD FACS FCS(ECSA) 
+AIC Kijabe Hospital  
+Kenya 
+ 
+October 2023 

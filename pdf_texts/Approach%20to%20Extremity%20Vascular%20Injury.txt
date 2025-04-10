@@ -1,0 +1,563 @@
+Approach to Extremity Vascular Injury 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction: 
+ 
+Trauma to the extremities represents one of 
+the most common injury patterns seen in emergency 
+medical and surgical practice. Unfortunately, the 
+extent of injury is often underestimated, incorrectly 
+treated, and occasionally undiagnosed leading to 
+preventable morbidity and mortality. All providers 
+caring for victims of trauma must be aware of the 
+likely extremity injuries based on mechanisms of 
+injury, and proficient in their initial management to 
+ensure optimal outcomes. Patients with extremity 
+trauma often have other associated and potentially 
+life-threatening injuries that must be identified and 
+treated 
+following 
+accepted 
+principles. 
+Every 
+standardized approach to the trauma patient, 
+whatever the country of origin, teaches a systematic, 
+stepwise approach to the trauma patient that 
+minimizes the chance of a missed injury or of 
+inappropriate management.  
+As extremity injuries are evaluated, each of 
+the four functional components (nerves, vessels, 
+bones, and soft tissues) must be considered 
+individually and together. Initial treatment (after 
+correction of other life-threatening injuries) is 
+focused on stopping bleeding, stabilizing fractures, 
+restoring or maintaining perfusion, and prevention or 
+treatment 
+of 
+compartment 
+syndromes. 
+Best 
+outcomes are achieved with a standardized 
+multidisciplinary approach overseen by the general 
+surgeon with specialist input from orthopedic, 
+vascular, plastic, and rehabilitation specialists as 
+needed. In resource-limited environments, some or 
+all of these specialists may be unavailable, so it is 
+crucial for the treating surgeon to understand all 
+aspects of care. Our goal is to teach principles of 
+initial and definitive management when timely 
+referral to specialist care is impossible. 
+ 
+Etiology 
+Extremity injuries can result from a myriad 
+of etiologies including falls, motor vehicle collisions, 
+industrial and sports injuries, penetrating injuries and 
+blast. The nature and severity of extremity injury 
+differs between civilian and military settings.  
+Civilian extremity injuries most often occur 
+due to falls (50-60%), industrial or work-related 
+accidents, and motor vehicle crashes, though 
+penetrating trauma is found in up to 12% of reported 
+civilian series. In civilians with nonfatal trauma, 
+extremity injuries are the most common reason for 
+hospitalization, with 1/3 of those having serious or 
+limb-threatening injuries.  
+In contrast, over 50% of the injuries recorded 
+in the recent conflicts in Iraq and Afghanistan 
+involve the extremities with up to 25% of those 
+having associated serious non-extremity injuries. 
+Military 
+combat 
+wounds 
+are 
+predominately 
+penetrating in nature with 81% from explosions and 
+17% from gunshot wounds. Many of these injuries 
+involve multiple functional components and are at 
+high risk of both compartment syndrome and 
+amputation. 
+ 
+Initial Evaluation and Management 
+The 
+initial 
+resuscitation, 
+diagnostic 
+evaluation, and management of any trauma patient 
+regardless of mechanism is done in a standardized 
+approach- we advocate using the principles taught in 
+the Advanced Trauma Life Support (ATLS®) 
+program established by the American College of 
+Surgeons Committee on Trauma. Evaluation begins 
+with a primary survey and assessment. Resuscitation 
+and management of life-threatening injuries of the 
+head, thorax, abdomen, and pelvis take precedence 
+over 
+extremity 
+injuries. 
+Following 
+and 
+in 
+conjunction with airway (A) and breathing (B), 
+evaluation and management in the primary survey, 
+prompt attention should be turned to control of 
+hemorrhage (C). External bleeding from the 
+extremity, and especially bleeding from junctional 
+areas (axillary or common femoral arteries) can be 
+life threatening and should be controlled as soon as 
+possible. 
+Bleeding from lower extremity vascular 
+injuries can generally be controlled with direct 
+pressure, though prolonged application of direct 
+pressure is not always practical. A number of other 
+approaches have been endorsed in the pre-hospital 
+setting, including topical hemostatic agents, external 
+compression clamps, and endovascular occlusion 
+devices. “Blind” clamping of vessels (applying a 
+clamp in poor visibility due to excessive bleeding) is 
+not recommended. The use of tourniquets has 
+recently emerged as a standard for pre-hospital and 
+initial hospital control of bleeding. A prospective 
+study of 232 combat casualties found a significantly 
+Approach to Extremity Vascular Injury 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+improved survival rate (77% vs 0%) when using a 
+tourniquet (prehospital or emergency department) 
+vs. no tourniquet, with no amputations required as a 
+result of tourniquet usage. Similar results have been 
+reported in civilian trauma patients for both pre-
+hospital and in-hospital tourniquet application. It is 
+important to diagnose arterial bleeding early, so a 
+detailed vascular assessment of injured extremities 
+must be performed. It is important to recognize the 
+“hard” signs of vascular injury, which are:  
+● Active hemorrhage  
+● Expanding or pulsatile hematoma  
+● Bruit or thrill over the wound  
+● Absent distal pulses  
+● Extremity ischemia  
+ 
+In penetrating trauma the presence of a hard 
+sign of arterial injury is nearly 100% predictive of 
+vascular injury warranting surgical repair. Such 
+patients should be taken directly to the operating 
+room 
+for 
+surgical 
+exploration 
+and 
+on-table 
+angiogram if indicated. 
+With blunt trauma, the hard signs are less 
+reliable and false positives are common. It must be 
+kept in mind that long bone fractures of humerus, 
+femur, and/or tibia, even when not open, may 
+provoke massive bleeding and hypovolemic shock as 
+well as increasing the risk of compartment 
+syndrome. Correct fracture immobilization can 
+significantly reduce bleeding and provide pain relief. 
+This should be performed during the resuscitation 
+period. Usually reduction of fractures is done 
+without the benefit of X-rays, in the acute phase of 
+the evaluation. Repeat the physical examination after 
+resuscitation, warming and reduction and splinting. 
+Evaluate for any injuries with CT or conventional 
+angiogram if there are persistent diminished pulses 
+or other signs of vascular injury. 
+In 
+a 
+resource-limited 
+setting, 
+where 
+angiogram is not available, decision-making can be 
+difficult. Certainly blunt trauma patients with hard 
+signs of vascular injury distal to an extremity 
+laceration should be treated as penetrating trauma 
+and taken to the operating room. 
+ 
+This patient was referred to a tertiary facility 36 hours after 
+sustaining an open pelvic fracture and this right groin 
+laceration in a motorcycle accident. The right leg was cold and 
+pulseless; the laceration had been sewn shut. On exploration of 
+the wound, the thrombosed external iliac artery (Black arrow) 
+was seen. Because of the duration of time since the injury, 
+revascularization was not considered and he underwent a hip 
+disarticulation.  
+ 
+Patients with significant blood loss should be 
+rapidly resuscitated with balanced blood products 
+(packed cells, platelets, and fresh frozen plasma) or 
+whole blood utilizing massive transfusion protocols 
+if indicated. If bleeding is not yet controlled, the goal 
+of such resuscitation should be “permissive 
+hypotension” with a goal of a systolic pressure not 
+less than 90. 
+Patients with significant extremity trauma 
+have a high likelihood of associated pelvic fracture, 
+which can be a source of 
+exsanguinating 
+hemorrhage. A diligent search for pelvic fractures 
+should be part of the primary survey, with 
+management as described elsewhere in this Manual.  
+ 
+Secondary Assessment 
+Once the primary survey is complete and the 
+life-threatening problems addressed, perform a 
+secondary survey to include a full assessment of the 
+musculoskeletal system as part of a head-to-toe 
+evaluation. More information about the mechanism 
+of injury as well as the past medical history should 
+be obtained. The first step of the physical exam is to 
+make sure the patient is completely exposed 
+(avoiding 
+hypothermia); 
+any 
+bandages 
+or 
+immobilization devices (except femoral traction 
+splints) are removed and reapplied after examination.  
+During the secondary assessment, it is 
+important to measure an injured extremity index 
+(IEI) which is the ratio of the systolic pressure of the 
+Approach to Extremity Vascular Injury 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+injured extremity to an uninjured one. This 
+measurement was previously known as “Ankle-
+Brachial Index” and involves measuring the systolic 
+blood pressure of the injured limb, divided by the 
+systolic pressure of a normal limb. Both values are 
+measured with a manual blood pressure cuff and a 
+doppler ultrasound.  
+ 
+Injured extremity index (IEI) measurement. This has also been 
+called the Arterial Pulse Index (API) and the Ankle Brachial 
+Index (ABI) in the past. The blood pressure cuff should not be 
+applied directly over a fracture. Source: By Jmarchn - Own 
+work, CC BY-SA 3.0 
+https://commons.wikimedia.org/w/index.php?curid=31168075  
+ 
+A normal IEI (>.9) has a high negative 
+predictive value for vascular injury and will allow for 
+that patient to be observed or managed without 
+immediate vascular imaging. In the absence of hard 
+signs of vascular injury, an abnormal IEI (< .9) may 
+indicate an occult vascular injury which warrants 
+further investigation (ie CT angiogram) if persistent 
+after warming and resuscitation of the patient. 
+It is also important during the secondary 
+survey to look for “soft signs” of vascular injury 
+which warrant further diagnostic evaluation or 
+continued close observation. The soft signs include: 
+● A history of significant hemorrhage at the scene 
+● Proximity of penetrating wound, bony injury or 
+blunt trauma to a major artery 
+● Decreased pulse compared to the contralateral 
+extremity 
+● Peripheral nerve deficit 
+● Small non-pulsatile hematoma 
+● Abnormal Injured Extremity Index (<0.9) 
+● Abnormal flow-velocity waveform on Doppler 
+ultrasound 
+● Shock that is not the result of other injuries 
+ 
+A distal femur fracture, adjacent to where the superficial 
+femoral artery passes through the adductor muscles, should 
+raise suspicion of a vascular injury. This is an example of 
+proximity of a bony injury to a major vascular structure. 
+Source: 10.7759/cureus.16613 
+ 
+ 
+A posterior knee dislocation is often caused by a low-speed 
+impact below the knee, such as the bumper of a car. This injury 
+is classically associated with a popliteal artery intimal tear, 
+complete vascular occlusion, and a high risk of limb loss if not 
+correctly managed. Source: Kael Duprey and Michelle Lin  - 
+CC BY 4.0 
+https://commons.wikimedia.org/w/index.php?curid=69378236  
+ 
+A 
+systematic 
+musculoskeletal 
+exam 
+of 
+the 
+extremities should include: 
+Approach to Extremity Vascular Injury 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+1. Inspection: The patient should be examined 
+from head to toe searching for any swelling, 
+abrasions, injuries, hyperemia, or deformity 
+suggesting a fracture or dislocation, comparing to 
+the other limb when possible. Lacerations should 
+be assessed for proximity to fracture sites and 
+joint spaces. If joint injury is suspected CT is the 
+preferred way to assess, but if not available or 
+practical, injecting the joint with saline may 
+assist with identifying these injuries. Lacerations 
+in close proximity to fractures should be assumed 
+to be open and treated as such.  
+2. Active motion: If the patient is able to cooperate, 
+the patient is asked to flex and extend joints 
+noting any asymmetry or inability to perform. 
+3. Palpation: A careful search is made for tender 
+points, bony protrusions, and crepitus or 
+crackles. The muscle compartments of the 
+affected extremity should also be carefully 
+inspected, maintaining a high index of suspicion 
+for compartment syndromes. 
+4. Passive motion: The limbs are moved through 
+their range of motion with any pain or 
+abnormality noted and further investigated. 
+ 
+If the patient is unconscious, disoriented or 
+under the influence of drugs or alcohol, injuries can 
+be missed. It is even more important to perform a 
+comprehensive examination of the extremities with 
+visualization, 
+palpation, 
+and 
+passive 
+motion 
+identifying and imaging any abnormalities. It is also 
+important to perform a tertiary survey in the 
+subsequent inpatient setting once the life and limb 
+threatening injuries have been identified and treated. 
+ 
+Initial Radiographic Imaging 
+All patients with significant blunt trauma 
+should have a chest and pelvis X-ray as an adjunct to 
+the primary survey to rule out life threatening injuries 
+in the thorax or serious pelvic fractures. Any obvious 
+long bone fractures (especially with vascular 
+compromise) should be reduced and immobilized 
+prior to imaging. If there is suspicion of traumatic 
+pathology in the head, neck, chest, abdomen or 
+pelvis, the patient should undergo CT and or CTA (if 
+this is available) of these regions prior to obtaining 
+plain films of suspected extremity injuries. 
+Radiographs should and can be taken with radio-
+transparent immobilization devices. The radiographs 
+should include joints adjacent to the affected 
+segment. In children and adolescents, it is important 
+to image the contralateral limb as well- epiphyseal 
+growth plates can sometimes be misdiagnosed as 
+fractures. 
+In the right hands, Duplex ultrasound, which 
+is highly operator dependent, can detect arterial 
+disruption or occlusion, intimal flaps, venous 
+occlusion, 
+hematoma, 
+pseudoaneurysm, 
+or 
+arteriovenous fistula. If CT is not available to you, 
+try to build this capacity in your facility.  
+ 
+Principles of Immobilization 
+Immobilization of fractures is an important 
+skill that should be mastered by all caring for victims 
+of trauma. It starts in the prehospital setting. Proper 
+immobilization 
+will 
+decrease 
+pain, 
+restore 
+circulation, and limit additional injury from 
+movement. Upon receiving a polytrauma patient 
+with extremity fractures, the receiving provider 
+should, in the secondary survey, remove and then 
+replace all immobilization devices to perform a full 
+exam and confirm adequate immobilization. It is also 
+important to remove any items that may cause 
+constriction of the injured extremity. 
+The basic principle of fracture management 
+is to immobilize the joint above and below the 
+injured 
+bone. 
+Specific 
+injuries 
+should 
+be 
+immobilized as follows: 
+● Hand and wrist: Immobilize in the anatomic 
+position, with a volar splint for the wrist and/or 
+fingers, discrete wrist dorsiflexion, and slight 
+flexion of the fingers. 
+● Forearm: Immobilization should include the 
+elbow at 90° flexion and the wrist in neutral 
+position with a “sugar tong” splint. 
+● Elbow: Immobilize the elbow in a flexed 
+position with a double “sugar tong” splint. 
+● Arm and shoulder: The shoulder and elbow are 
+immobilized by bandaging close to the chest or 
+using a “swath and sling.” 
+● Clavicle: A “Figure of 8 bandage” can be a 
+definitive treatment for middle third fractures, 
+the patient can be placed in an arm sling for 
+transport. 
+Approach to Extremity Vascular Injury 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+● Femur: A femur fracture can be immobilized 
+with a traction device applied on the ankle or by 
+bandaging one leg to another. 
+● Tibia and Fibula: Splinting with a rigid or 
+pneumatic splint extending from above the knee 
+to below the ankle. 
+● Knee: The knee should be splinted with slight 
+traction or discrete flexion to include a pad under 
+the knee to reduce discomfort. 
+● Ankle: Ankle injuries can be immobilized with 
+padded splints with 90° of dorsiflexion (Posterior 
+ankle or Stirrup splint), avoiding pressure on the 
+bony prominences. 
+ 
+An improvised lower extremity splint in a low-resource setting 
+made from a crutch, padding, and bandage material. This splint 
+is 
+described 
+elsewhere 
+in 
+this 
+Manual. 
+Source: 
+https://doi.org/10.1016/j.afjem.2021.02.007   
+ 
+Open Fractures 
+Open 
+fractures 
+occur 
+when 
+there 
+is 
+communication between the fracture and the external 
+environment. As such any open wound in close 
+proximity to a fracture should be considered an open 
+fracture until proven otherwise. The presence of air 
+in the soft tissue near a fracture on radiographic 
+evaluation also suggests exposure of the injury to the 
+environment and as such contaminated. Open 
+fracture classification attributed to Gustilo and 
+Anderson (Table) is a useful tool to help plan 
+management. 
+ 
+Table: Open fracture classification (Gustilo and Anderson) 
+ 
+The management of open fractures should 
+begin at the trauma scene with isolation from the 
+contaminated external environment as soon as 
+possible. Patients with open fractures should receive 
+antibiotics, anti-tetanus immunization and prompt 
+(within 6 hours of injury) washout, debridement, and 
+stabilization of the fracture. The associated wounds 
+should NOT be initially sutured regardless of the size 
+and degree of contamination. 
+ 
+Fractures associated with Vascular Injuries- 
+General Principles 
+The prognosis of fractures associated with 
+vascular injury depends on the duration and degree 
+of ischemia. Prompt diagnosis and direct treatment 
+of vascular injury reduces further damage. Maintain 
+a high index of suspicion for fracture-associated 
+vascular injury. There are certain injuries that have a 
+risk of associated vascular injury such as:  
+● Shoulder dislocation – axillary artery; 
+● Supracondylar humerus fracture – brachial 
+artery;  
+● Femur fracture – superficial femoral artery;  
+● Posterior knee dislocation – popliteal artery.  
+ 
+The general surgeon (without vascular 
+surgical expertise) tasked with caring for patients 
+with fracture-associated vascular injury of the 
+extremities should be well versed in obtaining 
+proximal and distal control of major extremity 
+vessels, performing damage control vascular 
+shunting, and performing fasciotomies of the 
+extremities. 
+If available, in patients who are not actively 
+bleeding and in need of operative intervention, CT 
+angiogram is the diagnostic modality of choice in 
+patients with suspected vascular injury. 
+ 
+Operative strategy for vascular injury of the 
+extremities 
+● Restoration of flow (via shunting or vascular 
+reconstruction) that occurs within 3 hours of 
+injury has the best outcome. 
+● The patient must be properly positioned (and 
+prepared) on the operating table to expose all 
+relevant vessels, allow for harvesting of veins, 
+assessment of distal perfusion, and on-table 
+angiogram. 
+Approach to Extremity Vascular Injury 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+● Proximal control should be obtained proximal to 
+the injury where possible. Proximal and distal 
+control may require separate incisions. Keep in 
+mind that proximal control can be obtained with 
+a tourniquet in selected extremity injuries. 
+● Selected use of balloon tamponade is useful for 
+temporary control of hemorrhage from junctional 
+or deep, difficult to access areas. 
+● Control of vessels is best achieved by vessel 
+loops passed twice around the vessel (Potts 
+Technique). If clamps are used, they should be 
+atraumatic and applied with a minimum of force. 
+● In the setting of polytrauma with physiologic 
+compromise or a surgeon not experienced in 
+vascular repairs, the initial management should 
+be damage control shunting. This procedure is 
+addressed in another chapter of the Manual. 
+● Systemic anticoagulation should be avoided in 
+patients with polytrauma. 
+● Fasciotomy 
+should 
+be 
+liberally 
+used 
+in 
+extremities with vascular injury. This procedure 
+is described in another chapter of the Manual. 
+ 
+Disclaimer 
+The opinions or assertions expressed herein are those 
+of the author and are not to be construed as official 
+or reflecting the views of the Department of Defense, 
+the Uniformed Services University of the Health 
+Sciences, or any other agency of the U.S. 
+Government. The author has nothing to disclose. 
+ 
+Mark W. Bowyer, MD, FACS, FRCS 
+Uniformed Services University of the Health 
+Sciences 
+Maryland, USA 
+ 
+November 2023 

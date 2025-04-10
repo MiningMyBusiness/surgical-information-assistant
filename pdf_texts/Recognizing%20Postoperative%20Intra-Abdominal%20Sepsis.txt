@@ -1,0 +1,757 @@
+Recognizing Postoperative Intra-Abdominal Sepsis 
+Richard Davis, Winnie Mutunga 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Background:  
+ 
+Postoperative intra-abdominal complications 
+can be challenging to diagnose and treat for even the 
+experienced surgeon. Many of the signs and 
+symptoms that can signal infection in the abdomen, 
+such as pain, tachycardia, and fever, will already be 
+present or can be “blamed on” the postoperative 
+state. The examination is also compromised; extreme 
+tenderness and even peritoneal irritation are always 
+present after surgery. And other, non-surgical 
+conditions such as pulmonary embolism, pneumonia, 
+wound infection, and urinary tract infection can 
+cause signs and symptoms that are similar to intra-
+abdominal infection.  
+ 
+In this chapter we present our overall 
+approach to patients after laparotomy. The surgeon 
+must be very vigilant during the first 5-10 days after 
+laparotomy, especially if a bowel anastomosis was 
+done. During this time period, to borrow a quote 
+from the author Chinua Achebe, “things fall apart.”  
+ 
+Anatomy and Physiology: 
+The Inflammatory Reaction: 
+ 
+After surgery, the patient will undergo an 
+inflammatory reaction. The greater the insult, the 
+greater the reaction. This reaction is associated with 
+surges of catecholamines, glucagon, and cortisol, the 
+body’s stress reaction. Although we do not usually 
+measure these substances, we can follow the 
+inflammatory reaction. It is signaled by:  
+● Tachycardia 
+● Hypotension 
+● Tachypnea 
+● Low oxygen saturation 
+● Low urine output 
+● Peripheral edema 
+● Ileus 
+The most important concept in this chapter is 
+the following one: It may be normal to have all of 
+these signs for a certain period after the surgery, 
+but they should not persist. The amount of time that 
+these signs will “normally” be present varies 
+depending on the magnitude of the surgical or 
+traumatic insult. The surgeon must therefore watch 
+all of these signs very carefully during the patient’s 
+convalescence. 
+This 
+is 
+because, 
+after 
+an 
+uncomplicated 
+surgery, 
+the 
+inflammatory 
+reaction will be self-limited. When complications 
+set in, signs of inflammation will either reappear, 
+or fail to resolve.  
+ 
+While we focus here on intra-abdominal 
+complications, keep in mind that most forms of 
+surgical 
+illness 
+will 
+follow 
+this 
+course. 
+Complications 
+become 
+apparent 
+when 
+the 
+inflammatory reaction fails to resolve- this occurs 
+with soft tissue infections, ischemia, and abscesses.  
+ 
+Healing of Intestinal Anastomoses: 
+ 
+When bowel edges are sutured together, the 
+tissue follows a predictable course of healing. The 
+surgeon must have an understanding of this process, 
+especially regarding ways in which it can go wrong. 
+There are two “windows” of time after creation of an 
+anastomosis, when it is prone to leakage. 
+In the presence of adequate blood supply, the 
+bowel tissue becomes weakest between days 3-5. 
+This is the inflammatory phase of wound healing 
+and the main activity in the wound is lysis of 
+collagen. During this time, macrophages and 
+neutrophils invade the wound and remove dead 
+tissue. Technical errors will manifest themselves 
+during this time. These include failing to suture 
+adequate tissue, including devitalized tissue in the 
+anastomosis, or making the lumen of the anastomosis 
+too small. Assuring that the serosa is approximated 
+(when present) is an excellent way to assure that the 
+anastomosis is “waterproof” and will last through 
+this phase. This is why anastomoses to the rectum or 
+esophagus, without serosa, are more prone to 
+leakage.   
+Another technical error is failing to 
+incorporate all of the bowel in the anastomosis, in 
+effect leaving a hole in the bowel. The best way to 
+avoid this mistake is to pay strict attention to 
+technical details while creating the anastomosis. This 
+type of error will manifest itself around day 3-5 as 
+well; enteric contents will start passing through the 
+anastomosis at this time as ileus temporarily 
+resolves. (Ileus will return, however, in the presence 
+of leakage.) Therefore, days 3-5 constitute the first 
+“window” for anastomotic leakage.  
+The second “window” occurs around day 7-
+12. An anastomosis that is performed technically 
+well will be in the proliferative stage at this time. 
+Problems occur if blood supply is inadequate for this 
+stage; collagen deposition will be inadequate and the 
+Recognizing Postoperative Intra-Abdominal Sepsis 
+Richard Davis, Winnie Mutunga 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+healing process will stop, resulting in leakage. These 
+“late leaks” are more rare, but they occur when 
+anastomosis is done on bowel that is not adequately 
+perfused. These patients may have return of bowel 
+function before this happens. They might even be 
+discharged from the hospital.  
+The classic scenario where poor blood supply 
+can lead to a late leak is a left colon resection and 
+anastomosis in the left transverse colon, in the 
+“watershed” area between the superior and inferior 
+mesenteric arteries. In this area we usually resect 
+further, preferring to remove more bowel until the 
+anastomosis can be made using colon that is adjacent 
+to two pulsatile vessels.  
+For more details, see the Chapter on 
+Intestinal Anastomosis. 
+ 
+Principles:  
+In large surgeries, the inflammatory reaction 
+will involve the whole body, but should follow a self-
+limited course. The careful surgeon will watch for 
+signs that it is decreasing. The experienced careful 
+surgeon, having cared for many patients after 
+surgery, will know how long inflammation should 
+last, based on the magnitude of the surgery.  
+ 
+Diagram showing the normal pattern of inflammation after a 
+large surgery. Of note, the amount of the inflammation (height 
+of the curve) and the time at which it peaks will depend on the 
+magnitude of the operation. An experienced surgeon will 
+understand how this curve “should” look for a given operation, 
+and when a patient is deviating from it.  
+ 
+ 
+Diagram showing inflammation when there is unrecognized 
+pathology, such as an intra-abdominal abscess or anastomotic 
+leakage. In the patient represented by the Green arrow, the 
+complication began before the inflammation could resolve. The 
+patient represented by the Purple arrow developed a late 
+complication, deviating from what would have otherwise been 
+a normal postoperative course.  
+ 
+ 
+The heart rate is the main and earliest signal 
+of things falling apart. If the patient has been 
+adequately resuscitated, tachycardia has usually 
+resolved by the first postoperative day. Exceptions 
+include patients who had sepsis before surgery (such 
+as perforated duodenal ulcer) or patients who had a 
+massive traumatic insult. But after a large elective 
+surgery such as gastrectomy or colectomy, 
+tachycardia should not be present on the first 
+postoperative day. If it is, determine whether the 
+patient’s pain is adequately controlled. If pain is 
+controlled, give a fluid bolus and monitor the heart 
+rate response. Check the hemoglobin level as the 
+patient may be anemic. It is unlikely that anastomotic 
+leak will manifest on the first day after surgery.  
+ 
+Tachycardia which appears after the 3rd or 4th 
+day in a patient who was previously well is more 
+worrisome. Carefully assess the patient’s other 
+parameters: measure their radial pulse yourself and 
+assess the respiratory rate. If both are elevated, or if 
+there is fever, this warrants further investigation. The 
+first step is to talk to the patient. Have they passed 
+flatus yet? Are they having difficulty urinating? 
+Have they ambulated? Do they have a cough or 
+shortness of breath? Then, do a thorough physical 
+exam checking for crackles in the lungs or any 
+tenderness anywhere, including the calves. Examine 
+the wound for induration or erythema: sometimes the 
+problem is a wound infection. Do not hesitate to open 
+part of the wound if you suspect this.  
+Recognizing Postoperative Intra-Abdominal Sepsis 
+Richard Davis, Winnie Mutunga 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+If foul-smelling fluid comes out of the wound 
+when opened, it may be a simple wound infection, or 
+something worse. If bilious or feculent fluid come 
+out, or if purulent fluid continues to drain, or if you 
+feel a defect in the fascia in a patient with purulent 
+wound discharge, return to the operating room for a 
+careful exploration. See “Closure of Laparotomy 
+Wound Dehiscence.”  
+ 
+Unfortunately, in a postoperative patient the 
+abdominal examination will not be very helpful. 
+Nevertheless, palpate all of the abdomen gently, 
+understanding that it will be painful to the patient. If 
+the patient is cooperative, you can repeat this 
+examination later to assess their progress; be 
+reassured if there is some improvement.  
+ 
+Resolution of ileus is a very reassuring sign 
+that things are going well inside the abdomen. The 
+colon and rectum recover from ileus last, so if the 
+patient has flatus you can be sure that the stomach 
+and small bowel are active. An exception to this rule 
+is diarrhea: if the patient has diarrhea you have not 
+ruled out anastomotic leakage or intra-abdominal 
+abscess. Remember that if you give a patient water-
+soluble oral contrast, they will often have diarrhea on 
+the following day- this is normal. 
+ 
+Plain abdominal or chest x-rays can be very 
+useful. If the patient can stand or sit upright, have 
+them do so for 3-5 minutes before taking a chest x-
+ray, to allow any intraperitoneal air to rise into the 
+subdiaphragmatic space. If the patient cannot stand, 
+have them lie with their left side down for 3-5 
+minutes before taking a lateral decubitus x-ray in that 
+position (not supine!) The lateral decubitus x-ray 
+takes advantage of the lack of bowel gas in the area 
+of the liver- any gas seen in the left upper quadrant is 
+likely outside the bowel.  
+In general, the free air from an operation will 
+resolve after 24 hours, 48 maximum. If you see free 
+air in the abdomen after postoperative day 2, don’t 
+fool yourself that it is left over from your operation: 
+your patient’s anastomosis is leaking.  
+ 
+Air under the right hemidiaphragm (Red arrow) in an upright 
+chest x-ray. Sometimes the air may be a very small amount, but 
+any air in this position is abnormal (unless it is clearly part of 
+the transverse colon, which can rarely migrate above the liver.) 
+Case courtesy of Dr Varun Babu, from the case 
+https://radiopaedia.org/cases/19474?lang=us 
+ 
+ 
+Sometimes the pneumoperitoneum is so large that the 
+diaphragm can be confused for a lung marking, as shown by the 
+Red arrow. One clue that this is the case is the unnatural 
+appearance of the “false right hemidiaphragm,” which is 
+actually the liver. Note also the clearly seen air under the left 
+hemidiaphragm. Case courtesy of Dr Jeremy Jones, from the 
+case https://radiopaedia.org/cases/6129?lang=us  
+ 
+Recognizing Postoperative Intra-Abdominal Sepsis 
+Richard Davis, Winnie Mutunga 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The anteroposterior abdominal x-ray taken in the left lateral 
+decubitus position takes advantage of the liver, which displaces 
+any bowel. The area within the Red triangle is usually gasless 
+on abdominal x-ray. In this case, a large collection of free 
+intraperitoneal air is seen within this space, shown by the Red 
+arrow. Case courtesy of Dr Prashant Mudgal, from the case 
+https://radiopaedia.org/cases/33973?lang=us  
+ 
+Decision Making: 
+ 
+There are many things that could give your 
+patient 
+tachycardia 
+or 
+fever 
+after 
+surgery: 
+pneumonia, urinary tract infection, pulmonary 
+embolus, wound infection, and others. Although you 
+would not want to miss any of these diagnoses, you 
+should 
+always 
+take 
+the 
+following 
+attitude: 
+Increasing inflammatory markers in a patient 
+after abdominal surgery is intra-abdominal sepsis 
+until proven otherwise!  
+ 
+A classic pitfall is blaming the patient’s 
+deviation from “normal” on some other condition. 
+You may feel tenderness in the calf and confirm a 
+deep venous thrombosis by doppler ultrasound, 
+leading you to believe that the tachycardia and 
+hypoxia are due to pulmonary embolism. You may 
+check a chest x-ray and see an infiltrate, leading you 
+to believe that tachycardia and hypoxia are due to 
+pneumonia. And yes, postoperative patients do get 
+these problems. But they could just as easily be 
+manifestations of a more serious intra-abdominal 
+problem. The systemic inflammation caused by 
+intra-abdominal 
+sepsis 
+leads 
+to 
+disordered 
+coagulation and venous thrombosis. The abdominal 
+pain from peritonitis leads to poor pulmonary 
+hygiene and pneumonia.  
+This is not to say that every postoperative 
+complication is automatically caused by intra-
+abdominal sepsis. Rather, we want you to be vigilant. 
+After any operation that leaves a suture line in the 
+abdomen, anastomotic leakage should always be at 
+or near the top of your list of suspects.  
+When a postoperative patient has new onset 
+tachycardia, fever, elevated respiratory rate, or 
+elevated oxygen requirement, check a white blood 
+cell count and differential. An elevated WBC with a 
+“left shift” (increased neutrophil percentage) is 
+diagnostic for untreated infection, unless the values 
+are decreased compared to the admission values. At 
+this point you may either do imaging, if this is 
+available to you, or explore the abdomen if no other 
+diagnosis is apparent.  
+Overall, we are looking for early signs of 
+inflammation, so we can intervene before the 
+inflammation becomes life-threatening. Bear in mind 
+that these signs we watch for are even more subtle in 
+patients who can not mount an immune response. 
+Such 
+patients 
+include 
+the 
+elderly, 
+the 
+immunosuppressed, and those who will not become 
+tachycardic because of beta blockade or heart block. 
+Conversely, patients on systemic steroids will have 
+an elevated white blood cell count and left shift, 
+which may not reflect infection.  
+To make the diagnosis, if possible obtain an 
+x-ray study that shows enteric contrast passing 
+through the anastomosis. This is possible with 
+anastomoses in the rectum, rectosigmoid junction, 
+esophagus, stomach and duodenum. Use water-
+soluble contrast such as gastrografin (meglumine-
+diatrizoate.) Barium will cause mediastinitis or 
+peritonitis if it comes in contact with these surfaces. 
+If you have fluoroscopy, these studies can be done 
+under your supervision and you can make sure you 
+are satisfied with the quality of the images. 
+Otherwise, instruct the x-ray staff on what part of the 
+gastrointestinal tract you are hoping to see, and they 
+will time their images accordingly.  
+If you have a CT scan available, these images 
+will be more useful than plain x-rays.  If you can give 
+IV contrast, you can distinguish abscesses from non-
+infected fluid collections by the presence of rim 
+enhancement in an abscess. But you do not need to 
+give IV contrast, as the most important thing you are 
+looking for is active leakage of enteric contrast, or 
+any of it outside the bowel. 
+ 
+Recognizing Postoperative Intra-Abdominal Sepsis 
+Richard Davis, Winnie Mutunga 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Case Studies:  
+Case #1: JA, 60 year old otherwise healthy woman 
+underwent 
+an 
+Antrectomy 
+and 
+Bilroth 
+1 
+Reconstruction for obstructive peptic ulcer disease. 
+Surgery was uneventful. She has not had flatus 
+postoperatively but has been afebrile, with heart rate 
+consistently <90 beats per minute. The surgical team 
+which performed her operation has seen her every 
+day.  
+ 
+On postoperative day 5, her heart rate is noted 
+to be 115 beats per minute. Her blood pressure is 
+110/80. She is not nauseated but has not yet passed 
+flatus. Her urine output has not been recorded, as her 
+foley catheter was removed several days ago.  
+ 
+On 
+examination, 
+her 
+abdomen 
+is 
+nondistended. There is mild generalized tenderness. 
+Her wound is clean and dry without erythema or 
+discharge, and her abdominal drain output is 
+minimal, clear yellow non-bubbly fluid. Her sclerae 
+are noted to be normal in color and not pale. Lung 
+auscultation does not reveal crackles or diminished 
+lung sounds. She is given a bolus of 500mL of 
+Ringer’s Lactate. At this time, the following 
+differential diagnoses are considered:  
+● Intra-abdominal abscess 
+● Anastomotic leakage 
+ 
+ 
+The team orders a complete blood count and 
+a gastrografin (water soluble contrast) swallow 
+study. They discuss with the radiography team and 
+ask them to obtain images immediately after 
+administering 50mL of gastrografin, as the area of 
+interest is the stomach.  
+The images clearly show leakage of contrast, 
+emptying into a small area that is evacuated by the 
+drain:  
+ 
+Swallow study with water-soluble contrast shows the site of 
+leakage from the anastomosis (Black arrow) and the collection 
+of contrast adjacent to the tip of the drain, with contrast within 
+the drain (Red arrow.) Source: Dong Woo Hyun, Ki Hyun Kim 
+et al, https://doi.org/10.7602/jmis.2018.21.1.13 
+ 
+The complete blood count returns the 
+following results:  
+White blood cells: 22.26 
+Neutrophils: 92% 
+Hemoglobin 8.8g/dL 
+Platelets 667 
+ 
+ 
+At this time the patient is explained the 
+complication and she agrees to return to the operating 
+room. Excessive tension on the gastroduodenostomy 
+is found, with an anastomotic dehiscence of about 
+20% of the circumference. The entire anastomosis is 
+taken down and converted to a Roux-en-Y 
+reconstruction, and a feeding jejunostomy is placed 
+distally. 
+The 
+abdomen 
+is 
+washed 
+out. 
+Postoperatively, she is started on IV antibiotics. 
+ 
+ 
+ 
+Comment: This team acted well, seeing the 
+patient daily and recognizing an early sign of intra-
+abdominal sepsis. Note also that they did not add 
+“Pneumonia” or “Urinary Tract Infection” to their 
+differential diagnosis- they correctly assumed that 
+the cause of sepsis was the site of their operation. 
+They did not start the patient on antibiotics and hope 
+she would improve, a move that would have only 
+delayed recognition and treatment of this problem.   
+Recognizing Postoperative Intra-Abdominal Sepsis 
+Richard Davis, Winnie Mutunga 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Some learning points from this case: 
+● The earliest sign of infection after intra-
+abdominal surgery will be tachycardia. An 
+elevated  WBC with tachycardia must be 
+taken seriously.  
+● The diagnosis is an intra-abdominal process 
+that 
+needs 
+intervention 
+until 
+proven 
+otherwise. Do not assume it’s pneumonia. 
+● If you do not have a CT scanner, it is better 
+to re-operate early when you suspect sepsis. 
+If you wait to intervene, surgery will be much 
+more dangerous for the patient, as the 
+inflammatory cycle will have been ongoing. 
+In this patient, all other signs pointed to an 
+intra-abdominal process. If the x-ray 
+swallow study did not show an anastomotic 
+leak, it would have been reasonable to re-
+explore the patient anyway.  
+● The lack of purulent discharge from the drain 
+does not rule out anastomotic leakage.  
+ 
+Case #2: BD, a 70 year old man with a past history 
+of asthma and bronchitis, undergoes elective left 
+hemicolectomy for non-obstructing colon cancer. A 
+stapled anastomosis is performed. His morning and 
+afternoon vital signs are as follows:  
+ 
+Postop. Day 
+Heart 
+Rate 
+Resp. 
+Rate 
+Temp(C) 
+3 (6AM) 
+81 
+19-24 
+37 
+3 (4PM) 
+87 
+22-24 
+37 
+4 (6AM) 
+112 
+21-24 
+38.1 
+ 
+On the morning of Postoperative Day 4, as 
+above, the patient’s heart rate is noted to be 112 and 
+temperature elevated to 38.1. The blood pressure is 
+within normal limits. He is not nauseated and has not 
+yet passed flatus. Urine output is unknown, as the 
+foley catheter was removed the previous day.  
+On 
+examination, 
+his 
+abdomen 
+is 
+nondistended. There is mild generalized tenderness. 
+The wound is clean and dry without erythema or 
+discharge. His sclerae are noted to be normal in color 
+and not pale. Lung auscultation reveals decreased 
+breath sounds on the left side. A plain chest x-ray 
+shows no sub-diaphragmatic air and a small 
+consolidation of the left lower lobe. A diagnosis of 
+pneumonia is made and the patient is started on 
+piperacillin-tazobactam.  
+Morning and afternoon vital signs continue 
+as follows:  
+ 
+Postop. Day 
+(Time) 
+Heart 
+Rate 
+Resp. 
+Rate 
+Temp(C) 
+4 (4PM) 
+89 
+18-22 
+37.4 
+5 (6AM) 
+110 
+17-27 
+37.7 
+5 (4PM) 
+115 
+18-26 
+37.4 
+6 (6AM) 
+118 
+22-30 
+38 
+ 
+ 
+On Postoperative Day 6 as above, the patient 
+is clearly unwell with tachypnea and hypotension. 
+His abdomen is distended and peritonitic. He has not 
+yet passed flatus. The team obtains a chest x-ray, 
+which shows:  
+ 
+Plain upright chest x-ray shows free air under both the right 
+and left hemidiaphragm. Case courtesy of Knipe, H, from the 
+case https://radiopaedia.org/cases/25402  
+ 
+ 
+A diagnosis of anastomotic leakage is 
+considered. The team obtains a CT scan with 
+intravenous and rectal water-soluble contrast, which 
+shows:  
+Recognizing Postoperative Intra-Abdominal Sepsis 
+Richard Davis, Winnie Mutunga 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+CT scan of the upper abdomen shows free air and fluid anterior 
+to the liver (Black arrow) and posterior to the spleen (Red 
+arrow.) Case courtesy of Knipe, H, from the case 
+https://radiopaedia.org/cases/25402  
+ 
+ 
+CT scan of the lower abdomen shows a small amount of 
+contrast extravasation (Black arrow) adjacent to the 
+anastomosis, whose location can be clearly seen because of the 
+staples (Red arrow.) Case courtesy of Knipe, H, from the case 
+https://radiopaedia.org/cases/25402  
+ 
+The patient is taken for laparotomy and 
+washout. He is noted to be hypotensive and 
+tachycardic 
+throughout 
+the 
+operation. 
+The 
+anastomosis is taken down and a Hartmann 
+colostomy is fashioned. He requires ventilator 
+support for 1 week after surgery and his 
+hospitalization lasts 5 weeks in total. He eventually 
+recovers.  His hospital bill is far in excess of what his 
+family is able to pay at the time of discharge.  
+ 
+Comment: It is quite clear from a review of 
+the vital signs that this patient’s anastomotic leak 
+began on the night between Postoperative Day 3 and 
+4. The signs were there for the team to recognize but 
+instead they made a diagnosis of “Pneumonia.” 
+Once this was done, they were perhaps reassured by 
+a transient decrease in heart rate on the afternoon of 
+Postoperative Day 4. The overall effect of this 
+misdiagnosis was a delay of 48h. During this time, 
+the anastomosis continued to leak and the sepsis got 
+worse.  
+If the team had chosen to investigate on 
+Postoperative Day 4 with a water-soluble contrast 
+enema x-ray series, or a CT scan with rectal 
+contrast, it is possible that they could have repaired 
+the anastomotic leak with an omental patch or 
+otherwise avoided a colostomy. Also, if they had 
+operated on Day 4 instead of 6, it is certain that the 
+patient would have been more fit for operation, and 
+would not have needed prolonged intubation 
+afterwards.  
+ 
+Some learning points from this case:  
+● The earliest sign of infection after intra-
+abdominal surgery will be tachycardia. A 
+fever with tachycardia must be taken 
+seriously.  
+● The diagnosis is an intra-abdominal process 
+that 
+needs 
+intervention 
+until 
+proven 
+otherwise. Do not assume it’s pneumonia. 
+● A plain chest or abdominal x-ray that shows 
+free intra-abdominal air >48 hours after 
+surgery is all the proof you need of 
+anastomotic leakage. No other imaging 
+studies 
+are 
+necessary 
+at 
+this 
+point. 
+Conversely, lack of free air on plain x-ray 
+does not rule out anastomotic leak. 
+● Delaying intervention for abdominal sepsis 
+can lead to a catastrophic result, including 
+sepsis and prolonged ICU stay, prolonged 
+overall hospitalization, elevated hospital 
+expenses, and often the patient’s death.  
+ 
+ 
+Recognizing Postoperative Intra-Abdominal Sepsis 
+Richard Davis, Winnie Mutunga 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Richard Davis MD FACS FCS(ECSA) 
+AIC Kijabe Hospital 
+Kenya 
+ 
+Winnie Mutunga 
+AIC Kijabe Hospital  
+Kenya 
+ 
+October 2022 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Resource-Rich Settings 
+CT scan of the neck, chest, or abdomen is extremely helpful 
+for investigating postoperative patients. Oral contrast can be 
+given and then the scan is timed according to the suspected 
+area of leakage:  
+For esophagus, stomach or duodenum the 
+images are taken within minutes of oral 
+administration.  
+For small or proximal large bowel, the images 
+are taken 30-60 minutes after oral administration.  
+For rectal or left sided colon, contrast is 
+administered by enema.  
+If the patient’s renal function is adequate, IV 
+contrast can be administered as well, which helps 
+diagnose abscesses and plan percutaneous drainage. 
+IV contrast should be avoided in patients with 
+sepsis.  
+ 
+Image-guided percutaneous drainage can avoid an operation 
+for an abscess. Even in the case of anastomotic leakage, if the 
+fluid collection is small, this is standard treatment in places 
+where it is available. In such cases, postoperative nutrition is 
+crucially important. 
+ 
+Endoscopic clip application has revolutionized the 
+management of anastomotic leakage: a skilled endoscopist 
+with the right equipment can often help the patient avoid an 
+operation altogether. Any intra-abdominal fluid can then be 
+managed by percutaneous drainage if necessary. In the cases 
+discussed, this modality would have been effective on Case 
+#1 and possibly on Case #2 if the diagnosis had been made 
+l
+h

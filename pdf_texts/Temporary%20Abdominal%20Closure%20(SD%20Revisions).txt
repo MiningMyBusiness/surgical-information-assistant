@@ -1,0 +1,353 @@
+Temporary Abdominal Closure 
+Richard Davis, Sharmila Dissanaike 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction:  
+There are several reasons why a surgeon 
+would want to close the abdomen temporarily. 
+Broadly, these fall under two categories: overall 
+patient condition, and intra-abdominal condition. 
+There is usually overlap among these two; patients 
+with severe intra-abdominal conditions often have a 
+severe illness and poor condition overall.  
+ 
+Patients with poor overall condition are those 
+who are too sick for an extended operation: the 
+appropriate treatment is “damage control.” When 
+patients are in severe hemorrhagic or septic shock, an 
+experienced surgeon will often decide in advance 
+that the patient is in “damage control” mode. The 
+focus becomes on controlling the bleeding or 
+eliminating the source of sepsis and getting the 
+patient to the ICU for further resuscitation and 
+rewarming. Especially with hemorrhagic shock, you 
+must get out of the operating room before the “lethal 
+triad” 
+sets 
+in: 
+hypothermia, 
+acidosis, 
+and 
+coagulopathy.   
+In other situations, the patient’s condition 
+deteriorates unexpectedly in the middle of a 
+laparotomy, due to acute myocardial infarction, 
+pulmonary 
+embolism, 
+or 
+rarely, 
+malignant 
+hyperthermia. 
+When 
+the 
+patient’s 
+condition 
+deteriorates, this type of closure helps you get the 
+patient out of the operating room much faster.  
+ 
+Alternatively, sometimes it is an intra-
+abdominal condition that prevents you from closing 
+the 
+abdomen. 
+One 
+example 
+is 
+abdominal 
+compartment 
+syndrome. 
+The 
+intra-abdominal 
+contents will not fit into the space that would remain 
+after closure, due to edema. If you were to “force” 
+this closure, the result would be the triad of 
+abdominal compartment syndrome:  
+● Decreased ventilation due to pressure on the 
+diaphragm,  
+● Low blood pressure due to decreased preload 
+(pressure on the vena cava) and direct pressure 
+on the heart itself, 
+● Low urine output due to decreased perfusion of 
+the kidneys and direct pressure on them.  
+ 
+The surgeon will frequently be faced with 
+bowels that are difficult to return to the abdominal 
+cavity, but it is rare for true abdominal compartment 
+syndrome to become apparent during abdominal 
+closure. If abdominal compartment syndrome seems 
+likely, ask the anesthetist what is the peak airway 
+pressure (at the end of inspiration) at the beginning 
+of closure and then check it again at the end. If the 
+pressure rises by more than 15cm H20 after 
+abdominal closure, consider reopening and applying 
+a temporary closure device, especially if the blood 
+pressure has dropped during closure as well.  
+Regardless of the technique used for 
+temporary closure, the sooner the patient returns to 
+the operating room for definitive closure, the better. 
+The surgeon should aim for return to OR within 24-
+48hours. Delays longer than 72hours, and certainly 
+longer than a week, greatly increase the risk of failure 
+to achieve primary fascial closure during the index 
+admission. When an abdomen is left open, the 
+abdominal wall muscles, without their insertion at 
+the lateral edge of the rectus sheath, begin to retract 
+laterally. This makes closure progressively more 
+difficult. The longer the abdomen is left open, the 
+greater the eventual difficulty. After 7-10 days, it 
+may become impossible to achieve primary fascial 
+closure, which greatly complicates the patient’s 
+hospital stay and ultimate recovery. In addition, the 
+longer the abdomen is left open, the greater the risk 
+the bowel will become desiccated, or injured, and 
+start to leak enteric contents. If this occurs, an 
+“entero-atmospheric fistula” may occur; this is a 
+catastrophic complication that can be more difficult 
+to manage than the patient’s original diagnosis! 
+ 
+Choice of closure technique 
+The goal of any temporary abdominal closure 
+technique is to cover the intestines temporarily and 
+to prevent excessive fluid and thermal losses from 
+the open abdomen. In all cases these closures are to 
+be considered temporary: the fascia should be 
+reapproximated as soon as possible. In cases where 
+the fascia is damaged, or fascial dehiscence has 
+already occurred once or more, use the closure 
+technique described in Closure of Laparotomy 
+Wound Dehiscence. 
+Whenever 
+possible 
+we 
+favor 
+the 
+“Whipstitch” 
+technique 
+as 
+described 
+below. 
+Temporary Abdominal Closure 
+Richard Davis, Sharmila Dissanaike 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Whipstitch is quick and easy to perform and requires 
+no special supplies or training. It has the added 
+benefit of covering intestine with the patient’s own 
+biologic tissue, rather than plastic or other synthetic 
+substances that tend to cause more irritation. This 
+technique is not suitable for use in compartment 
+syndrome, although it works well for other 
+indications for open abdomen. 
+ 
+In cases where the skin edges cannot be 
+brought together, such as abdominal compartment 
+syndrome, we recommend temporary vacuum 
+closure as described in this article. This controls fluid 
+drainage better, and causes less damage to the fascia, 
+than the “Bogota bag.”  
+The “Bogota bag” closure is a well known 
+method. It consists of cutting a sterile IV fluid bag to 
+the shape of the fascial incision and suturing it to the 
+fascial edges. We usually do not use this technique 
+because it takes more time to deploy than either of 
+the two simple closure techniques described here. 
+Another disadvantage is that the bag is sewn to the 
+fascial edges, which damages them and makes 
+definitive closure more difficult later.  
+However, if you do not have a large sheet of 
+adhesive plastic or reliable continuous suction, and 
+you cannot bring the skin edges together, this 
+technique may be useful for temporary closure. 
+Expect the abdominal incision to leak continuously, 
+and plan to close the fascia as soon as you can.  
+ 
+The Bogota bag is an opened IV fluid bag sutured to the edges 
+of the fascia. Suarez-Grau JM, Guadalajara Jurado JF, Gómez 
+Menchero J, Bellido Luque JA, CC BY 4.0 
+https://creativecommons.org/licenses/by/4.0  via Wikimedia 
+Commons 
+ 
+Temporary abdominal closure generally 
+occurs in the following steps:  
+● Decision: as described above, the patient’s 
+condition warrants temporary closure. 
+● Attempt to “Whipstitch” the skin together as 
+described further below. Usually this technique 
+is sufficient.  
+● If “Whipstitch” fails, placement of a sterile 
+plastic barrier over the intestines 
+● Placement of two unfolded laparotomy sponges 
+and a nasogastric tube within the skin incision 
+● Cleaning of the skin and placement of an 
+adhesive sheet of plastic 
+● Applying suction to the nasogastric tube.  
+ 
+Technique: “Whipstitch” 
+1. If it is possible to approximate the skin edges, 
+bring them together in the midline with a large 
+suture, such as 0 Nylon, in continuous running 
+fashion. 
+2.  The sutures should be placed approximately 1cm 
+back from the skin edge, and spaced 1cm apart. 
+ 
+Using 0 Nylon or other monofilament on a cutting needle, 
+suture only the skin together. The surgeon on each side of the 
+patient begins at one end of the wound and the sutures meet in 
+the middle. Tie the sutures together to complete the closure.  
+ 
+3.  It is important to only suture skin and 
+subcutaneous fat and leave the fascia untouched. 
+This allows for a healthy fascial edge to be 
+Temporary Abdominal Closure 
+Richard Davis, Sharmila Dissanaike 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+preserved for definitive closure, to reduce the risk 
+of subsequent hernia that is significant risk in 
+these cases. 
+4. Since the whipstitch technique is more easily 
+mistaken for definitive closure than other forms 
+of temporary closure, it is recommended the 
+surgeon label the patient’s abdomen as open, 
+either directly on skin or on the dressing, or both.  
+ 
+Writing on the dressing alerts the team that this is not an 
+ordinary abdominal closure, despite its appearance.  
+ 
+Technique: Temporary Vacuum Closure 
+1. Obtain a piece of plastic that is sterile: a sterile x-
+ray plate cover, some sterile inner packaging, or 
+a urine bag that has been cut open. Also obtain a 
+sheet of adhesive plastic; this does not need to be 
+sterile though ideally it should be.  
+2. Pull the drapes back and thoroughly clean and 
+dry the skin around the incision circumferentially 
+for 15-20cm, including the inguinal folds. First 
+clean with saline and dry the skin, then clean with 
+alcohol and allow it to air dry.  
+3. The plastic sheet acts as a barrier to prevent the 
+laparotomy sponge from coming in contact with 
+the bowel. Lay it over the bowel, inside the 
+peritoneal cavity, to overlap the edges of the 
+incision.  
+ 
+A piece of sterile plastic is placed inside the abdominal cavity, 
+between the bowel and the anterior peritoneum, overlapping 
+the incision by at least 10cm. In this case, a sterile urine bag 
+was cut on 3 sides and then unfolded.  
+ 
+4. Lay two laparotomy sponges in the wound. Do 
+not place any part of them inside the abdominal 
+cavity, they should be flush with the fascial edges 
+only.  
+ 
+Temporary Abdominal Closure 
+Richard Davis, Sharmila Dissanaike 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Laparotomy sponges are placed in the wound to cover the 
+plastic. These lie in the wound but not inside the 
+abdominal cavity, to decrease the chance that bowel will 
+come in contact with the sponge material. It is not 
+necessary to wet the sponges.  
+ 
+5. Lay an NG tube so that the holes on the end are 
+within the folds of one of the lap sponges.  
+ 
+A NG tube is laid within the folds of the laparotomy sponge so 
+that its holes are not in direct contact with either piece of 
+plastic, to make it less likely that the tube’s holes would become 
+blocked.  
+ 
+6. Immediately before applying the adhesive sheet, 
+check again that the skin is dry and that no further 
+fluid has leaked out from the incision, or out of 
+the ostomy if present. The skin should be clean 
+and dry. 
+7. Lay a large adhesive sheet over the wound, 
+overlapping the edges by more than 15cm if 
+possible. Raise the NG tube off the skin a little so 
+that it is completely encircled by the adhesive 
+sheet to assure a good seal.  
+8. Connect the NG tube to suction. The lap sponges 
+should collapse.  
+ 
+Adhesive plastic is applied over the whole abdomen. In this 
+case, the plastic was applied directly over a colostomy, making 
+sure the surrounding area was dry. The plastic over the 
+colostomy was then trimmed and an ostomy appliance was 
+applied directly to the plastic.  
+ 
+Pitfalls 
+● Patients with temporary abdominal closure in 
+place should ideally be kept intubated and 
+sedated: a cough or strong Valsalva could disrupt 
+the whole closure and result in evisceration. If 
+you do not have an Intensive Care Unit, and you 
+cannot transfer the patient to one while still 
+intubated, your options are limited to heroic 
+measures. In some settings the patient can be 
+“bagged” by hand, but this must be sustainable 
+for several days. Otherwise you may choose to 
+take your chances and close the patient. In either 
+case, they are unlikely to survive. Damage 
+control laparotomy and temporary closure are 
+essentially useless without ICU care.  
+● Temporary abdominal closure takes much less 
+time than standard closure. If you do not 
+Temporary Abdominal Closure 
+Richard Davis, Sharmila Dissanaike 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+communicate well with the team, you may finish 
+quickly, only to find that the ICU bed or transport 
+equipment is not ready. Communicate early that 
+you are in damage control mode so the team can 
+plan the next steps accordingly.  
+● Over time, the lateral abdominal wall muscles 
+retract 
+and 
+midline 
+closure 
+becomes 
+progressively more difficult. Generally closure 
+becomes impossible after 7 days. If the patient’s 
+condition has not improved enough to close the 
+abdomen by then, you have no choice but to treat 
+this as an open abdomen. Protecting the exposed 
+small bowel is very difficult and requires very 
+diligent nursing care.  
+● If a sheet of adhesive plastic is not available, this 
+solution may be impossible. This closure 
+depends on maintaining suction in the abdominal 
+wound and removing fluids as they accumulate. 
+We use kitchen plastic wrap (taped to the skin 
+around the edges) for vacuum- assisted wound 
+closure elsewhere in the body, but we have never 
+used it in the abdomen. The Bogota bag, 
+described briefly above, may also be used in this 
+situation.  
+ 
+Richard Davis MD FACS FCS(ECSA) 
+AIC Kijabe Hospital 
+Kenya 
+ 
+Sharmila Dissanaike MD FACS FCCM 
+Texas Tech University Health Sciences Center 
+Lubbock, Texas, USA 
+ 
+October 2022 

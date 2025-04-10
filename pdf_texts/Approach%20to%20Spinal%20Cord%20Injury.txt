@@ -1,0 +1,1050 @@
+Approach to Spinal Cord Injury 
+Habib Emil Rafka, Dr. Paul Shu, and Dr. Fraser Henderson Jr. 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Background:  
+The best outcomes from management of 
+traumatic spinal cord injury are achieved with 
+expedient and appropriate management. These 
+patients, predominantly young and male, present 
+after traumatic events such as motor vehicle 
+collisions and falls. A spinal column injury might be 
+one aspect of poly-trauma and its management must 
+be prioritized as soon as cardiopulmonary stability is 
+achieved.  
+Current understanding of spinal cord injury 
+recognizes both the primary injury (the trauma itself) 
+and the secondary injury (damage occurring after the 
+trauma itself). Primary spinal cord injury is the initial 
+damage done to the spinal cord, most commonly due 
+to physical, traumatic stress. Secondary spinal cord 
+injury is understood to occur from the delayed and 
+harmful inflammatory response that can itself cause 
+further neurological damage. Decades of research 
+have sought to block this cascade, though sadly no 
+definitive treatment has been found. High-dose 
+steroid protocols have helped in occasional 
+situations, though clinical trials have largely 
+remained disappointing. Steroid use is no longer 
+standard for spinal cord injuries in most management 
+guidelines.  
+Primary spinal cord injuries might result 
+from impact, laceration, hyper-flexion or -extension, 
+or ongoing compression. An efficient but thoughtful 
+neurological exam remains critical for the managing 
+surgeon because the clinical presentation will result 
+from the specific level and the specific part of the 
+spinal cord that is involved. There are several 
+syndromes of paraplegia, hemiplegia, quadriplegia, 
+sensory deficits, loss of bowel control, sexual 
+dysfunction, and others that will be recognized by an 
+astute surgeon and can localize to the level of injury. 
+Imaging can then confirm the diagnosis. 
+Because international guidelines generally 
+assume a high-resource setting, we must often 
+modify our approach in lower resource settings. In 
+this chapter we will aim to address:  
+● Inconsistent availability of advanced imaging 
+● Shortage of material resources such as cervical 
+neck braces, ventilators, halo reduction vests, 
+Wells-Gardner tongs, etc. 
+● Delayed presentation  
+● Patients without funds 
+● Theater and nursing staff limitations, team 
+fatigue and burnout 
+ 
+Anatomy:  
+ 
+A cross-sectional image of the spinal cord, highlighting 
+important anatomical structures. Source: 
+https://doi.org/10.53347/rID-53264 
+ 
+A stable spine is one that can protect the 
+neural elements (cord and nerve roots) within the 
+physiologic range of normal human motion. An 
+unstable spine, therefore, has lost the ability to 
+protect and encase the neural elements in their 
+journeys from the skull to the vertebral foramina at 
+each level.  
+33 vertebrae occur in the human spine: 7 
+cervical, 12 thoracic, 5 lumbar, 5 sacral and about 4 
+coccygeal. The Greek root for vertebra is 
+“spondylo” which explains why we often refer to 
+spondylosis or spondylo-listhesis (vertebral slip). 
+The vertebral bodies anteriorly stack upon one 
+another, held in place by interlocking portions called 
+facets. Facets articulate to permit some movement; 
+the cervical spine is relatively mobile in flexion and 
+rotation, the thoracic spine is limited mostly to 
+rotation, and the lumbar spine is limited mostly to 
+flexion. The pars is the portion of bone connecting 
+superior facets to inferior facets. Transverse 
+processes extend posterolaterally, forming joints 
+with the rib cage in the thoracic spine. Pedicles 
+separate the anterior bodies from the posterior bony 
+Approach to Spinal Cord Injury 
+Habib Emil Rafka, Dr. Paul Shu, and Dr. Fraser Henderson Jr. 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+surfaces called laminae, and thereby forming the 
+spinal canal, a hollow channel in which the tube-like 
+dura runs. Posteriorly a spinous process protrudes at 
+the midline, forming the part we can palpate as when 
+performing lumbar punctures or massage. Over these 
+spinous processes runs the supraspinous ligament 
+which contributes to stability. Damage to any part of 
+this anatomy that permits non-physiologic extension, 
+stretch, compression, etc. will lead to a neurologic 
+deficit in the affected territory.  
+ 
+Superior (Top) and posterolateral (Bottom) views of the 
+components of the  vertebrae. Source: Jmarchn, CC BY-SA 3.0 
+via Wikimedia Commons 
+https://commons.wikimedia.org/w/index.php?curid=45613313  
+ 
+The vertebral column has a natural lordosis in 
+the cervical and lumbar region and a natural kyphosis 
+in the thoracic region. Between each vertebra is a 
+cartilaginous, poorly vascularized intervertebral disk 
+that acts as a natural cushion to distribute forces 
+evenly. 
+ 
+The Human Spine, aka, Vertebral Column. Note the natural 
+cervical and lumbar lordosis and thoracic kyphosis. When 
+intact, the many articulating joints allow the complex mobility 
+of the spinal column.  
+ 
+Approach to Spinal Cord Injury 
+Habib Emil Rafka, Dr. Paul Shu, and Dr. Fraser Henderson Jr. 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Left: Image of the extradural spinal cord with nerve roots. 
+Right: intradural view of the spinal cord with associated nerve 
+roots piercing the dura. The cauda equina, a collection of 
+nerves described below, is seen below the conus medullaris, the 
+inferior most extent of the spinal cord. Source:CC BY 4.0  
+https://creativecommons.org/licenses/by/4.0  via Wikimedia 
+Commons 
+ 
+The spinal cord emerges from the brainstem 
+and continues down through the cervical and thoracic 
+vertebrae to ultimately end at the L1/L2 vertebrae 
+where it is called the conus medullaris. Below the 
+level of L1/L2, a collection of nerve roots called the 
+cauda equina (because the many nerve roots 
+resemble the fibers of a horse’s tail) float in 
+cerebrospinal fluid within the thecal sac (aka, dura).  
+Each spinal level has its own paired spinal 
+nerves exiting below the pedicle of that respective 
+level (L2 spinal nerve exits below the L2 pedicle), 
+except for the cervical level, where the spinal nerves 
+exit above the respective vertebrae. Note: although 
+there is no C8 vertebra, the C8 nerve exits between 
+the C7 and T1 vertebra. 
+The spinal cord is surrounded by three 
+meningeal layers: dura, arachnoid, and pia. Blood, 
+pus, or external penetrating foreign bodies typically 
+cause meningeal inflammation which can be quite 
+painful. Infection within these layers can travel up 
+from the spine to the brain; meningitis should be 
+considered after penetrating trauma with a dural leak 
+if prompt infectious precautions have not been taken.  
+The spinal cord is a complex organ with a plethora of 
+functions at each level – hence the various 
+presentations of spinal cord injury. Given the 
+structure of the anatomy and the tight space in which 
+the spinal cord resides, a spinal cord with ongoing 
+compression 
+and 
+some 
+preserved 
+neurologic 
+function 
+should 
+be 
+surgically 
+decompressed 
+emergently. If there are spinal injuries, a specialist 
+should make an assessment of “stable” versus 
+“unstable.” Stabilization of the unstable spine with 
+internal or external bracing is essential to maximize 
+the opportunity for a good outcome.  
+Although spinal cord and column anatomy 
+can be complex and overwhelmingly intricate, there 
+are simple fundamentals that every surgeon can 
+remember.  
+ 
+A cross section view of the spinal cord within the vertebral 
+canal, ventral is anterior in this picture. 1. the central canal, 2. 
+posterior median sulcus, 3. gray matter, 4. white matter, 5. Left 
+dorsal root and dorsal root ganglion 6. Left ventral root 7. 
+Right fascicles 8. Anterior spinal artery 9. Arachnoid mater 10. 
+Dura mater. Source: Tomáš Kebert & umimeto.org, 
+https://creativecommons.org/licenses/by-sa/4.0 
+Approach to Spinal Cord Injury 
+Habib Emil Rafka, Dr. Paul Shu, and Dr. Fraser Henderson Jr. 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+via Wikimedia Commons 
+ 
+The anterior spinal artery runs midline from 
+the junction of vertebral arteries at the foramen 
+magnum and travels down the entirety of the spinal 
+cord before ending at the conus medullaris. The 
+vertebral arteries pass through the transverse 
+processes of the cervical spine at C6 - C2 and can be 
+injured during neck trauma.  
+ 
+An illustration showing the relationship of important 
+vasculature of the spinal cord, ventral is anterior in this picture. 
+Injury to any of these arteries can cause a stroke at the 
+respective spinal level. Anastomoses in the mid- and lower-
+thoracic spine make it vulnerable to ischemia from hypotension 
+or aortic dissection. Source: Hapugoda S, Spinal cord 
+(illustrations). Case study, Radiopaedia.org 
+https://doi.org/10.53347/rID-54777  
+ 
+Principles:  
+Begin your evaluation of the injured patient 
+with a primary survey. The goal of this is to identify 
+rapidly 
+life-threatening 
+injuries 
+to 
+ensure 
+cardiopulmonary stabilization. Like the brain, the 
+spinal cord can suffer irreversible damage with 
+prolonged hypoxia.  
+A. Airway and Cervical spine immobilization: 
+Confirm airway patency. Assign a quick 
+Glasgow Coma Score (GCS) and alert the team 
+to intubate the patient with GCS of 8 and below. 
+Immobilize the cervical spine in all patients in 
+whom you cannot clearly rule out a cervical spine 
+injury. Though airway management can be the 
+primary concern, do not exacerbate a concurrent 
+cervical spine injury by careless manipulation. 
+B. Breathing: Ensure adequate ventilation and air 
+entry in the chest to rule out hemothorax, 
+pneumothorax, 
+tamponade, 
+and 
+other 
+immediately life-threatening thoracic injuries. 
+C. Circulation: Obtain hemodynamic stability. 
+Note that hypotension may not always be 
+associated with bleeding. Spinal cord injury 
+could present with neurogenic shock which 
+presents as hypotension from loss of sympathetic 
+tone. Recognizing hypotension caused by spinal 
+cord injury is discussed further below.  
+D. Disability: To test for disability, you must 
+complete a neurologic exam as discussed below.  
+E. Exposure/Environment: 
+Evaluate 
+other 
+potential injuries, taking note of the environment 
+from which the patient came, and taking note of 
+any other hazardous exposures.  
+ 
+After the primary survey, move on to the 
+secondary survey. The mnemonic for secondary 
+survey is AMPLE: Allergies, Medications, Past 
+illness, Last meal, and Events. This history is usually 
+taken from the patient’s caretaker if the patient is 
+unconscious. 
+ 
+Neurologic examination consists of checking 
+strength, assessing sensation at each limb and if 
+necessary, discerning the particular level where 
+sensation is lost, and examining reflexes. Motor 
+strength is graded by muscle group from 0 (no 
+strength) to 5 (full strength); a grade of 3 indicates 
+only anti-gravity strength, 4 means there is some 
+resistance. Unilateral motor deficits affecting both 
+arm and leg on one side should point towards a brain 
+injury. Note that hemiplegia refers to complete 
+weakness 0/5 whilst hemiparesis implies some 
+strength is preserved. Conversely, bilateral leg 
+weakness (paraplegia or paraparesis) as well as the 
+combination of bilateral arm and leg weakness 
+(quadriplegia or quadriparesis) are more likely to be 
+associated 
+with 
+spinal 
+cord 
+injury.  
+ 
+Spinal shock is loss of all or most of motor 
+and sensory function immediately following a severe 
+spinal cord injury. Flaccid paralysis, anesthesia, and 
+loss of reflexes all occur, including loss of the 
+bulbocavernosus reflex. The management is usually 
+nonoperative. Neurogenic shock occurs in the same 
+Approach to Spinal Cord Injury 
+Habib Emil Rafka, Dr. Paul Shu, and Dr. Fraser Henderson Jr. 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+population but refers to the vascular phenomenon of 
+peripheral vasodilation resulting from the loss of 
+sympathetic tone (such as lesions above T6) and 
+unopposed parasympathetic activity. Neurogenic 
+shock 
+is 
+characterized 
+by 
+hypotension, 
+bradyarrhythmia, and temperature dysregulation. 
+This life-threatening condition requires intensive 
+care for volume support and often pressors. Because 
+phenylephrine may incite reflex bradycardia, 
+norepinephrine is the preferred agent to maintain the 
+mean arterial pressure of patients with neurogenic 
+shock at 85-90mmHg for at least the first seven days. 
+ 
+Syndrome: Complete Cord Transection 
+Causes:  
+● Trauma 
+● Infection 
+● Transverse Myelitis 
+● Abscess 
+● Tumor 
+Clinical Findings: 
+● Complete loss of 
+sensation below 
+level 
+● Complete paralysis 
+below level 
+ 
+Syndrome: Cord Hemisection 
+Causes:  
+● Trauma 
+● Multiple Sclerosis 
+● Tumor  
+● Abscess 
+Clinical Findings: 
+● Ipsilateral loss of 
+motor, 
+proprioception 
+● Contralateral loss of 
+pain, temperature 
+ 
+Syndrome: Central Cord Syndrome 
+Causes:  
+● Neck 
+hyperextension 
+● Spinal Stenosis 
+● Osteoarthritis 
+● Syringomyelia 
+● Tumor 
+Clinical Findings: 
+● Motor impairment 
+> sensory 
+impairment 
+● Upper extremities > 
+lower extremities 
+● Distal > Proximal 
+● Bladder dysfunction 
+● “Cape-like” 
+distribution of pain 
+and sensory loss 
+ 
+Syndrome: Anterior Cord Syndrome 
+Causes:  
+● Hyperflexion 
+● Disc protrusion 
+● Anterior spinal 
+artery occlusion 
+● Abdominal aortic 
+aneurysm 
+Clinical Findings: 
+● Motor function loss 
+● Pain and 
+temperature loss 
+● Proprioception 
+spared 
+ 
+Cauda Equina Syndrome 
+Causes:  
+● Disc prolapse 
+● Tumor 
+● Infection 
+Clinical Findings: 
+● Bladder and bowel 
+dysfunction 
+● Saddle anesthesia 
+● Sexual dysfunction 
+ 
+ 
+Spinal cord injury diagnosis can be made from clinical 
+examination and confirmed on imaging. The most thorough tool 
+is called the ASIA Impairment Scale. The ASIA “level” refers 
+to the lowest spinal cord segment with preserved/normal 
+function. A full-size copy of this worksheet is provided at the 
+end of this chapter. Source: 
+https://asia-spinalinjury.org/wp-
+content/uploads/2019/04/ASIA-ISCOS-
+IntlWorksheet_2019.pdf 
+ 
+ 
+Sensation travels to the thalamus of the brain 
+through several types of nerves bundled into 
+different parts of the spinal cord. Therefore, 
+examination should include testing for both light 
+touch/vibration (posterior columns) and also 
+pain/temperature as with a safety pin or sharp object 
+(anterior and lateral spinothalamic tracts). Presence 
+or absence of sensation, whether temperature, fine 
+touch, or position and vibration sense can help you 
+determine the type of incomplete spinal cord 
+syndrome as shown above. Sensation from the sacral 
+area is the most likely to be preserved because it 
+travels in the most lateral part of the sensory tract 
+Approach to Spinal Cord Injury 
+Habib Emil Rafka, Dr. Paul Shu, and Dr. Fraser Henderson Jr. 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+(“sacral sparing”) and is therefore most resistant to 
+traumatic stretch injury which affects central fibers 
+foremost. 
+Reflexes must be examined. Levels below a 
+spinal cord injury will exhibit increased reflexes, 
+whereas reflexes will be decreased if the respective 
+nerve root is injured. This is because in a normal 
+patient the brain is constantly sending inhibitory 
+signals to reflex synapses; if the brain signal is 
+interrupted along its path down the spinal cord, the 
+reflex synapse is no longer tonically inhibited, and 
+the reflex becomes more brisk or even clonic. 
+However, a peripheral nerve root injury will decrease 
+the reflex because the reflex arc is directly injured. 
+Recall that a patient in spinal shock will have loss of 
+all reflexes: this condition may persist hours to days 
+and rarely for weeks. 
+Cervical spine injuries are more associated 
+with mortality especially if the C3-C5 cervical 
+vertebrae are involved; this is where the phrenic 
+nerve arises, supplying the diaphragm.  
+Some basic landmarks for sensory loss are:  
+● Loss of sensation below the umbilicus indicates 
+a lesion at the T10 level. 
+● Loss of sensation below the nipple in men, or the 
+inframammary fold in women, indicates a lesion 
+at the T4 level. 
+In the absence of “spinal shock,” if complete 
+loss of sensation and motor function is found, 
+recovery is unlikely, and therefore emergent surgery 
+may be a waste of resources as recovery of function 
+is unlikely even after surgery; long term external 
+bracing may be a better use of resources depending 
+on the context.  
+Cauda equina syndrome refers to an injury 
+pattern. Consider it with patients who present with 
+some of the following components, especially if the 
+symptoms are progressing:  
+● Bilateral leg weakness  
+● Urinary incontinence  
+● Loss of sphincter control  
+● Sensory loss around the perineum and anus  
+Refer these patients promptly for imaging to 
+assess for severe compression of the lumbar nerve 
+roots and the need for emergent decompression. 
+The pre-hospital management of these 
+patients is universal- it begins with immobilization 
+of the neck and primary and secondary surveys as 
+described above. The neck should be immobilized 
+with a hard collar at the scene and the patient should 
+be maintained supine. Transportation to the hospital 
+should be done with a hard board unto which the 
+patient is logrolled. 
+ 
+Ideally, a cervical collar is applied at the scene before the 
+patient is moved, and the patient is transported on a backboard. 
+Source: Baedr-9439, CC0, via Wikimedia Commons 
+ 
+If a neck collar is not available at the scene 
+but a hard board is, the patient’s head can be secured 
+to the board using tape to prevent movement of the 
+head, hence immobilizing the spine. 
+Imaging is an important adjunct to the 
+diagnosis of spinal cord injury. This is especially true 
+for unconscious patients. These include plain x-rays, 
+CT scan and/or MRI. Contrast is usually unnecessary 
+for trauma situations. The National Emergency X-
+Radiography Utilization Study (NEXUS) criteria and 
+the Canadian C-Spine Rules are important concepts 
+to keep in mind when contemplating imaging for 
+spinal cord injury.  
+ 
+According to the NEXUS criteria, cervical 
+spine injury should be considered if there is: 
+● Neurological deficit 
+● Spinal tenderness 
+● Alternated mental status 
+● Intoxication 
+● Distracting injury. 
+This can be remembered with the mnemonic 
+“NSAID.” Traumatic patients that would not need 
+spine imaging require all of the following:  
+● Alert and stable 
+Approach to Spinal Cord Injury 
+Habib Emil Rafka, Dr. Paul Shu, and Dr. Fraser Henderson Jr. 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+● No focal neurological deficit  
+● No altered level of consciousness 
+● No intoxication  
+● No midline spinal tenderness 
+● No distracting injury  
+ 
+The Canadian C-Spine Rule, shown below, also 
+offers an intuitive algorithm to think through whether 
+imaging is required.  
+ 
+ 
+A flow-chart highlighting the Canadian C-spine rule Source: 
+https://www.physio-pedia.com/Canadian_C-Spine_Rule  
+ 
+Any unconscious or intoxicated patient with 
+a mechanism of injury suggestive of neck injury 
+should get imaging studies. In resource-rich settings, 
+a CT scan of both the head and the cervical spine 
+without contrast is usually performed. For conscious 
+patients, a midline tenderness, focal neurological 
+deficit, and any distracting injury is an indication for 
+imaging. In areas where there is no CT scan, an Xray 
+series should be ordered even though it is more likely 
+to miss non-bony injuries compared to a CT scan.  
+In-hospital management includes medical 
+and sometimes surgical management. Triage patients 
+and diagnose neurogenic shock versus hemorrhagic 
+shock. Hemorrhagic shock is usually associated with 
+tachycardia and hypotension, unlike neurogenic 
+shock which has just hypotension and sometimes 
+bradycardia. Support the cardiovascular system with 
+fluid resuscitation and then pressors for neurogenic 
+shock as necessary to adequately maintain mean 
+arterial pressure 85-90. Guidelines no longer support 
+high dose steroids for acute spinal cord injury 
+because of the adverse side effects, even though it 
+may improve recovery in younger patients with some 
+motor preservation. Immobilize the neck if 
+ligamentous or bony injury (not requiring surgery) is 
+suspected. Halo traction, when available, may 
+prevent the need for open internal fixation of the 
+spine in some cases. Surgery may apply an anterior 
+or posterior approach depending on the pathology 
+and the instrumentation available. Chronic spinal 
+cord compression can be relieved by simple 
+laminectomy provided that the neck retains a natural 
+lordosis and not a kyphosis, in which case 
+instrumented fusion would be warranted. 
+ 
+Laminectomy decompresses the spinal canal by removing its 
+“roof,” the lamina and spinous process. Essential structures 
+such as the intervertebral facet joints (Red arrows) are 
+preserved. Diskectomy can also be performed if disc rupture 
+and herniation passes beyond the dotted Red line and 
+compresses the spinal canal or the nerve roots passing through 
+the neural foramina (Blue arrow.)  
+ 
+Approach to Spinal Cord Injury 
+Habib Emil Rafka, Dr. Paul Shu, and Dr. Fraser Henderson Jr. 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+A halo vest provides complete immobilization of the neck during 
+the healing period. Source: BruceBlaus, CC BY-SA 4.0 via 
+Wikimedia Commons 
+ 
+In-hospital management also involves the 
+prevention of complications associated with spinal 
+cord injuries. Complete spinal cord injuries of the 
+cervical spine ultimately lead to death because of the 
+many complications that can occur including 
+respiratory failure, pneumonia, urosepsis, pulmonary 
+embolism, and pressure sores. Intensive nursing 
+measures like turning the patient, clean intermittent 
+catheterization, aggressive respiratory toilet, and 
+prevention of deep venous thrombosis can be taught 
+to family/caregivers. 
+Rehabilitation including the above measures 
+will be a patient’s best chance to regain function. 
+Exercises 
+can 
+be 
+started 
+in-hospital 
+and 
+physiotherapy should be involved with spinal cord 
+injury from the first day of hospitalization. 
+ 
+Decision Making:  
+The decision making of these patients starts 
+with first contact. After ruling out or addressing all 
+life-threatening conditions and the pattern of injury 
+determined, referral is a key decision in the 
+management of these patients. Patients with 
+incomplete spinal cord injuries with no other life-
+threatening condition, those with worsening spinal 
+cord injury on repeated exams or those with cauda 
+equina syndrome should be referred to a spine 
+specialized center immediately since early surgery is 
+associated with better recovery compared to those 
+with complete injury. Cervical spine injuries are 
+more delicate to handle. Patients with cervical 
+fractures especially C1 and/or C2 fractures with 
+greater than 7mm displacement should be referred 
+for operative management. Others may benefit from 
+halo traction or rigid neck collar. A decision to 
+operate or not depends on the availability of a 
+competent surgeon and the patient’s overall status. 
+ 
+Complication Avoidance and Considerations 
+Specific to Low Resource Settings 
+Surgeons in low resource settings must 
+occasionally develop and apply unique solutions for 
+spinal cord injury patients. The authors recognize the 
+absurdity of applying the same standard of care 
+across all global settings. In the authors' experience, 
+however, the spine injury patient population in low-
+resource settings are otherwise young and previously 
+healthy, meaning that remarkable recoveries can be 
+observed. This is particularly true when injuries are 
+addressed promptly and when complications are 
+avoided. For example, tuberculosis infection of the 
+spine remains rampant and presents late in the 
+disease, but it can often be treated successfully with 
+a 
+combination 
+of 
+medications 
+and 
+surgical 
+decompression and fusion or bracing.  
+In settings without available instrumentation, 
+plaster casting of the cervical spine or thoracolumbar 
+junction can brace fractures while they heal or while 
+a patient is transported to a facility for definitive 
+treatment: https://www.neurosurgeryglobal.com/cases-
+videos/cervical-spine-injuries 
+Centers without the equipment for spinal 
+instrumentation should search for international 
+partners to help expand the scope of their services. 
+Institutional competition or a surgeon's pride should 
+never prevent a physician from seeking external 
+advice in patient management, or from transferring a 
+patient who would be better served at another 
+institution.  
+When surgery is undertaken, complications 
+must be fastidiously avoided because in low-
+resource settings, patients can rarely afford the first 
+surgery, much less a second surgery for resolving a 
+Approach to Spinal Cord Injury 
+Habib Emil Rafka, Dr. Paul Shu, and Dr. Fraser Henderson Jr. 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+complication. 
+Appropriate 
+infection 
+control 
+measures must include complete sterile technique, 
+double-gloving, 
+and 
+copious 
+intraoperative 
+irrigation. For example, the authors utilize a diluted 
+solution of povidone to irrigate wounds before 
+closure in every case, and vancomycin powder can 
+be sprinkled in wounds.  
+Fusion surgeries require three properties for 
+bones to fuse properly: osteoinduction, osteogenesis, 
+and osteoconduction. If you do not have bone 
+allograft options for osteoconduction, fusion cases 
+must rely on autograft from separate incisions for 
+harvesting of rib or iliac crest bone. Bone marrow 
+aspiration through a sterile Jamshidi needle from the 
+iliac 
+crest 
+can 
+enhance 
+osteogenesis 
+and 
+osteoinduction. Gentle decortication should be 
+performed using a drill on adjacent surfaces of bone 
+where a fusion is desired. Antibiotics must be given 
+at the time of anesthesia induction and re-dosed 
+accordingly during the surgery. Placement of a sub-
+fascial surgical drain at the end of surgery can 
+decrease postoperative fluid accumulation, thereby 
+relieving pressure on the healing wound and 
+providing further insurance against a post operative 
+infection. The drain is tunneled to exit at least 5 cm 
+from the surgical incision and removed promptly 
+when the drainage decreases. Data from high income 
+countries remains mixed on the use of routine drains 
+for spinal surgery. However, in our experience the 
+lack of robust hemostatic agents, occasional lapses in 
+sterility, and higher ratio of patients to nurses 
+inhibiting administration of pain medication favor 
+routine use of a subfascial drain. Of course, this must 
+be weighed against the expense and availability of 
+surgical suction drains at a particular institution. And 
+drains should never be put to suction when the dura 
+has been compromised or a cerebrospinal fluid 
+fistula will develop. Compressive stockings can be 
+obtained cheaply and may be a cost-effective method 
+for deep venous thrombosis prevention in high-risk 
+patients, 
+especially 
+where 
+pharmacological 
+prophylaxis is unavailable. 
+The importance of close follow-up must be 
+explained 
+to 
+patients 
+so 
+that 
+postoperative 
+complications can be recognized and addressed 
+quickly. For conservatively managed injuries, close 
+clinical and radiological follow-up can also 
+recognize when an unstable kyphosis starts to 
+progress or when a neurologic deficit is worsening.  
+Finally, all surgeons of the spine must keep 
+excellent records of their cases and outcomes to 
+facilitate their internal reviews and as a source of 
+future research. By sharing experiences and 
+outcomes in journals and at conferences, surgeons 
+will find that many of their challenges have been 
+similar to those of their colleagues, and the data will 
+indicate the superior treatment algorithms. 
+ 
+ 
+ 
+Habib Emil Rafka 
+Medical University of South Carolina 
+USA 
+ 
+Paul Shu MD 
+Mbingo Baptist Hospital 
+Cameroon 
+ 
+Fraser Henderson Jr MD 
+Tenwek Hospital 
+Kenya 
+ 
+February 2024 
+ 
+ 
+Resource-Rich Settings 
+Spinal cord stimulation (SCS) involves implantation of a pulse-
+generating battery pack connected to epidural electrodes 
+overlying the dorsal horns of the spinal cord. The Gate Control 
+Theory of pain presumes that stimulation of the dorsal sensory 
+columns inhibits perception of pain in the brain. 
+ 
+Neural Stem Cell transplantation is an unproven but exciting 
+area of research that might harness a patient's own neural stem 
+cells and inject them into sites of injury to promote healing, 
+reduce scarring, and decrease painful inflammation. 
+ 
+Approach to Spinal Cord Injury 
+Habib Emil Rafka, Dr. Paul Shu, and Dr. Fraser Henderson Jr. 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+REV 04/19
+Page 1/2
+This form may be copied freely but should not be altered without permission from the American Spinal Injury Association.
+NEUROLOGICAL 
+LEVELS
+Steps 1- 6 for classific
+a
+t ion  
+as on reverse
+1. SENSORY 
+2. MOTOR
+  R         L
+ 3. NEUROLOGICAL 
+LEVEL OF INJURY
+(NLI)
+4. COMPLETE OR INCOMPLETE?
+Incomplete = Any sensory or motor function in S4-5
+5. ASIA IMPAIRMENT SCALE (AIS)
+(In injuries with absent motor OR sensory function in S4-5 only)
+6. ZONE OF PARTIAL
+PRESERVATION
+Most caudal levels with any innervation
+SENSORY 
+MOTOR
+  R         L
+MOTOR SUBSCORES  
+SENSORY SUBSCORES  
+UER
++UEL
+= UEMS TOTAL
+LER
++ LEL
+= LEMS TOTAL
+PPR
++ PPL
+= PP TOTAL
+LTR
++ LTL
+= LT TOTAL
+MAX (25)
+(25)
+(50)
+(25)
+(25)
+(50)
+(56)
+(56)
+(112)
+MAX
+MAX (56)
+(56)
+(112)
+MAX
+(50)
+(56)
+(56)
+RIGHT TOTALS
+          (MAXIMUM)
+(56)
+(56)
+(50)
+LEFT TOTALS
+(MAXIMUM)
+(VAC) Voluntary Anal Contraction 
+(Yes/No)
+(DAP) Deep Anal Pressure 
+(Yes/No)
+C5
+C6
+C7
+C8
+T1
+C5
+C6
+C7
+C8
+T1
+L2
+L3
+L4
+L5
+S1
+L2
+L3
+L4
+L5
+S1
+C2
+C3
+C4
+S2
+S3
+S4-5
+T2
+T3
+T4
+T5
+T6
+T7
+T8
+T9
+T10
+T11
+T12
+L1
+C2
+C3
+C4
+S2
+S3
+S4-5
+T2
+T3
+T4
+T5
+T6
+T7
+T8
+T9
+T10
+T11
+T12
+L1
+RIGHT
+LEFT
+UER
+(Upper Extremity Right)
+LER
+(Lower Extremity Right)
+UEL
+(Upper Extremity Left)
+LEL
+(Lower Extremity Left) 
+Elbow fle
+x
+or s
+Wrist extensors
+Elbow extensors
+Finger fle
+x
+or s
+Finger abductors (little fin
+g
+er )
+Hip fle
+x
+or s
+Knee extensors
+Ankle dorsifle
+x
+or s
+Long toe extensors
+Ankle plantar fle
+x
+or s
+Elbow fle
+x
+or s
+Wrist extensors
+Elbow extensors
+Finger fle
+x
+or s
+Finger abductors (little fin
+g
+er )
+Hip fle
+x
+or s
+Knee extensors
+Ankle dorsifle
+x
+or s
+Long toe extensors
+Ankle plantar fle
+x
+or s
+    Pin Prick (PPR)
+Light Touch (LTR)
+Pin Prick (PPL)
+Light Touch (LTL)
+SENSORY 
+KEY SENSORY POINTS
+MOTOR
+KEY MUSCLES
+MOTOR
+KEY MUSCLES
+0 = Absent
+1 = Altered
+2 = Normal
+NT = Not testable
+0*, 1*, NT* = Non-SCI 
+                     condition present
+SENSORY
+(SCORING ON REVERSE SIDE)
+ 0 = Total paralysis
+ 1 = Palpable or visible contraction
+ 2 = Active movement, gravity eliminated
+ 3 = Active movement, against gravity
+4 = Active movement, against some resistance 
+5 = Active movement, against full resistance
+NT = Not testable 
+0*, 1*, 2*, 3*, 4*, NT* = Non-SCI condition present
+MOTOR
+(SCORING ON REVERSE SIDE)
+Comments (Non-key Muscle? Reason for NT? Pain?
+Non-SCI condition?):
+C2
+C2
+C3
+C4
+T3
+S4-5
+S3
+S2
+S1
+L5
+L
+4
+L
+3
+L
+2
+C3
+C4
+T2
+T4
+T5
+T6
+T7
+T8
+T9
+T10
+T11
+T12
+L1
+L2
+L3
+L4
+L5
+C8
+C7
+C6
+Dorsum
+Palm
+Key Sensory
+Points
+Patient Name
+Date/Time of Exam
+Examiner Name 
+Signature
+INTERNATIONAL STANDARDS FOR NEUROLOGICAL 
+CLASSIFICATION OF SPINAL CORD INJURY
+(ISNCSCI)
+ 
+Approach to Spinal Cord Injury 
+Habib Emil Rafka, Dr. Paul Shu, and Dr. Fraser Henderson Jr. 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+  

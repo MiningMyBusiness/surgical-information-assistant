@@ -1,0 +1,823 @@
+Elevation of Depressed Skull Fracture 
+Megan E. H. Still, Joseline Haizel-Cobbina, Dickson Bandoh, Peter Waweru, Michael C. Dewan 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction:  
+Skull fractures typically result from high 
+energy injuries and can be linear, depressed, “ping-
+pong” (typically in the pediatric population), or, in 
+rare circumstances, elevated. Approximately 7.59 
+million people worldwide experienced a documented 
+skull fracture in 2019, with an incidence of 
+approximately 98.9 per 100,000 population annually. 
+Depressed skull fractures are fractures of the cranial 
+vault in which the edges of the bone fragments are 
+displaced from one another and one fragment is 
+depressed into the intracranial space, altering the 
+natural curvature of the calvarium. A skull fracture is 
+not considered significantly depressed unless the 
+fragment is displaced at least the width of the bone. 
+This condition can be seen on imaging when the 
+outer table of the depressed fragment is in line with, 
+or deeper than, the inner table of the adjacent 
+unfractured skull.  
+ 
+ 
+ 
+Axial (Top) and sagittal (Bottom) CT scan demonstrating a 
+depressed frontal bone fracture. This is “Patient 1” in the text 
+below. 
+ 
+3-dimensional CT scan reconstructed image of a circular 
+depressed skull fracture. This is “Patient 2” in the text below. 
+ 
+Causes and Mechanisms 
+Although global data on incidence and 
+mechanism of injury are currently lacking, regional 
+studies agree that the most common mechanism of 
+skull fracture is road traffic accident followed by 
+falls or assault in some contexts.  
+The majority of depressed skull fractures 
+occur in the frontotemporal regions. They can be 
+associated with additional intracranial injuries such 
+as epidural or subdural hematomas, parenchymal 
+contusions, or dural lacerations. Open depressed 
+skull fractures have a higher risk of infection than 
+other traumatic brain injuries, because of the risk of 
+dural tear and cerebrospinal fluid leak due to 
+displaced fragments. Open depressed skull fractures 
+also have a higher risk of seizure, neurologic deficits, 
+and death. 
+ 
+Clinical assessment and diagnosis 
+Primary trauma assessment must always be 
+performed first, involving evaluation of airway, 
+breathing, and circulation (ABCs) to ensure the 
+patient is not at imminent risk and is stable for 
+neurologic examination and imaging. 
+The presenting signs and symptoms of 
+depressed skull fractures are as varied as in traumatic 
+brain injury, ranging from neurologically intact to 
+Elevation of Depressed Skull Fracture 
+Megan E. H. Still, Joseline Haizel-Cobbina, Dickson Bandoh, Peter Waweru, Michael C. Dewan 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+comatose, depending on the extent of intracranial 
+injury 
+and 
+polytrauma. 
+A 
+full 
+neurologic 
+examination should be performed, focusing on 
+Glasgow Coma Scale / alertness and any motor or 
+sensory deficits that may be secondary to injury 
+caused by depressed skull fragments or related 
+intracranial trauma. In cases of severe trauma or 
+evidence 
+of 
+herniation 
+syndrome 
+(altered 
+consciousness accompanied by a unilateral fixed and 
+dilated pupil and/or hemiparesis), always remember 
+to perform an abbreviated neurologic examination 
+for injury localization before you intubate a patient. 
+In severe cases, a depressed skull fracture 
+may be diagnosed by simple inspection of the head, 
+particularly in those with severe cosmetic defects or 
+an open laceration over the fracture. A CT scan of the 
+head is the gold-standard for diagnosing skull 
+fractures and is helpful in evaluating accompanying 
+intracranial injury. If a CT scan is not available, a 
+skull X-ray can diagnose the bony injury, though it 
+will not assist in evaluation of accompanying 
+parenchymal injury. 
+ 
+Management/ Treatment 
+As with any traumatic injury, initial 
+stabilization of the patient, including ABCs and a 
+thorough primary and secondary exam, must be 
+undertaken prior to management of depressed skull 
+fracture. 
+Indications for surgical management of 
+depressed skull fracture include the following:  
+• Depression that is greater than 5-10 mm. Often a 
+good “rule of thumb” is that surgery is indicated 
+if the outer table of the depressed edge is below 
+the inner table of the corresponding edge.  
+• Dural tears that require repair to prevent 
+cerebrospinal fluid leak  
+• Involvement of the frontal sinus, especially if 
+there is severe comminution.  
+• Significant pneumocephalus or intracranial 
+hemorrhage, particularly in the context of 
+neurologic deficits.  
+ 
+Consider also significant or bothersome 
+cosmetic 
+deformities. 
+Many 
+depressed 
+skull 
+fractures 
+can 
+be 
+managed 
+nonoperatively, 
+particularly in the setting of minimal depressed state, 
+closed injury, absence of intracranial hematoma, and 
+reassuring neurologic exam. 
+Additionally, extreme caution should be 
+taken before surgically addressing a depressed skull 
+fracture adjacent to large venous structures such as 
+the superior sagittal or transverse sinuses. Even 
+simple fracture repair can be met with torrential 
+bleeding while risking air embolism.  
+ 
+Sagittal (Left) and coronal (Right) views of a depressed skull 
+fracture that likely perforates the sagittal sinus, which runs at 
+the midline along the interhemispheric fissure. When such cases 
+are over the motor cortex, they can present with weakness of 
+the leg or foot, making management decisions more difficult. 
+Source: https://doi.org/10.1007/s00381-017-3485-z    
+ 
+In the case of a minimally depressed skull 
+fracture in a neurologically well patient with an open 
+laceration 
+over 
+the 
+fracture, 
+conservative 
+management may still be considered. The laceration 
+should be thoroughly irrigated with several liters of 
+sterile water or saline to wash out debris, then 
+scrubbed with a chlorhexidine or other scrubbing 
+agent, prior to multilayer incision closure, preferably 
+with non-braided monofilament suture to reduce risk 
+of infection. Though it is debated, a short course of 
+prophylactic antibiotics may be considered for those 
+who had conservative management of an open, 
+minimally displaced fracture.  
+A minority of depressed skull fractures 
+present as “ping-pong” type in the pediatric 
+population. This subtype of fracture has no 
+fragments, but results from depression of a portion of 
+an infant’s still thin and relatively pliable skull, in a 
+smooth, bowl-like shape into the intracranial space. 
+Non-surgical management options for ping-pong 
+fractures such as vacuum assisted pumps have been 
+successful in restoring skull contour in an ICU 
+setting without the need for anesthesia. Most of such 
+fractures - particularly when depressed less than 
+Elevation of Depressed Skull Fracture 
+Megan E. H. Still, Joseline Haizel-Cobbina, Dickson Bandoh, Peter Waweru, Michael C. Dewan 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+5mm - can be managed conservatively with routine 
+follow up.  
+ 
+ 
+ 
+ 
+Axial (Top) and 3D reconstructed CT scan of ping-pong type 
+fracture (Cases courtesy of Drs. Y. Glick and M. Mohamed, 
+https://radiopaedia.org/articles/ping-pong-skull-
+fracture?lang=us)  
+ 
+Preoperative considerations 
+After initial trauma evaluation, a discussion 
+with the anesthesia team is essential to ensure safe 
+preparation prior to surgical intervention. Timing of 
+and methods of intubation may be affected by 
+changes in neurologic status, airway compromise 
+from polytrauma, or maxillofacial trauma. See 
+Airway Management in Trauma. Despite the urgent 
+nature of intervention for many significant traumatic 
+brain injuries, a minimum of a primary trauma 
+survey and basic blood work such as hemoglobin, 
+platelet count, and coagulation factors should be 
+completed prior to surgery to guide management. 
+The need for blood transfusion can also be heralded 
+by radiographic or physical exam findings such as 
+swirl sign indicating possible active intracranial 
+bleeding, pulsatile scalp bleeding, or fracture 
+depression of subjacent venous sinuses.  
+ 
+Elevation and repair of depressed skull 
+fracture proceeds in the following steps:  
+• Planning and communication with anesthesia and 
+other providers 
+• Clip hair, prepare and drape 
+• Incision and exposure of the fracture 
+• Burr holes and craniotomy around the fracture 
+• Inspection and repair of the dura if necessary, and 
+any other intracranial interventions such as 
+hematoma evacuation 
+• Reduction and fixation of the fracture 
+• Placement and securing the bone flap in place 
+• Scalp closure 
+ 
+Steps: 
+1. At least two functioning intravenous lines should 
+be placed and available for access by the 
+anesthesia team. If feasible, an arterial line 
+allows for close hemodynamic monitoring. 
+Placement of a central line may be considered if 
+there is concern for hemodynamic instability or a 
+high risk for sinus injury or a venous embolism, 
+as described above. 
+2. Communication with the Outpatient or Casualty 
+departments and Anesthesia teams should be 
+ongoing during surgical planning. A complete 
+review of the above considerations should be 
+repeated with the anesthesia and operative staff 
+during a pre-incision time-out. 
+3. Repair of a depressed skull fracture typically 
+does 
+not 
+require 
+significant 
+specialized 
+equipment or technology. Typical cranial 
+operative equipment such as drills, monopolar 
+and bipolar cautery to control bleeding, force-
+Elevation of Depressed Skull Fracture 
+Megan E. H. Still, Joseline Haizel-Cobbina, Dickson Bandoh, Peter Waweru, Michael C. Dewan 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+control suction tips, and theater lights and/or 
+headlights can be sufficient for a safe and 
+effective surgery. In an ideal situation, a high-
+speed drill with a craniotome and a footplate 
+would be available for rapid and safe placement 
+of burr holes and creation of a craniotomy flap. 
+Hemostatic agents such as bone wax, cottonoid 
+patties and gelfoam are ideally available to the 
+surgeon. See Lateral Craniotomy for more details. 
+4. Additional equipment preparations should be 
+made based on pattern of injury and expected 
+potential complications: Depending on the extent 
+of parenchymal injury and additional traumatic 
+brain injuries, a ventriculostomy drain may be 
+required for ventricular decompression with a 
+herniating brain or for intracranial pressure  
+monitoring. An intraoperative ultrasound can be 
+useful in many contexts, including to evaluate for 
+intracranial hemorrhage, look for subdural 
+hematoma to determine if an intact dura needs 
+opening, or to guide ventriculostomy drain 
+placement, if indicated. 
+5. Positioning should be done such that the 
+depressed skull is exposed, with enough room to 
+extend around the fractured pieces if a 
+craniotomy is planned. Typically, it is best if 
+most of the depressed fracture is at the apex of 
+the head, though consideration should also be 
+taken for intracranial injuries, such as subdural 
+hematomas, that may need to be accessed.  
+Cranial fixation can be accomplished in several 
+ways, depending on location of injury, age of 
+patient, and access to resources. Pinning the head 
+in a Mayfield cranial fixation may be considered 
+in some circumstances; however, a safe 
+craniotomy can be performed with the head 
+resting securely on a horseshoe head frame, 
+particularly for a simple pterional approach, and 
+allows for positioning in the supine, prone, and 
+lateral positions. If a Mayfield or horseshoe 
+headrest is not available, cranial fixation may be 
+accomplished with a combination of bumping 
+and propping with pillows, blankets, or bumps 
++/- tape. As with any surgical procedure, assure 
+that all of the patient’s body is secured in as 
+neutral a position as possible, taking care to pad 
+potential pressure points and avoid nerve 
+impingement, particularly at the axilla and hips. 
+A dynamic bed allows intraoperative patient 
+manipulation; 
+Trendelenburg 
+and 
+reverse 
+Trendelenburg positions can assist with surgical 
+exposure and safety. 
+6. Give the patient a generous haircut with electric 
+clippers to mitigate infectious risk and a wide 
+exposure. Be sure to allow for extension of the 
+initial incision if you decide this is necessary 
+during the procedure. 
+7. The type of incision will be guided by fracture 
+location and exposure needed to repair the defect. 
+If the fracture is small and only a fragment needs 
+elevation, a simple linear incision over the 
+fracture site is often adequate. For more 
+extensive fractures or for patients who require 
+additional intracranial interventions such as 
+subdural or intracranial hemorrhage evacuation 
+or frontal sinus exenteration, a more extensive 
+incision may be more appropriate, including a 
+full “reverse question mark” trauma flap incision 
+or a bicoronal incision that extends over the top 
+of the head from approximately 1 cm anterior to 
+the tragus bilaterally. The entirety of the bony 
+injury should be exposed with the incision, often 
+requiring elevation and inferior reflection of the 
+temporalis muscle. 
+ 
+The scalp incision and flap should be adequate to expose all of 
+the skull fracture. Source: 
+https://doi.org/10.4103%2Fajns.AJNS_111_19  
+ 
+Elevation of Depressed Skull Fracture 
+Megan E. H. Still, Joseline Haizel-Cobbina, Dickson Bandoh, Peter Waweru, Michael C. Dewan 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Frontal skull fracture- the best incision in this case was a 
+bicoronal craniotomy that exposed all of the frontal bones from 
+the vertex of the skull (bottom of picture) to the upper orbits 
+(top of picture.) Source: 
+https://doi.org/10.1155%2F2014%2F879286  
+ 
+8. Burr holes should be thoughtfully placed away 
+from the fracture line but to allow for adequate 
+bony elevation. Burr holes may be made with a 
+perforator or manually with a matchstick drill bit, 
+based on surgeon preference and indications for 
+speed (such as active herniation or uncontrolled 
+bleeding). If these tools are not available, manual 
+burr hole drills and a Gigli saw may be used to 
+create a craniotomy around the fractured 
+fragments.  
+9. For a simple linear depressed skull fracture, the 
+depressed edges may be elevated directly and 
+plated together for stabilization. Burr holes may 
+be drilled to assist in elevation of the depressed 
+edges or to elevate the depressed portion of a 
+“ping-pong” fracture.  
+10. For larger, more complex, or multi-fragment 
+fractures, drill a craniotomy circumferentially 
+around the fragments by connecting the burr 
+holes with the cutting bit of an electric perforator, 
+or with a Gigli saw. 
+ 
+Circumferential craniotomy around all bony fragments 
+involved in the fracture allows the fracture to be elevated safely 
+away from the dura and brain, rather than risking damage by 
+trying to elevate the fragments while they are adjacent to the 
+brain (Patient 1). 
+ 
+ 
+Circumferential craniotomy around the circular depressed 
+fracture, once again avoiding manipulation of sharp bone 
+fragments while they are in contact with the dura or brain 
+(Patient 2). 
+ 
+11. In cases of severe fragmentation or fragment loss, 
+a craniectomy may be performed and the bone 
+Elevation of Depressed Skull Fracture 
+Megan E. H. Still, Joseline Haizel-Cobbina, Dickson Bandoh, Peter Waweru, Michael C. Dewan 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+flap is removed. The defect is filled with titanium 
+mesh, split graft donor bone, or allographic 
+implant, depending on the situation. In resource-
+limited settings, the defect may remain in place 
+until a later date.  
+The degree of bony work should also be 
+guided by the need for intracranial exploration: if 
+there is no evidence of intracranial hemorrhage 
+or dural laceration, simple elevation of the 
+fracture may be an option. Craniotomy or 
+craniectomy may be required for evacuation of a 
+subdural or intraparenchymal hemorrhage or for 
+dural defect repair, if indicated. During bony 
+elevation, it is important to carefully dissect dura 
+from the underside of the calvarium to avoid 
+inadvertent dural tears during exposure. 
+ 
+The craniotomy flap should be carefully elevated off the dura, 
+keeping in mind that the dura is often adherent to the bone or 
+contiguous with the inner table periosteum. Care should be 
+taken to scrape the periosteum/dural layer off the bone prior to 
+elevation to avoid causing a durotomy. 
+ 
+12. After the bony fragments are removed from the 
+field, the dura should be thoroughly inspected for 
+defects or signs of intraparenchymal injury. 
+Evaluate for bleeding dural vessels that can 
+contribute to epidural hematomas, and purplish 
+discoloration which can indicate subdural 
+hematoma. Touch the dura gently to assess its 
+tenseness, to get a feel for blood under pressure 
+or elevated intracranial pressure. Intraoperative 
+ultrasound can be helpful in evaluating for 
+intraparenchymal hemorrhages if preoperative 
+imaging was equivocal or if dura is more tense 
+than expected. Dura should be opened, in a 
+cruciate or stellate fashion, for evacuation of 
+subdural or intraparenchymal hemorrhages or if 
+elevated intracranial pressure is suspected.  
+ 
+Visual and tactile inspection of dura. There does not appear to 
+be a dural defect or underlying hematoma in this case 
+ 
+13. If the dura is opened, a similar visual and tactile 
+evaluation 
+should 
+be 
+performed 
+of 
+the 
+parenchyma, paying special attention to bleeding 
+cortical vessels and the pulsatility of the 
+parenchyma. If the parenchyma herniates 
+through the bony defect quickly, it may be 
+necessary to extend the craniotomy, perform a 
+partial lobectomy if parenchyma is non-viable, or 
+plan for a craniectomy to accommodate the 
+elevated intracranial pressure.  
+14. The approach to dura closure depends on the 
+severity of injury. For patients with minimal 
+intracranial injury or simple subdural hematoma 
+evacuations without extracranial herniation, the 
+dura may be laid over the parenchyma or closed 
+with suture via loose approximation. A water-
+tight closure is typically not necessary unless 
+exposure includes the posterior fossa. Small 
+dural lacerations with no evidence of intracranial 
+injury can be repaired primarily without subdural 
+exploration. 
+15. Fixation of the bone fragments or flap may be 
+accomplished with cranial fixation plates or with 
+Elevation of Depressed Skull Fracture 
+Megan E. H. Still, Joseline Haizel-Cobbina, Dickson Bandoh, Peter Waweru, Michael C. Dewan 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+sutures if plates are not available. In resource-
+rich settings, in the pediatric population 
+dissolvable plates or sutures are recommended 
+for patients under 3 years of age to accommodate 
+skull growth.  
+ 
+Bone fragments are secured together using cranial fixation 
+plates 
+ 
+ 
+The reconstructed bone flap is affixed to the native calvarium. 
+The burr hole defect was utilized for epidural drain placement 
+(Black arrow). 
+ 
+ 
+Bone fragments may be affixed to the periosteum native 
+calvarium with sutures if cranial fixation plates are not 
+available 
+ 
+ 
+Multiple holes can be drilled in the native calvarium to secure 
+the bone flap with suture. Source: 
+https://doi.org/10.1007/s00381-017-3620-x  
+ 
+Care should be taken to maintain the bony 
+contour as much as possible by including all large 
+fragments. Adding a slight bend to fixation plates 
+can also improve contour and decrease the risk of 
+skin dehiscence due to protruding foreign bodies. 
+The reconstructed flap should then be fixed to the 
+adjacent skull. 
+16. In the setting of severe brain injury, suspected 
+elevated 
+intracranial 
+pressure, 
+or 
+overt 
+Elevation of Depressed Skull Fracture 
+Megan E. H. Still, Joseline Haizel-Cobbina, Dickson Bandoh, Peter Waweru, Michael C. Dewan 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+parenchymal 
+herniation 
+intraoperatively, 
+a 
+craniectomy may be chosen, leaving the bone 
+flap off prior to closure. In these instances, best 
+judgment should be used in deciding whether to 
+keep or discard the elevated flap. If the fracture 
+was open with significant dirt and debris or if 
+there are several small fragments, the flap may be 
+discarded with future plans to replace it. This 
+option may reduce the risk of infection after 
+cranioplasty if the fracture was open and overtly 
+contaminated 
+and 
+may 
+result 
+in 
+better 
+cranioplasty contour if the fracture was heavily 
+fragmented. Alternatively, if the fracture was not 
+open or fragmented, common practice is to save 
+the elevated bone flap for future replacement, 
+either in a designated tissue fridge if available or 
+in the subcutaneous space in the abdomen if it is 
+not. These decisions are more complicated in 
+resource-limited settings, where alloplastic 
+materials such as bone cement and titanium mesh 
+are often not available.  
+17. To preserve the bone flap in the abdomen, an 
+incision can be made on the abdomen and 
+dissection performed to create a space just 
+superficial to the fascia of the abdominal wall. 
+After placing the bone in this new subcutaneous 
+cavity, the incision can be closed in layers. If the 
+patient has a severe brain injury, take care to 
+place the flap such that it would not interfere with 
+the placement of a feeding gastrostomy tube.  
+18. Closure type should be guided by patient age and 
+concerns for secondary brain injury. An external 
+ventricular drain may be left if there is concern 
+for cerebral injury or edema, either based on the 
+presenting 
+neurologic 
+exam, 
+pre-operative 
+imaging findings, or intraoperative behavior of 
+the parenchyma. Intraoperatively, ventricular 
+drains can be placed based on anatomic 
+landmarks or with imaging guidance such as 
+ultrasound or stereotactic navigation. Consider 
+whether 
+the 
+patient 
+needs 
+postoperative 
+intracranial pressure monitoring. We recommend 
+placing a monitoring device (fiberoptic wire or 
+ventricular drain) in the following situations: 
+preoperative Glasgow Coma Scale of 8 or less, 
+full or tight brain encountered during fracture 
+elevation, radiographic evidence of cerebral 
+edema, or anticipated additional operations 
+needed to address polytrauma injury.   
+19. Gentle suction drains such as Jackson-Pratt 
+drains may be placed during closure, either 
+subdural or subgaleal, depending on the extent of 
+opening. If a subdural hematoma was evacuated, 
+many advocate placing a drain to mitigate the risk 
+of hematoma re-accumulation; this topic remains 
+debated. In a low-resource setting, a soft latex 
+drain such as a 12F Foley catheter with extra 
+holes cut in it, attached to gravity drainage, is an 
+acceptable alternative.  
+20. Skin closure materials can be chosen based on 
+incision location, surgeon preference, and 
+available materials. A multi-layered approach 
+should be undertaken with simple interrupted 
+dissolvable suture used to close temporalis fascia, 
+inverted dissolvable suture used to close galea, 
+and a final dermal closure. Skin staples are a 
+common choice for dermal closure provided the 
+galea is closed separately. Non-absorbable suture 
+such as monofilament nylon is also a good option 
+to prevent bacterial growth on braided suture and 
+allows for inspection of the incision prior to 
+suture removal. Dissolvable suture is sometimes 
+considered in the pediatric patient if intracranial 
+trauma was minimal with minimal parenchymal 
+swelling and no plan for re-operation (e.g. no 
+need for cranioplasty at a later date). 
+21. Patients who undergo surgical intervention for 
+depressed skull fracture should be monitored in 
+an intensive care unit in the immediate 
+postoperative period. For those with ventricular 
+drains or pressure monitors, intensive care is a 
+requirement. 
+Every 
+1–2-hour 
+neurologic 
+examinations 
+should 
+be 
+performed 
+by 
+neurologically trained staff, and the surgeon 
+informed immediately of signs of decline in 
+neurologic status. Close monitoring of fluid 
+status and vital signs is important to maintain 
+appropriate intracranial and cerebral perfusion 
+pressures. While ventricular drains should be 
+monitored hourly for intracranial pressure trends 
+and output, subdural or subgaleal drains can be 
+evaluated and output measured every 4-6 hours. 
+Elevation of Depressed Skull Fracture 
+Megan E. H. Still, Joseline Haizel-Cobbina, Dickson Bandoh, Peter Waweru, Michael C. Dewan 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+The surgical team should be notified promptly of 
+any acute changes to drain output.  
+22. After initial surgical intervention, the primary 
+focus turns to prevention of secondary injuries. 
+For patients with severe traumatic brain injury, 
+trauma guidelines recommend a 7 day course of 
+prophylactic antiepileptic medication, which can 
+help prevent early post-traumatic seizures, 
+though it does not improve long-term outcome. 
+Some surgeons chose to prescribe a week of 
+prophylactic antiepileptics to patients with 
+moderate traumatic brain injury who underwent 
+surgical intervention or were found to have 
+intracranial 
+hemorrhage. 
+In 
+addition 
+to 
+maintaining 
+appropriate 
+intracranial 
+and 
+perfusion pressure levels and fluid management, 
+care should be taken when positioning patients, 
+especially 
+those 
+who 
+are 
+comatose 
+or 
+experiencing motor deficits. Pressure points such 
+as sacrum, hips, elbows, and heels should be 
+padded, and a regular regimen of turning should 
+be instituted to avoid pressure wounds. Special 
+care should be taken to avoid pressure wounds on 
+the posterior of the skull, particularly if the area 
+has traumatic lacerations or abrasions. Finally, 
+wound care should be tailored to the incision 
+location, closure material, and context. A simple 
+bandage may be used as barrier protection for the 
+first 24-48 hours postoperatively, after which the 
+incision may be left to air if the context is 
+sufficiently clean. Care should be taken to keep 
+the incision clean, dry, and not covered by hair, 
+hats, or scarfs, until it is fully healed.  
+23. Follow up times will vary depending on extent of 
+injury and intervention, length of intensive care 
+and hospital stay, and extent of persistent 
+neurologic deficit. At a minimum, a patient 
+should be evaluated approximately 10-14 days 
+after surgery to ensure the incision is healing 
+appropriately and there are no signs of early 
+infection. A postoperative CT scan is often not 
+necessary in the case of a simple skull fracture 
+repair but may be desired to evaluate for ongoing 
+resolution of intraparenchymal or subdural 
+hematomas, particularly for those who are not 
+neurologically intact.  
+ 
+Outcomes: 
+An isolated skull fracture typically presents 
+with minimal symptoms or symptoms of concussion 
+and has a good prognosis for recovery after surgical 
+repair. Prognosis after depressed skull fracture is 
+largely related to additional intracranial injuries 
+and/or complications encountered intraoperatively. 
+In many studies, most patients had good long-term 
+outcomes after a brain injury with a depressed skull 
+fracture; however, this is certainly influenced by the 
+extent of parenchymal damage and secondary brain 
+injury. 
+Motor 
+deficits, 
+pneumocephalus 
+on 
+admission CT scan, pre-operative GCS<13, need for 
+reoperation, and hospitalization longer than 3 days 
+were found to be predictors of poor neurologic 
+outcomes in one study. Persistent neurologic deficits 
+may necessitate long-term physical therapy or a stay 
+in an inpatient rehabilitation center during the 
+recovery process. In resource-poor settings, long-
+term rehabilitation by professionals is out of reach of 
+most families, who find that the burden of care falls 
+on them. Discussions around these situations can be 
+very difficult and should be led by a member of the 
+team who understands the needs and abilities of 
+families in the local context. 
+In addition to the outcomes related to brain 
+injury, patients who undergo surgical repair of 
+depressed skull fracture are at risk for postoperative 
+infection (reported in 4-16% in some case reports), 
+seizures (3-12%), and cerebrospinal fluid leak (3%). 
+ 
+Pitfalls 
+Fractures traversing the venous sinuses have 
+unique risks. It is recommended to get a CT 
+venogram, MRA or angiogram with venous flow 
+phase for adequate evaluation. If these are not 
+available, a knowledge of venous sinus anatomy as it 
+relates to the fracture pattern is crucial. After 
+evaluation, the decision to operate on these patients 
+is based on the degree of venous flow compromise, 
+location of the sinus involvement and the 
+neurological status of the patients. Midline fractures 
+over the “motor cortex” and sagittal sinus may 
+present with ipsilateral or bilateral lower extremity 
+Elevation of Depressed Skull Fracture 
+Megan E. H. Still, Joseline Haizel-Cobbina, Dickson Bandoh, Peter Waweru, Michael C. Dewan 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+weakness due to impingement of the fracture on that 
+portion of the “homunculus.”  
+Neurologically stable patients with a closed 
+fracture over a patent venous sinus can be observed. 
+If the fracture is open, the patients should undergo 
+debridement without elevation of the bone segment. 
+However, neurologically unstable patients or those 
+with severe deformity may require urgent elevation 
+of the depressed bone segment. In this case, special 
+preparations should be made in case of violating the 
+sinus, including sinus paddies (comprised of 
+surgicell and a pledget) to hold gentle pressure, 
+suture to repair defects, and type and crossmatched 
+blood available or in the room for transfusion if 
+massive bleeding is encountered. Violation of the 
+sinus also significantly increases the risk of an air 
+embolism, so close communication with the 
+anesthesiology team must be maintained: Notify the 
+anesthesiologists if the sinus is entered and ensure 
+continued monitoring of end tidal pCO2. If air 
+embolism is suspected, rapidly flood the field with 
+saline, turn the patient or bed such that the left side 
+is down, and move the patient to the Trendelenburg 
+position. 
+ 
+Conclusion: 
+Depressed skull fractures comprise a variety 
+of injuries and can present as simply as a cosmetic 
+deformity in an intact patient or accompany a severe 
+traumatic brain injury. Considerations for operative 
+management include whether the fracture is open or 
+there is exposed bone, the significance of the 
+displaced fragments, the patient’s neurologic status 
+and severity of polytrauma, and suspicion or 
+confirmation of additional intracranial injuries. The 
+goal of surgical management includes elevation of 
+the fractured bone fragments, evaluation and 
+evacuation of possible subdural injuries, evaluation 
+and repair of dural defects, and reconstruction of the 
+normal round contour of the skull. Specific 
+approaches to treatment and follow up will depend 
+on severity of injury and resources available in each 
+context. 
+ 
+ 
+ 
+Megan E. H. Still, MD 
+University of Florida 
+Florida, USA 
+ 
+Joseline Haizel-Cobbina, MBChB, MPH 
+Vanderbilt University Medical Center,  
+Tennessee, USA 
+ 
+Dickson Bandoh, MBChB, FWACS 
+Komfo Anokye Teaching Hospital 
+Kumasi, Ghana 
+ 
+Peter Waweru, MBChB 
+Tenwek Hospital 
+Kenya 
+ 
+Michael C. Dewan, MD, MSCI 
+Vanderbilt University Medical Center,  
+Tennessee, USA 
+ 
+October 2024 

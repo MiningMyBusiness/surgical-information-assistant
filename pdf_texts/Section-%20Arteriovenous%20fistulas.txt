@@ -1,0 +1,300 @@
+Section: Arteriovenous Fistula Planning and Decision-Making 
+Jerry Svoboda, Richard Davis 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Background:  
+ 
+In very poor countries, options for chronic 
+renal insufficiency are few. As a country advances 
+economically however, penetration of hemodialysis 
+will increase. The surgeon will be called on to place 
+temporary or permanent dialysis catheters and to 
+create arteriovenous fistulas.  
+The basic principle of an arteriovenous 
+fistula is this: when a vein is subjected to arterial 
+blood flow, it dilates and its wall becomes thickened. 
+Such a fistula should have enough blood flow to 
+permit rapid withdrawal and replacement of blood 
+during hemodialysis (350-800mL/minute.) The 
+thickened walls are able to withstand repeated 
+venipuncture. If such a vein is near enough to the 
+skin, it can be repeatedly accessed by a non-
+physician for hemodialysis. Reaching this condition 
+takes at least 6 weeks, sometimes several months.  
+Decision 
+on 
+criteria 
+for 
+long-term 
+hemodialysis is generally not the purview of the 
+surgeon. (Conversely, the surgeon must be well 
+aware of the criteria for short term dialysis in case of 
+acute kidney injury. Briefly, they are acidosis, 
+volume overload, uremia, hyperkalemia and need for 
+clearance of toxins.) 
+ 
+Anatomy:  
+ 
+The arm is preferred over the leg for fistula 
+creation. Whereas the arterial anatomy of the arm 
+varies only rarely, the venous anatomy is highly 
+variable. 
+ 
+The brachial artery in the upper arm runs within the muscle 
+fascia. It is covered by the bicipital aponeurosis, a band of 
+fibrous tissue that runs between the biceps and the pronators 
+and flexors of the wrist. This structure must be divided to access 
+the artery at the level of the elbow. Though the median nerve 
+runs just medial to the artery, it is most often not seen during 
+fistula surgery. Injury to this structure is unlikely with careful 
+dissection. The ulnar nerve runs posteromedial to these 
+structures, and is vulnerable to injury during careless 
+dissection of the basilic vein.  
+ 
+Section: Arteriovenous Fistula Planning and Decision-Making 
+Jerry Svoboda, Richard Davis 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The radial artery is palpable in the distal forearm before it 
+passes under the extensors and abductors of the thumb to 
+anastomose with the ulnar artery via the palmar arch. It is not 
+palpable proximal to the mid forearm, and more difficult to 
+access, as it passes underneath the brachioradialis muscle.  
+ 
+ 
+The anatomy of the superficial venous system of the arm is 
+highly variable; one possibility is shown here. The cephalic and 
+basilic veins in the upper arm are constant. A median 
+antecubital vein is often present, connecting to the cephalic 
+vein. The cephalic vein running along the radial side of the 
+forearm is usually present.  
+ 
+ 
+Section: Arteriovenous Fistula Planning and Decision-Making 
+Jerry Svoboda, Richard Davis 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Principles:  
+ 
+There are two possibilities for fistula 
+creation: Arteriovenous fistula, the direct connection 
+of a vein to an artery, and arteriovenous graft, the 
+connection of an artery to a vein by a prosthetic 
+conduit. The prosthetic material, if used, is usually 
+polytetrafluoroethylene (PTFE, various brands.) 
+Fistulas are most commonly connected end-vein to 
+side-artery. Grafts are connected end-graft to side-
+artery and side-vein. When used, the graft is 
+configured either straight in the forearm or upper 
+arm, or as a loop in the forearm. Infection of the graft 
+mandates removal, but it is unclear whether such 
+infections occur more frequently in resource-limited 
+settings such as ours.  
+Arteriovenous fistulae are generally placed in 
+four common locations: 
+● Distal radial-cephalic: the end of the cephalic 
+vein is anastomosed to the side of the radial 
+artery at the wrist. This fistula has perhaps the 
+lowest success rate of all due to the frequently 
+small size of the vein here. However, it can be 
+done under local anesthesia and if it fails, another 
+fistula can be attempted more proximally in the 
+arm. The converse is not true: if a proximal 
+fistula has failed, a more distal one is unlikely to 
+succeed. Another advantage to this fistula is that 
+in >95% of patients, the hand will remain viable 
+even if the radial artery is irreversibly damaged 
+through surgical misadventure, because of the 
+ulnar artery and the palmar arch. Similarly, “steal 
+syndrome,” the loss of perfusion to the distal arm 
+due to excessive flow through the fistula, occurs 
+only rarely. Creation of a wrist level AVF is 
+advised if the vein is adequate, as patients on 
+long-term dialysis need as many possible fistula 
+sites preserved as possible.  
+● Proximal radial-cephalic: the end of the cephalic 
+vein is anastomosed to the side of the radial 
+artery in the forearm. This operation is practical 
+up to the mid-forearm, though the radial artery is 
+deeper than at the wrist. It is a useful option if 
+veins in this area are large, and it does not prevent 
+a fistula based on the brachial artery later. The 
+advantages of radial artery fistula described 
+above also apply here.  
+● Brachial-cephalic: The end of the cephalic or 
+lateral antebrachial cutaneous vein is attached to 
+the side of the brachial artery. This operation is 
+technically easy to perform; all the vessels 
+involved are relatively large and superficial. The 
+major disadvantage is the potential for steal 
+syndrome. Patients may experience coldness, 
+numbness, or severe pain, either during dialysis 
+or during use of the hand. This complication is 
+best prevented by limiting the size of the 
+arteriotomy to 6mm.  
+● Brachial-basilic: The end of the basilic vein is 
+attached to the side of the brachial artery. The 
+basilic vein runs deep to the fascia of the upper 
+arm and is therefore unsuitable as a fistula unless 
+it is superficialized. This is commonly done by 
+dissecting it out along its length from the elbow 
+to the axilla, and then transposing it to the 
+anterior midline of the upper arm, where it is 
+more accessible for dialysis. This transposition 
+can be done in one or two stages, as described in 
+the Chapter on this operation.  
+ 
+Decision Making: 
+ 
+The surgeon must evaluate the patient very 
+carefully and select a location where the fistula has 
+the best chance of success. The patient should 
+understand that fistulas are generally not permanent, 
+so part of the planning includes considering future 
+fistula locations and the effect that any present one 
+will have. The following general principles apply:  
+● Patients will generally prefer a fistula on their 
+non-dominant arm, though the surgeon should 
+prefer this side only if the veins and arteries are 
+of otherwise equal quality on both sides. 
+● The surgeon should consider the position that the 
+arm will be in during dialysis; even a paralyzed 
+or contracted arm is acceptable as long as a 
+fistula on it can be accessed while the patient is 
+seated comfortably.  
+● Fistulas will generally have at least a 10% initial 
+failure rate, even if made perfectly with excellent 
+quality vessels. The most meticulous attention to 
+detail is needed to assure the highest chance of 
+success! 
+● When a distal fistula fails, one can be placed 
+more proximally. However, when a proximal 
+fistula fails, a subsequent more distal one is 
+usually unsuccessful.  
+Section: Arteriovenous Fistula Planning and Decision-Making 
+Jerry Svoboda, Richard Davis 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+● Fistulas with veins smaller than 2.5mm diameter 
+often fail immediately. Those with veins smaller 
+than 3mm diameter may have prolonged 
+maturation times, even if they remain patent.  
+● Veins that have been repetitively traumatized are 
+less useful for a durable fistula. Once a fistula site 
+is chosen, the patient should receive no further 
+blood draws or IV’s on that side. Once the fistula 
+has been placed, IV’s, blood draws, and blood 
+pressure checks on that side are strictly 
+forbidden.  
+ 
+The patient’s arterial and venous system are 
+carefully evaluated by physical examination, 
+supplemented with ultrasound.  
+ 
+A venous ultrasonography chart such as this one can be used 
+by the ultrasonography staff to document the sizes and patency 
+of the veins. 
+ 
+ 
+The patient’s radial and brachial pulses are 
+evaluated. A feeble radial pulse should not be used. 
+A patient with diabetes may have a calcified radial 
+artery, which is hard to the touch. These will be very 
+difficult to use for fistula formation.  
+ 
+A phlebotomy tourniquet is then placed 
+around the upper arm and the arm is allowed to hang 
+below the level of the patient’s bed or chair. The 
+superficial venous system can be assessed: patent 
+veins should be palpable but compressible, whereas 
+thrombosed veins will be noncompressible. The 
+patient may squeeze and release their fist, or squeeze 
+a rubber ball, to increase vein distention.  
+ 
+The veins and arterial pulsation can be 
+marked for decision making. The surgeon should 
+assess the superficial veins for the following:  
+● Compressibility: does the vein in question seem 
+thrombosed, or otherwise in poor shape? Healed 
+scars above the vein may indicate previous 
+trauma. Visible venous valves are a normal 
+finding; the vein can still be used.  
+● Length: can enough vein be mobilized to reach 
+the arterial pulsation? Are there large branches 
+that must be ligated in order to do so?  
+● Size: does the vein seem to be at least 3mm in 
+size? Be sure to give the veins a fair assessment: 
+they will consistently get larger the longer that 
+the arm has been hanging off the side of the bed 
+or chair with the tourniquet in place.  
+ 
+Section: Arteriovenous Fistula Planning and Decision-Making 
+Jerry Svoboda, Richard Davis 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Examination of the radial artery. The surgeon palpates with the 
+index finger, moving up and over the bone into the recess 
+adjacent to it, feeling for the pulsation of the radial artery.  
+ 
+ 
+The same right arm (previously marked for surgery,) hanging 
+over the side of the bed, immediately after application of the 
+tourniquet (left) and after two minutes (right.) The longer after 
+the tourniquet has been applied, the more visible the veins will 
+be, so wait a while before concluding that there aren’t any 
+usable options. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Jerry Svoboda, MD FACS 
+Rochester, New York 
+USA 
+ 
+Richard Davis, MD FACS FCS(ECSA) 
+AIC Kijabe Hospital 
+Kenya 
+Resource-Rich Settings 
+Arteriovenous fistula creation is open surgery in Resource-
+Rich settings as well. One difference, however, is the 
+availability of percutaneous radiological interventions to 
+salvage a thrombosed fistula, which can extend its lifetime.  
+ 
+Peritoneal dialysis has been used successfully in the short 
+term in resource-limited settings. But it has not been adopted 
+as well in the long term, because of the need for complex 
+dialysis solutions and the severe complications of sclerosing 
+peritonitis. 
+ 
+The biggest difference in Resource-Rich settings is the 
+availability of renal transplantation. In fact, in patients whose 
+renal failure will occur at a predictable time, renal 
+transplantation can be used to avoid dialysis altogether.  

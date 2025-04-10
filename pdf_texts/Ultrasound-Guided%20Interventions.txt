@@ -1,0 +1,350 @@
+Ultrasound-Guided Interventions 
+Vallery Logedi, Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction:  
+ 
+Ultrasound-guided biopsy, drainage or drain 
+placement is the most advanced form of surgeon-
+performed ultrasound. The surgeon must have 
+excellent technical understanding and skill in order 
+to place the tip of a needle into a structure, seeing it 
+continuously to avoid injury to surrounding 
+structures. This is an advanced skill requiring 
+proficiency and understanding of ultrasound. See 
+Introduction to  Ultrasonography for more details.  
+ 
+In general, any probe can be used for an 
+ultrasound-guided intervention. However, the depth 
+of the structure in question determines which probe 
+should be used. The linear (vascular) transducer, 
+with frequencies of 5 - 7.5mHz, shows detail at 
+depths up to 6 cm and should be used for venous 
+catheterization. It can also be used for breast or neck 
+mass biopsy. The curved (abdominal) transducer, 
+with frequencies of 2.5 - 3mHz, shows detail up to 
+18cm. This should be used for drainage of intra-
+abdominal abscess or liver biopsy.  
+ 
+It is important to remember what an 
+ultrasound probe shows, and what it doesn’t. The 
+image from an ultrasound probe is two-dimensional, 
+like a “cross section” of the tissue immediately 
+beneath the probe. If the needle is completely within 
+the flat plane of tissue beneath the probe, all of it will 
+be seen. If the needle merely passes through the plane 
+of tissue in one place, it will be seen as only a dot. If 
+the needle is parallel to, but not passing through, the 
+plane of the tissue underneath the probe, it will not 
+be seen at all. These last two situations should be 
+avoided as much as possible, because the sharp tip of 
+the needle is unseen by the operator.  
+ 
+ 
+ 
+ 
+Correct technique. The needle is completely within the two-
+dimensional plane. It is seen by the ultrasound, including the 
+tip which can be seen as it advances.  
+ 
+ 
+Incorrect technique: The path of the needle is not aligned with 
+the plane of the ultrasound. Only the part of the needle that 
+passes through the plane of the ultrasound can be seen 
+(represented by a Red dot in the drawing and a White dot on 
+the ultrasound image.) The tip of the needle, unseen, may be 
+perforating another structure.  
+ 
+ 
+Incorrect technique: The needle is parallel to the plane of the 
+ultrasound, but not within the plane. The needle cannot be seen 
+at all; its tip may be perforating another structure. All above 
+ultrasound images courtesy of Dr Bruno Di Muzio, from the 
+case https://radiopaedia.org/cases/31841?lang=us  
+ 
+Ultrasound-Guided Interventions 
+Vallery Logedi, Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Ideally, for intra-abdominal interventions a 
+CT scan is done first. The images are then used as a 
+reference for surgical planning; probe placement can 
+be guided by palpable landmarks such as the costal 
+margin or the iliac crest. If CT is unavailable, the 
+surgeon must use fixed intra-abdominal landmarks 
+for reference while examining the anatomy with the 
+ultrasound probe. Landmarks include the liver, the 
+kidneys, the diaphragm, the bladder (or the Foley 
+catheter balloon) and the retroperitoneal vessels. The 
+bowels themselves, being compressible and mobile, 
+are not useful as landmarks.  
+ 
+The most feared complication of any 
+ultrasound-guided intervention is iatrogenic injury to 
+surrounding structures. In the neck, the vessels of the 
+carotid sheath as well as the trachea and esophagus 
+are at risk. In the abdomen, the operator must avoid 
+injury to the bowels, the great vessels, and the larger 
+vessels within the liver. In general, the liver is a 
+friend to the interventionist, because it is easy to 
+visualize and relatively safe to pass a needle through. 
+Drainage of subphrenic or para-duodenal abscesses, 
+as well as percutaneous cholecystostomy, all involve 
+passing a needle through the liver to get to the 
+pathology. Coagulation must be adequate; the 
+International Normalized Ratio (INR) should be less 
+than 1.6.  
+Ultrasound-guided abscess aspiration can be 
+performed with nothing more than an ultrasound and 
+a long enough needle. Core needle biopsies need 
+only 
+an 
+ultrasound 
+and 
+biopsy 
+equipment. 
+Interventions such as abscess drainage require some 
+specialized equipment, at minimum a central line kit 
+with a guidewire and a needle. Once the guidewire is 
+placed within the structure, other interventions can 
+be done over the wire using the Seldinger technique 
+(described elsewhere in this Manual.)  
+Dedicated sterile ultrasound probe covers are 
+available commercially in high-resource settings. 
+We demonstrate here a technique for making your 
+own ultrasound probe cover using a sterile surgical 
+glove and a sterile towel.  
+ 
+Ultrasound-guided interventions are done in 
+the following steps: 
+● Position the patient, ultrasound and surgeon 
+● Perform ultrasonography to plan the  approach 
+● Anesthetize under ultrasound guidance 
+● Pass the needle tip into the structure of interest 
+● Perform the intervention (biopsy, aspiration, 
+catheter placement) 
+ 
+Steps: 
+1. The first step will usually include any workup or 
+preoperative considerations. In the case of an 
+ultrasound-guided liver biopsy as shown below, 
+that would include checking for a normal 
+hemoglobin, platelet count, prothrombin time 
+and INR. 
+2. Local anesthesia alone is adequate for such 
+procedures in cooperative patients.  
+3. First the patient is positioned. Visualize the mass 
+to be biopsied with ultrasound before the site is 
+cleaned and draped. For ergonomic purposes it is 
+important to ensure that the ultrasound machine 
+is placed opposite the biopsy site and by 
+extension, the surgeon. 
+4. The site is cleaned and draped. There is usually 
+no need for full drapes as field sterility is 
+adequate 
+ 
+Patient positioned for an ultrasound-guided intra-abdominal 
+mass biopsy.  
+ 
+5. Local anesthesia is injected around the biopsy 
+site. Alternatively, local anesthesia can be 
+injected while visualizing the mass in step #3 
+above.  
+6. An extra sterile towel or small drape is laid across 
+the field as shown in the image below. This will 
+Ultrasound-Guided Interventions 
+Vallery Logedi, Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+be used to cover the ultrasound probe cable and 
+ensure sterility. The probe is placed in a sterile 
+glove containing ultrasound gel and then 
+wrapped in the towel. 
+ 
+Ultrasound probe covered with gel and placed inside a sterile 
+glove 
+ 
+ 
+Green towel for wrapping probe cable (within the Red line) 
+ 
+ 
+Probe, manipulated by the operator holding the sterile glove, is 
+placed on the extra towel 
+ 
+ 
+The towel is closed brought together and wrapped over the 
+probe and wire. 
+ 
+ 
+Probe secured within the towel using gauzes. The same effect  
+can be achieved using sterile adhesive tape, penetrating towel 
+Ultrasound-Guided Interventions 
+Vallery Logedi, Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+clips or hemostats to keep the towel closed over the probe and 
+wire. 
+ 
+7. After confirming the site of the mass to be 
+biopsied, a stab incision is made over the site in 
+the area that was anesthetized. The core biopsy 
+needle is inserted under ultrasound guidance. 
+Intervention such as biopsy or aspiration is 
+performed. On completion, the site is cleaned and 
+dressed. 
+ 
+Biopsy in progress. The same operator holds both the probe and 
+the needle. This allows both structures to be manipulated 
+together so that the needle stays in the plane of visualization.  
+ 
+ 
+Another example of the correct technique for biopsy: The same 
+operator holds both the needle and the ultrasound probe, 
+allowing both to be manipulated simultaneously so that the 
+needle stays within the plane of visualization of the probe.  
+ 
+Biopsy in progress. Note that the machine is placed opposite 
+the patient from the surgeon, so that the ultrasound image can 
+be seen without the surgeon having to rotate their body or neck.  
+ 
+Pitfalls 
+● As stated earlier, it is important to familiarize 
+yourself with the ultrasound machine and to 
+ensure visualization of the needle at all times to 
+avoid injury to other structures. 
+● Biopsy within the liver can lead to injury to the 
+vascular or biliary structures, leading to an 
+arteriovenous or arterio-biliary fistula. Proper 
+technique and avoidance of large vessels is 
+crucial 
+to 
+prevent 
+this 
+life-threatening 
+complication.  
+● Be aware that as the patient breathes, the liver 
+moves and your target may move out of the plane 
+of visualization. Advance the needle with the 
+respiratory cycle, or ask the patient to hold their 
+breath.  
+● As you gradually become facile with this 
+technique, you will be able to place the tip of the 
+needle within increasingly smaller objects. Start 
+with large targets. 
+ 
+Ultrasound-Guided Interventions 
+Vallery Logedi, Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Guide: Gelatin Model for Practicing Ultrasound-
+Guided Interventions 
+ 
+There are special motor skills for handling 
+the needle and the ultrasound probe simultaneously, 
+keeping the needle in the field of view while 
+advancing it through tissue. It is best to acquire these 
+skills on a realistic model rather than on a living 
+human being. We have developed the following 
+technique for teaching this skill, using pieces of soft 
+fruit suspended in gelatin.   
+ 
+We usually have ultrasound practice sessions 
+of 1-2 hours each, with about 3-4 stations. We obtain 
+several ultrasound machines at once from various 
+hospital departments, and hire people to allow their 
+necks and abdomens to be ultrasounded. Trainees 
+then rotate through stations practicing their 
+ultrasound skills. This gelatin biopsy model is one of 
+the stations.  
+ 
+The gelatin biopsy model must be prepared 
+several days in advance, as it entails at least two 
+cycles of curing the gelatin in layers, so that the 
+“tumors” are suspended within the gelatin.  
+1. Obtain packets of gelatin, either plain or 
+flavored, as available.  
+ 
+An example of gelatin available in a local market.  
+ 
+2. Obtain a bowl with a round shape. Line the inside 
+of the bowl with butter or grease. This will make 
+the gelatin and plastic wrap easier to remove 
+from the bowl once it is cured.  
+3. Line the inside of the bowl with plastic wrap, 
+which will serve as a protective “skin” over the 
+gelatin when you are performing ultrasound.  
+4. Using hot water, make enough gelatin to fill the 
+bowl halfway. Use double the strength specified 
+by the manufacturer’s instructions. Place the 
+bowl in a refrigerator and allow it to harden 
+overnight.  
+5. Once the gelatin has hardened, place pieces of 
+fruit in the bowl. Use soft, non-round pieces such 
+as slices of banana or mango, or sections of 
+orange or tangerine. Round fruit like cherries or 
+grapes will roll around on the surface of the 
+hardened gelatin and collect all together in one 
+side of the bowl. Hard fruit like slices of apple 
+will be more difficult to pass a needle through.  
+6. Another variation includes a balloon filled with 
+milk, to simulate an abscess to be aspirated. You 
+can use a central line kit to practice placing a 
+catheter within the abscess using the Seldinger 
+technique.  
+7. Make enough double-strength gelatin to fill the 
+bowl the rest of the way. Pour it over the fruit 
+pieces, assuring that they remain in place and do 
+not “clump” together in one corner of the 
+mixture. Return the bowl to the refrigerator 
+overnight.  
+8. Gently remove the gelatin and plastic wrap from 
+the bowl by placing a plate over the top of the 
+bowl and inverting it. You may need an assistant 
+for this step, depending on the size of the bowl. 
+The plastic wrap should easily separate from the 
+bowl because of the butter or grease you applied. 
+If this does not happen, pour a small amount of 
+hot water over the outside of the bowl.  
+9. Apply ultrasound gel to the plastic wrap on the 
+surface of the gelatin and practice visualizing the 
+fruit with the ultrasound. Then, practice passing 
+the needle into the gelatin while visualizing the 
+needle entirely with the probe.  
+Ultrasound-Guided Interventions 
+Vallery Logedi, Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Using an ultrasound probe in one hand and a biopsy needle in 
+the other, the operator can easily practice the skill of 
+visualizing the entire needle and advancing it safely within the 
+gelatin.  
+ 
+Vallery Logedi, MBCHB 
+AIC Kijabe Hospital 
+Kenya 
+ 
+Richard Davis MD FACS FCS(ECSA) 
+AIC Kijabe Hospital 
+Kenya 
+ 
+January 2023 

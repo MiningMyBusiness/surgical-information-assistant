@@ -1,0 +1,513 @@
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction 
+ 
+The World Health Organization estimates 
+that 5.5 billion people do not have access to 
+treatments for moderate to severe pain. The majority 
+of these people live in low- and middle-income 
+countries. As the availability of surgical services 
+increases in these settings, the need for treatments for 
+moderate to severe perioperative pain will also 
+increase. The barriers to improving access to 
+treatment for pain are numerous and include low 
+prioritization of pain relief by both the patient and the 
+healthcare provider, lack of understanding regarding 
+therapies, misconceptions about opioid addiction, 
+lack of reliable supply chains for analgesics, and lack 
+of understanding regarding the physical, social and 
+emotional harms of poorly controlled pain.  
+Despite these obstacles, it has been shown 
+that improvements in pain management are possible, 
+even in low-resource settings. In recent years there 
+has been growth in both research and advocacy 
+related to pain management in austere settings. 
+However, without access to pain management 
+education these efforts will be wasted. Essential Pain 
+Management (EPM) is one example of a step toward 
+improving access to education in pain management. 
+EPM was developed in 2010 as a short course (one 
+to two days) to be delivered to healthcare providers 
+of different cadres to equip these providers with the 
+necessary tools to recognize, assess and treat pain, 
+especially in low-resource settings. This course has 
+now been translated into seven languages and 
+delivered in over 60 countries worldwide. Today an 
+on-line version exists and is freely available at 
+https://www.anzca.edu.au/safety-advocacy/global-
+health/essential-pain-management. 
+The harms of poorly controlled pain, 
+including 
+perioperative 
+pain, 
+are 
+numerous. 
+Uncontrolled pain leads to activation of the 
+sympathetic nervous system which can lead to 
+hypertension and myocardial stress. Chest wall and 
+abdominal pain can lead to shallow breathing 
+causing atelectasis. Patients who are in severe pain 
+will be less likely to ambulate, increasing the risk of 
+thrombotic complications. Severe pain will also lead 
+to disturbances in sleep patterns and poor appetite. 
+At a more personal level, pain is closely linked to 
+depressed mood and social stress. All of these 
+complications inevitably lead to increased duration 
+of hospitalization and increased cost of healthcare.  
+Finally, there is a growing body of evidence 
+that suggests that poorly controlled surgical pain can 
+lead to the development of chronic pain (pain at the 
+site of incision which continues for greater than three 
+months). For all of these reasons and many more, we 
+believe that recognizing, assessing and treating 
+perioperative pain is of great importance in the 
+surgical care of patients in any setting.  
+ 
+Pathophysiology 
+ 
+The International Association for the Study 
+of Pain defines pain as “an unpleasant sensory and 
+emotional experience associated with actual or 
+potential tissue damage, or described in terms of such 
+damage.” 
+This 
+definition 
+highlights 
+several 
+important points. First, the pain pathways are 
+intricately linked to the cortical emotional centers of 
+the brain. Pain can contribute to anxiety and 
+depression which can, in turn, worsen pain. Second, 
+tissue damage does not need to be obvious for a 
+patient to be suffering from pain. Pain is a subjective 
+experience, and it is never the job of the healthcare 
+provider (surgeon, nurse, anesthetist) to assume that 
+a patient is or is not in pain.  
+ 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The pain pathway. From “Essential Pain Management” 
+https://www.anzca.edu.au/safety-advocacy/global-
+health/essential-pain-management Used with permission. 
+ 
+The pain pathways are illustrated above. Pain 
+begins with the activation of nociceptors by a 
+noxious stimulus (e.g., a surgical incision). This 
+triggers the transmission of pain impulses through A 
+delta and C sensory nerve fibers to the dorsal horn of 
+the spinal cord, the first relay center. These impulses 
+are then relayed to the opposite side of the spinal cord 
+and travel cephalad to the thalamus, the second relay 
+center. From the thalamus, signals are transmitted to 
+numerous areas of the brain (including the limbic 
+system) where the “perception of pain” occurs. At 
+the same time, descending pathways modulate 
+ongoing pain signals as a negative feedback loop.  
+ 
+Nociception vs. Pain. From “Essential Pain Management” 
+https://www.anzca.edu.au/safety-advocacy/global-
+health/essential-pain-management Used with permission. 
+ 
+One point which is often ignored is the fact 
+that nociception and perception of pain are not 
+identical. Nociception is the pathway by which 
+signals travel from the site of injury to the brain. Pain 
+is what is perceived by the patient and is influenced 
+by 
+many 
+factors 
+including 
+cultural, 
+social, 
+psychological, and religious factors (see the figure 
+above.) This again highlights the importance of 
+asking patients to describe their pain, rather than 
+assuming the patient is or is not having pain based on 
+what injury or surgery they have undergone.  
+What we will emphasize in the final section 
+of this chapter (“Treatment of Pain”) is that this 
+pain pathway can be interrupted at each level by both 
+pharmacological 
+and 
+non-pharmacological 
+interventions. Combining these therapies will allow 
+us to create a “multi-modal analgesic plan” to 
+optimize the pain control of our patients thus 
+reducing their risk of complications linked to 
+uncontrolled pain and reduce their suffering. 
+ 
+Recognition and Assessment of Pain 
+ 
+Pain is what the patient says it is. You cannot 
+predict with any accuracy the amount of pain a 
+patient is experiencing by the appearance on their 
+face or by any other external factor. The only way to 
+recognize pain is to ask the patient, “Are you having 
+pain?” This simple question and your response to the 
+answer, will ultimately determine their level of 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+suffering and will also greatly impact your 
+relationship with that patient. It is natural to pay 
+attention to pain when it is our own, or even that of 
+our loved one. However, we often forget that every 
+patient 
+we 
+are 
+treating 
+is 
+someone’s 
+mother/father/sister/brother/son/daughter. And so, 
+we should care about their pain, as we would care 
+about the pain of someone we love. 
+In many parts of the world pain is considered 
+the fifth vital sign and is assessed every time a 
+patient’s heart rate, blood pressure and respiratory 
+rate are recorded. While this may be difficult to 
+achieve in certain settings, especially those with very 
+low nurse-to-patient ratios, it is reasonable and 
+attainable to assess and record a patient’s pain level 
+at least daily during their hospitalization.  
+ 
+ 
+The 
+Visual 
+Analogue 
+Scale. 
+From 
+“Essential 
+Pain 
+Management” 
+https://www.anzca.edu.au/safety-
+advocacy/global-health/essential-pain-management Used with 
+permission 
+ 
+ 
+ 
+The Wong-Baker FACES Pain Rating Scale. From “Essential 
+Pain 
+Management” 
+https://www.anzca.edu.au/safety-
+advocacy/global-health/essential-pain-management Used with 
+permission 
+ 
+ 
+There are many tools which can be used to 
+assess the severity of pain but the two most widely 
+used are the visual analogue scale) and the Wong-
+Baker FACES Pain Rating Scale. Most adult and 
+even adolescent patients who are verbal can report a 
+pain score between zero to ten with one or both of 
+these scales. The utility of these scales is that their 
+results will both direct treatment, as we will see in 
+the following section of this chapter, and allow you 
+to assess the effectiveness of an intervention when 
+this score is re-evaluated post-treatment. A reported 
+score of 0-3 is considered mild pain, a score of 4-6 
+moderate pain, and a score of 7-10 severe pain. 
+While these tools are useful for verbal 
+patients, they are obviously of little value in 
+assessing the pain of infants and young children. 
+Other tools have been developed for these 
+populations including the Neonatal Infant Pain Scale 
+(NIPS) and the Faces, Legs, Activity, Cry, 
+Consolability (FLACC) scale. These tools can easily 
+be found on the internet.  
+Most patients during the perioperative period 
+will be suffering from acute nociceptive pain. 
+However, it is important to assess whether there is a 
+neuropathic component (that caused by damage to 
+the sensory nervous system) or whether acute pain is 
+occurring in the setting of chronic pain (that which 
+lasts longer than 3 months). Treatment for these will 
+vary.  
+ 
+ 
+ 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Treatment of Pain 
+As stated in the previous section, an 
+appropriate treatment of pain depends on an 
+assessment to guide that treatment. The most useful 
+and widely used tool for guiding treatment of 
+perioperative pain is the World Health Organization 
+Analgesic Ladder (Above) According to this ladder 
+most patients with mild pain (pain score of 3 or less) 
+can have their pain adequately controlled with simple 
+analgesics (e.g., paracetamol and/or non-steroidal 
+anti-inflammatories.) A patient with moderate pain 
+(pain score of 4-6) will likely need a mild opioid 
+(e.g., codeine or tramadol) in addition to simple 
+analgesics. For these patients it is strongly 
+recommended to continue the simple analgesics in 
+conjunction with the mild opioid, as these 
+medications will have a synergistic effect and 
+provide better pain control than with the mild opioid 
+alone. 
+Finally, patients with severe pain (pain score 
+of 7 or higher) will very likely need a strong opioid 
+such as morphine. Again, it is recommended that 
+these patients continue to receive simple analgesics 
+in conjunction with morphine to control their pain. 
+Although there is much concern over the use of 
+morphine in many parts of Sub-Saharan Africa, 
+morphine can be used safely and effectively when the 
+side effects and contraindications are understood and 
+when appropriate dosing and frequency are used (see 
+below.) 
+ 
+Morphine 
+The World Health Organization Analgesic Ladder: World Health Organization and “Essential Pain Management” 
+https://www.anzca.edu.au/safety-advocacy/global-health/essential-pain-management Used with permission 
+ 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Morphine 
+is 
+on 
+the 
+World 
+Health 
+Organization’s list of essential medications, both in 
+oral and intravenous form. It is widely available in 
+both high and low-resource settings. However, in 
+many hospitals it is rarely used. There is a great deal 
+of fear surrounding the use of morphine, especially 
+with regards to its risk of addiction and side effects. 
+Regarding addiction, there is more than sufficient 
+evidence available that giving morphine to a patient 
+in pain does not lead to addiction. Addiction occurs 
+when patients take morphine for purposes that it is 
+not indicated for, either to manage pain chronically 
+or for recreational use. For patients with acute severe 
+pain, however, morphine is most certainly indicated 
+and it can be given safely if one is aware of the 
+appropriate dosing and understands how to monitor 
+for side effects. 
+For most patients with severe pain, a starting 
+dose of intravenous morphine between 0.05 mg/kg 
+and 0.2 mg/kg is appropriate, depending on their 
+level of pain. This dose should be given every 3 to 4 
+hours for patients who continue to be in severe pain. 
+If patients can take oral medications, oral morphine 
+(syrup or tabs) may be more appropriate and has 
+certain advantages, including slower onset and 
+offset, lower cost, and the elimination of the need for 
+an intravenous line to administer. The dose of oral 
+morphine needs to be doubled or tripled compared to 
+intravenous dosing due to its first-pass hepatic 
+metabolism which rapidly reduces the active amount 
+in the bloodstream. For example, a patient requiring 
+5 mg of intravenous morphine every 4 hours, may 
+need 15 mg of oral morphine every 4 hours.  
+We discourage the use of intramuscular 
+morphine for a variety of reasons. Although there is 
+a popular idea that the effect will last longer if the 
+medication is given intramuscular, this is not true. In 
+addition, the absorption of intramuscular injections 
+is variable with some patients receiving much less 
+than the total amount absorbed into the bloodstream. 
+Finally, intramuscular injections are painful for the 
+patient. Therefore, our preference would be to 
+administer oral morphine if possible. For patient who 
+cannot tolerate orals, intravenous morphine should 
+be given. Intramuscular morphine should only be 
+used as a last resort for patients in severe pain who 
+cannot take orals and for whom an IV is not possible. 
+Anesthetists around the world commonly add 
+intrathecal morphine to their spinal anesthetic which 
+can provide analgesia for up to 24 hours after the 
+surgery. For most adult patients a dose of 0.15 mg 
+administered intrathecally will provide potent 
+analgesia 
+with 
+minimal 
+risk 
+of 
+respiratory 
+depression. Doses of 0.15 to 0.3 mg are associated 
+with a slightly higher risk of this complication, 
+whereas a dose greater than 0.3 mg poses a high risk 
+of respiratory depression and should be avoided.  
+Morphine in any form should be used with 
+caution in certain patients. Those patients include: 
+● Infants less than 6 months old 
+● Patients with renal failure 
+● Elderly patients 
+● Patients who are hemodynamically unstable 
+● Patients with known or suspected obstructive 
+sleep apnea 
+ 
+Patients who receive morphine should ideally be 
+monitored for signs of respiratory depression such as 
+respiratory rate less than 8/minute, hypoxia (SpO2 < 
+90%) or decreased level of consciousness. For 
+intravenous morphine, patients should be monitored 
+every 5 minutes for 20 minutes, then every hour. For 
+patients receiving oral or intrathecal morphine, 
+monitoring the patient every hour is sufficient. If 
+signs of respiratory depression, arrest or inability to 
+arouse the patient occur, naloxone can be given as 
+the antidote. The dose of naloxone is 0.08 – 0.12 mg 
+intravenously every 3 minutes until the patient’s 
+condition improves. For patients in respiratory arrest, 
+a full dose of 0.4 mg can be given. 
+ 
+Other analgesics 
+ 
+There are numerous other analgesics which 
+can be found in the appendix to this chapter. 
+Intravenous fentanyl is often used intraoperatively 
+during a standard anesthetic. A dose of 1 – 3 mcg/kg 
+IV is a good starting point, but larger doses may be 
+required for patients expected to experience severe 
+postoperative pain. Ketamine is also a potent 
+analgesic in addition to its anesthetic properties. 
+Recent studies have shown that small doses (0.5 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+mg/kg) given intravenously toward the start of the 
+procedure can significantly reduce post-operative 
+pain scores. Dexamethasone in doses of 0.1 mg/kg 
+IV or greater may also confer some analgesic effect. 
+Additional 
+analgesics 
+including 
+gabapentin, 
+intravenous lidocaine, dexmedetomidine, clonidine 
+and others may be useful when used pre or intra-
+operatively but are outside the scope of this chapter.  
+One point that should be emphasized is that 
+the use of local anesthetics, either as a spinal 
+anesthetic, peripheral nerve block, or local 
+infiltration at the site of incision, can have a 
+significant beneficial impact on postoperative pain 
+scores. The authors would like to encourage all 
+surgeons to consider the use of local anesthetics for 
+each intervention, whenever possible. However, 
+these too can lead to complications, the most deadly 
+being local anesthetic systemic toxicity (LAST). 
+This can usually be avoided by careful aspiration 
+before each injection as well as by remembering the 
+toxic dose of each local anesthetic. For lidocaine, a 
+dose of up to 4.5 mg/kg plain lidocaine and a dose of 
+up to 7 mg/kg lidocaine mixed with adrenaline is 
+within the acceptable range and poses little risk of 
+LAST. For bupivacaine a dose of 2.5 mg/kg is 
+acceptable. Recall that a 1% solution will have a 
+concentration of 10mg/mL. 
+ 
+Conclusions 
+ 
+As stated in the introduction, pain control is 
+an important part of perioperative care and 
+adequately controlling pain is possible even in low-
+resource settings. The most effective strategy is to 
+create an analgesic plan BEFORE incision for every 
+patient that incorporates one or more analgesics 
+according to the expected severity and duration of 
+pain. Using these strategies will improve the physical 
+and emotional well-being of patients experiencing 
+perioperative pain. 
+ 
+Gregory Sund, MD 
+AIC Kijabe Hospital  
+Kenya 
+ 
+Matthew Kines, MD 
+AIC Kijabe Hospital 
+Kenya 
+ 
+April 2022 
+ 
+ 
+Note: All Tables in following Appendix are from “Essential 
+Pain 
+Management” 
+https://www.anzca.edu.au/safety-
+advocacy/global-health/essential-pain-management Used with 
+permission 
+ 
+ 
+ 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+ 
+ 
+ 
+ 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Pain Management 
+Gregory Sund, Matthew Kynes 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 

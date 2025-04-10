@@ -1,0 +1,260 @@
+Approach to Corneal Trauma 
+David Chenoweth, Christopher Sales, Mark Greiner, Chau Pham, Erin Shriver, Kanwal Matharu 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Background:  
+A corneal foreign body is an object adherent 
+to or embedded in the cornea, the anterior-most 
+portion of the eye. The cornea is one of the most 
+densely innervated structures in the body and is 
+incredibly sensitive to even microscopic foreign 
+bodies. 
+Prompt removal of a corneal foreign body is 
+important in preventing infection, scarring, or even 
+perforation. 
+Removal of a corneal foreign body rarely 
+requires the use of an operating room, although a 
+well-lit clean area with appropriate instrumentation 
+is required. 
+ 
+Anatomy:  
+The cornea is the transparent part of the eye 
+that covers and protects the iris and pupil, allowing 
+light to reach the back of the eye. It is an avascular 
+tissue that functions as a structural barrier and, in 
+conjunction with the tear film, provides the majority 
+of the total refractive power of the eye. 
+The cornea is essentially a convex oval, 
+measuring 11-12 mm in the horizontal meridian and 
+9-11 mm in the vertical meridian. It is thickest in the 
+periphery, and thinnest at its center. Generally, the 
+cornea is 550-560 microns thick in the center. The 
+thickness is largely governed by the collagen 
+containing stroma of the cornea. 
+ 
+ 
+Diagram of the eye. The cornea is a convex oval on its anterior 
+surface. Detail of the part in the Red box is shown further below. 
+Source: Rhcastilhos. and Jmarchn 
+https://commons.wikimedia.org/w/index.php?curid=1597930  
+ 
+ 
+5 layers of the cornea, close-up detail of the Red box in the 
+previous picture. See the text below for details. 
+ 
+Histologically, the cornea consists of 5 layers. 
+From anterior to posterior: 
+1. The corneal epithelium: a non-keratinized 
+stratified squamous epithelium with cuboidal 
+basal cells. This layer makes up about 1/10th of 
+the corneal thickness. It functions to protect the 
+surface of the eye from injury and pathogens. 
+Approach to Corneal Trauma 
+David Chenoweth, Christopher Sales, Mark Greiner, Chau Pham, Erin Shriver, Kanwal Matharu 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+2. Bowman’s layer: an anterior limiting lamina for 
+the stroma composed of collagen fibrils. 
+3. The Stroma: a largely acellular layer composed 
+of collagen and fibroblasts. The density of 
+intertwined collagen fibrils is greatest at the 
+periphery and anterior aspects of the cornea. This 
+gradient of density provides the cornea with its 
+shape. It also contributes to the mechanical 
+weakness of the very posterior stroma, an 
+attribute important to note prior to any 
+instrumentation involving the stroma.  
+4. Descemet’s membrane: A cell-free matrix that 
+acts as a posterior limiting lamina for the stroma 
+as well as a basement membrane for the 
+underlying endothelium. 
+5. Endothelium: A single layer of squamous cells 
+that actively transports water from the stroma 
+into the anterior chamber in order to maintain the 
+transparency of the corneal stroma. 
+ 
+ 
+A slit lamp photo depicting a normal cornea. The curved, sharp 
+blue line represents the epithelium and the thick, faded blue line 
+highlights the stroma.  
+ 
+Principles:  
+Symptoms of a corneal foreign body include 
+a foreign body sensation, pain, tearing, light 
+sensitivity and vision changes. 
+Should a patient’s presentation raise concern 
+for a corneal foreign body, it is important to ascertain 
+the suspected material as well as the mechanism of 
+injury. 
+Different materials carry different infection 
+and chemical injury risks. Soil and plant material are 
+associated with bacterial and fungal infections. Metal 
+material, particularly iron, carries the risk of 
+oxidative injury to the stroma resulting in a “rust ring” 
+if not removed within several hours; however, these 
+“rust rings” will typically self-resolve over time or 
+can be manually shaved away as the stroma 
+regenerates. Infections and rust rings increase the 
+risk of permanent corneal scarring. Cement, 
+particularly wet cement, can cause alkaline burns 
+when it reacts with water in the tear film. Any 
+concern for a chemical burn in the eye should prompt 
+emergent irrigation. 
+The mechanism can be critical in determining 
+the risk of globe perforation. Dense materials 
+moving at high speed carry a high risk of globe 
+perforation. These patients require careful slit-lamp 
+examination, and if possible, ultrasound or CT 
+imaging. MRI must be avoided if there is suspicion 
+of metal involvement.  
+After obtaining a history, the patient should 
+have a complete 8-point eye exam: best corrected 
+vision, measurement of intraocular pressure, pupils, 
+extraocular motility and alignment, confrontation 
+visual fields, external examination, fundoscopic 
+examination, and a thorough slit lamp examination 
+including eversion of the eyelids and sweeping of the 
+fornixes to reveal any additional foreign bodies.  
+A careful slit lamp exam is pertinent to detail 
+the location, size, and depth of the foreign body. The 
+slit lamp is an instrument consisting of a high-
+intensity light source combined with a bimicroscope, 
+that is focused to shine a thin sheet of light into the 
+eye as the clinician visualizes the structures of the 
+anterior and posterior segments. If a slit lamp is 
+unavailable, it is reasonable to examine the eye under 
+the highest magnification that is available, such as 
+surgical loupes or a magnifying glass. 
+ 
+A slit lamp allows a clinician (Left) to view details of the eye 
+under magnification with a thin sheet of focused light. Source: 
+Ralf Roletschek 
+https://commons.wikimedia.org/w/index.php?curid=5083599  
+ 
+Fluorescein stain under cobalt blue light is 
+useful in highlighting epithelial defects and can aid 
+Approach to Corneal Trauma 
+David Chenoweth, Christopher Sales, Mark Greiner, Chau Pham, Erin Shriver, Kanwal Matharu 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+in the identification of small foreign bodies in both 
+the cornea or eyelid. If resources allow, a Seidel test 
+should be performed at the time of slit lamp 
+examination (see below).  
+ 
+Slit lamp photo demonstrating a metallic corneal foreign body 
+(Red arrow).  
+ 
+ 
+Slit lamp photo demonstrating a corneal epithelial defect (Red 
+circle) highlighted with the application of fluorescein dye under 
+cobalt blue light.  
+ 
+A Seidel test can reveal occult perforations, 
+signifying an open globe. This test is performed by 
+applying fluorescein with a strip of filter paper to the 
+injury site and observing the area under cobalt blue 
+light at a slit lamp. In a positive Seidel test, aqueous 
+humor leaking from the injury will dilute the 
+normally green stain producing a dark blue stream 
+from the site of perforation. These patients frequently 
+require surgery in an operating room. See the chapter 
+on open globe repair. 
+ 
+Slit lamp photo demonstrating leaking aqueous humor from a 
+corneal injury, a positive Seidel test under cobalt blue light.  
+ 
+Decision Making: 
+Most corneal foreign bodies are superficial 
+and can be removed at the slit lamp with a pair of 
+Jeweler’s forceps. Delaying removal can result in 
+migration of the foreign body deeper into the stroma 
+and can even result in delayed perforation. 
+Incomplete removal of foreign bodies causing 
+chemical injuries can result in irreversible damage. 
+Attempts to remove deeply imbedded foreign 
+bodies risks perforation, therefore removal of a 
+deeply penetrating foreign body should be performed 
+in the operating room. However, it may not be 
+necessary to attempt removal of all full thickness or 
+intra-ocular foreign bodies. Objects that do not pose 
+significant chemical or infectious risk, such as plastic 
+or glass, are considered inert. Inert foreign bodies 
+may be managed conservatively with serial 
+examinations. 
+Before attempting removal, the patient’s 
+ocular surface should be anesthetized. With the eye 
+anesthetized the patient will be asked to fixate on a 
+target while the surgeon uses a small needle to lift the 
+foreign body from the stroma. Once free of the 
+stroma the foreign body can be safely removed with 
+a pair of small forceps, a cotton tipped applicator, or 
+even a magnet depending on the material of the 
+foreign body. This procedure is described in more 
+detail in the next chapter.  
+Approach to Corneal Trauma 
+David Chenoweth, Christopher Sales, Mark Greiner, Chau Pham, Erin Shriver, Kanwal Matharu 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+After foreign body removal the cornea should 
+be reexamined for any residual foreign material. An 
+assessment of the epithelial defect should be made 
+including a final Seidel test. 
+Patients should receive broad-spectrum 
+topical ophthalmic antibiotics for at least one week. 
+Typical antibiotics used to cover corneal foreign 
+bodies include polymyxin B/trimethoprim drops, or 
+a polysporin ointment. In cases of a large epithelial 
+defect, the ointment formulation provides additional 
+lubrication 
+that 
+reduces 
+discomfort. 
+If 
+the 
+mechanism of injury involves contact lens wear, 
+organic matter, or a fingernail, then the patient 
+should be placed on a topical fluoroquinolone and 
+followed closely for the development of microbial 
+keratitis. Topical steroids are typically avoided due 
+to increased risk of infection. 
+Depending on the size and proximity to the 
+center of the cornea, the patient should be evaluated 
+within 1 to 7 days to assess the epithelial defect and 
+monitor for signs of infection. It is reasonable to 
+discontinue antibiotics once the epithelial defect has 
+closed. 
+Unfortunately, if the foreign body penetrates 
+Bowman’s layer, scar formation is likely. If centrally 
+located, these scars may affect vision. Otherwise, the 
+cornea is resilient, and most patients’ long-term 
+vision is unaffected. 
+ 
+All photos used with permission from Eyerounds.org 
+except as otherwise indicated: 
+https://eyerounds.org/#gsc.tab=0&gsc.q=corneal%
+20foreign%20body%20removal&gsc.sort=  
+ 
+David Chenoweth BA,  
+Christopher Sales, MD MPH, 
+Mark Greiner, MD 
+Chau Pham, MD 
+Erin Shriver, MD 
+Kanwal Matharu MD 
+University of Iowa Carver College of Medicine 
+Iowa, USA 
+ 
+August 2024 
+ 

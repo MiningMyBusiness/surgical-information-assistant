@@ -1,0 +1,439 @@
+Airway Management in Trauma 
+Gregory Sund, Matthew Kynes, Phil Yao 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction:  
+Editor’s Note: This chapter builds on Airway 
+Management and Endotracheal Intubation, which 
+discusses the basics of  airway management, specific 
+equipment, medications, and management of difficult 
+situations. The reader will be well served by starting 
+with that chapter before reading this one.  
+ 
+Airway management for trauma victims can 
+be challenging for a variety of reasons. These include 
+distortion of airway anatomy, obscured visualization 
+from blood, emesis or other material, and the need to 
+maintain the head in a neutral position when a 
+cervical spine injury is suspected. It is important to 
+understand the particularities of each situation and 
+how to evaluate and to safely manage the airway in 
+such patients. 
+Before the airway can be managed, it must be 
+assessed. The steps in the evaluation of airway 
+patency and adequacy of breathing will not be 
+discussed in this chapter. The reader instead is 
+referred to Basic Life Support (BLS) and Advanced 
+Cardiac Life Support (ACLS) for further explanation 
+of these steps. But it is important to understand that 
+hypoxia and hypoventilation need to be recognized 
+and acted upon quickly, as these can be signs of life-
+threatening injuries and can worsen the level of 
+consciousness and brain injury in head-injured 
+patients. Some of the particularities of airway 
+management in trauma victims are discussed below. 
+ 
+Cervical spine injury 
+Most trauma patients are assumed to have a 
+cervical spine injury until it is ruled out either by 
+physical exam or imaging. Until such an injury has 
+been ruled out the patient’s neck must remain in a 
+neutral position at all times using a properly placed 
+cervical collar or manual in-line stabilization. This 
+can make intubation difficult or sometimes 
+impossible. Therefore, it is important to be prepared 
+with back-up airway equipment (e.g., bougie, 
+videolaryngoscope, cricothyroidotomy kit) before 
+attempting intubation. If intubation fails the operator 
+should also be prepared to insert a rescue airway 
+device such as a laryngeal mask airway. The 
+esophageal-tracheal 
+Combitube 
+or 
+King 
+supralaryngeal device may be available at some 
+hospitals and can be lifesaving in these situations. 
+While these devices are not a permanent solution, 
+they can provide oxygenation and ventilation until a 
+more permanent airway can be established. 
+ 
+Proper technique for cervical spine stabilization during 
+intubation when cervical spine injury has not been ruled out. 
+The assistant (left side of the picture) uses the “earmuff” 
+technique, which allows the mandible to move downwards. 
+During insertion of the tube, the assistant and the intubator will 
+be working “against” each other, as one tries to see the vocal 
+cords as well as possible and the other tries to limit movement 
+of the neck. Source: Kovacs G et al. 
+https://doi.org/10.1016/j.emc.2017.08.006  
+ 
+Risk of pulmonary aspiration 
+All trauma patients are considered “full 
+stomach” and therefore at increased risk of aspiration 
+of gastric contents. This is one reason why securing 
+the airway is so critical whenever the patient’s level 
+of consciousness is depressed (Glasgow Coma Scale 
+[GCS] less than 8). Intubation should be performed 
+with rapid sequence induction in order to secure the 
+airway as quickly as possible and protect the lungs 
+from aspiration of gastric contents. This technique is 
+outlined in the chapter on endotracheal intubation.  
+In our institution, we use cricoid pressure in 
+all rapid sequence inductions. In theory, this 
+maneuver serves to occlude the esophagus and 
+prevent aspiration of gastric contents. However, 
+studies have questioned whether cricoid pressure 
+actually achieves this effect. If used, this technique 
+Airway Management in Trauma 
+Gregory Sund, Matthew Kynes, Phil Yao 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+should be applied as soon as the patient loses 
+consciousness and released once endotracheal 
+intubation is confirmed. The recommended pressure 
+to be used is 3 to 4 kg at most. Excessive cricoid 
+pressure can cause further trauma to the airways. 
+Cricoid pressure can also obscure the view of the 
+vocal cords, so ask the assistant to apply less pressure 
+if you are having difficulty.  
+ 
+Inhalational burns 
+Exposure to fire and smoke in an enclosed 
+space can cause inhalational injury to the airway 
+resulting in progressive edema and airway closure. In 
+patients 
+with 
+suspected 
+inhalational 
+injury, 
+endotracheal intubation should be performed early 
+before significant airway edema occurs. Inhalational 
+injury should be suspected in any patient who was 
+exposed to a fire in an enclosed space, those with 
+singed or soot-covered nostrils or mouth, and those 
+displaying signs such as hoarseness, dyspnea, 
+tachypnea or altered level of consciousness not 
+explained by head injury. While succinylcholine can 
+be used safely in patients within 48 hours of burn 
+injury, those outside of this time window are at 
+increased risk of hyperkalemia when given this 
+medication. In these situations, it is better to use a 
+non-depolarizing muscle relaxant.  
+Patients with severe burn injuries or those 
+which occurred in enclosed spaces should also be 
+considered at risk for carbon monoxide poisoning. 
+Carbon monoxide binds to hemoglobin with an 
+affinity approximately 250 times that of oxygen. 
+This results in a left-ward shift of the oxy-
+hemoglobin 
+dissociation 
+curve 
+and 
+impaired 
+availability of oxygen at the level of the tissues. 
+Because standard pulse oximetry cannot distinguish 
+between oxyhemoglobin and carboxyhemoglobin, 
+this tool will display a falsely elevated oxygen 
+saturation in a patient with carbon monoxide 
+poisoning. In patients with carboxyhemoglobin 
+levels of 20% or greater (measured by arterial or 
+venous 
+blood 
+gas 
+analysis) 
+intubation 
+and 
+mechanical ventilation will be necessary to improve 
+oxygenation and enhance carbon dioxide clearance 
+by the body. 
+ 
+Head and neck trauma 
+Any patient with severe head and neck 
+trauma can have significant airway distortion which 
+can make direct laryngoscopy and endotracheal 
+intubation difficult or impossible. Blood in the 
+mouth and oropharynx is often encountered. 
+Adequate suction should be immediately available 
+before 
+attempts 
+at 
+laryngoscopy 
+are 
+made. 
+Hematoma formation in the mouth or neck can also 
+distort 
+anatomy 
+making 
+visualization 
+more 
+challenging. In some cases, patients may have direct 
+injury to the glottic opening and/or the trachea. For 
+such patients, a head and neck surgeon should be 
+consulted as soon as possible. It may be necessary to 
+proceed directly with cricothyroidotomy or awake 
+tracheostomy depending on the urgency of the 
+situation.  
+ 
+Left neck hematoma after stab wound to the neck. A hematoma 
+like this has the potential to deviate the airway significantly and 
+make safe orotracheal intubation difficult or impossible. Photo 
+courtesy of Dr. Demetrios Demetriades. 
+ 
+Traumatic Brain Injury 
+As mentioned above, most patients with a 
+GCS less than 8 from traumatic brain injury (TBI) 
+are unable to effectively protect their airways or 
+maintain ventilation.  Hypoventilation will lead to 
+hypoxia and hypercarbia, both of which can further 
+depress consciousness and lead to secondary brain 
+injury. Most TBI patients should be administered 
+100% oxygen by non-rebreather mask if GCS is 
+greater than 8 and ventilation appears adequate. If 
+not, the decision should be made earlier rather than 
+Airway Management in Trauma 
+Gregory Sund, Matthew Kynes, Phil Yao 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+later to secure the airway with intubation and place 
+the patient on controlled ventilation. TBI can take 
+different forms, including diffuse axonal injury, 
+subdural hematoma, epidural hematoma, and others. 
+The major concern for TBI is maintaining adequate 
+cerebral perfusion in the setting of elevated 
+intracranial pressure (ICP). Airway manipulation can 
+cause tachycardia and acute hypertension which may 
+worsen ICP and reduce cerebral perfusion. Induction 
+medications should maintain stable hemodynamics. 
+Intubation should be performed only when adequate 
+anesthetic depth is obtained. After intubation, mild 
+hyperventilation may be initiated to reduce ICP until 
+definitive therapy can be provided.  
+Succinylcholine  can raise intracranial  
+pressure so it should be used with caution in a patient 
+with a head injury. However, it has the most rapid 
+onset of all the paralytics, so the decision to avoid it 
+must be balanced with the need for rapid and safe 
+airway control in a trauma patient with multiple 
+injuries.  
+ 
+Endotracheal Intubation of a Trauma Patient:  
+ 
+Both the patient’s cervical spine and airway 
+are at risk during this maneuver- it is crucial to have 
+adequate, experienced help available. All people 
+involved 
+must 
+be 
+committed 
+to 
+avoiding 
+hyperextension of the neck. Providers with advanced 
+video-endoscopic airway equipment may make a 
+first attempt at intubation without removing the 
+cervical collar- this depends on your experience and 
+comfort with this technique.  
+ 
+Preparation: 
+1. Airway equipment:  
+● Endotracheal tube of appropriate size with stylet 
+and syringe: check balloon cuff 
+● Laryngoscope blade: choose whichever is most 
+familiar; most common is Miller 2, Macintosh 3, 
+or Macintosh 4 
+● Video laryngoscopy: if available 
+● Bougie 
+● Laryngeal Mask Airway 
+● Capnometry or End Tidal CO2 detector 
+ 
+2. Medications:  
+● Does the patient need a hypnotic agent like 
+propofol, 
+etomidate, 
+ketamine, 
+and/or 
+midazolam? What is their volume status and will 
+they tolerate vasodilation? 
+● Rapid-acting 
+neuromuscular 
+blockade: 
+succinylcholine at 1 mg/kg or rocuronium at 1.2 
+mg/kg 
+ 
+Commonly used sedation agents for intubation and some of 
+their side effects 
+ 
+ 
+Commonly used paralytics and their duration of onset. Recall 
+that during the time of onset, the patient may not be able to 
+breathe but may not be paralyzed enough to intubate, so a 
+shorter onset is almost always preferable.  
+ 
+ 
+3. Other considerations:  
+● Equipment for suction  
+● Personal 
+protective 
+equipment 
+(especially 
+eyewear)  
+● Stethoscope  
+● Appropriate vascular access  
+● Breathing circuit with oxygen cylinder 
+● Available provider with skills and equipment for 
+surgical airway 
+ 
+Procedure:  
+1. Assign 
+roles 
+for 
+intubating, 
+injecting 
+medications, holding cricoid pressure, and 
+providing manual in-line stabilization. All blunt 
+trauma patients are assumed to have cervical 
+spine injury until proven otherwise. 
+2. Discuss any concerns with airway management 
+(blood, vomit, abnormal anatomy from trauma 
+and/or masses) 
+3. Preoxygenate (if able) 
+Airway Management in Trauma 
+Gregory Sund, Matthew Kynes, Phil Yao 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The cervical collar has been opened but not removed from the 
+patient. The assistant provides cervical stabilization using the 
+“earmuff” technique. The laryngeal mask airway is held in 
+place using the one handed “EC” hold.  
+ 
+4. After all teams have expressed readiness, give 
+neuromuscular blocking agent +/- hypnotic 
+5. Open the cervical collar and move the anterior 
+part to the side, without fully removing the collar. 
+Another assistant applies cricoid pressure (see 
+“Risk of Pulmonary Aspiration” above.)  
+6. Perform laryngoscopy and intubation without 
+hyperextending the neck. Adjuncts include 
+intubating bougie and video laryngoscope.  
+ 
+As the assistant maintains cervical stabilization, another assistant 
+provides cricoid pressure. Note that the intubator, whose main 
+concern is seeing the vocal cords, is working “against” the one 
+stabilizing the airway.  
+ 
+7. Attach breathing circuit and auscultate for 
+bilateral breath sounds. Have the assistant 
+maintain cricoid pressure, if applied, until 
+intubation is confirmed.  
+ 
+After intubation has been confirmed, release cricoid pressure 
+and replace the cervical collar. Secure the airway.  
+ 
+8. If initial attempt unsuccessful and patient has not 
+desaturated <90%, reattempt with different 
+laryngoscopy technique or have a different 
+person intubate 
+9. If attempts have been unsuccessful and the 
+patient is desaturating, provide gentle mask 
+ventilation while holding cricoid pressure. See 
+“Pitfalls” below for further management.  
+ 
+Pitfalls:  
+ 
+The dreaded “Can not intubate, can not 
+ventilate” situation must be foreseen and avoided if 
+possible. An experienced operator will recognize 
+situations, described above, that make this situation 
+more likely. Proceed with great care!  
+● Avoid airway trauma by reducing the number of 
+intubation attempts. In a teaching situation, you 
+must balance the needs of the learner with the 
+needs of the patient.  
+● If you are unable to intubate and the patient is 
+chemically paralyzed, consider placing a 
+laryngeal mask airway (LMA) rather than 
+attempting intubation again and traumatizing the 
+airway further. Wait for the paralytic to wear off 
+and for the patient to breathe spontaneously again 
+(without fully awakening.) This buys you more 
+Airway Management in Trauma 
+Gregory Sund, Matthew Kynes, Phil Yao 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+time as you plan the next approach, rather than 
+trapping you in futile repeated attempts as the 
+patient becomes progressively hypoxic. 
+● Your next attempt may involve different 
+equipment (including fiber optic or video 
+equipment,) a smaller endotracheal tube, or a 
+more experienced operator. It is important to 
+make the best arrangements in a calm and 
+unhurried manner, rather than frantically as the 
+patient is desaturating. Using the LMA until the 
+patient can breathe spontaneously allows you to 
+take this approach.  
+ 
+An intubating bougie with endotracheal tube loaded. The end 
+on the left is passed through the vocal cords. As the tip passes 
+over the tracheal rings, the operator feels this feedback and 
+tracheal position is confirmed. The endotracheal tube is then 
+advanced over the bougie into the trachea. Source: Baker JB et 
+al, DOI: 10.5811/WESTJEM.2015.4.22857  
+ 
+ 
+Intubation using a fiberoptic glidescope. Note that the 
+anesthetist is holding the blade with her left hand and an 
+endotracheal tube with a stylet in the right hand, watching the 
+screen preparing to insert the tip of the tube between the vocal 
+cords as seen on the screen (Red arrow.) 
+ 
+● If you are unable to ventilate through LMA after 
+paralysis in the above situation, your only option 
+is a surgical airway. Again, this situation should 
+be foreseen in the high-risk situations described 
+above. Have an experienced operator with the 
+necessary equipment standing by.  
+ 
+Conclusion 
+Airway management in trauma victims is 
+often required to ensure a positive outcome but can 
+be challenging. Therefore, it is important to 
+understand the particularities of different types of 
+trauma as discussed above and to have a plan in place 
+for managing the airway in each situation. As with 
+any critical situation that occurs in the hospital, 
+communication and teamwork will be the most 
+important tools at your disposal. Calling for help 
+early, using closed-loop communication, and 
+preparing beforehand for such situations may make 
+the difference between a secure and safe airway and 
+a post-traumatic mortality. 
+ 
+Gregory Sund, MD 
+AIC Kijabe Hospital  
+Kenya 
+ 
+Matthew Kynes, MD 
+AIC Kijabe Hospital 
+Kenya 
+ 
+Phil Yao, MD 
+University of California, San Diego 
+California, USA 
+ 
+November 2022 

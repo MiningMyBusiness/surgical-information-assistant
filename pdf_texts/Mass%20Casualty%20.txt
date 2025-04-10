@@ -1,0 +1,777 @@
+Management of Mass Casualty 
+Mike M. Mallah, David R. Mann, Richard Davis and Peter Bird 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction 
+Natural disasters, war and conflict, terrorist 
+attacks and transportation injuries have led to 
+increased civilian injuries and casualties over the 
+past several decades. Hospitals in resource- limited 
+settings have a great challenge responding to these 
+issues. To achieve the best possible outcomes, it is 
+paramount to consider management of mass casualty 
+incidents in advance and to be prepared for them long 
+before they occur.  
+Management of mass casualty is a broad 
+subject including several perspectives: a centralized 
+government perspective, a pre-hospital, emergency 
+medical services perspective, and a hospital 
+perspective. In the hopes of being most beneficial to 
+the reader, this chapter is written from a hospital 
+perspective. It is understood that in most resource-
+limited settings, pre-hospital care, and even pre-
+hospital coordination and allocation of patients, is 
+non-existent. Patients often arrive at your facility 
+with little or no warning, in excess of what you can 
+safely handle, with no option to transfer elsewhere.  
+While there is no consensus definition for a 
+“mass casualty,” we will adopt the World Health 
+Organization definition: A mass casualty incident is 
+an event which generates more patients at one 
+time than locally available resources can manage 
+using routine procedures. It requires exceptional 
+emergency arrangements and additional or 
+extraordinary assistance. 
+Notably, what qualifies as a mass casualty 
+incident will be very specific to the practice setting. 
+For example, two or three patients arriving 
+simultaneously in a more rural hospital with only one 
+available provider may overwhelm that specific 
+system, particularly in the low resource setting. 
+However, even in limited resource urban centers, the 
+same volume of patients may be appropriately 
+managed. In order to adequately handle each 
+situation, it is crucial to be critically honest about a 
+facility's capabilities. 
+ 
+In this chapter, we discuss the Mass Casualty 
+in three phases: Before, During, and After the event. 
+ 
+A mass casualty event at a large hospital. Facilities with 
+training programs can call on multiple workers quickly to deal 
+with a rapid influx of patients.  
+ 
+Before 
+ 
+Anticipation of and preparation for a mass 
+casualty incident will lead to improved outcomes 
+Specifically, it will be vital to understand the 
+landscape of resources available at your current 
+facility. 
+Below, 
+we 
+discuss 
+Personnel, 
+Equipment/Supplies, Medicines, Space, and Medical 
+Records. We follow with a brief discussion on 
+planning, that coordinates all these resources. 
+ 
+Personnel: 
+Identifying the number of people available to 
+an organization is the first step in evaluating your 
+resources. This will allow you to ensure that supplies 
+and other resources can be well utilized by the 
+personnel. Additionally, if there are training or skill 
+deficiencies identified prior to a Mass Casualty, 
+personnel can be recruited and trained.  
+It would be ideal to have a full complement 
+of operating theater, laboratory, x-ray and central 
+supply technicians on duty 24-hours per day; the 
+hospital leadership needs to decide whether they are 
+busy enough to justify this expense. A small rural 
+hospital that is unstaffed on evenings and weekends 
+should encourage injured patients to be sent 
+elsewhere, 
+providing 
+basic 
+resuscitation 
+and 
+stabilization prior to transfer.  
+ 
+Ancillary Staff 
+ 
+Small hospitals face the disadvantage that 
+many of these skilled workers are not in the hospital 
+24 hours per day. But mass casualties can and do 
+arrive at all hours of the day and night. You should 
+Management of Mass Casualty 
+Mike M. Mallah, David R. Mann, Richard Davis and Peter Bird 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+advocate to Administration for the full-time 
+immediate availability of the following people: 
+● Radiographic technologists 
+● Operating Theatre technicians 
+● Central Supply technicians 
+● Representatives of Finance and Management 
+● Information Technology 
+● Security  
+ 
+Nursing 
+ 
+Similarly, nurses are crucial for conducting a 
+mass casualty well, especially in the Emergency 
+Department. Nurses play the following roles:  
+● Nurse-in-Charge: This valuable person manages 
+all 
+the 
+logistics 
+of 
+the 
+mass 
+casualty, 
+coordinating the team of nurses and ancillary 
+staff. Most large hospitals have a senior nurse on 
+duty full time- usually this person takes on this 
+role. Likely they were also the one who decided 
+that criteria for mass casualty were met and 
+activated the team, as described further below. 
+The Nurse-in-Charge will be the key point of 
+contact for the Physician-in-Charge. 
+● Casualty nurses: These nurses have experience 
+caring for injured patients. Usually, they cannot 
+stay with one patient, but will assist multiple 
+clinicians 
+caring 
+for 
+multiple 
+patients 
+simultaneously.  
+● Operating Theatre nurses: These nurses can 
+assist anesthetists, prepare the room, and care for 
+patients in the Recovery suite.  
+● Ward and Intensive Care nurses: In addition to 
+their regular duties, these nurses can help 
+mobilize patients and create more bed space, 
+allocating more critical patients to beds near the 
+nursing 
+station, 
+recognizing 
+deteriorating 
+patients, and making other critical decisions.  
+ 
+Clinicians 
+ 
+Clinicians, whether physicians or others such 
+as Clinical Officers, must be able to work closely as 
+a team. The team’s leader must be aware of the 
+strengths and weaknesses of every member of the 
+team, and must assign patient care duties 
+accordingly. Communication is essential: in order for 
+the leader to make effective decisions, they must 
+receive timely feedback from each clinician on the 
+condition of the patient under that clinician’s care.  
+● Physician-in-Charge: This is the team leader; 
+they must be a senior clinician with intimate 
+knowledge and understanding of the hospital and 
+its people. This physician’s role is most 
+analogous to “orchestra conductor” or “traffic 
+police,” watching out over all the patients and 
+deciding simultaneously on the care of all of 
+them, in light of a detailed understanding of the 
+hospital’s and the team’s strengths, weaknesses, 
+and other characteristics. The Physician- in-
+Charge will be the key point of contact for the 
+Nurse-in-Charge. The Physician-in-Charge need 
+not automatically be a surgeon; a non-surgeon 
+physician with experience in the Casualty 
+Department, such as a specialist Emergency 
+Medicine Physician, can do this job quite well. 
+● Other specialist physicians: These should be 
+surgeons 
+or 
+other 
+specialists 
+with 
+an 
+understanding of trauma resuscitation steps. 
+Some of these may be able to step in as 
+Physician-in-Charge. Each one will be assigned 
+to one patient only, providing feedback to the 
+Physician-in-Charge.  
+● Clinical and Medical Officers: These are 
+generalist clinicians who play a similar role as the 
+physicians above, caring for only one patient, 
+doing interventions as needed, and giving 
+feedback to the Physician-in-Charge.  
+● Trainees: Residents and interns will have a range 
+of 
+skills. 
+The 
+Physician-in-Charge 
+must 
+understand each one’s capabilities and assign 
+them accordingly. A very junior trainee may be 
+most helpful as an assistant to one of the other 
+clinicians above in caring for one complex 
+patient. A junior or mid-level trainee may care 
+for a patient alone. A senior surgical trainee may 
+take a patient to the Operating Theater alone. In 
+all cases, the Physician-in-Charge must assign 
+them duties that fall within their skillset and 
+watch them as closely as possible.  
+ 
+All clinicians caring for patients will have 
+some degree of independence and must know the 
+principles of initial management of the injured 
+patient. These can be taught and then reinforced 
+during care for individual patients, according to the 
+Advanced Trauma Life Support (ATLS) course or 
+Management of Mass Casualty 
+Mike M. Mallah, David R. Mann, Richard Davis and Peter Bird 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+other courses. You may also design an “in house” 
+course of your own.  
+In a city or on a Mission Station it may be 
+easy to mobilize personnel, whereas rural hospitals’ 
+staff may live quite a distance away and be 
+functionally 
+unavailable. 
+Depending 
+on 
+the 
+frequency of mass casualty incidents, personnel may 
+be offered a “retainer” or salary bonus in return for 
+being available on short notice for emergencies.  
+An adjacent or nearby nursing school can be 
+an excellent source of workers: senior students can 
+act as nurses (under the watchful eye of other nurses.) 
+Junior students can help with transport or other 
+logistical issues.  
+ 
+Equipment 
+ 
+Commonly used equipment such as plain 
+gloves, gowns, chest tubes and chest tube bottles, 
+dressings and splints, plaster and suture will be 
+needed in large quantities. There are two strategies to 
+assure availability:  
+● Casualty Store: A room, adjacent to the casualty, 
+staffed by a clerk, where such equipment is 
+always stored and disbursed for patient care 
+during all hours. By design, there is enough 
+equipment available for surges such as a mass 
+casualty even though these happen rarely. The 
+advantage of this system is that it allows 
+equipment to be rapidly available, and some 
+measure of inventory and cost allocation is 
+available even during a mass casualty event. 
+Also, the equipment can be easily located, since 
+the clerk knows quite well where everything is. 
+The disadvantage is that it requires a full-time 
+employee staffing the store; if a hospital’s 
+Emergency Department is not very busy, 
+maintaining this employee may not be a justified 
+expense.  
+ 
+This “ministore” serves the adjacent outpatient and casualty 
+departments. It is staffed full-time and contains enough 
+emergency supplies for a mass casualty, rapidly available. The 
+clerk knows every piece of equipment and can access it rapidly. 
+The Central store is elsewhere in the hospital and can replenish 
+the ministore in real time if needed.  
+ 
+● Mass Casualty Carts: Rapidly accessible carts are 
+created with essential consumables (e.g. gauze, 
+bandages, IVs, chest tubes) and medications (e.g. 
+fluids, pain medications, sedatives, antibiotics).  
+Once prepared these should be stored near the 
+designated triage center. The cart should only be 
+accessible by the lead nurse in the event of a mass 
+casualty event to prevent depletion of the 
+supplies 
+and 
+to 
+ensure 
+their 
+immediate 
+availability. The advantages of this system 
+include immediate availability; the cart can be 
+rolled directly to an unstable patient’s bedside. 
+The disadvantages are mostly related to its 
+designation for use in mass casualties only: 
+Personnel will be unfamiliar with its contents 
+when these are needed in an emergency. If the 
+cart is unlocked, staff will “pilfer” it for supplies 
+during 
+normal 
+patient 
+care 
+because 
+of 
+convenience. If it is locked, it may be difficult to 
+locate the key when it is needed, and it may be 
+ignored or not stocked properly after the previous 
+mass casualty event.  
+Management of Mass Casualty 
+Mike M. Mallah, David R. Mann, Richard Davis and Peter Bird 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+A Mass Casualty Cart in a resource-rich hospital, containing 
+portable suction and oxygen, a defibrillator, and a separate 
+“toolbox” (Orange) with medications that might be needed, 
+which can be carried with the patient during transport.  
+ 
+You should develop surge distribution plans 
+to provide expedited delivery during mass casualty 
+events, should more supplies be needed. In the case 
+of the Casualty Store, this is backed up by a larger 
+Central Supply elsewhere in the hospital that can 
+replenish it if needed. In the case of the Mass 
+Casualty Carts, these can be replenished by other 
+carts that have been created for this purpose and 
+stored elsewhere.  
+ 
+Space 
+When planning for mass casualty events, you 
+should be aware of the total number of beds/spaces 
+available to accommodate patients. Are there 
+additional spaces that could be converted to 
+accommodate patients if needed? For example, how 
+many patients could be accommodated into hallway 
+spaces? How many beds could be converted to 
+provide ICU level care? Can beds near the nursing 
+station be used as a “surrogate” for critical care beds, 
+where patient deterioration would be noted sooner? 
+Can beds, rooms, or spaces typically designed for 
+one or few patients be “surged” up to house more 
+than 
+the 
+designated 
+number 
+during 
+routine 
+operating? Understanding the space available will 
+allow you to utilize your decreased resources more 
+efficiently.  
+ 
+Medical Records 
+ 
+In order to keep track of multiple patients’ 
+diagnoses and treatment plans, you must be able to 
+generate medical records quickly. Your Medical 
+Records department may not be able to create enough 
+new files at once by the usual process. If you use an 
+electronic medical record, access to multiple 
+computers simultaneously can be another choke-
+point. But even if your hospital’s medical record 
+system is only a small notebook carried by the patient 
+themselves, we recommend using a worksheet like 
+the one below.  
+ 
+A well-designed worksheet encourages the 
+clinician to follow a standardized approach. It is 
+structured to be systematic, including the Glasgow 
+Coma Scale, and priorities for assessment such as 
+airway, breathing, circulation, etc.  
+ 
+The worksheet accompanies the patient 
+during the mass casualty event, and the Plan section 
+can record orders (“X-ray of Chest, Pelvis, Lateral C-
+spine.”) Eventually the worksheet is added to the 
+patient’s medical record, usually at the time of 
+admission. We include a copy of this worksheet for 
+download here.  
+ 
+A worksheet that helps clinicians evaluate the patient according 
+to typical trauma priorities.  
+ 
+Planning 
+Once all of the above are understood, all that 
+remains is to “put it all together” into a cohesive 
+system that can respond as needed.  
+Management of Mass Casualty 
+Mike M. Mallah, David R. Mann, Richard Davis and Peter Bird 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+First, a clear trigger should be outlined to 
+"activate the system."  This will be different for every 
+institution given the resources available. For 
+example, a specific hospital might designate the 
+arrival of three simultaneous trauma patients as a 
+mass casualty event.  If so, this criterion should be 
+clearly outlined and staff informed that if the criteria 
+is met, the system can be activated.  
+You may choose to have a certain number of 
+patients be the trigger. But we also recommend 
+allowing senior clinicians and nurses to use their 
+discretion in activating the system. If your hospital’s 
+trigger is four patients, and three critically ill patients 
+arrive with survivable injuries requiring immediate 
+treatment, it is quite reasonable to activate the 
+system.  
+Secondly, a clear communication strategy 
+should be outlined. If a "mass casualty incident" is 
+activated, who initiates that activation? Is the 
+activation decided on by an individual or a group? 
+Often this is the senior nurse on duty in the hospital 
+(variably called the House Supervisor or the 
+Coverage Nurse.) This person activates a central 
+communication method in order to connect the 
+involved parties. The communication platform 
+WhatsApp has been used frequently given its 
+accessibility and end-to-end encryption. Often the 
+Nurse-in-Charge or Physician-in-Charge will need to 
+make phone calls directly to other personnel to 
+decide on activating the system; this is another 
+reason why such roles should be filled by people who 
+are quite familiar with the hospital and its resources.  
+ 
+The roles of the Physician-in-Charge and 
+Nurse-in-Charge are the most important in a mass 
+casualty event. Nurses who can take this role should 
+be among the most experienced and should 
+understand the hospital well. Specifically, knowing 
+who plays what role, and who else could play it if the 
+right person isn’t available, is the kind of knowledge 
+that only comes with experience.  
+ 
+The 
+Physician-in-Charge 
+faces 
+similar 
+demands. As described further below, this person 
+must be able to coordinate multiple complex 
+activities at the same time. There is no substitute for 
+experience with the facility and knowledge of its 
+working parts here. Therefore, the most senior 
+physician in the hospital is usually the one who plays 
+this role. In these days of “Global Surgery,” visiting 
+surgeons who are on-call must be properly prepared 
+if they are to play this role. For example, a visiting 
+trauma surgeon with extensive patient care 
+experience who does not know your hospital well 
+would be better suited performing direct patient care, 
+rather than being the Physician-in-Charge. 
+ 
+During 
+ 
+The Nurse-in-Charge and Physician- in-
+Charge work closely together. Neither takes care of 
+an individual patient.  They conduct the mass 
+casualty event itself and should be not distracted by 
+the needs of a singular patient.  During the event, 
+these two “in-Charge” leaders coordinate the entire 
+team’s roles, ensure proper management and triage, 
+and monitor crowd control.  
+ 
+A Yellow vest allows the Physician-in-Charge to be easily 
+identified even in a chaotic environment. The Nurse-in-Charge 
+wears one as well.  
+ 
+Roles 
+A highly experienced physician should be the 
+Physician-in-Charge, ideally with training in 
+emergency medicine or trauma. As stated above, a 
+thorough understanding of the hospital is the most 
+important attribute. In the absence of a physician, an 
+individual with the most medical training may serve 
+in this position.  
+If there are additional clinicians, the 
+Physician-in-Charge 
+will 
+coordinate 
+physician 
+efforts. These include other physicians, specialists, 
+resident physicians/house officers and other trainees 
+present. The Physician-in-Charge must delegate 
+responsibilities appropriate for other personnel at 
+their level of training. As patients and clinicians 
+Management of Mass Casualty 
+Mike M. Mallah, David R. Mann, Richard Davis and Peter Bird 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+arrive, try to “match” the level of the clinician to the 
+perceived injury burden of the patient.  
+The Physician-in-Charge will decide which 
+patient receives which treatment and will prioritize 
+patients based on their needs. This includes deciding 
+the disposition of the patients, whether to the x-ray 
+department, the Operating Theater, the ward, or the 
+critical care unit. In order to do this, the Physician-
+in-Charge must have a general idea of the condition 
+and injury burden of every patient. This information 
+is relayed by the individual clinician caring for the 
+patient. 
+The Nurse-in-Charge manages logistics, 
+coordinates nursing efforts, and ensures that triaged 
+patients receive the care indicated by the Physician-
+in-Charge. 
+Nurses 
+should 
+be 
+proportionally 
+distributed to ensure that triaged patients receive the 
+adequate level of care based on the acuity of their 
+injuries. The Nurse-in-Charge also ensures that 
+patients are transported efficiently and prevents 
+bottlenecks of patients which may obstruct halls or 
+overwhelm services. Specifically, we attempt to send 
+only one patient at a time to the x-ray department, to 
+avoid patients waiting unsupervised in the hallway 
+where their deterioration might not be noticed.  
+ 
+Management 
+ 
+Patients are triaged according to their 
+condition, as below:  
+Designation 
+Condition 
+Red 
+Critical condition but salvageable 
+with 
+immediate 
+intervention: 
+airway, breathing, or circulation 
+problem. 
+Yellow 
+Possibly in critical condition or 
+may deteriorate soon, but does not 
+require immediate intervention. 
+Green 
+Injuries sustained but not in critical 
+condition. Has the potential to 
+deteriorate in the future but does 
+not require immediate intervention. 
+Black 
+Survival is not likely with any 
+intervention: caring for this patient 
+would 
+divert 
+resources 
+from 
+patients who otherwise have a 
+reasonable chance of survival. 
+Table showing one technique for triaging patients during a 
+mass casualty event. Note that patients designated “Black” 
+may, under other circumstances, get a full effort at 
+resuscitation. During a mass casualty event, we recognize that 
+resources are limited and best directed to other patients with a 
+better chance of survival.  
+ 
+Below we delineate the duties of the 
+Physician-in-Charge: These points can be distributed 
+beforehand to potential Physicians-in-Charge, and 
+posted in a prominent place: 
+● Don’t personally manage any patient! 
+● Delegate tasks: Have someone by your side if 
+possible as a scribe / runner / phone caller. 
+● Liaise closely with the Nursing team and the 
+Nurse-in-Charge, especially to mobilize ancillary 
+staff. 
+● Find out the details of the incident: Mechanism, 
+how long ago, any more patients at the scene?  
+● Triage casualties and assign staff as appropriate, 
+ideally one clinician and one nurse per patient. 
+● Move “Walking Wounded” to the Outpatient 
+Department or elsewhere outside of the 
+Emergency Department.  
+● Assure ATLS protocols are being followed. 
+● Consider moving unstable patients directly to the 
+operating theater to be resuscitated and treated 
+there. 
+● Assign 
+FAST 
+Ultrasound 
+scan 
+to 
+one 
+experienced person with a portable machine. 
+● Alert anesthesia. If during a normal business day, 
+do not start any elective cases in the operating 
+theater until you can estimate how many patients 
+will need urgent operations.  
+● Control the flow of patients to x-ray and other 
+patient care areas outside of the Emergency 
+Department. Try not to have any patients waiting 
+in unsupervised areas. 
+ 
+Management of Mass Casualty 
+Mike M. Mallah, David R. Mann, Richard Davis and Peter Bird 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+If you have a portable ultrasound machine, assign one person 
+to perform bedside Focused Abdominal Ultrasonography for 
+Trauma examinations on patients, beginning with the most 
+critical, as assigned by you.  
+ 
+Patients will generally leave the Emergency 
+Department to go to: 
+● Admission: the ward or a critical care unit after 
+full evaluation. In general, needed treatment is 
+done first in the Emergency Department, 
+including cleaning and suturing lacerations, 
+splinting fractures or placing traction pins, and 
+other interventions.  
+● Operating Theater: you must make sure the one 
+doing the operation is qualified to do so. If you 
+are the Physician-in-Charge and the patient needs 
+an operation, you may send another qualified 
+surgeon, or you may choose to hand over the “in-
+Charge” role to someone else who is capable of 
+doing the job.  
+● Discharge: After evaluation and treatment, they 
+do not meet the criteria for admission. 
+ 
+Crowd Control 
+ 
+Security is very important here: Hospital 
+Security Guards must gently but firmly cause all non-
+medical 
+personnel 
+to 
+leave 
+the 
+Emergency 
+Department. This will be difficult, as emotions are 
+high and family members are concerned. They may 
+insist that their family member receives precedence, 
+and this could become an unnecessary distraction at 
+a time when attention is most needed. “Walking 
+wounded” should be monitored closely for 
+deterioration, but otherwise they should stay 
+elsewhere, in a place such as the Outpatient 
+Department, waiting their turn to be evaluated. 
+Police officers and soldiers will enter the Emergency 
+Department 
+and 
+display 
+varying 
+levels 
+of 
+professionalism as they watch the proceedings; 
+sometimes these can be “redirected” with a request 
+to help with crowd control.  
+ 
+After 
+In resource-rich settings, there is heavy 
+emphasis on practice and “drills” of mass casualty 
+events. However, full scale practice of plans within 
+resource-limited settings may not be feasible due to 
+limited resources and the impact on everyday 
+operations. Despite this fact, limited practice 
+sessions can decrease the confusion and delays of 
+poorly coordinated efforts. Once your institution is 
+initially prepared and a plan is set, practice it.  
+While practice and simulation are reasonable 
+surrogates prior to a mass casualty, the events 
+themselves are often the most informative. Conduct 
+an audit, formal or informal, and ask the following 
+questions:  
+● What worked well?  
+● What do we need to adjust?  
+● How is our plan vulnerable and how can we 
+mitigate those weaknesses in future events? 
+● Were there any clinical competence issues, or 
+need for additional training, exposed?  
+ 
+Many issues that are exposed by an audit 
+cannot be addressed very well: a mass casualty is a 
+chaotic and brutal event and mistakes will be made. 
+The most likely weakness to be exposed will be the 
+competence of your team in initial management of 
+the injured patient. Fortunately, this problem is the 
+one that you can control best, through better 
+preparation. If more teaching sessions are needed, 
+organize them without delay. In general, an official 
+ATLS course will be expensive and difficult to 
+access in a low-resource setting. But its principles are 
+the most applicable here, and your clinicians should 
+be very familiar with the priority-focused approach 
+that it teaches. Consider organizing your own “in-
+house” courses that teach the same principles.  
+The answers to the questions highlighted 
+above are critical in the aftermath of an actual mass 
+casualty event and can also shed light on weaknesses 
+Management of Mass Casualty 
+Mike M. Mallah, David R. Mann, Richard Davis and Peter Bird 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+within local, regional, and country level disaster 
+responses. Debriefing after these events will allow 
+teams on every level to go back to the drawing board 
+and optimize their plans. Incremental improvements 
+can then be made and thus hopefully increase your 
+capability to provide quality care in the face of mass 
+casualties. 
+ 
+ 
+ 
+The authors acknowledge the work of Doug 
+Norcross, MD FACS and Ben Cassidy. 
+ 
+ 
+Mike M. Mallah MD 
+Medical University of South Carolina 
+USA 
+ 
+David R. Mann DO MS 
+Medical University of South Carolina 
+USA 
+ 
+Richard Davis MD FACS FCS(ECSA) 
+AIC Kijabe Hospital 
+Kenya 
+ 
+Peter Bird MBBS FRACS 
+AIC Kijabe Hospital 
+Kenya 
+ 
+June 2023 
+Resource-Rich Settings 
+Industrialized countries are usually divided geographically into 
+“catchment areas” with a robust emergency service 
+infrastructure: 
+• 
+Prehospital services such as ambulances, helicopters, and 
+fixed-wing aircraft, staffed with skilled practitioners up to 
+and including specialist Emergency Medicine physicians. 
+• 
+One hospital designated as the area’s “Trauma Center.” At 
+this Center, skilled personnel and facilities can be rapidly 
+mobilized. Within the area, there may be other hospitals 
+that can also care for less injured patients as well. 
+• 
+Coordinated communication services including all of the 
+above resources, allowing rapid decisions such as 
+mobilizing personnel and equipment, and sending injured 
+patients to several hospitals so that one hospital is not 
+overwhelmed. Trauma Centers serving other catchment 
+areas may receive patients from the one where the accident 
+occurred if needed. 
+• 
+Trauma practitioners frequently conduct mock exercises at 
+all levels to ensure preparedness.  
+ 
+Because of these advantages, a true “mass casualty” which 
+suddenly overwhelms an individual hospital’s resources, is 
+relatively rare in resource-rich settings. Large-scale terrorist 
+attacks, train derailments, or natural disasters would be dealt 
+with in the above framework.  

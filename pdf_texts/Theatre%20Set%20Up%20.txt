@@ -1,0 +1,999 @@
+Operating Theatre Setup 
+Maziar Nourian, Rachel Baker, Jason Fader 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Editor’s Note: In this article, we have tried to 
+describe the standards for an operating room in a 
+high-resource setting. After each paragraph, we 
+provide a commentary by one of the authors (JF) 
+with compromises, tips and other suggestions for 
+adapting these standards to a low-resource setting.  
+ 
+Introduction:  
+Safety in operating room environments is 
+paramount to surgery regardless of setting. The 
+operating theater poses unique risks to patients and 
+staff members, and it is important to understand how 
+to properly set up a functioning operating theater to 
+minimize these. In this chapter, we will discuss basic 
+principles of how to set up an operating theater, 
+including an overview of medical gasses, electrical 
+and fire safety, theater environment control, and 
+anesthesia machine requirements. Additionally, we 
+will 
+outline 
+basic 
+operating 
+theater 
+layout, 
+equipment, technology, and maintenance standards. 
+We have divided this chapter into five 
+sections:  
+1. Setup 
+2. Gasses and Vacuum 
+3. Electricity 
+4. Safety 
+5. Anesthesia Machines 
+ 
+1. Setup 
+Layout and Physical Requirements 
+The 
+operating 
+theater 
+should 
+be 
+accommodating to safe surgery and anesthesia and 
+should be at least 7x7m with a ceiling height of 3.5m. 
+This is to allow adequate space for operating theater 
+equipment, intraoperative imaging and patient 
+monitoring.  
+The typical design and layout of the operating 
+theater involves a patient bed with an anesthesia 
+machine at the head, surgeons and assistants standing 
+to the right and left of the patient and a scrub 
+technician near the feet of the patient or to one side 
+with a sterile table full of surgical equipment.  
+There should be adequate room for various 
+patient positions for the various sub-specialties and 
+types of surgeries as well as space to adequately 
+allow an anesthesia machine and various instruments 
+to come in and out of the operating theater.  
+In order to allow for intraoperative patient 
+positioning, a safety strap shall be placed above the 
+patient's knees to prevent movement if the bed is 
+tilted or moved. Safety straps shall also be placed on 
+patients arms to prevent unintended injury from an 
+arm falling off the arm table. In the supine position, 
+the operating table should be able to tilt and rotate 
+into various positions including Trendelenburg and 
+reverse Trendelenburg positions. These positions 
+will place pressure on various parts of the body, 
+therefore it is important to provide padding to 
+pressure points along the patient. We discuss the 
+approach to patient positioning and various surgical 
+positions elsewhere in this Manual.  
+ 
+A suggested layout for a single operating room. The baby 
+warmer can be portable and moved to another room, or a 
+neonatal resuscitation area, as needed. There should be outlets 
+on all four walls (220 and 110V).   
+ 
+Each operating room fits into a well- 
+designed system that meets the various needs of 
+operative patient care. In addition to easy access to 
+the operating rooms themselves, a theater area should 
+include:   
+● A waiting room for patients and family with 
+reception 
+● Patient changing areas 
+● Examination rooms 
+● A pharmacy 
+● Storage areas for surgical and anesthesia 
+equipment 
+Operating Theatre Setup 
+Maziar Nourian, Rachel Baker, Jason Fader 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+● A central supply store for non-reusable items 
+● A surgical instrument storage area 
+● Decontamination and sterilization facilities 
+● A postoperative recovery area 
+● Dressing rooms for theater staff 
+● Lounge for theater staff 
+● Clinicians’ work and documentation area 
+ 
+Suggested layout of an operating room. Consideration is given 
+to sterile areas and the exit of contaminated linens, entry of 
+clean linens, and the entry and exit of theater personnel through 
+the changing rooms. If there is enough space, consider adding 
+extra exam rooms. These can double as patient changing rooms 
+so that several patients can enter at once, or family rooms when 
+needed for private discussions.  
+ 
+Commentary: 6x6m is a very adequate size.  If it is 
+much bigger than that, the equipment can have 
+trouble reaching the patient.  The one exception 
+might be an orthopedic operating theater where a C-
+arm (portable x-ray machine) is used routinely.  3.5m 
+for height is just right – much higher and the 
+overhead light will need some sort of extension; 
+much lower and the surgeons will hit their heads on 
+the light. Putting multiple 220v and 110v outlets on 
+each wall helps with flexibility.  Windows above 1.8m 
+help with natural light, but prevent people from 
+looking in.  Table surfaces on 2 walls which are off 
+the ground ensure that the legs will not rot or rust, 
+since the operating theaters get mopped multiple 
+times per day.  These can be finished wood.  Side 
+tables should be stainless steel and are easily found 
+from medical suppliers. Tile is usually the most 
+practical flooring and should go up the wall about 
+20 cm.  It is always prudent to plan on expansion so 
+that if it happens, it occurs in a way that maintains a 
+workable environment with good patient flow.  
+Consider placing the ICU near the recovery room as 
+well, since they serve overlapping functions and have 
+similar needs.  The lounge should include the 
+possibility of having lunch served to the operating 
+staff as this facilitates shorter lunch breaks and loss 
+of momentum.  Clear vinyl (often used for boats) is 
+very useful to cover operating theater tables to 
+prolong the life of the foam mattresses, which are 
+hard to replace. 
+ 
+Environment 
+Temperature:  
+The temperature of the operating theater 
+should be between 18°C and 24°C. Keeping the room 
+above 18ºC is important to prevent intraoperative 
+hypothermia. Hypothermia (patient temperature 
+<35°C) has been associated with greater morbidity 
+and mortality. Complications include metabolic 
+changes, impaired drug metabolism, cardiovascular 
+changes, effects on coagulation, etc. Patients under 
+general anesthesia will typically lose 0.5ºC to 1.5ºC 
+within the first hour as a result of vasodilation and 
+redistribution of body heat. Most of the body’s heat 
+loss happens at the skin level in the form of radiation; 
+however, convective, conductive, and evaporative 
+modalities can further lead to heat loss in a patient. 
+Warming devices can be used to maintain 
+normothermia in a patient if they meet the following 
+standards. A device that forces heated air over a 
+patient shall not exceed 48ºC, and the average 
+contact surface temperature should be below 46ºC. If 
+a fluid warming device is utilized, it shall not be 
+heated past 43ºC with an average surface 
+temperature of 42ºC.  
+When comparing various warming strategies, 
+forced air warming devices that blow air into a 
+warming blanket in contact with bare skin have been 
+shown to prevent hypothermia better than fluid 
+warmers, warmed blankets, or increasing the 
+temperature in the room. Passive coverings of 
+patients, such as thermal head coverings or warm 
+blankets over exposed parts of the patient’s body, are 
+adequate ways to prevent heat loss. Lastly, the 
+Operating Theatre Setup 
+Maziar Nourian, Rachel Baker, Jason Fader 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+anesthesia team can decrease fresh gas flows and use 
+a heat and moisture exchanger in the anesthesia 
+circuit to reduce heat loss. An anesthetized surgical 
+patient is also at risk for burns or cold injuries due to 
+human error, such as a forced air warmer or ice being 
+placed directly on patient skin. 
+ 
+Commentary: Hot water bottles are a very cheap way 
+to provide heat to patients.  Latex gloves can also be 
+filled with warm water.  Sterilization should have a 
+hot water source that can be used for this.  A broken 
+refrigerator is an excellent way to warm blankets and 
+gowns for patients by installing light bulbs inside the 
+refrigerator along with a thermostat (for a 
+terrarium, for example.)   
+It is important to test any water with your 
+own hand before placing it on a patient’s skin, as 
+anesthetized patients will not be able to tell you that 
+they are being burned by something that is intended 
+to warm them. Portable electric “space heaters” 
+have a similar danger if placed too close to an 
+anesthetized patient.  
+ 
+Humidity 
+The humidity in the operating room is a safety 
+concern. If the operating room is above 60% 
+humidity, condensation may occur on cool surfaces 
+and affect the integrity of barrier devices. If the 
+humidity is less than 20%, static charge may build up 
+and 
+contribute 
+to 
+operating 
+theater 
+fires. 
+Additionally, low humidity facilitates the spread of  
+airborne disease vectors. Therefore, it is advised to 
+keep the operating theater between 20-60% 
+humidity.  
+ 
+Ventilation 
+The ventilation system of an operating theater should 
+minimize the spread of contaminants and infectious 
+agents. Therefore, the operating theater should 
+maintain negative pressure, thereby preventing 
+airflow out to the hall or other operating theaters. 
+Additionally, the flow of fresh air into the theater 
+should allow for six to ten total air exchanges each 
+hour. This circulation can be achieved by exhausting 
+the operating room air outside or recirculating it 
+through a filtered system. 
+ 
+Commentary: When forced air ventilation is not 
+feasible, keeping some doors and windows open is an 
+easy way to get air exchange.  Moving air is less 
+infectious than stagnant air.  Installing exhaust vents 
+in strategic locations can help pull air through very 
+cheaply and effectively. 
+ 
+ 
+A ventilation duct near the floor of an operating room in a 
+resource-rich setting allows recirculation and maintains a 
+slight negative pressure inside each room, minimizing spread 
+of contamination out of the room.  
+ 
+Noise 
+The operating theater is full of various noises 
+which can be damaging to patients and operating 
+theater personnel. At the very least, excessive noise 
+makes communication difficult. Sources of noise 
+include suction machines, forced air warmers, 
+alarms, and surgical equipment. The United States 
+Occupational Safety and Health Administration 
+(OSHA) recommends noise to be less than 80 
+decibels on average (which is louder than 
+conversational level). Certain equipment in the 
+operating theater can get above 125 dB, and hearing 
+protection may be required while those machines are 
+in use. 
+ 
+Lighting 
+Lighting in the operating theater can help a 
+surgeon 
+visualize 
+the 
+surgical 
+field, 
+allow 
+intraoperative nursing/technicians to perform their 
+functions, and ensure safe anesthesia is provided. 
+While 
+different 
+surgeries 
+require 
+different 
+types/intensities of lighting, it is generally accepted 
+Operating Theatre Setup 
+Maziar Nourian, Rachel Baker, Jason Fader 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+that lighting capabilities of at least 200 foot-candles 
+is required.  
+As light source technology improves, there 
+are brighter and more affordable lighting systems in 
+the form of LED technologies that can be used in 
+headlamps, overhead lights, and orbit lights. The use 
+of LED technologies also reduces the amount of 
+infrared heat produced with other light sources.  
+ 
+An overhead light in a resource-rich setting with multiple LED 
+bulbs and a sterilizable handle that allows the surgeon to adjust 
+and direct it.  
+ 
+Finally, backup lighting in the form of battery 
+powered flashlights and headlamps should be made 
+available in cases of power insecurity.  
+ 
+As LED technology has improved and become affordable, 
+“camping headlights” such as this one emit 600 lumens and are 
+entirely suitable for surgical use.  
+ 
+Commentary: When buying lights, be sure and get 
+many extra light handles that can be sterilized.  
+Camping headlights make overhead lights almost 
+unnecessary.  The operating room is one of the key 
+areas that should be put on a generator back up, as 
+well as the oxygen system, lab, and Casualty / 
+Emergency Room.  An operating theater typically 
+only uses a couple of kW of power, so a big generator 
+is not necessary (depending on the size of the 
+sterilizer, which likely uses the most electricity in the 
+theater.) 
+ 
+Radiation/Intraoperative Imaging 
+Radiation exposure may occur due to 
+diagnostic imaging done intraoperatively. This 
+includes fluoroscopy, linear accelerators/beam 
+therapy, computed tomography (CT), and x-rays. 
+Radiation is measured in gray (gy), rads, Sievert 
+(Sv), and Roentgen equivalents in man (REM). The 
+goal in the operating theater is to use radiation “as 
+low as reasonably practical.”  
+Radiation exposure is reduced by using 
+shielding techniques, decreasing the duration of 
+exposure, and increasing the distance from the 
+radioactive source. For example, a person may be 
+exposed to 1000 millirads of radiation at a distance 
+of one centimeter from the source but increasing the 
+distance to 100 centimeters reduces the radiation 
+exposure to 0.1 millirads.   
+In order to shield organs that are highly 
+sensitive to radiation (such as eyes, thyroid, gonads, 
+and blood), it is recommended to wear lead shields 
+or to stand behind leaded walls or shields. Leaded 
+goggles are also an option for those exposed to 
+radiation on a frequent basis. Leaded aprons and 
+thyroid shields should be at least 0.25mm on the front 
+and back whereas thyroid shields should be at least 
+0.5mm. This protective equipment should be tested 
+every year to ensure full protection. 
+ 
+Commentary: When lead aprons and portable lead 
+walls are not readily available, distance from the 
+radiation source is a very effective way to decrease 
+exposure. 
+ 
+Operating Theatre Setup 
+Maziar Nourian, Rachel Baker, Jason Fader 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+2. Gasses and Vacuum 
+Oxygen 
+Oxygen delivered to patients should be 99% 
+oxygen. Oxygen is typically stored as a gas at room 
+temperature or liquid when refrigerated. Oxygen can 
+be stored in high-pressure cylinders (H-cylinders) 
+and connected to a manifold that will reduce the 
+cylinder pressure of 2000 pounds per square inch 
+(psi) down to an appropriate line pressure of 55 psi. 
+Oxygen at 55 psi can be routed to operating theaters 
+and recovery areas to be safely used. Each anesthesia 
+machine should have the capability of hooking up to 
+an emergency cylinder (E-cylinder) in case of 
+hospital gas system failures. E cylinders should have 
+a pressure of about 2000 psi and never be filled above 
+5000 psi. 
+In high-resource settings, oxygen can also be 
+stored at -119C in liquid form in a large tank.  
+Oxygen concentrators are an alternative to 
+liquid storage or tank oxygen. Concentrators can 
+deliver a concentration of 90-96% by absorbing 
+nitrogen and other trace gasses through a pressure 
+swing adsorber. Oxygen concentrators are governed 
+by the international standards (ISO 8359 and ISO 
+10083.) The benefit of such devices is that they are 
+compact and can be easily transported from the 
+operating theater to ICU and other locations. These 
+can also be utilized in case of pressure malfunctions 
+of a pipeline system. Of note, it is key that air 
+filtration systems be changed or cleaned regularly 
+and humidity be controlled in the operating theater; 
+a concentrator’s performance may decrease if used in 
+very high humidity. (Recall that at maximum 
+performance a concentrator can deliver only 96% 
+oxygen.)  
+ 
+A portable, wall-powered oxygen concentrator 
+ 
+ 
+A hospital’s oxygen concentrator. Note that this size machine is 
+not sufficient for the hospital’s needs- the tanks on the right side 
+are connected in-line to the system and changed as needed, to 
+add to the system’s capacity. 
+ 
+Commentary: Obtaining a high-quality oxygen 
+concentrator should be a priority.  This oxygen is 
+piped to the key services through copper tubing.  If 
+that is not an option, portable concentrators should 
+be fixed in one place (as they break easily) and the 
+Operating Theatre Setup 
+Maziar Nourian, Rachel Baker, Jason Fader 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+patients moved to the beds which are served by the 
+concentrator.   
+ 
+Medical Air 
+Medical air is utilized mostly in operating 
+theater settings and consists of blending oxygen and 
+nitrogen to provide a dehumidified (unsterile) air 
+mixture. This allows the anesthesiologist to decrease 
+the amount of oxygen given while a patient is on a 
+ventilator. 
+ 
+Commentary: Centralized Oxygen Concentrators 
+require compressed air, so this air can be used as the 
+“driving gas” for ventilators thereby decreasing the 
+consumption of oxygen. 
+ 
+Vacuum Systems 
+Suction is essential to both safe surgery and 
+anesthesia. Suction is usually created by creating 
+negative pressure using a vacuum system. This can 
+help the movement of liquids, solids, and other 
+gasses through the vacuum system. Suction exists in 
+many forms, such as pipeline suction with terminal 
+inlets and portable devices.  
+The International Standards Organization 
+produces a guideline for pipelines for compressed 
+medical gasses and vacuum (ISO 7396.) This 
+guideline states that a vacuum must be able to 
+maintain suction of 40.6 kPa (12 inches of mercury.) 
+The basic setup for a piped vacuum system is a 
+pump, receiver, piping and vacuum inlets. The 
+pumps should have the capability to connect to 
+emergency electrical supply, and there should be 
+backup pumps in case of pump malfunction. The 
+receiver should help maintain the pressure within the 
+system and drain exhaust and byproducts. The 
+pipeline system is described below, and is comprised 
+of shut off valves, pressure gauges, and alarms. 
+Lastly, vacuum inlets will allow users to access the 
+system via Y connectors that cannot be interchanged 
+with anesthetic gasses.  
+Portable suction can be used where there is 
+no pipeline vacuum and can either be electrically 
+powered or manually powered. Portable suction 
+devices shall have a vacuum regulator to control the 
+amount of negative pressure and not cause harm to 
+the patient. Suctioned contents can be collected into 
+a container to be either disposed of or measured. It 
+should be ensured that the canister is upright and 
+unlikely to be tipped over. Usually, the canister is 
+placed below the patient to allow for drainage. If 
+suction canisters and tubing are to be reused, proper 
+sanitization must be followed to prevent cross 
+contamination between patients. 
+Most suction canisters that originate in high-
+resource settings are intended for single use. When 
+such canisters are reused several times, leakage of 
+suction is the usual result. This leads to decreased 
+effectiveness of the suction.  
+ 
+A wall-powered portable suction machine. Note that this 
+machine runs on 110 volts and needs a separate outlet, as it is 
+being used in a country where 220 volts (Blue outlet) is more 
+commonly used. 
+ 
+Operating Theatre Setup 
+Maziar Nourian, Rachel Baker, Jason Fader 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+A glass suction canister such as the one on the left is intended 
+to be cleaned and reused. The rubber seal in the cap can be 
+replaced as needed. The plastic suction canister on the right 
+was originally intended for single use in a high-resource 
+setting. As it has been reused multiple times, “patchwork” is 
+needed to repair it and maintain suction. Such canisters are 
+probably more trouble than they are worth in a low-resource 
+setting.  
+ 
+Commentary: Whereas centralized oxygen is very 
+helpful, centralized vacuum is rare and not 
+necessarily advisable.  A much better system is to buy 
+multiple portable suction units of the same kind and 
+build a cart which supports the canisters as well.  
+Each operating theater should have a portable 
+suction unit fixed to the wall (ideally in a noise-
+reducing box.) 
+We discuss elsewhere in this Manual how to 
+convert an aquarium pump motor into a suction 
+device and how to integrate it into patient care, such 
+as for a wound vac, NG tube suction or chest tube 
+suction.   
+ 
+Scavenging 
+Scavenging of anesthetic gasses can help 
+prevent unintended exposure to health care personnel 
+in the operating theater. Removal of gasses exhaled 
+by the patient and reduction of exposure of 
+administered gasses is the purpose of the scavenging 
+system. Gas should be collected at the site of 
+emission (anesthetic circuit,) transferred to a gas-
+collecting assembly, and interact with a scavenger 
+interface (open and/or closed interface systems,) and 
+finally exhausted into either the vacuum system or 
+atmosphere. 
+The 
+International 
+Standards 
+for 
+Anesthetic gas scavenging systems (ISO 8835-3) 
+should be followed.  
+ 
+Here, the scavenging system of this anesthesia machine sends 
+the gas through a hole in the wall (Red circle,) to the open air 
+outside the operating room.  
+ 
+Piping Systems 
+Having contained piping that leads to 
+individual patient beds is much more convenient than 
+having an individual suction machine or oxygen tank 
+at every bed. However, this approach increases the 
+complexity of the system and the potential to lose 
+gasses through leaks as the piping gets longer.  
+ 
+A simple but effective ward setup of an oxygen system. Note that 
+the oxygen concentrator is connected to a flowmeter (both 
+inside the red circle) with five outlets, which send oxygen to 
+each patient through tubing mounted on the wall. Also note the 
+spare oxygen tank (blue circle) in case of oxygen concentrator 
+Operating Theatre Setup 
+Maziar Nourian, Rachel Baker, Jason Fader 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+failure. Source: Oxygen System Installation Guide Version 2.1 
+April 2020 
+https://www.ghspjournal.org/content/ghsp/suppl/2020/09/29/
+GHSP-D-20-00224.DCSupplemental/20-00224-Graham-
+Supplement4.pdf  
+ 
+There are certain set standards for piping 
+systems to allow for medical gas delivery for 
+multiple operating rooms. Several regulatory 
+agencies have published standards: National Fire 
+Prevention Association (NFPA,) Compressed Gas 
+Association (CGA,) Canadian Standards Association 
+(CSA,) and International Standards Organization 
+(ISO.)  
+Central supply of gasses can come in various 
+forms, however it is either through cylinder supply 
+or cryogenic supply systems. The cylinder supply 
+unit commonly has two banks. Each bank will have 
+the daily supply, a check valve, pressure relief 
+valves, regulators, and shut off valves. These serve 
+to deliver continuous gas supply, prevent over-
+pressurized gas delivery to a patient, and prevent 
+system failure. A detailed schematic of a cylinder 
+supply system and a cryogenic oxygen supply system 
+are displayed below which is adopted and recreated 
+from Understanding Anesthesia Equipment by 
+Dorsch and Dorsch. 
+ 
+Example of a cylinder supply system. 
+ 
+ 
+Example of a cryogenic oxygen supply system. 
+ 
+Commentary: Cryogenic oxygen is likely unrealistic 
+for most of the developing world.  Creating an 
+oxygen manifold which is then piped to key places is 
+a much simpler method of delivering oxygen in a 
+limited space (i.e. labor and delivery.)   
+ 
+3. Electricity 
+Electrical Safety 
+Medical equipment that requires electricity 
+can help improve surgical care and is becoming more 
+common in operating theaters around the world. 
+While electric medical equipment has made many 
+advances in the medical field, it also comes with risks 
+to the patient and user. It is important for all 
+personnel in the operating theater to understand the 
+basic principles of electrical safety.   
+Electricity can pose a threat to operating 
+room personnel and patients through electrical 
+shocks. These can occur when a body part comes into 
+contact with conductive materials at different voltage 
+potentials, thereby closing the circuit. Electricity is 
+produced by flow of electrons in either the same 
+direction (DC) or in alternating directions (AC.) 
+Both AC and DC types of electricity can cause harm 
+to a patient, though AC is more dangerous.  
+Electrical shock is broken down into two 
+categories: 
+Macroshock 
+and 
+microshock. 
+Macroshock refers to a high current flowing through 
+a person in which harm and death may occur. 
+Microshock is a small amount of current which can 
+Operating Theatre Setup 
+Maziar Nourian, Rachel Baker, Jason Fader 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+become dangerous if in direct contact with the heart 
+(i.e. pacing wire.)  
+Typical medical equipment in most of the 
+world will use 220V electricity. Hospitals that rely 
+on donated or refurbished equipment from the United 
+States, which uses 110V electricity, should have 
+additional 110V outlets in areas where this 
+equipment will be used.  
+Power provided to operating theaters is 
+usually ungrounded power and will require an 
+isolation transformer. The isolation transformer adds 
+another layer of safety – a person who comes into 
+contact with a live current does not complete a loop 
+and will not receive a shock. The high current (from 
+the power plant) will instead flow into the ground.  
+To protect the Isolation Transformer, it is 
+important that operating theaters have a Line 
+Isolation Monitor which monitors the integrity of the 
+Isolation Transformer and prevents faulty equipment 
+from performing in an ungrounded system.  
+ 
+A Line Isolation Monitor in a resource-rich hospital.  
+ 
+Another form of safety comes from a Ground 
+Fault Circuit Interrupter (GFCI), which prevents 
+electrical shock by interrupting current if unequal 
+flow is occurring.  
+ 
+Commentary: Electricity in many developing 
+countries often fluctuates, so a stabilizer for key 
+areas of the hospital with sensitive equipment (i.e. 
+theater, lab, administration wing) is a good idea to 
+have as well. 
+Diathermy 
+Diathermy units are becoming widely used 
+around the world due to the ability to maintain 
+hemostasis through cautery and cutting modes. 
+Details about the different modes and uses will be 
+discussed in another chapter. Diathermy comes with 
+many risks as it is the most common ignition source 
+in operating theater fires. The basic (monopolar) 
+design is to have an active electrode which is 
+connected to the generating electrosurgical unit: This 
+is commonly called the “pencil.” The circuit is 
+completed by a dispersive electrode pad which 
+collects current from the patient and returns it to the 
+generator: this is commonly called the “grounding 
+pad.”  
+A large surface area of contact between the 
+dispersive electrode and the patient provides the 
+lowest impedance and therefore less potential 
+damage to a patient. If the dispersive electrode is not 
+in proper contact with the patient, risk for burn is 
+present. Situations where this may happen include 
+when the patient’s skin is wet, tape/clothing is 
+present between the skin and the pad, or the 
+conductive “sticky” substance on the pad is 
+malfunctioning. 
+ 
+A diathermy burn injury at the dispersive electrode 
+(“grounding pad,”) likely due to reuse of an electrode which is 
+intended for single use.  
+ 
+More modern diathermy units will have an 
+active electrode monitoring system that is triggered 
+when currents are not balanced and can deactivate 
+the unit if an electrical leakage is detected. It is 
+important to understand the diathermy device in your 
+operating theater and its safety implications and 
+potential contribution to fires or patient injury.  
+ 
+Operating Theatre Setup 
+Maziar Nourian, Rachel Baker, Jason Fader 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Commentary: Applying petroleum jelly 
+(Vaseline) to the grounding pad ensures a reliable 
+connection with the patient and prevents burns, as 
+does drying the pooling betadine/chlorhexidine on 
+the bed after prepping the patient.  A 15x15cm 
+stainless steel plate serves as an excellent reusable 
+grounding pad. 
+ 
+4. Safety 
+Fire Safety 
+With the increased use of diathermy and 
+alcohol-based sterile preparing solutions, the risk of 
+operating theater fires becomes a significant concern. 
+All fires have three common elements shown in the 
+“fire triangle,” which includes: a fuel source, an 
+oxidizing agent, and an ignition. Fuel sources in the 
+operating theater include alcohol-based solutions, 
+drapes and gowns, blankets, dressings, gauze, airway 
+equipment, etc. Oxidizers found in the operating 
+theater include oxygen and nitrous oxide. Lastly, 
+ignition sources include diathermy, lasers, drills, 
+fiber optic light sources (e.g. for laparoscopic 
+surgery,) or malfunctioning electrical equipment.  
+ 
+The “Fire Triangle” shows the three elements needed for 
+combustion: Fuel, an Oxidizer, and Ignition. All three elements 
+are readily available in an operating room.  
+ 
+High risk operations include tracheostomy 
+with electrocautery, electrocautery in mouth surgery, 
+medical-grade laser ENT surgery, neurosurgery (in 
+which the patient’s hair is soaked in ethanol-based 
+cleaning solution,) and laparoscopic surgery (due to 
+fiber optic light sources.) 
+ 
+Fire Prevention & Management 
+Fire prevention in the operating theater starts 
+with reducing all aspects of the fire triangle. This 
+involves minimizing an oxidizing source, safely 
+managing fuel sources, and ensuring that ignition 
+sources are well controlled. Risky surgeries should 
+be identified ahead of time and a fire management 
+plan should be discussed with the entire theater team. 
+A multidisciplinary fire prevention team with an 
+established protocol is crucial to not only prevent but 
+also manage intraoperative fires. If a fire does occur, 
+personnel involved should debrief and revisit 
+hospital established protocols.  An example of a 
+protocol can be found at the end of this chapter.  
+Airway fires during ear, nose & throat (ENT) 
+operations can be mitigated by decreasing FiO2 to 
+less than 30%, using appropriate endotracheal tubes 
+if electrocautery or lasers are being used, and an 
+appropriate airway fire safety plan.  
+If ethanol-based disinfecting substances are 
+being used to prepare a patient's skin, it is imperative 
+to wait at least three minutes before the solution has 
+dried on the patient’s skin before an ignition source 
+(diathermy) is used. At least 30 minutes is required 
+if the patient’s hair is prepped into the surgical field. 
+Access to a CO2 fire extinguisher is necessary 
+for all operating theaters. Fire extinguishers must be 
+checked yearly for adequate pressure.  
+ 
+Radiation Safety 
+ 
+Radiation damage is a cumulative process. 
+Operating theater personnel in many hospitals may 
+be 
+considered 
+separate 
+from 
+the 
+radiology 
+department and not be subject to this department’s 
+safety measures. This is especially true for 
+fluoroscopy used in orthopedic procedures, where 
+theater technicians will activate the machine and take 
+static and dynamic images during surgery on a daily 
+basis. Ideally these personnel should be given the 
+following:  
+● Training in radiation safety 
+● Devices for tracking cumulative radiation 
+exposure  
+● Radiation safety equipment that is checked at 
+least annually 
+● Leaded glasses to prevent irreversible cornea 
+damage and loss of vision 
+Operating Theatre Setup 
+Maziar Nourian, Rachel Baker, Jason Fader 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Housekeeping 
+including 
+Personal 
+Protective 
+Equipment 
+Operating theater personnel should have 
+access to personal protective equipment (PPE), 
+which includes protective hair coverings, fluid 
+resistant masks, eyewear, gloves, waterproof aprons, 
+and non skid shoes (which are ideally waterproof and 
+easily cleanable).   
+The 
+Association 
+for 
+PeriOperative 
+Registered Nurses (AORN) and the Association for 
+Healthcare Environment (AHE) set out guidelines 
+for setting up facility procedures and practices to 
+ensure proper cleaning and disinfecting of the 
+operating theater.  
+Areas that need to be cleaned on a regular 
+schedule include walls, ceilings, waiting rooms, 
+lounges, storage areas, and locker rooms. Dedicated 
+cleaning equipment and tools should be set aside just 
+for the operating theater. Types of cleaning supplies 
+suitable for the operating theater include liquid 
+detergents in a pour-top or squeeze-top bottle. 
+Aerosolized cleaning agents are not suitable for the 
+operating theater due to potential risk to cleaning 
+personnel. Mopping of surfaces should be done with 
+microfiber mops or disposable wipes. Dipping 
+repeatedly into cleaning solutions should not occur 
+as it degrades the chemicals and reduces the ability 
+to properly clean.  
+Cleaning of operating theaters should be 
+done in between cases and at the end of the day with 
+periodic deep cleans. Operating room cleaning staff 
+should 
+wear 
+appropriate 
+personal 
+protective 
+equipment and follow standard precautions while 
+using cleaning chemicals. Chemicals shall never be 
+mixed.  
+Theater turn-overs shall be completed in 
+between cases. This involves removal of prior 
+instruments, trash bags, and linens that have come in 
+contact with the previous patient. All materials in the 
+room from the prior patient should be considered 
+soiled or contaminated and should be disposed of or 
+processed accordingly. Cleaning and disinfection of 
+the room cannot begin until after the patient has 
+vacated. It is important to wipe down the operating 
+theater table, control box, joints, frames, rails, etc. 
+Proceed with routine mopping of surfaces in the 
+operating theater. Spot-clean any areas that appear to 
+have blood or biohazardous waste. 
+After the last case of the day, the routine 
+cleaning should be followed by a scan for any 
+electrical cord damage. Remove any unnecessary 
+equipment and wipe all surfaces including patient 
+monitors and the anesthesia machine. 
+For a “terminal clean” at the end of the day, 
+don appropriate PPE and clean areas which are not 
+regularly cleaned such as scrub rooms, utility rooms, 
+sinks, instrument processing rooms, and operating 
+theater lights. Lastly, ensure vents are free of dust or 
+blockages. 
+ 
+5. Anesthesia Machines 
+The function of anesthesia machines will be 
+discussed in depth in a separate chapter. In this 
+section we introduce the basics of an anesthesia 
+workstation and criteria that deem an anesthesia 
+machine obsolete.  
+ 
+Every anesthesia machine should be checked 
+daily with a “leak test” and system check. The proper 
+function of the following should be evaluated:  
+● A master on/off switch which activates electrical 
+portions and alarms. 
+● An alarm that is activated in the event of a power 
+failure. 
+● The capability to run on reserve power in case of 
+power disruption. 
+● The ability to provide a safe and constant 
+pressure suitable for a patient, using high 
+pressured gas from a cylinder or wall outlet – this 
+is usually achieved through a yoke check valve 
+and pressure regulators. 
+● An oxygen pressure safety device to assure no 
+delivery of hypoxic mixtures to patients. Gasses 
+delivered to patients are usually controlled with 
+flow control valves arranged to deliver normoxic 
+mixtures in the setting of a leak or failure. Safety 
+features are designed to permit for minimum 
+oxygen flows before other gasses. 
+ 
+The American Society of Anesthesiologists 
+has developed the Equipment and Facilities 
+Committee Guidelines for Obsolescence. In brief, 
+Operating Theatre Setup 
+Maziar Nourian, Rachel Baker, Jason Fader 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+this is a useful guide to help determine if an 
+anesthesia machine is obsolete. Below we have listed 
+absolute safety features an anesthesia machine must 
+contain. If any of the absolute criteria are not met, 
+this anesthesia machine should not be used. 
+ 
+Absolute Criteria:  
+● Diameter Index Safety System (DISS) for gas 
+pipeline inlets  
+● Pin Index Safety System  
+● Vaporizer interlocking device (to allow for only 
+one vaporizer to be used at once)  
+● Oxygen supply pressure failure alarm 
+● Oxygen failsafe device 
+● Oxygen ratio device for machines that use N2O 
+Below is a list of unacceptable features of an 
+anesthesia machine.  
+ 
+Unacceptable Features:  
+● Copper kettle and verni-trol vaporizers  
+● More than one flow knob to a single gas 
+● Vaporizers that increase concentrations turned 
+clockwise (counterclockwise is the convention)  
+● Scavenging system hookups with the same 
+diameter as the breathing system 
+● An anesthetic machine which can no longer be 
+serviced by the manufacturer or certified 
+personnel  
+ 
+Lastly, these are relative criteria which should urge a 
+hospital system to replace an anesthesia machine. 
+ 
+Relative Criteria:  
+● No means to isolate the Adjustable Pressure 
+Limiting (APL) valve during mechanical 
+ventilation  
+● An oxygen flow control knob that is larger than 
+other knobs  
+● An oxygen flush control that can be activated 
+accidentally 
+● Lack of anti-disconnection device at the fresh gas 
+outlet  
+● Lack of airway pressure alarm  
+ 
+A maintenance record and log should be kept for all 
+anesthesia machines and should be reviewed 
+regularly.  
+ 
+Commentary: Periodic maintenance of anesthesia 
+machines is very difficult to put into practice.  There 
+are often limited biomedical technicians who are 
+competent to do this task in many developing 
+countries.  One thing that frequently breaks on 
+machines that have not had periodic maintenance 
+done are the hoses.  When that happens, the oxygen 
+or air is depleted very quickly in a given system.  It 
+is imperative that operating theater staff know how 
+to disconnect the oxygen hose from the wall if they 
+hear a loud leak from within the machine. 
+ 
+Maziar Nourian, MD 
+Vanderbilt University 
+Tennessee, USA 
+ 
+Rachel Baker, MD 
+University of Florida 
+USA 
+ 
+Jason Fader, MD 
+Kibuye Hope Hospital 
+Kibuye, Burundi 
+ 
+April 2023 
+ 
+Supplemental Internet Resources:  
+Anesthesia Patient Safety Foundation “Surgical Fire 
+Prevention: A Review” 
+https://www.apsf.org/article/surgical-fire-
+prevention-a-review/ 
+ 
+Review Article: “Cleaning the Operating Theatre” 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC85
+28056/  

@@ -1,0 +1,569 @@
+Principles of Laparoscopy- Trocar Positioning and Placement 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction:  
+Laparoscopic surgery has the potential to 
+decrease postoperative pain and shorten recovery. 
+Although a laparoscopic surgery generally takes 
+longer than its equivalent open surgery, this is not 
+always the case, especially in experienced hands. 
+The disadvantage of longer surgery time can be 
+offset by shorter in-hospital recovery, which allows 
+the hospital to perform more operations overall. 
+Often, a hospital that does laparoscopic surgery well 
+will have a good reputation in the community, 
+attracting more patients for that reason as well. 
+ 
+Becoming facile at laparoscopic surgery 
+takes time and commitment, both on the part of the 
+surgeon and the hospital. New equipment must be 
+purchased, learned about, and maintained. New 
+procedures will be billed differently. The equipment 
+is more complex and prone to breakage and 
+malfunction, especially if mishandled. The surgeon 
+is well advised to seek a mentor and perform 
+laparoscopic surgery under supervision as much as 
+possible before starting to practice it alone.  
+ 
+There are a number of complications 
+particular 
+to 
+laparoscopic 
+surgery, 
+including 
+complications of pneumoperitoneum, injury to 
+adjacent structures during trocar placement, and 
+injury to intra-abdominal structures during surgery. 
+Vascular injury during trocar placement, in 
+particular, can be fatal. Some complications arise 
+when a familiar operation is done in a new way; one 
+example is the increase in biliary tract injuries that 
+occurred after laparoscopic cholecystectomy was 
+widely adopted in the United States.  
+ 
+Some critics will argue that laparoscopy has 
+no role in resource-limited settings like ours. With 
+scarce resources, they would say, the focus should be 
+on procedures that are likely to help the most people. 
+Certainly we agree that safe access to lifesaving and 
+disability-preventing procedures should be primary 
+in importance. However, in settings where these 
+“basics” are done well and are accessible to all, we 
+feel that the advantages of laparoscopy should not be 
+withheld from patients.  
+It is possible to do laparoscopic surgery well 
+in a resource-limited setting, but it must be done 
+differently than in a resource-rich 
+country. 
+Specifically, the use of disposable instruments 
+should be minimized. Reusable stainless steel 
+laparoscopic trocars and energy devices are available 
+from India and China, where laparoscopy is being 
+done perhaps more commonly. Conversely, single-
+use trocars and instruments from industrialized 
+countries will be harder to source and adapt for our 
+setting, and will malfunction if re-used beyond their 
+intended lifespan.  
+ 
+The cannulas that allow laparoscopic access 
+without letting pneumoperitoneum escape are 
+variably called ports or trocars; these two words are 
+essentially interchangeable. In this chapter we will 
+explain trocar positioning and trocar placement. 
+Other chapters will discuss pneumoperitoneum 
+options and alternatives, scopes and cameras, and use 
+of energy devices. We will further discuss some 
+specific procedures in other chapters.  
+ 
+Trocar positioning: 
+ 
+The main goal of trocar positioning is to 
+allow access of the camera and working trocars to the 
+surgical site. The best way to accomplish this is to 
+think in terms of a 4-sided “diamond,” with the 
+surgical site at one corner, the camera’s trocar at 
+another, and two working trocars at the other two 
+corners. Sometimes the two working trocars will be 
+at opposite ends of the square with the camera 
+looking between them. At other times, the two 
+working trocars will be next to each other with the 
+camera opposite. 
+Principles of Laparoscopy- Trocar Positioning and Placement 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+ 
+Consider the figure above, demonstrating one 
+possible trocar configuration for laparoscopic 
+appendectomy. The appendix (Red “X”) is at one 
+corner of the “diamond.” In general, visualization is 
+best when the camera is far from the surgical site, 
+through the blue trocar, on the opposite side of the 
+“diamond.” However, this configuration forces the 
+camera operator to reach in between the surgeon’s 
+two hands, which can be awkward.  
+If the scope is placed through the purple 
+trocar, visualization may be more difficult because 
+the scope is closer to the appendix. But the surgeon 
+and camera operator will be more comfortable, as 
+their arms will not need to overlap. 
+ 
+ 
+Surgeon (Red) operating through the two trocars on opposite 
+sides of the “diamond” while the camera operator (Blue) must 
+hold the camera (through the Blue trocar) in between the 
+surgeon’s arms, an awkward position that is difficult to hold for 
+a long time. Visualization may be better, because the camera is 
+farther away from the pathology (Red “X”.)  
+ 
+ 
+Surgeon (Red) operating through two adjacent corners of the 
+“diamond” while the camera operator (Blue) uses the Purple 
+trocar on the opposite corner of the diamond. The camera 
+operator is more comfortable and can hold this position for 
+Principles of Laparoscopy- Trocar Positioning and Placement 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+longer. The disadvantage is that the camera is closer to the 
+pathology (Red “X”) so the view may not be as useful.  
+ 
+ 
+We demonstrate other examples of the 
+“diamond” principle in trocar placement below:  
+ 
+The “diamond” trocar setup for laparoscopic esophageal 
+surgery. The camera is in the Red umbilical trocar. The Purple 
+and Blue trocars are the working trocars. The patient will be 
+placed in lithotomy position and the surgeon will stand between 
+the patient’s legs. The camera operator will stand on one side 
+holding the camera between the surgeon’s arms. Other trocars 
+on the right and left flank can be placed for additional 
+assistance and liver retraction.  
+ 
+ 
+The “diamond” setup for laparoscopic trans-abdominal right 
+inguinal hernia repair. The camera will go through the Purple 
+trocar and the camera operator will stand on the patient’s right. 
+The Red and Blue trocars will be the working trocars for the 
+surgeon, who stands on the patient’s left. Both arms are tucked. 
+For bilateral inguinal hernia repair, the Blue trocar is placed 
+directly opposite the purple one; the surgeon and camera 
+operator switch sides midway through the operation.  
+ 
+ 
+The “diamond” setup for laparoscopic cholecystectomy. The 
+camera is in the umbilical trocar, the Blue and Purple trocars 
+are the working trocars, and both surgeon and camera operator 
+stand on the patient’s left side. We prefer to place the trocar as 
+cranially as possible, and the Purple trocar as laterally as 
+possible, to avoid crowding the “diamond.” Another trocar will 
+be placed on the patient’s right flank- this will retract the dome 
+of the gallbladder as cranially as possible, expanding the 
+“diamond” even further. 
+ 
+When the Hasson open technique is used 
+(described further below) the umbilical trocar will be 
+an 11mm one. 10mm scopes are easier to maintain 
+and less fragile, so many surgeons in resource-
+limited settings are often forced to use these. If the 
+other trocars are 5mm, then a 10mm scope can be 
+placed in the umbilical trocar only, which will also 
+affect the conduct of the operation. In the 
+configurations above, consider how the surgery 
+would be limited if the camera could only go in the 
+Red trocar.   
+If, on the other hand, the surgeon has a 5mm 
+scope available, it can be placed in any trocar, or 
+even changed from one trocar to the other as the 
+operation proceeds. Of course, other 11mm trocars 
+can be placed besides the umbilical one. For 
+Principles of Laparoscopy- Trocar Positioning and Placement 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+example, it is common to place a 11mm trocars at the 
+epigastric site during laparoscopic cholecystectomy.  
+ 
+ 
+Trocar Placement:  
+ 
+There 
+are 
+many 
+ways 
+to 
+introduce 
+laparoscopic trocars. We present one simple and 
+reliable method, consisting of open placement of the 
+first trocar through the Hasson technique, and 
+percutaneous placement of subsequent trocars under 
+direct laparoscopic visualization. 
+ 
+Open Trocar Placement 
+ 
+In a patient with no previous abdominal 
+surgeries, we prefer to use the supraumbilical 
+position. This approach allows an inconspicuous 
+scar, in an area where access is easy because the 
+preperitoneal layer is thin.  
+1. Make a transverse incision just above the 
+umbilicus. If there is any chance that the 
+operation will convert to an open one, make 
+the incision vertical. Otherwise, a transverse 
+incision heals with a better cosmetic result. If 
+the patient is not obese the incision is 2.5cm 
+in length. If the patient is obese, it can be 4cm 
+long. 
+ 
+The transverse supraumbilical incision is made just above the 
+umbilicus, and curves slightly downward on either side for 
+improved cosmesis.  
+ 
+2. Carry 
+the 
+dissection 
+through 
+the 
+subcutaneous tissue, using small retractors to 
+help dissection. Clear the anterior rectus 
+sheath at the midline.  
+ 
+Using a combination of diathermy and blunt dissection with the 
+retractors, the anterior rectus sheath is cleared. 
+ 
+Principles of Laparoscopy- Trocar Positioning and Placement 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+3. Incise the anterior rectus sheath transversely. 
+Continue dissection until you reach the 
+preperitoneal fat but do not continue through 
+the peritoneum. This maneuver allows you to 
+have the smallest possible hole in the fascia 
+to minimize gas leakage during the surgery.  
+ 
+The fascia is divided until the preperitoneal fat is seen. With 
+excellent retraction and some practice, it is possible to 
+consistently divide the fascia only, without dividing the 
+preperitoneal fat or the peritoneum.  
+ 
+4. Using the small finger, bluntly perforate the 
+peritoneum and enter the abdominal cavity. 
+Probe the intraperitoneal space, making note 
+of any adhesions or masses. If your finger 
+meets  resistance, you have not completely 
+divided the fascia. Expose and divide further 
+with diathermy.  
+ 
+Once the fascia has been divided, the preperitoneal space and 
+peritoneum are entered bluntly with the small finger. Probe the 
+adjacent space to make sure there are no adhesions or 
+structures that can be injured when the cannula is placed.  
+ 
+ 
+After blunt fingertip entry, the intra-abdominal contents can be 
+seen in the base of the wound.  
+ 
+Principles of Laparoscopy- Trocar Positioning and Placement 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+5. Place retention sutures through both edges of 
+the fascia on either side of the incision. With 
+proper retraction, you can grasp the fascial 
+edges with forceps and place the suture in 
+them easily. Each will be about ¼ of the way 
+from the edge of the fascial incision; once the 
+trocar is in place, pulling on  them will tighten 
+the fascial incision and minimize gas leakage. 
+ 
+With proper retraction, the fascia edge can be grasped with a 
+forceps and a suture passed, taking care not to injure intra-
+abdominal contents. With a slightly longer incision, this 
+technique can be used even on obese patients.  
+ 
+ 
+Retention sutures after placement.   
+ 
+6. Grasp the fascia with forceps and insert the 
+trocar into the peritoneum using a blunt 
+obturator. Do not pull on the retention sutures 
+during this stage, this will make insertion 
+more difficult. If only a sharp obturator is 
+available, be very careful and withdraw the 
+obturator after you feel the trocar pass 
+through the fascia.  
+ 
+Insert the trocar tip through the fascia, grasping the edge of the 
+fascia with a forceps. The sutures are kept loose until the tip of 
+the trocar is within the peritoneum.  
+ 
+ 
+A blunt obturator tip inside a Hasson trocar. This tip can be 
+gently passed into the abdominal cavity without concern for 
+injury. 
+ 
+Principles of Laparoscopy- Trocar Positioning and Placement 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+A sharp obturator tip inside a Hasson trocar. These are made 
+to be passed under direct visualization, through tissue, with the 
+laparoscope already inside the abdomen. Be very careful when 
+using this obturator for an open approach. Withdraw the 
+obturator as soon as the tip of the trocar is past the fascia.  
+ 
+7. Secure the trocar in place by attaching the 
+retention sutures tightly to the trocar.  
+ 
+Once the trocar is inserted fully, it is secured with the retention 
+sutures 
+ 
+ 
+One technique for decreasing air leak is applying a penetrating 
+towel clamp to one or both sides of the skin incision adjacent to 
+the trocar.  
+ 
+8. Upon completion of the surgery, withdraw 
+the trocar. Pull up on the two retention 
+sutures while spreading them, to expose the 
+incision. Place a third suture through the 
+fascia between the two previous ones, lifting 
+each side individually to see the needle and 
+make sure there is no bowel injury.  
+ 
+The two retention sutures, still attached to hemostats, can be 
+spread and pulled laterally to show the fascial edges. If this is 
+Principles of Laparoscopy- Trocar Positioning and Placement 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+properly done, you do not need a retractor. A third suture is 
+then placed in between the retention sutures. Be sure to see the 
+tip of the needle while placing this suture to avoid entrapment 
+or injury of peritoneal contents.  
+ 
+ 
+Before cutting the sutures, pull them upwards while injecting 
+local anesthetic into the fascia around the closure site.  
+ 
+Percutaneous Trocar Placement Under Visualization 
+1. Once you have pneumoperitoneum, insert the 
+scope and visualize the area where you plan 
+to place a trocar from the inside. Inject the 
+peritoneum with local anesthetic under 
+visualization. Avoid the epigastric vessels, 
+which run parallel and about 5 cm lateral to 
+the linea alba on each side. 
+ 
+The surgeon injects local anesthetic into the skin, fascia and 
+peritoneum under direct visualization with the laparoscope.  
+ 
+2. Make a skin incision about 2mm longer than 
+the diameter of the trocar.  
+ 
+Make an incision in the area where the trocar is planned, after 
+visualizing that area with the laparoscope. 
+ 
+3. Grip the head of the trocar between your 
+thumb and middle, ring, and small fingers, 
+extending your index finger along the shaft of 
+the trocar. 
+ 
+The proper way to hold a trocar while inserting it 
+percutaneously. The palm grip maintains firm control, but the 
+index finger resting on the skin of the abdominal wall stops the 
+trocar if it plunges  in suddenly.  
+ 
+Principles of Laparoscopy- Trocar Positioning and Placement 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Improper way to hold a trocar while inserting it: grip is 
+excellent, but there is no way to slow a sudden plunge into the 
+abdominal cavity.  
+ 
+4. Insert the tip of the trocar and place your 
+finger on the skin adjacent to the entry point. 
+Push in a controlled manner, twisting 
+slightly, while using your index finger to 
+prevent the trocar from “plunging” into the 
+abdomen. Watch the tip of the trocar 
+continuously with the scope. If there is 
+excessive resistance, do not push harder.  The 
+most common cause of resistance will be a 
+skin incision that is not big enough. Be aware 
+that devastating complications can occur if 
+the trocar “plunges” in suddenly, including 
+bowel or vascular injury. Perforation of the 
+aorta or an iliac artery with a 5mm or 11mm 
+trocar can lead to rapid blood loss and even 
+death.  
+ 
+Proper technique, with the fingertip resting on the skin.  
+ 
+ 
+As the surgeon begins to apply pressure to the trocar, the 
+peritoneum begins to bulge inwards at the location that it will 
+eventually break through (Black arrow.)  
+ 
+ 
+The camera operator must keep the tip of the trocar in view at 
+all times. Here, the sharp tip of the trocar is about to break 
+completely through the fascia and peritoneum. As the tip 
+becomes more apparent, the surgeon applies less pressure to 
+maintain control and prevent the trocar from “plunging” into 
+the abdomen out of control.  
+ 
+5. Upon completing the surgery, withdraw all 
+percutaneously 
+placed 
+trocars 
+while 
+watching from the inside with the scope. If 
+there is any bleeding from the abdominal wall 
+it must be controlled, as described below in 
+“Pitfalls.”  
+6. The site of any trocar 10mm or larger must be 
+closed at the end of the surgery. The 
+Principles of Laparoscopy- Trocar Positioning and Placement 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+exception is an epigastric location, as there is 
+no tissue that is likely to herniate in this area. 
+A percutaneous closure device such as the 
+Carter-Thomason device allows you to do 
+this under laparoscopic guidance. Otherwise, 
+expand the skin incision a little, dissect down 
+to the fascia, and close it with a simple 
+interrupted absorbable suture.  
+ 
+ 
+Pitfalls 
+● Poor trocar placement can make an easy surgery 
+difficult and a difficult surgery impossible. Try 
+to make the “diamond” as wide as possible and 
+try to make the trocar sites as far as possible away 
+from the surgical site.  
+● Some trocar positions will place the surgeon in 
+an awkward position: rotating the patient towards 
+the surgeon will help with this problem.  
+ 
+With the patient completely flat, the surgeon must take an 
+awkward angle to approach the intra-abdominal pathology. 
+Note that this condition will not change by merely raising or 
+lowering the table.  
+ 
+ 
+With the patient rotated, the surgeon’s posture is much more 
+relaxed. This will lead to less pain and more endurance for the 
+surgeon, and a safer surgery overall.  
+ 
+● Epigastric vessel injury. This may be noted 
+immediately, or after removal of the trocar. If it 
+occurs, do not withdraw the trocar. Replace it if 
+necessary and then pass a Foley catheter through 
+it. Inflate the balloon, slide the trocar out of the 
+abdominal wall along the catheter, and then pull 
+upwards on the balloon, applying pressure to the 
+bleeding site. This will stop the bleeding and give 
+you time to plan definitive hemostasis. You can 
+then ligate the vessels on either side of the 
+balloon without deflating it. To ligate the vessels, 
+use 
+either 
+intracorporeal 
+sutures 
+or 
+a 
+percutaneous trocar site closer, such as a Carter-
+Thomason device. 
+● Bowel 
+or 
+vascular 
+injury 
+during 
+trocar 
+placement: we favor 
+initial open 
+trocar 
+placement (as explained here) to make this 
+complication less likely, even though other 
+options exist. Special care must be taken during 
+percutaneous placement of trocars- be sure you 
+are aware of where the tip of the cannula is at all 
+times, and that you are in full control of it at all 
+times during placement. Be especially careful in 
+the right and left lower quadrants, as the external 
+iliac arteries are very nearby. A trocar headed in 
+the wrong direction can perforate these vessels 
+without entering the peritoneal cavity (i.e. before 
+Principles of Laparoscopy- Trocar Positioning and Placement 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+you see the tip,) so be aware of what direction it 
+seems to be going as you place it.  
+● Trocar site hernia: any trocar that is 10cm or 
+larger is prone to forming an incisional hernia 
+and must be closed. Be meticulous about closing 
+an open supraumbilical trocar well, as described 
+in this chapter. For obese patients, we use non-
+absorbable sutures at the Hasson cannula site. 
+Other 
+10mm 
+trocars 
+that 
+were 
+placed 
+percutaneously must be closed, except those 
+anterior and superior to the liver where hernia is 
+less likely. A percutaneous closure device is 
+available for this purpose; if this is not available, 
+widen the skin incision and close the fascia from 
+outside with a figure of 8 suture.  
+ 
+Richard Davis MD FACS FCS(ECSA) 
+AIC Kijabe Hospital 
+Kenya 
+ 
+June 2022 

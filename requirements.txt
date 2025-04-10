@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+pymupdf
+nltk
+langchain_openai
+langchain_ollama
+python-dotenv
+ragatouille
+aiohttp

@@ -1,0 +1,896 @@
+Anesthesia for Hepatic Resections
+Dr Deidre Batty
+Introduction:
+Improved
+understanding
+of
+segmental
+anatomy of the liver has resulted in the evolution of
+liver resection over the last 25 years. Resultant
+improved perioperative outcome means that hepatic
+resection is now the most effective and potentially
+curative therapy for selected patients with benign
+and malignant hepatobiliary disease. The current
+approach to liver resection is aggressive because of
+modern advances such as:
+●
+Enhanced
+knowledge
+of
+functional
+liver
+anatomy
+●
+Appreciation of the functional reserve of the
+liver and capacity for regeneration
+●
+Imaging modalities, including preoperative CT
+scan and intraoperative ultrasound
+●
+Improved patient selection
+●
+Improved surgical technique.
+●
+Improved anesthetic management.
+In this chapter we will focus on anesthetic
+management
+before,
+during,
+and
+after
+hepatic
+surgery. The following factors make hepatic surgery
+unique and challenging to the anesthetist:
+●
+Surgery is of long duration predisposing to
+hypothermia, deep venous thrombosis, and drug
+accumulation.
+●
+The large chevron (subcostal) incision causes
+substantial postoperative pain.
+●
+Hemodynamic
+manipulation
+is
+required
+to
+reduce blood loss and gain adequate surgical
+access.
+An
+understanding
+of
+hemodynamic
+changes during resection is required.
+●
+Warm ischemia time- understanding the limits
+for safe resection time. Large resections can
+predispose to hepatic insufficiency.
+●
+Hemorrhage can be sudden and dramatic. Be
+prepared.
+●
+All
+hepatic
+surgery
+patients
+are
+prone
+to
+developing
+coagulative
+impairment
+perioperatively
+(9%
+have
+delayed
+epidural
+removal if 3 or more segments are resected.)
+This is linked to the extent of the resection and
+length of operation.
+●
+Patients may well have received chemotherapy.
+Some
+agents,
+particularly
+those
+used
+for
+downstaging
+colorectal
+metastases,
+are
+associated
+with
+steatohepatitis.
+A
+chemotherapy-free interval of at least 6 weeks is
+recommended prior to resection.
+Preoperative Assessment:
+Your assessment must take into account:
+●
+The primary pathology
+●
+The site and volume of the planned resection.
+●
+Co-morbidities such as pulmonary disease, renal
+dysfunction
+and
+cardiovascular
+system
+insufficiency
+●
+The presence of co-existing liver disease
+●
+The likelihood of blood transfusion. Bleeding is
+more likely with repeat surgery, porta hepatis
+(central) lesions, lesions close to large vessels,
+large extended resections and in patients with
+portal hypertension.
+Work up usually involves:
+●
+Routine blood tests including complete blood
+count
+(hemogram),
+electrolytes
+and
+renal
+function, coagulation status and liver functions.
+●
+Electrocardiogram, chest x-ray, lung function
+tests, liver imaging
+●
+Hepatitis B and C serologies
+A mainstay of hepatic surgery is the Pringle
+Maneuver, simultaneous occlusion of the hepatic
+artery and portal vein for up to 60 minutes. The
+Pringle
+Maneuver
+combined
+with
+low
+CVP
+technique constitutes a moderate hemodynamic
+challenge. If in doubt about the cardiovascular
+system status, a stress test or other assessment of
+cardiac function is recommended.
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS
+www.vumc.org/global-surgical-atlas
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License
+Anesthesia for Hepatic Resections
+Dr Deidre Batty
+The Pringle maneuver is occlusion of the hepatic artery,
+portal vein and common bile duct, performed here with both a
+latex
+drain
+and
+a
+vascular
+clamp.
+Source:
+DOI:
+10.5772/51775
+The large upper abdominal incision means
+that patients with respiratory co-morbidities such as
+Asthma or Chronic Obstructive Pulmonary Disease
+patients should be optimized preoperatively.
+The following categories of patients are at
+high risk of morbidity and mortality:
+●
+Patients
+with
+obstructive
+jaundice:
+Use
+preoperative stenting of the to decompress the
+biliary tract. Treat any infection that is present
+and give Vitamin K 10mg intramuscular for 3
+days prior to surgery.
+●
+Emergency surgery due to trauma or infection:
+Make
+sure
+these
+patients
+are
+adequately
+resuscitated and work closely with the surgeon.
+●
+Cirrhotic patients. Childs A and B patients are
+eligible for surgery and tend to tolerate liver
+resections well, provided certain factors are
+heeded. Volume to be resected must be carefully
+assessed. Warm ischemia time limits must be
+adhered
+to
+and
+an increased incidence of
+bleeding, perioperative hepatic dysfunction and
+mortality must be understood and accepted by
+the clinicians, patient and family.
+However, patients with cirrhosis, impaired liver
+function and inadequate coagulation may well
+have
+altered
+cardiac
+function
+with
+hyperdynamic circulation, portal hypertension
+and
+altered
+pulmonary
+reserve
+with
+hepatopulmonary syndrome. They are also at
+risk of developing hepatorenal syndrome.
+Intraoperative Management
+No single anesthetic technique has been
+proven to be superior to others. Thoracic epidural
+analgesia is widely used for liver resection to
+minimize anesthetic requirements intra-operatively
+and to minimize pain postoperatively. Patients who
+are coagulopathic or who otherwise cause concern
+for epidural hematoma will be treated with general
+anesthesia alone with postoperative morphine or
+fentanyl, possibly delivered by Patient-Controlled
+Analgesia if this is available. The thoracic epidural
+anesthesia alternative (below) can also be utilized
+for these patients by substituting spinal morphine
+with low dose IV morphine.
+Thoracic
+epidural
+for
+upper
+abdominal
+surgery has the following advantages:
+●
+Optimal
+pain
+relief.
+It
+facilitates
+early
+extubation, mobilization and compliance with
+physiotherapy.
+●
+Reduction
+in
+post
+operative
+pulmonary
+morbidity: It attenuates reflex spinal inhibition
+of diaphragmatic activity, decreases atelectasis,
+and decreases respiratory failure in high-risk
+patients.
+●
+Reduction in the incidence of paralytic ileus.
+This benefit may be less when opiates are added
+to local anesthetics.
+●
+A clinically significant reduction in cardiac
+morbidity. Decrease in myocardial infarction
+due to blockade of the T2 cardiac sympathetic
+outflow with coronary vasodilation.
+●
+Improvement in patient-oriented outcomes such
+as patient satisfaction and health related quality
+of life.
+●
+An attenuation of the surgical stress response.
+●
+Earlier discharge due to all of the above
+advantages.
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS
+www.vumc.org/global-surgical-atlas
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License
+Anesthesia for Hepatic Resections
+Dr Deidre Batty
+Bilateral subcostal incision, typically used for major hepatic
+surgery.
+Thoracic Epidural is preferred in our institution
+for:
+●
+Major open liver resection
+●
+Complex minor resection
+i.e. with posterior or central position +/- redo
+surgery +/- portal hypertension +/- IVC
+involvement +/- biliary enteric anastomosis
+●
+Comorbidities
+i.e. coagulation disorder where epidural
+anesthesia is indicated for comorbidity
+management intra/ and or postoperatively.
+Alternatives to thoracic epidural are preferred in
+our institution for:
+●
+Minor liver resection (<3 segments)
+●
+Minor open liver resection
+●
+Laparoscopic liver resection
+●
+Major or complex minor resection if thoracic
+epidural is not possible/feasible
+●
+In scarce resource setting. (Thoracic epidurals
+should be continued for at least 48hrs and
+preferably 72 hours postoperatively for full
+benefit and must be monitored in a high care
+facility. Epidural alternative requires a minimum
+of 24-hour high care monitoring because of the
+risk of respiratory depression. It may be
+preferable in a high bed pressure situation.)
+Alternatives to thoracic epidural consist of:
+●
+Intrathecal morphine (ITM) at start of procedure
+●
+IV lignocaine and IV dexmedetomidine
+infusions started prior to incision and continued
+into high care for up to 24 hours.
+●
+Local bupivacaine at port sites for laparoscopic
+work (Consider intrathecal and other lignocaine
+dose given when calculating dose.)
+●
+If the case proceeds to open surgery stop IV
+lignocaine half an hour prior to end of procedure
+and add wound infusion catheters placed at the
+end of surgery. 0.25% bupivacaine bolus plus
+0.2 % infusion for up to 3 days postoperatively.
+Consider intrathecal and other lignocaine dose
+given when calculating dose.
+These thoracic epidural alternatives emulate
+the stress response reducing effects of epidural
+analgesia, including sympatholytic effects
+(dexmedetomidine), cytokine reducing effects
+(lignocaine), and analgesic effects (spinal morphine,
+wound infusion catheter).
+Strategies for Hepato-Pancreatico-Biliary
+Surgery
+Monitoring and Induction
+Continuous electrocardiography, oximetry,
+capnography, and urinary catheter are required. A
+14- or 16-gauge IV access is required. Most authors
+recommend a second large peripheral line.
+Arterial line and continuous venous pressure
+(CVP) monitoring are required in all but the most
+minor resections. Both are necessary if the low CVP
+technique is to be employed. In low resource
+settings, the anesthetist may have only one pressure
+transducer, so it is acceptable to monitor the arterial
+pressure continuously and the CVP intermittently
+using the same transducer.
+Temperature monitoring and whole-body
+warming are required. Hypothermia contributes to
+coagulation abnormalities. Large heat loss can
+occur from the liver surface.
+Anesthesia
+Premedicate with low dose benzodiazepines
+such as midazolam, titrate to effect.
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS
+www.vumc.org/global-surgical-atlas
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License
+Anesthesia for Hepatic Resections
+Dr Deidre Batty
+Regarding the epidural catheter, we offer the
+following advice:
+●
+Site the epidural at T9 – T10. Any higher than
+this can lead to perineal and urinary catheter
+discomfort
+without
+much
+benefit
+gained.
+Insertion is also easier at this level (horizontal).
+●
+Bupivacaine is the usual medication for the
+epidural. However, adding lignocaine to the
+initial bupivacaine dose (3mls 2% lignocaine
+plus
+7mls
+0.5%
+Marcaine)
+enables
+quick
+establishment
+of
+levels.
+(It
+is
+advised
+to
+establish an adequate level prior to induction.)
+●
+Most
+patients
+require
+10-15
+mL
+of 0.5%
+bupivacaine to establish a block at T4-T5. One
+can “paint the fence” after half an hour with half
+the initial volume and concentration (5 - 7.5,mL
+0.25% bupivacaine) and then maintain the block
+with 3/4 of the original volume (7-12mL)
+hourly.
+This
+can
+be
+done
+with
+a
+0.25%
+bupivacaine infusion but is best done with
+hourly
+boluses
+for
+maximal
+hemodynamic
+manipulation
+and effect on CVP for liver
+resection.
+The ideal anesthetic technique is to maintain
+a slow heart rate (60 -70 bpm) while vasodilating
+the patient, dropping systolic blood pressure by
+30% and lowering the CVP towards 5 mm hg.
+Propofol induction aided by intravenous midazolam
+with rocuronium works very well. (Cisatracurium is
+used if there are concerns about renal function or
+delayed rocuronium metabolism due to jaundice.)
+Very little muscle relaxation is required due to the
+high epidural.
+Lung protective ventilatory strategies are employed
+maintaining low peak pressures and normocapnia.
+Elevated CO2 will lead to sympathetic stimulation
+and splanchnic vasoconstriction.
+Isoflurane and sevoflurane dilate the hepatic
+artery and lower splanchnic vascular resistance-this
+is beneficial during cross clamping. They also
+maintain the hepatic artery/portal vein flow ratio of
+70%:30%. Sevoflurane has the added advantage of
+rapid wake up. This expedites communication with
+the patient and early assessment of epidural levels
+and efficacy. Avoid intravenous opiates if possible
+due
+to
+the
+risk
+of
+postoperative
+respiratory
+depression when combined with epidural opiates.
+If narcotics are required in addition to an
+appropriately
+working
+epidural,
+preferably
+use
+fentanyl.
+Nitrous
+Oxide should be avoided if
+possible as it decreases liver blood flow.
+Patient ready for liver resection: Right internal jugular central
+venous catheter (Red circle) allows measurement of central
+venous pressure, which should be kept in the range of 5mmHg.
+Thoracic epidural catheter (White circle) will allow for
+adequate analgesia with minimal narcotics after a large
+abdominal incision. Arterial line (Black circle) allows for
+continuous measurement of blood pressure and control with
+vasoactive medications, if necessary.
+Hepatic surgery proceeds in the three steps,
+each of which requires special consideration from
+the
+anesthetist.
+These
+are:
+Exploration,
+Parenchymal Transection, and Hemostasis. We will
+consider each one separately:
+Exploration: Mobilization with Vascular Control
+The cornerstone of low CVP anesthesia is
+fluid restriction until the hepatic parenchyma has
+been transected. Fluid restriction combined with
+vasodilation from the epidural leads to a state of
+relative hypovolaemia. Use of a high epidural (T4)
+(sympathetic blockade occurs up to two segments
+higher than sensory blockade (T2) tends to suppress
+any tachycardiac response resulting in lowered
+Mean Arterial Pressure (up to 30% drop), stable
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS
+www.vumc.org/global-surgical-atlas
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License
+Anesthesia for Hepatic Resections
+Dr Deidre Batty
+heart rate and low CVP. This is ideal for the
+resection phase. During this initial phase, the
+anesthetist will gradually allow these conditions to
+be achieved.
+The Exploration phase of the operation
+involves.
+●
+Bilateral subcostal incision
+●
+Placement of a self-retaining retractor (such as
+the Thompson retractor) for adequate exposure
+●
+Intraoperative ultrasound
+●
+Exclusion of extrahepatic disease.
+●
+Mobilization of the liver
+●
+Gaining vascular control
+By the time the next phase will begin, the
+CVP has drifted down to around 5 mmHg. If the
+CVP does not drop appropriately one can use
+0.25g/kg of Sodium Mannitol for diuresis.
+If
+general
+anesthesia
+alone
+is
+used,
+nitroglycerine and furosemide can be employed to
+lower the CVP.
+In about 2% of patients an ongoing infusion
+of vasoconstrictor is required to maintain adequate
+Mean Arterial Pressure of 60mmHg and systolic
+blood pressure of 90mmHg. This is best achieved
+with a phenylephrine infusion titrated to effect. Very
+low doses are usually required.
+Parenchymal Transection
+Once the liver is mobilized off the inferior vena
+cava,
+vascular
+control
+is
+achieved,
+and
+intraoperative ultrasound has been used to confirm
+the position and number of tumors. Resection now
+begins. This is facilitated by intermittent clamping
+of the porta hepatis, the Pringle Maneuver. The
+patient should be 15 degrees Trendelenburg (head
+down) to minimize the risk of air embolus. (In
+reality surgeons generally prefer the patient slightly
+head up.) Note that uncontrolled bleeding can occur
+during this phase due to injury to the vasculature.
+Liver mobilization can increase pressure on
+the inferior vena cava, reducing venous return and
+leading to hemodynamic instability. This can be
+dramatic because relative hypovolemia has been
+employed. Steps to correct this include asking the
+surgeon to release pressure on the IVC, fluid bolus
+to improve preload, and temporizing with ephedrine
+boluses.
+Mobilization of the liver by dividing its suspensory ligaments,
+such as the right triangular ligament (Black arrow) and the
+falciform / coronary ligament (White arrow) leaves the liver
+much more mobile. Excessive pressure or torsion of the liver
+after these ligaments have been released can lead to pressure
+on the inferior vena cava and impaired venous return to the
+heart.
+Once transection is complete the surgeons
+must move on to the following step and achieve
+hemostasis.
+Hemostasis
+At this point the patient is volume repleted
+with
+the
+appropriate
+fluid:
+crystalloid
+for
+maintenance and colloid, if available, for blood loss.
+Central
+venous
+pressure
+is
+normalized.
+The
+surgeons may request the Valsalva maneuver to
+increase the CVP and detect bleeding. Argon Laser
+or high-power diathermy is utilized to coagulate the
+liver surface. Procoagulant solutions, if available,
+are sprayed over the surface to reduce the chance of
+bleeding and bile leaks.
+Once hemostasis is achieved, the patient is
+closed,
+anesthesia
+is
+reversed,
+the
+patient
+is
+extubated and transported to an intensive care unit
+for postoperative care and epidural monitoring.
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS
+www.vumc.org/global-surgical-atlas
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License
+Anesthesia for Hepatic Resections
+Dr Deidre Batty
+Completed hepatic resection (right anterior sectionectomy)
+with hemostasis achieved. The middle hepatic vein (Black
+arrow) and the right hepatic vein (White arrow) are adjacent
+to the resection margins, demonstrating the potential for rapid
+uncontrolled blood loss during hepatic surgery. Source: DOI:
+10.5772/51029
+Problems With The Low CVP Technique
+The
+presence of a low central venous
+pressure and potential for wide open veins gives rise
+to the risk of pulmonary embolus (Incidence 0.1 %.)
+This
+technique
+also
+allows
+very
+little
+reserve. Patients are volume depleted, maximally
+venodilated with a high epidural catheter. Potential
+problems are:
+●
+The beta-blocked patient is relatively resistant to
+ephedrine.
+Phenylephrine
+is
+potentially
+dangerous as an increase in SVR may induce
+life threatening bradycardia.
+●
+The jaundiced patient with or without elevated
+liver enzymes and the cardiovascular impaired
+patient should not be intensively fluid depleted
+because
+of
+the
+potential
+for
+worsening
+cholestasis
+or
+cardiovascular
+instability
+respectively.
+●
+Patients can still bleed:
+●
+Due to hepatic vein backbleeding.
+●
+Due to injury to hepatic veins near the IVC
+during hepatic mobilization.
+●
+During
+parenchymal
+resection
+to
+gain
+vascular control.
+Bleeding during hepatic surgery, especially
+from the venous system, is unpredictable and can be
+massive requiring rapid and judicious resuscitation.
+This may be difficult to do when there is little
+reserve present.
+The
+low
+CVP
+technique
+for
+hepatic
+resection does not appear to predispose to an
+increase
+in
+renal
+failure.
+However
+transient
+asymptomatic increases in serum creatinine may
+occur.
+Postoperative Care
+After surgery, patients require high care monitoring
+with
+emphasis
+on
+epidural
+monitoring
+and
+hemodynamic stability. Hypoxia and hypotension
+will put the liver remnant at risk for further
+ischemic injury as will septicemia or drug toxicity.
+These
+patients
+tend
+to
+have
+a
+hyperdynamic
+circulation which resolves in 3-5 days. The increase
+in splanchnic blood flow aids in rapid regeneration
+of the liver. About half of all patients will develop
+ascites and require volume expansion initially.
+Glycemic control with an insulin infusion is
+usually required. Hyperglycemia inhibits hepatic
+regeneration. Hypoglycemia is extremely rare and
+should raise concerns about ischemic liver damage.
+Protection
+against
+stress
+ulceration
+is
+advised
+as
+gastrointestinal
+tract
+bleeding may
+precipitate
+encephalopathy
+in
+an
+already
+compromised liver.
+Patients
+generally
+continue
+with
+their
+epidural infusions for 72 hours, maintaining a T4 -5
+level with a 0.1 % bupivacaine /opiate infusion and
+0.25% marcaine bolus as needed for “top-ups.”
+For opiate infusion, morphine 0.05mg/mL or
+fentanyl 2-4 mcg/ml can be added. Morphine has
+the added advantage of providing analgesia for up
+to 24 hours after removal of the epidural. At low
+doses
+of morphine (0.05mg/mL) there is less
+incidence
+of
+nausea,
+pruritus
+and
+respiratory
+depression
+over
+3
+days
+than
+when
+higher
+concentrations are used. Addition of an opiate to the
+bupivacaine
+infusion
+is
+necessary
+to
+prevent
+tachyphylaxis, which will result in a need to
+progressively increase infusion rates to maintain the
+same sensory level.
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS
+www.vumc.org/global-surgical-atlas
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License
+Anesthesia for Hepatic Resections
+Dr Deidre Batty
+Coagulation is altered postoperatively with
+INR and platelets most commonly affected. In 9%
+of cases, epidural removal must be delayed to 5
+days postoperatively, or fresh frozen plasma infused
+to drop INR to <1.5 prior to removal.
+Hepatic and renal function are monitored
+daily. Liver enzymes tend to rise in the first few
+days starting to normalize by day 5. Expect rises in
+transaminases of up to 1000mg/dL. Levels higher
+than this again raise concerns of ischemic liver
+injury which is more likely to occur with fatty or
+cirrhotic livers, large resections and prolonged
+warm ischemic time.
+It is probably best to avoid paracetamol
+(acetaminophen) initially. Remember that even in
+segmental
+resections,
+the
+liver
+has had some
+ischemic
+time.
+Non-steroidal
+anti-inflammatory
+medications
+may
+decrease
+regeneration
+and
+predispose to acute kidney injury particularly in the
+clinical setting of blood loss and cardiovascular
+instability. For standardized orders, an “opt-in”
+rather than “opt-out” policy with paracetamol and
+NSAIDS is advised with reduction in doses as
+appropriate.
+Deep venous thrombosis prophylaxis should
+be
+implemented,
+with
+lower
+limb intermittent
+compression devices and low molecular weight
+heparin started 6 hours postoperatively.
+Patients undergoing large resections without
+the benefit of epidural analgesia are more likely to
+require postoperative ventilation.
+Postoperative Morbidity and Mortality
+Independent
+predictors
+for
+postoperative
+complications are.
+●
+ASA Classification
+●
+The presence of steatosis
+●
+The number of segments resected.
+●
+Simultaneous extrahepatic resection.
+●
+Perioperative blood transfusion lessens disease
+free survival with colo-rectal metastases and
+increases mortality to 11% if more than 2 units
+are transfused.
+Complications occur in about 20% of cases
+and include pulmonary infection, intra-abdominal
+abscess,
+bile
+leak,
+postoperative
+hemorrhage,
+hepatic failure (1-3%) and renal failure (1-3%.)
+Postoperative mortality is most commonly
+due
+to
+myocardial
+infarction,
+cerebrovascular
+accident, sepsis with multiorgan failure, pulmonary
+embolism and duodenal perforation.
+Conclusion:
+Successful liver resection depends on:
+●
+Adequate
+pre-operative
+counselling
+of
+the
+patient
+●
+A good knowledge of liver pathophysiology
+●
+A working team
+●
+The
+ability
+to
+manage
+intraoperative
+hemodynamic challenges.
+●
+Good post-operative analgesia and care
+“In some series, outcomes in liver resection have
+been directly related to the ability of the anesthetist
+to provide rapid, warm resuscitation, to maintain
+perfusion & euthermia and to avoid acidosis.”
+-The Society for Surgery of the Alimentary Tract
+2006
+Dr Deidre Batty, MBChB FCA(SA)
+Department of Anaesthesia & Perioperative
+Medicine
+University of Cape Town
+South Africa
+October 2023
+See also:
+References- Further Reading
+Guidelines- Anesthesia for Hepatobiliary Surgery
+University of Cape Town Department of Anesthesia
+and Perioperative Medicine
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS
+www.vumc.org/global-surgical-atlas
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License

@@ -1,0 +1,466 @@
+Approach to Upper Gastrointestinal Hemorrhage 
+Mehret Dessalegn and Richard Davis 
+OPEN ACCESS MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas  
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License 
+Background:  
+ 
+Upper gastrointestinal (GI) hemorrhage is 
+one of the commonest causes of acute presentation 
+to the emergency department. It is a bleed from any 
+part of the GI tract proximal to the ligament of 
+Treitz. Commonest sites are the distal esophagus, 
+stomach and the 1 st and 2nd part of the duodenum. 
+Potential causes of upper GI bleeding 
+include esophageal or gastric varices, gastric or 
+duodenal ulcers, Mallory-Weiss tear, vascular 
+malformations (including Dieulafoy’s lesion,) and 
+neoplasms.  
+ 
+It is usually easy to distinguish between 
+upper and lower GI bleeding; a history of 
+hematemesis or epigastric pain usually indicate an 
+origin proximal to the ligament of Treitz. However, 
+hematochezia can originate from upper GI bleeding 
+up to 15% of the time; if the bleeding is brisk enough 
+it will still be bright red in color when it emerges 
+from the anus. In such cases a nasogastric tube may 
+be placed and the aspirate examined: if it is bilious 
+without blood, an upper GI source is unlikely. If 
+there is no output or the output is clear only, an upper 
+GI hemorrhage has not been ruled out. This test is the 
+only role of nasogastric tube placement in GI 
+hemorrhage. Maneuvers such as cold water lavage, 
+once thought to induce vasoconstriction, will only 
+worsen hypothermia and coagulopathy.  
+ 
+Upper GI hemorrhage is a life-threatening 
+condition that requires immediate attention. Careful 
+attention should be paid to airway, breathing and 
+circulation, with immediate placement of two large-
+bore IV cannulas. Interventions such as intubation, 
+blood 
+transfusion, 
+urgent 
+endsoscopy 
+with 
+intervention and large-bore central line placement 
+are made as appropriate. Patients who are not treated 
+immediately should be watched carefully in a 
+monitored setting in case of rapid deterioration.  
+ 
+ 
+Anatomy:  
+ 
+Gastroesophageal Varices 
+Varices are veins that are enlarged due to 
+increased flow. In the case of hypertension at any 
+part of the portal venous system, collaterals between 
+the portal and systemic venous systems become 
+enlarged and dilated due to increased flow. When 
+these collateral veins are near to a mucosal surface, 
+they bulge into the lumen of the organ. As pressure 
+and flow increase they can bleed intermittently. 
+Dilated vessels can be seen on upper endoscopy as 
+esophageal or gastric varices, or on proctoscopy as 
+enlargement of the hemorrhoidal venous plexi.  
+ 
+Esophageal varices are raised columns of dilated veins that 
+protrude into the lumen of the esophagus. Sites of recent 
+bleeding appear as red dots at the center of the varices. These 
+are also known as Red Wale spots. Source: 
+https://en.wikipedia.org/wiki/Esophageal_varices 
+ 
+Esophageal varices are caused by elevated 
+pressure throughout the entire portal venous system: 
+the collaterals in the esophageal submucosa enlarge 
+as blood flows from the gastric (portal) venous 
+system to the thoracic (systemic) venous system. 
+Acute treatment is directed at locating and arresting 
+the bleeding by applying a band directly to the site. 
+Longer term treatment focuses on eliminating the 
+varices altogether through repeated banding.  
+Conversely, gastric varices are caused by 
+obstruction and hypertension in one specific part of 
+the portal system, usually the splenic vein. 
+Collaterals in the fundus of the stomach enlarge as 
+blood flows from the short gastric veins (portal 
+system,) through the esophageal submucosal veins, 
+into the thoracic (systemic) venous system. 
+Esophageal varices are usually present as well due 
+to increased flow. When the bleeding is from the 
+gastric varices, one must not band the esophageal 
+varices, as this can increase the pressure 
+“downstream” in the gastric varices and lead to an 
+increase in bleeding.  
+ 
+Bleeding Gastric Ulcers 
+Approach to Upper Gastrointestinal Hemorrhage 
+Mehret Dessalegn and Richard Davis 
+OPEN ACCESS MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas  
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License 
+Gastric ulcers can be benign or malignant 
+and thus should be biopsied at endoscopy if it is 
+safe to do so. However, if the patient is presenting 
+with acute upper gastrointestinal hemorrhage, 
+biopsy should be deferred and endoscopic 
+interventions to slow or stop the bleeding should be 
+done if possible. Previous biopsy results, if 
+available, are crucial to decision-making.  
+ 
+Bleeding Duodenal Ulcers  
+Duodenal ulcers in the anterior bulb, or the 
+second or third portions of the duodenum, may 
+bleed in the same manner as gastric ulcers. 
+However, duodenal ulcers in the posterior bulb are 
+prone to erode into the gastroduodenal artery and 
+have the most dramatic and life-threatening 
+presentations.  
+ 
+Illustration showing the stomach and first portion of the 
+duodenum reflected upwards. The Gastroduodenal artery (Red 
+Arrow) passes posterior to the first portion of the duodenum, 
+variably giving side branches to the pancreas. An ulcer of the 
+posterior first portion of the duodenum which erodes into this 
+artery and its branches will result in brisk, life-threatening 
+hemorrhage.  
+ 
+ 
+Posterior duodenal ulcer with ongoing bleeding. These may be 
+difficult to visualize endoscopically, as they are often just 
+inside the pylorus and obscured by it. Source: World J 
+Gastroenterol 2015; 21(5): 1666-1669 
+URL: https://www.wjgnet.com/1007-9327/full/v21/i5/1666.htm 
+ 
+ 
+Patients may give a history of epigastric 
+pain, previous treatment for ulcers, or a previous 
+positive helicobacter pylori test. Abdominal 
+examination is usually unrevealing although there 
+may be epigastric tenderness.  
+ 
+Dieulafoy and other vascular malformations 
+Arterial and arterio-venous malformations 
+are usually easy to visualize on endoscopy. One 
+exception to this rule is a Dieulafoy lesion, an 
+abnormally dilated mucosal arteriole which can be 
+very difficult to visualize unless it is actively 
+bleeding at the time of endoscopy. Occasionally 
+there will be a small circular ulcer at the site. This 
+lesion can be treated with endoscopic band ligation. 
+Dieulafoy lesion should be suspected if endoscopy 
+is completely unrevealing, but the hemorrhage is 
+clearly from the upper GI tract.  
+Approach to Upper Gastrointestinal Hemorrhage 
+Mehret Dessalegn and Richard Davis 
+OPEN ACCESS MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas  
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License 
+ 
+Typical appearance of an actively bleeding Dieulafoy lesion. 
+A small ulcer may be visible, or the blood may appear to be 
+coming directly from normal mucosa. Source: World J 
+Gastroenterol 2010; 16(5): 631-635 
+ https://www.wjgnet.com/1007-9327/full/v16/i5/631.htm 
+ 
+ 
+A non-bleeding Dieulafoy lesion may be seen as a small ulcer 
+on the otherwise normal mucosa. Source: World J 
+Gastroenterol 2020; 26(30): 4557-4563 
+URL: https://www.wjgnet.com/1007-
+9327/full/v26/i30/4557.htm 
+ 
+Mallory-Weiss Tears 
+These are superficial linear tears at the 
+gastroesophageal junction caused by excessive 
+vomiting. A careful history will sometimes elicit 
+that vomiting was initially non-bloody and then 
+turned bloody. Heavy alcohol users will often fail to 
+mention drinking and subsequent vomiting 
+episodes. The classic teaching is that bleeding from 
+a Mallory-Weiss tear is self-limited, however in 
+settings where endoscopic interventions are not 
+available, the surgeon is occasionally forced to 
+perform laparotomy and gastrotomy to oversew 
+these lesions to control bleeding.  
+ 
+Tumors 
+Esophageal, gastric or duodenal tumors will 
+rarely cause life-threatening hemorrhage that 
+requires immediate intervention. However, it can be 
+difficult to distinguish them from other life-
+threatening conditions on presentation. Patients give 
+a history of bloody sputum or hematemesis, and 
+they can be severely volume depleted or even in 
+shock due to poor fluid intake and blood loss. It is 
+prudent to treat such patients urgently until other 
+causes of upper GI hemorrhage are ruled out. Often 
+these patients will respond to resuscitation and 
+become stable after fluid and blood losses are 
+replaced.  
+ 
+Epistaxis  
+Bleeding from the nose, nasopharynx, or 
+other source above the upper esophageal sphincter 
+may lead to swallowed blood which is then 
+vomited. A clinician may then assume that the 
+patient has an upper GI bleed. A careful history and 
+physical examination can usually avoid this 
+problem. Patients who have hematemesis after blunt 
+trauma usually fall into this category, as blunt 
+trauma never causes an immediate upper GI bleed.  
+ 
+Principles:  
+ 
+In patient presenting acutely with upper GI bleeding 
+the overall clinical condition should be assessed and 
+plan to control the bleeding as we continue to 
+resuscitate the patient should ensue. 
+ 
+● Assess the patient’s airway, respiratory and 
+hemodynamic parameters continuously as you 
+start resuscitation of the patient 
+● Large bore IV opened bilaterally 
+● Prepare either O negative blood or typed and 
+cross-matched blood depending on the urgency 
+● Alert the operating room team 
+● When obtaining consult for endoscopy, obtain 
+consent also for laparotomy.  
+ 
+Decision Making: 
+ 
+Immediate vs. Delayed Intervention 
+Approach to Upper Gastrointestinal Hemorrhage 
+Mehret Dessalegn and Richard Davis 
+OPEN ACCESS MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas  
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License 
+Appropriate resuscitation is mandatory. 
+Patients present dramatically, with hemorrhagic 
+shock and hematemesis that may be repetitive. Do 
+give blood and fluids as the patient needs, but do not 
+be tempted to over-resuscitate. The patient must be 
+monitored for signs that bleeding has stopped and 
+that resuscitation end-points have been met. This is 
+especially true with elderly patients, or those with 
+pre-existing heart disease. 
+The most important decision to be made is 
+whether the patient requires immediate intervention, 
+or whether they can be integrated with the day’s 
+elective endoscopy list. The best way to make this 
+decision is to serially evaluate the patient during 
+resuscitation. Patients who respond to initial fluid 
+resuscitation and remain stable over the next 1-2 
+hours may safely be admitted to a monitored setting 
+and endoscopy done on an urgent but not emergent 
+basis, unless they deteriorate again. Patients who do 
+not respond to resuscitation, or who respond but then 
+become hypotensive or tachycardic again, clearly 
+have 
+ongoing 
+bleeding 
+and 
+need 
+prompt 
+intervention. Waste no time taking these patients to 
+the endoscopy suite.  
+Unstable patients and “transient responders” 
+should be explained and provide informed consent 
+for both endoscopy with intervention (see Chapter) 
+and laparotomy and oversewing of bleeding gastric 
+or duodenal ulcer (see Chapter.) Endoscopy should 
+be done under general anesthesia, with as large a 
+scope as possible, warm irrigation and well-
+functioning suction all available.  
+Endoscopic interventions are much less 
+likely to succeed in resource-limited settings because 
+of lack of equipment and expertise. The standard in 
+a resource-rich setting is to operate after two failed 
+endoscopic interventions. In our setting, we obtain 
+informed consent for laparotomy in every patient 
+going for an endoscopic intervention, and we 
+perform laparotomy if the patient rebleeds after a 
+single attempt at endoscopic intervention.  
+ 
+Gastric Ulcers 
+Gastric ulcers present a difficult challenge if 
+their etiology is unknown. The surgeon in resource-
+limited settings who is forced to operate on a 
+bleeding (or perforated) gastric ulcer will decide 
+whether to oversew the ulcer, excise it in a wedge, 
+or perform a formal oncologic resection. This 
+decision will likely be made without intraoperative 
+pathology assistance. The surgeon must be guided 
+by the gross appearance of the ulcer and 
+surrounding tissue, a careful abdominal exploration 
+for signs of metastasis, and the condition of the 
+patient. It is acceptable to perform a non-oncologic 
+resection on a patient in extremis, but suture lines 
+through tissue that is infiltrated by tumor will be 
+likely to leak. As explained below, the surgeon is 
+much more likely to be faced with this difficult 
+decision with a perforated, rather than a bleeding 
+ulcer. However, if the surgeon is forced to operate 
+on a bleeding gastric ulcer, it is crucial to 
+understand exactly where it is when making the 
+gastric incision. Once the stomach is opened, 
+finding a small ulcer within the folds of mucosa can 
+be difficult if one is unclear about exactly where it 
+is located. 
+Patients with a GI tract tumor that is clearly 
+malignant, who present with hemorrhage, will 
+usually respond to initial resuscitation. It is rare for 
+such patients to remain unstable and to require 
+emergency intervention. A careful history and 
+physical examination will occasionally reveal the 
+diagnosis. Symptoms that may distinguish these 
+patients include dysphagia, postprandial vomiting 
+prior to the onset of hemorrhage, and weight loss. 
+Signs 
+include 
+palpable 
+abdominal 
+mass, 
+supraclavicular or axillary lymph nodes, and 
+temporal wasting. Such patients can usually be 
+resuscitated, biopsied and staged, and then undergo 
+the appropriate treatment without emergency 
+intervention.  
+ 
+Schistosomiasis 
+On some occasions, patients with hepatic 
+schistosomiasis will benefit from splenectomy and 
+distal splenorenal shunt. Schistosomiasis is 
+characterized by presinusoidal fibrosis, leading to 
+preserved liver function in the presence of portal 
+hypertension. Such patients can be expected to 
+tolerate general anesthesia and some blood loss 
+during surgery. This indication is the only one 
+where we would recommend surgical treatment of 
+portal hypertension.  
+Nevertheless, this operation should not be 
+performed acutely in patients presenting with 
+variceal upper GI bleed; they should be managed as 
+described here and this difficult operation deferred 
+until it can be done electively. A shunt operation is 
+extremely dangerous in a patient in hemorrhagic 
+Approach to Upper Gastrointestinal Hemorrhage 
+Mehret Dessalegn and Richard Davis 
+OPEN ACCESS MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas  
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License 
+shock. Also, at the time of presentation, the etiology 
+of the varices, and the degree of underlying hepatic 
+dysfunction, will be unclear. Splenectomy and distal 
+splenorenal shunt are described elsewhere in this 
+Manual. 
+ 
+When There is no Endoscopy 
+Flexible upper endoscopy is the mainstay of 
+decision making in patients with upper GI bleeding. 
+If one is forced to manage patients without 
+endoscopy, the decision making is similar to that 
+described above: patients who do not respond to 
+resuscitation, or who respond only transiently, need 
+immediate intervention. A careful history and 
+physical examination are key to directing surgery, 
+looking for signs and symptoms of ulcer disease, 
+hepatic disease, or malignancy. Especially if you are 
+forced to operate without an endoscopic diagnosis, it 
+is worth taking time and discussing the history with 
+the patient and family; the timing, character and 
+chronicity of symptoms may provide important clues 
+towards the diagnosis. 
+Few 
+guidelines 
+exist 
+for 
+operative 
+management of upper GI bleeding without an 
+endoscopic diagnosis. At laparotomy, perform a 
+thorough inspection and palpation, including 
+opening and looking in the lesser sac, looking for 
+dilated branches of the portal venous system and 
+palpable induration in the stomach or duodenum. If 
+there are no such signs, an anterior gastrotomy in the 
+area of the body allows inspection of the stomach. 
+Once the stomach is opened, it becomes a confusing 
+mass of mucosal folds. Make the incision large 
+enough to allow manipulation, 15cm is acceptable. 
+Two Deaver or Maleable retractors held opposite 
+each other, with headlight illumination, allows the 
+surgeon to examine the fundus, gastroesophageal 
+junction, body, antrum and pylorus. Be systematic; 
+life threatening hemorrhage can come from a very 
+small lesion such as a Mallory-Weiss tear or 
+Dieulafoy’s lesion. If bleeding seems to be coming 
+from the pylorus, a separate incision can be made 
+over the distal antrum, extending through the pylorus 
+into the duodenum, as described in the chapter, 
+Gastrotomy and Duodenotomy for Bleeding Ulcer. 
+ 
+A Deaver and a narrow malleable retractor, held opposite each 
+other through a gastrotomy, allow a thorough and systematic 
+exploration of the stomach.  
+ 
+Unfortunately, there are no legitimate 
+surgical options for bleeding esophageal varices. Do 
+not attempt surgical heroics such as a Sugiura 
+procedure or a portocaval shunt on a patient in 
+extremis.  
+(See following page for a description of a 
+Resource-Rich setting resource.)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approach to Upper Gastrointestinal Hemorrhage 
+Mehret Dessalegn and Richard Davis 
+OPEN ACCESS MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas  
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License 
+ 
+ 
+ 
+Mehret Enaro Dessalegn MBBS 
+Fellow, Pediatric Surgery 
+AIC Kijabe Hospital 
+ 
+Richard Davis, MD FACS FCS(ECSA) 
+Consultant General Surgeon 
+AIC Kijabe Hospital 
+ 
+March 2022 
+Resource-Rich Settings 
+ 
+Trans-Jugular Intra-Hepatic Stent placement (TIPS) has revolutionized management of portal hypertension in 
+resource-rich settings. This is the placement, usually by an interventional radiologist, of a covered stent from 
+inside the vena cava, through the liver parenchyma, to one of the branches of the portal vein. Placement of a 
+TIPS allows direct decompression of the portal venous system without the need for general anesthesia, a 
+laparotomy, and a vascular operation such as porto-caval shunt, on a patient with the severe comorbidities that 
+come with portal hypertension. The introduction of TIPS has led to a virtual abandonment of surgical 
+operations for portal hypertension, which were almost always high in morbidity and mortality.   
+ 

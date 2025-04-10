@@ -1,0 +1,811 @@
+Initial Management of Acute Burns 
+Cassidy A. Muir, Peter Stafford, Deepak K. Ozhathil 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Background:  
+Burn injuries are a major source of morbidity 
+and mortality, responsible for about 100,000 deaths 
+and 9 million injuries requiring medical attention 
+annually. Burns are most commonly due to open 
+flame or scalds (hot liquids), with other causes being 
+contact, electrical, chemical, and friction injuries. 
+While the types of burns are similar across the globe, 
+middle income countries have the highest incidence 
+of burn related injuries. This is important to 
+understand as burn related injuries account for a large 
+proportion of disability-adjusted life years lost. 
+Women and children contribute to most of these 
+losses in regard to gender and age group respectively. 
+This negatively impacts a country’s economic 
+productivity now and for the future. 
+The severity and treatment of a burn injury is 
+dependent upon multiple factors: the size of the 
+burned area, the depth of the burn, the location of the 
+burn, and the resources available to treat the injury. 
+Obviously, large surface area burns carry high risk 
+for morbidity and mortality with high risk for 
+infection and chronic pain. But even smaller burns 
+can be devastating. For example, a small full-
+thickness hand burn can be life altering for a patient, 
+affecting activities of daily life and can causing 
+occupational disability.  
+Burn victims are often neglected by doctors 
+and nurses who lack the experience and knowledge 
+to care for them. You should take a special interest in 
+the care of these patients. Think beyond the initial 
+healing period and help construct a plan for long term 
+care. The long term care of a severe burn victim 
+should include physical and occupational therapy, 
+pain management, and psychological care. Burn 
+wounds can cause terrible pain and potential 
+disability. You have a unique opportunity to provide 
+survivors with compassionate, life-changing care.  
+ 
+Anatomy:  
+The integumentary system is the largest 
+organ of the body. It serves many functions 
+including: 
+● Protecting deeper structures from mechanical, 
+chemical, and thermal injuries 
+● Preventing desiccation  
+● Inhibiting invasion of microorganisms by 
+releasing cytokines  
+● Regulating body temperature  
+● Containing sensory nerve endings to facilitate 
+touch and proprioception 
+● Regulating hydration by preventing fluid loss  
+● Protecting against ultraviolet radiation  
+● Playing a role in endocrine function by secreting 
+1,25 OH Vitamin D 
+● Playing a role in exocrine function by secreting 
+urea, water, sebum, ammonia, sweat, and 
+pheromones. 
+ 
+The skin is composed of an outer layer, the 
+epidermis, and a deeper layer, the dermis. The 
+epidermis itself has up to five sublayers (depending 
+on the body region) while the dermis has two 
+sublayers. The thickness of these sublayers 
+determines the thickness of skin. For example, the 
+glabellar skin of the palm is thick due to epidermal 
+redundancy. In contrast, the skin of the back is thick 
+due to a thicker dermis.  
+The superficial sub-layer of the dermis, the 
+papillary dermis, separates during blister formation, 
+while the deeper dermal layer, the reticular dermis, is 
+essential to skin regeneration. Burn injuries 
+involving the reticular dermis and beyond will often 
+lead to prolonged healing times, scarring, loss of 
+function over joints, and increased rates of infection. 
+ 
+Layers of the skin. Generally, a superficial partial thickness 
+burn is one in which there are many epidermal stem cells 
+(stratum basale) remaining, while full thickness burns have no 
+Initial Management of Acute Burns 
+Cassidy A. Muir, Peter Stafford, Deepak K. Ozhathil 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+remaining epidermal stem cells. Deep partial thickness burns 
+are of varying depths, in between these two extremes. Note also 
+that the hair follicle is surrounded by epidermal stem cells. Skin 
+regeneration can be driven by these cells when more superficial 
+layers are destroyed. Source: US Government, Public Domain, 
+via Wikimedia Commons 
+ 
+Superficial burns (first degree) involving the 
+epidermis alone are painful and characterized by 
+redness and darker pigmentation. Superficial burns 
+normally heal within a week. It is possible for even 
+dark-skinned people to sustain such burns with 
+extensive sun exposure.  
+ 
+Superficial (first degree) burn 
+ 
+Partial thickness burns (second degree) are 
+divided into superficial partial thickness and deep 
+partial thickness injuries.  
+Superficial partial thickness burns involve 
+epidermolysis of the papillary dermis and are 
+characterized by blistering. The wound base is pink 
+and moist, wounds blanch (turn pale and then return 
+to their initial color) upon pressure, and are sensate 
+to pin prick. With preventative wound care, these 
+burns will heal in less than 28 days. 
+Deep partial thickness burns involve the 
+reticular dermis and are characterized by a dry, pale 
+or hemorrhagic wound base. They are often insensate 
+to pin prick and do not blanch. Healing is difficult to 
+predict as there is a significant risk of conversion to 
+full thickness wounds, especially with delayed 
+presentation, imbalanced resuscitation and wound 
+infection. 
+ 
+Partial thickness (second degree) burn before (above) and after 
+(below) initial debridement 
+ 
+Full thickness burns (third degree) violate the 
+reticular 
+dermis 
+and 
+may 
+extend 
+into 
+the 
+hypodermis/fat, muscle, tendon, and bone. These can 
+be desiccated, white or leathery brown, insensate, 
+and do not blanch. If healing occurs, it does so by 
+contraction from wound edges and often takes 
+months to years to achieve wound closure, often 
+leaving disabling or disfiguring scar contractures 
+along the way.  
+ 
+Initial Management of Acute Burns 
+Cassidy A. Muir, Peter Stafford, Deepak K. Ozhathil 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Full thickness (third degree and likely deeper) burn 
+ 
+Burn wounds, however, often have varying 
+degrees of depth. Additionally, it may not always be 
+clear how deep the burn is initially, and the wound 
+may undergo conversion in the first several days. It 
+is easier to differentiate between superficial and deep 
+wounds and more difficult to differentiate those that 
+are of intermediate depth. Specifically, the question 
+of whether to allow the wound to heal with time, or 
+to excise and skin graft, can be difficult with 
+intermediate-depth burns.  
+ 
+Principles:  
+The initial evaluation of the burned patient 
+begins with the standard primary survey (ABCDE). 
+Protecting the airway is of utmost importance, but 
+local resources may limit what interventions are 
+possible. Patients may have burns involving the face 
+and upper airway and/or lower airway inhalation 
+injury that compromise the patient’s airway and 
+respiratory status. If resources permit, endotracheal 
+intubation and mechanical ventilation may be 
+needed. Obtaining reliable vascular access is 
+essential and can be achieved with peripheral IV, 
+central venous catheter placement, or intraosseous 
+access. If necessary, these may be inserted through 
+burned skin. Recall that burned patients may have 
+also suffered trauma, such as a motor vehicle 
+accident, assault, or explosion, prior to or while 
+sustaining the burn.  
+Upon completion of the primary survey and 
+addressing immediately life-threatening injuries, 
+complete a secondary survey with calculation of the 
+percent total body surface area (TBSA) injured and 
+assess the depth of each burn. 
+ 
+TBSA is calculated for partial (second degree) and 
+full thickness (third-degree) burns only. Superficial 
+burns (first-degree) are not included in this 
+calculation. Rapid estimation of TBSA can be 
+calculated in several different ways. The Rule of 
+Nines divides the body into anatomic regions that are 
+9% each (i.e. multiples of 9.) It is important to 
+recognize that even though each region is a multiple-
+of-9%, the typical burn does not involve the entire 
+anatomic region. Only the fraction of the burned 
+region should be included in the estimation. 
+Additionally, the rule of nines is modified for 
+infants/children due to their relatively larger head 
+and smaller torso and legs. Burn surface area 
+diagrams differ significantly for children of different 
+ages, as during growth the proportional size of the 
+head decreases, as shown further below.  
+The “rule of nines” for an adult. Source: Jmarchn, CC BY-SA 
+3.0 via Wikimedia Commons 
+ 
+For smaller wounds or those that span body 
+regions, TBSA can also be estimated using the 
+patient’s hand (palm and fingers) to equal 1% TBSA. 
+This is particularly helpful with burns that are 
+scattered across anatomic regions. This technique 
+may overestimate the TBSA but provides a quick and 
+useful metric. 
+Lund-Browder (LB) charts are also effective 
+methods of determining the TBSA. Regions of the 
+body are assigned specific percentages. Various 
+Initial Management of Acute Burns 
+Cassidy A. Muir, Peter Stafford, Deepak K. Ozhathil 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+standardized LB charts exist for victims of different 
+age and gender subgroups. 
+ 
+The Lund-Browder Chart allows you to calculate the relative 
+percentage of body surface area by age. Source: Department of 
+Health and Human Services - available at 
+https://commons.wikimedia.org/w/index.php?curid=25740802  
+ 
+Adults or children with burns ≥ 15-20% 
+TBSA, depending on the depth of injury need fluid 
+resuscitation due to increased capillary permeability. 
+The impaired systemic perfusion due to loss of 
+intravascular volume is known as “burn shock.” The 
+goal of resuscitation is to maintain critical organ 
+perfusion 
+while 
+minimizing 
+excess 
+fluid 
+resuscitation, as both under and over-resuscitation 
+are harmful. 
+Fluid resuscitation can be given orally or 
+intravenously depending on what local resources 
+allow. Patients with burns <30% TBSA who are not 
+requiring medications to augment their blood 
+pressure may be candidates for oral resuscitation, 
+however, IV fluid resuscitation is preferred as 
+balanced IV solutions such as Lactated Ringers can 
+minimize adverse electrolyte shifts from the 
+resuscitation fluids. Burns <40% TBSA can be 
+managed with one peripheral IV, while those >40% 
+would benefit from two or more. The internationally 
+accepted Consensus Formula recommends 2-4 
+mL/kg/TBSA with crystalloid fluids over 24 hrs 
+which is used to guide initial fluid resuscitation. For 
+adults providers should use 2 mL, pediatrics 3 mL 
+and electrical injuries 4 mL. Fluid administration is 
+titrated based on the physiologic status of the patient. 
+A urine output of 0.5 mL/kg/hr, or approximately 30 
+mL/hr, for the average adult or 1 mL/kg/hr in 
+infants/toddlers is a surrogate for adequate organ 
+perfusion. Resuscitation of children is specific to 
+their weight and should be calculated based on 0.5 
+mL/kg/hr. This metric can also be used to ensure 
+proper fluid intake after initial fluid resuscitation is 
+complete.  
+In addition to fluids, tube feeds via a 
+nasogastric or orogastric tube should be initiated on 
+admission if resources allow. Early (within 24-48 
+hours) passive gut feeding has decreased burn 
+mortality rates in children and adults.  
+After the initial evaluation and stabilization 
+of the patient, the wounds need to be cleaned and 
+dressed. Wound care is painful, and if the patient is 
+not experiencing much pain, it suggests that the 
+wounds may be full thickness and the cutaneous 
+nerve endings may be compromised. Ensure that 
+adequate analgesia is administered prior to beginning 
+wound care (e.g. fentanyl, morphine, ketamine) and 
+adjuvant medications are scheduled throughout 
+wound 
+care 
+period 
+(e.g. 
+muscle 
+relaxants, 
+gabapentin, 
+non-steroidal 
+anti-inflammatories, 
+paracetamol, etc) 
+Studies have investigated leaving blisters 
+intact versus unroofing them. Unless the blisters are 
+small and intact, they are normally unroofed and 
+dressed due to the increased risk of wound infection 
+from delayed violation of blisters as well as wound 
+conversion that can occur under a blister. If supplies 
+are limited, an alternative to partial thickness wounds 
+is to open the blister and allow the fluid to escape, 
+permitting the wall of the blister to serve as a 
+dressing. A drawback to this approach is that the 
+wound bed cannot be seen and a deep partial 
+thickness injury or even progression to full thickness 
+injury may occur unseen. 
+The wounds are cleansed with gentle 
+washing. Soap and water is generally effective and 
+the use of saline or antiseptics is not necessary. Once 
+the wounds are cleaned and non-viable tissue is 
+debrided, the wounds should be dressed with a moist 
+cytoprotective dressing. Commonly, this includes a 
+thick layer of an antibiotic ointment (neomycin or 
+bacitracin), or moistened gauze with saline or 
+Dakin’s solution, followed by dry dressings to hold 
+them in place. Silver sulfadiazine (“SSD”) is also 
+Initial Management of Acute Burns 
+Cassidy A. Muir, Peter Stafford, Deepak K. Ozhathil 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+available in many settings. These dressings should be 
+changed one-two times daily or more frequently if 
+they become soiled, to decrease the bacterial burden 
+at the base of the wound. If the burn requires surgical 
+excision, the dressings post-operatively can be 
+similar or are determined by the skin substitute or 
+graft used. The burn wound will need dressings until 
+re-epithelialization occurs. Bear in mind that topical 
+antibiotics such as neomycin applied to a large 
+wound may be systemically absorbed, leading to 
+toxicity.  
+ 
+Before and after initial debridement. This patient received a 
+Cyanokit 
+(hydroxocobalamin) 
+which 
+has 
+altered 
+the 
+appearance of the wound bed. 
+ 
+Circumferential or near circumferential full-
+thickness burns of the extremities, with eschar that 
+compromise the underlying tissue or circulation, 
+require escharotomy. Similarly, circumferential or 
+near circumferential eschar to the neck and torso will 
+need escharotomy if ventilation is compromised. 
+Escharotomy to an extremity should be done within 
+eight hours of injury and ideally well before evidence 
+of impaired perfusion develops. It is rarely needed 
+after resuscitation has been completed, i.e. after 48-
+72 hrs. Escharotomy is incision of the burn, down to 
+the subcutaneous fat, parallel to the limb, torso, or 
+neck, in such a way that the circumferential nature of 
+the burn does not constrict the tissue underneath.  
+ 
+Escharotomy involves incision through burned tissue down to 
+subcutaneous fat, in areas where the burn is circumferential 
+and inhibits circulation (in the extremities) or ventilation in the 
+trunk, as shown here.) Source: Greenwood JE 
+https://doi.org/10.1177/0310057X19895523  
+ 
+Capillary refill of the nail beds, pulses, 
+doppler signals of the arteries, temperature, 
+compartment 
+pressures, 
+and 
+whether 
+the 
+compartment “feels” full and tight are used to assess 
+if escharotomy is needed. However, if you are 
+uncertain whether or not to perform escharotomy, the 
+recommendation is to perform it. The risk of 
+complications 
+of 
+performing 
+an 
+unnecessary 
+escharotomy are much lower than the potential loss 
+of limb that may result from failure to perform or 
+performing a delayed escharotomy. 
+ 
+Decision Making: 
+Burn care is resource intense, requiring a 
+team approach to provide care that can last months 
+or even longer. In the evaluation of these patients, it 
+is important to know if the hospital has the needed 
+resources, and if it is possible and better to refer these 
+patients to another hospital. In many resource-
+limited settings, an entire country may be served by 
+a single burn center, which may be hundreds of 
+kilometers away. An understanding of your 
+country’s resources can help tremendously in a 
+discussion with the patient and the family.  
+Goals of burn care are multifaceted and 
+patient autonomy should be respected throughout 
+their care. In general, the goal is to get the burn 
+wounds to heal as quickly as possible, prevent 
+infection, and minimize the complications associated 
+with hypertrophic scar formation. Achieving these 
+goals can be an extensive undertaking, requiring 
+Initial Management of Acute Burns 
+Cassidy A. Muir, Peter Stafford, Deepak K. Ozhathil 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+critical care support, wound care, operative 
+intervention, nutritional support, treatment of 
+infections, and rehabilitation. There are times when 
+a large TBSA burn may not be survivable, especially 
+in a resource limited setting, and an approach 
+focusing on patient comfort and support may be the 
+appropriate option. Keeping wounds covered with 
+dressings can help control pain and keep the patient 
+comfortable. The decision to palliate rather than treat 
+an extensive burn can be very difficult, and should 
+be made in consultation with experienced clinicians 
+who know what is possible in your setting.  
+If resources permit, patients with deep partial 
+and full thickness burns will best be treated by early 
+excision and grafting (within 2-5 days of injury). A 
+plan should be devised for each major burn patient, 
+and is dependent upon the extent of burn, its location 
+and depth, and resources available. This approach 
+makes intensive use of operating theater time, blood 
+products, and other resources, though it ultimately 
+results in faster healing and a shorter hospital stay. 
+See Tangential Excision of Burns. 
+In resource limited settings, a longer wound-
+care focused approach may be more realistic. 
+Dressing changes are performed until the eschar has 
+sloughed off and granulation tissue has established 
+on the wound bed. At this point the wound bed is 
+prepared and skin grafted where needed. If this 
+approach is taken, it is important that the patient 
+receives attentive care, and undergoes ongoing 
+physical therapy, splinting, nutritional support, and 
+regular 
+revaluation 
+for 
+wound 
+infection 
+development. The eschar will slough by bacterial 
+activity. As this method involves leaving a wound 
+open for some time, it is prone to invasive infection. 
+Close monitoring and frequent wound care is crucial.  
+Bear in mind also that this approach is painful 
+for the patient. We have seen, in extreme 
+circumstances, 
+patients 
+develop 
+tolerance 
+to 
+anesthetic 
+medications 
+because 
+of 
+frequent 
+debridements.  
+ 
+Initial appearance of a burn caused by exposure to a “space 
+heater” while unconscious. It is impossible to tell how much of 
+this wound is full thickness at this time. It is reasonable to defer 
+judgment until after the initial debridement. 
+ 
+ 
+The same burn, after debridement and serial dressing changes 
+for a few days. It is now quite clear that the brown and white 
+areas in the center of the wound are full thickness and must be 
+excised. The surrounding pink area may or may not contain 
+viable epidermal cells. It would be reasonable to debride this 
+area gently with a scalpel and if it bleeds, apply a meshed split 
+thickness skin graft to the whole area.  
+ 
+An option for large areas of burns is to 
+perform staged excisions to limit blood loss during 
+each operation. For patients undergoing excision and 
+grafting, there are several questions to think about 
+prior to going to the operating room.  
+1. Will the burns be excised in a single stage or 
+would the patient be better served by sequential 
+excisions every few days until the burn is 
+completely excised? Often, this is dependent 
+upon the TBSA and resources available, 
+including donor skin. It may also depend on 
+whether the donor site will be re-harvested for 
+multiple grafts in a patient with a high TBSA 
+burn. It is necessary to plan for ample healing of 
+donor site in between harvests. 
+2. Will the patient be immediately grafted or is a 
+skin substitute needed and available for 
+Initial Management of Acute Burns 
+Cassidy A. Muir, Peter Stafford, Deepak K. Ozhathil 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+placement? This depends on the physiologic 
+status of the patient, the quality of the wound bed, 
+the resources available, and what percentage of 
+graft loss may be acceptable. 
+3. Are the wounds appropriate for tangential 
+excision or is fascial excision needed? Ideally, 
+wounds are treated with tangential excision 
+which preserves viable dermis and/or fat, 
+improving functional and cosmetic outcomes. 
+However, burns extending into the subcutaneous 
+tissue and beyond will best be treated by fascial 
+excision. Massive burns will often need full 
+fascial excision because the hemodynamic insult 
+of tangential excision may be beyond the 
+physiologic reserve of the patient.  
+4. How will blood loss be reduced during the 
+operation, and is blood available if a transfusion 
+is needed? A major limitation of burn wound 
+excision is blood loss. However, this can be 
+limited through various techniques. We describe 
+these techniques in the chapter, Tangential 
+Excision of Burns. 
+5. Are materials in place for post-operative 
+splinting and rehabilitation? Will a limb be 
+splinted or do fingers need to be immobilized 
+with K-wires? Ensuring that you have a plan for 
+post-operative rehabilitation and mobilization 
+will serve the patient well. 
+6. Would the patient be better served by an 
+amputation? 
+Although 
+many 
+patients 
+are 
+reluctant at first, a prolonged treatment course 
+that bankrupts the extended family and takes 
+months or years may not be the best course of 
+action.  
+7. What social factors will affect this patient’s 
+ability to follow the post-treatment plan? Two 
+specific considerations are adequate nutrition, 
+and ability to access wound care near their home.  
+ 
+Case Study #1: 
+ 
+A 14-month-old girl was brought to the clinic 
+after putting her hand into hot tea. A dressing 
+consisting of toothpaste, maize flour and cooking oil 
+had already been applied by the family. With the 
+home remedy applied, the depth of the burn could not 
+be assessed.  
+ 
+ 
+ 
+The wound was cleaned gently and found to 
+be erythematous and sensate throughout. Thick 
+adherent skin on the palm of the hand was not 
+debrided. A moist, petroleum jelly (“Vaseline”) 
+based ointment, covered by a protective dressing was 
+applied. The mother was instructed to leave the 
+dressing in place and to return to the clinic every 
+other day, except weekends, for continued care.  
+ 
+ 
+ 
+ 
+ 
+ 
+Initial Management of Acute Burns 
+Cassidy A. Muir, Peter Stafford, Deepak K. Ozhathil 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Two days later, the patient was seen again. 
+The dressing was dirty on the outside but the wound 
+was still clean and moist. The dressing was changed 
+and the wound was gently cleaned. The wound 
+appeared clean and healthy. No new sites of apparent 
+necrosis were seen. 
+ 
+ 
+ 
+ 
+ 
+Three days later the patient was seen again. 
+The wound was progressing nicely and beginning to 
+heal.  
+ 
+ 
+ 
+ 
+ 
+ 
+After another three days, the wound was 
+clearly progressing well. It was less “wet” in 
+appearance. The patient was treated and bandaged 
+again in the clinic, but areas of the healed upper arm 
+were left open, and the mother was instructed to 
+apply Vaseline at home. 
+ 
+ 
+Initial Management of Acute Burns 
+Cassidy A. Muir, Peter Stafford, Deepak K. Ozhathil 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+ 
+The patient returned 2 days later. The wound was 
+clearly all dry, and the thick skin on the palm had 
+completely fallen off. Function and range of motion 
+were completely normal.  
+ 
+ 
+ 
+The final photos, shown below, were taken 11 
+months after the initial injury. The hand was 
+completely functional. The discoloration on the volar 
+surface of the hand had also resolved completely.  
+ 
+ 
+ 
+ 
+Wound care by E. Meyerhoff, RAE Clinic, Baringo, Kenya 
+ 
+Comment: This is a very common presentation in 
+low-resource settings. The history and initial 
+examination suggest a benign course with proper 
+wound care. Immersion in hot cooking oil or 
+exposure to flames would be more likely to result in 
+a full thickness burn. Frequent clinician review of the 
+wound, careful mobilization of the fingers, and 
+maintenance of a moist healing environment are all 
+key to assuring a good outcome. It is important to 
+assess the conditions at home: a single parent caring 
+for multiple children will not be able to apply 
+dressings themselves: the child will need to be 
+brought to the clinic for review at least every 2 days, 
+or admitted if this is difficult.  
+ 
+Case Study #2:  
+ 
+A 12-month-old girl was brought to the clinic 
+after sustaining burns, possibly with hot porridge. 
+Initial Management of Acute Burns 
+Cassidy A. Muir, Peter Stafford, Deepak K. Ozhathil 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+She was left alone near a metal pot of porridge 
+cooking over an open fire. A neighbor heard her 
+crying and found her covered in hot porridge, lying 
+next to the overturned pot. On referral to the clinic, a 
+home dressing consisting of raw egg had already 
+been applied.  
+ 
+ 
+ 
+ 
+ 
+All wounds appeared sensate except the 
+center of the left flank burn. This area appeared pale 
+and did not blanch when gentle finger pressure was 
+applied. The wounds were cleaned and gently 
+irrigated. A moist Vaseline-based treatment was 
+applied, and bandaged with a non-stick dressing for 
+protection. 
+ 
+ 
+The patient was treated at the clinic every 
+other day three times a week. Eight days later most 
+of the wound was clearly sensate, healthy, and 
+starting to dry. The area in the center of the flank 
+burn remained concerning, as it appeared white, firm, 
+and “leathery” in appearance, in contrast with the 
+pink healing tissue surrounding it.  
+ 
+ 
+ 
+  
+The same wound care regimen was continued 
+and no determination about the suspected full-
+thickness portion of the burn was made at that time.  
+ 
+Three weeks later it was clear that there were 
+no living epidermal cells within the center of the 
+wound. Whereas the rest of the wound was dry and 
+even returning to its normal skin color, the center of 
+the flank wound had only granulation tissue.  
+Initial Management of Acute Burns 
+Cassidy A. Muir, Peter Stafford, Deepak K. Ozhathil 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+ 
+ 
+The family was unable to access a higher 
+level of care due to financial concerns. The 
+granulation tissue was kept moist, with the patient 
+treated at the clinic 2 or 3 times a week, whenever 
+the parents could bring her. 
+ 
+ 
+During the next several weeks and months 
+the non-healing portion of the wound was kept moist, 
+and dressed at the clinic. The following two photos 
+were taken 10 weeks apart: 
+ 
+ 
+ 
+ 
+ 
+At this time the family’s national health 
+insurance was mature enough and the clinic was able 
+to arrange a skin graft. The final result was complete 
+healing of the wound:  
+ 
+Wound care by E. Meyerhoff, RAE Clinic, Baringo, Kenya 
+ 
+Comment: Unfortunately, the un-witnessed 
+child burn with a somewhat vague history is also 
+very common in low-resource settings. In this case, 
+it was not known how long the child was unattended 
+for, or how much oil was in the porridge, which 
+would have raised its temperature significantly. 
+Similarly, the child may have come in contact with 
+the cooking pot, hot coals or flames. A full-thickness 
+wound was suspected as described. In any case, it is 
+almost always impossible to unravel what truly 
+happened in our setting.  
+Initial Management of Acute Burns 
+Cassidy A. Muir, Peter Stafford, Deepak K. Ozhathil 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+When the central part of the wound failed to 
+heal with supportive care, it quickly became 
+apparent that there were no living epidermal cells 
+within it. It got smaller in the only way that such 
+wounds can: by the contraction of myofibroblasts 
+pulling the wound edges together.  
+If this wound had been in the axilla or across 
+another joint, it would have led to contracture, a 
+much harder problem to treat. Wounds in areas that 
+can not completely heal by contraction remain as 
+they are, granulation tissue. Eventually they may be 
+at risk for malignant transformation, also known as 
+Marjolin’s ulcer.  
+ 
+ 
+There were no viable epidermal cells in this child’s antecubital 
+fossa after he sustained a burn: the only way the wound could 
+heal was by contraction of the wound edges, leading to a 
+contracture deformity.  
+ 
+ 
+A wound that is not able to heal by contraction of its edges, as 
+here on the lateral scalp, will remain unhealed. (Note that as it 
+attempted to contract, the wound pulled on the upper eyelid and 
+exposed and desiccated the eye.) Over time, usually years, that 
+chronic wound may undergo malignant transformation into an 
+aggressive form of Squamous Cell carcinoma known as 
+Marjolin’s ulcer.  
+ 
+Cassidy A. Muir, MD 
+Medical University of South Carolina 
+South Carolina, USA 
+ 
+Peter Stafford MD 
+Centre Médical Evangélique 
+Democratic Republic of Congo 
+ 
+Deepak K. Ozhathil, MD 
+Medical University of South Carolina 
+South Carolina, USA 
+ 
+July 2023 
+ 
+ 
+ 
+ 
+Resource-Rich Settings 
+For massive burns, wound coverage is often 
+achieved with Cultured Epidermal Autograft, in which 
+two cm full thickness skin biopsies are taken and sheets 
+of skin are cultured in the lab. For patients without 
+adequate donor sites, this allows the wound to be 
+covered. Newer technology like cell suspension (ReCell) 
+is improving the cosmetic appearance of wounds after 
+care. 

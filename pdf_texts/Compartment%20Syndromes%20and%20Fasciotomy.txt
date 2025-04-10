@@ -1,0 +1,815 @@
+Compartment Syndromes and Fasciotomies of the Extremities 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction: 
+All surgeons caring for patients with trauma 
+to the extremities, or practicing vascular surgery 
+must be able to recognize and surgically treat 
+compartment syndromes. This entity results from a 
+variety of causes. The final outcome is increased 
+compartment pressure that exceeds the arterial 
+inflow, with resultant ischemia and necrosis. Failure 
+to identify and treat compartment syndromes in a 
+timely fashion leads to preventable morbidity and 
+mortality, and is a common source of litigation. The 
+diagnosis of compartment syndrome is largely 
+clinical, but measurement of compartment pressures 
+may be useful in patients with equivocal findings or 
+altered level of consciousness. The below- knee 
+lower extremity is most commonly affected, 
+followed much less frequently, by the forearm, thigh, 
+buttock, foot and hand  
+ 
+Pathophysiology/Epidemiology: 
+Compartment syndrome has been found 
+wherever a compartment is present: hand, forearm, 
+upper arm, abdomen, buttock and the entire lower 
+extremity. The pathophysiology of compartment 
+syndrome is relatively straightforward. Groups of 
+muscles and their associated nerves and vessels are 
+surrounded by thick fascial layers that define the 
+various compartments of the extremities. These 
+compartments are of relatively fixed volume, as the 
+fascial layers are unable to expand. Compartment 
+syndrome occurs either when compartment size is 
+restricted or compartment volume is increased. This 
+can occur because of fractures, vascular injuries, 
+electrical burns, blast injuries, crush injuries, too 
+tight casts of splints, or tissue trauma after fracture 
+reduction. 
+As the pressure within the compartment 
+(from blood, fluid, or external pressure) increases, 
+the 
+tissue 
+perfusion 
+decreases 
+and 
+cellular 
+metabolism is impaired, leading to cellular death. If 
+this pressure is not relieved in a timely fashion, 
+irreversible damage will occur. The usually quoted 
+time is 4 to 6 hours, but it may be as little as an hour 
+for a patient in shock. Polytrauma patients with 
+hypotension can sustain irreversible injury at lower 
+compartment pressures than normotensive patients, 
+and a very high index of suspicion should be 
+maintained in this group. 
+The leg (calf) is the area that is most 
+commonly affected, accounting for 68% in a large 
+civilian series (Branco), followed by the forearm 
+(14%), and the thigh (9%). In a review of 294 
+combat-injured 
+soldiers 
+undergoing 
+494 
+fasciotomies, Ritenour et al reported the calf as the 
+most common site (51%) followed by the forearm 
+(22%), thigh (8%), upper arm (7%), hand (6%), and 
+the foot (5%).  
+Certain injury patterns have been associated 
+with higher likelihood of needing fasciotomy. 
+Branco et al found that incidence of fasciotomy 
+varied widely by mechanism of injury (0.9 % after 
+motor vehicle collision to 8.6% after a gunshot 
+wound). Additionally, the need for fasciotomy was 
+related to the type of injury, ranging from 2.2% for 
+patients with closed fractures to 41.8% in patients 
+with combined venous and arterial injuries. The 
+study by Branco identified ten risk factors associated 
+with the need for fasciotomy after extremity trauma: 
+young males, with penetrating or multi-system 
+trauma, requiring blood transfusion, with open 
+fractures, elbow or knee dislocations, or vascular 
+injury (arterial, venous, or combined) are at the 
+highest risk of requiring a fasciotomy after extremity 
+trauma. 
+ 
+Diagnosis: 
+The diagnosis of compartment syndrome is a 
+clinical diagnosis. The classically described five 
+“Ps” – pain, pallor, paresthesia, paralysis, and 
+pulselessness – are pathognomonic of compartment 
+syndrome. However, these are usually late signs. 
+Extensive and irreversible injuries may have taken 
+place by the time they are manifested. The most 
+important symptom of compartment syndrome is 
+pain greater than expected due to the injury alone. 
+Remember that the loss of pulse is a late finding, and 
+the presence of pulses does not rule-out compartment 
+syndrome! The presence of open wounds does not 
+exclude compartment syndrome. In fact, the worst 
+open fractures are actually more likely to have 
+compartment syndrome.  
+Compartment Syndromes and Fasciotomies of the Extremities 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+In 
+actual 
+practice, 
+tissue 
+pressure 
+(compartment pressure) measurements have a 
+limited role in making the diagnosis. However, in 
+polytrauma patients with associated head injury, 
+drug and alcohol intoxication, intubation, spinal 
+injuries, use of paralyzing drugs, extremes of age, 
+unconsciousness, 
+or 
+low 
+diastolic 
+pressures, 
+measuring compartment pressures may be of use in 
+determining the need for fasciotomy. The pressure 
+threshold for making the diagnosis of compartment 
+syndrome is controversial, though most prevalent in 
+the literature is 30 mm Hg . Many surgeons use the 
+“Delta-P” system. The compartment pressure is 
+subtracted from the patient’s diastolic blood pressure 
+to obtain the Delta-P. Muscle is at risk when the 
+compartment pressure is within 10-30 mmHg of the 
+diastolic pressure.  If the Delta-P is less than 30, the 
+surgeon should be concerned that a compartment 
+syndrome may be present.  Other factors to consider 
+when considering fasciotomy are length of time of 
+transport to definitive care and ability to do serial 
+examination.  
+Compartment 
+syndrome 
+is, 
+first 
+and 
+foremost, a clinical diagnosis. A patient manifesting 
+signs and symptoms of compartment syndrome 
+should be operated on expeditiously. In patients with 
+polytrauma, compartment syndrome should be a 
+diagnosis of exclusion and one should have a low 
+threshold for performing fasciotomy- especially in 
+patients with vascular trauma. The safest approach is 
+to err on the side of early and aggressive intervention. 
+In other words, if you are thinking about doing a 
+fasciotomy, it should be done. The reliance on 
+clinical examination with a low threshold for fascial 
+release may result in unwarranted fasciotomies, but 
+it avoids the grave consequences of a missed 
+diagnosis. 
+ 
+Treatment of Compartment Syndrome: 
+The definitive treatment of compartment 
+syndrome is early and aggressive fasciotomy. In 
+patients with vascular injury who require fasciotomy 
+in conjunction with a vascular repair, it makes great 
+sense to perform the fasciotomy before doing the 
+repair. The rationale for this is that the ischemic 
+compartment is likely to already be tight and thus 
+will create inflow resistance to your vascular repair, 
+making it susceptible to early thrombosis.  
+The remainder of this chapter will detail the 
+relevant anatomy, landmarks, step by step surgical 
+techniques, and pitfalls associated with fasciotomy 
+of the extremities most commonly affected by 
+compartment syndrome. 
+ 
+Lower Leg Fasciotomy: 
+The lower leg (calf) is the most common site 
+for compartment syndrome requiring fasciotomy. 
+The leg has four major tissue compartments bounded 
+by investing muscle fascia: 
+ 
+Cross-sectional anatomy of the mid-portion of the left lower 
+leg, depicting the four compartments that must be released 
+when performing a lower leg fasciotomy. 
+ 
+It is important to understand the anatomical 
+arrangement of these compartments as well as some 
+key structures within each compartment in order to 
+perform a proper four-compartment fasciotomy. It is 
+not necessary to remember the names of all the 
+muscles in each compartment, but it is useful to 
+remember the following:  
+● The anterior compartment contains the anterior 
+tibial artery and vein and the common peroneal 
+nerve (recently renamed the common fibular 
+nerve);  
+● The lateral compartment contains the superficial 
+peroneal nerve (recently renamed the superior 
+fibular nerve), which must not be injured;  
+● The superficial posterior compartment contains 
+the soleus and gastrocnemius muscles;  
+● the deep posterior compartment contains the 
+posterior tibial and peroneal vessels and the tibial 
+nerve. 
+Compartment Syndromes and Fasciotomies of the Extremities 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+When dealing with a traumatically injured 
+extremity, there is absolutely no role for getting 
+fancy. The use of a single incision for four-
+compartment fasciotomy of the lower extremity is 
+mentioned only to condemn it. Attempts to make 
+cosmetic incisions should also be condemned and the 
+mantra should be “bigger is better.” Compartment 
+syndrome of the lower extremity dictates two 
+incision 
+four-compartment 
+fasciotomy 
+with 
+generous skin incisions. 
+There are several key features that will enable 
+a 
+successful 
+two 
+incision 
+four-compartment 
+fasciotomy. One of the key steps is proper placement 
+of the incisions. As extremities needing fasciotomy 
+are often grossly swollen or deformed, marking the 
+key landmarks will aid in placement of the incisions.  
+It is useful to mark the patella and the tibial 
+tuberosity as well as the tibial spine which serves as 
+a reliable midpoint between the incisions. The lateral 
+malleolus and fibular head are the landmarks used to 
+identify the course of the fibula on the lateral portion 
+of the leg. The lateral incision is marked just anterior 
+(~1 fingerbreadth) to the line of the fibula, or “A 
+FINGER IN FRONT OF THE FIBULA.” It is 
+important to stay anterior to the fibula as this 
+minimizes the chance of damaging the superficial 
+peroneal (superior fibular) nerve and helps to 
+correctly identify the intermuscular septum between 
+the anterior and lateral compartments.  
+ 
+The medial incision is made one thumb-
+breadth below the palpable medial edge of the tibia, 
+or A THUMB BELOW THE TIBIA. The extent of 
+the skin incision should be to a point approximately 
+three fingerbreadths below the tibial tuberosity and 
+above the malleolus on either side. It is very 
+important to mark the incisions on both sides prior to 
+opening them, as the landmarks of the swollen 
+extremity will become rapidly distorted once the 
+incisions are made. 
+Placement of the lateral incision, as shown on the right leg: the 
+fibular head and lateral malleolus are used as reference points 
+to mark the edge of the fibula. The lateral incision (dotted line) 
+is marked one finger-breadth in front of this (“A FINGER IN 
+FRONT OF THE FIBULA”). 
+Compartment Syndromes and Fasciotomies of the Extremities 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Placement of the medial incision, shown on the Right leg: a 
+dotted line is marked one thumb breadth below the palpable 
+medial edge of the tibia (solid line). A THUMB BEHIND THE 
+TIBIA. 
+ 
+The Lateral Incision of the Lower Leg: 
+The lateral incision is made ONE FINGER 
+IN FRONT OF THE FIBULA and should in 
+general extend from three fingerbreadths below the 
+head of the fibula down to three fingerbreadths above 
+the lateral malleolus. The exact length of the skin 
+incision will depend on the clinical setting. Care 
+must be taken to make sure that it is long enough so 
+that the skin does not serve as a constricting band. 
+The skin and subcutaneous tissue are incised to 
+expose the fascia encasing the lateral and anterior 
+compartments. Care should be taken to avoid the 
+lesser saphenous vein and peroneal (fibular) nerve 
+when making these skin incisions. 
+Once the skin flap is raised, the intermuscular 
+septum is identified. This is the structure that divides 
+the anterior and lateral compartments. In the swollen 
+or injured extremity, it may be difficult to find the 
+intermuscular septum. In this setting the septum can 
+be identified by following the perforating vessels 
+down to it, as seen below: 
+ 
+ 
+The lateral incision on a right lower extremity demonstrates the 
+intermuscular septum (dotted line), which separates the 
+anterior and lateral compartments of the lower leg. Note one of 
+the perforating vessels (arrow) which enters and helps to 
+identify the septum. 
+ 
+Classically the fascia of the lateral lower leg 
+is opened using an “H”-shaped incision. The cross 
+piece of the “H” is made using a scalpel which will 
+expose both compartments and the septum.  The legs 
+of the “H” are made with curved scissors at least one 
+cm away from the septum using just the tips which 
+are turned away from the septum to avoid injury to 
+the peroneal (fibular) nerves. The superficial 
+peroneal (superior fibular) nerve originates around 
+the head of the fibula and descends to the foot within 
+the lateral compartment becoming superficial two 
+thirds to three fourths of the way down the leg and 
+Compartment Syndromes and Fasciotomies of the Extremities 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+then crossing over to the anterior compartment. Care 
+must be taken to avoid injury to this nerve as the 
+fascial incisions approach the ankle.  The fascia 
+should be opened by pushing the partially opened 
+scissor tips in both directions on either side of, and at 
+least one cm away from, the septum, opening the 
+fascia from the head of the fibula down to the lateral 
+malleolus. 
+Inspection 
+of 
+the 
+septum 
+and 
+identification of the common peroneal (fibular) 
+nerve and/or the anterior tibial vessels confirms entry 
+into the anterior compartment. The skin incision 
+should be closely inspected and extended as needed 
+to ensure that the ends do not serve as a point of 
+constriction. 
+ 
+ 
+The fascia of the right lateral lower leg (foot is to the right of 
+the photo) is opened in a classic “H”-shaped fashion for the 
+length of the compartments with scissors turned away from the 
+septum to avoid damage to underlying structures. 
+ 
+ 
+ 
+ 
+The superficial peroneal (superior fibular) nerve (arrows) runs 
+in the lateral compartment from the knee and crosses over the 
+septum (star) into the anterior compartment 2/3 to 3/4 of the 
+way down the leg towards the ankle. This must be carefully 
+avoided by keeping the scissor tips pointed away from the 
+septum and looking for the nerve as the fasciotomy is extended 
+to the lateral malleolus. The left lateral lower leg (foot to the 
+left) is seen on the top and the right lateral lower leg (foot to 
+the right) is seen on the bottom. 
+ 
+Pitfalls of the Lower Leg Lateral Incision: 
+ 
+The anterior compartment is the most 
+commonly missed compartment when performing a 
+fasciotomy of the lower extremity. The most 
+common reason the anterior compartment is missed 
+is due to the incision being made too far posteriorly, 
+either over or behind the fibula. If the incision is 
+made too far posteriorly, the intermuscular septum 
+between the lateral and superficial posterior 
+compartments is mistaken for the septum between 
+the anterior and lateral compartments and the 
+anterior compartment is not opened, as shown below: 
+Compartment Syndromes and Fasciotomies of the Extremities 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+As seen here on the lateral Left leg, there is an intermuscular 
+septum (Red arrow) between the lateral and superficial 
+posterior (post) compartments which can be mistaken for the 
+septum between the anterior and lateral compartments (Blue 
+arrow) if the incision is made too far posteriorly. 
+ 
+     
+ 
+ 
+     
+ 
+As seen here on the left leg, if the lateral incision is made too 
+far posteriorly the intermuscular septum (Red arrow) between 
+the lateral (L) and superficial posterior (SP) compartments can 
+be mistaken for the septum between the anterior (A) and lateral 
+(L) compartments. In this situation, the anterior compartment 
+would not be decompressed. The proper incision, shown by the 
+Blue arrow, is made when the incision is made “ONE FINGER 
+IN FRONT OF THE FIBULA” 
+The 
+medial 
+incision 
+is 
+made 
+one 
+fingerbreadth below the palpable medial edge of the 
+tibia (ONE THUMB BEHIND THE TIBIA). 
+When making this incision, it is important to identify 
+and preserve the greater saphenous vein, and ligate 
+any perforators to it. After making an incision 
+through the skin and subcutaneous tissues, the fascia 
+overlying the superficial posterior compartment is 
+exposed. This compartment   contains the soleus and 
+gastrocnemius muscle. Opening this fascia, from the 
+tibial tuberosity to the medial malleolus, effectively 
+decompresses the superficial posterior compartment. 
+ 
+ 
+The medial incision as seen on the right lower leg, ankle is to 
+the left in this picture. The incision is placed such that the 
+saphenous vein can be identified and preserved. Here, the 
+superficial posterior compartment is opened first. The fascia 
+(star) is opened to expose the soleus and gastrocnemius muscles 
+in the superficial posterior compartment below the edge of the 
+tibia (arrows.) 
+Compartment Syndromes and Fasciotomies of the Extremities 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The key to entering the deep posterior 
+compartment is the soleus muscle. The soleus muscle 
+attaches to the medial edge of the tibia. Dissecting 
+these fibers (referred to by some as the soleus bridge) 
+completely free from and exposing the underside of 
+the tibia ensures entry into the deep posterior 
+compartment. Identification of the posterior tibial 
+neurovascular bundle confirms that the compartment 
+has been entered. The muscle in each compartment 
+should be assessed for viability. Viable muscle is 
+pink, contracts when stimulated with diathermy, and 
+bleeds when cut. Dead muscle should be debrided 
+back to healthy viable tissue. The skin incision is left 
+open and either covered with gauze or a vacuum-
+assisted wound closure device. Vacuum wound 
+closure after fasciotomy has been shown in recent 
+studies to speed up and improve the chances of 
+definitive closure of these wounds. 
+ 
+ 
+On the right medial lower leg the soleus muscle (stars) is 
+dissected off of the inferior border of the tibia (arrow) allowing 
+entry into the deep posterior compartment. Seeing the 
+neurovascular bundle (Red circle) confirms entry into the deep 
+posterior compartment.  
+ 
+ 
+ 
+ 
+ 
+Identification of the posterior tibial neurovascular structures 
+(arrows) confirms entry into the deep posterior compartment 
+after taking the soleus muscle down from the tibia. Top: the 
+medial left leg, ankle is to the right of the photo. Bottom: the 
+medial right leg, ankle is to the left of the photo.  
+ 
+Pitfalls of the Medial Incision: 
+ 
+The deep posterior compartment is the 
+second most commonly missed compartment when 
+performing a fasciotomy of the lower extremity. The 
+most 
+common 
+reason 
+the 
+deep 
+posterior 
+compartment is missed is due a dissection plane 
+made between the gastrocnemius and soleus muscles 
+Compartment Syndromes and Fasciotomies of the Extremities 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+and believing that opening the fascia over the soleus 
+muscle equates to having opened the deep posterior 
+compartment. 
+           
+ 
+           
+ 
+As seen here in the medial left leg, if the dissection plane is 
+made between the soleus (S) and gastrocnemius (G) muscles, 
+the deep posterior (DP) compartment is unopened. The soleus 
+fibers must be detached from the underside of the tibia (star) to 
+separate the superficial posterior (SP) from the deep posterior 
+compartment such that it can be opened.  
+ 
+ 
+In the injured extremity, a prominent 
+plantaris tendon (also known as the “intern’s nerve”) 
+may 
+be 
+mistaken 
+for 
+the 
+posterior 
+tibial 
+neurovascular bundle leading one to erroneously 
+believe that the posterior compartment has been 
+entered and decompressed.  
+ 
+In this photo of the medial right leg, the ankle is to the left of 
+the photo. The plantaris tendon (arrow) is found in the plane 
+between the soleus and gastrocnemius muscles and may be 
+mistaken for the posterior tibial neurovascular bundle. Note 
+that the soleus muscle has not yet been detached from the tibia 
+(as shown in the photos above), therefore the deep posterior 
+compartment has not yet been decompressed.  
+ 
+ 
+Inadequate length of either the fascial or skin 
+incision can result in failure to reduce compartment 
+pressures to acceptable levels. 
+ 
+Inadvertent injury to the saphenous vein can 
+cause significant bleeding. The saphenous system 
+should be always preserved if possible, but 
+especially in the case of vascular trauma. Note that 
+entry into the deep posterior compartment, as 
+described here, allows access to the neurovascular 
+bundle of the lower leg. This is the preferred 
+exposure for repair of the popliteal and tibial vessels 
+in 
+trauma 
+situations. 
+In 
+this 
+case, 
+fascial 
+decompression is part of the operation, which is 
+appropriate. This approach is discussed elsewhere in 
+this Manual.  
+ 
+Compartment Syndrome of the Thigh: 
+Compartment syndrome is uncommon in the 
+thigh because of the large volume that the thigh 
+requires to cause an increase in interstitial pressure. 
+In addition, the compartments of the thigh blend 
+anatomically with the hip allowing for extravasation 
+of blood or fluid outside the compartment. Major risk 
+factors for thigh compartment syndrome include: 
+severe femoral fractures, vascular injury, severe 
+blunt trauma/crush or blast injury to the thigh, 
+Compartment Syndromes and Fasciotomies of the Extremities 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+iliofemoral deep vein thrombosis, and external 
+compression of the thigh. The thigh contains three 
+compartments: anterior, posterior and medial. The 
+anterior (not the medial) compartment contains the 
+femoral artery and vein and is the most likely to 
+develop compartment syndrome.  
+ 
+This cross-section of the mid right thigh shows the three 
+compartments of the thigh: anterior (Purple), medial (Orange), 
+and posterior (Green). Note that the femoral artery and vein 
+(arrow) are found in the anterior compartment. 
+ 
+ 
+ 
+If compartment syndrome of the thigh exists, 
+a lateral incision is made first as this enables 
+decompression of both the anterior and posterior 
+compartments. Often, the lateral incision is all that is 
+needed, though on occasion with a severely swollen 
+extremity a medial incision will be needed as well. 
+The lateral incision of the thigh extends from the 
+intertrochanteric line to the lateral epicondyle of the 
+femur to expose the iliotibial band or fascia lata 
+which is opened the length of the incision. The vastus 
+lateralis muscle is reflected superiorly and medially 
+to expose the lateral intermuscular septum (between 
+the anterior and posterior compartments) which is 
+incised the length of the incision. Commonly after 
+the anterior and posterior compartments are 
+decompressed 
+the 
+pressure 
+in 
+the 
+medial 
+compartment is measured and if elevated, this 
+compartment is also decompressed through a medial 
+incision. 
+ 
+The two incisions required to decompress the compartments 
+of the thigh are depicted with the anterior (Purple) and 
+posterior (Green) compartments opened via the lateral 
+incision and if indicated the medial (Orange) compartment 
+opened through the medial incision. 
+ 
+ 
+If needed, the medial compartment can be 
+opened through a medial incision placed along the 
+course of the saphenous vein. This is followed by 
+rotation of the sartorius muscle, and incision of the 
+medial intermuscular septum between the medial 
+and anterior compartments. 
+ 
+Compartment Syndrome of the Forearm and 
+Hand: 
+Compartment syndromes of the hand and 
+forearm are much less common than in the lower 
+extremity, but it is vital that they are recognized and 
+treated when they occur. Compartment syndrome of 
+the upper arm is very unusual, but may follow 
+supracondylar fracture of the humerus. Compartment 
+syndrome of the forearm may be associated with 
+fractures, crush or blast injury, burns or vascular 
+injury. Compartment syndrome of the hand can 
+occur from trauma but is more commonly associated 
+with infiltration of intravenous fluids. As there are no 
+sensory nerves in the hand compartments, physical 
+findings do not include sensory abnormalities, and 
+the pressure threshold for release is much less than in 
+the legs (15–20 mmHg). 
+The forearm is classically described as 
+having three compartments:  Volar (Anterior); 
+Mobile Wad (Brachioradialis / Radial head area); 
+and Dorsal (Posterior). Some anatomy texts and 
+practitioners subdivide the volar into superficial and 
+deep 
+compartments. 
+The 
+literature 
+contains 
+Compartment Syndromes and Fasciotomies of the Extremities 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+descriptions of multiple volar incisions. The most 
+commonly used and described volar fasciotomy 
+incision of the forearm is a curvilinear incision (to 
+release the anterior and mobile wad compartments) 
+which is extended to the hand to release the carpal 
+tunnel. The incision crosses the antecubital fossa in a 
+curvilinear fashion to the radial aspect of the upper 
+forearm and then is carried toward the ulnar aspect 
+down to the wrist and then across the wrist in a 
+transverse fashion and onto the palm to release the 
+carpal tunnel. This volar incision allows for 
+decompression of the volar (anterior) and mobile 
+wad compartments as well as the carpal tunnel. This 
+incision is preferred because of potentially better 
+cosmetic results, and maintenance of an adequate 
+skin blood supply between it and the dorsal incision 
+at the wrist.  
+ 
+The volar incision as seen on the right arm enabling 
+decompression of the anterior (volar) and mobile wad 
+compartments. 
+ 
+The dorsal (posterior) compartment of the 
+forearm is released through a linear dorsal incision, 
+with two additional incisions on the dorsum of the 
+hand to release the hand. To ensure that the 
+compartments of the forearm are completely 
+decompressed it is important to do a complete 
+epimysiotomy (opening the fascia overlying the 
+muscle) of each of the muscles, exposing the muscle 
+bellies in the entire length of the forearm. Each 
+muscle has its own separate fascial compartment 
+which must be decompressed separately; simply 
+opening up the forearm is not sufficient treatment.  
+ 
+The dorsal incision as seen on the right arm with additional 
+incisions on the hand enabling decompression of the dorsal 
+compartment of the forearm and the intraosseous 
+compartments of the hand.   
+ 
+ 
+In most cases of suspected compartment 
+syndrome of the forearm, the carpal tunnel should 
+be opened completely at the wrist. This is 
+accomplished by identifying the median nerve at 
+the wrist crease and using scissors passed on 
+either side of the transverse carpal ligament above 
+the median nerve and divided.  The transverse 
+carpal ligament is generally wider than one might 
+expect (> 2 cm) and there is a haptic and audible 
+“crunch” that accompanies its division. If one 
+“cuts until the crunch is gone”, the carpal tunnel 
+is fully opened. If compartment syndrome of the 
+hand is suspected it is best to involve a hand 
+specialist early, as often additional incisions will 
+be required to decompress the thenar and 
+hypothenar compartments. 
+Compartment Syndromes and Fasciotomies of the Extremities 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+ 
+ 
+The median nerve (star) is identified at the wrist crease running 
+under the palmaris longus (PL) tendon. Scissors are placed 
+above and below the transverse carpal ligament (arrow) which 
+is divided to completely open the carpal tunnel. 
+ 
+Aftercare and Complications: 
+If necrotic muscle is present, it should be 
+debrided at the time of original fasciotomy. As 
+described above, these procedures will create large 
+wounds that must be covered. The open wounds 
+should be covered with non-adherent dressing or 
+moist gauze. Wound closure can be accomplished 
+with the assistance of traction such as the “shoelace 
+technique” or vacuum- assisted devices. The wounds 
+should be re-evaluated 24–48 h after the initial 
+fasciotomy with further debridement as indicated. 
+After the acute process subsides, delayed primary 
+closure or split-thickness skin grafting may be 
+performed. Often, after swelling has gone down one 
+of the two calf wounds can be closed primarily, 
+leaving the other one open to be grafted. Until 
+definitive wound closure, patients with open 
+fasciotomy wounds are at risk for infection.  
+ 
+A system for closing wounds slowly over time using nylon 
+ratcheting ties. Other practitioners have simply looped the ties 
+through punctures in the skin edges and tightened them serially. 
+Source: Ahmad I et al, 
+https://www.doi.org/10.36106/ijsr  
+ 
+Incomplete or delayed fasciotomies can lead 
+to permanent nerve damage, loss of limb, multi-
+system organ failure, rhabdomyolysis and death. 
+Early recognition and aggressive fasciotomy will 
+help to minimize these adverse outcomes. 
+ 
+Conclusions: 
+Compartment syndrome must be suspected in 
+all polytrauma patients with extremity injury. 
+Patients in the intensive care unit are also at risk to 
+develop compartment syndrome from a variety of 
+non-traumatic conditions – principally: sepsis, 
+massive resuscitation, and reperfusion. It is essential 
+that all clinicians caring for these patients have an 
+intimate 
+knowledge 
+of 
+the 
+pathophysiology, 
+etiology, and evaluation of compartment syndrome. 
+Additionally, all surgeons need to have a 
+comprehensive knowledge of the relevant anatomy, 
+and the techniques for performing a proper 
+fasciotomy. A high index of suspicion must be 
+maintained (especially in patients with altered levels 
+of consciousness), and early and aggressive 
+fasciotomy will minimize the morbidity and 
+mortality associated with failure to adequately treat 
+compartment syndromes.  
+ 
+Compartment Syndromes and Fasciotomies of the Extremities 
+Mark W. Bowyer 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Disclaimer: 
+The opinions or assertions expressed herein are those 
+of the authors and are not to be construed as official 
+or reflecting the views of the Department of Defense, 
+the Uniformed Services University of the Health 
+Sciences, or any other agency of the U.S. 
+Government. The authors have nothing to disclose. 
+ 
+Acknowledgement: 
+The authors are grateful to Ms. Elizabeth Weissbrod, 
+MA, CMI for her expert illustrations contained in 
+this manuscript. 
+ 
+Mark W. Bowyer, MD, FACS, FRCS 
+Uniformed Services University of the Health 
+Sciences 
+Maryland, USA 
+ 
+December 2023 
+ 

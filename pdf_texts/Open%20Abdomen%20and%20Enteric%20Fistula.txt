@@ -1,0 +1,910 @@
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Background:  
+An enterocutaneous fistula is one of the most 
+feared complications for the abdominal surgeon. It 
+can be the devastating consequence of a single lapse 
+in judgment during a long, tedious operation, either 
+by yourself or another surgeon.  
+The three stages of fistula management are 
+classically described as resuscitation and infection 
+control, investigation, and intervention. In this 
+chapter, we will focus on the latter two stages, and 
+the difficult management decisions and strategies to 
+get you to a successful result. Regarding the first 
+stage, remember that a leaking intestine inside the 
+abdomen will leak into the peritoneum before finding 
+its way to the skin. Sepsis control consists of draining 
+the peritoneum and assuring a consistent exit of the 
+leakage. Usually this will involve re-opening the 
+abdominal incision, or making a new opening over 
+the leaking site, and not closing it. This results in the 
+dreaded “open abdomen.” We discuss this entity here 
+as well.  
+ 
+The best possible outcome for a fistula is for 
+it to close on its own. In deciding whether this 
+outcome is likely, remember the FRIENDS of a 
+fistula. These are conditions that make a fistula less 
+likely to close spontaneously:  
+● Foreign body (including mesh) 
+● Radiation history 
+● Infection 
+● Epithelization of the tract (this is especially 
+important in anal fistulas, a different subject.)  
+● Neoplasia 
+● Distal obstruction: this one is especially 
+important in the open abdomen, and is also 
+responsible for many anastomotic leaks!  
+● Steroid use 
+ 
+In our opinion, it is a failure of understanding 
+to try to treat a fistula by only making a patient 
+“NPO,” placing them on parenteral nutrition, and 
+waiting for the fistula to close on its own. Although 
+this approach might be needed with very proximal 
+fistulas, in most situations there are other options that 
+cost less money and allow a patient to experience the 
+joy of eating. In any event, in a resource-limited 
+setting, prolonged hospitalization and parenteral 
+nutrition are not realistic options.  
+ 
+Anatomy:  
+The lateral abdominal wall muscles originate 
+at the posterior aspect of the abdominal cavity, along 
+the lumbodorsal fascia and other midline posterior 
+structures. They insert into the lateral aspect of the 
+rectus sheath on each side. If the two rectus sheaths 
+are separated, as in open abdomen, the lateral 
+abdominal wall muscles will retract. After about 7 
+days, this retraction is so extensive that the 
+abdominal incision can not be closed again without 
+measures such as components separation.  
+ 
+When the linea alba, between the two rectus muscles (Straight 
+dotted line) is divided, the lateral abdominal wall muscles begin 
+to contract, unopposed, towards their origin (Purple arrows.) 
+If this contraction is allowed to persist for more than 7 days, it 
+may be impossible to reapproximate the linea alba at the 
+midline. An “open abdomen” is usually the result. 
+ 
+Within the abdominal cavity, any sort of 
+intervention leads to severe inflammation. Especially 
+if there is spillage of enteric contents or of purulent 
+material, this inflammation can be significant. As a 
+general rule of thumb, if the patient had an 
+uncomplicated laparotomy, you should not attempt 
+to operate in their abdomen during the time period of 
+2-6 weeks after surgery. If there was spillage of 
+succus or infection, do not operate for at least 3 
+months: 6 months would be preferable. Failure to 
+heed these timelines leads to a difficult and bloody 
+operation that has a very high chance of causing an 
+inadvertent enterotomy.  
+If you are operating on a patient with 
+malnutrition 
+or 
+severe 
+intra-abdominal 
+contamination, it is best to avoid any bowel 
+anastomosis or suture if possible. If you must suture 
+bowel, there are several options for reinforcing the 
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+suture line, including omentum, the gastroepiploic 
+arcade, and the round and falciform ligaments. The 
+classic example of such reinforcement is the Graham 
+patch for closure of a duodenal perforation. Some of 
+these options are described further below in 
+“Prevention.”  
+ 
+Succus entericus, the content of the small 
+intestine, is very caustic and damaging to both 
+peritoneum and skin. This is why most surgeons 
+recommend avoiding operation for 3-6 months after 
+intraperitoneal spillage. But the surgeon should also 
+do their best to prevent this fluid from coming in 
+contact with the skin. Once the skin is irritated, it will 
+be painful to the patient and much more difficult to 
+apply dressings or ostomy appliances to. One 
+common mistake is cutting the hole in the ostomy 
+appliance too big: it must be trimmed to almost 
+exactly the size of the exposed mucosa or wound. 
+Peri-wound or peristomal skin excoriation is much 
+better avoided than treated, as we describe further 
+below.  
+ 
+An ostomy appliance that has been cut too large exposes the 
+skin to enteric contents (within solid Red circle) which can 
+cause irritation over time. It would be better to cut the 
+appliance to just a little smaller than the ostomy (dashed Red 
+circle.) 
+ 
+ 
+Small bowel is very adaptable. Over time, it 
+can make itself more able to absorb nutrients and 
+water according to the needs of the patient. Surgeons 
+caring for patients with “short gut syndrome” have 
+found that the intestine can adapt so much that an 
+adult can survive with only 75 cm of small intestine. 
+However this transition takes several months; in 
+high-resource settings, patients are helped through 
+this time with total parenteral nutrition. In our 
+settings, patients may survive with as little as 100 cm 
+of small intestine, but this process is very difficult for 
+both the patient and the surgeon. We offer some tips 
+for slowing bowel transit, increasing absorption, and 
+avoiding dehydration below.  
+ 
+Principles:  
+ 
+We divide this section into three parts:  
+● Prevention, 
+including 
+dealing 
+with 
+an 
+intraoperative enterotomy that is at risk for 
+becoming a fistula 
+● Wound care, including prevention of further 
+injury to exposed bowel and isolating fistula 
+output. 
+● Output management, including thickening the 
+succus, slowing transit time, and maximizing 
+enteral nutrition.  
+ 
+Prevention: 
+Preventing an enterotomy is much better than 
+treatment. Recognize situations where you are at risk 
+for developing an enterocutaneous fistula. Try as best 
+you can to avoid operating in the abdomen between 
+2 and 6 weeks after the most recent laparotomy. If 
+there was infection or excessive contamination, wait 
+3 months at a minimum.  
+When 
+performing 
+adhesiolysis, 
+use 
+meticulous surgical technique including sharp 
+dissection. For especially tightly scarred adhesions, 
+we sometimes use a scalpel to carefully open up the 
+plane between two serosal surfaces. Use diathermy 
+only if there is an easily seen plane of tissue between 
+the objects you are trying to separate. Avoid blunt 
+dissection with a fingertip, tearing adhesions. The 
+fingertip will enter much more readily into the lumen 
+of the bowel rather than the adhesed space between 
+loops of bowel.  If you expect difficult adhesions and 
+a “hostile” abdomen, be sure to give yourself enough 
+time for these operations; consider allotting the 
+whole day for such patients.  
+If you are operating on a patient who is 
+malnourished, if the bowel cannot be mobilized, or if 
+there are extensive dense adhesions, you may get an 
+inadvertent enterotomy. This is very difficult 
+situation to manage. It is tempting to put a few 
+stitches and close the bowel in this situation. This 
+approach will inevitably fail. Do your best to 
+mobilize the enterotomy enough to create an ostomy, 
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+separate from the abdominal incision or, in last 
+resort, through it.  
+If your inadvertent enterotomy is in the 
+duodenum or proximal jejunum, you must repair it 
+because an ostomy here would be incompatible with 
+life. Reinforce your repair with omentum, as you 
+would with a perforated duodenal ulcer. If the 
+omentum is not available, other options include the 
+round ligament of the liver or the gastroepiploic 
+arcade dissected off the greater curvature of stomach.  
+ 
+This patient had late presentation of an intraoperative injury to 
+a proximal loop of jejunum. The omentum was contracted and 
+could not be mobilized to the site of injury. We divided the 
+gastroepiploic vessels on the left side of the stomach (Black 
+arrow) and dissected these vessels to the stomach until we had 
+a length of well-vascularized, fatty tissue (Blue arrow) that 
+could reach the repaired jejunum. We then used this tissue to 
+reinforce the repair.  
+ 
+ 
+A round ligament (Ligamentum Teres) flap can be harvested 
+during laparotomy by ligating the round ligament at its 
+connection to the umbilicus (Black circle) and then 
+disconnecting the fatty tissue within the falciform ligament from 
+the abdominal wall at the midline (White circle.) This flap will 
+usually reach the intra-abdominal esophagus, stomach, 
+duodenum, and central parts of the liver.  
+ 
+Wound Care 
+In all cases, the best coverage of exposed 
+bowel is the patient’s own tissue if possible. 
+Reapproximate fascia if you can do so, especially if 
+the laparotomy was within the last 7 days. This is 
+especially 
+important 
+when 
+re-operating 
+for 
+laparotomy dehiscence. Often if the fascia alone 
+cannot be closed (if >1 week since opened,) the skin 
+will still come together at the midline and cover the 
+intestines. See Temporary Abdominal Closure and 
+Closure of Laparotomy Dehiscence. Remember, the 
+longer the intestines are exposed to the air, the more 
+likely that an entero-atmospheric fistula will 
+develop.  
+ 
+For an open abdominal wound such as this one, immediate 
+closure will be impossible. The exposed bowel must be 
+protected and covered as soon as possible. One way to 
+accomplish this is to use a device that exerts continuous 
+traction on the skin and pulls it together in the midline, as 
+shown. We explain this concept further in the Guide below.  
+ 
+If you are faced with exposed bowel that can 
+not be covered with skin or fascia, you must protect 
+it relentlessly. Do not allow it to become dehydrated. 
+If the serosa has some adherent necrotic tissue, do not 
+attempt to directly debride it, no matter how 
+contaminated it might appear. You may sharply 
+debride fascia, muscle, or subcutaneous tissue if you 
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+are sure the necrosis is involving these tissues only, 
+but avoid debriding bowel directly.  
+Avoid repeated dressing changes with gauze 
+or sponge directly on bowel: this “wet to dry” wound 
+care strategy may work well in other parts of the 
+body. But it makes the wound clean by removing a 
+bit of tissue every time the gauze is removed. On the 
+bowel, this will inevitably lead to a fistula. Instead, 
+use petroleum jelly (Vaseline®) gauze. In resource-
+rich countries, the KCI Wound-Vac system has a 
+proprietary “white” sponge that can be safely applied 
+directly to the serosa of the bowel.  
+ 
+ 
+Initial appearance of a wound after dehiscence and 
+development of a fistula (Black arrow.) Sharp debridement the 
+eschar should be done where possible, but avoid it on the 
+surface of the exposed bowel. Source: Desvigne MN et al,  
+doi:10.7759/cureus.36 
+ 
+ 
+Appearance of the same wound after application of the 
+principles in this chapter. The eschar on the bowel has 
+decreased and granulation tissue is beginning to appear. When 
+all of the eschar has disappeared and the wound is relatively 
+flat, it can be allowed to close more by wound contraction, or 
+the exposed bowel can be covered with a split-thickness skin 
+graft and the fistula closed later. Source: Desvigne MN et al,  
+doi:10.7759/cureus.36 
+ 
+ 
+When caring for wounds such as these, exposed bowel must be 
+covered with petroleum jelly (Vaseline®)- soaked gauze or 
+other non-adhesive material. It must not be treated with serial 
+“wet to dry” dressing changes or more fistulae will result. 
+Here, all exposed tissue except the fistula will be covered with 
+a 
+vacuum 
+dressing. 
+Source: 
+Desvigne 
+MN 
+et 
+al,  
+doi:10.7759/cureus.36  
+ 
+ 
+We make our own petroleum jelly gauze by impregnating plain 
+gauze with jelly in a reusable sterilizable container.  
+ 
+If you have a combination of exposed serosa 
+and a fistula opening, the best strategy for wound 
+care is to keep the enteric contents and the rest of the 
+wound separate. You may choose to intubate the 
+fistula with a tube that will stay in place on its own, 
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+such as a Malecot or T-tube, especially if the fistula 
+opening is small. Some authors recommend this 
+practice and others do not. If a tube will make 
+management easier for you, do not hesitate to do so 
+(it may help align a wound protection device or a 
+vacuum device.) But do not imagine that the tube will 
+drain all of the effluent. As you use the strategies 
+described here to make the effluent thicker, it will 
+block the tube and management will be easier 
+without it.  
+Attempt to isolate the fistula from the rest of 
+the wound and collect its effluent separately. Use 
+barrier devices to divert and collect enteric contents 
+and protect the wound. Resource-rich countries have 
+dedicated silicone devices that create a barrier 
+around the fistula site.  
+ 
+Commercially available silicone fistula management devices, 
+such as these from KCI™ can be trimmed as needed and used 
+with commercial negative pressure wound therapy devices. 
+Source: 
+https://www.acelity.com/healthcare-
+professionals/global-product-catalog/catalog/fistula-solution-
+devices  
+ 
+ 
+In our setting, such devices are usually not 
+available and we must be creative. Baby bottle 
+nipples, especially those intended for babies with 
+cleft palate, can be useful. We have also used the 
+silicone from an ambu-bag, cut into the shape of 
+a “fence” to isolate the stoma from the rest of the 
+wound. A silicone cupcake mold with a hole cut 
+in the base, or other modified silicone items, 
+would probably work well for this purpose. We 
+demonstrate this kind of wound device in the 
+Guide at the end of this chapter.  
+ 
+A vacuum-assisted closure dressing applied to an open 
+abdomen, with a circular silicone appliance isolating the fistula 
+from the rest of the wound. We explain how to set up this 
+dressing below.   
+ 
+ 
+Another technique that has been described for separating stoma 
+output from the rest of the wound: the “Floating Stoma” 
+technique involves suturing a piece of thick plastic to the wound 
+edges, making a hole over the stoma, and then suturing the 
+mucosa to the hole. The bowel below the plastic can then be 
+treated with serial dressing changes with petroleum jelly gauze, 
+while an ostomy appliance sticks to the plastic and collects the 
+effluent. You will need to frequently re-suture the mucosa to the 
+plastic to maintain a seal here. Source: Gross DJ et al 
+doi: 10.1136/tsaco-2019-000381 
+ 
+ 
+Remember 
+that 
+improvised 
+vacuum 
+dressings and barrier devices, such as those described 
+in the next section, are extremely labor-intensive and 
+prone to failure. In resource-rich settings, where 
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+dedicated equipment and nursing are available, they 
+are usually changed every 3-5 days. In our settings, 
+they will fill with succus and overflow onto the skin 
+much more quickly. Do not be discouraged when this 
+happens, and be prepared for a long road.  
+ 
+Output Management 
+ 
+In our setting, simply withholding all oral 
+intake and giving long term parenteral nutrition are 
+not realistic options. As much as you can, you must 
+use the patient’s intestine to maintain their nutrition.  
+ 
+Patients with “short gut syndrome” and 75 
+cm of jejunum can survive if parenteral nutrition is 
+used as a “bridge” for a few months while the small 
+bowel mucosa adapts. In our setting, 100 cm of 
+jejunum is probably enough. Decide whether this is 
+the case with your patient: if the small intestinal 
+fistula is at least 100 cm downstream from the 
+ligament of Treitz, they will survive with the 
+methods described below.  
+Medications and dietary measures can be 
+used to thicken the secretions. The goal is for the 
+small bowel succus to be about the thickness of 
+toothpaste, and for colonic fistula output to be 
+formed stool. The following medications can be 
+used, most effectively in combination. All patients 
+with enterocutaneous fistula are on the first two 
+medicines, with the final three added as needed.  
+● Omeprazole and other proton pump inhibitors are 
+given orally to decrease gastric secretions 
+● Oral rehydration solutions: these will both 
+thicken the effluent and replace lost electrolytes. 
+In patients with an enteric fistula, we use double-
+strength oral rehydration solution at a target dose 
+of 3L per day, which the patient drinks slowly all 
+day long.  
+● Loperamide, an antidiarrheal. We use up to 24mg 
+per day divided into three or four daily doses. At 
+high doses, there is an increased risk of torsades 
+de pointes and other lethal arrhythmias.  
+● Codeine 
+is 
+very 
+effective 
+especially 
+in 
+combination with loperamide. Like all narcotics, 
+this medicine has a potential for addiction if used 
+for a prolonged time.  
+● Diphenoxylate / atropine is very effective at 
+thickening succus. It has a side effect of dry 
+mouth and tachycardia. This medication may not 
+be available in some countries. It may be too 
+effective, especially when used in combination 
+with other antimotility agents. 
+ 
+The patient’s diet can make a large difference 
+on the quality and quantity of output from the fistula. 
+Feed them a diet   rich  in complex carbohydrates and 
+low in fat.   Hypertonic fluids, such as  soda and fruit 
+juices, should be avoided, because  they usually 
+worsen  diarrhea. Remember that uncontrolled sepsis 
+can cause nausea and worsen the patient’s appetite, 
+so consider whether the patient has an undrained 
+focus of infection.  
+Using this approach along with meticulous 
+wound care allows you to effectively convert the 
+fistula to an “ostomy.” Then the patient can take 
+nutrition orally and wait until an appropriate time for 
+repair- usually 3-6 months. 
+ 
+You will find that in some cases, as the fistula 
+closes, more enteric contents will go distally past the 
+fistula and come out as stool. When that happens, the 
+medicines described above will cause the patient 
+constipation. If the patient begins to have abdominal 
+pain and constipation, taper the medicines down, 
+starting with codeine because of its addictive 
+potential.  
+ 
+Decision Making: 
+ 
+You will be faced with the following 
+situations:  
+ 
+Open Abdomen, No Fistula: Take great care of the 
+exposed bowel and try to close the fascia or skin over 
+it progressively! Do not debride necrotic tissue 
+directly on the bowel, and do not apply anything 
+except petroleum jelly-soaked gauze or other 
+compatible material directly to the bowel.  
+ 
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+This open abdomen has been cared for well: the exposed bowel 
+has completely granulated. This wound could be treated with a 
+split thickness skin graft (covered after placement for 5 days 
+with a vacuum dressing) or with a continuous traction 
+technique as described in the Guide below.  
+ 
+Open Abdomen With Fistula: Keep the wound clean 
+and try to keep enteric contents away from the skin 
+using the techniques described in this article. Try to 
+decide if the fistula is >100 cm from the ligament of 
+Treitz. There are several ways to do this:  
+● Carefully examine any films you may have, 
+especially a CT scan with oral contrast.  
+● Perform a Gastrografin small bowel study and 
+examine the films carefully to estimate how 
+much bowel is present before the fistula. The 
+radiographer may need to take films earlier than 
+usual for very high fistulas.  
+● Attempt to use techniques described in the 
+previous section to thicken the succus and slow 
+transit time. If, on maximum dosages, the output 
+is still >500cc per day, likely you will not 
+succeed with non-operative management.  
+ 
+If the fistula is more than 100 cm from the 
+ligament of Treitz, your main problems become 
+wound care, keeping the patient hydrated and free of 
+infection, and psychological care of the patient. This 
+last matter is not trivial, we will discuss it further 
+below.  
+If the fistula is less than 100 cm from the 
+Ligament of Treitz, this is where prolonged TPN and 
+bowel rest would be used in a resource-rich setting. 
+Examples include duodenal, pancreatic, biliary or 
+proximal jejunal fistulas that have already failed 
+multiple attempts at operation. In our setting, the 
+only option is to operate and attempt to close the 
+fistula. You must use meticulous sharp dissection, 
+reapproximate bowel under no tension, and reinforce 
+your closure with well-vascularized tissue as 
+described above. Remember that this closure will fail 
+if there is distal obstruction.  
+During any of these operations, if you have 
+any reason to suspect distal obstruction, take no 
+chances. The patient may have a colon tumor, 
+stricture at a previous anastomosis or ostomy site, or 
+extensive adhesions. Make an ileostomy or 
+jejunostomy that leaves at least 100 cm, preferably 
+much more. If you form the ostomy well, its output 
+will be easier to manage. 
+Patients with a colonic fistula may only need 
+loperamide and oral rehydration solutions. Patients 
+with more proximal fistulas may need all of the 
+medications, with their risks of side effects. Keep the 
+patient on IV fluids as you titrate the dosages 
+upwards.  
+It is tempting to try to refeed secretions to the 
+distal small intestine as they come out of the fistula. 
+This option is frequently discussed in textbooks. In 
+practice this is very difficult to do, especially in low-
+resource settings. It cannot be done by bolus feeds, 
+as there is no gastric reservoir; the feeds inevitably 
+reflux back into the wound if given as a bolus. 
+Attempting to feed them by “dripping” them into the 
+intestine will inevitably block the tubing, as you 
+likely do not have a pump.  
+ 
+Open Fistula, Now Controlled 
+ 
+Once the wound is clean and you are able to 
+successfully control the output, the next question is 
+how to treat the wound. If it is getting smaller on its 
+own, continue your current treatment. It may reach a 
+steady state, or it may continue to shrink and close 
+on its own. As it becomes smaller, decide whether a 
+simple ostomy appliance can be trimmed to fit 
+directly over it. In general, your goals are to make the 
+appliance stick to the skin and to keep the  efflux 
+from contacting the skin. It is acceptable to allow 
+some of the efflux to pool in the wound, as long as it 
+does not go anywhere else. You may be able to 
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+discharge the patient at this time, if they are able to 
+care for the wound well.  
+ 
+This wound, which previously needed a vacuum-assisted 
+dressing and fistula isolation, eventually got small enough that 
+an ostomy appliance alone could be applied. In fact, the wound 
+likely contracted further since the last appliance was placed. As 
+this occurred, the skin came in contact with the bowel contents 
+and got excoriated as shown. We would not do any further 
+intervention on this wound, except possibly to decrease stool-
+thickening agents as output decreases and more enteric 
+contents remain within the intestines. .  
+ 
+ 
+If the wound still has large amounts of 
+exposed bowel, but is otherwise very clean, you may 
+skin graft the serosal surface of the bowel. At this 
+point your vacuum dressing should be able to stay in 
+place for 4 or 5 days without being changed. Apply a 
+skin graft under the vacuum dressing, along with 
+your barrier device that directs the efflux into the 
+ostomy bag.  
+ 
+This patient had an injury to the ileum during attempted repair 
+of an incarcerated incisional hernia. An open abdomen 
+resulted, with exposed bowel and a single fistula. The wound 
+was managed as described here until the exposed bowel could 
+be skin grafted. The fistula now functions as an ileostomy: an 
+appliance can be fitted to it and the patient can eat and maintain 
+nutrition until an ideal time for definitive repair. Photo courtesy 
+of Dr. Demetrios Demetriades. 
+ 
+Previous Fistula, Now Converted To “Ostomy” 
+These patients will (understandably) be eager 
+to have their ostomy closed. Many will have an 
+incisional hernia that must be repaired at the same 
+time. It is best to wait 6 months if you can, to operate 
+on this type of abdomen. If the patient is very 
+disturbed by the fistula, 3 months may be acceptable 
+but this is a minimum. If you have applied a skin 
+graft directly to bowel, you must be able to pinch it 
+and feel that it is freely mobile over the bowel.  
+ 
+ 
+ 
+This patient had an open abdomen (without fistula) and had a 
+skin graft applied directly to the bowel. Now, the skin is freely 
+mobile and can easily be “pinched” away from the bowel. He 
+is ready for repair of his incisional hernia.  
+ 
+You will have the greatest chance of success 
+if you wait until all the inflammation has completely 
+died down. These are lengthy and difficult 
+operations, with careful adhesiolysis of all of the 
+small bowel, resection of the fistula and anastomosis, 
+and likely component separation for closure. Some 
+advocate having two teams for these operations: one 
+to do the lysis of adhesions, fistula takedown, and 
+anastomosis, and another to do the components 
+separation and fascial closure. This is wise advice.  
+ 
+Emotional Toll of Fistula 
+ 
+This condition is very disturbing for both the 
+patient and the physician. The patient will very 
+quickly realize that when they eat and drink less, 
+there is less output from the fistula. Especially if 
+output causes pain, or an embarrassing smelly mess, 
+they will restrict their oral intake. Nothing could be 
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+worse for them- they need nutrition most of all! 
+Avoid this situation, first by decreasing and 
+controlling fistula output as described here, and 
+second by explaining the situation to the patient and 
+encouraging them. Encourage the family also, to stay 
+at the bedside if your hospital allows, or to visit 
+frequently.  
+ 
+As a surgeon you will also find these cases 
+exhausting, especially if you feel that the fistula was 
+caused by an error on your part. Learn what lessons 
+you can from the case. Do not let your discomfort 
+with the patient’s condition cause you to avoid them. 
+Ask a more senior colleague for help if you need it. 
+See Managing Complications Part 1- Yourself.  
+ 
+Guide: Closure of Skin Over Open Abdomen by 
+Continuous Traction 
+ 
+We show a proprietary system, the Top 
+Closure Tension Relief system below. It may be 
+possible to modify ordinary Zip-Ties (used in 
+automotive and other applications) to this purpose. 
+This approach has been well described for closing 
+lower extremity and other wounds after fasciotomy.  
+ 
+A system for closing wounds slowly over time using nylon 
+ratcheting ties. Source: Ahmad I et al,  
+https://www.doi.org/10.36106/ijsr  
+ 
+ 
+Once the decision is made to treat the wound in this manner, 
+the devices are sutured or stapled to the skin in multiple 
+locations. Shown is the Top Closure Tension Relief system. This 
+system consists of an adhesive plate which both sticks to skin 
+and is sutured to it, placed 2cm from edge and skin staples. The 
+provided straps go between: tightening them a few mm every 
+time the dressing is changed allows the wound to be gradually 
+closed. 
+ 
+ 
+The bowel is protected using material that is designed to be in 
+contact with it. As shown in this chapter, petroleum jelly-
+impregnated gauze is also acceptable. Plain gauze is not. This 
+photo shows commercially made foam that is purpose-designed 
+with one side that is non-adherent. Other options include 
+coating one side of the foam with Tegaderm wound dressing, or 
+applying a plastic sheet such as a cut urine bag, to the bowels.  
+ 
+ 
+The entire assembly can be covered with a negative pressure 
+dressing to control output and keep the wound moist. This is 
+changed every 3-5 days, with the system tightened at the time. 
+Serial changes of the outer dressing with tape and dry gauze 
+are also acceptable, but more labor-intensive.  
+ 
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The devices are tightened a few mm every alternating day until 
+the skin meets at the midline. At this time the devices can be 
+removed.  
+ 
+ 
+The final result is a wound that is completely covered in the 
+patient’s own abdominal skin, and an incisional hernia 
+underneath.  
+ 
+Guide: Fistula Isolation and Negative Pressure 
+Dressing 
+It is very important to control the output of 
+the fistula. If leakage gets out of your control, the 
+skin becomes excoriated and further management 
+becomes very difficult: no appliance will stick to the 
+skin. You will have a very painful and messy 
+situation.  
+Remember that at best, a setup like this will 
+last 2-3 days. The more liquid the output is, the more 
+difficult it is to manage. Some liquid will inevitably 
+sneak around the silicone barrier into the gauze 
+sponge. Once liquid fills the gauze, it will overflow 
+onto the skin and begin irritating it. Change the 
+dressing before this happens! 
+ 
+ 
+This patient with severe malnutrition had wound dehiscence 
+after laparotomy for internal hernia with bowel resection. 
+Enteric contents were seen in the wound in the area inside the 
+Red circle. Our strategy will be to isolate this part of the wound 
+from the rest of it, and to collect the effluent in an ostomy bag. 
+ 
+ 
+This patient had an operation for suspected bowel ischemia two 
+weeks after laparotomy for incarcerated incisional hernia. 
+During abdominal entry, an enterotomy was made and the 
+abdomen was found to be “frozen.” No attempt at repair was 
+made and the wound was left open. The mucosa of the bowel is 
+clearly visible within the Black circle. We will attempt to isolate 
+it, collect its output, and apply a vacuum dressing to the rest of 
+the wound.  
+ 
+1. Debride necrotic tissue sharply on the fascia and 
+wound edges. Do not attempt to debride any 
+necrotic tissue directly on bowel.  
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The necrotic edges of the abdominal wall are sharply debrided, 
+but no attempt is made to debride the necrotic tissue on the 
+surface of the bowel itself.  
+ 
+2. Apply petroleum jelly-soaked gauze to the 
+exposed bowel, except for the fistula site itself. 
+Leave room for your appliance.  
+ 
+Petroleum jelly-soaked gauze is applied to the exposed bowel, 
+except at the fistula site itself.  
+ 
+3. Apply the appliance directly to the bowel 
+adjacent to the fistula site. Make sure no gauze is 
+under your appliance: it should be applied 
+directly to the bowel, completely outside the 
+fistula site.  
+ 
+For a small fistula opening, a silicone nipple from a feeding 
+bottle for infants with cleft palate (inset, Red circle) is trimmed 
+and used. 
+ 
+ 
+For a fistula opening that is larger than the nipple of a feeding 
+bottle, a piece of convex silicone from a pediatric ambu-bag can 
+be cut and used as a “fence” around the fistula site.  
+ 
+ 
+The “convex” portion of the ambu-bag above, cut into a strip, 
+used as a “fence” around the fistula. This allows the rest of the 
+wound to be within a suction dressing.  
+ 
+4. Fill the wound with dry gauze. If the fistula is in 
+the center of the wound and you need suction on 
+both sides, use a “bridge” of gauze to one side of 
+the appliance. Alternatively, place closed suction 
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+drains through the skin into the wound. Both 
+options are shown here.  
+ 
+With the baby bottle nipple in place, the rest of the wound is 
+filled with gauze, including a “bridge” around the appliance. 
+The gauze can pass to both sides of the appliance as shown, or 
+to only one side.  
+ 
+ 
+Here, closed suction drains under the skin enter the wound on 
+both sides of the silicone appliance, so it is not necessary to 
+leave a “bridge” of gauze around it. 
+ 
+5. Apply the adhesive dressing over the gauze and 
+the appliance. Ideally, the appliance is a little 
+taller than the gauze, so that when suction is 
+applied it will be pressed downward onto the 
+wound.  
+ 
+Holding the gauze and silicone appliance in place, the adhesive 
+plastic dressing is applied.  
+ 
+6. Cut a small hole in the adhesive dressing and 
+insert a trimmed nasogastric tube into the gauze. 
+Cover this junction with a small piece of adhesive 
+dressing.  
+ 
+A nasogastric tube is passed through a hole in the adhesive 
+plastic, and then a smaller piece of plastic is used to make this 
+connection airtight. Suction applied to the NG tube will now 
+exert continuous suction on all of the gauze sponge.  
+ 
+7. Trim the part of the adhesive dressing that covers 
+the appliance. 
+Management of Open Abdomen and Enteric Fistula 
+Richard Davis, Daniel Moenga, Elizabeth Mwachiro 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+With a scalpel or scissors, trim the part of the plastic that covers 
+the silicone appliance, making sure part of it remains adherent 
+to the silicone.  
+ 
+8. Engage suction and confirm that there is minimal 
+leakage around the appliance.  
+9. Trim the ostomy hole to the size of your 
+appliance.  
+ 
+Measure the size of the hole in the silicone appliance and trim 
+the ostomy wafer to the same size.  
+ 
+10. Apply the ostomy directly to the dressing, over 
+the appliance.  
+ 
+Finally, the ostomy bag is positioned so that it will catch all 
+output from the ostomy.  
+ 
+Richard Davis MD FACS FCS(ECSA) 
+AIC Kijabe Hospital 
+Kenya 
+ 
+Daniel Moenga MBBS FCS(ECSA) 
+Tenwek Hospital 
+Kenya 
+ 
+Elizabeth Mwachiro MBBS FCS(ECSA) 
+Tenwek Hospital 
+Kenya 
+ 
+ 
+ Resource-Rich Settings 
+Total Parenteral Nutrition 
+Octreotide 
+Wound Vac ® system and “White Sponge” 
+Teduglutide (Gattex) to promote mucosa growth (in 
+Short Bowel Syndrome) and nutrient absorption 

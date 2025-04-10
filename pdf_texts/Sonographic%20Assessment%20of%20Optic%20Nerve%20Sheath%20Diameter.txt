@@ -1,0 +1,166 @@
+Sonographic Assessment of Optic Nerve Sheath Diameter for Increased Intracranial Pressure 
+Surafel Dubale, Yohannes Seife, Robel Beyene  
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License  
+ 
+Introduction:  
+Optic nerve sheath diameter measurement is 
+a non-invasive, time saving, and efficient way of 
+assessing raised intracranial pressure in a patient 
+with altered consciousness of unknown etiology. 
+The optic nerve sheath demonstrates changes in 
+diameter with intracranial pressure changes, as there 
+is a layer of subarachnoid space between the nerve 
+and its sheath, which expands due to raised 
+intracranial pressure. These changes are appreciated 
+more along the anterior aspect of the nerve and can 
+be detected using a high frequency ultrasound. 
+Studies have shown that optic nerve sheath 
+diameter measurement has: 
+• High sensitivity for ruling out raised intracranial 
+pressure in a low-risk group 
+• High specificity for ruling in raised intracranial 
+pressure in a high-risk group.  
+ 
+A 2011 study done in adult patients with 
+different kinds of brain injury showed an optimal 
+optic nerve sheath diameter for detection of 
+intracranial hypertension (ICP > 20 mmHg) was 
+≥0.48 cm with a sensitivity 96% and specificity 94%. 
+Another study done in trauma patients with median 
+Glasgow Coma Scale of 7 showed that the ability to 
+detect intracranial hypertension was high for ONSD 
+with area under the curve of 0.91. 
+ 
+Steps: 
+1. Perform a thorough clinical and neurological 
+examination of the patient for increased 
+intracranial pressure.  
+2. A high frequency linear probe is used. 
+ 
+The linear probe has a frequency of 5-7.5 MHz and is used to 
+see fine detail at depths up to 6cm. See Introduction to 
+Ultrasonography for more details. 
+ 
+3. Patient is positioned supine; the eye is covered 
+with the eyes shut with an occlusive dressing 
+(such as Tegaderm®) or clean tape. Copious 
+amounts of ultrasound gel are applied over the 
+tape.  
+ 
+An occlusive dressing is applied over the eye and generous 
+ultrasound gel is then applied.  
+ 
+4. The optic nerve sheath is located 3mm behind the 
+globe. It appears as a bright (hyperechoic) 
+circular or oval structure surrounding the dark 
+(hypoechoic), longitudinal, optic nerve.  
+With a gentle application of transducer on the 
+globe, a characteristic image with the optic nerve 
+and sheath emerging posteriorly should appear as 
+shown below. 
+5. The papilla is located as shown. A 3mm a line is 
+drawn along the long axis of the nerve sheath  and 
+marked as a distance Point A- A.  
+6. A line perpendicular to the A-A is then drawn at 
+the 3mm depth from the medial to the lateral 
+inner walls of the hyperechoic nerve sheath and 
+is marked as Point B -B, which is the Optic Nerve 
+Sheath Diameter. 
+Sonographic Assessment of Optic Nerve Sheath Diameter for Increased Intracranial Pressure 
+Surafel Dubale, Yohannes Seife, Robel Beyene  
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License  
+ 
+ 
+With the probe held in longitudinal orientation, (sagittal plane) 
+a distance of 3mm from the inner wall of the nerve sheath (A-
+A’) is first measured. Then, at this distance, the width of the 
+nerve sheath (B-B’) is measured.  
+ 
+7.  Measurement is done in both the longitudinal 
+(sagittal) axis, as shown above, and the 
+transverse (axial) axis, as shown below. The 
+average is taken. The measurement is then 
+repeated on the other eye and the average is taken 
+as the mean Optic Nerve Sheath Diameter. 
+ 
+With the probe oriented transversely (Axial plane) the 
+measurement is repeated as above.  
+ 
+Interpretation:  
+ 
+Normal values are shown below. Values 
+above these indicate elevations in intracranial 
+pressure above 20mmHg. 
+Up to 4 mm in infants 
+Up to 4.5 mm in children 
+Up to 5 mm in adults 
+ 
+Pitfalls 
+The following conditions can cause the optic nerve 
+sheath diameter to be elevated without an increase in 
+intracranial pressure:  
+• Optic neuritis 
+• Optic nerve glioma 
+• Optic nerve meningioma 
+• Inflammatory infiltration 
+• Graves’ orbitopathy  
+• Leukemic infiltration 
+• Orbital congestion with sheath swelling 
+• Obesity / high body mass index 
+• Chronic ICP elevation 
+ 
+ 
+Surafel Dubale, MD 
+AIC Kijabe Hospital  
+Kenya 
+ 
+Yohannes Seife MD FCCM 
+MedStar, Washington Hospital Center 
+Washington, DC, USA 
+ 
+Robel Beyene MD FACS 
+Vanderbilt University Medical Center 
+Nashville, TN, USA 
+ 
+October 2023 
+ 
+ 
+ 
+Sonographic Assessment of Optic Nerve Sheath Diameter for Increased Intracranial Pressure 
+Surafel Dubale, Yohannes Seife, Robel Beyene  
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License  
+ 
+Further Reading:  
+Open Access: 
+Ohle R, McIsaac SM, Woo MY, Perry JJ. 
+Sonography of the Optic Nerve Sheath Diameter for 
+Detection of Raised Intracranial Pressure Compared 
+to Computed Tomography: A Systematic Review 
+and Meta-analysis. J Ultrasound Med. 2015 
+Jul;34(7):1285-94. 
+doi: 10.7863/ultra.34.7.1285. 
+ 
+Robba C, Cardim D, Tajsic T, Pietersen J, Bulman 
+M, Donnelly J, Lavinio A, Gupta A, Menon DK, 
+Hutchinson PJA, Czosnyka M. Ultrasound non-
+invasive measurement of intracranial pressure in 
+neurointensive care: A prospective observational 
+study. PLoS Med. 2017 Jul 25;14(7):e1002356. doi: 
+10.1371/journal.pmed.1002356.  
+ 
+Not Open Access:  
+Rajajee, V., Vanaman, M., Fletcher, J.J. et al. Optic 
+Nerve Ultrasound for the Detection of Raised 
+Intracranial Pressure. Neurocrit Care 15, 506–515 
+(2011). 
+https://doi.org/10.1007/s12028-011-9606-8 
+ 

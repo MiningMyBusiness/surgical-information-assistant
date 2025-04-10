@@ -1,0 +1,361 @@
+Approach to Abdominal Incisional Hernias 
+Richard Davis 
+ 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas  
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Background:  
+ 
+Incisional hernias can arise after up to 25% of 
+midline laparotomy incisions. Risk factors include 
+emergency surgery, wound infection, smoking, 
+obesity, and uncontrolled diabetes. Other less 
+tangible risk factors include surgical technique and 
+patient factors such as collagen formation; there is a 
+known association between arterial aneurysmal 
+disease and postoperative hernias. Incisional hernias 
+can 
+range 
+from 
+asymptomatic 
+to 
+painfully 
+debilitating; most are bothersome and painful to the 
+patient because of the associated bulge on Valsalva 
+or on standing or coughing. In larger hernias, 
+retraction of the lateral abdominal wall muscles leads 
+to lack of trunk support and chronic low back pain. 
+Especially large hernias can lead to  
+ 
+Incarcerated incisional hernias can be 
+chronically 
+or 
+acutely 
+incarcerated; 
+acutely 
+incarcerated ones represent a surgical emergency. 
+Otherwise, 
+unincarcerated 
+or 
+chronically 
+incarcerated hernias can be repaired on an elective 
+basis, which allows the clinician and patient to agree 
+on risks and benefits of repair, as well as to address 
+controllable risk factors.  
+Patients should stop smoking for 4 to 8 weeks 
+before surgery, and HbA1c should be well below 8. 
+The wound should be completely free of 
+contamination or infection. Situations where this is 
+not possible are discussed further below. It is 
+extremely difficult for obese people with incisional 
+hernias to lose weight because of exercise limitations 
+placed by the hernia itself.  
+In-depth counseling is in order for the patient 
+with prohibitive risk factors, including a very high 
+Body Mass Index or severe cardiac or pulmonary 
+disease. Surgery may be delayed or deferred in such 
+patients. Special attention should be paid, in large 
+hernias, to the possibility of loss of domain. In this 
+condition, a large hernia has been present for so long 
+that the visceral cavity no longer has the size to 
+accommodate return of all abdominal contents after 
+repair of the hernia. Returning the contents of the 
+hernia to the abdominal cavity, if that is even 
+possible, will lead to respiratory embarrassment, 
+excessive tension on the repair, and even abdominal 
+compartment syndrome.  
+ 
+Anatomy:  
+ 
+The arcuate line is a horizontal line located 2-5cm below the 
+umbilicus. Above this line, the rectus muscle is surrounded by 
+fascia both anteriorly and posteriorly.  
+ 
+ 
+Below the arcuate line, there is no fascia posterior to the rectus 
+muscle. There is only peritoneum and a layer of thin fatty tissue 
+called the transversalis fascia. This layer is sufficient to protect 
+the bowels from mesh, but is not strong enough to constitute one 
+of the layers in a non-mesh hernia repair.  
+ 
+ 
+The fibers of the external oblique muscle run transversely, from 
+superolateral to inferomedial, originating in part above the 
+costal margin (blue line.)  
+ 
+Approach to Abdominal Incisional Hernias 
+Richard Davis 
+ 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas  
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The fibers of the internal oblique muscle run perpendicular to 
+the external oblique, transversely from inferolateral to 
+superomedial.  
+ 
+ 
+The fibers of the transversus abdominis run horizontally. The 
+innervation of the anterior and lateral abdominal wall runs 
+between the internal oblique and the transversus abdominis.  
+ 
+Principles:  
+In incisional hernia, the muscles of the lateral 
+abdominal wall are no longer attached in the midline; 
+they retract and become chronically short in length. 
+At the time of repair, it is not advisable to simply re-
+approximate them; this approach will fail >50% of 
+the time due to excessive tension.  
+Any incisional hernia, no matter the size, 
+represents a failure in wound healing at the site. 
+Often the fascia at the site is attenuated, worsening 
+the problem. In these situations, it is necessary to 
+incise the shortened muscles, or to place a prosthetic 
+mesh, or ideally to do both. Closure of a wound with 
+mesh distributes the tension of the wound across a 
+larger area than simple closure.  
+Placement of a mesh increases the risk of 
+complications, which is acceptable because of the 
+decrease in risk of recurrence. The surgeon must take 
+precautions to minimize the risk of mesh 
+complications, the most notable of which is mesh 
+infection. 
+Another 
+well-known 
+complication, 
+chronic neuropathic pain, is much less common in 
+incisional hernia repair compared to inguinal hernia 
+repair. Chronic pain after incisional hernia repair is 
+best avoided by not securing the mesh with tight 
+“encircling” sutures within muscle or fascia, as these 
+have the potential to entrap parietal nerves.  
+The most commonly available mesh in 
+resource-limited settings will be plain polypropylene 
+(“Nylon”) mesh. This is classified as “Light” and 
+“Heavy.” Light mesh will be more flexible, soft, and 
+comfortable to the patient after implantation; this 
+comes at a cost of slightly higher risk of hernia 
+recurrence.  
+Polypropylene mesh may be delivered sterile 
+from the manufacturer, or it can be sterilized with 
+ethylene oxide. It can also be sterilized in a steam 
+autoclave that is functioning properly. See the 
+Sterilization chapter for further details.  
+If you have high contamination of your 
+operating room with dust or flying insects, you will 
+have to decide whether the risk of mesh implant is 
+higher than the risk of hernia recurrence. If you feel 
+that the risk of infection is unacceptably high, the 
+component separation technique described in this 
+Atlas can be used without mesh placement.  
+Approach to Abdominal Incisional Hernias 
+Richard Davis 
+ 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas  
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+ 
+Positions of mesh placement. 
+Onlay (Yellow): Mesh is placed by clearing off the 
+anterior rectus sheath, closing the defect primarily, 
+and securing the mesh.  
+Inlay (Red): Mesh is used to bridge a defect that 
+cannot be closed; the mesh is sutured to the edges of 
+the fascia.  
+Sublay (Purple): Mesh is placed in between the 
+rectus muscle and the posterior rectus sheath. Also 
+known as Retro-rectus placement, or the Rives-
+Stoppa technique. 
+Underlay (Green): Mesh is placed within the 
+peritoneal cavity, in contact with bowel. Also known 
+as Intraperitoneal Onlay Mesh, IPOM. Most 
+frequently performed at laparoscopy, using special 
+mesh that can be in contact with bowel (See Box, 
+“Resource-Rich Settings.”) 
+ 
+Mesh should definitely be avoided in 
+situations where: 
+● The mesh will come in contact with any body 
+fluids such as urine, bile, or bowel contents, 
+either during or after the repair. 
+● There is any infection at all in the operative field, 
+including cellulitis. 
+● There is possibility of contact with any bowel 
+(exceptions 
+as 
+per 
+box, 
+“Resource-Rich 
+Settings.”) 
+● There has been any entry into a hollow viscus, 
+even controlled (cholecystectomy, hysterectomy, 
+bowel resection.)  
+ 
+Decision Making: 
+Regarding mesh placement, the farther away 
+the mesh can be placed from the skin, the safer it will 
+be from infection. This will be best accomplished by 
+placing the mesh deep to the abdominal wall 
+muscles. If plain polypropylene mesh is being used, 
+however, it is not acceptable to place this mesh in 
+contact with the bowel. Strategies include:  
+● In a patient with ample omentum, simply place 
+the mesh in an Underlay position and assure that 
+the omentum lies between it and the intestines. 
+Suture the omentum to the peritoneum around the 
+mesh, especially if using a large mesh. 
+● Dissect the space between the peritoneum and the 
+posterior rectus sheath and place the mesh in this 
+space. Preserving the hernia sac helps provide 
+coverage of the mesh at the midline when this 
+strategy is used. The plane between the posterior 
+rectus sheath is very difficult to develop, the 
+Sublay position is much easier to accomplish.  
+● Place the mesh in the Sublay position, by 
+dissecting the posterior rectus sheath off of the 
+rectus muscle, as described in the Chapter, 
+“Hernia Repair with Sublay (Retro-Rectus) Mesh 
+Placement.”  
+ 
+All of these solutions require significant 
+dissection and entry into the abdominal cavity, but 
+they do offer the most durable and safest repair. 
+Conversely, the most appropriate use of the Onlay 
+mesh position is in the patient who is not able to 
+tolerate a large operation, or in whom the hernia is 
+small enough to not warrant a large operation. The 
+fascia should be closed and then the mesh laid on top 
+of the repair.  
+ 
+Choice of repair type, from the options in this 
+Section, will be dictated by the size of the hernia.  
+● Hernia Repair with Onlay Mesh Placement is 
+best reserved for small hernias. Examples include 
+recurrent umbilical or epigastric hernias, hernias 
+involving only a few cm of a midline incision, or 
+laparoscopic port site hernias.  
+● Larger midline incisional hernias, up to about 
+5cm wide, can be repaired with the Underlay 
+(Retro-Rectus) Technique; the fascial edges can 
+usually be drawn to the midline without 
+component separation, and the closure will be 
+relatively secure when reinforced by mesh.  
+● Midline incisional hernias that are wider than 
+about 5cm are unlikely to close, and stay closed, 
+with the Retro-Rectus technique alone. The 
+hernia 
+repair 
+described 
+in 
+the 
+Anterior 
+Components Separation chapter is the best one 
+for these. If no contraindication to mesh 
+placement exists, this should be done as well.  
+ 
+Approach to Abdominal Incisional Hernias 
+Richard Davis 
+ 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas  
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+The surgeon should be prepared for situations 
+where a large hernia exists and a mesh cannot be 
+placed. These might be anticipated, as when an 
+incisional hernia or fascial dehiscence coexists with 
+an enterocutaneous fistula or intra-abdominal 
+abscess. Or they may be unplanned, such as bowel 
+injury and spillage of succus during elective or 
+emergency incisional hernia repair. The surgeon 
+must have a well-rehearsed “Plan B” at the ready. 
+Options include temporary abdominal closure 
+(discussed elsewhere in this Atlas,) closure of the 
+skin only, or components separation repair.  
+● In some cases the best approach is closure of skin 
+and subcutaneous tissue only, leaving the hernia 
+repair for a later time. This is the best approach 
+when gross infection is present; likely the 
+primary goal of the surgery was to deal with the 
+source of infection or contamination. If this goal 
+has been accomplished, there is no shame in 
+leaving a complex hernia repair operation for a 
+time when it will be safer and more likely to 
+succeed.  
+● In other cases, “Plan B” will include a complete 
+tissue repair of the hernia using the Anterior 
+Components Separation technique described in 
+this section. This approach is most suitable for 
+elective hernia repair in which there is no 
+infection, but an inadvertent enterotomy has been 
+made and repaired, or a clean-contaminated 
+procedure was done.  
+ 
+If one is faced with a large incisional hernia 
+and gross contamination or infection, in no case 
+should one attempt to pull the fascia together under 
+tension and “hope for the best.” This will invariably 
+lead to wound dehiscence, which puts the patient at 
+risk for evisceration, incarceration of bowel in the 
+defect, or damage to the fascia, which will make 
+future repairs more difficult. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Richard Davis, MD FACS FCS(ECSA) 
+AIC Kijabe Hospital 
+Kenya 
+ 
+January 2022 
+ 
+Resource-Rich Settings 
+These mesh products allow the surgeon to break some of 
+the rules that apply to plain polypropylene mesh. They 
+are much more expensive, however.  
+• 
+Polytetrafluoroethylene (PTFE, Gore-Tex®) mesh is 
+smooth enough that it can be placed in contact with 
+bowel without consequence. Mesh intended for intra-
+abdominal use may have one smooth and one rough 
+side; the rough side is meant to be placed against the 
+abdominal wall and allow tissue ingrowth.  
+• 
+Polypropylene coated in a biologic membrane, such 
+as porcine dermal extracellular matrix, can be placed 
+in direct contact with bowel. Often these will also be 
+side-specific, with one rough side more likely to 
+promote ingrowth into the abdominal wall.  
+• 
+Absorbable mesh, such as Polyglycolic acid 
+(Vicryl®) can be placed in the presence of 
+contamination, though it will break down quickly in 
+the presence of infection. This material is not useful 
+in repairing any abdominal wall hernias.  
+• 
+Acellular dermal matrix mesh is an animal collagen 
+matrix that has had all cellular material removed. 
+This mesh can be used in any position; it is often 
+used as an “inlay” material to bridge a defect 
+between two edges of fascia in the presence of 
+infection. This mesh will always break down 
+eventually, so if used to bridge a defect it will lead to 
+recurrence of the hernia. It is most often used to “bail 
+out” of a situation where a hernia coexists with 
+contamination or infection.  
+ 

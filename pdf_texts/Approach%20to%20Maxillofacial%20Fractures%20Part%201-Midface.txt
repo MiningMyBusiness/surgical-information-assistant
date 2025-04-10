@@ -1,0 +1,684 @@
+Approach to Maxillofacial Fractures Part 1: Midface 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Background:  
+The subject of Maxillofacial fractures is 
+broad enough that it deserves its own chapter, as we 
+have done here. However, fractures of the facial 
+skeleton rarely exist without facial lacerations of 
+some kind. These are addressed in a separate chapter; 
+realistically you will be addressing both at the same 
+time.  
+Patients with both mandibular and maxillary 
+fractures are especially challenging- it can be 
+difficult to restore dental occlusion, and the danger 
+of palate fistula or other complications is higher. As 
+you begin to care for patients with facial fractures, 
+approach these “combined” fractures very carefully; 
+refer them if you can until you have some experience 
+with each type individually.  
+Remember that there is a frequent association 
+between facial trauma, cervical spinal trauma, and 
+head injury. It is common practice to empirically 
+immobilize the patient’s cervical spine with a soft but 
+rigid collar (“Philadelphia”) until cervical spine 
+injury has been ruled out.  
+Here, we discuss the relevant anatomy and 
+diagnostic maneuvers to classify a midface fracture. 
+Each separate operation is then considered in its own 
+chapter.  
+ 
+Anatomy:  
+The skin and nerves, lips, salivary glands and 
+ducts are considered in the chapter on facial 
+lacerations and injuries. Lacerations of the eyelids 
+are considered in their own chapter. The globe and 
+orbit are so inter-related that they will both be 
+considered here. 
+When evaluating patients with facial injuries, 
+it is crucial to understand the anatomy of the maxilla, 
+zygoma, naso-orbito-ethmoid complex and the 
+junction of these with the frontal bones.  
+The midface can be conceptually pictured as 
+a series of pillars, providing support and resisting 
+injury, with very thin-walled spaces in between, 
+filled with air or vital structures.  
+The largest air-filled space is the maxillary 
+sinus. Its anterior and superior walls are paper-thin 
+providing little structural support. The anterior 
+aspects of its medial and lateral walls, on the other 
+hand, are quite thick and serve to connect the hard 
+palate and the upper teeth to the rest of the midface.  
+ 
+The maxillary sinuses (Light Blue) are air-filled spaces in the 
+midface. Their anterior walls (including the foramena of the 
+infraorbital nerves) and inferior walls (the orbital floors) are 
+made of very thin bone which provides little structural support. 
+The thickened portions of the zygoma (surrounded by dotted 
+lines) are very thick: fractures rarely pass through these areas. 
+ 
+ 
+Keeping the maxillary sinuses in mind, we 
+can think of a series of “pillars” in the intact midface 
+where the structural support is strongest. Fractures 
+commonly pass through these areas. They are also 
+called “buttresses,” after the support structures of a 
+building. Understanding where these buttresses are 
+located allows us to communicate types of fractures, 
+plan management, and to anticipate complications.  
+ 
+The buttresses of the midface, anterior view. These are the 
+areas where fractures occur:  
+ 
+Approach to Maxillofacial Fractures Part 1: Midface 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The buttresses of the midface, left lateral view. These are the 
+areas where fractures occur  
+ 
+Fracture Patterns 
+ 
+With an understanding of the buttresses, we 
+are well prepared to consider the typical fracture 
+patterns and their classification.  
+ 
+A 
+LeFort 
+1 
+fracture 
+includes 
+the 
+Nasomaxillary and Zygomaticomaxillary buttresses. 
+It can occur bilaterally or unilaterally; if unilateral 
+there must also be a vertical fracture through the 
+maxilla, extending into the hard palate.  
+LeFort 1 fractures occurring alone are 
+somewhat less usual than LeFort 2 and 3 fractures. 
+This is because trauma to the midface will usually 
+involve the zygoma as well, as it protrudes farther 
+and is more easily struck and displaced.  
+ 
+LeFort 1 fracture (Dotted Line) passes through the 
+Zygomaticomaxillary and Nasomaxillary buttresses. If the 
+fracture is displaced, the patient will have malocclusion of the 
+teeth. 
+ 
+ 
+A LeFort 2 fracture is a “pyramid” shaped 
+fracture of the midface, passing through the 
+Zygomaticomaxillary buttress, the Inferior Orbital 
+Rim, and the Frontonasal Buttresses. It is common 
+for the nasomaxillary buttress to be fractured as well 
+when the midface sustains enough force to cause a 
+LeFort 2 fracture.  
+ 
+A common complication with this type of 
+fracture is orbital floor blowout and entrapment of 
+the periorbital fat, with limitation of eye movement 
+on the side of injury. Detection of this syndrome is 
+described further below.  
+ 
+LeFort 2 fracture (Dotted Line) passes through the 
+Zygomaticomaxillary buttress, the Inferior Orbital Rim, and the 
+Frontonasal buttresses. 
+ 
+ 
+A LeFort 3 fracture is a complete dissociation 
+of the midface from the skull. It would be extremely 
+rare for a patient to have these fractures alone: 
+usually this will exist concurrently with the LeFort 2 
+pattern. If the patient sustains a strong enough impact 
+to the midface to detach it from the skull, it is not 
+uncommon for most, or even all, of the other 
+buttresses to be fractured as well.  
+Approach to Maxillofacial Fractures Part 1: Midface 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+LeFort 3 fracture (Dotted Line) passes through the Lateral 
+Orbital Rims and the Frontonasal Buttresses. Usually there will 
+be other midface fractures as well.  
+ 
+ 
+A Zygomaticomaxillary complex fracture, 
+sometimes called a “ZMC fracture,” is caused by a 
+strong impact to the cheekbone. As above, the 
+zygoma itself is very thick and strong, so the 
+fractures are usually through its connections to the 
+rest of the midface. A fracture of the orbital floor is 
+always present with this fracture; sometimes the 
+orbital floor contents will be entrapped and eye 
+movement will be limited, as explained further 
+below. The volume of the orbit itself will be changed, 
+resulting in exophthalmos (outward protrusion of the 
+eye) or enophthalmos (eye sunken inwards). 
+ 
+Left Zygomaticomaxillary Complex fracture, anterior view. 
+Fractures are through the attachments of the zygoma to the 
+midface: the Lateral Orbital Rim, the Inferior Orbital Rim, the 
+Zygomaticomaxillary Buttress, and the Zygomatic Arch (not 
+shown.)  
+ 
+Left Zygomaticomaxillary Complex fracture, lateral view. 
+Fractures are through the attachments of the zygoma to the 
+midface: the Lateral Orbital Rim, the Inferior Orbital Rim, the 
+Zygomaticomaxillary Buttress, and the Zygomatic Arch. 
+ 
+A Naso-Orbital-Ethmoid Complex fracture, 
+sometimes called a “NOE Fracture” is caused by a 
+strong impact to the bridge of the nose. This fracture 
+is relatively rare in isolation, but it is common for the 
+NOE complex to be displaced separately in a patient 
+with a LeFort 2 fracture. Reducing this fracture will 
+be key to normal function of the nose (breathing and 
+smell) and appearance of the space between the eyes.  
+ 
+Naso-Orbital-Ethmoid complex fracture, anterior view. 
+Fractures are through the Frontonasal buttress, the inferior 
+orbital rim, and the Nasomaxillary buttress. Note that there 
+may also be a vertical fracture through the nasal bridge, which 
+would lead to abnormal widening of the space between the eyes, 
+also called “telecanthus.”  
+Approach to Maxillofacial Fractures Part 1: Midface 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Principles:  
+History 
+ 
+The mechanism of injury can be very helpful 
+in determining they type of fracture. A single blow 
+to the face, sustained during an assault, is usually not 
+enough to cause a LeFort fracture, although a 
+Zygomaticomaxillary Complex fracture could easily 
+result. Similarly, if the patient was struck from 
+behind and lost consciousness while standing, a 
+ZMC or mandible fracture is usually the result rather 
+than a more severe LeFort fracture.  
+ 
+Patients will complain of malocclusion if 
+asked specifically, “Do you feel like your teeth fit 
+together normally?” They may also complain of 
+diplopia, sometimes after swelling has gone down 
+enough for them to see again through both eyes.  
+ 
+Physical Examination 
+ 
+As always, trauma patients must be examined 
+systematically with attention to the airway, breathing 
+and circulation first. Most patients with maxillofacial 
+fractures will not have airway compromise, but if 
+they do, do not hesitate to intubate them (see Airway 
+Management in Trauma.) Be prepared for a difficult 
+airway, especially if the trauma occurred several 
+hours previously. Do not attempt to nasally intubate 
+anyone who has a mobile maxilla, as they may have 
+a basilar skull fracture. (For similar reasons, do not 
+insert a nasogastric tube.) 
+ 
+A 
+careful 
+physical 
+examination, 
+supplemented with well-performed plain x-rays, can 
+help you determine which fracture patterns are 
+present without a CT scan. The key is to understand 
+the anatomy and fracture patterns described above, 
+and then carefully detect fractures in their usual 
+locations.  
+ 
+Start with one hand on the dome of the skull 
+and the other grasping the maxillary teeth. Try to 
+gently move them. If they move, try to determine 
+whether they all move together, or whether the left 
+and right maxilla move separately. Dental trauma can 
+make this assessment confusing; try to assess the 
+bone of the alveolar ridge, beneath the gingiva, rather 
+than the teeth themselves.  
+ 
+Assess the maxilla for mobility by holding the skull firmly with 
+one hand and attempting to move the maxillary teeth with the 
+other. 
+ 
+ 
+Systematically assess all of the maxilla for mobility by grasping 
+the bone of the alveolar ridge itself, rather than the teeth, which 
+may move if injured even in the absence of a bony fracture. 
+ 
+ 
+Next, stick your finger inside the mouth on 
+the upper gingivolabial sulcus, the recess between 
+the 
+upper 
+lip 
+and 
+the 
+gums. 
+Feel 
+the 
+Zygomaticomaxillary and Nasomaxillary buttresses. 
+You may feel a step-off here, or elicit tenderness 
+when you palpate a fracture line.  
+ 
+If you have a mobile maxilla with tenderness 
+in the gingivolabial sulcus, you have a LeFort 
+fracture of some kind. If the maxilla is not mobile 
+and the gingivolabial sulcus is tender on only one 
+Approach to Maxillofacial Fractures Part 1: Midface 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+side, the patient probably has a Zygomaticomaxillary 
+Complex fracture. 
+ 
+Assess the nasomaxillary buttress by inserting your finger into 
+the gingivolabial sulcus, just lateral to the midline. 
+ 
+ 
+Assess the Zygomaticomaxillary buttress by sliding your finger 
+laterally from the nasomaxillary buttress, to find the curve of 
+the bone that unites the tooth-bearing maxilla and the 
+cheekbone. 
+ 
+ 
+Palpate the Zygomaticomaxillary buttress, in the area shown 
+by the Black arrow. If you feel tenderness or a deformity here 
+and the maxilla is not mobile, the patient has a 
+Zygomaticomaxillary complex (ZMC) fracture (Left). If you 
+palpate tenderness or a deformity and the maxilla is mobile, 
+likely the patient has a LeFort 1 or 2 fracture (LeFort 2 is 
+shown on the Right.) In the latter case, you will feel tenderness 
+or a stepoff on the right zygomaticomaxillary buttress as well. 
+ 
+ 
+Now, go to the bridge of the nose. If it is 
+tender, has crepitance, or has a deformity, and the 
+patient has a mobile maxilla, they have a LeFort 2 or 
+3 fracture. If they have tenderness or deformity of the 
+nose without a mobile maxilla, they have a nasal 
+fracture or 
+a Naso-Orbito-Ethmoid Complex 
+fracture.  
+ 
+Once you have established whether the maxilla is mobile, 
+palpating the bridge of the nose will allow you to determine 
+whether the fracture involves this structure, as explained 
+further below. 
+ 
+Approach to Maxillofacial Fractures Part 1: Midface 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+In a patient with a mobile maxilla, you can tell the difference 
+between a LeFort 1 fracture (Left) and a LeFort 2 fracture 
+(Right) by whether the bridge of the nose is tender or deformed. 
+If the bridge of the nose is deformed or tender without a mobile 
+maxilla, they have a fracture of the nasal bone or naso-orbito-
+ethmoid complex.  
+ 
+ 
+Try to palpate the inferior orbital rim: you 
+may feel a discontinuity, indicating either a LeFort 2 
+or a ZMC fracture. Numbness of the skin below the 
+eye is a subtle sign of an inferior orbital rim fracture, 
+passing through the foramen of the infraorbital nerve.  
+ 
+Palpate the central part of the inferior orbital rim, the part 
+which is usually affected by fracture. You can feel a stepoff, a 
+discontinuity in the bone, if there is a fracture. After palpating 
+the bone, gently brush this area. If the patient is insensate here, 
+it strongly suggests a fracture passing through the infraorbital 
+foramen, pinching the nerve.  
+ 
+ 
+Now palpate the lateral orbital rim: 
+crepitance, a deformity, or tenderness here indicates 
+a lateral orbital rim fracture. If the maxilla is not 
+mobile, a fracture here is likely part of a 
+Zygomaticomaxillary Complex fracture. If the 
+maxilla is mobile, the patient has a LeFort 3 fracture.  
+ 
+Palpate the lateral orbital rim, which is very close to the skin 
+here. A fracture with displacement can be felt as a “step off.” 
+If there is no displacement, tenderness here suggests a 
+nondisplaced fracture. Note that this patient grimaces when 
+pressure is applied here.  
+ 
+ 
+If you feel tenderness or deformity of the lateral orbital rim 
+(Black arrow) the patient may have a Zygomaticomaxillary 
+complex fracture (left) or a LeFort 3 fracture (right.) Note that 
+a patient with a LeFort 3 fracture will almost always have other 
+fractures of the maxilla or zygoma: the fracture will never be in 
+only the straight dotted line shown here.  
+ 
+ 
+Palpate the Zygomatic arch, as it can be 
+fractured alone, or as part of a Zygomaticomaxillary 
+Complex fracture. On rare occasions, a depressed 
+Zygomatic arch fracture will contact the coronoid 
+process of the mandible and prevent the patient from 
+closing their mouth (although inability to close the 
+mouth can also indicate mandibular condyle fracture 
+or dislocation.)  
+ 
+Inspect the eyes and the orbits, comparing 
+them to each other. Bear in mind the effect that a 
+fracture will have on the overall volume of the orbit, 
+as shown here:  
+Approach to Maxillofacial Fractures Part 1: Midface 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The orbit is shaped like a cone, with the globe (eyeball) floating 
+inside it. A fracture that causes an increase in the cone’s volume 
+(top images) will cause a “sunken eyeball” (enophthalmos) as 
+the globe moves in the direction shown by the arrow. A fracture 
+that causes a decrease in the cone’s volume (bottom images) 
+will cause protrusion of the globe, a “bulging eyeball” 
+(exophthalmos) as the globe moves in the direction shown by 
+the arrow.  
+ 
+ 
+Comparing both cheekbones and zygomatic arches, by 
+inspection and palpation, will show deformity and asymmetry. 
+In this case, the left cheekbone is depressed inferiorly and 
+laterally, with resulting enophthalmos of the left eye and 
+downward and lateral tension of the left eyelids. Source: 
+https://doi.org/10.1007/978-981-15-1346-6_56  
+ 
+ 
+Inspecting the face from inferiorly allows you to compare the 
+eyes for degrees of protrusion, caused by loss or increase of 
+volume in the orbit. In this case, the right eye protrudes 
+(exophthalmos), likely due to a fracture involving the 
+zygomaticomaxillary complex that has decreased the orbit’s 
+volume. Source: 
+https://doi.org/10.1007/978-981-15-1346-6_56  
+ 
+A more dramatic example seen using the same inspection 
+technique as above. The left eye is sunken into its orbit 
+(enophthalmos) likely due to a fracture involving the 
+zygomaticomaxillary complex that has increased the orbit’s 
+volume. Note also that the patient is attempting to look 
+upwards, but his left eye is unable to, likely due to periorbital 
+fat entrapment by a fracture in the orbital floor. This is 
+discussed further below. Source:  
+https://doi.org/10.1007/978-981-15-1346-6_56  
+ 
+ 
+Next, assess the eye movements. These 
+maneuvers require a cooperative patient: in a 
+comatose, or even a confused and combative patient, 
+you may not be able to perform them. In the first few 
+days after the operation, you may need to hold the 
+affected eyelid open.  
+ 
+Ask the patient to follow your finger with 
+their eyes and move your finger so that they look to 
+the right and left, upwards and downwards. At the 
+extremes, especially up and to the side, ask if they 
+see one finger or two. In cases of mild entrapment, 
+the patient’s eyes will seem to move symmetrically 
+but they will have diplopia when looking upwards or 
+downwards to one or both sides. With severe 
+entrapment, the affected eye will be unable to look 
+either upwards or downwards at all. (Both mild and 
+severe entrapment must be corrected surgically.)  
+ 
+Approach to Maxillofacial Fractures Part 1: Midface 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Patient with entrapment of the periorbital fat of the left eye 
+within a fracture of the orbital floor. Top: The left eye is unable 
+to look all the way to the left. Middle” The left eye is unable to 
+look simultaneously down and to the left. Bottom: The left eye 
+is unable to look upwards and to the left.  
+ 
+ 
+Long-term effects of untreated periorbital fat entrapment of the 
+right eye, patient is attempting to look upwards. As seen here, 
+the brain has started to ignore the input from that eye and the 
+lid has closed- the examiner is holding it open. The patient also 
+has a traumatic cataract of the right eye. 
+ 
+ 
+The forced duction test can be done in an awake and 
+cooperative patient after administering topical anesthetic to the 
+affected eye. It can also be done while the patient is under 
+general anesthetic. Grasp the conjunctiva right where it meets 
+the sclera and try to rotate the eye upwards; if there is 
+entrapment of the periorbital fat, you will be unable to do this. 
+Avoid causing an abrasion to the cornea while performing this 
+maneuver. Source:  
+https://doi.org/10.1007/978-981-15-1346-6_56  
+ 
+ 
+In all of your examinations, try to determine 
+whether the fracture is mobile, or whether there is 
+associated deformity. If the fracture is completely 
+nondisplaced, the patient will have tenderness at all 
+of the fracture sites, and may have numbness in the 
+distribution of the infraorbital nerve, but they will 
+have no other malfunction. Their occlusion will be 
+normal, their extraocular movements will be intact, 
+and their cheekbones will be symmetrical. A non-
+displaced midface fracture with normal dental 
+occlusion does not require surgical treatment.  You 
+should follow such patients closely for the next 
+several weeks, however, as the action of the masseter 
+muscle may pull the zygoma and zygomatic arch 
+downwards over time.  
+ 
+Imaging 
+ 
+After a careful examination of the midface, 
+applying the knowledge and principles explained 
+above, you should have a good idea of where the 
+fractures are. Plain x-rays can supplement and 
+confirm your suspicions and help you plan your 
+surgical repair.  
+ 
+A plain anteroposterior x-ray of the skull 
+does not help much. The occipital bone overlaps with 
+the areas of interest. The Waters View x-ray frames 
+the maxilla and zygoma inside of the skull, removing 
+any other structures from the picture.  
+Approach to Maxillofacial Fractures Part 1: Midface 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+In the Waters view of the skull, the x-ray beam passes through 
+the midface but not through the bones of the skull itself, 
+allowing these structures to be seen individually. The patient is 
+positioned such that a line between the meatus of the ear and 
+the chin (meato-mental line, dotted Red line) is perpendicular 
+to the x-ray plate. In this position, the nose is about 3-4cm from 
+the x-ray plate; if both the chin and the nose are touching the 
+x-ray plate, the view will be inadequate.  
+ 
+ 
+Normal Waters View x-ray with superimposed buttresses shown 
+in Red. Case courtesy of Dr Bálint Botz, From the case 
+https://radiopaedia.org/cases/63083?lang=us  
+ 
+ 
+Waters View x-ray shows a left Zygomaticomaxillary Complex 
+fracture. A fracture is clearly seen involving both the inferior 
+orbital rim and the zygomaticomaxillary buttress (Blue circle) 
+with another fracture through the medial inferior orbital rim 
+(Red circle.) Another fracture of the lateral orbital rim (Black 
+circle) is also seen. The fluid-filled left maxillary sinus provides 
+another clue that there is injury in this area- compare it with 
+the clear, normal appearance of the right maxillary sinus. Case 
+courtesy of Dr Derek Smith, From the case 
+https://radiopaedia.org/cases/35549?lang=us  
+ 
+Decision Making: 
+There are two major indications for surgery 
+on a maxillofacial fracture: restoration of function 
+and improvement of cosmesis. The following 
+principles arise out of these indications:  
+• Retrobulbar hematoma is a surgical emergency 
+that is usually diagnosed at CT scan. The 
+treatment is lateral canthopexy and inferior 
+canthotomy. As the operation is relatively minor, 
+it should be done as soon as possible if you 
+suspect this injury. The diagnosis and treatment 
+are described in another chapter of this Manual.  
+• Fractures causing entrapment of the periorbital 
+fat should be repaired as soon as possible, within 
+1-2 days. Extraocular muscles may also be 
+entrapped and become damaged if not released.  
+• All fractures of the mandible should be treated, 
+even if nondisplaced: forces exerted on the 
+mandible by the masseter and pterygoid muscles 
+Approach to Maxillofacial Fractures Part 1: Midface 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+assure that all fractures will result in dental 
+malocclusion. 
+• All fractures of the maxilla causing malocclusion 
+should be treated: if there is no significant 
+midface deformity, it may be enough to perform 
+open reduction of the fractures and then place the 
+patient in intermaxillary fixation.  
+• Patients in impoverished areas will often refuse 
+surgery if they understand that it is only for 
+“cosmetic” reasons. However, the deformities 
+caused by LeFort 2, 3, and Zygomaticomaxillary 
+Complex fractures are significant. These become 
+apparent only after all the swelling has gone 
+down and the resultant facial asymmetry and 
+enophthalmos or exophthalmos are seen.  
+ 
+ 
+Repair of maxillofacial fractures is never an 
+emergency, except in case of proven or suspected 
+retrobulbar hematoma. If a fracture can easily be 
+repaired during closure of the laceration, you may do 
+so. We have seen this only a few times: usually the 
+fracture is so extensive that the best approach is to 
+wash out and close the laceration during initial 
+management of the patient. Facial fracture repair can 
+be done up to two weeks later; the usual timing is 3-
+5 days after trauma, to allow edema to subside. This 
+interval also allows the patient to stabilize and other 
+necessary investigations to be done.  
+ 
+An inferior orbital rim fracture after reduction and fixation 
+through a facial laceration. The infraorbital nerve is shown by 
+the Black arrow. The laceration had been closed poorly, so the 
+surgeon was able to redo the closure at the same setting. This 
+patient had both a LeFort2 and Zygomaticomaxillary complex 
+fracture.  
+ 
+Not infrequently, a patient will have both 
+maxillofacial fractures and severe head injury. When 
+this occurs, it is reasonable to wait and see how much 
+the patient will recover. Before two weeks have 
+passed, it should be clearer whether the patient will 
+recover- you can operate if they seem to be 
+improving.  
+Facial lacerations that have been closed can 
+be re-opened during open reduction and internal 
+fixation of facial fractures, if doing so allows the 
+surgeon to avoid making other incisions on the face 
+to access the fractures. These incisions are described 
+in depth in the specific chapters on fracture repair.  
+ 
+Richard Davis MD FACS FCS(ECSA) 
+AIC Kijabe Hospital 
+Kenya 
+ 
+November 2024 
+Approach to Maxillofacial Fractures Part 1: Midface 
+Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Resource-Rich Settings 
+Surgeons in resource-rich settings have a number of 
+advantages, especially the ability to refer patients with facial 
+fracture to specialists in this field. Other advantages include:  
+• 
+CT scan with 3-dimensional reconstruction allows 
+preoperative 
+planning, 
+including 
+calculating 
+the 
+postoperative volume of the orbit to minimize 
+postoperative exophathalmos or enophthalmos  
+• 
+Titanium plates and miniplates, ultrathin titanium mesh, 
+screws, and other material to assist in the reconstruction 
+• 
+3D printing of the skull as it will be after reconstruction, 
+allowing 
+preoperative 
+cutting 
+and 
+bending 
+of 
+reconstructive plates to the exact dimensions needed. 
+• 
+Specialist dentists and prosthodontists to create dentures 
+or implants to be used during and after the healing 
+process.  
+ 
+ 
+CT scanning with three-dimensional reconstruction makes it 
+very easy to diagnose facial fractures. As a result, the 
+diagnostic maneuvers described here are becoming a “lost 
+art” in Resource-Rich settings. Source: Coronation Dental 
+Specialty Group, CC BY 3.0 via Wikimedia Commons 
+ 
+Without these advantages, and especially if you are self-taught 
+in this field, your outcomes will not be as good as they would 
+be in the hands of a specialist. But if you do nothing at all, the 
+patient will be much worse off, possible unable to eat, see out 
+of the affected eye, and with a very noticeable deformity.  

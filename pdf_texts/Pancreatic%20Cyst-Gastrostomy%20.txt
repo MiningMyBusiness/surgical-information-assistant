@@ -1,0 +1,414 @@
+Pancreatic Cyst-Gastrostomy 
+Paula Marincola Smith and Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Introduction:  
+Pancreatic pseudocysts are round or oval-
+shaped collections of amylase- and lipase-rich 
+pancreatic fluid, within the pancreatic tissue or 
+immediately surrounding the pancreas. Pseudocysts 
+are filled with simple pancreatic fluid without any 
+solid components and are lined with a thick, 
+fibrinous capsule. Importantly, the wall of the 
+pseudocyst does not contain epithelial tissue, 
+distinguishing it from a true cyst.  
+Pancreatic 
+pseudocysts 
+occur 
+due 
+to 
+disruption of the pancreatic duct, resulting in leakage 
+and accumulation of pancreatic juice. There is often 
+associated hemorrhagic fat necrosis. As a result of 
+the intense inflammation that occurs when pancreatic 
+enzymes 
+encounter 
+intraabdominal 
+structures, 
+pancreatic pseudocysts are lined by a thick capsule 
+of fibrosed granulation tissue. 
+Pancreatic pseudocysts often occur as the 
+consequence of acute pancreatitis, but can also occur 
+after chronic pancreatitis, because of iatrogenic 
+injury (after instrumentation or surgery,) or after 
+pancreatic trauma. In the early phase (first 4 weeks) 
+after duct disruption, the acute peripancreatic fluid 
+collection lacks a well-defined capsule. About 1 in 3 
+acute 
+peripancreatic 
+fluid 
+collections 
+will 
+spontaneously resolve while the remaining 2/3 
+organize into a pseudocyst within 4-6 weeks. While 
+most pseudocysts are located in the lesser sac 
+between the stomach and the pancreas, they can 
+originate anywhere along the trajectory of the 
+pancreatic duct. Pancreatic pseudocysts can also 
+extend anywhere in the abdominal cavity, including 
+the paracolic gutters and pelvis, and can be multiple.  
+Abdominal CT scan with intravenous 
+contrast is the imaging modality of choice to evaluate 
+pancreatic pseudocysts. On CT scan, they appear as 
+well-circumscribed round or oval peripancreatic 
+fluid collections. The fluid is noted to be 
+homogenous with low attenuation, and the cyst is 
+often surrounded by a well-defined wall which 
+enhances with intravenous contrast. The presence of 
+non-liquified components within the cyst cavity 
+should lead you to consider alternate diagnoses. 
+While 
+asymptomatic 
+or 
+incidentally- 
+discovered pseudocysts do not require intervention, 
+patients frequently present with symptoms of mass 
+effect including pain, early satiety, gastric outlet 
+obstruction, or biliary obstruction. In the setting of 
+such symptoms that fail to resolve with conservative 
+management, or in the case of secondary infection or 
+cyst recurrence, intervention is indicated.  
+It is important to remember that intervention 
+should be avoided if possible until at least 6 weeks 
+following an episode of acute pancreatitis for two 
+main reasons. First, up to one third of acute 
+pancreatic 
+fluid 
+collections 
+will 
+resolve 
+spontaneously with only supportive care and 
+symptomatic management, thus eliminating the need 
+for further intervention. Second, all interventions for 
+pancreatic pseudocyst rely on the presence of a thick, 
+fibrinous wall. Intervention before this wall is mature 
+leads to a higher chance of post-procedural leakage 
+or other complications. 
+Treatment 
+options 
+include 
+open 
+or 
+laparoscopic internal drainage (cyst-gastrostomy or 
+cyst-jejunostomy,) 
+endoscopic 
+drainage, 
+or 
+percutaneous drainage. Endoscopic drainage (often 
+an 
+endoscopic 
+cyst-gastrostomy 
+or 
+cyst-
+duodenostomy) may be difficult to access in a low-
+resource setting due to lack of equipment and 
+expertise. Percutaneous drainage should generally be 
+avoided for pancreatic pseudocysts: persistent 
+leakage from the pancreatic duct leaves the 
+possibility 
+of 
+pancreatico-cutaneous 
+fistula 
+formation. Of note, it has been suggested that 
+pancreatic pseudocysts that do not communicate 
+with the main duct are at low risk of recurrence or 
+fistula development after percutaneous drainage. 
+Nonetheless, percutaneous management remains 
+controversial, and we discourage a percutaneous 
+approach in the absence of high-quality pre-
+operative imaging (MRI/MRCP) to fully examine 
+the integrity of the pancreatic duct. Remember, the 
+pseudocyst was caused by leakage from the duct in 
+the first place: if that leakage starts up again once the 
+cyst is externally drained, the result is a pancreatico-
+cutaneous fistula.  
+Regarding open internal drainage procedures, 
+the decision to proceed with cyst-gastrostomy versus 
+cyst-jejunostomy is entirely anatomic. When the 
+pancreatic pseudocyst is in the lesser sac directly 
+Pancreatic Cyst-Gastrostomy 
+Paula Marincola Smith and Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+behind the stomach (the most common location,) a 
+cyst-gastrostomy is a technically straightforward 
+procedure. We describe this procedure here. When 
+the pancreatic pseudocyst is located outside of the 
+lesser sac (for instance, in case of a pseudocyst which 
+arises from the head of the pancreas in the right 
+hemiabdomen), a cyst-jejunostomy may be more 
+technically feasible. This procedure is described 
+elsewhere in the Manual. The general goal of both 
+operations is similar: to marsupialize the cyst and 
+create an anastomosis between the cyst wall and a 
+hollow viscus (stomach or jejunum) in order to allow 
+continual drainage of pancreatic fluid into the 
+intestinal tract. This chapter will focus specifically 
+on the cyst-gastrostomy, as this is the most common 
+procedure performed. 
+Consider also the etiology of the episode of 
+pancreatitis. 
+If 
+it 
+was 
+gallstones, 
+perform 
+cholecystectomy at the same time as this procedure 
+if it was not done before. Standard practice is to 
+remove 
+the 
+gallbladder 
+during 
+the 
+same 
+hospitalization as the pancreatitis episode. If this was 
+not done, it is appropriate to do it at this time.  
+It is important to remember that the presence 
+of a pancreatic cyst should lead you to consider 
+alternative diagnoses including cystic lesions of the 
+pancreas: 
+• Serous cystadenoma  
+• Mucinous cystic neoplasm  
+• Side branch intraductal papillary mucinous 
+neoplasm [IPMN]  
+• Solid pseudopapillary neoplasm  
+• Choledochal cyst  
+• Mesenteric duplication cysts 
+• Gastric duplication cysts.  
+These alternate diagnoses have entirely 
+different treatment algorithms which are not 
+discussed here. 
+To summarize, pancreatic pseudocysts have 
+features that will allow you to differentiate them 
+from these alternate diagnoses: 
+• A regular/rounded appearance 
+• Lack of any internal solid components,  
+• High amylase and lipase levels (these require 
+fluid sampling- body fluid amylase assays are 
+often not available in resource-limited settings.) 
+• History of pancreatitis or episode of severe 
+abdominal pain suggestive of pancreatitis 
+ 
+ 
+Pancreatic cyst-gastrostomy proceeds in the 
+following steps:  
+• Abdominal exploration 
+• Anterior gastrotomy and aspiration of the 
+pseudocyst through the posterior gastric wall to 
+confirm pseudocyst position 
+• Generous excision of a portion of the common 
+wall of the posterior stomach and anterior 
+pseudocyst 
+• Suture placement along the circumference of the 
+common wall 
+• Placement of nasogastric tube 
+• Closure of the anterior gastrotomy in two layers 
+ 
+Steps: 
+1. General anesthesia is induced. 
+2. Upper midline laparotomy is performed. 
+3. Abdominal exploration. Rule out signs of 
+malignancy. Inspect the liver, omentum, and 
+peritoneal surfaces both visually and by 
+palpation. If peritoneal masses or nodules are 
+detected, the diagnosis is much more likely to be 
+malignancy (pancreatic, gastric, or colonic) with 
+peritoneal 
+metastasis. 
+Explore 
+the 
+entire 
+abdomen carefully, take adequate biopsies, and 
+close.  
+If, on the other hand, you find only enlarged 
+lymph nodes without other unexpected findings, 
+recall that often intraperitoneal lymph nodes are 
+enlarged even without any pathology. If 
+inspection does not reveal any unexpected 
+pathology, proceed as planned. 
+ 
+Pancreatic Cyst-Gastrostomy 
+Paula Marincola Smith and Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Begin with an upper midline incision, exposing the anterior 
+wall of the stomach. Prior to proceeding with additional 
+dissection, take this opportunity to survey the abdomen for 
+signs of malignancy including metastatic spread. The liver, 
+omentum, and the peritoneum should be visually inspected and 
+palpated for signs of metastatic disease. If masses or nodules 
+concerning for malignancy are identified, they should be 
+biopsied prior to proceeding further. 
+ 
+4. Palpate for the pseudocyst through the stomach 
+in order to plan your gastrostomy. 
+5. Make a generous longitudinal gastrotomy in the 
+anterior wall over the palpable cystic mass. This 
+incision should ideally be in the mid-body of 
+stomach, taking care to avoid injury to blood 
+vessels on the greater curve. Next use a self-
+retaining (Weitlaner or similar) retractor to hold 
+open the edges of the anterior stomach wall. 
+6. Using a sterile finder needle and syringe, aspirate 
+the pseudocyst through the posterior wall of 
+stomach to confirm position once again. Fluid 
+should return as thin, dark pancreatic fluid. 
+Return of thick fluid or mucous should lead you 
+to reconsider your working diagnosis and 
+operative approach. 
+ 
+ 
+Following anterior longitudinal gastrotomy, a self retraining 
+retractor holds the gastric wall aside. A sterile finder needle 
+and syringe are used to aspirate the cyst through the posterior 
+wall of the stomach. You should easily aspirate thin, dark 
+pancreatic fluid. Return of thick fluid or mucous should lead 
+you to reconsider your working diagnosis. 
+ 
+7. Use diathermy to make a circular incision 
+through the common posterior stomach and 
+anterior pseudocyst wall. Make sure to have a 
+functioning suction device on hand to allow swift 
+decompression of the cyst cavity and to avoid 
+gross spillage of pancreatic fluid and enzymes 
+into the abdominal cavity.  
+ 
+Pancreatic Cyst-Gastrostomy 
+Paula Marincola Smith and Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Use diathermy to open the common posterior gastric/anterior 
+cyst wall. An assistant can insert a retractor into the cyst with 
+one hand while operating the suction with the other, to keep the 
+opening visible to the surgeon. 
+ 
+8. Following decompression, excise a circular 
+portion of this common wall to create a common 
+window, no less than 3cm in diameter. Larger 
+windows are preferable if possible. You should 
+be able to see the inside of the cyst cavity easily 
+through this defect. Submit the common wall for 
+pathology.  
+ 
+ 
+ 
+Excise a circular portion of the common wall (posterior 
+stomach/anterior cyst), at least 3cm in diameter, to create a 
+common window between the stomach and pseudocyst cavity. 
+Use diathermy and go slowly, the inflammatory tissue of the 
+pseudocyst wall will bleed copiously.  
+ 
+9. Suture the wall of the posterior gastrotomy to the 
+cyst wall circumferentially with a running 
+locking absorbable suture (2-0 Vicryl or PDS) for 
+hemostasis and to avoid possible leakage. Take 
+care to make full-thickness bites on both layers, 
+ensuring large bites of serosa and small bites of 
+mucosa with each bite of stomach. 
+ 
+ 
+For hemostasis and to secure the stomach to the pseudocyst, 
+suture the wall of the posterior gastrostomy to the anterior cyst 
+wall circumferentially in a locking manner to promote 
+hemostasis. Absorbable suture such as 2-0 Vicryl or PDS 
+should be used. 
+ 
+10. Close the anterior gastrotomy in 2 layers, taking 
+care not to narrow the pre-pyloric area or injure 
+the greater curve vessels. Absorbable suture 
+should be used on the inner layer (Vicryl or PDS.) 
+Take full-thickness bites with large bites of 
+serosa and small bites of mucosa, to avoid 
+bulging of mucosa. The outer layer can be closed 
+in either an interrupted or running fashion, taking 
+care to fully “bury” and cover the primary suture 
+line with seromuscular bites. Either absorbable or 
+non-absorbable (silk) suture can be used for the 
+second layer. 
+ 
+Pancreatic Cyst-Gastrostomy 
+Paula Marincola Smith and Richard Davis 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The anterior gastrotomy should be closed in two layers, taking 
+care to avoid narrowing the pre-pyloric area or creating an 
+iatrogenic injury to the greater curve vessels. 
+ 
+11. Place a nasogastric tube intraoperatively and 
+manually confirm placement in the stomach prior 
+to closing the abdomen. Leave the nasogastric 
+tube in situ overnight to avoid gastric distention. 
+Start clear liquids by mouth on the morning of 
+post-operative day one. 
+ 
+Pitfalls 
+• Recurrence of the cyst: excised portion of 
+common wall was too small, limiting the 
+capacity of the cyst fluid to adequately drain into 
+the gastrointestinal tract. 
+• Bleeding from common wall: Make sure to 
+carefully inspect the cyst cavity. The excised 
+portion of common wall should be large enough 
+to 
+allow 
+adequate 
+visual 
+inspection 
+for 
+hemostasis. A running locking suture is typically 
+utilized to promote hemostasis as this area is 
+typically very well-vascularized. Additional 
+sutures may need to be used to achieve 
+hemostasis.  
+• Undiagnosed malignancy: review for signs of 
+possible malignancy on preoperative history and 
+physical exam as well as imaging, and visually 
+inspect/manually palpate for signs of malignancy 
+or metastatic spread upon abdominal entry. If the 
+cyst is found to contain mucinous or gelatinous 
+debris during surgery, convert to subtotal 
+gastrectomy and distal pancreatectomy, if 
+possible. Try to preserve the fundus of stomach 
+as a reservoir. The short gastric arteries are the 
+primary blood supply to the fundus of the 
+stomach, so they should be preserved during 
+subtotal gastrectomy.  
+• Malnutrition/poor wound healing: many patients 
+with symptomatic pancreatic pseudocysts are 
+malnourished at the time of their operation for a 
+combination of reasons (mass effect from the 
+pseudocyst itself, history of acute or chronic 
+pancreatitis, concurrent alcohol or substance 
+abuse.) Consider early feeding, nutritional 
+supplementation, and monitoring for re-feeding 
+syndrome, when appropriate. See Nutrition in the 
+Surgical Patient.  
+ 
+ 
+Paula Marincola Smith, MD, PhD 
+Vanderbilt University Medical Center 
+Tennessee, USA 
+ 
+Richard Davis MD, FACS, FCS(ECSA)  
+AIC Kijabe Hospital  
+Kenya  
+ 
+March 2023 

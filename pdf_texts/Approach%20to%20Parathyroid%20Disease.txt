@@ -1,0 +1,700 @@
+Approach to Parathyroid Disease 
+Richard Davis, Naira Baregamian, Courtney Gibson 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+Background:  
+ 
+The parathyroid diseases are unique in 
+several 
+ways. 
+They 
+have 
+subtle 
+clinical 
+characteristics that can be ignored, overlooked, or 
+blamed on other clinical entities. They are usually 
+curable if treated well (except for parathyroid cancer, 
+which has a very poor prognosis.) And they are 
+usually best treated by surgery. This is especially true 
+in 
+resource-limited 
+settings. 
+In 
+resource-rich 
+countries, 
+less-severe 
+cases 
+of 
+secondary 
+hyperparathyroidism 
+can 
+be 
+treated 
+with 
+medications. But the mainstay of parathyroid disease 
+treatment remains surgery.  
+ 
+The cause of all of hyperparathyroidism’s 
+symptoms is the inappropriate mobilization and 
+elevation 
+of 
+calcium, 
+stimulated 
+by 
+an 
+inappropriately high level of serum parathyroid 
+hormone (PTH.) This has several predictable effects, 
+as described further below.  
+ 
+In resource-rich countries, routine serum 
+calcium assessment as part of a combined blood test 
+panel (“Basic Metabolic Panel”) has led to an 
+increase in diagnosis and treatment of Primary 
+Hyperparathyroidism. In some cases, patients 
+diagnosed in this way had symptoms such as mild 
+abdominal pain or subclinical depression, that they 
+didn’t even realize were problematic until after their 
+hypercalcemia had been successfully treated.  
+ 
+The 
+usual 
+clinical 
+manifestations 
+of 
+hyperparathyroidism can be classified as follows: 
+ 
+Kidney Stones:  
+ 
+Elevated serum calcium leads to elevated 
+levels of calcium in the urine, which leads to urinary 
+tract calculus disease. Any patient presenting with an 
+episode of urinary tract stones should be checked for 
+serum hypercalcemia.  
+ 
+Bone Pain and Bony Tumors: 
+ 
+Parathyroid hormone stimulates the bone to 
+release calcium. This leads to bone and joint pain and 
+bone fragility. There is a characteristic x-ray finding 
+of subperiosteal reabsorption which can best be seen 
+on plain x-rays of the hand.  
+ 
+Subperiosteal resorption can be a subtle finding. In the image 
+on the left, there is some erosion of the outer cortex on the first 
+phalanx of the index finger (Red arrow.) The cortex of the first 
+and second phalanges is also “lacy” in appearance, rather 
+than solid as seen in the normal x-ray on the right. The tufts of 
+the distal phalanges on the left also contain much less bone 
+(Blue arrow) than the normal distal phalanges on the right. 
+Case courtesy of Dr. Tom Ellswood, from the case 
+https://radiopaedia.org/cases/77849?lang=us (Left) and Dr. 
+Dai Roberts, from the case 
+https://radiopaedia.org/cases/80411?lang=us (Right.) 
+ 
+ 
+Excessive forced bone release of calcium can 
+also lead to bony tumors. These are called osteitis 
+fibrosa cystica, or Brown tumors, and have a 
+characteristic radiologic appearance. A patient’s 
+initial presentation for hyperparathyroidism may be 
+with a bony mass or a pathologic fracture of the 
+tumor. These tumors resolve upon treatment of the 
+hyperparathyroidism.  
+ 
+Characteristic radiolucent appearance of osteitis fibrosa 
+cystica, seen here in the radius. Case courtesy of Dr Hani 
+Makky Al Salam, from the case 
+https://radiopaedia.org/cases/12460?lang=us  
+Approach to Parathyroid Disease 
+Richard Davis, Naira Baregamian, Courtney Gibson 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Abdominal Complaints 
+ 
+Patients will complain of dull constant 
+abdominal pain that is not relieved or exacerbated by 
+any factors. Other gastrointestinal complaints can 
+include constipation, gastric ulcers and worsening 
+acid reflux. In our limited-resource setting, when 
+patients present with chronic abdominal pain and no 
+apparent diagnosis, a serum Calcium level is part of 
+our workup (as described further below.)  
+ 
+Neuropsychiatric Disturbances: 
+Patients will complain of symptoms such as extreme 
+fatigue, lack of concentration, short-term memory 
+loss, anxiety, insomnia and amotivation. Sometimes 
+these may be subclinical; the patient only realizes 
+they were present after the hypercalcemia has 
+resolved.  
+ 
+Physiology and Anatomy 
+ 
+Parathyroid hormone is released in response 
+to hypocalcemia or hyperphosphatemia by the 
+parathyroid glands, which are so named because they 
+are located adjacent to the thyroid gland. The 
+hormone’s effect is to cause absorption of calcium 
+and phosphorus from the intestine and release of 
+calcium by osteolysis from the bones. In the kidney, 
+parathyroid hormone’s effect is to increase 
+reabsorption of calcium and increase release of 
+phosphorus.  
+ 
+Schematic of the feedback loop of calcium and parathyroid 
+hormone. Hypocalcemia directly stimulates parathyroid 
+hormone release, which affects the bones, kidneys, and 
+intestines. Source: Lofrese JJ, Basit H, Lappin SL. Physiology, 
+Parathyroid. In: StatPearls [Internet]. Treasure Island (FL): 
+StatPearls Publishing; 2022 Jan- 
+ 
+ 
+Hyperparathyroidism is due to excessive 
+parathyroid hormone secretion by one or more 
+parathyroid glands, leading to hypercalcemia. 
+Causes include primary, secondary, or tertiary 
+hyperparathyroidism as well as parathyroid cancer, 
+as explained further below.  
+ 
+In patients presenting with hypercalcemia, 
+secondary causes must be excluded, such as 
+malignancy, multiple myeloma, parathyroid-related 
+hormone related protein secreting tumors, Vitamin D 
+deficiency, 
+renal 
+insufficiency, 
+familial 
+hypocalciuric 
+hypercalcemia, 
+granulomatous 
+disease, use of thiazide diuretics or lithium, milk 
+alkali syndrome, Paget’s disease, immobilization, 
+and other endocrine disorders. 
+ 
+Primary Hyperparathyroidism 
+ 
+This disease is caused by one or more 
+enlarged and independently functional, but not 
+malignant parathyroid glands. In resource-rich 
+settings, most patients are asymptomatic or with 
+minimal 
+symptoms. 
+They 
+present 
+with 
+hypercalcemia detected on routine blood work. They 
+Approach to Parathyroid Disease 
+Richard Davis, Naira Baregamian, Courtney Gibson 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+are then found to have an inappropriately elevated 
+parathyroid hormone during further work up. Nearly 
+15-20% 
+of 
+patients 
+with 
+primary 
+hyperparathyroidism will present with multi-gland 
+hyperplasia. Multi-gland hyperplasia will require 
+subtotal parathyroidectomy (typically 3.5-gland 
+resection), if indications for surgery have been met. 
+ 
+Secondary Hyperparathyroidism 
+ 
+This disease arises in patients with end-stage 
+renal disease on dialysis, and results in global 
+parathyroid hyperplasia and hyperfunction. Patients 
+with this disease almost always present with normal 
+or mildly elevated calcium with extremely high PTH 
+levels. This PTH elevation is multifactorial. 
+Persistent hyperphosphatemia due to renal failure is 
+a stimulus for PTH secretion. Also, elevated 
+phosphate levels complex with circulating calcium to 
+make calcium phosphate, which deposits in the 
+tissues and leads to lower calcium levels. Vitamin D 
+deficiency also leads to increased PTH release. The 
+end result of all of these processes is increased bone 
+turnover, bone pain and fractures, increased 
+calcification of all tissues (including coronary 
+arteries,) and calcium phosphate deposits in soft 
+tissues. Calciphylaxis, characteristic necrotic skin 
+lesions caused by microvascular damage and 
+calcium phosphate deposition, is another severe 
+consequence of this process.  
+Typically, medical management of secondary 
+hyperparathyroidism is undertaken first with vitamin 
+D supplementation, active vitamin D or its analogs 
+and 
+the 
+calcimimetic 
+medication 
+cinacalcet. 
+Parathyroidectomy 
+is 
+indicated 
+if 
+medical 
+management fails. In resource-rich countries, the 
+availability of cinacalcet has led to decreased need 
+for parathyroidectomy in dialysis dependent patients. 
+As resource-poor countries develop economically 
+and dialysis becomes more common, it is reasonable 
+to think that surgical treatment of this disease will 
+become more common as well, especially in patients 
+who cannot afford cinacalcet in the long term.  
+ 
+Typical lesion of calciphylaxis in a fair-skinned person. In more 
+extreme forms, these lesions may have a central eschar. They 
+are very painful. Niels Olson, CC BY-SA 3.0 
+ https://creativecommons.org/licenses/by-sa/3.0, 
+via Wikimedia Commons 
+ 
+Tertiary Hyperparathyroidism 
+ 
+This disease occurs when an excess of PTH 
+is secreted by parathyroid glands, usually after 
+longstanding secondary hyperparathyroidism, that 
+persists after successful renal transplantation. The 
+typical patient has been on dialysis for years before 
+the transplant. After normal renal function has been 
+restored, the hypertrophied parathyroid tissue fails to 
+resolve; instead it continues to secrete PTH, despite 
+serum calcium levels that are within normal range or 
+even elevated. Hypertrophied parathyroid glands 
+also may become resistant to calcimimetic treatment. 
+The 
+primary 
+treatment 
+of 
+tertiary 
+hyperparathyroidism is surgery. The main indication 
+for surgical treatment is persistent hypercalcemia 
+and/or an increased PTH levels.  
+ 
+Parathyroid Carcinoma 
+ 
+Parathyroid carcinoma is one of the rarest 
+human malignancies and presents with unequivocal 
+biochemical diagnosis of hyperparathyroidism, 
+dramatic elevation in parathyroid hormone and 
+serum Calcium levels and altered mental status 
+These patients need hospitalization for medical 
+management of hypercalcemic crisis, followed by 
+definitive surgical management of the tumor. 
+Parathyroid carcinomas tend to be large, and may be 
+locally invasive, requiring an en bloc resection of the 
+mass. A dramatic presentation of hypercalcemia, 
+such as a neck mass with very elevated calcium 
+levels, should raise suspicion for this disease.  
+Approach to Parathyroid Disease 
+Richard Davis, Naira Baregamian, Courtney Gibson 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+Enlarged neck mass (Blue arrow) in a patient with parathyroid 
+carcinoma. Source: http://www.endocrinesurgery.net.au, used 
+with permission. 
+ 
+Anatomic Considerations 
+The parathyroid glands usually consist of two 
+pairs, the upper and lower parathyroid glands, 
+although up to six glands can exist. They normally 
+reside adjacent to the thyroid gland, adherent or 
+adjacent to its posterior surface. Both the superior 
+and inferior parathyroid glands’ blood supply is from 
+the inferior thyroid vessels.  
+Normal parathyroid glands are 5-15mm in 
+size, oval-shaped, and dark yellow or orange in color. 
+They can be distinguished from surrounding fat by 
+being darker in color than fat. They are usually found 
+in the loose tissue that surrounds the capsule of the 
+thyroid. Careful dissection of this capsule, removing 
+the loose tissue from the thyroid without causing 
+damage to this tissue, will usually help you preserve 
+the parathyroid gland. When a parathyroid is 
+identified during capsular dissection of the thyroid, 
+be aware of its blood supply, which usually enters the 
+gland from the dorsal and caudal side.  
+ 
+Parathyroid tumor (right) within the resected thymus gland 
+shows the difference in color between parathyroid and fatty 
+tissue. Source: http://www.endocrinesurgery.net.au, used with 
+permission. 
+ 
+The normal location of the glands is highly 
+related to the location of the recurrent laryngeal 
+nerve. Another useful landmark for localizing the 
+glands is the tubercle of Zuckerkandl, the posterior-
+most projection of the thyroid gland. The superior 
+parathyroid glands will almost always be posterior to 
+a line drawn through the recurrent laryngeal nerve; 
+the inferior glands will normally be anterior to this 
+line. Parathyroid adenomas are frequently found 
+adjacent or adherent to the recurrent laryngeal nerve, 
+which must be meticulously preserved during 
+dissection.  
+ 
+The location of the parathyroid glands relative to landmarks 
+seen during neck exploration. The horizontal line goes through 
+the tubercle of Zuckerkandl, the most posterolateral part of the 
+thyroid gland. The vertical line is an imaginary line drawn 
+along the course of recurrent laryngeal nerve. Note that the 
+superior parathyroid glands can be cranial to the entrance of 
+the nerve into the larynx, even though this anatomic relation is 
+preserved. 
+Source: 
+Source: 
+http://www.endocrinesurgery.net.au, used with permission. 
+ 
+ 
+When a thorough search fails to show four 
+glands adjacent to the thyroid gland in the above-
+described locations, you are dealing with one or more 
+glands in an ectopic location. An understanding of 
+the embryology of the parathyroid development is 
+crucial in this situation. Parathyroid ectopic locations 
+can range from high cervical position, inside the 
+carotid 
+sheath, 
+intrathyroidal, 
+within 
+the 
+tracheoesophageal 
+groove, 
+retroesophageal, 
+mediastinal, or within the thymus gland in the chest. 
+Identifying the parathyroid vascular stalk and where 
+parathyroid blood supply is coming from in relation 
+to the recurrent laryngeal nerve can be very helpful 
+Approach to Parathyroid Disease 
+Richard Davis, Naira Baregamian, Courtney Gibson 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+in identifying which gland, superior or inferior, is 
+being resected. This dilemma is discussed further in 
+the following chapters. 
+ 
+The superior parathyroid glands arise from 
+the 4th pharyngeal pouch in the embryonic 
+oropharynx. They do not travel far from this position 
+to their final location in the neck. If you are having 
+trouble finding an upper parathyroid, continue 
+searching in the area of the upper thyroid lobe, 
+especially along the superior thyroid vessels above 
+the upper pole, within the tracheoesophageal groove, 
+or in the retroesophageal position.  
+ 
+Conversely, the inferior parathyroid glands 
+arise from the 3rd pharyngeal pouch and migrate 
+farther before reaching their location in the neck. 
+This process is more prone to disturbances in 
+migration, leading to a more frequent ectopic 
+location.  
+ 
+Embryology of the pharynx, 6th to 7th week of development. 
+The inferior parathyroids originate in the third branchial pouch 
+and the superior parathyroids originate in the fourth branchial 
+pouch. Both migrate downwards into the neck: as the inferior 
+parathyroids have farther to travel, they are more prone to 
+migrate to an ectopic location. Source: 
+http://www.endocrinesurgery.net.au, used with permission.  
+ 
+Potential ectopic locations of the parathyroid glands. See the 
+text for details. Source: http://www.endocrinesurgery.net.au, 
+used with permission. 
+ 
+Therefore, the surgeon who is having trouble 
+finding a lower parathyroid gland should expand the 
+search to the following locations: retro-esophageal, 
+within the carotid sheath, within the thymus gland in 
+the upper mediastinum, and within the thyroid gland 
+itself. More specific advice for dealing with ectopic 
+parathyroid glands is given further below and in the 
+individual chapters.  
+ 
+ 
+Principles:  
+ 
+Surgeons 
+who 
+do 
+not 
+have 
+specific 
+experience 
+with 
+parathyroid 
+disease 
+may 
+nevertheless have considerable experience locating 
+and preserving parathyroid glands from performing 
+thyroid resections. As with thyroid surgery, the best 
+results come from hands that are experienced 
+operating in this area. Carful technique with 
+meticulous attention to hemostasis is crucial: it is 
+much harder to distinguish parathyroid tissue, and to 
+tell it from the surrounding fat, in a blood-stained 
+field.  
+Approach to Parathyroid Disease 
+Richard Davis, Naira Baregamian, Courtney Gibson 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+The 
+minimally 
+invasive 
+single-gland 
+parathyroidectomy described in this Manual should 
+be used when you have excellent preoperative 
+imaging and the ability to assess PTH levels intra-
+operatively. If you have excellent imaging, you may 
+consider a minimally invasive operation without 
+intraoperative PTH, but you are placing the patient at 
+risk for a second operation, a full neck exploration, if 
+the 
+hyperparathyroidism 
+persists. 
+Therefore, 
+although it may be tempting to not perform a full 
+neck exploration, we cannot recommend this strategy 
+for low-resource settings. 
+The indications for neck exploration in 
+hyperparathyroidism include:  
+● Proven parathyroid disease and no intraoperative 
+PTH assay 
+● Failed single gland exploration 
+● Secondary hyperparathyroidism: as mentioned, 
+the availability of cinacalcet may influence your 
+surgical decision-making, especially in patients 
+with significant comorbidities. 
+● Tertiary hyperparathyroidism 
+ 
+Imaging options for the parathyroid glands include: 
+ 
+Ultrasound 
+ 
+As in other areas in this Manual, we 
+recommend that the surgeon become skilled at 
+performing ultrasound. It is very helpful to be able to 
+locate an enlarged gland using ultrasound in clinic, 
+and then repeat it in the operating room immediately 
+before surgery.  
+ 
+Parasagittal (left) and axial (right) views show the typical oval, 
+hypodense ultrasound appearance of a parathyroid adenoma, 
+adjacent to the more dense tissue of the thyroid gland. Case 
+courtesy of Dr Maulik S Patel, From the case  
+https://radiopaedia.org/cases/16063?lang=us  
+ 
+Computed Tomography Scan 
+ 
+On CT scan of the neck with IV 
+contrast, parathyroid adenomas are visible as 
+hyperlucent compared to surrounding structures. The 
+scan typically is performed in three phases: non-
+contrast, arterial (30 seconds after contrast injection,) 
+and delayed (60-90 seconds after contrast.) This is 
+sometimes referred to as “4D CT,” with the 4th 
+dimension being time. An adenoma will have low 
+attenuation on non-contrast phase, light up promptly 
+on arterial phase, and have decreased attenuation but 
+still be visible on delayed phase.  
+4D CT is not used in every case of 
+hyperparathyroidism, but it is very useful in 
+identifying parathyroid gland(s) in the reoperative 
+setting. It is more sensitive and specific than either 
+ultrasound or Sestamibi in localizing parathyroid 
+glands.  
+ 
+Three phases of CT scan of the neck showing a parathyroid 
+adenoma in the right tracheoesophageal groove (Red arrow.) 
+Left, non-contrast phase: The tumor has low attenuation. 
+Center: arterial phase: The well-vascularized tumor has high 
+attenuation.  
+Right, delayed contrast phase: The tumor has low attenuation, 
+though more than surrounding tissues. 
+Case courtesy of Dr Jenny Hoang, from the case 
+https://radiopaedia.org/cases/30418?lang=us  
+ 
+Approach to Parathyroid Disease 
+Richard Davis, Naira Baregamian, Courtney Gibson 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+ 
+CT scan with IV contrast in the delayed phase shows an ectopic 
+parathyroid adenoma inside the chest, between the esophagus 
+and the vertebral column (White arrow.) Case courtesy of Dr 
+Andrew Lawson, from the case 
+https://radiopaedia.org/cases/25631?lang=us  
+ 
+Sestamibi Scan 
+ 
+This radionuclide imaging technique will not 
+be available in most low-resource settings. It consists 
+of injection of Technetium-99 sestamibi (a 
+shortening of “sesta-methoxyisobutylisonitrile,”) 
+followed by measurement of radioactivity in the neck 
+and upper chest. Scanning occurs at 15 minutes and 
+2 hours following administration. At 15 minutes, the 
+thyroid gland and the largest parathyroid adenoma 
+will be seen. At 2 hours, only the adenoma will be 
+seen. This technique is best used in conjunction with 
+an ultrasound, both to verify that a lesion seen at 
+ultrasound is indeed a parathyroid adenoma, and to 
+locate any adenomas not seen by ultrasound.  
+ 
+It is important to note that in the presence of 
+two adenomas, only the larger one will be seen on 
+Sestamibi scan. So the presence of only one tumor on 
+the scan does not indicate that only one  parathyroid 
+adenoma is present: as stated above, 15-20% of 
+patients with primary hyperparathyroidism have 
+multi-gland disease.  
+ 
+Sestamibi scan at 15 minutes (Left) and 2 hours (Right) shows 
+a parathyroid adenoma adjacent to the lower pole of the left 
+thyroid gland (Arrow.) At the early images, the thyroid gland is 
+also seen but at 2 hours the adenoma alone is seen. The other 
+black masses above the thyroid glands are the submandibular 
+salivary glands. Case courtesy of Dr Jörgen Strömberg, from 
+the case 
+https://radiopaedia.org/cases/54793?lang=us  
+ 
+Decision Making: 
+In patients with hypercalcemia, we perform a 
+careful history and thorough physical examination 
+with emphasis on masses in the neck. A palpable 
+neck mass raises concern for parathyroid carcinoma, 
+especially if the Calcium level is more than 
+12mg/dL.  
+A history of dialysis or renal transplantation 
+raises the likelihood of secondary or tertiary 
+hyperparathyroidism.  
+ 
+In all cases, an elevated parathyroid hormone 
+level confirms the diagnosis. If it is normal or low, 
+consider the other causes of hypercalcemia listed 
+above under “Physiology and Anatomy.” In true 
+primary hyperparathyroidism, both the serum 
+calcium and the parathyroid hormone must be 
+elevated. Isolated hypercalcemia with a low PTH is 
+often due to occult malignancy. 
+For patients with chronic abdominal pain, if 
+the history and physical does not yield any suspected 
+diagnosis, we will check a serum Calcium level, 
+Thyroid Stimulating Hormone level, Complete 
+Blood Count and Erythrocyte Sedimentation Rate as 
+part of our workup. This situation is discussed 
+elsewhere in this Manual.  
+Once the diagnosis of hyperparathyroidism is 
+confirmed, surgical planning begins. A meticulous 
+neck exploration by an experienced surgeon is better 
+than any imaging. If you do not have any of the 
+Approach to Parathyroid Disease 
+Richard Davis, Naira Baregamian, Courtney Gibson 
+ 
+OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS 
+www.vumc.org/global-surgical-atlas 
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  
+ 
+advanced imaging mentioned in this chapter, you 
+may still perform an ultrasound to help guide your 
+exploration. Even if you are certain where the tumor 
+is after ultrasound, we still recommend you perform 
+a 4-gland exploration as described in the following 
+chapter.  
+If you are faced with a patient who has 
+persistent 
+hyperparathyroidism 
+after 
+a 
+neck 
+exploration, be very cautious. Such patients are best 
+treated by an expert in endocrine surgery. If you are 
+the patient’s only option, try to get a well-performed 
+“4D CT” scan. We refer the patient to a facility 
+where we know the scan will be done well, and we 
+discuss with the radiologist or radiographer 
+beforehand. Search carefully in the areas described 
+in this chapter.  
+For 
+secondary 
+and 
+tertiary 
+hyperparathyroidism, your main goal is to “debulk” 
+the patient’s hypertrophic parathyroid glands. You 
+will remove 3½ of the four glands. There are various 
+options for the remaining parathyroid tissue, as 
+described in the chapter.  
+ 
+Richard Davis MD FACS FCS(ECSA) 
+AIC Kijabe Hospital 
+Kenya 
+ 
+Naira Baregamian, MD, MMS, FACS 
+Vanderbilt University 
+Tennessee, USA 
+ 
+Courtney E. Gibson, MD, MS, FACS 
+Yale University 
+Connecticut, USA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Resource-Rich Settings 
+• 
+Preoperative imaging techniques such as 99Tc-
+SESTAMIBI,  99Tc-SESTAMIBI-SPECT, 4D CT 
+neck with and without contrast (parathyroid 
+protocol) can be employed for preoperative 
+parathyroid localization and identification of the 
+ectopic and mediastinal parathyroid gland(s). 
+• 
+Parathyroid angiography can be used in cases of 
+failed multiple parathyroid surgeries and require  
+venous PTH sampling for localization.  
+• 
+Intraoperative parathyroid hormone (IOPTH) 
+monitoring is routinely utilized to confirm 
+intraoperative biochemical cure following 
+parathyroidectomy. 
+• 
+Intraoperative nerve monitoring of the recurrent 
+laryngeal nerve is prudent in re-operative setting 
+and during resection of a parathyroid mass 
+concerning for malignancy. 
+• 
+Intraoperative use of near infrared parathyroid 
+autofluorescence technology can aid in parathyroid 
+identification and preservation. 
