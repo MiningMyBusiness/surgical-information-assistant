@@ -32,7 +32,7 @@ start_time = [time.time()]
 
 
 async def async_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
-    llm = init_llm("llama-33")
+    llm = init_llm('qwen2.5-7b')
     prompt = get_prompt(chunk)
     logging.debug(f"Generating QA pair for chunk: {chunk[:50]}...")
     try:
