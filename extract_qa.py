@@ -51,7 +51,9 @@ async def async_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
     logging.debug(f"Generating QA pair for chunk: {chunk[:50]}...")
     try:
         response = await to_thread(llm.invoke)(prompt)
-        return parse_response(response.content)
+        qa_pairs = parse_response(response.content)
+        await to_thread(append_to_json)(qa_pairs)  # Append to JSON after each LLM call
+        return qa_pairs
     except TimeoutError:
         logging.error(f"Timeout occurred while generating QA pair for chunk: {chunk[:50]}...")
         return []
@@ -189,7 +191,9 @@ def serial_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
     logging.debug(f"Generating QA pair for chunk: {chunk[:50]}...")
     try:
         response = llm.invoke(prompt)
-        return parse_response(response.content)
+        qa_pairs = parse_response(response.content)
+        append_to_json(qa_pairs)  # Append to JSON after each LLM call
+        return qa_pairs
     except Exception as e:
         logging.error(f"Error occurred while generating QA pair: {str(e)}")
         return []
@@ -237,6 +241,26 @@ def serial_generate_dataset():
     logging.info(f"Total QA pairs generated: {len(dataset)}")
     return dataset
 
+
+def append_to_json(qa_pairs, filename="surgical_qa_dataset.json"):
+    try:
+        # Read existing data
+        with open(filename, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        # If file doesn't exist or is empty/invalid, start with an empty list
+        data = []
+    
+    # Append new QA pairs
+    data.extend(qa_pairs)
+    
+    # Write updated data back to file
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    
+    logging.info(f"Appended {len(qa_pairs)} QA pairs to {filename}")
+
+
 if __name__ == "__main__":
     logging.info("Starting the QA dataset generation process")
     logging.info(f"Running in {'async' if USE_ASYNC else 'sync'} mode")
@@ -247,11 +271,7 @@ if __name__ == "__main__":
         else:
             qa_dataset = serial_generate_dataset()
 
-        # Optional: Save to JSON
-        with open("surgical_qa_dataset.json", "w", encoding="utf-8") as f:
-            json.dump(qa_dataset, f)
-
-        logging.info(f"Generated {len(qa_dataset)} QA pairs. Saved to surgical_qa_dataset.json")
+        logging.info(f"Generated {len(qa_dataset)} QA pairs. Saved incrementally to surgical_qa_dataset.json")
         print(f"Generated {len(qa_dataset)} QA pairs.")
     except Exception as e:
         logging.error(f"An error occurred during dataset generation: {str(e)}")
