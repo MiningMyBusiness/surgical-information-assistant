@@ -10,7 +10,8 @@ import time
 import logging
 import json
 from asyncio import TimeoutError
-import aiohttp
+import functools
+import sys
 
 # Set up logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -18,15 +19,28 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 nltk.download("punkt")
 nltk.download('punkt_tab')
 
+def parse_args():
+    if len(sys.argv) > 1:
+        return sys.argv[1].lower() == 'async'
+    return False  # Default to synchronous if no argument is provided
+
 # Rate limiting constants
 MAX_REQUESTS_PER_MINUTE = 250
 SEMAPHORE_VALUE = 50  # Allow up to 50 concurrent requests
 TIMEOUT_SECONDS = 60  # Timeout for each LLM request
+USE_ASYNC = parse_args()
 
 # Folder with PDFs
 pdf_folder = "vumc_pdfs"
 text_folder = "pdf_texts"
 os.makedirs(text_folder, exist_ok=True)
+
+def to_thread(func):
+    @functools.wraps(func)
+    async def wrapper(*args, **kwargs):
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(None, functools.partial(func, *args, **kwargs))
+    return wrapper
 
 start_time = [time.time()]
 
@@ -36,8 +50,7 @@ async def async_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
     prompt = get_prompt(chunk)
     logging.debug(f"Generating QA pair for chunk: {chunk[:50]}...")
     try:
-        async with aiohttp.ClientSession() as session:
-            response = await llm.ainvoke(prompt, session=session)
+        response = await to_thread(llm.invoke)(prompt)
         return parse_response(response.content)
     except TimeoutError:
         logging.error(f"Timeout occurred while generating QA pair for chunk: {chunk[:50]}...")
@@ -165,11 +178,69 @@ def generate_dataset():
                 dataset.extend(qa_pairs)
     return dataset
 
+def serial_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
+    llm = init_llm('qwen2.5-7b')
+    prompt = get_prompt(chunk)
+    logging.debug(f"Generating QA pair for chunk: {chunk[:50]}...")
+    try:
+        response = llm.invoke(prompt)
+        return parse_response(response.content)
+    except Exception as e:
+        logging.error(f"Error occurred while generating QA pair: {str(e)}")
+        return []
+
+def serial_generate_qa_pairs_from_text(text: str, chunk_size: int = 5) -> List[Dict[str, str]]:
+    sentences = sent_tokenize(text)
+    chunks = [" ".join(sentences[i:i + chunk_size]) for i in range(0, len(sentences), chunk_size)]
+    chunks = [chunk for chunk in chunks if len(chunk.strip()) >= 100]
+    logging.info(f"Generated {len(chunks)} chunks from text")
+
+    qa_pairs = []
+    for chunk in chunks:
+        qa_pairs.extend(serial_generate_qa_pair(chunk))
+
+    logging.info(f"Generated {len(qa_pairs)} QA pairs from text")
+    return qa_pairs
+
+def serial_generate_dataset():
+    dataset = []
+    request_count = 0
+
+    for filename in os.listdir(text_folder):
+        if filename.endswith(".txt"):
+            logging.info(f"Processing file: {filename}")
+            try:
+                with open(os.path.join(text_folder, filename), "r", encoding="utf-8") as f:
+                    text = f.read()
+                qa_pairs = serial_generate_qa_pairs_from_text(text)
+                dataset.extend(qa_pairs)
+                request_count += len(qa_pairs)
+                
+                # Check if we need to pause to respect rate limit
+                elapsed_time = time.time() - start_time[0]
+                if elapsed_time < 60 and request_count >= MAX_REQUESTS_PER_MINUTE:
+                    sleep_time = 60 - elapsed_time
+                    logging.warning(f"Rate limit reached. Sleeping for {sleep_time:.2f} seconds.")
+                    time.sleep(sleep_time)
+                    start_time[0] = time.time()
+                    request_count = 0
+                
+                logging.info(f"Generated {len(qa_pairs)} QA pairs for {filename}")
+            except Exception as e:
+                logging.error(f"Error processing file {filename}: {str(e)}")
+
+    logging.info(f"Total QA pairs generated: {len(dataset)}")
+    return dataset
+
 if __name__ == "__main__":
     logging.info("Starting the QA dataset generation process")
+    logging.info(f"Running in {'async' if USE_ASYNC else 'sync'} mode")
     extract_text_from_pdfs()
     try:
-        qa_dataset = asyncio.run(async_generate_dataset())
+        if USE_ASYNC:
+            qa_dataset = asyncio.run(async_generate_dataset())
+        else:
+            qa_dataset = serial_generate_dataset()
 
         # Optional: Save to JSON
         with open("surgical_qa_dataset.json", "w", encoding="utf-8") as f:
@@ -179,3 +250,8 @@ if __name__ == "__main__":
         print(f"Generated {len(qa_dataset)} QA pairs.")
     except Exception as e:
         logging.error(f"An error occurred during dataset generation: {str(e)}")
+    finally:
+        print("\nUsage:")
+        print("  python extract_qa.py [mode]")
+        print("    mode: 'async' for asynchronous execution, any other value or omit for synchronous execution")
+        print(f"Current mode: {'async' if USE_ASYNC else 'sync'}")
