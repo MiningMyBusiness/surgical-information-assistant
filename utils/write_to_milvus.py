@@ -52,9 +52,8 @@ class MilvusClient:
         self.embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
     def write_to_milvus(self, documents: List[Document], drop_old: bool = True):
-        embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
         vectorstore = Milvus(
-            embedding_function=embedding,
+            embedding_function=self.embedding,
             collection_name=self.collection_name,
             connection_args={"uri": "./milvus.db"},
             drop_old=drop_old,
@@ -62,3 +61,15 @@ class MilvusClient:
         )
         doc_ids = [str(uuid.uuid4()) for _ in range(len(documents))]
         vectorstore.add_documents(documents, ids=doc_ids)
+
+    def read_from_milvus(self, query: str) -> List[Document]:
+        vectorstore = Milvus(
+            embedding_function=self.embedding,
+            collection_name=self.collection_name,
+            connection_args={"uri": "./milvus.db"},
+            drop_old=False,
+        )
+        query_results = vectorstore.maxi
+        doc_ids = [result["id"] for result in query_results[0]["results"]]
+        documents = vectorstore.get_documents_by_ids(ids=doc_ids)
+        return documents
