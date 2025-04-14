@@ -17,7 +17,7 @@ def process_pdfs_and_embed(pdf_directory: str, collection_name: str):
 
             if documents:
                 # Write documents to Milvus
-                milvus_client.write_to_milvus(documents)
+                milvus_client.write_to_milvus(documents, drop_old=False)
                 print(f"Successfully embedded {len(documents)} chunks from {filename}")
             else:
                 print(f"No content extracted from {filename}")
