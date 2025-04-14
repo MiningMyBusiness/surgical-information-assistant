@@ -7,6 +7,7 @@ def process_pdfs_and_embed(pdf_directory: str, collection_name: str):
     milvus_client = MilvusClient(collection_name)
 
     # Process each PDF in the directory
+    drop_old = True
     for filename in os.listdir(pdf_directory):
         if filename.endswith(".pdf"):
             pdf_path = os.path.join(pdf_directory, filename)
@@ -17,11 +18,11 @@ def process_pdfs_and_embed(pdf_directory: str, collection_name: str):
 
             if documents:
                 # Write documents to Milvus
-                milvus_client.write_to_milvus(documents, drop_old=False)
+                milvus_client.write_to_milvus(documents, drop_old=drop_old)
                 print(f"Successfully embedded {len(documents)} chunks from {filename}")
             else:
                 print(f"No content extracted from {filename}")
-
+        drop_old = False
     print("Finished processing all PDFs and embedding into Milvus.")
 
 if __name__ == "__main__":
