@@ -44,44 +44,15 @@ def init_llm_azure(llm_name: str='azure-gpt4', llm_temperature: float=0.7):
         raise ValueError(f"Unsupported Azure LLM model: {llm_name}")
     
 
-def init_llm_together(llm_name: str='llama-4-mav', llm_temperature: float=0.7):
-    if llm_name == 'llama-4-mav':
-        llm = ChatOpenAI(
-            model = os.environ.get('TOGETHER_LLAMA4'),
-            base_url = "https://api.together.xyz/v1/",
-            api_key = os.environ.get('TOGETHER_API_KEY'),
-            temperature = llm_temperature,
-        )
-    elif llm_name == 'qwen2.5-72b':
-        llm = ChatOpenAI(
-            model = os.environ.get('TOGETHER_QWEN25_72B'),
-            base_url = "https://api.together.xyz/v1/",
-            api_key = os.environ.get('TOGETHER_API_KEY'),
-            temperature = llm_temperature,
-        )
-    elif llm_name == 'qwen2.5-7b':
-        llm = ChatOpenAI(
-            model = os.environ.get('TOGETHER_QWEN25_7B'),
-            base_url = "https://api.together.xyz/v1/",
-            api_key = os.environ.get('TOGETHER_API_KEY'),
-            temperature = llm_temperature,
-        )
-    elif llm_name == 'qwq':
-        llm = ChatOpenAI(
-            model = os.environ.get('TOGETHER_QWQ'),
-            base_url = "https://api.together.xyz/v1/",
-            api_key = os.environ.get('TOGETHER_API_KEY'),
-            temperature = llm_temperature,
-        )
-    elif llm_name == 'llama-33':
-        llm = ChatOpenAI(
-            model = os.environ.get('TOGETHER_LLAMA33'),
-            base_url = "https://api.together.xyz/v1/",
-            api_key = os.environ.get('TOGETHER_API_KEY'),
-            temperature = llm_temperature,
-        )
-    else:
-        raise ValueError(f"Unsupported Together LLM model: {llm_name}")
+def init_llm_together(llm_name: str='together-llama33', llm_temperature: float=0.7):
+    llm_name = llm_name.split('together-')[-1].lower()
+    model_name = 'together_' + llm_name
+    llm = ChatOpenAI(
+        model = os.environ.get(model_name.upper()),
+        base_url = "https://api.together.xyz/v1/",
+        api_key = os.environ.get('TOGETHER_API_KEY'),
+        temperature = llm_temperature,
+    )
     return llm
 
 

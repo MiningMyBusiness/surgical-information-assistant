@@ -62,14 +62,16 @@ class MilvusClient:
         doc_ids = [str(uuid.uuid4()) for _ in range(len(documents))]
         vectorstore.add_documents(documents, ids=doc_ids)
 
-    def read_from_milvus(self, query: str) -> List[Document]:
+    def read_from_milvus(self, query: str, k: int=4) -> List[Document]:
         vectorstore = Milvus(
             embedding_function=self.embedding,
             collection_name=self.collection_name,
             connection_args={"uri": "./milvus.db"},
             drop_old=False,
         )
-        query_results = vectorstore.maxi
-        doc_ids = [result["id"] for result in query_results[0]["results"]]
-        documents = vectorstore.get_documents_by_ids(ids=doc_ids)
-        return documents
+        query_results = vectorstore.max_marginal_relevance_search(query=query, k=k)
+        result_texts = [result.page_content + "\nSource:" + result.metadata['source'] for result in query_results]
+        text = "\n\n".join(result_texts)
+        return text
+
+        
