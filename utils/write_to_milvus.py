@@ -59,6 +59,7 @@ class MilvusClient:
             drop_old=drop_old,
             index_params={"index_type": "FLAT", "metric_type": "L2"},
         )
+        self.delete_lock_file()
         doc_ids = [str(uuid.uuid4()) for _ in range(len(documents))]
         vectorstore.add_documents(documents, ids=doc_ids)
 
@@ -69,9 +70,17 @@ class MilvusClient:
             connection_args={"uri": "./milvus.db"},
             drop_old=False,
         )
+        self.delete_lock_file()
         query_results = vectorstore.max_marginal_relevance_search(query=query, k=k)
         result_texts = [result.page_content + "\nSource:" + result.metadata['source'] for result in query_results]
         text = "\n\n".join(result_texts)
         return text
+    
+    def delete_lock_file(self):
+        grandparent_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        lock_file_path = os.path.join(grandparent_directory, "milvus.db.lock")
+        if os.path.exists(lock_file_path):
+            print(f"Lock file {lock_file_path} exists. Deleting it.")
+            os.remove(lock_file_path)
 
         

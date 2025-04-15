@@ -13,3 +13,5 @@ langchain_milvus
 markitdown[all]
 langchain_huggingface
 langchain
+dspy
+wikipedia
