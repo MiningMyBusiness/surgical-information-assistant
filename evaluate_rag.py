@@ -75,3 +75,7 @@ if __name__ == "__main__":
     results = run_evaluation(qa_dataset, num_processes)
 
     print_results(results)
+
+    # Save the evaluation results to a file
+    with open('surgical_qa_dataset_evaluation_results.json', 'w') as f:
+        json.dump(results, f, indent=4)
