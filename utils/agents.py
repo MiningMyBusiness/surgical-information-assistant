@@ -66,7 +66,6 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
 
     for q in queries:
         results = vectorstore.read_from_milvus(q, k=3)
-        results = "".join([f"Context: {doc.page_content}\n\n" for doc in results])
         response, snippets = generate_answer_from_question_and_context(state, q, results)
         answer_text = f"Question: {q}\nAnswer: {response}\n\n\n"
         new_answers.append(answer_text)

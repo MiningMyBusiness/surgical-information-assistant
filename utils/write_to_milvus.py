@@ -73,7 +73,7 @@ class MilvusClient:
         )
         self.delete_lock_file()
         query_results = vectorstore.max_marginal_relevance_search(query=query, k=k)
-        result_texts = [result.page_content + "\nSource:" + result.metadata['source'] for result in query_results]
+        result_texts = ["Context:\n" + result.page_content + "\nSource:" + result.metadata['source'] + "\n\n\n" for result in query_results]
         text = "\n\n".join(result_texts)
         return text
     
