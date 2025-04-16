@@ -69,7 +69,7 @@ if __name__ == "__main__":
     qa_dataset = load_qa_dataset('surgical_qa_dataset.json')
 
     # Set the number of processes to use
-    num_processes = min(1, int(multiprocessing.cpu_count()/2.0))  # Use half of all available CPU cores
+    num_processes = max(1, int(multiprocessing.cpu_count()/2.0))  # Use half of all available CPU cores
 
     print(f"Starting evaluation with {num_processes} processes...")
     results = run_evaluation(qa_dataset, num_processes)
