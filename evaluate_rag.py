@@ -22,7 +22,8 @@ def process_question(qa_pair):
         model=os.getenv('TOGETHER_LLAMA31'),
         api_key=os.getenv('TOGETHER_API_KEY'),
         base_url="https://api.together.xyz/v1/",
-        collection_name="surgical_information"
+        collection_name="surgical_information",
+        verbose=False
     )
 
     # Run the orchestrator
