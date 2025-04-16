@@ -79,7 +79,7 @@ class MilvusClient:
     
     def delete_lock_file(self):
         grandparent_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        lock_file_path = os.path.join(grandparent_directory, "milvus.db.lock")
+        lock_file_path = os.path.join(grandparent_directory, self.milvus_directory+".lock")
         if os.path.exists(lock_file_path):
             print(f"Lock file {lock_file_path} exists. Deleting it.")
             os.remove(lock_file_path)
