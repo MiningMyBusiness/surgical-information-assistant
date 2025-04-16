@@ -47,15 +47,16 @@ class DocumentExtractor:
 
 class MilvusClient:
 
-    def __init__(self, collection_name: str):
+    def __init__(self, collection_name: str, milvus_directory: str="./milvus.db"):
         self.collection_name = collection_name
+        self.milvus_directory = milvus_directory
         self.embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
     def write_to_milvus(self, documents: List[Document], drop_old: bool = True):
         vectorstore = Milvus(
             embedding_function=self.embedding,
             collection_name=self.collection_name,
-            connection_args={"uri": "./milvus.db"},
+            connection_args={"uri": self.milvus_directory},
             drop_old=drop_old,
             index_params={"index_type": "FLAT", "metric_type": "L2"},
         )
@@ -67,7 +68,7 @@ class MilvusClient:
         vectorstore = Milvus(
             embedding_function=self.embedding,
             collection_name=self.collection_name,
-            connection_args={"uri": "./milvus.db"},
+            connection_args={"uri": self.milvus_directory},
             drop_old=False,
         )
         self.delete_lock_file()

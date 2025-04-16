@@ -22,6 +22,7 @@ class DeRetSynState(TypedDict):
     final_answer: str=None
     cot_for_answer: str=None
     verbose: bool=False
+    milvus_directory: str=None
 
 decomposition_prompt = PromptTemplate.from_template(
     """You are an expert at breaking complex questions into simpler ones. Break the following question into smaller sub-questions:
@@ -56,7 +57,8 @@ def agent_a_decompose_question(state: DeRetSynState) -> None:
 
 def agent_b_retrieve(state: DeRetSynState) -> None:
     collection_name = state["collection_name"]
-    vectorstore = get_default_vectorstore(collection_name)
+    milvus_directory = state["milvus_directory"]
+    vectorstore = get_default_vectorstore(milvus_directory, collection_name)
 
     queries = state["pending_queries"]
     answers = state.get("answers", "")
@@ -75,8 +77,8 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
     state["pending_queries"] = []
 
 
-def get_default_vectorstore(collection_name: str="surgical_information") -> MilvusClient:
-    return MilvusClient(collection_name)
+def get_default_vectorstore(milvus_directory: str, collection_name: str="surgical_information") -> MilvusClient:
+    return MilvusClient(collection_name, milvus_directory)
 
 
 def generate_answer_from_question_and_context(state: DeRetSynState,
