@@ -4,6 +4,7 @@ import os
 from dotenv import load_dotenv
 import multiprocessing
 from tqdm import tqdm
+import time
 
 # Load environment variables
 load_dotenv()
@@ -62,8 +63,13 @@ def run_evaluation(qa_dataset, num_processes, milvus_dbs):
     repeat_dbs = milvus_dbs * (len(qa_dataset) // len(milvus_dbs))
     repeat_dbs += milvus_dbs[:len(qa_dataset) % len(milvus_dbs)]
     combined_input = list(zip(qa_dataset, repeat_dbs))
-    with multiprocessing.Pool(processes=num_processes) as pool:
-        results = list(tqdm(pool.starmap(process_question, combined_input), total=len(qa_dataset)))
+    if num_processes > 1:
+        with multiprocessing.Pool(processes=num_processes) as pool:
+            results = list(tqdm(pool.starmap(process_question, combined_input), total=len(qa_dataset)))
+    else:
+        results = []
+        for qa_pair, milvus_db_path in tqdm(combined_input, total=len(qa_dataset)):
+            results.append(process_question(qa_pair, milvus_db_path))
 
     return results
 
@@ -88,7 +94,7 @@ if __name__ == "__main__":
     qa_dataset = load_qa_dataset('surgical_qa_dataset.json')
 
     # Set the number of processes to use
-    num_processes = max(1, int(multiprocessing.cpu_count()/2.0))  # Use half of all available CPU cores
+    num_processes = 1 #max(1, int(multiprocessing.cpu_count()/2.0))  # Use half of all available CPU cores
 
     # Create copies of the Milvus database
     parent_dir = os.path.dirname(os.path.abspath(__file__))
