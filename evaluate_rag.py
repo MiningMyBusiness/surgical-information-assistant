@@ -87,7 +87,7 @@ if __name__ == "__main__":
     num_processes = max(1, int(multiprocessing.cpu_count()/2.0))  # Use half of all available CPU cores
 
     # Create copies of the Milvus database
-    milvus_dbs = milvus_copy_per_process(num_processes)
+    milvus_dbs = milvus_copy_per_process(num_processes*3)
 
     print(f"Starting evaluation with {num_processes} processes...")
     results = run_evaluation(qa_dataset, num_processes, milvus_dbs)
