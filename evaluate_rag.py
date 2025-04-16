@@ -16,10 +16,12 @@ def load_qa_dataset(file_path):
 def milvus_copy_per_process(num_processes: int, milvus_db_path: str="./milvus.db"):
     # Create a separate copy of milvus database for each process with random filename
     milvus_dbs = [f"milvus_{str(i).zfill(4)}.db" for i in range(num_processes)]
-    for i, db_path in enumerate(milvus_dbs):
+    parent_dir = os.path.dirname(milvus_db_path)
+    new_db_paths = [os.path.join(parent_dir, db_path) for db_path in milvus_dbs]
+    for i, db_path in enumerate(new_db_paths):
         os.system(f"cp {milvus_db_path} {db_path}")
         print(f"Copied milvus database to {db_path}")
-    return milvus_dbs
+    return new_db_paths
 
 
 def process_question(qa_pair, milvus_db_path):
@@ -48,6 +50,8 @@ def process_question(qa_pair, milvus_db_path):
 
     return {
         'question': question,
+        'document_context': final_state['answers'],
+        'wikipedia_context': final_state['wikipedia_results'],
         'cot': final_state['cot_for_answer'],
         'rag_answer': final_state['final_answer'],
         'known_answer': known_answer,
@@ -87,7 +91,9 @@ if __name__ == "__main__":
     num_processes = max(1, int(multiprocessing.cpu_count()/2.0))  # Use half of all available CPU cores
 
     # Create copies of the Milvus database
-    milvus_dbs = milvus_copy_per_process(num_processes*3)
+    parent_dir = os.path.dirname(os.path.abspath(__file__))
+    milvus_db_path = os.path.join(parent_dir, "milvus.db")
+    milvus_dbs = milvus_copy_per_process(num_processes*2, milvus_db_path=milvus_db_path)
 
     print(f"Starting evaluation with {num_processes} processes...")
     results = run_evaluation(qa_dataset, num_processes, milvus_dbs)
