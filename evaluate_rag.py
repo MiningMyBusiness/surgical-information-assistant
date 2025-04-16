@@ -19,7 +19,7 @@ def process_question(qa_pair):
     # Initialize the state
     state = DeRetSynState(
         original_question=question,
-        model=os.getenv('TOGETHER-LLAMA31'),
+        model=os.getenv('TOGETHER_LLAMA31'),
         api_key=os.getenv('TOGETHER_API_KEY'),
         base_url="https://api.together.xyz/v1/",
         collection_name="surgical_information"
