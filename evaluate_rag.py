@@ -59,7 +59,7 @@ def run_evaluation(qa_dataset, num_processes, milvus_dbs):
     repeat_dbs += milvus_dbs[:len(qa_dataset) % len(milvus_dbs)]
     combined_input = list(zip(qa_dataset, repeat_dbs))
     with multiprocessing.Pool(processes=num_processes) as pool:
-        results = list(tqdm(pool.imap(process_question, combined_input), total=len(qa_dataset)))
+        results = list(tqdm(pool.starmap(process_question, combined_input), total=len(qa_dataset)))
 
     return results
 
