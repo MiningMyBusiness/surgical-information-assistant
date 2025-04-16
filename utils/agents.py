@@ -21,6 +21,7 @@ class DeRetSynState(TypedDict):
     pending_queries: List[str]=[]
     final_answer: str=None
     cot_for_answer: str=None
+    verbose: bool=False
 
 decomposition_prompt = PromptTemplate.from_template(
     """You are an expert at breaking complex questions into simpler ones. Break the following question into smaller sub-questions:
@@ -48,7 +49,8 @@ def agent_a_decompose_question(state: DeRetSynState) -> None:
     prompt = decomposition_prompt.format(question=original_question)
     sub_questions = llm.invoke(prompt).content.strip().split("<sub-question>")[1:]
     sub_questions = [sub_q.split("</sub-question>")[0].strip() for sub_q in sub_questions]
-    print(f"Initial sub-questions: {sub_questions}")
+    if state["verbose"]:
+        print(f"Initial sub-questions: {sub_questions}")
     state["pending_queries"] = sub_questions
 
 
@@ -61,13 +63,14 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
     new_answers = []
 
     for q in queries:
-        results = vectorstore.max_marginal_relevance_search(q, k=3, fetch_k=7)
+        results = vectorstore.read_from_milvus(q, k=3)
         results = "".join([f"Context: {doc.page_content}\n\n" for doc in results])
         response, snippets = generate_answer_from_question_and_context(state, q, results)
         answer_text = f"Question: {q}\nAnswer: {response}\n\n\n"
         new_answers.append(answer_text)
     combined_answers = "".join(new_answers)
-    print(f"New answers: {combined_answers}")
+    if state["verbose"]:
+        print(f"New answers: {combined_answers}")
     state["answers"] = answers + combined_answers
     state["pending_queries"] = []
 
@@ -134,7 +137,8 @@ Think step-by-step to reason through you answer and consider the relevant inform
 <new questions> The last new sub-question </new_questions>
 """
     response = llm.invoke(check_prompt).content.strip()
-    print(f"Synthesizer response: {response}")
+    if state["verbose"]:
+        print(f"Synthesizer response: {response}")
 
     can_answer = response.split("<can_answer>")[1].split("</can_answer>")[0].strip().lower()
     if can_answer == "yes":
@@ -187,7 +191,6 @@ def search_wikipedia_fast(query: str) -> str:
         new_answer = "\n\n".join([x['text'] for x in results])
         return new_answer
     except Exception as e:
-        print(f"Error searching Wikipedia: {str(e)}")
         return "Could not retrieve information from Wikipedia from a fast search."
 
 def search_wikipedia_slow(query: str) -> str:
@@ -195,7 +198,6 @@ def search_wikipedia_slow(query: str) -> str:
         results = grab_wikipedia_context(query)
         return results
     except Exception as e:
-        print(f"Error searching Wikipedia: {str(e)}")
         return "Could not retrieve information from Wikipedia from a slow search."
 
 
