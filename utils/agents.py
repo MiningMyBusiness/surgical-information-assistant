@@ -20,6 +20,7 @@ class DeRetSynState(TypedDict):
     wikipedia_results: str=None
     pending_queries: List[str]=[]
     final_answer: str=None
+    cot_for_answer: str=None
 
 decomposition_prompt = PromptTemplate.from_template(
     """You are an expert at breaking complex questions into simpler ones. Break the following question into smaller sub-questions:
@@ -223,6 +224,30 @@ Think step-by-step to reason through your answer and consider the relevant infor
     state["pending_queries"] = follow_up_questions
 
 
+def agent_f_cot_generator(state: DeRetSynState) -> None:
+    prompt = f"""
+You are a reasoning engine. Based on the following question and knowledge, provide a detailed, step-by-step reasoning using the knowledge to arrive at an answer. Include at 3 steps but more as needed.
+
+Question:
+{state["original_question"]}
+
+Context:
+{state["answers"]}
+{state["wikipedia_results"]}
+
+Provide your response in this format:
+
+<thinking> Your reasoning here... </thinking>
+<answer> The final answer here... </answer>
+"""
+    llm = ChatOpenAI(model=state["model"],
+                     api_key=state["api_key"],
+                     base_url=state["base_url"])
+    response = llm.invoke(prompt).content.strip()
+    cot = response.split("<thinking>")[1].split("</thinking>")[0].strip()
+    state['cot_for_answer'] = cot
+
+
 def orchestrator(state: DeRetSynState):
     # Step 1: Decompose the question
     agent_a_decompose_question(state)
@@ -249,11 +274,14 @@ def orchestrator(state: DeRetSynState):
             yield {"step": "best_effort_complete", "wiki_results": state["wikipedia_results"], "final_answer": state["final_answer"]}
             keep_going = False
 
+    # generate COT
+    agent_f_cot_generator(state)
+    
     # Return the final answer
     yield {"step": "final", "state": state}
 
 
-async def evaluate_answer_async(state: DeRetSynState, known_answer: str) -> bool:
+def evaluate_answer(state: DeRetSynState, known_answer: str) -> bool:
     prompt = f"""You are a medical reasoning engine that compares two answers to a given question to determine whether the answers are the same. Here is the question and the two answers:
 
 Question:
@@ -275,5 +303,5 @@ Respond in the following format:
     llm = ChatOpenAI(model=state["model"],
                      api_key=state["api_key"],
                      base_url=state["base_url"])
-    response = await to_thread(llm.invoke)(prompt)
-    return 'true' in response.content.lower()
+    response = llm.invoke(prompt)
+    return 'true' in response.content.strip().lower()
