@@ -40,7 +40,7 @@ def process_question(qa_pair, milvus_db_path):
         api_key=os.getenv('TOGETHER_API_KEY'),
         base_url="https://api.together.xyz/v1/",
         collection_name="surgical_information",
-        verbose=False,
+        verbose=True,
         milvus_directory=milvus_copy,
     )
 
