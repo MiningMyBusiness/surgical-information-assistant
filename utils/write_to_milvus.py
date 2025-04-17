@@ -5,6 +5,7 @@ from markitdown import MarkItDown
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_milvus import Milvus
+import glob
 import uuid
 
 
@@ -78,7 +79,7 @@ class MilvusClient:
         return text
     
     def delete_lock_file(self):
-        lock_file_path = self.milvus_directory+".lock"
+        lock_file_path = glob.glob(self.milvus_directory+"*.lock")[0]  # Assuming only one lock file exists in the directory
         if os.path.exists(lock_file_path):
             print(f"Lock file {lock_file_path} exists. Deleting it.")
             os.remove(lock_file_path)

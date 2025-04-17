@@ -94,7 +94,7 @@ if __name__ == "__main__":
     qa_dataset = load_qa_dataset('surgical_qa_dataset.json')
 
     # Set the number of processes to use
-    num_processes = 1 #max(1, int(multiprocessing.cpu_count()/2.0))  # Use half of all available CPU cores
+    num_processes = max(1, int(multiprocessing.cpu_count()/2.0))  # Use half of all available CPU cores
 
     # Create copies of the Milvus database
     parent_dir = os.path.dirname(os.path.abspath(__file__))
