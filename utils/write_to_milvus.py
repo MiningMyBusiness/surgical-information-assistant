@@ -72,16 +72,9 @@ class MilvusClient:
             connection_args={"uri": self.milvus_directory},
             drop_old=False,
         )
-        self.delete_lock_file()
         query_results = vectorstore.max_marginal_relevance_search(query=query, k=k)
         result_texts = ["Context:\n" + result.page_content + "\nSource:" + result.metadata['source'] + "\n\n\n" for result in query_results]
         text = "\n\n".join(result_texts)
         return text
-    
-    def delete_lock_file(self):
-        lock_file_path = glob.glob(self.milvus_directory+"*.lock")[0]  # Assuming only one lock file exists in the directory
-        if os.path.exists(lock_file_path):
-            print(f"Lock file {lock_file_path} exists. Deleting it.")
-            os.remove(lock_file_path)
 
         
