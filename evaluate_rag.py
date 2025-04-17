@@ -2,15 +2,21 @@ import json
 from utils.agents import orchestrator, evaluate_answer, DeRetSynState
 import os
 from dotenv import load_dotenv
+import asyncio
 import multiprocessing
 from tqdm import tqdm
 import random
 import shutil
 import glob
 import sys
+import time
 
 # Load environment variables
 load_dotenv()
+
+# Rate limiting constants
+MAX_CALLS_PER_MINUTE = 40
+RATE_LIMIT_PERIOD = 60  # seconds
 
 def load_qa_dataset(file_path):
     with open(file_path, 'r') as f:
@@ -25,6 +31,72 @@ def create_milvus_copy_random_name(milvus_db_path):
     full_path = os.path.join(os.path.dirname(milvus_db_path), milvus_db_name)
     shutil.copy(milvus_db_path, full_path)
     return full_path
+
+
+async def process_question_async(qa_pair, milvus_db_path, semaphore):
+    async with semaphore:
+        start_time = time.time()
+        
+        milvus_copy = create_milvus_copy_random_name(milvus_db_path)
+        print(f"Created copy: {milvus_copy}")
+
+        question = qa_pair['question']
+        known_answer = qa_pair['answer']
+
+        # Initialize the state
+        state = DeRetSynState(
+            original_question=question,
+            model=os.getenv('TOGETHER_LLAMA31'),
+            api_key=os.getenv('TOGETHER_API_KEY'),
+            base_url="https://api.together.xyz/v1/",
+            collection_name="surgical_information",
+            verbose=False,
+            milvus_directory=milvus_copy,
+            iterations=0,
+            wikipedia_results="",
+        )
+
+        # Run the orchestrator
+        async for step in orchestrator(state):
+            if step['step'] == 'final':
+                final_state = step['state']
+                break
+
+        # Evaluate the answer
+        is_correct = evaluate_answer(final_state, known_answer)
+
+        # Clean up the Milvus DB
+        all_files = glob.glob(milvus_copy + "*")
+        for file in all_files:
+            os.remove(file)
+        print(f"Cleaned up Milvus DB: {milvus_copy}")
+
+        output = {
+            'question': question,
+            'document_context': final_state['answers'],
+            'wikipedia_context': final_state['wikipedia_results'],
+            'cot': final_state['cot_for_answer'],
+            'rag_answer': final_state['final_answer'],
+            'known_answer': known_answer,
+            'is_correct': is_correct
+        }
+
+        # Calculate time taken and sleep if necessary to respect rate limit
+        elapsed_time = time.time() - start_time
+        if elapsed_time < RATE_LIMIT_PERIOD / (MAX_CALLS_PER_MINUTE / 60):
+            await asyncio.sleep(RATE_LIMIT_PERIOD / (MAX_CALLS_PER_MINUTE / 60) - elapsed_time)
+
+        return output
+
+
+async def run_evaluation_async(qa_dataset, milvus_db_path):
+    semaphore = asyncio.Semaphore(MAX_CALLS_PER_MINUTE)
+    tasks = [process_question_async(qa_pair, milvus_db_path, semaphore) for qa_pair in qa_dataset]
+    results = []
+    for task in tqdm(asyncio.as_completed(tasks), total=len(qa_dataset)):
+        result = await task
+        results.append(result)
+    return results
 
 
 def process_question(qa_pair, milvus_db_path):
@@ -103,8 +175,13 @@ def print_results(results):
     print(f"Correct Answers: {correct_answers}/{total_questions}")
 
 if __name__ == "__main__":
+    # grab asyn or sync run based on command line arguments
+    is_async = len(sys.argv) > 1 and sys.argv[1] == "async"
+    if is_async:
+        print("Running evaluation asynchronously...")
+    
     # grab num_processes from command line arguments
-    num_processes = int(sys.argv[1]) if len(sys.argv) > 1 else None
+    num_processes = int(sys.argv[2]) if len(sys.argv) > 2 else None
 
     print(f"Running evaluation with {num_processes} processes...")
 
@@ -122,8 +199,11 @@ if __name__ == "__main__":
     milvus_db_path = os.path.join(parent_dir, "milvus.db")
     print(f"Main Milvus DB path: {milvus_db_path}")
 
-    print(f"Starting evaluation with {num_processes} processes...")
-    results = run_evaluation(qa_dataset, num_processes, milvus_db_path)
+    if not is_async:
+        print(f"Starting evaluation with {num_processes} processes...")
+        results = run_evaluation(qa_dataset, num_processes, milvus_db_path)
+    else:
+        results = asyncio.run(run_evaluation_async(qa_dataset, milvus_db_path))
 
     print_results(results)
 
