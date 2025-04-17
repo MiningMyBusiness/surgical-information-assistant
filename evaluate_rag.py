@@ -43,7 +43,8 @@ def process_question(qa_pair, milvus_db_path):
         collection_name="surgical_information",
         verbose=False,
         milvus_directory=milvus_copy,
-        iterations=0
+        iterations=0,
+        wikipedia_results="",
     )
 
     # Run the orchestrator
@@ -64,14 +65,12 @@ def process_question(qa_pair, milvus_db_path):
     output = {
         'question': question,
         'document_context': final_state['answers'],
-        'wikipedia_context': final_state['wikipedia_results'] if 'wikipedia_results' in final_state else "",
+        'wikipedia_context': final_state['wikipedia_results'],
         'cot': final_state['cot_for_answer'],
         'rag_answer': final_state['final_answer'],
         'known_answer': known_answer,
         'is_correct': is_correct
     }
-
-    print(output)
 
     return output
 

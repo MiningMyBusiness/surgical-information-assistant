@@ -230,12 +230,12 @@ Think step-by-step to reason through your answer and consider the relevant infor
 
 def agent_f_cot_generator(state: DeRetSynState) -> None:
     prompt = f"""
-You are a reasoning engine. Based on the following question and knowledge, provide a detailed, step-by-step reasoning using the knowledge to arrive at an answer. Include at 3 steps but more as needed.
+You are a reasoning engine. Based on the following question and knowledge, provide a detailed, step-by-step reasoning to arrive at an answer. Include at least 3 steps, but more as needed.
 
 Question:
 {state["original_question"]}
 
-Context:
+Knowledge:
 {state["answers"]}
 {state["wikipedia_results"] if "wikipedia_results" in state else ""}
 
