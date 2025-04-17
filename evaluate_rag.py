@@ -43,6 +43,7 @@ def process_question(qa_pair, milvus_db_path):
         collection_name="surgical_information",
         verbose=True,
         milvus_directory=milvus_copy,
+        iterations=0
     )
 
     # Run the orchestrator
