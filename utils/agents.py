@@ -29,7 +29,7 @@ decomposition_prompt = PromptTemplate.from_template(
     
     Question: {question}
 
-    Each sub-question should be independent and answerable on it's own without needing reference to other sub-questions. Think of at least 3 sub-questions but no more than 10.
+    Each sub-question should be independent and answerable on it's own without needing reference to other sub-questions. Think of at least 3 sub-questions but no more than 7.
     
     Think step-by-step and make sure to reason through how break the question in sub-questions. 
     
@@ -237,7 +237,7 @@ Question:
 
 Context:
 {state["answers"]}
-{state["wikipedia_results"]}
+{state["wikipedia_results"] if "wikipedia_results" in state else ""}
 
 Provide your response in this format:
 
