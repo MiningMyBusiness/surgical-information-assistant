@@ -7,6 +7,7 @@ from tqdm import tqdm
 import random
 import shutil
 import glob
+import sys
 
 # Load environment variables
 load_dotenv()
@@ -99,11 +100,19 @@ def print_results(results):
     print(f"Correct Answers: {correct_answers}/{total_questions}")
 
 if __name__ == "__main__":
+    # grab num_processes from command line arguments
+    num_processes = int(sys.argv[1]) if len(sys.argv) > 1 else None
+
+    print(f"Running evaluation with {num_processes} processes...")
+
     # Load the QA dataset
     qa_dataset = load_qa_dataset('surgical_qa_dataset.json')
 
     # Set the number of processes to use
-    num_processes = max(1, int(multiprocessing.cpu_count()/1.5))  # Use half of all available CPU cores
+    if num_processes is None:
+        num_processes = max(1, int(multiprocessing.cpu_count()/1.5))  # Use half of all available CPU cores
+    else:
+        num_processes = min(num_processes, multiprocessing.cpu_count() - 1)  # Limit to the number of available CPU cores
 
     # Create copies of the Milvus database
     parent_dir = os.path.dirname(os.path.abspath(__file__))
