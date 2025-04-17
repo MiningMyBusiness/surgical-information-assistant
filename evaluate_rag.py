@@ -63,7 +63,7 @@ def process_question(qa_pair, milvus_db_path):
     return {
         'question': question,
         'document_context': final_state['answers'],
-        'wikipedia_context': final_state['wikipedia_results'],
+        'wikipedia_context': final_state['wikipedia_results'] if 'wikipedia_results' in final_state else "",
         'cot': final_state['cot_for_answer'],
         'rag_answer': final_state['final_answer'],
         'known_answer': known_answer,
