@@ -56,7 +56,6 @@ def process_question(qa_pair, milvus_db_path):
 
     # Clean up the Milvus DB
     all_files = glob.glob(milvus_copy + "*")
-    os.remove(milvus_copy)
     for file in all_files:
         os.remove(file)
     print(f"Cleaned up Milvus DB: {milvus_copy}")
