@@ -146,6 +146,7 @@ Think step-by-step to reason through you answer and consider the relevant inform
         answer_text = response.split("<answer>")[1].split("</answer>")[0].strip()
         state["done"] = True
         state["final_answer"] = answer_text
+        state["iterations"] = 1
     else:
         state["done"] = False
         state["iterations"] += 1

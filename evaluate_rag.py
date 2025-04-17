@@ -37,7 +37,7 @@ def process_question(qa_pair, milvus_db_path):
         base_url="https://api.together.xyz/v1/",
         collection_name="surgical_information",
         verbose=False,
-        milvus_directory=milvus_db_path
+        milvus_directory=milvus_db_path,
     )
 
     # Run the orchestrator
