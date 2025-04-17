@@ -61,7 +61,7 @@ def process_question(qa_pair, milvus_db_path):
         os.remove(file)
     print(f"Cleaned up Milvus DB: {milvus_copy}")
 
-    return {
+    output = {
         'question': question,
         'document_context': final_state['answers'],
         'wikipedia_context': final_state['wikipedia_results'] if 'wikipedia_results' in final_state else "",
@@ -70,6 +70,10 @@ def process_question(qa_pair, milvus_db_path):
         'known_answer': known_answer,
         'is_correct': is_correct
     }
+
+    print(output)
+
+    return output
 
 def run_evaluation(qa_dataset, num_processes, milvus_db_path):
     combined_input = [(qa_pair, milvus_db_path) for qa_pair in qa_dataset]
