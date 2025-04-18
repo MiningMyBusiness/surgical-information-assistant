@@ -15,3 +15,5 @@ langchain_huggingface
 langchain
 dspy
 wikipedia
+faiss-cpu
+sentence-transformers

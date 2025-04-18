@@ -6,6 +6,8 @@ import dspy
 from typing import TypedDict, List
 from utils.wikipedia_helps import grab_wikipedia_context
 import os
+import shutil
+import random
 
 # Define the structure of your state
 class DeRetSynState(TypedDict):
@@ -252,7 +254,17 @@ Provide your response in this format:
     state['cot_for_answer'] = cot
 
 
-def orchestrator(state: DeRetSynState):
+def create_milvus_copy_random_name(milvus_db_path):
+    # Generate a unique name for the Milvus DB
+    random_string = ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=10))
+    milvus_db_name = f"{random_string}_milvus_db.db"
+    # copy the Milvus DB to the new name
+    full_path = os.path.join(os.path.dirname(milvus_db_path), milvus_db_name)
+    shutil.copy(milvus_db_path, full_path)
+    return full_path
+
+
+def orchestrator(state: DeRetSynState, make_milvus_copy: bool = False):
     # Step 1: Decompose the question
     agent_a_decompose_question(state)
     yield {"step": "decompose_complete", "sub_questions": state["pending_queries"]}

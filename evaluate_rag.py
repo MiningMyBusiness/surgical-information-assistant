@@ -1,12 +1,10 @@
 import json
-from utils.agents import orchestrator, evaluate_answer, DeRetSynState
+from utils.agents import orchestrator, evaluate_answer, DeRetSynState, create_milvus_copy_random_name
 import os
 from dotenv import load_dotenv
 import asyncio
 import multiprocessing
 from tqdm import tqdm
-import random
-import shutil
 import glob
 import sys
 import time
@@ -21,16 +19,6 @@ RATE_LIMIT_PERIOD = 60  # seconds
 def load_qa_dataset(file_path):
     with open(file_path, 'r') as f:
         return json.load(f)
-    
-
-def create_milvus_copy_random_name(milvus_db_path):
-    # Generate a unique name for the Milvus DB
-    random_string = ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=10))
-    milvus_db_name = f"{random_string}_milvus_db.db"
-    # copy the Milvus DB to the new name
-    full_path = os.path.join(os.path.dirname(milvus_db_path), milvus_db_name)
-    shutil.copy(milvus_db_path, full_path)
-    return full_path
 
 
 async def process_question_async(qa_pair, milvus_db_path, semaphore):
