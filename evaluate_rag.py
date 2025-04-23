@@ -21,6 +21,21 @@ RATE_LIMIT_PERIOD = 60  # seconds
 def load_qa_dataset(file_path):
     with open(file_path, 'r') as f:
         return json.load(f)
+    
+
+def load_eval_results(file_path: str="surgical_qa_dataset_evaluation_results.json"):
+    try:
+        with open(file_path, 'r') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        logging.info(f"No evaluation results found at {file_path}")
+        return []
+    
+
+def get_all_evaluated_questions(eval_results):
+    return [q['question'] for q in eval_results]
+
+ALL_EVAL_QUESTIONS_SO_FAR = get_all_evaluated_questions(load_eval_results())
 
 
 def append_to_json_file(result: dict, file_path: str="surgical_qa_dataset_evaluation_results.json"):
@@ -120,6 +135,9 @@ async def run_evaluation_async(qa_dataset):
 def process_question(qa_pair):
 
     question = qa_pair['question']
+    if question in ALL_EVAL_QUESTIONS_SO_FAR:
+        logging.info(f"Skipping evaluation for question {question} (already evaluated)")
+        return None
     known_answer = qa_pair['answer']
 
     # Initialize the state
@@ -135,39 +153,52 @@ def process_question(qa_pair):
     )
 
     # Run the orchestrator
-    for step in orchestrator(state):
-        if step['step'] == 'final':
-            final_state = step['state']
-            break
+    try:
+        for step in orchestrator(state):
+            if step['step'] == 'final':
+                final_state = step['state']
+                break
+        # Evaluate the answer
+        is_correct = evaluate_answer(final_state, known_answer)
 
-    # Evaluate the answer
-    is_correct = evaluate_answer(final_state, known_answer)
+        output = {
+            'question': question,
+            'document_context': final_state['answers'],
+            'wikipedia_context': final_state['wikipedia_results'],
+            'cot': final_state['cot_for_answer'],
+            'rag_answer': final_state['final_answer'],
+            'known_answer': known_answer,
+            'is_correct': is_correct
+        }
 
-    output = {
+        return output
+    except Exception as e:
+        logging.error(f"Error running orchestrator for question {question}: {str(e)}")
+        return {
         'question': question,
-        'document_context': final_state['answers'],
-        'wikipedia_context': final_state['wikipedia_results'],
-        'cot': final_state['cot_for_answer'],
-        'rag_answer': final_state['final_answer'],
+        'document_context': None,
+        'wikipedia_context': None,
+        'cot': None,
+        'rag_answer': None,
         'known_answer': known_answer,
-        'is_correct': is_correct
+        'is_correct': False
     }
-
-    return output
 
 def run_evaluation(qa_dataset, num_processes):
     if num_processes > 1:
         with multiprocessing.Pool(processes=num_processes) as pool:
             results = []
             for result in tqdm(pool.imap_unordered(process_question, qa_dataset), total=len(qa_dataset)):
-                append_to_json_file(result)
-                results.append(result)
+                if result:
+                    append_to_json_file(result)
+                    results.append(result)
     else:
         results = []
         for qa_pair in tqdm(qa_dataset, total=len(qa_dataset)):
             result = process_question(qa_pair)
-            append_to_json_file(result)
-            results.append(result)
+            if result:
+                append_to_json_file(result)
+                results.append(result)
 
     return results
 
