@@ -1,7 +1,7 @@
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from typing import List
-from utils.write_to_milvus import MilvusClient
+from utils.index_w_faiss import FaissReader
 import dspy
 from typing import TypedDict, List
 from utils.wikipedia_helps import grab_wikipedia_context
@@ -14,7 +14,6 @@ class DeRetSynState(TypedDict):
     original_question: str=""
     answers: str=""
     iterations: int=0
-    collection_name: str="surgical_information",
     model: str=""
     api_key: str=""
     base_url: str=""
@@ -24,7 +23,7 @@ class DeRetSynState(TypedDict):
     final_answer: str=None
     cot_for_answer: str=None
     verbose: bool=False
-    milvus_directory: str=None
+    faiss_index_path: str="surgical_faiss_index"
 
 decomposition_prompt = PromptTemplate.from_template(
     """You are an expert at breaking complex questions into simpler ones. Break the following question into smaller sub-questions:
@@ -58,16 +57,15 @@ def agent_a_decompose_question(state: DeRetSynState) -> None:
 
 
 def agent_b_retrieve(state: DeRetSynState) -> None:
-    collection_name = state["collection_name"]
-    milvus_directory = state["milvus_directory"]
-    vectorstore = get_default_vectorstore(milvus_directory, collection_name)
+    faiss_index_path = state["faiss_index_path"]
+    vectorstore = get_default_vectorstore(faiss_index_path)
 
     queries = state["pending_queries"]
     answers = state.get("answers", "")
     new_answers = []
 
     for q in queries:
-        results = vectorstore.read_from_milvus(q, k=3)
+        results = vectorstore.search(q, k=3)
         response, snippets = generate_answer_from_question_and_context(state, q, results)
         answer_text = f"Question: {q}\nAnswer: {response}\n\n\n"
         new_answers.append(answer_text)
@@ -78,8 +76,8 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
     state["pending_queries"] = []
 
 
-def get_default_vectorstore(milvus_directory: str, collection_name: str="surgical_information") -> MilvusClient:
-    return MilvusClient(collection_name, milvus_directory)
+def get_default_vectorstore(faiss_index_path: str) -> FaissReader:
+    return FaissReader(faiss_index_path)
 
 
 def generate_answer_from_question_and_context(state: DeRetSynState,
@@ -254,17 +252,7 @@ Provide your response in this format:
     state['cot_for_answer'] = cot
 
 
-def create_milvus_copy_random_name(milvus_db_path):
-    # Generate a unique name for the Milvus DB
-    random_string = ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=10))
-    milvus_db_name = f"{random_string}_milvus_db.db"
-    # copy the Milvus DB to the new name
-    full_path = os.path.join(os.path.dirname(milvus_db_path), milvus_db_name)
-    shutil.copy(milvus_db_path, full_path)
-    return full_path
-
-
-def orchestrator(state: DeRetSynState, make_milvus_copy: bool = False):
+def orchestrator(state: DeRetSynState):
     # Step 1: Decompose the question
     agent_a_decompose_question(state)
     yield {"step": "decompose_complete", "sub_questions": state["pending_queries"]}

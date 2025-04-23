@@ -1,5 +1,5 @@
 import json
-from utils.agents import orchestrator, evaluate_answer, DeRetSynState, create_milvus_copy_random_name
+from utils.agents import orchestrator, evaluate_answer, DeRetSynState
 import os
 from dotenv import load_dotenv
 import asyncio
@@ -21,76 +21,7 @@ def load_qa_dataset(file_path):
         return json.load(f)
 
 
-async def process_question_async(qa_pair, milvus_db_path, semaphore):
-    async with semaphore:
-        start_time = time.time()
-        
-        milvus_copy = create_milvus_copy_random_name(milvus_db_path)
-        print(f"Created copy: {milvus_copy}")
-
-        question = qa_pair['question']
-        known_answer = qa_pair['answer']
-
-        # Initialize the state
-        state = DeRetSynState(
-            original_question=question,
-            model=os.getenv('TOGETHER_LLAMA31'),
-            api_key=os.getenv('TOGETHER_API_KEY'),
-            base_url="https://api.together.xyz/v1/",
-            collection_name="surgical_information",
-            verbose=False,
-            milvus_directory=milvus_copy,
-            iterations=0,
-            wikipedia_results="",
-        )
-
-        # Run the orchestrator
-        async for step in orchestrator(state):
-            if step['step'] == 'final':
-                final_state = step['state']
-                break
-
-        # Evaluate the answer
-        is_correct = evaluate_answer(final_state, known_answer)
-
-        # Clean up the Milvus DB
-        all_files = glob.glob(milvus_copy + "*")
-        for file in all_files:
-            os.remove(file)
-        print(f"Cleaned up Milvus DB: {milvus_copy}")
-
-        output = {
-            'question': question,
-            'document_context': final_state['answers'],
-            'wikipedia_context': final_state['wikipedia_results'],
-            'cot': final_state['cot_for_answer'],
-            'rag_answer': final_state['final_answer'],
-            'known_answer': known_answer,
-            'is_correct': is_correct
-        }
-
-        # Calculate time taken and sleep if necessary to respect rate limit
-        elapsed_time = time.time() - start_time
-        if elapsed_time < RATE_LIMIT_PERIOD / (MAX_CALLS_PER_MINUTE / 60):
-            await asyncio.sleep(RATE_LIMIT_PERIOD / (MAX_CALLS_PER_MINUTE / 60) - elapsed_time)
-
-        return output
-
-
-async def run_evaluation_async(qa_dataset, milvus_db_path):
-    semaphore = asyncio.Semaphore(MAX_CALLS_PER_MINUTE)
-    tasks = [process_question_async(qa_pair, milvus_db_path, semaphore) for qa_pair in qa_dataset]
-    results = []
-    for task in tqdm(asyncio.as_completed(tasks), total=len(qa_dataset)):
-        result = await task
-        results.append(result)
-    return results
-
-
-def process_question(qa_pair, milvus_db_path):
-    milvus_copy = create_milvus_copy_random_name(milvus_db_path)
-    print(f"Created copy: {milvus_copy}")
-
+async def process_question_async(qa_pair):
     question = qa_pair['question']
     known_answer = qa_pair['answer']
 
@@ -100,27 +31,20 @@ def process_question(qa_pair, milvus_db_path):
         model=os.getenv('TOGETHER_LLAMA31'),
         api_key=os.getenv('TOGETHER_API_KEY'),
         base_url="https://api.together.xyz/v1/",
-        collection_name="surgical_information",
+        faiss_index_path="surgical_faiss_index",
         verbose=False,
-        milvus_directory=milvus_copy,
         iterations=0,
         wikipedia_results="",
     )
 
     # Run the orchestrator
-    for step in orchestrator(state):
+    async for step in orchestrator(state):
         if step['step'] == 'final':
             final_state = step['state']
             break
 
     # Evaluate the answer
     is_correct = evaluate_answer(final_state, known_answer)
-
-    # Clean up the Milvus DB
-    all_files = glob.glob(milvus_copy + "*")
-    for file in all_files:
-        os.remove(file)
-    print(f"Cleaned up Milvus DB: {milvus_copy}")
 
     output = {
         'question': question,
@@ -134,14 +58,88 @@ def process_question(qa_pair, milvus_db_path):
 
     return output
 
-def run_evaluation(qa_dataset, num_processes, milvus_db_path):
-    combined_input = [(qa_pair, milvus_db_path) for qa_pair in qa_dataset]
+
+async def run_evaluation_async(qa_dataset):
+    semaphore = asyncio.Semaphore(MAX_CALLS_PER_MINUTE)
+    results = []
+    start_time = time.time()
+    calls_made = 0
+
+    async def process_with_rate_limit(qa_pair):
+        nonlocal start_time, calls_made
+
+        async with semaphore:
+            # Check if we need to reset the timer
+            current_time = time.time()
+            if current_time - start_time >= RATE_LIMIT_PERIOD:
+                start_time = current_time
+                calls_made = 0
+
+            # If we've reached the limit, wait until the next period
+            if calls_made >= MAX_CALLS_PER_MINUTE:
+                wait_time = RATE_LIMIT_PERIOD - (current_time - start_time)
+                if wait_time > 0:
+                    await asyncio.sleep(wait_time)
+                start_time = time.time()
+                calls_made = 0
+
+            result = await process_question_async(qa_pair)
+            calls_made += 1
+            return result
+
+    tasks = [process_with_rate_limit(qa_pair) for qa_pair in qa_dataset]
+    for task in tqdm(asyncio.as_completed(tasks), total=len(qa_dataset)):
+        result = await task
+        results.append(result)
+
+    return results
+
+
+def process_question(qa_pair):
+
+    question = qa_pair['question']
+    known_answer = qa_pair['answer']
+
+    # Initialize the state
+    state = DeRetSynState(
+        original_question=question,
+        model=os.getenv('TOGETHER_LLAMA31'),
+        api_key=os.getenv('TOGETHER_API_KEY'),
+        base_url="https://api.together.xyz/v1/",
+        faiss_index_path="surgical_faiss_index",
+        verbose=False,
+        iterations=0,
+        wikipedia_results="",
+    )
+
+    # Run the orchestrator
+    for step in orchestrator(state):
+        if step['step'] == 'final':
+            final_state = step['state']
+            break
+
+    # Evaluate the answer
+    is_correct = evaluate_answer(final_state, known_answer)
+
+    output = {
+        'question': question,
+        'document_context': final_state['answers'],
+        'wikipedia_context': final_state['wikipedia_results'],
+        'cot': final_state['cot_for_answer'],
+        'rag_answer': final_state['final_answer'],
+        'known_answer': known_answer,
+        'is_correct': is_correct
+    }
+
+    return output
+
+def run_evaluation(qa_dataset, num_processes):
     if num_processes > 1:
         with multiprocessing.Pool(processes=num_processes) as pool:
-            results = list(tqdm(pool.starmap(process_question, combined_input), total=len(qa_dataset)))
+            results = list(tqdm(pool.starmap(process_question, qa_dataset), total=len(qa_dataset)))
     else:
         results = []
-        for qa_pair, milvus_db_path in tqdm(combined_input, total=len(qa_dataset)):
+        for qa_pair, milvus_db_path in tqdm(qa_dataset, total=len(qa_dataset)):
             results.append(process_question(qa_pair, milvus_db_path))
 
     return results
@@ -182,16 +180,11 @@ if __name__ == "__main__":
     else:
         num_processes = min(num_processes, multiprocessing.cpu_count() - 1)  # Limit to the number of available CPU cores
 
-    # Create copies of the Milvus database
-    parent_dir = os.path.dirname(os.path.abspath(__file__))
-    milvus_db_path = os.path.join(parent_dir, "milvus.db")
-    print(f"Main Milvus DB path: {milvus_db_path}")
-
     if not is_async:
         print(f"Starting evaluation with {num_processes} processes...")
-        results = run_evaluation(qa_dataset, num_processes, milvus_db_path)
+        results = run_evaluation(qa_dataset, num_processes)
     else:
-        results = asyncio.run(run_evaluation_async(qa_dataset, milvus_db_path))
+        results = asyncio.run(run_evaluation_async(qa_dataset))
 
     print_results(results)
 
