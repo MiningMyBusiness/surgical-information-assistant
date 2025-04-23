@@ -3,7 +3,8 @@ import time
 from utils.index_w_faiss import FaissReader
 import sys
 
-def query_index(reader, query, process_id):
+def query_index(index_path, query, process_id):
+    reader = FaissReader(index_path)
     start_time = time.time()
     results = reader.query(query)
     end_time = time.time()
@@ -12,12 +13,10 @@ def query_index(reader, query, process_id):
     return results
 
 def run_concurrent_queries(index_path, queries, num_processes):
-    reader = FaissReader(index_path)
-    
     with multiprocessing.Pool(processes=num_processes) as pool:
         jobs = []
         for i, query in enumerate(queries):
-            job = pool.apply_async(query_index, (reader, query, i))
+            job = pool.apply_async(query_index, (index_path, query, i))
             jobs.append(job)
         
         results = [job.get() for job in jobs]
