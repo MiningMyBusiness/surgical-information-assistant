@@ -150,6 +150,15 @@ class FaissReader:
             })
         
         return results
+    
+    def make_text_from_results(self, results: List[Dict[str, any]]) -> str:
+        text = ""
+        for result in results:
+            text += f"\n---\nChunk:\n{result['chunk']}\n---\nFile Path: {result['file_path']}\nStart Line: {result['start_line']}\nEnd Line: {result['end_line']}\n\n"
+        return text.strip()
+    
+    def search(self, query_text: str, k: int = 5) -> str:
+        return self.make_text_from_results(self.query(query_text, k))
 
     def query_with_context(self, query_text: str, k: int = 5, context_size: int = 1) -> List[Dict[str, any]]:
         initial_results = self.query(query_text, k)
