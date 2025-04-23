@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 import asyncio
 import multiprocessing
 from tqdm import tqdm
-import glob
 import sys
 import time
 
@@ -19,6 +18,20 @@ RATE_LIMIT_PERIOD = 60  # seconds
 def load_qa_dataset(file_path):
     with open(file_path, 'r') as f:
         return json.load(f)
+
+
+def append_to_json(result, filename='surgical_qa_dataset_evaluation_results.json'):
+    with open(filename, 'a+') as f:
+        f.seek(0, 2)  # Move to the end of the file
+        if f.tell() == 0:  # File is empty
+            f.write('[\n')
+        else:
+            f.seek(-2, 2)  # Move cursor to before the last character
+            last_char = f.read(1)
+            if last_char != '[':
+                f.write(',\n')
+        json.dump(result, f, indent=4)
+        f.write('\n]')
 
 
 async def process_question_async(qa_pair):
@@ -61,7 +74,6 @@ async def process_question_async(qa_pair):
 
 async def run_evaluation_async(qa_dataset):
     semaphore = asyncio.Semaphore(MAX_CALLS_PER_MINUTE)
-    results = []
     start_time = time.time()
     calls_made = 0
 
@@ -85,9 +97,11 @@ async def run_evaluation_async(qa_dataset):
 
             result = await process_question_async(qa_pair)
             calls_made += 1
+            append_to_json(result)
             return result
 
     tasks = [process_with_rate_limit(qa_pair) for qa_pair in qa_dataset]
+    results = []
     for task in tqdm(asyncio.as_completed(tasks), total=len(qa_dataset)):
         result = await task
         results.append(result)
@@ -136,11 +150,16 @@ def process_question(qa_pair):
 def run_evaluation(qa_dataset, num_processes):
     if num_processes > 1:
         with multiprocessing.Pool(processes=num_processes) as pool:
-            results = list(tqdm(pool.starmap(process_question, qa_dataset), total=len(qa_dataset)))
+            results = []
+            for result in tqdm(pool.imap_unordered(process_question, qa_dataset), total=len(qa_dataset)):
+                append_to_json(result)
+                results.append(result)
     else:
         results = []
-        for qa_pair, milvus_db_path in tqdm(qa_dataset, total=len(qa_dataset)):
-            results.append(process_question(qa_pair, milvus_db_path))
+        for qa_pair in tqdm(qa_dataset, total=len(qa_dataset)):
+            result = process_question(qa_pair)
+            append_to_json(result)
+            results.append(result)
 
     return results
 
