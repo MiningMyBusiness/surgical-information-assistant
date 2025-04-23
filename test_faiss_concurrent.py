@@ -1,6 +1,7 @@
 import multiprocessing
 import time
 from utils.index_w_faiss import FaissReader
+import sys
 
 def query_index(reader, query, process_id):
     start_time = time.time()
@@ -24,7 +25,10 @@ def run_concurrent_queries(index_path, queries, num_processes):
     return results
 
 if __name__ == "__main__":
-    index_path = "/path/to/your/faiss/index"  # Replace with the actual path to your FAISS index
+    if len(sys.argv) > 1:
+        index_path = sys.argv[1]
+    else:
+        index_path = "surgical_faiss_index"
     queries = [
         "What is the treatment for appendicitis?",
         "How is a laparoscopic cholecystectomy performed?",
