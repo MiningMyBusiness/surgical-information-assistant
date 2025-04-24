@@ -187,7 +187,7 @@ def generate_dataset():
     return dataset
 
 def serial_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
-    llm = init_llm('qwen2.5-7b')
+    llm = init_llm('azure-gpt35')
     prompt = get_prompt(chunk)
     logging.debug(f"Generating QA pair for chunk: {chunk[:50]}...")
     try:
