@@ -222,6 +222,7 @@ def serial_generate_dataset():
     processed_files = 0
     total_time = 0
     total_qa_pairs = 0
+    overall_start_time = time.time()
 
     for filename in os.listdir(text_folder):
         if filename.endswith(".txt"):
@@ -267,8 +268,13 @@ def serial_generate_dataset():
                 
                 processed_files += 1
                 remaining_files = total_files - processed_files
-                overall_projected_remaining_time = (total_time / processed_files) * remaining_files if processed_files > 0 else 0
+                overall_elapsed_time = time.time() - overall_start_time
+                overall_avg_time_per_file = overall_elapsed_time / processed_files if processed_files > 0 else 0
+                overall_projected_remaining_time = overall_avg_time_per_file * remaining_files
+                
                 logging.info(f"Finished processing file: {filename}")
+                logging.info(f"Processed {processed_files}/{total_files} files")
+                logging.info(f"Overall elapsed time: {overall_elapsed_time:.2f} seconds")
                 logging.info(f"Projected remaining time for all files: {overall_projected_remaining_time:.2f} seconds")
                 
             except Exception as e:
