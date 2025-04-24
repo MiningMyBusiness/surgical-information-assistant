@@ -199,11 +199,14 @@ def serial_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
         logging.error(f"Error occurred while generating QA pair: {str(e)}")
         return []
 
-def serial_generate_qa_pairs_from_text(text: str, chunk_size: int = 5) -> List[Dict[str, str]]:
+def serial_generate_qa_pairs_from_text(text: str, chunk_size: int = 5, return_chunks: bool = False) -> List[Dict[str, str]]:
     sentences = sent_tokenize(text)
     chunks = [" ".join(sentences[i:i + chunk_size]) for i in range(0, len(sentences), chunk_size)]
     chunks = [chunk for chunk in chunks if len(chunk.strip()) >= 100]
     logging.info(f"Generated {len(chunks)} chunks from text")
+
+    if return_chunks:
+        return chunks
 
     qa_pairs = []
     for chunk in chunks:
@@ -228,35 +231,45 @@ def serial_generate_dataset():
                     text = f.read()
                 
                 file_start_time = time.time()
-                qa_pairs = serial_generate_qa_pairs_from_text(text)
-                file_end_time = time.time()
+                chunks = serial_generate_qa_pairs_from_text(text, return_chunks=True)
                 
-                file_time = file_end_time - file_start_time
-                total_time += file_time
-                total_qa_pairs += len(qa_pairs)
+                for i, chunk in enumerate(chunks):
+                    chunk_start_time = time.time()
+                    qa_pairs = serial_generate_qa_pair(chunk)
+                    chunk_end_time = time.time()
+                    
+                    chunk_time = chunk_end_time - chunk_start_time
+                    total_time += chunk_time
+                    total_qa_pairs += len(qa_pairs)
+                    
+                    dataset.extend(qa_pairs)
+                    request_count += len(qa_pairs)
+                    
+                    # Calculate and display timing information
+                    avg_time_per_pair = chunk_time / len(qa_pairs) if qa_pairs else 0
+                    processed_chunks = i + 1
+                    remaining_chunks = len(chunks) - processed_chunks
+                    projected_remaining_time = (total_time / processed_chunks) * remaining_chunks if processed_chunks > 0 else 0
+                    
+                    logging.info(f"Generated {len(qa_pairs)} QA pairs for chunk {i+1}/{len(chunks)} in {filename}")
+                    logging.info(f"Time taken for this chunk: {chunk_time:.2f} seconds")
+                    logging.info(f"Average time per QA pair: {avg_time_per_pair:.2f} seconds")
+                    logging.info(f"Projected remaining time for this file: {projected_remaining_time:.2f} seconds")
+                    
+                    # Check if we need to pause to respect rate limit
+                    elapsed_time = time.time() - start_time[0]
+                    if elapsed_time < 60 and request_count >= MAX_REQUESTS_PER_MINUTE:
+                        sleep_time = 60 - elapsed_time
+                        logging.warning(f"Rate limit reached. Sleeping for {sleep_time:.2f} seconds.")
+                        time.sleep(sleep_time)
+                        start_time[0] = time.time()
+                        request_count = 0
                 
-                dataset.extend(qa_pairs)
-                request_count += len(qa_pairs)
-                
-                # Calculate and display timing information
-                avg_time_per_pair = file_time / len(qa_pairs) if qa_pairs else 0
                 processed_files += 1
                 remaining_files = total_files - processed_files
-                projected_remaining_time = (total_time / processed_files) * remaining_files if processed_files > 0 else 0
-                
-                logging.info(f"Generated {len(qa_pairs)} QA pairs for {filename}")
-                logging.info(f"Time taken: {file_time:.2f} seconds")
-                logging.info(f"Average time per QA pair: {avg_time_per_pair:.2f} seconds")
-                logging.info(f"Projected remaining time: {projected_remaining_time:.2f} seconds")
-                
-                # Check if we need to pause to respect rate limit
-                elapsed_time = time.time() - start_time[0]
-                if elapsed_time < 60 and request_count >= MAX_REQUESTS_PER_MINUTE:
-                    sleep_time = 60 - elapsed_time
-                    logging.warning(f"Rate limit reached. Sleeping for {sleep_time:.2f} seconds.")
-                    time.sleep(sleep_time)
-                    start_time[0] = time.time()
-                    request_count = 0
+                overall_projected_remaining_time = (total_time / processed_files) * remaining_files if processed_files > 0 else 0
+                logging.info(f"Finished processing file: {filename}")
+                logging.info(f"Projected remaining time for all files: {overall_projected_remaining_time:.2f} seconds")
                 
             except Exception as e:
                 logging.error(f"Error processing file {filename}: {str(e)}")
