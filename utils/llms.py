@@ -24,7 +24,7 @@ def init_llm_azure(llm_name: str='azure-gpt4', llm_temperature: float=0.7):
     if llm_name == 'azure-gpt35':
         llm = AzureChatOpenAI(
             openai_api_version="2023-12-01-preview",
-            azure_deployment='gpt-35-turbo-manuscript-gen',
+            azure_deployment='gpt-35-rag-llm',
             model_name="gpt-35-turbo",
             temperature=llm_temperature,
         )
@@ -32,7 +32,7 @@ def init_llm_azure(llm_name: str='azure-gpt4', llm_temperature: float=0.7):
     elif llm_name == 'azure-gpt4':
         llm = AzureChatOpenAI(
             openai_api_version="2024-08-01-preview",
-            azure_deployment='gpt-4o',
+            azure_deployment='gpt-4o-reasoning',
             model_name="gpt-4o",
             temperature=llm_temperature,
         )
@@ -77,7 +77,7 @@ class O1Caller:
                     "content": f"{user_prompt}",
                 }
             ],
-            model="o1-v2"
+            model="o1-v3"
         )
 
         return response.choices[0].message
