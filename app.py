@@ -148,7 +148,7 @@ if user_input := st.chat_input(default_text):
     with st.chat_message("user"):
         st.write(user_input)
         # TODO: update the user's input to reflect context from the chat history
-        # TODO: determine whether the user input should be processed with RAG or just answered easily.
+        # TODO: determine whether the user input should be processed with RAG or just answered easily
 
     response = run_agents(user_input)
     with st.chat_message("assistant"):
