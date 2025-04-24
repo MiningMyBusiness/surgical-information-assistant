@@ -17,3 +17,4 @@ dspy
 wikipedia
 faiss-cpu
 sentence-transformers
+streamlit

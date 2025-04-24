@@ -5,9 +5,6 @@ from utils.index_w_faiss import FaissReader
 import dspy
 from typing import TypedDict, List
 from utils.wikipedia_helps import grab_wikipedia_context
-import os
-import shutil
-import random
 
 # Define the structure of your state
 class DeRetSynState(TypedDict):
