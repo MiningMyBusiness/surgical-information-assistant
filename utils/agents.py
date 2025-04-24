@@ -61,7 +61,7 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
     answers = state.get("answers", "")
     new_answers = []
 
-    for q in queries:
+    for q in queries:  # TODO: make these calls asynchronously
         results = vectorstore.search(q, k=3)
         response, snippets = generate_answer_from_question_and_context(state, q, results)
         answer_text = f"Question: {q}\nAnswer: {response}\n\n\n"
