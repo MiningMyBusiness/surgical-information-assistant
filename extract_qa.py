@@ -46,7 +46,7 @@ start_time = [time.time()]
 
 
 async def async_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
-    llm = init_llm('qwen2.5-7b')
+    llm = init_llm('azure-gpt35')
     prompt = get_prompt(chunk)
     logging.debug(f"Generating QA pair for chunk: {chunk[:50]}...")
     try:
@@ -145,13 +145,14 @@ async def generate_qa_pairs_from_text(text: str, semaphore: asyncio.Semaphore, c
 # 2.5. Get prompt
 def get_prompt(text_chunk: str) -> str:
     prompt = f"""You are a medical reasoning engine. Given a medical or medically-related text passage, you must generate question-answer pairs. The questions MUST be understandable on its own without needing direct reference to the passage (ie. "what is this passage about?").
+The questions should have enough information to be able to retrieve the relevant passages in the future to help answer the question. 
     
 Here is the passage:
 
 PASSAGE:
 {text_chunk}
 
-Think step-by-step and reason through the content of the passage to hypothesize potential question-answer pairs and then respond. This of at least 2 question-answer pairs but more, if possible.
+Think step-by-step and reason through the content of the passage to hypothesize potential question-answer pairs and then respond. Think of at least 2 question-answer pairs but more, if possible.
 
 Respond in this format:
 <think> You reasoning here... </think>

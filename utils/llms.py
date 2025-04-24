@@ -24,7 +24,7 @@ def init_llm_azure(llm_name: str='azure-gpt4', llm_temperature: float=0.7):
     if llm_name == 'azure-gpt35':
         llm = AzureChatOpenAI(
             openai_api_version="2023-12-01-preview",
-            azure_deployment='gpt-35-rag-llm',
+            azure_deployment='gpt-35-turbo-qa-gen',
             model_name="gpt-35-turbo",
             temperature=llm_temperature,
         )
