@@ -144,21 +144,87 @@ async def generate_qa_pairs_from_text(text: str, semaphore: asyncio.Semaphore, c
 
 # 2.5. Get prompt
 def get_prompt(text_chunk: str) -> str:
-    prompt = f"""You are a medical reasoning engine. Given a medical or medically-related text passage, you must generate question-answer pairs. The questions MUST be understandable on its own without needing direct reference to the passage (ie. "what is this passage about?").
+    prompt = f"""You are a medical reasoning engine. Given a medical or medically-related text passage, you must generate question-answer pairs. The questions MUST be answerable by the information in the passge but understandable on its own without needing direct reference to the passage (ie. "what is this passage about?" is NOT a valid question).
 The questions should have enough information to be able to retrieve the relevant passages in the future to help answer the question. 
     
-Here is the passage:
-
-PASSAGE:
-{text_chunk}
-
-Think step-by-step and reason through the content of the passage to hypothesize potential question-answer pairs and then respond. Think of at least 2 question-answer pairs but more, if possible.
+Think step-by-step and reason through the content of the passage to hypothesize potential question-answer pairs and then respond. Think of at least 4 question-answer pairs but more, if possible.
 
 Respond in this format:
 <think> You reasoning here... </think>
 <qa-pair> [question here...] | [answer here...] </qa-pair>
 <qa-pair> [question here...] | [answer here...] </qa-pair>
-...
+
+Here are some examples:
+
+PASSAGE:
+The goal of transvesical prostatectomy is to 
+remove the hypertrophic transitional zone of the 
+prostate to reduce urinary obstruction.  It is not a 
+surgical procedure for malignant lesions. 
+Appropriate history (including functional 
+status inquiry) and physical examination are done 
+prior to any investigation. Physical exam always 
+includes digital rectal exam. Enlarged lateral lobes 
+can be easily felt and the rectal mucosa should move 
+freely over the prostate. Any nodularity or fixation of 
+the rectal mucosa should alert you to the possibility 
+of prostatic cancer and core needle biopsy should be 
+done before proceeding with the admission.
+
+RESPONSE:
+<think>
+Okay, so I need to generate question-answer pairs based on the given medical passage. The questions should be answerable by the passage and understandable on their own. Let me read through the passage carefully.
+The passage talks about transvesical prostatectomy, its goal, what it's not used for, pre-procedure steps like history and physical exams, and specific exam findings that might indicate cancer.
+First, I can think of a question about the purpose of transvesical prostatectomy. The answer is in the first sentence. Then, another question about what the procedure isn't used for, which is mentioned in the second sentence.
+Next, the passage mentions the importance of history and physical exams before investigations. That can be another question. The physical exam includes a digital rectal exam, so a question about that makes sense.
+The passage also describes what can be felt during the exam, like enlarged lateral lobes. So a question about the physical findings could be useful. Lastly, it talks about signs that might indicate cancer, such as nodularity, so a question about when to do a biopsy would be relevant.
+I should make sure each question is clear and doesn't require direct reference to the passage. Let me structure them accordingly.
+</think>
+<qa-pair> What is the primary goal of transvesical prostatectomy? | The primary goal of transvesical prostatectomy is to remove the hypertrophic transitional zone of the prostate to reduce urinary obstruction. </qa-pair>
+<qa-pair> What is transvesical prostatectomy not used for? | Transvesical prostatectomy is not a surgical procedure for malignant lesions. </qa-pair>
+<qa-pair> What is included in the pre-procedure evaluation for transvesical prostatectomy? | Appropriate history, including functional status inquiry, and physical examination are done prior to any investigation. </qa-pair>
+<qa-pair> What is a key component of the physical exam before transvesical prostatectomy? | The physical exam always includes a digital rectal exam. </qa-pair>
+
+
+
+PASSAGE:
+The subcostal incision is most useful for 
+situations where the location of the pathology is to 
+one side of the midline. Examples on the left side 
+include adrenalectomy, splenectomy and trans-
+abdominal nephrectomy. Examples on the right side 
+include cholecystectomy, limited hepatic resections, 
+adrenalectomy and nephrectomy. A bilateral 
+subcostal incision gives excellent access to all of the 
+upper abdomen, such as for major hepatic resections. 
+Some surgeons prefer a central subcostal incision for 
+the abdominal part of esophagectomy. 
+
+RESPONSE:
+<think>
+Okay, so I need to generate question-answer pairs based on the given medical passage. The questions should be answerable by the passage and understandable on their own without direct reference. Let me read the passage carefully.
+The passage talks about the subcostal incision, where it's most useful, and gives examples for left and right side procedures. It also mentions a bilateral subcostal incision and its use, as well as a central subcostal incision for esophagectomy.
+First, I should identify key points. The main topic is the subcostal incision. It's useful when the pathology is on one side of the midline. Left side examples include adrenalectomy, splenectomy, and trans-abdominal nephrectomy. Right side examples are cholecystectomy, limited hepatic resections, adrenalectomy, and nephrectomy. A bilateral incision is good for major hepatic resections. Some surgeons use a central subcostal incision for esophagectomy.
+Now, I need to think of questions that can be answered from this. Let's start with the general use of subcostal incision. Then, specific procedures on each side. Also, the bilateral and central uses.
+I should make sure the questions are clear and self-contained. For example, "What is the subcostal incision most useful for?" That's a good start. The answer would be about situations where pathology is on one side of the midline.
+Next, for left side examples. "What surgical procedures are commonly performed using a left subcostal incision?" The answer would list adrenalectomy, splenectomy, and trans-abdominal nephrectomy.
+Similarly, for the right side: "What surgical procedures are commonly performed using a right subcostal incision?" Answer includes cholecystectomy, limited hepatic resections, adrenalectomy, and nephrectomy.
+Then, the bilateral incision: "What is a bilateral subcostal incision typically used for?" Answer is major hepatic resections.
+Lastly, the central subcostal incision: "Why might a central subcostal incision be preferred by some surgeons?" Answer relates to the abdominal part of esophagectomy.
+I think that's five good Q&A pairs. Each question is specific and can be answered without referring back to the passage. They cover the main points and some specifics, which should be helpful for future reference.
+</think>
+<qa-pair> What is the subcostal incision most useful for? | The subcostal incision is most useful for situations where the location of the pathology is to one side of the midline. </qa-pair>
+<qa-pair> What surgical procedures are commonly performed using a left subcostal incision? | Adrenalectomy, splenectomy, and trans-abdominal nephrectomy are commonly performed using a left subcostal incision. </qa-pair>
+<qa-pair> What surgical procedures are commonly performed using a right subcostal incision? | Cholecystectomy, limited hepatic resections, adrenalectomy, and nephrectomy are commonly performed using a right subcostal incision. </qa-pair>
+<qa-pair> What is a bilateral subcostal incision typically used for? | A bilateral subcostal incision is typically used for major hepatic resections. </qa-pair>
+<qa-pair> Why might a central subcostal incision be preferred by some surgeons? | Some surgeons prefer a central subcostal incision for the abdominal part of esophagectomy. </qa-pair>
+
+
+
+PASSAGE:
+{text_chunk}
+
+RESPONSE:
 """
     return prompt
 
