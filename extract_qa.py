@@ -147,7 +147,7 @@ def get_prompt(text_chunk: str) -> str:
     prompt = f"""You are a medical reasoning engine. Given a medical or medically-related text passage, you must generate question-answer pairs. The questions MUST be answerable by the information in the passge but understandable on its own without needing direct reference to the passage (ie. "what is this passage about?" is NOT a valid question).
 The questions should have enough information to be able to retrieve the relevant passages in the future to help answer the question. 
     
-Think step-by-step and reason through the content of the passage to hypothesize potential question-answer pairs and then respond. Think of at least 4 question-answer pairs but more, if possible.
+Think step-by-step and reason through the content of the passage to hypothesize potential question-answer pairs and then respond. Think of at least 8 question-answer pairs but more, if possible.
 
 Respond in this format:
 <think> You reasoning here... </think>
@@ -173,17 +173,33 @@ done before proceeding with the admission.
 
 RESPONSE:
 <think>
-Okay, so I need to generate question-answer pairs based on the given medical passage. The questions should be answerable by the passage and understandable on their own. Let me read through the passage carefully.
-The passage talks about transvesical prostatectomy, its goal, what it's not used for, pre-procedure steps like history and physical exams, and specific exam findings that might indicate cancer.
-First, I can think of a question about the purpose of transvesical prostatectomy. The answer is in the first sentence. Then, another question about what the procedure isn't used for, which is mentioned in the second sentence.
-Next, the passage mentions the importance of history and physical exams before investigations. That can be another question. The physical exam includes a digital rectal exam, so a question about that makes sense.
-The passage also describes what can be felt during the exam, like enlarged lateral lobes. So a question about the physical findings could be useful. Lastly, it talks about signs that might indicate cancer, such as nodularity, so a question about when to do a biopsy would be relevant.
-I should make sure each question is clear and doesn't require direct reference to the passage. Let me structure them accordingly.
+Okay, so I need to generate question-answer pairs based on the given medical passage. The questions should be answerable from the passage and understandable on their own. Let me read through the passage carefully to understand the key points.
+The passage is about transvesical prostatectomy. It mentions that the goal is to remove the hypertrophic transitional zone of the prostate to reduce urinary obstruction. It's not for malignant lesions. Before any investigation, they do a history and physical exam, including a digital rectal exam. Enlarged lateral lobes can be felt, and the rectal mucosa should move freely. If there's nodularity or fixation, it might indicate cancer, so a biopsy is needed before admission.
+Alright, so the main topics here are the purpose of the procedure, what it's not used for, the pre-procedure assessments, the physical exam findings, and when to suspect cancer.
+I should think of questions that cover these areas. Let's start with the purpose. A question like, "What is the primary goal of transvesical prostatectomy?" The answer would be about removing the hypertrophic zone to relieve obstruction.
+Next, since it's not for malignant lesions, a question could be, "Is transvesical prostatectomy used to treat malignant lesions of the prostate?" The answer would be no.
+Then, the pre-procedure steps. Maybe, "What assessments are typically performed before transvesical prostatectomy?" The answer would include history, physical exam, and digital rectal exam.
+For the physical exam findings, a question could be, "What is a normal finding during the digital rectal exam in a patient undergoing transvesical prostatectomy?" The answer would mention enlarged lateral lobes and freely moving rectal mucosa.
+When to suspect cancer: "What signs during a digital rectal exam may indicate the need for a core needle biopsy?" The answer would be nodularity or fixation of the rectal mucosa.
+I can also think about the implications of the findings. For example, "What should be done if nodularity or fixation is detected during the digital rectal exam?" The answer would be to perform a biopsy before proceeding.
+Another question could be about the importance of the digital rectal exam in this context. "Why is a digital rectal exam important before transvesical prostatectomy?" The answer would be to assess for signs of cancer.
+I should make sure each question is clear and can be answered without directly referencing the passage, just the information in it. Let me see if I can come up with more. Maybe about the specific zones of the prostate involved. "Which part of the prostate is targeted in transvesical prostatectomy?" The answer is the transitional zone.
+Also, the procedure's focus: "What is the focus of transvesical prostatectomy in treating urinary obstruction?" The answer is removing the hypertrophic transitional zone.
+I think that's a good set. I have eight pairs, but maybe I can find a couple more. Perhaps about the consequences of not doing the biopsy. "What is the consequence of not performing a core needle biopsy when suspicious findings are present?" The answer would be proceeding without knowing if cancer is present, which could be risky.
+Wait, the passage doesn't explicitly state the consequences, so maybe that's beyond the given info. I should stick to what's in the passage.
+Another angle: the patient's history. "What is included in the patient's history before transvesical prostatectomy?" The answer would be functional status inquiry.
+I think that's a solid list. I'll make sure each question is clear and each answer is accurate based on the passage.
 </think>
-<qa-pair> What is the primary goal of transvesical prostatectomy? | The primary goal of transvesical prostatectomy is to remove the hypertrophic transitional zone of the prostate to reduce urinary obstruction. </qa-pair>
-<qa-pair> What is transvesical prostatectomy not used for? | Transvesical prostatectomy is not a surgical procedure for malignant lesions. </qa-pair>
-<qa-pair> What is included in the pre-procedure evaluation for transvesical prostatectomy? | Appropriate history, including functional status inquiry, and physical examination are done prior to any investigation. </qa-pair>
-<qa-pair> What is a key component of the physical exam before transvesical prostatectomy? | The physical exam always includes a digital rectal exam. </qa-pair>
+<qa-pair> What is the primary goal of transvesical prostatectomy? | The primary goal is to remove the hypertrophic transitional zone of the prostate to reduce urinary obstruction. </qa-pair>
+<qa-pair> Is transvesical prostatectomy used to treat malignant lesions of the prostate? | No, it is not a surgical procedure for malignant lesions. </qa-pair>
+<qa-pair> What assessments are typically performed before transvesical prostatectomy? | Appropriate history, including functional status inquiry, and physical examination are done prior to any investigation. </qa-pair>
+<qa-pair> What is a normal finding during the digital rectal exam in a patient undergoing transvesical prostatectomy? | Enlarged lateral lobes can be easily felt, and the rectal mucosa should move freely over the prostate. </qa-pair>
+<qa-pair> What signs during a digital rectal exam may indicate the need for a core needle biopsy? | Nodularity or fixation of the rectal mucosa may indicate the possibility of prostatic cancer. </qa-pair>
+<qa-pair> What should be done if nodularity or fixation is detected during the digital rectal exam? | A core needle biopsy should be performed before proceeding with the admission. </qa-pair>
+<qa-pair> Why is a digital rectal exam important before transvesical prostatectomy? | It is important to assess for signs of prostatic cancer, such as nodularity or fixation of the rectal mucosa. </qa-pair>
+<qa-pair> Which part of the prostate is targeted in transvesical prostatectomy? | The transitional zone of the prostate is targeted. </qa-pair>
+<qa-pair> What is the focus of transvesical prostatectomy in treating urinary obstruction? | The focus is on removing the hypertrophic transitional zone of the prostate. </qa-pair>
+<qa-pair> What is included in the patient's history before transvesical prostatectomy? | The patient's history includes a functional status inquiry. </qa-pair>
 
 
 
@@ -202,22 +218,29 @@ the abdominal part of esophagectomy.
 
 RESPONSE:
 <think>
-Okay, so I need to generate question-answer pairs based on the given medical passage. The questions should be answerable by the passage and understandable on their own without direct reference. Let me read the passage carefully.
-The passage talks about the subcostal incision, where it's most useful, and gives examples for left and right side procedures. It also mentions a bilateral subcostal incision and its use, as well as a central subcostal incision for esophagectomy.
-First, I should identify key points. The main topic is the subcostal incision. It's useful when the pathology is on one side of the midline. Left side examples include adrenalectomy, splenectomy, and trans-abdominal nephrectomy. Right side examples are cholecystectomy, limited hepatic resections, adrenalectomy, and nephrectomy. A bilateral incision is good for major hepatic resections. Some surgeons use a central subcostal incision for esophagectomy.
-Now, I need to think of questions that can be answered from this. Let's start with the general use of subcostal incision. Then, specific procedures on each side. Also, the bilateral and central uses.
-I should make sure the questions are clear and self-contained. For example, "What is the subcostal incision most useful for?" That's a good start. The answer would be about situations where pathology is on one side of the midline.
-Next, for left side examples. "What surgical procedures are commonly performed using a left subcostal incision?" The answer would list adrenalectomy, splenectomy, and trans-abdominal nephrectomy.
-Similarly, for the right side: "What surgical procedures are commonly performed using a right subcostal incision?" Answer includes cholecystectomy, limited hepatic resections, adrenalectomy, and nephrectomy.
-Then, the bilateral incision: "What is a bilateral subcostal incision typically used for?" Answer is major hepatic resections.
-Lastly, the central subcostal incision: "Why might a central subcostal incision be preferred by some surgeons?" Answer relates to the abdominal part of esophagectomy.
-I think that's five good Q&A pairs. Each question is specific and can be answered without referring back to the passage. They cover the main points and some specifics, which should be helpful for future reference.
+Okay, so I need to generate question-answer pairs based on the given medical passage. The passage is about subcostal incisions and their uses in various surgical procedures. Let me read through it again to make sure I understand the key points.
+The passage starts by saying that the subcostal incision is most useful when the pathology is on one side of the midline. It then gives examples for the left and right sides. On the left, examples include adrenalectomy, splenectomy, and trans-abdominal nephrectomy. On the right, it mentions cholecystectomy, limited hepatic resections, adrenalectomy, and nephrectomy. It also talks about a bilateral subcostal incision providing excellent access for major hepatic resections and some surgeons using a central subcostal incision for esophagectomy.
+Alright, so I need to create questions that are answerable from this passage but are understandable on their own. Each question should have enough detail to retrieve the relevant information in the future.
+First, I can think about the main uses of the subcostal incision. So a question like, "What is the subcostal incision most useful for?" The answer would be situations where the pathology is on one side of the midline.
+Next, looking at the examples on each side. I can create questions asking for examples on the left and right sides. For example, "What are examples of surgical procedures where a left-sided subcostal incision is used?" The answer would list adrenalectomy, splenectomy, and trans-abdominal nephrectomy.
+Similarly, for the right side, the question would be, "What are examples of surgical procedures where a right-sided subcostal incision is used?" The answer includes cholecystectomy, limited hepatic resections, adrenalectomy, and nephrectomy.
+I should also consider the bilateral incision. So a question like, "What type of subcostal incision provides excellent access to all of the upper abdomen?" The answer is the bilateral subcostal incision, which is used for major hepatic resections.
+Another point is the central subcostal incision for esophagectomy. So the question could be, "Why do some surgeons prefer a central subcostal incision?" The answer is for the abdominal part of esophagectomy.
+I can also think about specific procedures and their relation to the incision. For example, "Which surgical procedures are commonly performed using a subcostal incision on the left side?" The answer would again be adrenalectomy, splenectomy, and trans-abdominal nephrectomy.
+Similarly, for the right side, "Which surgical procedures are commonly performed using a subcostal incision on the right side?" The answer includes cholecystectomy, limited hepatic resections, adrenalectomy, and nephrectomy.
+I should also consider the application in major surgeries. So, "What type of subcostal incision is used for major hepatic resections?" The answer is the bilateral subcostal incision.
+Lastly, the passage mentions that some surgeons use a central subcostal incision for esophagectomy. So the question could be, "In which surgical procedure is a central subcostal incision sometimes preferred?" The answer is esophagectomy, specifically the abdominal part.
+I think that covers the main points. I should make sure each question is clear and can be answered without directly referencing the passage, just the information it contains. Also, each answer should be concise and accurate based on the passage.
 </think>
 <qa-pair> What is the subcostal incision most useful for? | The subcostal incision is most useful for situations where the location of the pathology is to one side of the midline. </qa-pair>
-<qa-pair> What surgical procedures are commonly performed using a left subcostal incision? | Adrenalectomy, splenectomy, and trans-abdominal nephrectomy are commonly performed using a left subcostal incision. </qa-pair>
-<qa-pair> What surgical procedures are commonly performed using a right subcostal incision? | Cholecystectomy, limited hepatic resections, adrenalectomy, and nephrectomy are commonly performed using a right subcostal incision. </qa-pair>
-<qa-pair> What is a bilateral subcostal incision typically used for? | A bilateral subcostal incision is typically used for major hepatic resections. </qa-pair>
-<qa-pair> Why might a central subcostal incision be preferred by some surgeons? | Some surgeons prefer a central subcostal incision for the abdominal part of esophagectomy. </qa-pair>
+<qa-pair> What are examples of surgical procedures where a left-sided subcostal incision is used? | Examples include adrenalectomy, splenectomy, and trans-abdominal nephrectomy. </qa-pair>
+<qa-pair> What are examples of surgical procedures where a right-sided subcostal incision is used? | Examples include cholecystectomy, limited hepatic resections, adrenalectomy, and nephrectomy. </qa-pair>
+<qa-pair> What type of subcostal incision provides excellent access to all of the upper abdomen? | The bilateral subcostal incision provides excellent access to all of the upper abdomen. </qa-pair>
+<qa-pair> Why do some surgeons prefer a central subcostal incision? | Some surgeons prefer a central subcostal incision for the abdominal part of esophagectomy. </qa-pair>
+<qa-pair> Which surgical procedures are commonly performed using a subcostal incision on the left side? | Adrenalectomy, splenectomy, and trans-abdominal nephrectomy are commonly performed using a left-sided subcostal incision. </qa-pair>
+<qa-pair> Which surgical procedures are commonly performed using a subcostal incision on the right side? | Cholecystectomy, limited hepatic resections, adrenalectomy, and nephrectomy are commonly performed using a right-sided subcostal incision. </qa-pair>
+<qa-pair> What type of subcostal incision is used for major hepatic resections? | The bilateral subcostal incision is used for major hepatic resections. </qa-pair>
+<qa-pair> In which surgical procedure is a central subcostal incision sometimes preferred? | A central subcostal incision is sometimes preferred for the abdominal part of esophagectomy. </qa-pair>
 
 
 

@@ -5,6 +5,9 @@ from utils.index_w_faiss import FaissReader
 import dspy
 from typing import TypedDict, List
 from utils.wikipedia_helps import grab_wikipedia_context
+import asyncio
+from concurrent.futures import ProcessPoolExecutor
+from functools import partial
 
 # Define the structure of your state
 class DeRetSynState(TypedDict):
@@ -21,6 +24,7 @@ class DeRetSynState(TypedDict):
     cot_for_answer: str=None
     verbose: bool=False
     faiss_index_path: str="surgical_faiss_index"
+    run_async: bool=False
 
 decomposition_prompt = PromptTemplate.from_template(
     """You are an expert at breaking complex questions into simpler ones. Break the following question into smaller sub-questions:
@@ -73,6 +77,33 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
     state["pending_queries"] = []
 
 
+async def agent_b_retrieve_async(state: DeRetSynState) -> None:
+    faiss_index_path = state["faiss_index_path"]
+    queries = state["pending_queries"]
+    answers = state.get("answers", "")
+    new_answers = []
+
+    async def process_query(q):
+        # Create a new vectorstore instance for each query
+        vectorstore = get_default_vectorstore(faiss_index_path)
+        results = await asyncio.to_thread(vectorstore.search, q, k=3)
+        response, snippets = await generate_answer_from_question_and_context_async(state, q, results)
+        return f"Question: {q}\nAnswer: {response}\n\n\n"
+
+    # Use ProcessPoolExecutor for true parallelism
+    with ProcessPoolExecutor() as executor:
+        # Wrap the process_query function to run in the executor
+        loop = asyncio.get_event_loop()
+        tasks = [loop.run_in_executor(executor, partial(asyncio.run, process_query(q))) for q in queries]
+        new_answers = await asyncio.gather(*tasks)
+
+    combined_answers = "".join(new_answers)
+    if state["verbose"]:
+        print(f"New answers: {combined_answers}")
+    state["answers"] = answers + combined_answers
+    state["pending_queries"] = []
+
+
 def get_default_vectorstore(faiss_index_path: str) -> FaissReader:
     return FaissReader(faiss_index_path)
 
@@ -103,6 +134,36 @@ Respond in the following format:
     snippets = llm.invoke(prompt).content.strip().split("<snippet>")[1:-1]
     snippets = [snippet.split("</snippet>")[0].strip() for snippet in snippets]
     return response, "\n".join(snippets)
+
+
+async def generate_answer_from_question_and_context_async(state: DeRetSynState,
+                                                          question: str,
+                                                          context: str) -> str:
+    llm = ChatOpenAI(model=state["model"],
+                     api_key=state["api_key"],
+                     base_url=state["base_url"])
+    prompt = f"""Based on the given question and context, generate an answer.
+Question: {question}
+Context: {context}
+
+Think step-by-step and make sure to reason through how to generate an answer. ONLY rely on the given context to generate the answer. 
+
+Include snippets of the context that support your answer. Do NOT use any information outside of the given context to generate the answer.
+
+Respond in the following format:
+
+<thinking> Your reasoning here... </thinking>
+<answer> The generated answer... </answer>
+<snippet> First relevant snippet from the context... </snippet>
+<snippet> Second relevant snippet from the context... </snippet>
+...
+<snippet> The last relevant snippet from the context </snippet>"""
+    response = await llm.ainvoke(prompt)
+    content = response.content.strip()
+    answer = content.split("<answer>")[1].split("</answer>")[0].strip()
+    snippets = content.split("<snippet>")[1:-1]
+    snippets = [snippet.split("</snippet>")[0].strip() for snippet in snippets]
+    return answer, "\n".join(snippets)
 
 
 def agent_c_synthesize(state: DeRetSynState) -> None:
@@ -257,7 +318,10 @@ def orchestrator(state: DeRetSynState):
     keep_going = True
     while keep_going:
         # Step 2: Retrieve relevant documents
-        agent_b_retrieve(state)
+        if state["run_async"]:
+            agent_b_retrieve_async(state)
+        else:
+            agent_b_retrieve(state)
         yield {"step": "retrieve_complete", "answers": state["answers"]}
 
         # Step 3: Synthesize the answer
