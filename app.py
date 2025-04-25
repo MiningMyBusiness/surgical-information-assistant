@@ -125,7 +125,7 @@ def run_agents(user_input):
         api_key=st.secrets[key_prefix + "api_key"],
         base_url=st.secrets[key_prefix + "base_url"],
         verbose=True,
-        run_async=run_async
+        run_async=True
     )
 
     progress_placeholder = st.empty()
