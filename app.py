@@ -51,7 +51,7 @@ Response:
 """
 )
 
-def should_use_langgraph(question):
+def is_about_surgery(question):
     response = llm.invoke(decision_prompt.format(question=question)).content.strip()
     decision = response.split("<answer>")[1].split("</answer>")[0].strip().lower()
     return "yes" in decision
@@ -219,8 +219,9 @@ if user_input := st.chat_input(default_text):
     else:
         updated_input = user_input
 
-    if should_use_langgraph(updated_input):
+    if is_about_surgery(updated_input):
         response = run_agents(updated_input)
+        # TODO: Add code to determine whether to run agents or to use regular LLM call
     else:
         # Handle non-surgical questions here (you may want to implement a simpler response mechanism)
         response = {"final_answer": "I'm sorry, but I'm specifically designed to answer questions about surgery. Could you please ask a surgery-related question? If you did ask a question related to surgery, then I may have misunderstood your question. Please try again by emphasizing surgery-related topics."}
