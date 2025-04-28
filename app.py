@@ -5,6 +5,8 @@ from utils.agents import orchestrator, DeRetSynState, handle_simple_question
 import torch
 import sys
 
+## Run with: streamlit run app.py local async -- --server.port 8501 --server.address 0.0.0.0
+
 # Check if the "local" argument is provided
 local = len(sys.argv) > 1 and sys.argv[1] == "local"
 key_prefix = ""
@@ -12,7 +14,7 @@ if local:
     key_prefix = "local_"
 
 # Check if the "async" argument is provided
-run_async = len(sys.argv) > 2 and sys.argv[2].lower() == "async"
+RUN_ASYNC = len(sys.argv) > 2 and sys.argv[2].lower() == "async"
 
 # fix issue with torch path, in case it occurs with streamlit
 torch.classes.__path__ = []
@@ -152,7 +154,7 @@ def run_agents(user_input):
         api_key=st.secrets[key_prefix + "api_key"],
         base_url=st.secrets[key_prefix + "base_url"],
         verbose=True,
-        run_async=True
+        run_async=RUN_ASYNC
     )
 
     progress_placeholder = st.empty()
