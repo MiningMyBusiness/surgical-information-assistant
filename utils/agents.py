@@ -7,7 +7,15 @@ from typing import TypedDict, List
 from utils.wikipedia_helps import grab_wikipedia_context
 import asyncio
 from concurrent.futures import ProcessPoolExecutor
+import functools
 from functools import partial
+
+def to_thread(func):
+    @functools.wraps(func)
+    async def wrapper(*args, **kwargs):
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(None, functools.partial(func, *args, **kwargs))
+    return wrapper
 
 # Define the structure of your state
 class DeRetSynState(TypedDict):
@@ -86,7 +94,7 @@ async def agent_b_retrieve_async(state: DeRetSynState) -> None:
     async def process_query(q):
         # Create a new vectorstore instance for each query
         vectorstore = get_default_vectorstore(faiss_index_path)
-        results = await asyncio.to_thread(vectorstore.search, q, k=3)
+        results = await to_thread(vectorstore.search)(q, k=3)
         response, snippets = await generate_answer_from_question_and_context_async(state, q, results)
         return f"Question: {q}\nAnswer: {response}\n\n\n"
 
@@ -158,7 +166,7 @@ Respond in the following format:
 <snippet> Second relevant snippet from the context... </snippet>
 ...
 <snippet> The last relevant snippet from the context </snippet>"""
-    response = await llm.ainvoke(prompt)
+    response = await to_thread(llm.invoke)(prompt)
     content = response.content.strip()
     answer = content.split("<answer>")[1].split("</answer>")[0].strip()
     snippets = content.split("<snippet>")[1:-1]
