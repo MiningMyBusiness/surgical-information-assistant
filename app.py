@@ -5,6 +5,8 @@ from utils.agents import orchestrator, DeRetSynState, handle_simple_question
 import torch
 import sys
 
+## Run with: streamlit run app.py local async -- --server.port 8501 --server.address 0.0.0.0
+
 # Check if the "local" argument is provided
 local = len(sys.argv) > 1 and sys.argv[1] == "local"
 key_prefix = ""
