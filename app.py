@@ -8,13 +8,14 @@ import sys
 ## Run with: streamlit run app.py local async -- --server.port 8501 --server.address 0.0.0.0
 
 # Check if the "local" argument is provided
-local = len(sys.argv) > 1 and sys.argv[1] == "local"
+# local = len(sys.argv) > 1 and sys.argv[1] == "local"
 key_prefix = ""
-if local:
-    key_prefix = "local_"
+# if local:
+#     key_prefix = "local_"
 
 # Check if the "async" argument is provided
-RUN_ASYNC = len(sys.argv) > 2 and sys.argv[2].lower() == "async"
+# RUN_ASYNC = len(sys.argv) > 2 and sys.argv[2].lower() == "async"
+RUN_ASYNC = True
 
 # fix issue with torch path, in case it occurs with streamlit
 torch.classes.__path__ = []
