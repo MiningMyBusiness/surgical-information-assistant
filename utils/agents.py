@@ -85,7 +85,7 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
     state["pending_queries"] = []
 
 
-async def agent_b_retrieve_async(state: DeRetSynState) -> None:
+def agent_b_retrieve_async(state: DeRetSynState) -> None:
     faiss_index_path = state["faiss_index_path"]
     queries = state["pending_queries"]
     answers = state.get("answers", "")
@@ -103,7 +103,7 @@ async def agent_b_retrieve_async(state: DeRetSynState) -> None:
         # Wrap the process_query function to run in the executor
         loop = asyncio.get_event_loop()
         tasks = [loop.run_in_executor(executor, partial(asyncio.run, process_query(q))) for q in queries]
-        new_answers = await asyncio.gather(*tasks)
+        new_answers = asyncio.run(asyncio.gather(*tasks))
 
     combined_answers = "".join(new_answers)
     if state["verbose"]:
