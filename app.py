@@ -20,7 +20,7 @@ RUN_ASYNC = len(sys.argv) > 2 and sys.argv[2].lower() == "async"
 torch.classes.__path__ = []
 
 # Set up LLM
-llm = ChatOpenAI(model=st.secrets[key_prefix + "model_2_small"],
+llm = ChatOpenAI(model=st.secrets[key_prefix + "model_2"],
                  api_key=st.secrets[key_prefix + "api_key_2"],
                  base_url=st.secrets[key_prefix + "base_url_2"])
 
@@ -150,7 +150,7 @@ def run_agents(user_input):
         answers="",
         iterations=0,
         faiss_index_path="surgical_faiss_index",
-        model=st.secrets[key_prefix + "model_2_small"],
+        model=st.secrets[key_prefix + "model_2"],
         api_key=st.secrets[key_prefix + "api_key_2"],
         base_url=st.secrets[key_prefix + "base_url_2"],
         verbose=True,
