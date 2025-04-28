@@ -20,7 +20,7 @@ RUN_ASYNC = len(sys.argv) > 2 and sys.argv[2].lower() == "async"
 torch.classes.__path__ = []
 
 # Set up LLM
-llm = ChatOpenAI(model=st.secrets[key_prefix + "model_2"],
+llm = ChatOpenAI(model=st.secrets[key_prefix + "model_2_small"],
                  api_key=st.secrets[key_prefix + "api_key_2"],
                  base_url=st.secrets[key_prefix + "base_url_2"])
 
