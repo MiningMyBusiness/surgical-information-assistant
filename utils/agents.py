@@ -97,13 +97,18 @@ def agent_b_retrieve_async(state: DeRetSynState) -> None:
         results = await to_thread(vectorstore.search)(q, k=3)
         response, snippets = await generate_answer_from_question_and_context_async(state, q, results)
         return f"Question: {q}\nAnswer: {response}\n\n\n"
+    
+    async def run_queries():
+        tasks = [process_query(q) for q in queries]
+        return await asyncio.gather(*tasks)
 
-    # Use ProcessPoolExecutor for true parallelism
-    with ProcessPoolExecutor() as executor:
-        # Wrap the process_query function to run in the executor
-        loop = asyncio.get_event_loop()
-        tasks = [loop.run_in_executor(executor, partial(asyncio.run, process_query(q))) for q in queries]
-        new_answers = asyncio.run(asyncio.gather(*tasks))
+    # Create a new event loop and run the async function
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    try:
+        new_answers = loop.run_until_complete(run_queries())
+    finally:
+        loop.close()
 
     combined_answers = "".join(new_answers)
     if state["verbose"]:
