@@ -370,3 +370,30 @@ Respond in the following format:
                      base_url=state["base_url"])
     response = llm.invoke(prompt)
     return 'true' in response.content.strip().lower()
+
+
+def handle_simple_question(user_input: str, chat_history: list[dict], llm: ChatOpenAI) -> dict:
+    # Get the last 4 turns of the chat history
+    recent_history = chat_history[-4:]
+    
+    # Format the chat history for the LLM
+    messages = [
+        {"role": "system", "content": "You are an AI assistant specializing in surgery-related topics. Use the chat history and your knowledge to answer the user's question. If you can't answer based on the given information, say so. If the question is not related to surgery, politely redirect the user to ask a surgery-related question."}
+    ]
+    
+    for turn in recent_history:
+        messages.append({"role": "user", "content": turn['user']})
+        messages.append({"role": "assistant", "content": turn['bot']})
+    
+    # Add the current user input
+    messages.append({"role": "user", "content": user_input})
+    
+    # Make the LLM call
+    response = llm.invoke(messages).content.strip()
+    
+    return {
+        "final_answer": response,
+        "answers": "",
+        "wikipedia_results": None,
+        "pending_queries": []
+    }

@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
-from utils.agents import orchestrator, DeRetSynState
+from utils.agents import orchestrator, DeRetSynState, handle_simple_question
 import torch
 import sys
 
@@ -10,6 +10,9 @@ local = len(sys.argv) > 1 and sys.argv[1] == "local"
 key_prefix = ""
 if local:
     key_prefix = "local_"
+
+# Check if the "async" argument is provided
+run_async = len(sys.argv) > 2 and sys.argv[2].lower() == "async"
 
 # fix issue with torch path, in case it occurs with streamlit
 torch.classes.__path__ = []
@@ -21,8 +24,7 @@ llm = ChatOpenAI(model=st.secrets[key_prefix + "model"],
 
 # --- Decision Layer --- #
 decision_prompt = PromptTemplate.from_template(
-    """Is the following question about surgery or about something else?
-
+    """Determine if the following question requires access to specific medical documents related to detailed surgical information to be answered accurately.
 Think step-by-step and reason through your answer. Respond in the following format: 
 
 <thinking> Your reasoning here... </thinking>
@@ -43,19 +45,31 @@ Response:
 <answer> no </answer>
 
 Question:
+Can you elaborate on your previous response about suturing or rephrase it?
+Response:
+<thinking> The question is asking for an explanation of suturing that was given earlier in the conversation. While the question does mention suturing which is related to surgery, it is not asking about suturing specifically but rather requesting to explain a previous response. </thinking>
+<answer> no </answer>
+
+Question:
+What are some core differences between robotic and laparasopic inguinal hernia?
+Response:
+<thinking> The question is asking about the differences between robotic and laparosopic inguinal hernia. Both robotic and laparosopic surgery involve surgery on the inguinal hernia. This is clearly a question about surgery and requires investigation into documentation to answer. </thinking>
+<answer> yes </answer>
+
+Question:
 {question}
 Response:
 """
 )
 
-def should_use_langgraph(question):
+def is_about_surgery(question):
     response = llm.invoke(decision_prompt.format(question=question)).content.strip()
     decision = response.split("<answer>")[1].split("</answer>")[0].strip().lower()
     return "yes" in decision
 
 def update_user_input_with_context(user_input, chat_history):
     # Get the last 4 turns of the chat history
-    recent_history = chat_history[-4:]
+    recent_history = chat_history[-3:]
     
     # Format the chat history for the LLM
     formatted_history = "\n".join([f"User: {turn['user']}\nAssistant: {turn['bot']}" for turn in recent_history])
@@ -98,6 +112,22 @@ RESPONSE:
 
 
 CHAT HISTORY:
+User: What are the potential complications of laparoscopic surgery?
+Assistant: Laparoscopic surgery can have several potential complications, including:
+1. Infection: Laparoscopic surgery can lead to infections, especially in patients with infections that can be spread through the abdominal cavity.
+2. Stool bleeding: Laparoscopic surgery can lead to stool bleeding, especially if the surgical instrument is inserted directly into the abdominal cavity.
+3. Pain: Laparoscopic surgery can be painful, especially for patients with pre-existing conditions or those who have had previous laparoscopic surgeries.
+
+NEW USER INPUT:
+Can you think of any more?
+
+RESPONSE:
+<thinking> The user is asking if there are any more complications, but it's important to note that the original question was about laparoscopic surgery, not about potential complications. I'll restate the question to clarify that the original topic was laparoscopic surgery. </thinking>
+<updated_input> Are there any more potential complications associated with laparoscopic surgery besides infection, stool bleeding, and pain? </updated_input>
+
+
+
+CHAT HISTORY:
 {formatted_history}
 
 New User Input:
@@ -121,7 +151,8 @@ def run_agents(user_input):
         model=st.secrets[key_prefix + "model"],
         api_key=st.secrets[key_prefix + "api_key"],
         base_url=st.secrets[key_prefix + "base_url"],
-        verbose=True
+        verbose=True,
+        run_async=True
     )
 
     progress_placeholder = st.empty()
@@ -171,14 +202,18 @@ st.set_page_config(layout="wide")
 st.title("📚 Chat with the Open Manual of Surgery in Resource-Limited Settings")
 st.info("""This app uses Agents and RAG to provide intelligent 
 responses to your questions about surgery by using the [Open Manual of Surgery in Resource-Limited Settings](https://www.vumc.org/global-surgical-atlas/about)
-created by the Vanderbilt University Medical Center. 
-This app can handle complex queries requiring multi-hop reasoning and synthesis across documents.
-It can also generate structured long-form responses when asked. The code is open-source 😊 
-and follows the same licensing as the documents with the Open Surgical Manual (CC-v1.0 Universal).
-DISCLAIMER: This app was not developed by the Vanderbilt University Medical Center. 
-Answers are generated by an LLM and LLMs can make mistakes. This app, the code, and the LLM
-responses are not endorsed by or associated with the Vanderbilt University Medical Center.""")
+created by the Vanderbilt University Medical Center.
+DISCLAIMER: This app, the code, and the LLM
+responses are not endorsed by or associated with the Vanderbilt University Medical Center. 
+The code is open-source 😊 
+and follows the same licensing as the documents with the Open Manual of Surgery (CC-v1.0 Universal).
+Answers are generated by an LLM and LLMs can make mistakes. Double-check it.
+""")
 
+if run_async:
+    st.info("Running in async mode")
+else:
+    st.info("Running in sync mode")
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
@@ -211,11 +246,10 @@ if user_input := st.chat_input(default_text):
     else:
         updated_input = user_input
 
-    if should_use_langgraph(updated_input):
+    if is_about_surgery(updated_input):
         response = run_agents(updated_input)
     else:
-        # Handle non-surgical questions here (you may want to implement a simpler response mechanism)
-        response = {"final_answer": "I'm sorry, but I'm specifically designed to answer questions about surgery. Could you please ask a surgery-related question? If you did ask a question related to surgery, then I may have misunderstood your question. Please try again by emphasizing surgery-related topics."}
+        response = handle_simple_question(user_input, st.session_state.chat_history, llm)
     with st.chat_message("assistant"):
         st.markdown(response["final_answer"])
         answers = response.get("answers", "")
