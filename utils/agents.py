@@ -215,6 +215,8 @@ Think step-by-step to reason through you answer and consider the relevant inform
     can_answer = response.split("<can_answer>")[1].split("</can_answer>")[0].strip().lower()
     if can_answer == "yes":
         answer_text = response.split("<answer>")[1].split("</answer>")[0].strip()
+        if "new-questions>" in response:
+            answer_text = answer_text.split("<new-questions>")[0].strip()
         state["done"] = True
         state["final_answer"] = answer_text
         state["iterations"] = 1
