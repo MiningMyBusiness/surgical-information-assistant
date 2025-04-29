@@ -1,6 +1,6 @@
 # Surgical Information Assistant
 
-An implementation of a surgical information assistant based on the Vanderbilt University Open Manual of Surgery.
+An implementation of a surgical information assistant based on documents from the Vanderbilt University Open Manual of Surgery.
 
 ![Animated GIF Placeholder](path/to/your/gif.gif)
 
@@ -75,7 +75,7 @@ Navigate to the provided local URL (usually http://localhost:8501) in your web b
 The Surgical Information Assistant uses a sophisticated retrieval process to provide accurate and relevant information:
 1. Decompose: The user's query is analyzed and processed to extract sub-questions.
 2. Retrieve: Each sub-question is used to search a pre-built FAISS (Facebook AI Similarity Search) index. This index contains vector representations of the Vanderbilt University Open Manual of Surgery content, allowing for fast and efficient similarity-based retrieval. An LLM attemps to answer each sub-question with the associated context that is retrieved from the text index.
-3. Synthesize: An LLM then attempts to answer the original question based on each sub-question and it's answer. If it cannot, then it generates new sub-questions for retrieval (go back to Step 2). If it can, then it generates an answer and some follow-up questions.
+3. Synthesize: An LLM then attempts to answer the original question based on each sub-question and it's answer. If it cannot, then it generates new sub-questions for retrieval (go back to Step 2). If it can answer the original question, then it generates an answer and some follow-up questions.
 4. If Steps 2 and 3 have been repeated 3 times, then the system stops and moves on to using Wikipedia.
 
 ### Wikipedia as Backup
@@ -104,7 +104,7 @@ This project is licensed under the CC0 1.0 Universal - see the LICENSE file for 
 If you use this project in your research or work, please cite it using the following BibTeX entry:
 
 ```bibtex
-@misc{surgical_information_assistant,
+@misc{surgical_information_assistant_codebase,
   author = {Bhattacharya, Kiran},
   title = {Surgical Information Assistant},
   year = {2025},
