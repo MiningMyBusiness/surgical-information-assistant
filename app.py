@@ -312,7 +312,6 @@ if user_input := st.chat_input(default_text):
         if pending_queries:
             with st.expander("Suggested follow-up questions"):
                 st.write("\n- " + "\n- ".join(pending_queries))
-
-    st.session_state.chat_history.append({"user": user_input, "bot": response["final_answer"],
-                                            "answers": response.get("answers", ""),
-                                            "wiki_results": response.get("wikipedia_results", None)})
+        st.session_state.chat_history.append({"user": user_input, "bot": response["final_answer"],
+                                                "answers": response.get("answers", ""),
+                                                "wiki_results": response.get("wikipedia_results", None)})
