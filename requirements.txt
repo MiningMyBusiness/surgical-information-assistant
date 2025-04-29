@@ -18,3 +18,4 @@ wikipedia
 faiss-cpu
 sentence-transformers
 streamlit
+python-docx
