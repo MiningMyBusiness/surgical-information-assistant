@@ -202,6 +202,9 @@ def run_agents(user_input):
     return result["state"]
 
 
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
+
 def clear_chat_history():
     st.session_state.chat_history = []
 
@@ -252,9 +255,6 @@ with col2:
 #     st.info("Running in async mode")
 # else:
 #     st.info("Running in sync mode")
-
-if "chat_history" not in st.session_state:
-    st.session_state.chat_history = []
 
 # Show past chat messages
 for i,msg in enumerate(st.session_state.chat_history):
