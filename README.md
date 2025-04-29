@@ -2,7 +2,7 @@
 
 An implementation of a surgical information assistant based on documents from the Vanderbilt University Open Manual of Surgery.
 
-![Animated GIF Placeholder](path/to/your/gif.gif)
+![Animated GIF Placeholder](figures/example_usage.gif)
 
 ## Motivation
 
