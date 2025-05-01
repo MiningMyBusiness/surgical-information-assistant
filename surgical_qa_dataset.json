@@ -200,10 +200,6 @@
     "answer": "The collection of nerve roots is called the cauda equina because it resembles the fibers of a horse's tail."
   },
   {
-    "question": "Where can this information about spinal cord anatomy be found?",
-    "answer": "This information can be found in the Open Manual of Surgery in Resource-Limited Settings."
-  },
-  {
     "question": "What is the typical arrangement of spinal nerves in relation to spinal levels?",
     "answer": "Each spinal level has its paired spinal nerves exiting below the pedicle of that respective level, except for the cervical level."
   },
@@ -1004,14 +1000,6 @@
     "answer": "The theory presumes that stimulation of the dorsal sensory columns inhibits the perception of pain in the brain."
   },
   {
-    "question": "What is discussed in the \"Open Manual of Surgery in Resource-Limited Settings\"?",
-    "answer": "The manual is licensed under Creative Commons and may contain information about neurological levels and classification."
-  },
-  {
-    "question": "What license is the \"Open Manual of Surgery in Resource-Limited Settings\" under?",
-    "answer": "The manual is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "What potential benefits are associated with injecting neural stem cells into sites of injury?",
     "answer": "Injecting neural stem cells into sites of injury might promote healing, reduce scarring, and decrease painful inflammation."
   },
@@ -1212,10 +1200,6 @@
     "answer": "The risk is potentially injuring the vein."
   },
   {
-    "question": "What are the layers that the incision passes through in this procedure?",
-    "answer": "The incision goes through the epidermis and then through the dermis."
-  },
-  {
     "question": "What vein is located just below the dermis in this incision?",
     "answer": "The cephalic vein is located just below the dermis in this area."
   },
@@ -1344,26 +1328,6 @@
     "answer": "Dividing the bicipital aponeurosis may be necessary to access underlying structures or create a fistula."
   },
   {
-    "question": "What are the acceptable techniques for making an incision in this procedure?",
-    "answer": "The acceptable techniques include a cruciate incision, a notch from the medial side, or excising a \"window\" of the aponeurosis."
-  },
-  {
-    "question": "When is the artery palpated in this procedure?",
-    "answer": "The artery is palpated after the superficial facia is divided."
-  },
-  {
-    "question": "How is the artery divided in a controlled fashion during this procedure?",
-    "answer": "The artery is divided first with a scalpel and then with scissors."
-  },
-  {
-    "question": "Is the aponeurosis considered essential to arm function in this procedure?",
-    "answer": "The aponeurosis is not essential to arm function."
-  },
-  {
-    "question": "What type of structure is the bicipital aponeurosis in this procedure?",
-    "answer": "The bicipital aponeurosis is a thick structure that may require controlled division."
-  },
-  {
     "question": "Why is it important to palpate the artery before cutting the bicipital aponeurosis?",
     "answer": "Palpating the artery helps determine the appropriate location for cutting the bicipital aponeurosis."
   },
@@ -1416,14 +1380,6 @@
     "answer": "It is advised to take care not to injure the adjacent veins during dissection."
   },
   {
-    "question": "What is the significance of encircling the artery with a vessel loop in this procedure?",
-    "answer": "Encircling the artery with a vessel loop provides a safe and controlled way to manage the artery during dissection."
-  },
-  {
-    "question": "Why should electrocautery be avoided in this procedure?",
-    "answer": "Electrocautery should be avoided to prevent injury to the median nerve."
-  },
-  {
     "question": "Where is the brachial artery clearly seen during the incision?",
     "answer": "The brachial artery is clearly seen at the base of the incision."
   },
@@ -1438,14 +1394,6 @@
   {
     "question": "When is a second vessel loop placed during the procedure?",
     "answer": "A second vessel loop is placed after further dissection."
-  },
-  {
-    "question": "What is the purpose of mobilizing the cephalic vein further in this procedure?",
-    "answer": "The purpose is to ensure it will reach the dissected brachial artery without tension."
-  },
-  {
-    "question": "How should the distal end of the cephalic vein be prepared in this procedure?",
-    "answer": "The distal end of the vein should be prepared for division."
   },
   {
     "question": "What will further dissection of the proximal and distal aspect of the cephalic vein allow it to do?",
@@ -1714,10 +1662,6 @@
   {
     "question": "What is the initial step in passing needles through the vessels during Brachial-Cephalic Arteriovenous Fistula creation?",
     "answer": "Both needles of the double-armed suture are initially passed from inside to outside of each vessel, at the heel of the vein."
-  },
-  {
-    "question": "What parts of the vein are referred to as the Heel and the Toe in the context of this procedure?",
-    "answer": "The parts of the vein referred to as the Heel and the Toe are shown in the diagram."
   },
   {
     "question": "How is one of the needles passed through the vein during the procedure?",
@@ -2492,10 +2436,6 @@
     "answer": "The fibers of the internal oblique muscle run between the external oblique and the transversus abdominis muscles, transversely from inferolateral to superomedial."
   },
   {
-    "question": "What is the Creative Commons license under which the manual of surgery in resource-limited settings is published?",
-    "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "What happens to the muscles of the lateral abdominal wall in an incisional hernia?",
     "answer": "The muscles retract and become chronically short in length."
   },
@@ -2898,10 +2838,6 @@
   {
     "question": "What type of license is the work published under?",
     "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
-    "question": "Where can the \"OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS\" be accessed?",
-    "answer": "The manual can be accessed at www.vumc.org/global-surgical-atlas."
   },
   {
     "question": "What are the general steps in the incision and closure process during surgery?",
@@ -4196,10 +4132,6 @@
     "answer": "The anterior rectus sheath should be incised 2cm lateral to its medial edge and carried to about 3cm past the most cranial and caudal extent of the hernia defect."
   },
   {
-    "question": "What is the process involved in dissecting the rectus muscle in this procedure?",
-    "answer": "The process involves moving medially towards the medial edge of the muscle first, then passing posterior to the muscle from medially to laterally."
-  },
-  {
     "question": "How far should the incision be carried past the most cranial and caudal extent of the hernia defect?",
     "answer": "The incision should be carried to about 3cm past the most cranial and caudal extent of the hernia defect."
   },
@@ -4210,10 +4142,6 @@
   {
     "question": "How far lateral to the medial edge of the anterior rectus sheath should the incision be made?",
     "answer": "The incision should be made 2cm lateral to the medial edge of the anterior rectus sheath."
-  },
-  {
-    "question": "Where can one find the detailed procedure for Anterior Components Separation Repair of Incisional Ventral Hernia?",
-    "answer": "The detailed procedure can be found in the Manual of Surgery in Resource-Limited Settings."
   },
   {
     "question": "Under what license is the work regarding Anterior Components Separation Repair of Incisional Ventral Hernia published?",
@@ -4284,10 +4212,6 @@
     "answer": "The incision should be extended from the costal margin to the inguinal ligament."
   },
   {
-    "question": "What should be ligated during the dissection process in this procedure?",
-    "answer": "Perforating vessels should be ligated during the dissection process."
-  },
-  {
     "question": "How can the surgeon confirm that the correct structure has been incised?",
     "answer": "The surgeon can confirm by ensuring that the external oblique aponeurosis has been incised rather than the anterior rectus sheath."
   },
@@ -4330,10 +4254,6 @@
   {
     "question": "Why is it important not to tighten the sutures excessively during the mesh placement procedure?",
     "answer": "Tightening sutures excessively could endanger the neurovascular supply of the muscle."
-  },
-  {
-    "question": "What is the purpose of the yellow dot on the mesh in this procedure?",
-    "answer": "The yellow dot indicates the placement of the mesh over the approximated rectus sheath and behind the rectus muscles."
   },
   {
     "question": "What type of sutures are used for the repair, and where are they passed through?",
@@ -4728,10 +4648,6 @@
     "answer": "The sutures should be tied down over the omentum to secure the omental flap in place and cover the ulcer."
   },
   {
-    "question": "Why is it important not to over-tighten the sutures in this procedure?",
-    "answer": "Over-tightening the sutures can strangulate the omental patch."
-  },
-  {
     "question": "How is the omental patch secured in place in the procedure described?",
     "answer": "The omental patch is secured in place with sutures."
   },
@@ -4788,36 +4704,8 @@
     "answer": "Evacuating the irrigation allows for the completion of the leak test procedure."
   },
   {
-    "question": "What is the purpose of inflating the stomach with air through a nasogastric tube in this procedure?",
-    "answer": "The purpose is to check if any bubbles appear."
-  },
-  {
-    "question": "How should a closed suction drain be secured next to the repair in this procedure?",
-    "answer": "The drain should be secured to the skin using 2-0 nylon suture."
-  },
-  {
-    "question": "What type of suture is used to secure the drain to the skin in this procedure?",
-    "answer": "2-0 nylon suture is used to secure the drain."
-  },
-  {
     "question": "What should be done if bubbles appear when inflating the stomach with air through the nasogastric tube?",
     "answer": "The appearance of bubbles should be checked and addressed accordingly."
-  },
-  {
-    "question": "Why is placing a closed suction drain next to the repair important in this procedure?",
-    "answer": "The drain is placed to manage fluid drainage and promote healing."
-  },
-  {
-    "question": "Describe the process of placing a closed suction drain next to the repair in this procedure.",
-    "answer": "The drain should be placed next to the repair and secured to the skin using 2-0 nylon suture."
-  },
-  {
-    "question": "What is the significance of ensuring no bubbles appear when inflating the stomach in this procedure?",
-    "answer": "The absence of bubbles indicates proper inflation and no leakage."
-  },
-  {
-    "question": "How can the effectiveness of the suture used to secure the drain be ensured in this procedure?",
-    "answer": "The effectiveness can be ensured by checking the stability of the drain and its position."
   },
   {
     "question": "When should the skin be left open after closing the abdomen postoperatively?",
@@ -4918,10 +4806,6 @@
   {
     "question": "What is the difference between the original Graham patch closure and the modified Graham patch closure?",
     "answer": "The modified Graham patch closure involves closure of the ulcer first, then tying the patch into the tails of the suture from the ulcer closure."
-  },
-  {
-    "question": "Where can further information on the Graham patch closure technique be found?",
-    "answer": "Further information on the Graham patch closure technique can be found in the Open Manual of Surgery in Resource-Limited Settings."
   },
   {
     "question": "What are the potential benefits of using the Graham patch closure technique for duodenal ulcers?",
@@ -7344,10 +7228,6 @@
     "answer": "The work is published under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
-    "question": "Where can one find more information about Trans-Urethral Resection of Bladder Tumor?",
-    "answer": "More information can be found in the Open Manual of Surgery in Resource-Limited Settings at www.vumc.org/global-surgical-atlas"
-  },
-  {
     "question": "How does the current generated by the diathermy machine pass through the patient's body?",
     "answer": "The current passes from the electrode through the patient's body to terminate at an electrode on the skin (grounding pad)."
   },
@@ -7564,10 +7444,6 @@
     "answer": "The first step is to visually inspect the lower abdomen and urethra."
   },
   {
-    "question": "What is the purpose of the bimanual examination in this procedure?",
-    "answer": "The bimanual examination aims to assess for pelvic masses."
-  },
-  {
     "question": "What kind of cystoscope lenses should be used to maximize visualization of specific areas of the bladder?",
     "answer": "30 and 70-degree cystoscope lenses should be used."
   },
@@ -7576,24 +7452,8 @@
     "answer": "Traditionally difficult areas include the bladder neck and anterior bladder wall."
   },
   {
-    "question": "What is the purpose of dilating the distal urethra in this procedure?",
-    "answer": "The purpose is to insert the resectoscope."
-  },
-  {
-    "question": "How is the meatus and most distal urethra serially dilated in this procedure?",
-    "answer": "They are serially dilated from 18F up to the required size using lubrication."
-  },
-  {
-    "question": "What type of urethral dilator is used to dilate only the urethral meatus in this procedure?",
-    "answer": "A urethral dilator with a curved tip."
-  },
-  {
     "question": "Why is it important to note the resectoscope sheath size before insertion in the procedure?",
     "answer": "Noting the size is crucial for selecting the appropriate dilator and ensuring a smooth insertion process."
-  },
-  {
-    "question": "What is the purpose of using a lubricant during the dilation process in this procedure?",
-    "answer": "Lubrication is used to facilitate smooth and safe dilation of the urethra."
   },
   {
     "question": "What does the return of fluid indicate during the procedure involving the removal of the obturator?",
@@ -7644,32 +7504,8 @@
     "answer": "The intended outcome is to ensure the sheath passes smoothly and urine or fluid flows freely."
   },
   {
-    "question": "How is the electrode used to resect bladder tissue in this procedure?",
-    "answer": "The electrode is used at a controlled depth to resect the bladder tissue at the base of the tumor."
-  },
-  {
-    "question": "How should large tumors be divided and resected in this procedure?",
-    "answer": "Large tumors should be divided into sectors and the first section resected in layers, starting at the periphery of the tumor."
-  },
-  {
     "question": "What technique is recommended when reaching the base of the tumor during resection?",
     "answer": "The recommended technique is to swipe until the base is reached and make a swipe at the edge of the tumor."
-  },
-  {
-    "question": "What is the source of information for this procedure?",
-    "answer": "The source is doi: 10.3389/frai.2024.1375482."
-  },
-  {
-    "question": "Where is the manual on Trans-Urethral Resection of Bladder Tumor intended for use?",
-    "answer": "The manual is intended for use in resource-limited settings."
-  },
-  {
-    "question": "What is the first step when dividing large tumors in this procedure?",
-    "answer": "The first step is to divide large tumors into sectors."
-  },
-  {
-    "question": "Under what license is the Open Manual of Surgery in Resource-Limited Settings published?",
-    "answer": "The manual is published under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What should be included in the extracted tissue from the swipe?",
@@ -8752,16 +8588,8 @@
     "answer": "The steps include breaching the mucosa, inserting the tube, inflating the balloon, and tying the inner purse string suture."
   },
   {
-    "question": "What is the purpose of the outer purse string in this procedure?",
-    "answer": "The outer purse string is used to \"bury\" the inner purse string and attach the stomach to the abdominal wall."
-  },
-  {
     "question": "What action is taken while tying the outer purse string?",
     "answer": "Gentle inward pressure is applied to the tube to \"bury\" the inner purse string, and the suture is not cut."
-  },
-  {
-    "question": "How is the stomach attached to the abdominal wall in this procedure?",
-    "answer": "The stomach is attached using the suture of the outer purse string, just to the left of where the tube enters the abdominal wall."
   },
   {
     "question": "Which part of the Stamm Gastrostomy procedure is considered the most difficult to place?",
@@ -10664,10 +10492,6 @@
     "answer": "The pump is removed from its slot and reversed so that its entry and exit are facing opposite directions."
   },
   {
-    "question": "Where can one find more information on this procedure in resource-limited settings?",
-    "answer": "More information can be found in the Manual of Surgery in Resource-Limited Settings."
-  },
-  {
     "question": "What is the next step after the pump is reinserted in the process described?",
     "answer": "The pump is reconnected to the bellows."
   },
@@ -10710,10 +10534,6 @@
   {
     "question": "What steps are involved in cleaning the device after liquid enters the pump?",
     "answer": "The steps involve disconnecting and removing the pump bellows, washing and drying them, and reassembling."
-  },
-  {
-    "question": "Where can one find a guide on the components of centralized medical vacuum systems?",
-    "answer": "The manual of surgery in resource-limited settings provides a guide on the components."
   },
   {
     "question": "What challenge is highlighted when keeping the canister upright in a crowded ward?",
@@ -11734,10 +11554,6 @@
   {
     "question": "What are the advantages of proficiency in ultrasound for a surgeon in a resource-limited setting?",
     "answer": "Proficiency in ultrasound can give tremendous insight into the patient's disease, especially when more advanced imaging like CT or MRI is not available."
-  },
-  {
-    "question": "What is the focus of the chapter on Ultrasonography in the resource-limited setting manual?",
-    "answer": "The chapter explains the principles of Ultrasonography and provides basic guidelines for performing and interpreting ultrasound images."
   },
   {
     "question": "What specific topics will be discussed in other chapters related to Ultrasonography?",
@@ -13700,10 +13516,6 @@
     "answer": "The linear probe offers the advantage of visualizing fine details at depths up to 6cm with its frequency range."
   },
   {
-    "question": "What is done after applying an occlusive dressing over the eye during this procedure?",
-    "answer": "After applying an occlusive dressing over the eye, generous ultrasound gel is then applied."
-  },
-  {
     "question": "How far behind the globe is the optic nerve sheath located?",
     "answer": "The optic nerve sheath is located 3mm behind the globe."
   },
@@ -13712,20 +13524,12 @@
     "answer": "The optic nerve sheath appears as a bright (hyperechoic) circular or oval structure surrounding the dark (hypoechoic) longitudinal optic nerve."
   },
   {
-    "question": "What image should appear when gently applying the transducer on the globe during this procedure?",
-    "answer": "A characteristic image with the optic nerve and sheath emerging posteriorly should appear."
-  },
-  {
     "question": "What is the process described in locating the papilla and defining the optic nerve sheath diameter?",
     "answer": "The process involves drawing lines along the long axis of the nerve sheath and marking distances to determine the Optic Nerve Sheath Diameter."
   },
   {
     "question": "How is the Optic Nerve Sheath Diameter measured in the procedure?",
     "answer": "The Optic Nerve Sheath Diameter is measured by drawing a line perpendicular to the marked distance from the medial to the lateral inner walls of the hyperechoic nerve sheath."
-  },
-  {
-    "question": "What is the significance of Point A-A in this procedure?",
-    "answer": "Point A-A represents a 3mm depth marked along the long axis of the nerve sheath to locate the papilla."
   },
   {
     "question": "What does Point B-B correspond to in the context of the procedure?",
@@ -13920,20 +13724,12 @@
     "answer": "The potential consequence is the risk of skin burns due to the higher concentration."
   },
   {
-    "question": "What is the purpose of palpating the artery in this procedure?",
-    "answer": "The purpose is to identify the location of the medially adjacent vein."
-  },
-  {
     "question": "What concentration and volume of bupivacaine are recommended for neonates?",
     "answer": "0.25% bupivacaine up to 0.5 ml intradermally is recommended for every neonate."
   },
   {
     "question": "Why might it be challenging to feel the femoral artery pulsation in infants weighing less than 1kg?",
     "answer": "It may be difficult or impossible to feel the pulsation due to their size."
-  },
-  {
-    "question": "What does the prepared area allow access to in this procedure?",
-    "answer": "The prepared area allows access to both groins, all the way down to the knees."
   },
   {
     "question": "What is the most medial structure in the neurovascular bundle when dissecting the vein?",
@@ -13946,10 +13742,6 @@
   {
     "question": "How can the femoral vessels be located during the procedure?",
     "answer": "Gently dissect below the skin to locate the femoral vessels."
-  },
-  {
-    "question": "Why might the anatomy be confusing in the smallest of infants during this procedure?",
-    "answer": "The anatomy may be confusing in the smallest of infants because the vein is the most medial structure, which can be harder to distinguish."
   },
   {
     "question": "What instrument can be used to dissect very carefully during the procedure?",
@@ -14456,20 +14248,12 @@
     "answer": "The site placement is marked 2-3 cm anterior to the suture line."
   },
   {
-    "question": "What is the purpose of drilling a burr-hole in this procedure?",
-    "answer": "The burr-hole is drilled for a burrhole craniostomy."
-  },
-  {
     "question": "What should be done after placing the self-retaining retractor?",
     "answer": "The site placement should be located and marked anterior to the suture line before drilling a burr-hole."
   },
   {
     "question": "What is the significance of marking the site placement anterior to the suture line?",
     "answer": "Marking the site placement anterior to the suture line ensures proper positioning for the burr-hole drilling."
-  },
-  {
-    "question": "What is the purpose of using the burr-hole in this procedure?",
-    "answer": "The burr-hole is used to perform a burrhole craniostomy."
   },
   {
     "question": "At what level is the table lowered for the surgical procedure described?",
@@ -14626,10 +14410,6 @@
   {
     "question": "How is the incision closed in layers during external ventricular drainage placement?",
     "answer": "The galea is closed with an absorbable 2-0 suture, and the skin is closed with Nylon 1, while ensuring the catheter is not entrapped and checking for flow after closure."
-  },
-  {
-    "question": "Where can more information on surgery in resource-limited settings be found?",
-    "answer": "More information can be found in the open manual of surgery in resource-limited settings at www.vumc.org/global-surgical-atlas."
   },
   {
     "question": "Why is it important to avoid entrapping the catheter in the sutures during closure?",
@@ -15162,10 +14942,6 @@
   {
     "question": "What could happen if the needle is not visible during suturing?",
     "answer": "Errors in needle placement or potential injury could occur if the needle is not visible during suturing."
-  },
-  {
-    "question": "Where can more information on laparotomy wound closure techniques be found?",
-    "answer": "More information can be found in the WHO Surgical Care at the District Hospital manual."
   },
   {
     "question": "What is the first step in closing the fascia during surgery?",
@@ -16976,14 +16752,6 @@
     "answer": "It is necessary to assure hemostasis to control bleeding and prevent complications."
   },
   {
-    "question": "Where can surgeons find guidance on the technique for incising the scalp during surgery?",
-    "answer": "Surgeons can find guidance in the Open Manual of Surgery in Resource-Limited Environments by Richard Davis and Gady Barutwanayo."
-  },
-  {
-    "question": "Under what type of license is the Open Manual of Surgery in Resource-Limited Environments released?",
-    "answer": "The manual is released under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "What is the role of the assistant in this surgical procedure?",
     "answer": "The assistant holds pressure on the opposite side with the non-dominant hand while using the Frazier suction to keep the field clear."
   },
@@ -17010,10 +16778,6 @@
   {
     "question": "What action is taken after the periosteum is elevated laterally with a periosteal elevator?",
     "answer": "The retractor is repositioned to hold the periosteum as well."
-  },
-  {
-    "question": "What is the burr and Hudson Brace used for in this procedure?",
-    "answer": "The burr and Hudson Brace are used to perforate the skull."
   },
   {
     "question": "Why is irrigation necessary during the skull perforation process?",
@@ -17080,14 +16844,6 @@
     "answer": "The primary objective is to avoid breaching the inner table of the skull to prevent complications."
   },
   {
-    "question": "What is the purpose of using a Kerrison rongeur in this procedure?",
-    "answer": "The purpose is to widen the defect in the skull."
-  },
-  {
-    "question": "How is the base of the burrhole widened in this procedure?",
-    "answer": "The Kerrison rongeur is used to make it a uniform width throughout."
-  },
-  {
     "question": "What is the typical width of the defect in the skull after using the Kerrison rongeur?",
     "answer": "The width is about 12-14mm."
   },
@@ -17098,10 +16854,6 @@
   {
     "question": "What type of rongeur is the Kerrison rongeur?",
     "answer": "The Kerrison rongeur is a side-biting rongeur."
-  },
-  {
-    "question": "What is the first step in using the Kerrison rongeur in this procedure?",
-    "answer": "The first step is passing it through the smaller defect at the base of the circular skull defect."
   },
   {
     "question": "What role does the perforator play in the creation of the burrhole?",
@@ -17944,14 +17696,6 @@
     "answer": "Healthcare professionals should encourage each other to respect patient rights, healthy team dynamics, and accountability."
   },
   {
-    "question": "Where can one find a more in-depth discussion on culture change related to healthcare settings?",
-    "answer": "One can find a more in-depth discussion on culture change in the \"Culture Change\" section of the manual."
-  },
-  {
-    "question": "Where can one access the \"Open Manual of Surgery in Resource-Limited Settings\"?",
-    "answer": "The \"Open Manual of Surgery in Resource-Limited Settings\" can be accessed at www.vumc.org/global-surgical-atlas."
-  },
-  {
     "question": "What type of skull fracture is demonstrated in the axial CT scan?",
     "answer": "A depressed frontal bone fracture is shown in the axial CT scan."
   },
@@ -18518,10 +18262,6 @@
   {
     "question": "Why should the reconstructed flap be fixed to the adjacent skull in surgery?",
     "answer": "The reconstructed flap should be fixed to ensure proper stabilization and healing."
-  },
-  {
-    "question": "Where can the full manual of surgery in resource-limited settings be accessed?",
-    "answer": "The full manual can be accessed at the specified website under the Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What factors should be considered when deciding whether to keep or discard an elevated flap in cranioplasty?",
@@ -19768,10 +19508,6 @@
     "answer": "The steps are performed in the sequence of midline laparotomy, pelvic pre-peritoneal packing, retroperitoneal dissection, and finally closure or management."
   },
   {
-    "question": "What is the purpose of ligation or clipping of the internal iliac artery in this procedure?",
-    "answer": "The purpose is to control bleeding and manage hemorrhage."
-  },
-  {
     "question": "What complications can arise during the preperitoneal packing and ligation procedure?",
     "answer": "The complications may include the risk of vascular injuries, infection, or other surgical complications."
   },
@@ -19864,10 +19600,6 @@
     "answer": "It is done to stop all bleeding."
   },
   {
-    "question": "How is the perivesical space accessed in the described procedure?",
-    "answer": "The perivesical space is accessed by manually separating the peritoneum from the inner aspects of the pubic symphysis and pelvic ring."
-  },
-  {
     "question": "What is done to the hematoma to create space for packing?",
     "answer": "The hematoma is evacuated to create space for packing."
   },
@@ -19952,10 +19684,6 @@
     "answer": "Pre-Peritoneal Pelvic Packing with Bilateral Ligation of Internal Iliac Arteries is the procedure involved."
   },
   {
-    "question": "What is the setting mentioned in the text where this procedure is carried out?",
-    "answer": "The text refers to a resource-limited setting."
-  },
-  {
     "question": "What does Pre-Peritoneal Pelvic Packing aim to treat?",
     "answer": "It aims to treat exsanguinating pelvic trauma hemorrhage."
   },
@@ -19970,10 +19698,6 @@
   {
     "question": "In the situation of a pelvic fracture, how does using a \"Bogota bag\" help maintain tension on fascia and pressure on packing within the pre-pelvic space?",
     "answer": "The closure with a \"Bogota bag\" maintains tension on the fascia and may maintain better pressure on the packing within the pre-pelvic space."
-  },
-  {
-    "question": "Where can further details on Temporary Abdominal Closure be found?",
-    "answer": "Further details on Temporary Abdominal Closure can be found in the chapter on the topic in the Manual."
   },
   {
     "question": "What precaution needs to be taken to avoid injuries during abdominal procedures?",
@@ -20010,10 +19734,6 @@
   {
     "question": "What is the potential impact of inadvertent ligation/clipping of external iliac arteries during surgery?",
     "answer": "Inadvertent ligation/clipping of external iliac arteries can lead to serious complications and should be avoided through careful dissection and vessel identification."
-  },
-  {
-    "question": "How should pulses in the bilateral lower limbs be checked?",
-    "answer": "Pulses in the bilateral lower limbs should be checked manually or using Doppler in hypotensive patients."
   },
   {
     "question": "How can iatrogenic ureter injuries be avoided during procedures?",
@@ -20066,14 +19786,6 @@
   {
     "question": "What may be a priority for some Department Chairs in certain centers?",
     "answer": "Financial stewardship and management of operative services may be a priority in some centers."
-  },
-  {
-    "question": "What is the focus of the manual of surgery in resource-limited settings?",
-    "answer": "The focus is on providing guidance for surgical practices in limited-resource environments."
-  },
-  {
-    "question": "Under what license is the work 'Open Manual of Surgery in Resource-Limited Settings' released?",
-    "answer": "Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What are some of the aspects that make being a Department Chair challenging?",
@@ -20276,16 +19988,8 @@
     "answer": "An overwhelming number of books on leadership, self-development, quality assurance, and adult education, as well as many online courses are available."
   },
   {
-    "question": "What type of license is the work available under in the Open Manual of Surgery in Resource-Limited Settings?",
-    "answer": "The work is available under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "Where can one find an overwhelming number of books on leadership and self-development?",
     "answer": "An overwhelming number of books on leadership, self-development, quality assurance, and adult education are available today, as well as many online courses."
-  },
-  {
-    "question": "Where can one find the \"Society of Surgical Chairs of the American College of Surgeons2023\" playbook?",
-    "answer": "The playbook can be found at https://www.facs.org/for-medical-professionals/news-publications/books-and-manuals/surgical-chairs-playbook."
   },
   {
     "question": "What is the \"Fundamental of Physician Leadership: Finance\" resource about?",
@@ -20574,10 +20278,6 @@
   {
     "question": "What should be done with large collateral veins found in the plane between the spleen and the lateral abdominal wall?",
     "answer": "Carefully ligate and divide each one individually."
-  },
-  {
-    "question": "Where can more information on this surgical technique be found?",
-    "answer": "More information can be found in the Manual of Surgery in Resource-Limited Settings."
   },
   {
     "question": "What can happen if veins are treated carelessly during surgery?",
@@ -21286,10 +20986,6 @@
   {
     "question": "Why is it important to take care to preserve the cord structures during the procedure?",
     "answer": "Preserving the cord structures is important to maintain their integrity and function."
-  },
-  {
-    "question": "What instruments are typically used to sharply divide the external oblique fascia in this procedure?",
-    "answer": "Pushed scissors are typically used to sharply divide the external oblique fascia."
   },
   {
     "question": "What anatomical structures are dissected off the cord during the procedure?",
@@ -22916,10 +22612,6 @@
     "answer": "20-30cc of air is used to inflate the balloon."
   },
   {
-    "question": "What type of x-ray is taken with a fluoroscopy machine in this procedure?",
-    "answer": "A single shot x-ray is taken."
-  },
-  {
     "question": "What pressure range is maintained using the sphygmomanometer device?",
     "answer": "The pressure is maintained between 80 and 100mmHg, not exceeding 120mmHg."
   },
@@ -22932,14 +22624,6 @@
     "answer": "The movement of the meniscus is indicated by the arrow on the fluoroscopy."
   },
   {
-    "question": "What is the goal of taking a single shot x-ray and instilling air in this procedure?",
-    "answer": "The goal is related to observing the movement of the meniscus."
-  },
-  {
-    "question": "Why is the movement of the meniscus significant in this procedure?",
-    "answer": "The movement of the meniscus is significant for assessing or monitoring a specific condition or process."
-  },
-  {
     "question": "Why is continuous fluoroscopy used during the procedure?",
     "answer": "Continuous fluoroscopy is used to monitor the meniscus movement during the instillation of air."
   },
@@ -22950,10 +22634,6 @@
   {
     "question": "What is the rule of threes for instilling air during pneumatic reduction for intussusception?",
     "answer": "The rule of threes states to instill air for three minutes at a time, with 3-minute breaks in between, and make 3 different attempts."
-  },
-  {
-    "question": "How should residual air be evacuated between reduction attempts?",
-    "answer": "Residual air should be evacuated either manually or via the Foley catheter by gently compressing the abdomen while maintaining rectal patency with the other hand."
   },
   {
     "question": "What does a sudden increase in abdominal distention with failure to evacuate air suggest during pneumatic reduction for intussusception?",
@@ -23580,10 +23260,6 @@
     "answer": "Local anesthesia should be infiltrated into and around the planned incision site."
   },
   {
-    "question": "How is the incision made in this procedure?",
-    "answer": "A short transverse incision is applied along a skin crease, 1-2cm above the clavicle, and 1-2cm lateral to the anterior border of the sternocleidomastoid muscle."
-  },
-  {
     "question": "What landmarks are used to determine the location of the incision?",
     "answer": "The incision site is located where the clavicular and sternal heads of the sternocleidomastoid muscle diverge."
   },
@@ -23630,10 +23306,6 @@
   {
     "question": "What type of clamp is recommended for delivering the isolated internal jugular vein into the field?",
     "answer": "A fine-tipped mosquito clamp is recommended for delivering the isolated internal jugular vein."
-  },
-  {
-    "question": "What is the purpose of isolating the internal jugular vein in this procedure?",
-    "answer": "The purpose is to establish access for venous procedures."
   },
   {
     "question": "What is the purpose of inserting two 4-0 Silk or Vicryl ties using a clamp?",
@@ -23684,10 +23356,6 @@
     "answer": "There should be no resistance or bulging around the insertion site."
   },
   {
-    "question": "Where is the catheter typically inserted in this procedure?",
-    "answer": "The catheter is inserted into the internal jugular vein."
-  },
-  {
     "question": "How should the tube be anchored after insertion?",
     "answer": "The tube should be anchored using the proximally-placed suture."
   },
@@ -23706,10 +23374,6 @@
   {
     "question": "How can future leaks or loosening of a tube be prevented during the procedure?",
     "answer": "Future leaks or loosening of the tube may be prevented by creating a secure knot, passing one end of the suture underneath the vessel, and reinforcing the tube tie with a second knot."
-  },
-  {
-    "question": "What type of approach is used to close the wound in this procedure?",
-    "answer": "An interrupted subdermal approach with 4-0 Vicryl sutures is used to close the wound."
   },
   {
     "question": "What additional step can be taken to further secure the tube in place after closing the wound?",
@@ -24040,16 +23704,8 @@
     "answer": "A right-handed surgeon may prefer to stand on the left side of the patient to aid during enucleation of the adenoma, but this is not mandatory."
   },
   {
-    "question": "What is the purpose of using electrocautery in this procedure?",
-    "answer": "Electrocautery is used to dissect through the subcutaneous tissue."
-  },
-  {
     "question": "What is incised to allow separation of the rectus abdominis muscles in the midline?",
     "answer": "The linea alba is incised to allow separation of the rectus abdominis muscles in the midline."
-  },
-  {
-    "question": "How is the space of Retzius exposed in this procedure?",
-    "answer": "The transversalis fascia is incised sharply or with electrocautery to expose the space of Retzius."
   },
   {
     "question": "What is done after dividing the linea alba between the rectus muscles?",
@@ -24376,10 +24032,6 @@
     "answer": "The key steps include inflating the Foley catheter, optional rectus muscle approximation, and closing the fascia with sutures."
   },
   {
-    "question": "Where can detailed surgical resources on transvesical prostatectomy be found?",
-    "answer": "Detailed surgical resources can be found in the Open Manual of Surgery in Resource-Limited Settings."
-  },
-  {
     "question": "Why is only closure of the anterior layer necessary below the umbilicus?",
     "answer": "Only the anterior layer needs to be closed because there is no posterior rectus sheath below the umbilicus."
   },
@@ -24694,10 +24346,6 @@
   {
     "question": "What happens if an iron foreign body in the cornea is not removed within several hours?",
     "answer": "If not removed promptly, iron foreign bodies can result in the formation of a \"rust ring.\""
-  },
-  {
-    "question": "How can \"rust rings\" from iron foreign bodies in the cornea be managed?",
-    "answer": "\"Rust rings\" can self-resolve over time or be manually shaved away as the stroma regenerates."
   },
   {
     "question": "What risks do infections and rust rings pose in cases of corneal foreign bodies?",
@@ -25886,10 +25534,6 @@
   {
     "question": "What does the course of the ureters in relation to surrounding anatomy show?",
     "answer": "The course of the ureters in relation to surrounding anatomy is depicted by black arrows in the illustration."
-  },
-  {
-    "question": "Where can the manual of surgery in resource-limited settings be accessed?",
-    "answer": "The manual of surgery in resource-limited settings can be accessed at www.vumc.org/global-surgical-atlas."
   },
   {
     "question": "Why is careful tissue handling of the ureter essential during surgery?",
@@ -27336,10 +26980,6 @@
     "answer": "It causes a bulging eyeball or exophthalmos as the globe moves outward."
   },
   {
-    "question": "Where can further information on the approach to maxillofacial fractures be found?",
-    "answer": "Further information can be found in the Manual of Surgery in Resource-Limited Settings."
-  },
-  {
     "question": "What type of fracture can prevent the patient from closing their mouth due to contact with the coronoid process of the mandible?",
     "answer": "A depressed zygomatic arch fracture."
   },
@@ -27610,10 +27250,6 @@
   {
     "question": "How is a retrobulbar hematoma usually diagnosed?",
     "answer": "A retrobulbar hematoma is usually diagnosed through a CT scan."
-  },
-  {
-    "question": "Where can the diagnosis and treatment of a retrobulbar hematoma be found?",
-    "answer": "The diagnosis and treatment can be found in another chapter of the manual."
   },
   {
     "question": "Within what timeframe should fractures causing entrapment of the periorbital fat be repaired?",
@@ -27892,28 +27528,8 @@
     "answer": "Precautions should be taken to ensure the head is resting solidly on the head ring and cannot be rotated or extended further to avoid iatrogenic injury."
   },
   {
-    "question": "What is the recommended table rotation for this procedure?",
-    "answer": "The table should be rotated 90 degrees away from the anesthesia station to allow the surgeon room to maneuver."
-  },
-  {
-    "question": "How should the table be adjusted for this procedure?",
-    "answer": "The table should be raised to a comfortable height or the surgeon can sit on a stool."
-  },
-  {
     "question": "What is the purpose of rotating the table away from the anesthesia station?",
     "answer": "Rotating the table allows the surgeon room to maneuver during the procedure."
-  },
-  {
-    "question": "What are the key elements of patient positioning for this procedure?",
-    "answer": "The key elements include neck extension with a head ring and shoulder roll and raising the table to a comfortable height or sitting on a stool."
-  },
-  {
-    "question": "How is the instrument passed through the patient's body in this procedure?",
-    "answer": "The straight instrument is passed through the mouth, down the esophagus to the gastroesophageal junction."
-  },
-  {
-    "question": "Why is it important to adjust the table height or sit on a stool for this procedure?",
-    "answer": "It is important for the surgeon's comfort and ability to perform the procedure effectively."
   },
   {
     "question": "How should the scope be inserted through the mouth for examination?",
@@ -28876,10 +28492,6 @@
     "answer": "A manifold is used to reduce the pressure from 2000 psi down to an appropriate line pressure of 55 psi."
   },
   {
-    "question": "Under what license is the work on the open manual of surgery in resource-limited settings published?",
-    "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "What should healthcare professionals do to minimize radiation exposure risks in the absence of lead aprons or lead walls?",
     "answer": "Healthcare professionals should maintain a safe distance from the radiation source to minimize exposure risks."
   },
@@ -28996,10 +28608,6 @@
     "answer": "Patients should be moved to beds served by the concentrator."
   },
   {
-    "question": "What is the license under which the Open Manual of Surgery in Resource-Limited Settings is released?",
-    "answer": "The manual is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "How is suction usually created in a vacuum system?",
     "answer": "Suction is usually created by negative pressure using a vacuum system."
   },
@@ -29046,10 +28654,6 @@
   {
     "question": "How does the piped vacuum system ensure safety and functionality through its setup?",
     "answer": "The system ensures safety and functionality through features like backup pumps, emergency electrical supply capability, pressure maintenance by the receiver, and Y connectors for vacuum inlets."
-  },
-  {
-    "question": "What are the power sources for portable suction devices?",
-    "answer": "Portable suction devices can be electrically powered or manually powered."
   },
   {
     "question": "What feature should portable suction devices have to control the amount of negative pressure?",
@@ -29110,10 +28714,6 @@
   {
     "question": "What type of repair is needed for the plastic suction canister to maintain suction after multiple uses?",
     "answer": "\"Patchwork\" repair is needed for the plastic suction canister to maintain suction after multiple uses."
-  },
-  {
-    "question": "Where can one find more information about operating theatre setup in resource-limited settings?",
-    "answer": "More information can be found in the Manual of Surgery in Resource-Limited Settings on the provided website."
   },
   {
     "question": "Are canisters recommended for use in low-resource settings?",
@@ -29732,10 +29332,6 @@
     "answer": "It is important for anesthesia machines to deliver normoxic mixtures to ensure patient safety in the setting of a leak or failure."
   },
   {
-    "question": "What is the manual of surgery in resource-limited settings used for?",
-    "answer": "The manual of surgery in resource-limited settings is used to help determine if an anesthesia machine is obsolete."
-  },
-  {
     "question": "What are the absolute criteria that an anesthesia machine must meet to be used?",
     "answer": "The absolute criteria include DISS for gas pipeline inlets, Pin Index Safety System, vaporizer interlocking device, oxygen supply pressure failure alarm, oxygen failsafe device, and oxygen ratio device for machines that use N2O."
   },
@@ -30096,10 +29692,6 @@
     "answer": "The key principles involve open placement of the first trocar through the Hasson technique, and percutaneous placement of subsequent trocars under direct laparoscopic visualization."
   },
   {
-    "question": "Where can more detailed information about laparoscopic trocar positioning and placement be found?",
-    "answer": "More information can be found in the Manual of Surgery in Resource-Limited Settings website."
-  },
-  {
     "question": "Where is the preferred position for open trocar placement in a patient with no previous abdominal surgeries?",
     "answer": "The preferred position is supraumbilical."
   },
@@ -30190,10 +29782,6 @@
   {
     "question": "How is the preperitoneal space and peritoneum entered following the division of the fascia?",
     "answer": "The preperitoneal space and peritoneum are entered bluntly with the small finger after the fascia has been divided."
-  },
-  {
-    "question": "What is diathermy typically used for in this procedure?",
-    "answer": "Diathermy is typically used to divide the fascia."
   },
   {
     "question": "Why is it important to probe the intraperitoneal space during the entry process?",
@@ -30644,10 +30232,6 @@
     "answer": "Trauma patients are assumed to have a cervical spine injury until it is ruled out either by physical exam or imaging."
   },
   {
-    "question": "What is the recommended position for the patient's neck when a cervical spine injury is suspected?",
-    "answer": "The neck should be maintained in a neutral position at all times using a properly placed cervical collar or manual in-line stabilization."
-  },
-  {
     "question": "Why can intubation be difficult in patients with suspected cervical spine injuries?",
     "answer": "Intubation can be difficult due to the need to keep the neck in a neutral position, which can make intubation difficult or sometimes impossible."
   },
@@ -30996,10 +30580,6 @@
     "answer": "Suction equipment, personal protective equipment, stethoscope, vascular access, breathing circuit with oxygen cylinder, and surgical airway equipment are necessary for intubation."
   },
   {
-    "question": "What roles are typically assigned in airway management during trauma?",
-    "answer": "Roles include intubating, injecting medications, holding cricoid pressure, and providing manual in-line stabilization."
-  },
-  {
     "question": "How are blunt trauma patients treated regarding cervical spine injury until proven otherwise?",
     "answer": "Blunt trauma patients are assumed to have cervical spine injury until proven otherwise."
   },
@@ -31338,10 +30918,6 @@
   {
     "question": "How does dividing the middle thyroid vein impact the ability to rotate the thyroid gland medially during thyroidectomy?",
     "answer": "Dividing the middle thyroid vein allows for the rotation of the thyroid gland medially while preserving its blood supply via the inferior and superior thyroid vessels."
-  },
-  {
-    "question": "Under what license is the work \"OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS\" published?",
-    "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What is the purpose of exploring the neck during thyroidectomy?",
@@ -31888,10 +31464,6 @@
     "answer": "A central subcostal incision is sometimes preferred for the abdominal part of esophagectomy."
   },
   {
-    "question": "How is the subcostal incision licensed in the OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS?",
-    "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "Where can more information about the subcostal incision be found?",
     "answer": "More information can be found at www.vumc.org/global-surgical-atlas."
   },
@@ -32014,10 +31586,6 @@
   {
     "question": "What instrument is suggested for dividing the rectus muscle in the procedure?",
     "answer": "Diathermy is suggested for dividing the rectus muscle."
-  },
-  {
-    "question": "What is the role of the linea alba in this procedure?",
-    "answer": "The linea alba is used as an entry point to the peritoneum in the procedure."
   },
   {
     "question": "What are some common points of bleeding in the described procedure?",
@@ -32736,10 +32304,6 @@
     "answer": "The procedure is performed to create a shunt to relieve pressure or obstruction."
   },
   {
-    "question": "What is the initial step in managing detumescence in this procedure?",
-    "answer": "The initial step is to make a parallel incision into one corporal body and irrigate the blood."
-  },
-  {
     "question": "What is the next step if detumescence is not achieved after the initial incision?",
     "answer": "If detumescence is not achieved, bilateral incisions are performed."
   },
@@ -33020,10 +32584,6 @@
     "answer": "By managing resources effectively, the surgeon was able to make valuable allies along the way and safely manage all the resources under his care."
   },
   {
-    "question": "Where can additional information on surgery in resource-limited settings be found?",
-    "answer": "Additional information on surgery in resource-limited settings can be found in the Open Manual of Surgery in Resource-Limited Settings at www.vumc.org/global-surgical-atlas."
-  },
-  {
     "question": "What is highlighted as a strength rather than a weakness when it comes to the behavior of a leader towards the operating theater team?",
     "answer": "Kindness, when appropriately applied by a leader, is considered a strength rather than a weakness."
   },
@@ -33268,10 +32828,6 @@
     "answer": "Most of the time, it is simply misreading the situation."
   },
   {
-    "question": "Where can the Open Manual of Surgery in Resource-Limited Settings be accessed?",
-    "answer": "The Open Manual of Surgery in Resource-Limited Settings can be accessed at www.vumc.org/global-surgical-atlas."
-  },
-  {
     "question": "What question do people under the leadership have to consider about promotions and work trips?",
     "answer": "People under the leadership have to consider whether promotions or work trips will really be good for their career."
   },
@@ -33408,10 +32964,6 @@
     "answer": "Repositioning and placing an oral airway are recommended interventions for managing airway obstruction during bag-mask ventilation."
   },
   {
-    "question": "Who manually ventilates the patient during the two-handed 'EC' technique?",
-    "answer": "An assistant manually ventilates the patient during the two-handed 'EC' technique."
-  },
-  {
     "question": "Why is it crucial to use an appropriately sized oral airway?",
     "answer": "Using the correct size oral airway is essential to prevent worsening airway obstruction or occluding the glottic opening."
   },
@@ -33494,10 +33046,6 @@
   {
     "question": "How can effective ventilation be achieved without using a nasal airway?",
     "answer": "Effective ventilation can be achieved by utilizing the one-handed EC clamp technique with or without an oral or nasopharyngeal airway."
-  },
-  {
-    "question": "In what setting is the use of nasal airways and bag-valve masks discussed?",
-    "answer": "The use of nasal airways and bag-valve masks is discussed in the Open Manual of Surgery in Resource-Limited Settings."
   },
   {
     "question": "Why is effective ventilation critical during airway management?",
@@ -33996,10 +33544,6 @@
     "answer": "The availability of videolaryngoscopy has decreased the need for traditional intubation techniques."
   },
   {
-    "question": "Where can further information on airway management in resource-limited settings be found?",
-    "answer": "Further information can be found in the Manual of Surgery in Resource-Limited Settings."
-  },
-  {
     "question": "What advantage does a unique videolaryngoscope blade offer for intubation?",
     "answer": "It allows intubation in patients (especially those with anterior vocal cords) who cannot be intubated with direct laryngoscopy."
   },
@@ -34042,10 +33586,6 @@
   {
     "question": "What should an awake patient be asked to do after receiving lignocaine solution in the mouth?",
     "answer": "The patient should be asked to gargle the lignocaine solution prior to swallowing if they are able to follow commands."
-  },
-  {
-    "question": "Why is it important for an awake patient to be cooperative during this procedure?",
-    "answer": "It is important for the patient to be cooperative to facilitate the process and ensure safety."
   },
   {
     "question": "What is the purpose of using a laryngoscope in the procedure?",
@@ -34136,16 +33676,8 @@
     "answer": "Components include technical skills obtained through supervised practice."
   },
   {
-    "question": "How can a neutral position be maintained in patients with cervical trauma during intubation?",
-    "answer": "A neutral position can be maintained through manual in-line stabilization or by leaving the cervical collar in place."
-  },
-  {
     "question": "What issue may arise when leaving the cervical collar in place during intubation?",
     "answer": "Leaving the cervical collar in place may make mouth opening difficult."
-  },
-  {
-    "question": "Where are the illustrations in the chapter on airway management sourced from?",
-    "answer": "The illustrations are from the Safe Anesthesia Training Manual by Lucille Bartholomeusz."
   },
   {
     "question": "Why is endotracheal intubation considered a life-saving skill?",
@@ -34328,10 +33860,6 @@
     "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
-    "question": "Where can the full \"Anterolateral Retroperitoneal Incision\" manual be accessed?",
-    "answer": "The manual can be accessed on www.vumc.org/global-surgical-atlas."
-  },
-  {
     "question": "What is the first action taken after the skin incision in this surgical procedure?",
     "answer": "The first action is to divide the subcutaneous fat including Scarpa’s fascia."
   },
@@ -34342,10 +33870,6 @@
   {
     "question": "Why should the external oblique aponeurosis be divided sharply with scalpel and scissors near the inguinal canal?",
     "answer": "To avoid injury to the ilioinguinal or iliohypogastric nerves."
-  },
-  {
-    "question": "How is the anterior superior iliac spine identified during this procedure?",
-    "answer": "The anterior superior iliac spine is indicated by a red dot."
   },
   {
     "question": "How is the inguinal fold indicated in the surgical procedure?",
@@ -34466,10 +33990,6 @@
   {
     "question": "What is the role of the retractor indicated by the red dot?",
     "answer": "The retractor indicated by the red dot retracts the peritoneum superomedially."
-  },
-  {
-    "question": "What is the subject of Richard Davis's work on surgery?",
-    "answer": "Richard Davis's work is on an open manual of surgery in resource-limited settings."
   },
   {
     "question": "What type of incision is referred to as anterolateral retroperitoneal?",
@@ -34940,14 +34460,6 @@
     "answer": "The left side is \"airplaned\" upwards during the Reverse Trendelenburg position."
   },
   {
-    "question": "Where can the Open Manual of Surgery in Resource-Limited Settings be found?",
-    "answer": "The Open Manual of Surgery in Resource-Limited Settings can be found at www.vumc.org/global-surgical-atlas."
-  },
-  {
-    "question": "Under what license is the work Open Manual of Surgery in Resource-Limited Settings released?",
-    "answer": "The work is released under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "What position can cause a brachial plexus injury when the patient slides down and hyperextends the arms?",
     "answer": "The Reverse Trendelenburg position with arms abducted can cause a brachial plexus injury."
   },
@@ -35112,10 +34624,6 @@
     "answer": "The steps include positioning, preparing, draping, and incising."
   },
   {
-    "question": "Where are individual vascular exposures described?",
-    "answer": "Individual vascular exposures are described in separate chapters of the Manual."
-  },
-  {
     "question": "Why is general anesthesia usually preferred in medical procedures?",
     "answer": "General anesthesia is typically preferred due to its effectiveness and ability to maintain patient comfort during the procedure."
   },
@@ -35126,10 +34634,6 @@
   {
     "question": "Why is it essential to provide optimal access to the injured vessel during surgery?",
     "answer": "Providing optimal access ensures that the surgical team can effectively address and repair the injured vessel."
-  },
-  {
-    "question": "Where can healthcare professionals find descriptions of individual vascular exposures?",
-    "answer": "Descriptions of individual vascular exposures are available in separate chapters of the Manual."
   },
   {
     "question": "What is the first step to gain adequate exposure of a target vessel?",
@@ -35320,10 +34824,6 @@
     "answer": "Extending the shunt ensures proper blood flow and connection between the vessels during the repair process."
   },
   {
-    "question": "Where can more information on surgical procedures in resource-limited settings be found?",
-    "answer": "More information can be found in the Open Manual of Surgery in Resource-Limited Settings at www.vumc.org/global-surgical-atlas."
-  },
-  {
     "question": "What licensing information is provided for the work on temporary vascular shunting?",
     "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
@@ -35494,10 +34994,6 @@
   {
     "question": "What is the purpose of temporary vascular shunting in the context of vascular injuries?",
     "answer": "Temporary vascular shunting helps prevent critical ischemia or stroke in cases of vascular injuries."
-  },
-  {
-    "question": "What type of license is the work on the open manual of surgery in resource-limited settings published under?",
-    "answer": "The work is published under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What is the process during definitive repair for an injured segment?",
@@ -35980,10 +35476,6 @@
     "answer": "The procedure for adult ulna length measurement can be found at the source: https://www.uhs.nhs.uk/Media/Southampton-Clinical-Research/Procedures/BRCProcedures/Procedure-for-adult-ulna-length.pdf"
   },
   {
-    "question": "What resource provides tables for estimating patient height from ulna length?",
-    "answer": "The tables for estimating patient height from ulna length are provided in the manual of surgery in resource-limited settings."
-  },
-  {
     "question": "What is the Z-score in the context of weight for children?",
     "answer": "The Z-score is a comparison of weight vs. age based on standard growth curves."
   },
@@ -35998,10 +35490,6 @@
   {
     "question": "What do the black, red, and green numbers on the weight for age curve represent?",
     "answer": "The numbers represent Z-scores derived from the weight for age curve."
-  },
-  {
-    "question": "Under what license is the Open Manual of Surgery in Resource-Limited Settings available?",
-    "answer": "The manual is available under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "Why is calf circumference measurement useful in assessing hospitalized elderly individuals?",
@@ -37316,30 +36804,6 @@
     "answer": "Proper adherence and placement of the graft may be affected if tension is not applied to the skin during the procedure."
   },
   {
-    "question": "How is tension held on the skin at the donor site during skin graft harvesting with a manual dermatome?",
-    "answer": "Tension is held using sponges with help from an assistant."
-  },
-  {
-    "question": "What is used to lubricate the skin before using a manual dermatome for skin graft harvesting?",
-    "answer": "Mineral Oil is used to lubricate the skin."
-  },
-  {
-    "question": "At what angle is the manual dermatome held on the skin during skin graft harvesting?",
-    "answer": "The manual dermatome is held at a 45-degree angle on the skin."
-  },
-  {
-    "question": "How is the manual dermatome moved on the skin during skin graft harvesting?",
-    "answer": "The dermatome is moved back and forth in a sawing motion while slowly advancing down the limb."
-  },
-  {
-    "question": "How does an assistant help during skin graft harvesting with a manual dermatome?",
-    "answer": "An assistant helps in holding tension on the skin at the donor site using sponges."
-  },
-  {
-    "question": "Why is the skin lubricated with Mineral Oil before using a manual dermatome for skin graft harvesting?",
-    "answer": "The skin is lubricated to facilitate the movement of the dermatome during harvesting."
-  },
-  {
     "question": "How should the machine be held when using a mechanical dermatome to harvest skin?",
     "answer": "The machine should be held at a 45-degree angle above the skin."
   },
@@ -37616,10 +37080,6 @@
     "answer": "It may be prudent to prepare both lower limbs and the abdomen in advance."
   },
   {
-    "question": "What are the common components of all dermatomes, whether mechanical or manual?",
-    "answer": "The common components are the blade, the guard, and the ability to adjust the distance between them."
-  },
-  {
     "question": "What is the function of the blade in a dermatome?",
     "answer": "The blade moves side to side to cut the skin."
   },
@@ -37634,10 +37094,6 @@
   {
     "question": "What precaution should be taken if many grafts are taken with the same blade during an operation?",
     "answer": "The blade may become dull, so it should be replaced if needed."
-  },
-  {
-    "question": "Whose responsibility is it to ensure the dermatome is in perfect functioning order?",
-    "answer": "It is the surgeon's responsibility to ensure that the dermatome, whether mechanical or manual, is in perfect functioning order."
   },
   {
     "question": "What are the consequences of a skin graft being too thin?",
@@ -38142,10 +37598,6 @@
   {
     "question": "What course is referred to for teaching principles of patient management?",
     "answer": "The Advanced Trauma Life Support (ATLS) course is referred to for teaching principles of patient management."
-  },
-  {
-    "question": "Under what license is the Manual of Surgery in Resource-Limited Settings released?",
-    "answer": "The manual is released under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What factors influence the ease of mobilizing personnel in different healthcare settings?",
@@ -38936,10 +38388,6 @@
     "answer": "Gastrointestinal complaints can include constipation, gastric ulcers, and worsening acid reflux."
   },
   {
-    "question": "Where can more information on the surgical approach to parathyroid disease be found?",
-    "answer": "More information can be found in the Open Manual of Surgery in Resource-Limited Settings under the Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "What triggers the release of parathyroid hormone?",
     "answer": "Parathyroid hormone is released in response to hypocalcemia or hyperphosphatemia by the parathyroid glands."
   },
@@ -39604,10 +39052,6 @@
     "answer": "Confirmation of the hyperparathyroidism diagnosis warrants surgical planning."
   },
   {
-    "question": "Where is the situation of the workup for hyperparathyroidism discussed?",
-    "answer": "The situation is discussed elsewhere in the manual."
-  },
-  {
     "question": "Why is a meticulous neck exploration by an experienced surgeon preferred for hyperparathyroidism?",
     "answer": "A meticulous neck exploration by an experienced surgeon is better than any imaging."
   },
@@ -39638,10 +39082,6 @@
   {
     "question": "What is the main goal in treating secondary and tertiary hyperparathyroidism?",
     "answer": "The main goal is to \"debulk\" the patient's hypertrophic parathyroid glands."
-  },
-  {
-    "question": "How many parathyroid glands are typically removed in this procedure?",
-    "answer": "3½ out of the four glands are typically removed."
   },
   {
     "question": "What are the options for the remaining parathyroid tissue after gland removal?",
@@ -39976,10 +39416,6 @@
     "answer": "Compression with an elastic bandage can be used."
   },
   {
-    "question": "When do some prefer to place autograft during this procedure?",
-    "answer": "Some prefer to place autograft prior to releasing the tourniquet."
-  },
-  {
     "question": "How are any residual areas of bleeding controlled after the tourniquet is released?",
     "answer": "Any residual areas of bleeding are controlled with sutures or cautery as needed."
   },
@@ -40064,10 +39500,6 @@
     "answer": "A depth of 10/1000 to 15/1000 of an inch (0.25-0.4 mm) is usually chosen for a graft."
   },
   {
-    "question": "How is skin obtained in skin grafting procedures?",
-    "answer": "Skin is obtained using a manual or powered dermatome."
-  },
-  {
     "question": "Why is skin frequently meshed in skin grafting procedures?",
     "answer": "Meshing the skin graft expands the graft, increases the area that can be covered, and reduces the risk of seroma and hematoma formation."
   },
@@ -40150,10 +39582,6 @@
   {
     "question": "Who maintains tension on the skin during the harvesting of a skin graft?",
     "answer": "An assistant maintains tension on the skin."
-  },
-  {
-    "question": "What tool is being used to harvest skin in this case?",
-    "answer": "A manual dermatome is being used to harvest skin."
   },
   {
     "question": "How is the graft secured to the wound after harvesting?",
@@ -40338,10 +39766,6 @@
   {
     "question": "What can happen if a wound is located in an area where adjacent skin cannot stretch to fill the wound?",
     "answer": "The wound contraction can lead to contracture in such cases."
-  },
-  {
-    "question": "How are burn contractures typically addressed in the manual?",
-    "answer": "Treatment of burn contractures is addressed in a separate chapter of the manual."
   },
   {
     "question": "When are small burns excised primarily?",
@@ -40718,10 +40142,6 @@
   {
     "question": "What is the purpose of using plastic arm holders in the prone position?",
     "answer": "The purpose is to allow the arms to rest comfortably at the patient's side."
-  },
-  {
-    "question": "Where can additional information on the prone position be found?",
-    "answer": "Additional information can be found in the Open Manual of Surgery in Resource-Limited Settings."
   },
   {
     "question": "Under what license is the work on the prone position in resource-limited settings?",
@@ -42292,10 +41712,6 @@
     "answer": "The injured extremity index (IEI) is the ratio of the systolic pressure of the injured extremity to an uninjured one, and it is important for assessing extremity vascular injury."
   },
   {
-    "question": "What equipment is used to measure the injured extremity index (IEI)?",
-    "answer": "A manual blood pressure cuff and a doppler ultrasound are used to measure the injured extremity index (IEI)."
-  },
-  {
     "question": "What was the injured extremity index (IEI) measurement previously known as, and how is it calculated?",
     "answer": "The injured extremity index (IEI) was previously known as the Ankle-Brachial Index (ABI), and it is calculated by measuring the systolic blood pressure of the injured limb divided by the systolic pressure of a normal limb."
   },
@@ -42672,10 +42088,6 @@
     "answer": "Fasciotomy should be liberally used in extremities with vascular injury."
   },
   {
-    "question": "Where can more information about the procedure be found?",
-    "answer": "More information about the procedure can be found in another chapter of the Manual."
-  },
-  {
     "question": "When was the document published?",
     "answer": "The document was published in November 2023."
   },
@@ -42888,14 +42300,6 @@
     "answer": "The psoas muscle is identified and exposed as part of the procedure."
   },
   {
-    "question": "Why is a longitudinal cystotomy made off midline in this procedure?",
-    "answer": "A longitudinal cystotomy is made off midline to push the bladder towards the psoas muscle for an effective psoas hitch."
-  },
-  {
-    "question": "How is the bladder manipulated to ensure a psoas hitch in this procedure?",
-    "answer": "The bladder is manipulated by placing a hand in it to push it towards the psoas muscle."
-  },
-  {
     "question": "What is the purpose of making the longitudinal cystotomy convertible into a Boari flap?",
     "answer": "The purpose is to have the option available if needed."
   },
@@ -42948,10 +42352,6 @@
     "answer": "The length should be longer as it will contract due to vasospasm and edema."
   },
   {
-    "question": "What is the purpose of performing a Boari flap in this procedure?",
-    "answer": "The Boari flap can address the issue of the bladder not reaching the healthy ureter without tension."
-  },
-  {
     "question": "How do you know where to place the pedicle of the U-shaped flap on the bladder?",
     "answer": "The pedicle should be at the cranial-most aspect of the bladder in the marked U-shaped flap."
   },
@@ -42964,10 +42364,6 @@
     "answer": "The tip of the \"U\" should be towards the bladder neck in the marked U-shaped flap on the bladder surface."
   },
   {
-    "question": "Why might a psoas hitch be insufficient, and a Boari flap necessary in this procedure?",
-    "answer": "A psoas hitch might not resolve the issue of bladder reaching the healthy ureter without tension, leading to the need for a Boari flap."
-  },
-  {
     "question": "What is the significance of the width of a flap in surgical procedures like ureteroneocystostomy?",
     "answer": "The width of the flap should be at least half the length to ensure adequate blood supply."
   },
@@ -42978,10 +42374,6 @@
   {
     "question": "What license is the work regarding surgical procedures in resource-limited settings published under?",
     "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
-    "question": "Where can one find more information on the manual of surgery in resource-limited settings?",
-    "answer": "More information can be found on www.vumc.org/global-surgical-atlas."
   },
   {
     "question": "What are the components of the detrusor flap?",
@@ -43304,10 +42696,6 @@
     "answer": "The hernia sac needs to be dissected from other cord structures, including the vas deferens, testicular artery, pampiniform venous plexus, and cremaster muscles."
   },
   {
-    "question": "What type of forceps is typically used during pediatric inguinal hernia repair?",
-    "answer": "A fine-toothed (Adson) forceps is used for this procedure."
-  },
-  {
     "question": "How is the cord separated from the sac during the procedure?",
     "answer": "The forceps are kept open, and the tissues are hooked with one of the teeth to separate the cord from the sac."
   },
@@ -43378,10 +42766,6 @@
   {
     "question": "How many sutures are typically needed for the entire pediatric inguinal hernia repair procedure?",
     "answer": "Only one suture is needed for the entire case."
-  },
-  {
-    "question": "Where can the complete manual of surgery in resource-limited settings be found?",
-    "answer": "The complete manual can be found on the Global Surgical Atlas website."
   },
   {
     "question": "What type of stitches are used in Scarpa's fascia during pediatric inguinal hernia repair?",
@@ -43720,10 +43104,6 @@
     "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
-    "question": "What kind of settings is the \"Manual of Surgery in Resource-Limited Settings\" aimed at?",
-    "answer": "The manual is aimed at resource-limited settings."
-  },
-  {
     "question": "What is the potential consequence of recurrent laryngeal nerve injury during parathyroid surgery?",
     "answer": "Recurrent laryngeal nerve injury can lead to significant voice changes in the patient, which may sometimes be permanent."
   },
@@ -43942,10 +43322,6 @@
   {
     "question": "What is the direction of suturing for the posterior inner layer by Surgeon A?",
     "answer": "Surgeon A continues the posterior inner layer suturing towards themselves."
-  },
-  {
-    "question": "Where can one find this surgical procedure detailed?",
-    "answer": "This information can be found in the Open Manual of Surgery in Resource-Limited Settings."
   },
   {
     "question": "What should the surgeon be mindful of as the running suture nears the edge of the bowel?",
@@ -44202,10 +43578,6 @@
   {
     "question": "What is the purpose of using two separate layers of sutures in an anastomosis?",
     "answer": "Using two separate layers of sutures creates an anastomosis that is inverted on itself circumferentially, providing structural integrity."
-  },
-  {
-    "question": "Where can more information about the surgical technique for placing sutures during intestinal anastomosis be found?",
-    "answer": "More information about the surgical technique for intestinal anastomosis can be found in the OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS by Richard Davis."
   },
   {
     "question": "Under what license is the work describing the surgical technique for intestinal anastomosis distributed?",
@@ -44736,28 +44108,12 @@
     "answer": "The placenta should be delivered with gentle traction on the clamp on the umbilical cord and fundal uterine massage."
   },
   {
-    "question": "Why should manual removal of the placenta be avoided unless necessary?",
-    "answer": "Manual removal should be avoided due to the increased risk of infection and blood loss."
-  },
-  {
     "question": "What are the options for closing the hysterotomy after placenta delivery?",
     "answer": "The surgeon can choose to either exteriorize the uterus to close the hysterotomy or repair the uterus in situ."
   },
   {
-    "question": "What are the risks of manual removal of the placenta?",
-    "answer": "Manual removal can increase the risk of infection and blood loss."
-  },
-  {
-    "question": "Why is manual removal of the placenta discouraged unless needed for bleeding control?",
-    "answer": "Manual removal is discouraged due to the risks involved, such as infection and increased blood loss."
-  },
-  {
     "question": "What factors might influence the surgeon's decision to exteriorize the uterus or repair it in situ?",
     "answer": "The surgeon's decision may be influenced by individual case considerations and personal preference."
-  },
-  {
-    "question": "What complications can arise from manual removal of the placenta?",
-    "answer": "Complications from manual removal can include increased risk of infection and blood loss."
   },
   {
     "question": "How does the choice between exteriorizing the uterus and repairing it in situ impact the surgical procedure?",
@@ -44794,10 +44150,6 @@
   {
     "question": "What can be done if the uterus is exteriorized during the procedure of placing the second layer of suture?",
     "answer": "The uterus can be returned to the abdomen."
-  },
-  {
-    "question": "Under what type of license is the work from the Open Manual of Surgery in Resource-Limited Settings released?",
-    "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What is depicted in the image titled 'Closing the first layer of the hysterotomy' by Hiramatsu Yuji?",
@@ -44908,10 +44260,6 @@
     "answer": "They can assist by applying pressure from below on the fetal head to elevate it if needed."
   },
   {
-    "question": "How can the surgeon performing the Cesarean attempt to disengage the fetal head manually?",
-    "answer": "The surgeon can attempt to disengage the fetal head manually either prior to starting the Cesarean or after an initial delivery attempt."
-  },
-  {
     "question": "When should a second person disengage the fetal head from below during Cesarean?",
     "answer": "Disengagement should be done after the surgery has started and when help is deemed necessary by the operating surgeon."
   },
@@ -44938,10 +44286,6 @@
   {
     "question": "How does the push method work in assisting with delivery?",
     "answer": "An assistant uses a gloved hand to apply even pressure on the fetal head vaginally while the operating surgeon elevates the head out of the pelvis for delivery."
-  },
-  {
-    "question": "What is the role of the assistant in the push method?",
-    "answer": "The assistant provides pressure from below to manually disengage an impacted fetal head."
   },
   {
     "question": "Why is it better to use the palm of the hand in the push method instead of fingers?",
@@ -46052,14 +45396,6 @@
     "answer": "Connecting the inferior burr holes last reduces the risk of injury to the middle meningeal artery and lowers the chance of a dural tear at this location."
   },
   {
-    "question": "What is the purpose of using cold saline irrigation during this procedure?",
-    "answer": "Cold saline irrigation is used to reduce the heat generated while cutting the bone."
-  },
-  {
-    "question": "What components does the power drill used in this procedure have?",
-    "answer": "The power drill is equipped with a rotating blade and a foot."
-  },
-  {
     "question": "What tool is used to cut bone between burr holes?",
     "answer": "An electrical drill and a gigli saw are used."
   },
@@ -46684,10 +46020,6 @@
     "answer": "One should be mindful of the pylorus to avoid damaging surrounding structures."
   },
   {
-    "question": "What is the goal of dividing the duodenum during this procedure?",
-    "answer": "The goal is to divide the duodenum in an area distal to the pylorus and not tethered to the pancreas."
-  },
-  {
     "question": "What complications can arise if the stomach is divided instead of the duodenum?",
     "answer": "Continued gastrin secretion and \"Retained Antrum Syndrome\" can occur."
   },
@@ -47030,10 +46362,6 @@
   {
     "question": "What may be required multiple times during the division of the vascular arcade?",
     "answer": "Separate ligation of tissue may be required multiple times during the division of the vascular arcade."
-  },
-  {
-    "question": "Why is it important to measure a proximal margin from a gastric tumor in this procedure?",
-    "answer": "It is important to ensure appropriate margins during tumor resection."
   },
   {
     "question": "What is a potential challenge when dividing the vascular arcade of the lesser curvature?",
@@ -48868,10 +48196,6 @@
     "answer": "The cephalic curve of each side of the forceps engages the parietal bones."
   },
   {
-    "question": "What is the role of the Creative Commons Attribution-ShareAlike 3.0 Unported License in the context of the manual being referenced?",
-    "answer": "The license allows for sharing and adaptation of the open manual of surgery in resource-limited settings."
-  },
-  {
     "question": "Where can more information on Surgery at the District Hospital, Obstetrics, Gynecology, Orthopedics, and Traumatology be found?",
     "answer": "More information can be found at https://apps.who.int/iris/handle/10665/40002."
   },
@@ -49296,10 +48620,6 @@
     "answer": "It is reasonable to give prophylactic antibiotics for 3rd or 4th degree lacerations."
   },
   {
-    "question": "What are the options for managing an occiput transverse position during delivery?",
-    "answer": "The options include manually rotating the head, attempting forceps, or applying a vacuum."
-  },
-  {
     "question": "Where should the vacuum be placed during vacuum delivery?",
     "answer": "The vacuum should be placed on the flexion point of the fetal head."
   },
@@ -49492,10 +48812,6 @@
     "answer": "The divided gastroepiploic arcade and the omentum adjacent to the tumor are structures divided during the surgery."
   },
   {
-    "question": "Why can it be challenging to assess margins from outside the stomach during this procedure?",
-    "answer": "It can be difficult to assess the margins from outside the stomach."
-  },
-  {
     "question": "What might be a concern if the margins are challenging to assess during surgery?",
     "answer": "The concern might be incomplete removal of the tumor due to the difficulty in assessing margins."
   },
@@ -49662,14 +48978,6 @@
   {
     "question": "Why is an omental patch utilized in patients at risk for complications following gastric or esophageal surgery?",
     "answer": "An omental patch serves as a \"safety net\" to prevent further complications in these high-risk patients."
-  },
-  {
-    "question": "Where can the manual on partial \"Wedge\" Gastrectomy be found?",
-    "answer": "The manual can be found at www.vumc.org/global-surgical-atlas."
-  },
-  {
-    "question": "What is the license under which the manual on partial \"Wedge\" Gastrectomy is released?",
-    "answer": "The manual is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "In which hospital is Richard Davis affiliated?",
@@ -50040,10 +49348,6 @@
     "answer": "The supine position is preferred for optimal access and positioning during the procedure."
   },
   {
-    "question": "Why is a gentle curve included in this procedure?",
-    "answer": "A gentle curve is included to allow the flap to pass around, rather than directly anterior to, the shoulder."
-  },
-  {
     "question": "What position is the patient placed in for the procedure?",
     "answer": "The patient is placed in the lateral decubitus position."
   },
@@ -50212,10 +49516,6 @@
     "answer": "Further careful dissection revealed that the branches were from the thoracodorsal vessels and pointed towards the main thoracodorsal pedicle running into the muscle."
   },
   {
-    "question": "Where can the full details of this procedure be found?",
-    "answer": "The full details of the procedure can be found in Feng AL, et al. Plast Aesthet Res 2021;8:14."
-  },
-  {
     "question": "What is the recommended method for dividing muscle attachments to the scapula and teres major muscle at the medial portion of the latissimus dorsi?",
     "answer": "The recommended method is to divide them with diathermy."
   },
@@ -50374,10 +49674,6 @@
   {
     "question": "How does the skin paddle need to be harvested in relation to the latissimus dorsi muscle?",
     "answer": "All of the skin paddle should be harvested from directly above the latissimus dorsi muscle."
-  },
-  {
-    "question": "Where can further information be found about the surgery in resource-limited settings?",
-    "answer": "Further information can be found in the OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS at www.vumc.org/global-surgical-atlas."
   },
   {
     "question": "What should be done to protect the skin paddle during placement?",
@@ -51256,10 +50552,6 @@
     "answer": "Conditions in the upper airway that may necessitate tracheostomy include tumors, severe soft tissue infections or trauma, and some surgical interventions."
   },
   {
-    "question": "Where can the \"OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS\" be accessed?",
-    "answer": "The \"OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS\" can be accessed at www.vumc.org/global-surgical-atlas."
-  },
-  {
     "question": "Why would a surgeon use a slightly wider incision in a procedure?",
     "answer": "The wider incision is used to safely achieve hemostasis and avoid excessive bleeding or tracheal stenosis."
   },
@@ -51732,10 +51024,6 @@
     "answer": "The equipment should include a tracheostomy pack and appropriately sized suction catheters."
   },
   {
-    "question": "Under what license is the 'Open Manual of Surgery in Resource-Limited Settings' published?",
-    "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "Why is humidification of the air entering the tracheostomy important?",
     "answer": "Humidification is important to prevent respiratory complications."
   },
@@ -51982,10 +51270,6 @@
   {
     "question": "Which hospital are Richard Davis and Joseph Nderitu affiliated with?",
     "answer": "Richard Davis and Joseph Nderitu are affiliated with AIC Kijabe Hospital in Kenya."
-  },
-  {
-    "question": "Under which license is the manual of surgery in resource-limited settings published?",
-    "answer": "The manual is published under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "Why has liver resection evolved over the last 25 years?",
@@ -52338,10 +51622,6 @@
   {
     "question": "Who provides advice on the site for placing the epidural catheter in hepatic resections?",
     "answer": "Dr. Deidre Batty provides advice on the site for placing the epidural catheter."
-  },
-  {
-    "question": "Under what type of license is the manual of surgery in resource-limited settings published?",
-    "answer": "The manual is published under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What can happen if epidural anesthesia is administered at a level higher than recommended?",
@@ -54792,10 +54072,6 @@
     "answer": "Known ureteral landmarks include the iliac bifurcation or ureteropelvic junction."
   },
   {
-    "question": "Why is it necessary to mobilize the ureter during this procedure?",
-    "answer": "Mobilizing the ureter is necessary to access the site of injury without damaging the blood supply."
-  },
-  {
     "question": "What should be done once the injured tissue is identified?",
     "answer": "The injured tissue should be inspected."
   },
@@ -55498,10 +54774,6 @@
   {
     "question": "In the lateral view of the right central neck, where is the midline located?",
     "answer": "The midline is on the right side of the photo with the head upwards."
-  },
-  {
-    "question": "Where can the manual of surgery in resource-limited settings be accessed?",
-    "answer": "The manual can be accessed at www.vumc.org/global-surgical-atlas, and it is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "Where are the deep level 6 cervical lymph node packet located in relation to the right recurrent laryngeal nerve?",
@@ -56664,10 +55936,6 @@
     "answer": "Complications can occur due to the exacerbation of the infection."
   },
   {
-    "question": "Where can one find the open manual of surgery for resource-limited settings?",
-    "answer": "The open manual of surgery can be found at www.vumc.org/global-surgical-atlas."
-  },
-  {
     "question": "In what settings is it common to apply a negative pressure dressing directly over a skin graft?",
     "answer": "It is common in resource-rich settings to apply a negative pressure dressing directly over a skin graft."
   },
@@ -56726,10 +55994,6 @@
   {
     "question": "Where can more details on ultrasound be found for ultrasound-guided interventions?",
     "answer": "More details on ultrasound for ultrasound-guided interventions can be found in the Introduction to Ultrasonography."
-  },
-  {
-    "question": "What resource is mentioned for an open manual of surgery in resource-limited settings?",
-    "answer": "The resource mentioned is the Global Surgical Atlas available at www.vumc.org/global-surgical-atlas."
   },
   {
     "question": "What is the maximum depth that the linear transducer can show detail up to?",
@@ -57122,10 +56386,6 @@
   {
     "question": "How long are the ultrasound practice sessions typically held for?",
     "answer": "The ultrasound practice sessions are typically 1-2 hours each, with about 3-4 stations."
-  },
-  {
-    "question": "Where can one find a guide for practicing ultrasound-guided interventions?",
-    "answer": "A guide is available in the Open Manual of Surgery in Resource-Limited Settings, accessible online under a Creative Commons license."
   },
   {
     "question": "What type of model is recommended for practicing ultrasound-guided interventions?",
@@ -57564,10 +56824,6 @@
     "answer": "Assessing for a neuropathic component helps determine the appropriate treatment approach for pain management."
   },
   {
-    "question": "Where can one find more information about pain management and the World Health Organization Analgesic Ladder?",
-    "answer": "More information can be found in the \"OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS\" by Gregory Sund and Matthew Kynes."
-  },
-  {
     "question": "How is the World Health Organization Analgesic Ladder relevant to perioperative care?",
     "answer": "The ladder is used to guide treatment decisions for perioperative pain management."
   },
@@ -57812,14 +57068,6 @@
     "answer": "The expected severity and duration of pain should be considered when creating an analgesic plan."
   },
   {
-    "question": "Where can the 'Open Manual of Surgery in Resource-Limited Settings' be accessed?",
-    "answer": "The manual can be accessed at www.vumc.org/global-surgical-atlas"
-  },
-  {
-    "question": "Under what license is the manual 'Open Manual of Surgery in Resource-Limited Settings' published?",
-    "answer": "The manual is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License"
-  },
-  {
     "question": "What is peripartum hysterectomy?",
     "answer": "Peripartum hysterectomy is a surgery that occurs when a hysterectomy is indicated after a birth has occurred, either via vaginal or Cesarean route."
   },
@@ -57974,10 +57222,6 @@
   {
     "question": "What complications can arise from injury to the ureters during suturing?",
     "answer": "The complications would depend on the extent of the injury and its management."
-  },
-  {
-    "question": "Where can detailed steps for peripartum hysterectomy be found?",
-    "answer": "Detailed steps for peripartum hysterectomy can be found in Primary Surgery Volume 1 and the manual of surgery in resource-limited settings."
   },
   {
     "question": "What is the first-line measure for significant bleeding due to uterine atony after childbirth?",
@@ -58236,10 +57480,6 @@
     "answer": "Moist laparotomy sponges are recommended to pack the bowel."
   },
   {
-    "question": "How is the uterus positioned to achieve adequate exposure during surgery?",
-    "answer": "The uterus is placed on cephalad traction either with manual traction or strong clamps on the utero-ovarian ligaments bilaterally."
-  },
-  {
     "question": "What is done to the hysterotomy if a Cesarean was the method of delivery?",
     "answer": "The hysterotomy is quickly closed if a Cesarean was the mode of delivery."
   },
@@ -58278,10 +57518,6 @@
   {
     "question": "What distinguishes the avascular plane beneath the round ligament from the broad ligament?",
     "answer": "The avascular plane beneath the round ligament is distinct from the broad ligament itself, which runs beneath the Fallopian tube."
-  },
-  {
-    "question": "How is the left round ligament treated during this procedure?",
-    "answer": "The left round ligament is isolated and suture ligated after creating a window in an avascular space beneath it."
   },
   {
     "question": "What ligament is visible when pulling cranially on the utero-ovarian ligaments or the clamps applied to them?",
@@ -58388,32 +57624,12 @@
     "answer": "The purpose is to reflect the bladder off of the lower uterine segment."
   },
   {
-    "question": "How can the plane between the uterus and the bladder be developed during this procedure?",
-    "answer": "The plane can be developed by dissecting the anterior broad ligament bilaterally, meeting in the center of the uterus."
-  },
-  {
-    "question": "Why is developing the plane between the uterus and the bladder important in this procedure?",
-    "answer": "It is important to avoid ureteral injury and properly ligate the uterine vessels."
-  },
-  {
     "question": "How is the bladder dissected inferiorly in this surgical procedure?",
     "answer": "The bladder can be dissected inferiorly either bluntly or with Metzenbaum scissors, to the level of the internal cervical os in the same avascular plane."
   },
   {
-    "question": "What should be done to reflect the bladder off of the lower uterine segment during this procedure?",
-    "answer": "The distal portion of the ligated round ligament should be gently placed on traction laterally."
-  },
-  {
-    "question": "Why is it important to dissect the bladder inferiorly during this procedure?",
-    "answer": "Dissecting the bladder inferiorly is important to reach the level of the internal cervical os in the same avascular plane."
-  },
-  {
     "question": "How can ureteral injury be avoided during this surgical procedure?",
     "answer": "Ureteral injury can be avoided by developing the plane between the uterus and the bladder."
-  },
-  {
-    "question": "What instrument can be used to dissect the bladder to the level of the internal cervical os in this procedure?",
-    "answer": "The bladder can be dissected with Metzenbaum scissors."
   },
   {
     "question": "What instrument is used to elevate the anterior leaf of the left broad ligament during the surgical procedure?",
@@ -58510,10 +57726,6 @@
   {
     "question": "What is the goal when cutting between the two clamps with Mayo scissors?",
     "answer": "The goal is to ideally leave a small pedicle on each side."
-  },
-  {
-    "question": "How is the uterine artery transected in this procedure?",
-    "answer": "Two clamps are placed across the uterine artery forming a \"V\" and cut in-between with Mayo scissors."
   },
   {
     "question": "Where do the tips of the clamps close during the procedure?",
@@ -59392,26 +58604,6 @@
     "answer": "The suture is used to direct the gauze upwards out of the way during the procedure."
   },
   {
-    "question": "What is the purpose of placing a traction suture about 1cm above a structure in this procedure?",
-    "answer": "The traction suture helps pull the tissue downwards."
-  },
-  {
-    "question": "What aids in visualizing the dentate line and the rectum in this procedure?",
-    "answer": "Excellent positioning, relaxation under anesthesia, and the use of a speculum aid in visualizing the dentate line and rectum."
-  },
-  {
-    "question": "Where is the suture attached in relation to the speculum in this procedure?",
-    "answer": "The suture is attached to the gauze and placed out of the way behind the speculum."
-  },
-  {
-    "question": "What is the significance of noting the suture behind the speculum in this procedure?",
-    "answer": "Noting the suture behind the speculum ensures that it is out of the way during the procedure."
-  },
-  {
-    "question": "How can the dentate line and rectum be easily visualized during this procedure?",
-    "answer": "With the insertion of the speculum, excellent positioning, and relaxation under anesthesia, the dentate line and rectum proximal to it can be easily seen."
-  },
-  {
     "question": "What is the process for placing a full-thickness biopsy suture after holding tension on the traction suture?",
     "answer": "The process involves placing a second full-thickness biopsy suture 1 cm above the traction suture."
   },
@@ -59772,10 +58964,6 @@
     "answer": "The stent is placed by maintaining the position of the catheter and then deploying the distal curl of the stent."
   },
   {
-    "question": "Where can more information about the endoscopic placement of ureteral stents be found?",
-    "answer": "More information can be found in the Open Manual of Surgery in Resource-Limited Settings."
-  },
-  {
     "question": "What happens once the position of the stent is deemed acceptable?",
     "answer": "The guidewire is withdrawn."
   },
@@ -59866,10 +59054,6 @@
   {
     "question": "What license is the work on orchidopexy and orchiectomy for testicular torsion in resource-limited settings published under?",
     "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
-    "question": "Where can the Open Manual of Surgery in Resource-Limited Settings be accessed?",
-    "answer": "The Open Manual of Surgery in Resource-Limited Settings can be accessed at www.vumc.org/global-surgical-atlas."
   },
   {
     "question": "What is the procedure called when a testicle is untwisted and saved through surgery?",
@@ -60200,10 +59384,6 @@
     "answer": "The next step involves making a small incision in the visceral Tunica Vaginalis."
   },
   {
-    "question": "When is the decision made to preserve a testis during this procedure?",
-    "answer": "The decision to preserve a testis is made when bleeding is seen after the incision is made in the visceral Tunica Vaginalis."
-  },
-  {
     "question": "What is the action taken if a testis is clearly necrotic during the procedure?",
     "answer": "If a testis is clearly necrotic, the intra-scrotal spermatic cord is dissected away from the surrounding tissue at the superior aspect of the testis."
   },
@@ -60318,10 +59498,6 @@
   {
     "question": "How are Allis clamps used in the described surgical procedure?",
     "answer": "Allis clamps are applied to both ends of the Dartos fascia, and an assistant gently pulls the clamps."
-  },
-  {
-    "question": "How is the Dartos fascia closed in this procedure?",
-    "answer": "The Dartos fascia of both sides is closed simultaneously by approximating them to the midline fascia using absorbable suture."
   },
   {
     "question": "What does using Allis clamps on both ends of the Dartos fascia incisions allow during the procedure?",
@@ -60920,10 +60096,6 @@
     "answer": "Yes, central venous access can be achieved through the Brachial vein."
   },
   {
-    "question": "Which vein is described elsewhere in the Manual for central venous access?",
-    "answer": "The Internal Jugular vein is described elsewhere in the Manual for central venous access."
-  },
-  {
     "question": "What is the purpose of the Cephalic vein in central venous access?",
     "answer": "The Cephalic vein is used for \"Midline\" or Peripherally Inserted Central Catheters (PICC)."
   },
@@ -60998,10 +60170,6 @@
   {
     "question": "What is the purpose of flushing all the ports with a sterile saline solution?",
     "answer": "Flushing all the ports is done to ensure cleanliness and readiness for the procedure."
-  },
-  {
-    "question": "Is ultrasound used for access during the procedure?",
-    "answer": "No, ultrasound is used for assessment only, not access in this procedure."
   },
   {
     "question": "Why is a sterile probe cover used on the ultrasound for assessing subclavian veins?",
@@ -61680,10 +60848,6 @@
     "answer": "Marsupialize the cyst refers to creating an opening or pouch to facilitate drainage."
   },
   {
-    "question": "Where can detailed information on the cyst-jejunostomy procedure be found?",
-    "answer": "Detailed information on the cyst-jejunostomy procedure can be found elsewhere in the Manual."
-  },
-  {
     "question": "When should cholecystectomy be performed if gallstones are present?",
     "answer": "Cholecystectomy should be performed at the same time as the procedure if not done before, typically during the same hospitalization as the pancreatitis episode."
   },
@@ -61892,10 +61056,6 @@
     "answer": "Diathermy is recommended for making the incision."
   },
   {
-    "question": "What license is the work from the manual of surgery in resource-limited settings published under?",
-    "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "Why does an assistant insert a retractor into the cyst while operating the suction during the procedure?",
     "answer": "To keep the opening visible to the surgeon."
   },
@@ -62008,10 +61168,6 @@
     "answer": "The nasogastric tube should be placed intraoperatively."
   },
   {
-    "question": "What should be done to confirm the placement of the nasogastric tube before closing the abdomen?",
-    "answer": "The placement should be manually confirmed in the stomach."
-  },
-  {
     "question": "How long should the nasogastric tube be left in situ after the procedure?",
     "answer": "The nasogastric tube should be left in overnight to avoid gastric distention."
   },
@@ -62046,10 +61202,6 @@
   {
     "question": "Under what circumstances may additional sutures be required to achieve hemostasis in cases of bleeding from a common wall?",
     "answer": "Additional sutures may be required when the running locking suture is not enough to control bleeding."
-  },
-  {
-    "question": "What should surgeons look for during abdominal entry to assess for malignancy in cases where it was not previously diagnosed?",
-    "answer": "Surgeons should visually inspect and manually palpate for signs of malignancy or metastatic spread."
   },
   {
     "question": "What should be done if mucinous or gelatinous debris is found in a cyst during surgery?",
@@ -62102,10 +61254,6 @@
   {
     "question": "What is the purpose of breaking down this chapter into four major parts?",
     "answer": "The purpose is to set a foundation for understanding the basics of decontamination, disinfection, and sterilization."
-  },
-  {
-    "question": "Why is there intentional redundancy within this chapter?",
-    "answer": "Intentional redundancy is included in this chapter, as with other chapters within the Manual, to reinforce important concepts."
   },
   {
     "question": "Why is a sterile procedure necessary in surgery?",
@@ -62190,10 +61338,6 @@
   {
     "question": "How is decontamination defined in the context of medical procedures?",
     "answer": "Decontamination is defined as removing pathogenic organisms to make objects safe enough to handle, use, or dispose of."
-  },
-  {
-    "question": "How is cleaning typically achieved in medical settings?",
-    "answer": "Cleaning is typically achieved by manually combining water with enzymes or detergents and using a brush to physically remove visible debris."
   },
   {
     "question": "What is the difference between clean, sterile, and disinfected in medical practices?",
@@ -62924,10 +62068,6 @@
     "answer": "The purpose is for the mechanical removal of bioburden and disinfection of instruments."
   },
   {
-    "question": "What is used in the decontamination area for mechanical removal of bioburden?",
-    "answer": "High-pressure water, air, or manual scrubbing are used for mechanical removal."
-  },
-  {
     "question": "What methods are used for submersion disinfection in the decontamination area?",
     "answer": "Submersion disinfection involves enzymatic cleaner or glutaraldehyde."
   },
@@ -62942,10 +62082,6 @@
   {
     "question": "What substances are typically used for submersion disinfection in the decontamination area?",
     "answer": "Enzymatic cleaner and glutaraldehyde are commonly used for submersion disinfection."
-  },
-  {
-    "question": "What is the purpose of manual scrubbing in the decontamination area?",
-    "answer": "Manual scrubbing is used for the mechanical removal of bioburden from instruments."
   },
   {
     "question": "What kinds of areas are present in the decontamination area for handling waste and washing instruments?",
@@ -63164,10 +62300,6 @@
     "answer": "The recommended method is to use an ultrasonic cleaner if available."
   },
   {
-    "question": "What should be done if an ultrasonic cleaner is not available for scrubbing?",
-    "answer": "Manual scrubbing may be used as an alternative."
-  },
-  {
     "question": "Why is low-mineral water essential for cleaning instruments?",
     "answer": "Low-mineral water is essential to prevent damage that can be caused by high mineral content water."
   },
@@ -63182,10 +62314,6 @@
   {
     "question": "What are the key considerations when cleaning contaminated instruments?",
     "answer": "The key considerations include enzymatic solution, mechanical scrubbing, avoiding saline, and using low-mineral water."
-  },
-  {
-    "question": "What types of brushes are used to manually scrub organic debris from instruments?",
-    "answer": "A nylon brush can be used first, followed by a stainless steel brush if debris is still present."
   },
   {
     "question": "What protective equipment is the technician wearing during the instrument cleaning process?",
