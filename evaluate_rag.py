@@ -71,6 +71,7 @@ async def process_question_async(qa_pair):
         verbose=False,
         iterations=0,
         wikipedia_results="",
+        run_async=False,
     )
 
     # Run the orchestrator
@@ -150,6 +151,7 @@ def process_question(qa_pair):
         verbose=False,
         iterations=0,
         wikipedia_results="",
+        run_async=True
     )
 
     # Run the orchestrator
