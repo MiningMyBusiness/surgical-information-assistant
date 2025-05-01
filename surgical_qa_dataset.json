@@ -876,10 +876,6 @@
     "answer": "The availability of a competent surgeon plays a crucial role in the decision-making process for operating on such patients."
   },
   {
-    "question": "What is the significance of the spine injury patient population in low-resource settings, as per the authors' experience?",
-    "answer": "The spine injury patient population in low-resource settings is often young and previously healthy, leading to remarkable recoveries when injuries are promptly addressed and complications are avoided."
-  },
-  {
     "question": "How can tuberculosis infection of the spine be successfully treated in low-resource settings?",
     "answer": "Tuberculosis infection of the spine can often be treated successfully with a combination of medications and surgical decompression and fusion or bracing."
   },
@@ -1180,10 +1176,6 @@
     "answer": "The positions of the upper arm and shoulder help in visualizing and palpating the cephalic vein and brachial artery in the antecubital fossa."
   },
   {
-    "question": "What is located just medial to the biceps tendon in the antecubital fossa?",
-    "answer": "The area described in the passage is located just medial to the biceps tendon."
-  },
-  {
     "question": "How is the planned incision described in relation to the elbow crease and the upper arm?",
     "answer": "The planned incision extends transversely across the elbow crease and superiorly up the lateral aspect of the upper arm."
   },
@@ -1316,10 +1308,6 @@
     "answer": "The first layer is the fascial tissue enveloping the upper arm located just underneath the subcutaneous fat."
   },
   {
-    "question": "What structure is the focus of attention in this passage?",
-    "answer": "The focus is on the brachial artery."
-  },
-  {
     "question": "How many layers of fascia need to be traversed to access the brachial artery?",
     "answer": "Two layers of fascia need to be passed."
   },
@@ -1362,10 +1350,6 @@
   {
     "question": "When is the artery palpated in this procedure?",
     "answer": "The artery is palpated after the superficial facia is divided."
-  },
-  {
-    "question": "What is the nature of the bicipital aponeurosis in this context?",
-    "answer": "The bicipital aponeurosis may be a thick structure."
   },
   {
     "question": "How is the artery divided in a controlled fashion during this procedure?",
@@ -1804,10 +1788,6 @@
     "answer": "The needle holder should have the tip protected and be used to pass the needle under the vein to the back wall of the anastomosis."
   },
   {
-    "question": "How are the two needles positioned in relation to the anastomosis during the procedure?",
-    "answer": "The passage describes having a needle on either side of the anastomosis, with one side having the 2/3 length suture called the \"back wall.\""
-  },
-  {
     "question": "What is the role of the heel stitch in the needle placement process during an anastomosis procedure?",
     "answer": "The needle is passed through the vein wall, from outside in, adjacent to the heel stitch."
   },
@@ -1922,10 +1902,6 @@
   {
     "question": "What comes after suturing the back wall in the described procedure?",
     "answer": "The surgeon transitions to suturing the front wall after completing the back wall suturing."
-  },
-  {
-    "question": "What type of license is this work published under?",
-    "answer": "The work is published under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What happens after the 'back wall' anastomosis is completed?",
@@ -2080,10 +2056,6 @@
     "answer": "The clamp on the vein can be removed after tying the sutures together again."
   },
   {
-    "question": "What type of suture material is used for the procedure?",
-    "answer": "The passage mentions using fine 7-0 polypropylene suture."
-  },
-  {
     "question": "How are the sutures tied to meet in the middle of the anastomosis?",
     "answer": "The sutures are resumed with both needles to meet in the middle of the anastomosis."
   },
@@ -2188,10 +2160,6 @@
     "answer": "Returning flow to the arm takes priority over maintaining the fistula."
   },
   {
-    "question": "Why is it important to palpate the radial artery in this context?",
-    "answer": "Palpating the radial artery is important to check for diminished flow."
-  },
-  {
     "question": "What symptoms should be assessed for if the radial artery shows diminished flow?",
     "answer": "Steal symptoms such as hand or arm pain and tingling should be assessed if the radial artery shows diminished flow."
   },
@@ -2226,10 +2194,6 @@
   {
     "question": "What resolution is expected for tingling in the fingers after surgery?",
     "answer": "Tingling in the fingers may be tolerated and usually resolve."
-  },
-  {
-    "question": "In the context of this passage, what should be done if symptoms such as tingling in the fingers persist after surgery?",
-    "answer": "If symptoms like tingling in the fingers persist after surgery, careful examination and further evaluation are recommended."
   },
   {
     "question": "What type of bandage can be placed circumferentially after Brachial-Cephalic Arteriovenous Fistula creation?",
@@ -2378,10 +2342,6 @@
   {
     "question": "Is the DRIL procedure for steal syndrome discussed in this text?",
     "answer": "No, the use of the DRIL procedure for steal syndrome is beyond the scope of this text."
-  },
-  {
-    "question": "Who is identified as being from Rochester, New York in this passage?",
-    "answer": "Jerry Svoboda, MD FACS"
   },
   {
     "question": "Who is identified as being from AIC Kijabe Hospital in Kenya?",
@@ -3336,10 +3296,6 @@
     "answer": "Hemostasis needs to be assured."
   },
   {
-    "question": "Under what license is the work mentioned in this passage?",
-    "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "What should be done if the irrigation of the subcutaneous space does not return clear?",
     "answer": "The irrigation should continue until it returns clear."
   },
@@ -3580,10 +3536,6 @@
     "answer": "Patients with abdominal aortic aneurysm have an increased risk of postoperative hernia formation."
   },
   {
-    "question": "How can meticulous closure decrease the risk of incisional hernia formation?",
-    "answer": "Meticulous closure following the principles described in the passage can decrease the risk of this complication."
-  },
-  {
     "question": "What are the consequences of not being clear about anatomical layers during incision?",
     "answer": "Not being clear about anatomical layers can lead to an increased risk of complications during surgery."
   },
@@ -3724,10 +3676,6 @@
     "answer": "Resection is preferred due to the risk of malignancy and to decrease the risk of future bleeding."
   },
   {
-    "question": "Where can details on different types of gastric resection and reconstruction be found?",
-    "answer": "Details on different types of gastric resection and reconstruction can be found in the chapters of this Manual."
-  },
-  {
     "question": "What is mentioned about duodenal ulcers not located in the posterior bulb in terms of life-threatening hemorrhage?",
     "answer": "Duodenal ulcers not located in the posterior bulb are less prone to life-threatening hemorrhage."
   },
@@ -3740,10 +3688,6 @@
     "answer": "The specific issue addressed is when an ulcer erodes into the gastroduodenal artery in the posterior duodenal bulb."
   },
   {
-    "question": "What specific measures are needed to control hemorrhage in this context?",
-    "answer": "The passage discusses the specific measures needed to control hemorrhage."
-  },
-  {
     "question": "Is the role of vagotomy in controlling hemorrhage well-established?",
     "answer": "The role of vagotomy in controlling hemorrhage is still controversial."
   },
@@ -3752,16 +3696,8 @@
     "answer": "The least surgery necessary is duodenotomy and oversew of the ulcer only."
   },
   {
-    "question": "Under what circumstances is vagotomy not performed in patients naive to Helicobacter pylori treatment?",
-    "answer": "Vagotomy is not performed in patients naive to Helicobacter pylori treatment based on the practice mentioned in the passage."
-  },
-  {
     "question": "When is truncal vagotomy performed in patients with a history of Helicobacter pylori treatments?",
     "answer": "Truncal vagotomy is performed after hemostasis is achieved, and the patient is stable enough for further surgery."
-  },
-  {
-    "question": "Why is vagotomy not performed in patients naive to Helicobacter pylori treatment?",
-    "answer": "Vagotomy is not performed in patients naive to Helicobacter pylori treatment based on the practice mentioned in the passage."
   },
   {
     "question": "What condition should patients be in to undergo truncal vagotomy after hemostasis is achieved?",
@@ -3774,10 +3710,6 @@
   {
     "question": "Do patients with ulcer disease typically have a previous diagnosis or treatment?",
     "answer": "No, in the experience mentioned, patients with ulcer disease usually have no previous diagnosis or treatment."
-  },
-  {
-    "question": "How are patients cured of H. pylori infection in this context?",
-    "answer": "Patients are cured of H. pylori infection with antibacterial therapy after recovering from the surgery."
   },
   {
     "question": "What are the steps involved in duodenotomy and oversew of duodenal ulcer?",
@@ -3924,10 +3856,6 @@
     "answer": "The incision should be made on the anterior wall of the duodenal-gastric junction."
   },
   {
-    "question": "What is the purpose of demonstrating both techniques in this context?",
-    "answer": "The purpose may be to show alternative approaches or preferences in surgical procedures."
-  },
-  {
     "question": "What happens to the stomach and duodenum once the mucosa has been entered?",
     "answer": "The stomach and duodenum will deflate."
   },
@@ -3970,10 +3898,6 @@
   {
     "question": "Why must ligatures be placed in specific positions during surgery?",
     "answer": "Ligatures must be placed in these positions during surgery to secure vessels like the gastroduodenal and transverse pancreatic arteries."
-  },
-  {
-    "question": "How should a superficial ulcer that is oozing slowly from its edges be treated?",
-    "answer": "The ulcer should be encircled with interrupted stitches as described in the passage."
   },
   {
     "question": "Why should the needle pass no deeper than the full thickness of the bowel when treating superficial ulcers?",
@@ -4112,10 +4036,6 @@
     "answer": "Truncal vagotomy is indicated in the case of a life-threatening complication (perforation, hemorrhage) in a patient on adequate anti-ulcer treatment who is stable enough to tolerate a second operation."
   },
   {
-    "question": "How common is the need for truncal vagotomy in the era of effective acid-reducing medicines?",
-    "answer": "In the author's experience, the need for truncal vagotomy is extremely rare due to the effectiveness of current treatments."
-  },
-  {
     "question": "What is the main reason for using acid-reducing medicines, such as proton pump inhibitors, in treating gastritis and ulcer disease?",
     "answer": "The main reason is their effectiveness in reducing acid levels in the stomach."
   },
@@ -4146,10 +4066,6 @@
   {
     "question": "Do experienced surgeons in resource-limited settings frequently perform Antrectomy and Bilroth 1 Reconstruction?",
     "answer": "Most experienced surgeons, even in resource-limited settings, do not perform this operation very often."
-  },
-  {
-    "question": "What topic is being addressed in the Manual that the authors are in the process of writing?",
-    "answer": "A chapter on truncal vagotomy is being added to the Manual."
   },
   {
     "question": "What is the urgency of the surgeon's approach when faced with life-threatening complications in patients not on anti-ulcer therapy?",
@@ -4544,10 +4460,6 @@
     "answer": "Improper sterility can lead to the transformation of the seroma into an abscess."
   },
   {
-    "question": "Where did the author, Richard Davis, MD FACS FCS(ECSA), work when writing about draining large seromas?",
-    "answer": "Richard Davis worked at Kijabe Hospital in Kenya."
-  },
-  {
     "question": "What are the primary contributors to the development of duodenal ulcer disease?",
     "answer": "The primary contributors include Helicobacter pylori infection, Non-Steroidal Anti-Inflammatory Drugs, gastrinoma, and smoking."
   },
@@ -4800,10 +4712,6 @@
     "answer": "The Babcock's tip passes from caudal to cranial, from the bottom towards the top of the photo, pulling the omentum under the sutures."
   },
   {
-    "question": "What surgical procedure is illustrated in this passage?",
-    "answer": "The passage illustrates the Graham Patch Closure of Duodenal Ulcer."
-  },
-  {
     "question": "What is the position of the hemostats in the illustration?",
     "answer": "The hemostats are held by hand at the top of the photo, holding the sutures."
   },
@@ -4822,10 +4730,6 @@
   {
     "question": "Why is it important not to over-tighten the sutures in this procedure?",
     "answer": "Over-tightening the sutures can strangulate the omental patch."
-  },
-  {
-    "question": "What is the purpose of tying the sutures in this context?",
-    "answer": "Tying the sutures secures the omental flap in place and covers the ulcer."
   },
   {
     "question": "How is the omental patch secured in place in the procedure described?",
@@ -5062,10 +4966,6 @@
   {
     "question": "What is considered the most difficult part of laparoscopic Graham Patch repair?",
     "answer": "Proper mobilization of an omental patch that would lie over the ulcer without tension is considered the most difficult part."
-  },
-  {
-    "question": "Where are the authors affiliated with?",
-    "answer": "The authors are affiliated with Texas Tech University Health Sciences Center in Lubbock, Texas, USA."
   },
   {
     "question": "How many deaths are annually attributed to burn injuries worldwide?",
@@ -6000,10 +5900,6 @@
     "answer": "Blood loss is a major limitation."
   },
   {
-    "question": "Is blood available if a transfusion is needed during the operation?",
-    "answer": "The passage does not specify whether blood is available for transfusion."
-  },
-  {
     "question": "How can blood loss be reduced during burn wound excision?",
     "answer": "Blood loss can be limited through various techniques."
   },
@@ -6700,10 +6596,6 @@
     "answer": "The RAIS device is adjusted to the required position to ease the docking of the ring."
   },
   {
-    "question": "What is mentioned in relation to gas insufflation in the context of laparoscopic surgery?",
-    "answer": "The passage mentions gas insufflation-less laparoscopic surgery."
-  },
-  {
     "question": "How is the abdominal wall lifted to a desired height in the procedure?",
     "answer": "The abdominal wall is lifted to a desired height by rotating the rotating screw handle in a clockwise manner."
   },
@@ -7100,10 +6992,6 @@
     "answer": "GILLS cholecystectomy can be done by single incision, 3 ports (3/4 instrument), or even 4 ports."
   },
   {
-    "question": "How many instruments are used in GILLS cholecystectomy according to the author's practice?",
-    "answer": "The author uses 4 instruments through 3 incisions."
-  },
-  {
     "question": "What is the purpose of the 1.5 cm sub-umbilical incision in laparoscopic surgery?",
     "answer": "The 1.5 cm sub-umbilical incision accommodates the retraction ring, camera, and left-hand instrument."
   },
@@ -7126,10 +7014,6 @@
   {
     "question": "How is space created during laparoscopic cholecystectomy?",
     "answer": "Space is created by applying an abdominal wall device and using gas insufflation."
-  },
-  {
-    "question": "What is done after creating space during laparoscopic cholecystectomy?",
-    "answer": "The passage does not provide information on the subsequent steps."
   },
   {
     "question": "What is the importance of confirming the Critical View of Safety in the procedure?",
@@ -7780,20 +7664,12 @@
     "answer": "The manual is intended for use in resource-limited settings."
   },
   {
-    "question": "Who are the authors of the manual on Trans-Urethral Resection of Bladder Tumor?",
-    "answer": "The authors are Emma Bryant and Gabrielle Yankelevich."
-  },
-  {
     "question": "What is the first step when dividing large tumors in this procedure?",
     "answer": "The first step is to divide large tumors into sectors."
   },
   {
     "question": "Under what license is the Open Manual of Surgery in Resource-Limited Settings published?",
     "answer": "The manual is published under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
-    "question": "What marks the depth to which all subsequent sections should be limited?",
-    "answer": "The passage provides guidance on the depth to which all subsequent sections should be limited."
   },
   {
     "question": "What should be included in the extracted tissue from the swipe?",
@@ -8200,10 +8076,6 @@
     "answer": "The \"Bogota bag\" closure method involves cutting a sterile IV fluid bag to the shape of the fascial incision and suturing it to the fascial edges. It is not preferred because it takes more time to deploy than the two simple closure techniques described."
   },
   {
-    "question": "Why is the \"Bogota bag\" method less commonly used compared to other closure techniques?",
-    "answer": "The \"Bogota bag\" method is less commonly used because it takes more time to deploy than the two simple closure techniques described in the passage."
-  },
-  {
     "question": "When is vacuum closure recommended for abdominal closure?",
     "answer": "Vacuum closure is recommended in cases where the skin edges cannot be brought together, such as in abdominal compartment syndrome."
   },
@@ -8588,16 +8460,8 @@
     "answer": "Jejunostomy is more difficult to manage, requiring continuous infusion instead of bolus infusion and being more vulnerable to tube blockage."
   },
   {
-    "question": "What is required for percutaneous endoscopic gastrostomy (PEG) placement?",
-    "answer": "PEG placement using a flexible fiberoptic gastroscope requires specialized equipment and a non-obstructed upper gastrointestinal tract to allow scope passage."
-  },
-  {
     "question": "How is a tract formed after gastrostomy placement?",
     "answer": "After 5-7 days (more reliably after 2 weeks) a tract forms between the skin and the stomach following open or percutaneous gastrostomy."
-  },
-  {
-    "question": "What does the percutaneous endoscopic gastrostomy (PEG) procedure involve?",
-    "answer": "The PEG procedure involves making a hole in the stomach without laparotomy for tube placement, requiring specialized equipment and an unobstructed upper gastrointestinal tract for scope passage."
   },
   {
     "question": "What is the difference between managing jejunostomy and percutaneous endoscopic gastrostomy (PEG)?",
@@ -8654,10 +8518,6 @@
   {
     "question": "What is the purpose of sliding the flange along the gastrostomy tube after placement?",
     "answer": "Sliding the flange along the tube helps gently squeeze the gastric and abdominal wall together using the inflated balloon and the flange."
-  },
-  {
-    "question": "What are the steps involved in open gastrostomy placement?",
-    "answer": "The steps include mini-laparotomy, selection of the tube placement site, mobilization of the stomach, placement of purse-string sutures, passage of the gastrostomy tube, gastrotomy, closure of sutures, securing the stomach, and fascial and skin closure."
   },
   {
     "question": "What is the clinical status of the patient used as an indication for gastrostomy tube placement?",
@@ -9106,14 +8966,6 @@
   {
     "question": "Why is it important to address nutritional status before attempting an operation?",
     "answer": "Addressing nutritional status is essential before an operation to ensure optimal patient health and recovery."
-  },
-  {
-    "question": "Where are the authors of this passage affiliated with?",
-    "answer": "The authors are affiliated with AIC Kijabe Hospital in Kenya."
-  },
-  {
-    "question": "What is the relevance of the date February 2022 in this passage?",
-    "answer": "The date of February 2022 signifies when the information was provided or authored."
   },
   {
     "question": "What challenges do hemodynamically unstable patients with penetrating abdominal trauma pose to clinicians?",
@@ -9928,10 +9780,6 @@
     "answer": "It should be considered because the lateral decubitus position takes time to set up and should not be used in hemodynamically unstable patients."
   },
   {
-    "question": "What is meant by 'breaking the table' in this context?",
-    "answer": "\"Breaking the table\" refers to moving both the upper and lower parts of the table downwards."
-  },
-  {
     "question": "Why is it recommended to watch the patient's torso during the 'breaking the table' procedure?",
     "answer": "It is recommended to see how much their torso is being flexed and to avoid unnatural positions that could lead to injuries."
   },
@@ -10552,10 +10400,6 @@
     "answer": "In low-resource settings, mobile units like the Schuco S230A are very valuable."
   },
   {
-    "question": "What additional information is discussed at the end of the chapter regarding centralized suction?",
-    "answer": "The passage discusses the components of centralized suction at the end of the chapter."
-  },
-  {
     "question": "How is centralized suction typically incorporated into high-resource hospital settings?",
     "answer": "Centralized suction is usually built into hospitals in high-resource settings, including piping within the walls and outlets in patient care areas."
   },
@@ -10824,10 +10668,6 @@
     "answer": "More information can be found in the Manual of Surgery in Resource-Limited Settings."
   },
   {
-    "question": "Who are the authors of the work related to the medical vacuum (suction) in resource-limited settings?",
-    "answer": "The authors are Jason Fader and Richard Davis."
-  },
-  {
     "question": "What is the next step after the pump is reinserted in the process described?",
     "answer": "The pump is reconnected to the bellows."
   },
@@ -10926,10 +10766,6 @@
   {
     "question": "What is mentioned as a challenge related to the wall connection in central vacuum systems?",
     "answer": "The wall connection is usually proprietary to the system used, requiring compatible regulators for suction connection once a system is chosen."
-  },
-  {
-    "question": "What type of license is this work published under?",
-    "answer": "This work is published under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What should be done if the pressure gauge on the buffer tank indicates a problem with the central vacuum system?",
@@ -11216,10 +11052,6 @@
     "answer": "Relevant anatomical landmarks within each compartment should be considered when performing a lower leg fasciotomy."
   },
   {
-    "question": "What are the key landmarks and structures to be aware of when performing a lower leg fasciotomy?",
-    "answer": "The key landmarks and structures to be aware of are detailed in the passage for a lower leg fasciotomy."
-  },
-  {
     "question": "What structures are found in the anterior compartment of the leg?",
     "answer": "The anterior compartment contains the anterior tibial artery and vein, and the common fibular nerve."
   },
@@ -11334,10 +11166,6 @@
   {
     "question": "What structures are incised to expose the fascia encasing the lateral and anterior compartments?",
     "answer": "The skin and subcutaneous tissue are incised."
-  },
-  {
-    "question": "What structures should be avoided when making skin incisions in this context?",
-    "answer": "Care should be taken to avoid the lesser saphenous vein and peroneal (fibular) nerve."
   },
   {
     "question": "What is the structure that divides the anterior and lateral compartments once the skin flap is raised?",
@@ -11896,20 +11724,12 @@
     "answer": "It is essential for clinicians to have an intimate knowledge to provide proper care and minimize complications."
   },
   {
-    "question": "Who is acknowledged for their expert illustrations in this manuscript?",
-    "answer": "Ms. Elizabeth Weissbrod."
-  },
-  {
     "question": "Which institution is Dr. Mark W. Bowyer affiliated with?",
     "answer": "Dr. Mark W. Bowyer is affiliated with the Uniformed Services University of the Health Sciences in Maryland, USA."
   },
   {
     "question": "In which state is the Uniformed Services University of the Health Sciences located?",
     "answer": "The Uniformed Services University of the Health Sciences is located in Maryland."
-  },
-  {
-    "question": "In what month and year was this manuscript acknowledged?",
-    "answer": "The manuscript was acknowledged in December 2023."
   },
   {
     "question": "What are the advantages of proficiency in ultrasound for a surgeon in a resource-limited setting?",
@@ -12340,10 +12160,6 @@
     "answer": "If you encounter unclear images, make sure you are using the correct probe for the depth, assess the amount of gel, and troubleshoot the settings accordingly."
   },
   {
-    "question": "Why is gel important in ultrasound imaging?",
-    "answer": "Gel facilitates the passage of sound waves, especially over uneven surfaces like the chest in a cachectic person."
-  },
-  {
     "question": "What should be done if using a sterile transducer cover during ultrasound imaging?",
     "answer": "Adequate gel should be inside the cover, between the transducer and the cover, with bubbles removed by running a finger over the transducer surface."
   },
@@ -12632,10 +12448,6 @@
     "answer": "Surgeons should prevent contact because once the skin is irritated, it will be painful to the patient and more difficult to apply dressings or ostomy appliances."
   },
   {
-    "question": "Why is peri-wound or peristomal skin excoriation better avoided than treated?",
-    "answer": "Peri-wound or peristomal skin excoriation is better avoided than treated, as described in the passage."
-  },
-  {
     "question": "What risks are associated with an ostomy appliance that has been cut too large?",
     "answer": "An ostomy appliance that has been cut too large exposes the skin to enteric contents, which can cause irritation over time."
   },
@@ -12764,16 +12576,8 @@
     "answer": "Putting a few stitches and closing the bowel, which will inevitably fail."
   },
   {
-    "question": "Why is closing the bowel with a few stitches an unsuccessful approach in inadvertent enterotomy cases?",
-    "answer": "This approach will inevitably fail, as stated in the passage."
-  },
-  {
     "question": "What unique challenges are faced when operating on patients with malnourishment and extensive dense adhesions?",
     "answer": "The challenges include the potential for inadvertent enterotomy and the difficulty in managing such situations."
-  },
-  {
-    "question": "Why is it tempting to put a few stitches and close the bowel in inadvertent enterotomy situations?",
-    "answer": "It is tempting due to the challenging nature of the situation, but the passage warns that this approach will inevitably fail."
   },
   {
     "question": "What is the recommended approach to mobilize an enterotomy to create an ostomy?",
@@ -12928,14 +12732,6 @@
     "answer": "The key principle is to keep the enteric contents and the rest of the wound separate."
   },
   {
-    "question": "What is the recommendation regarding the use of tubes in effluent management?",
-    "answer": "Some authors recommend using tubes, while others do not."
-  },
-  {
-    "question": "What is the suggested approach to managing a fistula from the rest of the wound?",
-    "answer": "The passage suggests isolating the fistula from the rest of the wound."
-  },
-  {
     "question": "Why is isolating the fistula from the rest of the wound recommended in effluent management?",
     "answer": "Isolating the fistula helps in managing the effluent separately and more effectively."
   },
@@ -12980,10 +12776,6 @@
     "answer": "The circular silicone appliance isolates the fistula from the rest of the wound while the vacuum-assisted closure dressing is applied to manage the open abdomen."
   },
   {
-    "question": "How can one set up a dressing using vacuum-assisted closure with a circular silicone appliance for an open abdomen wound with a fistula?",
-    "answer": "The passage explains how to set up this dressing below."
-  },
-  {
     "question": "Besides an ambu-bag silicone and a cupcake mold, what other modified silicone items can be used to isolate a stoma or fistula from the rest of the wound?",
     "answer": "Other modified silicone items can be used for this purpose."
   },
@@ -13010,10 +12802,6 @@
   {
     "question": "How often are improvised vacuum dressings and barrier devices usually changed in resource-rich settings?",
     "answer": "In resource-rich settings, they are usually changed every 3-5 days."
-  },
-  {
-    "question": "Why are simply withholding oral intake and providing long-term parenteral nutrition not realistic options in the settings described?",
-    "answer": "The passage mentions that these options are not realistic, and instead, the patient's intestine is used to maintain nutrition."
   },
   {
     "question": "What adaptation strategy is mentioned for patients with \"short gut syndrome\" and 75 cm of jejunum?",
@@ -13312,10 +13100,6 @@
     "answer": "Refeeding secretions into the distal small intestine is difficult due to the lack of a gastric reservoir and the risk of reflux or tubing blockage, particularly in low-resource settings."
   },
   {
-    "question": "Why can refeeding secretions as bolus feeds be challenging in this context?",
-    "answer": "Refeeding secretions as bolus feeds is challenging because there is no gastric reservoir, and the feeds inevitably reflux back into the wound if given as a bolus."
-  },
-  {
     "question": "Why is dripping feeds into the intestine not a viable option for refeeding secretions in this situation?",
     "answer": "Dripping feeds into the intestine is not viable because it will inevitably block the tubing, especially without a pump."
   },
@@ -13542,10 +13326,6 @@
   {
     "question": "What happens if leakage from the fistula gets out of control?",
     "answer": "If leakage gets out of control, the skin becomes excoriated, making it difficult for any appliance to stick to the skin, resulting in a painful and messy situation."
-  },
-  {
-    "question": "What is the risk associated with an incisional hernia in this context?",
-    "answer": "The risk is that there may be an incisional hernia underneath the wound covered in abdominal skin."
   },
   {
     "question": "How long does the setup typically last for managing liquid output?",
@@ -13776,10 +13556,6 @@
     "answer": "It is necessary for proper adherence and sealing of the appliance."
   },
   {
-    "question": "What condition or situation requires the management of an open abdomen and enteric fistula?",
-    "answer": "The specific surgical scenario described in the passage requires this management."
-  },
-  {
     "question": "What risks are associated with improper trimming of the adhesive dressing in open abdomen management?",
     "answer": "Complications related to leakage or lack of seal could be associated with improper trimming."
   },
@@ -13850,10 +13626,6 @@
   {
     "question": "What is the purpose of measuring optic nerve sheath diameter?",
     "answer": "The purpose is to assess raised intracranial pressure in patients with altered consciousness of unknown etiology."
-  },
-  {
-    "question": "How is the optic nerve sheath diameter measured in this context?",
-    "answer": "The diameter is measured using high-frequency ultrasound."
   },
   {
     "question": "What is the sensitivity and specificity of optic nerve sheath diameter measurement for raised intracranial pressure?",
@@ -14014,10 +13786,6 @@
   {
     "question": "What is the focus of the study comparing sonography of the optic nerve sheath diameter and computed tomography?",
     "answer": "The focus is on detecting raised intracranial pressure."
-  },
-  {
-    "question": "Who are the authors of the study comparing sonography and CT for detecting raised intracranial pressure?",
-    "answer": "The authors are Robba C, Cardim D, Tajsic T, Pietersen J, Bulman M, Donnelly J, Lavinio A, Gupta A, Menon DK, Hutchinson PJA, and Czosnyka M."
   },
   {
     "question": "What type of study focused on ultrasound non-invasive measurement of intracranial pressure in neurointensive care?",
@@ -14932,10 +14700,6 @@
     "answer": "The ruler should be set up vertically with \"zero\" at the level of the tragus of the patient's ear."
   },
   {
-    "question": "How should the drip chamber be positioned while collecting fluid from a ventricular drain?",
-    "answer": "The drip chamber can be raised and lowered as described in the passage."
-  },
-  {
     "question": "What could happen if the ventricular drain is continuously open despite patient stability?",
     "answer": "Unnecessary drainage and potential risks could occur if the ventricular drain is continuously open despite patient stability."
   },
@@ -15100,10 +14864,6 @@
     "answer": "Nutritional assessment is discussed in a separate chapter."
   },
   {
-    "question": "How might wound dehiscence present?",
-    "answer": "Wound dehiscence can present subtly, as mentioned in the passage."
-  },
-  {
     "question": "How does malnutrition affect patient outcomes in relation to surgery?",
     "answer": "Malnutrition accompanies many surgical and non-surgical diseases, potentially complicating treatment outcomes."
   },
@@ -15126,10 +14886,6 @@
   {
     "question": "What is the usual course of action if fascial dehiscence is detected?",
     "answer": "It is almost always an indication to return to the operating room for closure."
-  },
-  {
-    "question": "In what situations might a diagnosis of fascial dehiscence not require immediate return to the operating room?",
-    "answer": "The passage mentions exceptions to the standard course of action that may not require immediate return to the operating room."
   },
   {
     "question": "What might happen if the diagnosis of fascial dehiscence is not made at an early stage?",
@@ -15304,10 +15060,6 @@
     "answer": "Locating the fascial closure suture is important for ensuring proper fascial closure and integrity."
   },
   {
-    "question": "What is the purpose of debriding dead tissue in this context?",
-    "answer": "The purpose is to clear the anatomy for when you close again."
-  },
-  {
     "question": "How should you secure the fascial edges after debridement?",
     "answer": "Find the fascial suture holding it and secure with a hemostat."
   },
@@ -15450,10 +15202,6 @@
   {
     "question": "What step is taken if the fascia has retracted during the suturing process?",
     "answer": "The surgeon may have to place the suture somewhat deep to get to intact fascia if the fascia has retracted."
-  },
-  {
-    "question": "How are the final sutures typically placed to allow for visualization of the needle throughout its passage through the fascia?",
-    "answer": "The final sutures are placed without tension on the previously placed suture to allow the needle to be seen throughout its passage through the fascia."
   },
   {
     "question": "What should be done once the fascial closure is complete in the suturing process?",
@@ -15864,18 +15612,6 @@
     "answer": "The scope is withdrawn up through the esophagus while maintaining a tight grasp on the guidewire."
   },
   {
-    "question": "What is the purpose of withdrawing the scope through the esophagus with the guidewire?",
-    "answer": "The purpose is to complete the procedure described in the passage."
-  },
-  {
-    "question": "How does the use of a biopsy forceps contribute to the procedure?",
-    "answer": "The biopsy forceps are used to grasp the guidewire during the procedure described in the passage."
-  },
-  {
-    "question": "Why is maintaining a tight grasp on the guidewire important during the procedure?",
-    "answer": "Maintaining a tight grasp on the guidewire ensures successful completion of the procedure described in the passage."
-  },
-  {
     "question": "How is a gastrostomy tube connected to a guidewire?",
     "answer": "Pass the guidewire through the wire loop on the end of the gastrostomy tube, then pass the other end of the tube through the loop of the guidewire, resulting in a square knot."
   },
@@ -16044,10 +15780,6 @@
     "answer": "More information about buried bumper syndrome can be found in the source by Boeykens K, Duysburgh I in BMJ Open Gastroenterology 2021."
   },
   {
-    "question": "What is the Creative Commons license under which this work is published?",
-    "answer": "This work is published under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "What type of specimen is shown in the image after wedge resection of the abdominal wall and stomach for buried bumper syndrome?",
     "answer": "The specimen shown in the image is after a wedge resection of the abdominal wall and stomach for buried bumper syndrome."
   },
@@ -16082,10 +15814,6 @@
   {
     "question": "Why is it important to assess the patient's nutritional status before an operation?",
     "answer": "It is crucial to assess the patient's nutritional status before an operation to ensure proper evaluation before surgery."
-  },
-  {
-    "question": "Where are the authors affiliated with?",
-    "answer": "The authors are affiliated with AIC Kijabe Hospital, Kenya."
   },
   {
     "question": "Why can postoperative intra-abdominal complications be challenging to diagnose and treat?",
@@ -16768,10 +16496,6 @@
     "answer": "Waiting to intervene allows the inflammatory cycle to continue, making surgery riskier for the patient."
   },
   {
-    "question": "In which patient did all other signs point to an intra-abdominal process?",
-    "answer": "All other signs pointed to an intra-abdominal process in the patient discussed in the passage."
-  },
-  {
     "question": "What was the rationale for re-exploring the patient even if the x-ray swallow study did not show an anastomotic leak?",
     "answer": "It was reasonable to re-explore the patient due to other indications, despite the negative x-ray swallow study results."
   },
@@ -17406,10 +17130,6 @@
   {
     "question": "How is the dura described in terms of thickness?",
     "answer": "The dura is described as thick."
-  },
-  {
-    "question": "What is the next step after observing the fluid flow during the procedure?",
-    "answer": "The passage mentions making a burrhole with a cruciate incision in the dura."
   },
   {
     "question": "Can you describe the color of the fluid that is expected to be seen during the procedure?",
@@ -18226,22 +17946,6 @@
   {
     "question": "Where can one find a more in-depth discussion on culture change related to healthcare settings?",
     "answer": "One can find a more in-depth discussion on culture change in the \"Culture Change\" section of the manual."
-  },
-  {
-    "question": "What are the affiliations of the authors Richard Davis and Chege Macharia?",
-    "answer": "Richard Davis and Chege Macharia are affiliated with AIC Kijabe Hospital in Kenya."
-  },
-  {
-    "question": "What is the Creative Commons license under which this work is licensed?",
-    "answer": "This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
-    "question": "What is the affiliation of the author Chelsea Stilwell?",
-    "answer": "Chelsea Stilwell is affiliated with Lexington Oncology in Kentucky, USA."
-  },
-  {
-    "question": "When was this manual published?",
-    "answer": "The manual was published in January 2023."
   },
   {
     "question": "Where can one access the \"Open Manual of Surgery in Resource-Limited Settings\"?",
@@ -19168,10 +18872,6 @@
     "answer": "Surgical steps include elevating fractured bone fragments, evaluating and evacuating subdural injuries, evaluating and repairing dural defects, and reconstructing the normal round contour of the skull."
   },
   {
-    "question": "What are the affiliations of the authors mentioned in the conclusion?",
-    "answer": "The authors are affiliated with various medical institutions in the USA, Ghana, and Kenya."
-  },
-  {
     "question": "When was the conclusion regarding depressed skull fractures published?",
     "answer": "The conclusion was published in October 2024."
   },
@@ -19354,10 +19054,6 @@
   {
     "question": "Who else is mentioned to be affected by the volatile interaction with the family members?",
     "answer": "The blood donors are mentioned to be affected by the situation, indicating a broader impact."
-  },
-  {
-    "question": "What is the importance of a careful, rational analysis of events in this context?",
-    "answer": "A careful, rational analysis of events is important for learning from potential mistakes in patient care."
   },
   {
     "question": "What are some questions healthcare professionals can ask themselves to learn from potential mistakes?",
@@ -19564,34 +19260,6 @@
     "answer": "To ensure a clear understanding of the factors contributing to adverse events and improve patient care."
   },
   {
-    "question": "What is the desired outcome for an individual in this context?",
-    "answer": "The desired outcome is to remain a healthy human being and become a better surgeon."
-  },
-  {
-    "question": "What is the suggested approach to becoming a better surgeon in this passage?",
-    "answer": "The passage suggests learning from events and seeking coaching for improvement."
-  },
-  {
-    "question": "Why is it important to reflect on events in this passage?",
-    "answer": "Reflecting on events can help individuals learn and improve as surgeons."
-  },
-  {
-    "question": "What aspect of surgical performance should individuals evaluate for improvement in this passage?",
-    "answer": "Individuals should evaluate their fine dissection technique for potential improvement."
-  },
-  {
-    "question": "In what way can individuals benefit from learning from events in this passage?",
-    "answer": "Learning from events can help individuals become better surgeons and improve their skills."
-  },
-  {
-    "question": "What advice is given regarding positioning in surgery for steadier hands?",
-    "answer": "The passage suggests positioning yourself and the patient better to have steadier hands."
-  },
-  {
-    "question": "What should be done to control hemorrhage from a large vein during surgery?",
-    "answer": "The passage recommends working on controlling hemorrhage from a large vein."
-  },
-  {
     "question": "What will happen if the role of skills or judgment is ignored in surgical outcomes?",
     "answer": "If the role of skills or judgment is ignored, the individual may not seek out lessons for improvement, and skills and judgment will remain the same."
   },
@@ -19710,22 +19378,6 @@
   {
     "question": "What should a surgeon do when they convert to an open operation during surgery?",
     "answer": "Close the Hasson port site immediately when converting to an open operation."
-  },
-  {
-    "question": "What was emphasized regarding the potential for bowel injury during abdominal closure?",
-    "answer": "The passage mentions that bowel can be injured during abdominal closure, highlighting the need for careful handling."
-  },
-  {
-    "question": "What kind of statements should be avoided when communicating with the family about a complication?",
-    "answer": "Statements like \"I cannot comment on that\" should be avoided, according to the passage."
-  },
-  {
-    "question": "What is recommended for addressing complications, starting with Category 5 complications?",
-    "answer": "Addressing complications should start with oneself, as mentioned in the passage."
-  },
-  {
-    "question": "What is the importance of being open and honest when communicating with the family after a complication?",
-    "answer": "It is important to maintain transparency and openness when explaining the situation to the family, as recommended in the passage."
   },
   {
     "question": "What is the importance of talking with family after a medical event?",
@@ -20044,10 +19696,6 @@
     "answer": "Professional counselors are trained in processing grief and stress, similar to how healthcare practitioners are trained in their field."
   },
   {
-    "question": "What benefits are mentioned for having sessions to address feelings of loss, guilt, and shame?",
-    "answer": "The passage suggests that there will be some benefit to having sessions to address these feelings."
-  },
-  {
     "question": "Is encountering Category 4 or 5 complications a common part of being a surgeon?",
     "answer": "Yes, having Category 4 or 5 complications is part of being a surgeon."
   },
@@ -20078,10 +19726,6 @@
   {
     "question": "Why are external fixators becoming less popular in the management of retroperitoneal hemorrhage?",
     "answer": "External fixators are becoming less popular as they failed to provide a better impact compared to pelvic circumferential compression devices in various studies."
-  },
-  {
-    "question": "What is a treatment option that involves bilateral ligation of internal iliac arteries for pelvic trauma hemorrhage?",
-    "answer": "Bilateral ligation of the internal iliac arteries is a treatment option mentioned in the passage."
   },
   {
     "question": "What is recommended as a principal treatment option based on the available literature?",
@@ -20432,10 +20076,6 @@
     "answer": "Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
-    "question": "Who is the author of the 'Open Manual of Surgery in Resource-Limited Settings'?",
-    "answer": "Sharmila Dissanaike."
-  },
-  {
     "question": "What are some of the aspects that make being a Department Chair challenging?",
     "answer": "The varying responsibilities and demands of the position."
   },
@@ -20612,10 +20252,6 @@
     "answer": "It is important for the Chair to understand the challenges and opportunities faced by other members of their Department."
   },
   {
-    "question": "Why is the my-way-or-the-highway authoritarian style of leadership no longer viable in the modern environment?",
-    "answer": "The traditional authoritarian style is no longer viable in the modern environment as it is ineffective, and a collaborative approach is needed."
-  },
-  {
     "question": "What skills are necessary for an aspiring leader to develop a collaborative leadership style?",
     "answer": "Skills like active listening, encouraging participation, and creating a unified vision are necessary for developing a collaborative leadership style."
   },
@@ -20640,48 +20276,20 @@
     "answer": "An overwhelming number of books on leadership, self-development, quality assurance, and adult education, as well as many online courses are available."
   },
   {
-    "question": "What is the author hoping to achieve by providing a cursory overview of leading a surgical department?",
-    "answer": "The author hopes to pique the reader's interest and encourage further exploration in the field."
-  },
-  {
     "question": "What type of license is the work available under in the Open Manual of Surgery in Resource-Limited Settings?",
     "answer": "The work is available under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
-    "question": "What type of books does the author personally find most helpful in leadership and career development?",
-    "answer": "The author personally finds a brief selection of books most helpful."
-  },
-  {
-    "question": "What is the author's perspective on the importance of leadership in a Department of Surgery?",
-    "answer": "The author views it as required for success."
-  },
-  {
-    "question": "What is the author's intent in providing a brief overview of leading a surgical department?",
-    "answer": "The author's intent is to encourage further exploration in the field."
   },
   {
     "question": "Where can one find an overwhelming number of books on leadership and self-development?",
     "answer": "An overwhelming number of books on leadership, self-development, quality assurance, and adult education are available today, as well as many online courses."
   },
   {
-    "question": "What does the author hope the overview of leading a surgical department will inspire in the reader?",
-    "answer": "The author hopes it will inspire the reader to pique interest and encourage exploration."
-  },
-  {
     "question": "Where can one find the \"Society of Surgical Chairs of the American College of Surgeons2023\" playbook?",
     "answer": "The playbook can be found at https://www.facs.org/for-medical-professionals/news-publications/books-and-manuals/surgical-chairs-playbook."
   },
   {
-    "question": "What is the publication \"Optimal Resources for Surgical Quality and Safety\" about?",
-    "answer": "The publication focuses on optimal resources for surgical quality and safety and was authored by Hoyt D. and Ko CY."
-  },
-  {
     "question": "What is the \"Fundamental of Physician Leadership: Finance\" resource about?",
     "answer": "The resource focuses on the fundamentals of physician leadership in finance and is available through the American Association for Physician Leadership."
-  },
-  {
-    "question": "What is the \"15 Commitments of Conscious Leadership\" about?",
-    "answer": "The publication discusses the 15 commitments of conscious leadership and was authored by Dethmer J., Chapman D., and Warner-Klemp K."
   },
   {
     "question": "What is \"The Contrarian's Guide to Leadership\" about?",
@@ -20942,10 +20550,6 @@
   {
     "question": "Where is an avascular plane typically found around arteries?",
     "answer": "The avascular plane is typically found around arteries between the media and the adventitia layers."
-  },
-  {
-    "question": "What is the plane that is easier to dissect than the plane between the adventitia and the pancreatic tissue?",
-    "answer": "The plane that is easier to dissect is not explicitly mentioned in the passage."
   },
   {
     "question": "What are the main steps involved in dissecting the omental attachments to the spleen?",
@@ -21300,16 +20904,8 @@
     "answer": "Episodes of malaria are more severe and may be more likely fatal in patients who have had their spleen removed."
   },
   {
-    "question": "Who is the author of the statement about severe malaria episodes in patients without a spleen?",
-    "answer": "The author is Richard Davis MD, FACS, FCS(ECSA)."
-  },
-  {
     "question": "Where was the observation about severe malaria episodes in patients without a spleen documented?",
     "answer": "The observation was documented at AIC Kijabe Hospital in Kenya."
-  },
-  {
-    "question": "At what age do the authors recommend orchidopexy for truly undescended testis?",
-    "answer": "Orchidopexy is recommended at 8 months to one year of age."
   },
   {
     "question": "How does the decline in fertility change the longer the testis remains undescended?",
@@ -21444,10 +21040,6 @@
     "answer": "An undescended testis must be differentiated from a retractile testis."
   },
   {
-    "question": "Where can readers find more information about Orchidopexy for Undescended Testis?",
-    "answer": "Readers can find more information in another source referred to in the passage."
-  },
-  {
     "question": "What is the importance of differentiating between undescended testis and retractile testis?",
     "answer": "It is crucial to differentiate between the two conditions due to the strong cremasteric reflex associated with retractile testis."
   },
@@ -21462,10 +21054,6 @@
   {
     "question": "How often should the testis be examined for ascent in a child with retractile testis?",
     "answer": "The testis should be examined for ascent in one year."
-  },
-  {
-    "question": "What are the steps involved in orchidopexy for retractile testis?",
-    "answer": "The steps include skin and Scarpa’s fascia incision, incision of the external oblique aponeurosis, locating the testis, dissection of the testis and spermatic cord, ligation of the peritoneum, creation of a Dartos pouch, passage of the testis to the Dartos pouch, and skin closure."
   },
   {
     "question": "When is it necessary to secure the testis within the Dartos pouch during orchidopexy?",
@@ -21526,14 +21114,6 @@
   {
     "question": "How is the horizontal incision made in relation to the midline in the inguinal area?",
     "answer": "The horizontal incision is made 1.5 cm from the midline through a skin crease over the palpable cord."
-  },
-  {
-    "question": "Why is no diathermy needed during the incision process in the inguinal area?",
-    "answer": "No diathermy is needed as specified in the passage because the incision is made through the skin in an inguinal crease."
-  },
-  {
-    "question": "What is the significance of identifying and cutting Scarpa's fascia during the inguinal incision procedure?",
-    "answer": "Scarpa's fascia is cut to allow access to the plane above the external oblique, as described in the passage."
   },
   {
     "question": "What is the fascial layer found within the subcutaneous fat after skin incision in Orchidopexy for an Undescended Testis?",
@@ -21974,10 +21554,6 @@
   {
     "question": "What area is specifically referred to in the context of the axillary dissection?",
     "answer": "The right axilla is specifically mentioned."
-  },
-  {
-    "question": "What is the reason for removing part of the pectoralis major in this context?",
-    "answer": "The pectoralis major is removed to expose the axillary contents."
   },
   {
     "question": "What is the identification number for the thoracodorsal nerve?",
@@ -22464,10 +22040,6 @@
     "answer": "The complication is lymphedema of the right arm."
   },
   {
-    "question": "Who is the author of the work discussing lymphedema treatment post-mastectomy?",
-    "answer": "The author is Peter Bird."
-  },
-  {
     "question": "In which country is the AIC Kijabe Hospital located?",
     "answer": "The hospital is located in Kenya."
   },
@@ -22812,14 +22384,6 @@
     "answer": "The Red Arrow shows the point of extravasation of contrast."
   },
   {
-    "question": "What is the significance of the Blue Arrow in a Barium swallow study after a gunshot wound to the neck?",
-    "answer": "The Blue Arrow shows the passage of the contrast inferiorly into the mediastinum."
-  },
-  {
-    "question": "What treatment approach is required for a patient with extravasation and passage of contrast into the mediastinum after a gunshot wound?",
-    "answer": "The patient will require surgical exploration, debridement, and repair of the perforation."
-  },
-  {
     "question": "When is surgical intervention necessary in the management of injuries detected through imaging studies?",
     "answer": "Surgical intervention is necessary when there is extravasation of contrast into the mediastinum, indicating the need for exploration, debridement, and repair."
   },
@@ -23076,20 +22640,12 @@
     "answer": "Neck exploration for trauma is performed through an oblique incision along the anterior border of the sternocleidomastoid, curving posteriorly near the angle of the mandible to avoid injury to the mandibular branch of the facial nerve."
   },
   {
-    "question": "Where can more details on neck exploration and repair of specific injuries be found?",
-    "answer": "More details on neck exploration and repair of specific injuries are provided in another chapter in this Manual."
-  },
-  {
     "question": "What type of incision is typically used for neck exploration in trauma cases?",
     "answer": "An oblique incision along the anterior border of the sternocleidomastoid, curving posteriorly near the angle of the mandible to avoid injury to the mandibular branch of the facial nerve, is typically used for neck exploration in trauma cases."
   },
   {
     "question": "In which scenarios should patients be taken for immediate exploration?",
     "answer": "Patients exhibiting one or more hard signs of vascular injury should be taken for immediate exploration."
-  },
-  {
-    "question": "What is the importance of surgery in cases of doubt regarding a patient's condition?",
-    "answer": "The passage emphasizes that surgery is recommended in cases of doubt, as a carefully performed negative neck exploration has less morbidity than a missed injury."
   },
   {
     "question": "What is ileocolic intussusception?",
@@ -23332,10 +22888,6 @@
     "answer": "The procedure can be done awake or with light sedation."
   },
   {
-    "question": "What license is this work published under?",
-    "answer": "This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "What type of catheter is needed for decompression in case of perforation during the procedure?",
     "answer": "A large bore intravenous catheter is required for decompression in case of perforation with tension pneumoperitoneum."
   },
@@ -23524,14 +23076,6 @@
     "answer": "The challenge is the need to 'frantically search' for it when required."
   },
   {
-    "question": "Who are the authors of this manual and where are they affiliated?",
-    "answer": "The authors are Muse Freneh from AIC Kijabe Hospital in Kenya and Jason Axt from Indiana University and Moi University School of Medicine in Kenya."
-  },
-  {
-    "question": "Under which license is this work published?",
-    "answer": "This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "What is the main goal of cricothyroidotomy?",
     "answer": "The main goal is to access the airway through the cricothyroid membrane below the vocal cords."
   },
@@ -23638,10 +23182,6 @@
   {
     "question": "Is the preparation of the neck a mandatory step before a procedure?",
     "answer": "No, this step can be omitted if betadine, chlorhexidine, or alcohol swab are not immediately available."
-  },
-  {
-    "question": "What anatomical landmarks are suggested to be palpated during the procedure described?",
-    "answer": "The passage mentions palpating the thyroid cartilage (\"Adam's apple\") and the cricoid cartilage about 1-2 cm caudal to it."
   },
   {
     "question": "How far below the thyroid cartilage should the cricoid cartilage be palpated?",
@@ -23830,10 +23370,6 @@
   {
     "question": "What was the follow-up plan for the patient with a malignant thyroid tumor after securing the tube?",
     "answer": "The surgical team planned to return for tumor debulking and formal tracheostomy the next day."
-  },
-  {
-    "question": "Why is cricothyroidotomy done through a malignant thyroid tumor?",
-    "answer": "The passage does not provide specific information on why cricothyroidotomy was done through a malignant thyroid tumor."
   },
   {
     "question": "What is the significance of using Nylon sutures to secure the tube in place?",
@@ -24288,14 +23824,6 @@
     "answer": "The credibility of WikEM as a reputable source for medical information may vary."
   },
   {
-    "question": "Why is the great saphenous vein used for catheter insertion in this context?",
-    "answer": "The great saphenous vein is used for catheter insertion due to its suitability for the procedure."
-  },
-  {
-    "question": "Where can healthcare professionals refer to for guidance on Venous Cutdown?",
-    "answer": "Healthcare professionals can refer to the WikEM article mentioned in the passage for guidance on Venous Cutdown."
-  },
-  {
     "question": "How can persistent bleeding be avoided during the surgical procedure?",
     "answer": "Persistent bleeding can be avoided by taking great care with handling and isolating vessels, using surgical magnification as needed, and using blunt, non-toothed forceps."
   },
@@ -24494,10 +24022,6 @@
   {
     "question": "How much sterile saline mixed with iodine is typically used to inflate the bladder in transvesical prostatectomy?",
     "answer": "180 - 240 cc of sterile saline mixed with iodine is used to inflate the bladder."
-  },
-  {
-    "question": "Why is it important to avoid shaving pubic hair before transvesical prostatectomy?",
-    "answer": "The passage recommends clipping pubic hair to prevent potential complications."
   },
   {
     "question": "What is the role of the Foley catheter in the context of transvesical prostatectomy?",
@@ -25940,10 +25464,6 @@
     "answer": "Individuals with citizenship in countries other than the United States are subject to special conditions related to employment."
   },
   {
-    "question": "What should Hiring Leaders do when considering hiring a foreign national applicant without relevant U.S. work authorization?",
-    "answer": "Hiring Leaders should contact VUMC Immigration to ensure legal and policy requirements are met before making any job offer."
-  },
-  {
     "question": "How should hiring for temporary positions be conducted?",
     "answer": "Hiring of employees for temporary positions should be conducted through VUMC TempForce."
   },
@@ -26178,10 +25698,6 @@
   {
     "question": "How are ureteral injuries described in terms of frequency and diagnostic complexity?",
     "answer": "Ureteral injuries are described as rare and often challenging to diagnose without cross-sectional imaging."
-  },
-  {
-    "question": "What is emphasized regarding the importance of renal function in the context of ureteral injuries?",
-    "answer": "The passage emphasizes the importance of renal function in post-trauma recovery and the resources required if dialysis becomes necessary."
   },
   {
     "question": "What is the significance of temporizing measures in managing ureteral injuries?",
@@ -27180,10 +26696,6 @@
     "answer": "The appearance of the above wound after two months shows an excellent outcome with the patient being satisfied."
   },
   {
-    "question": "What is the recommended approach if part of a graft sticks to the wound bed while another part does not?",
-    "answer": "The passage suggests trying to reapply a pressure dressing for 3-5 more days in such cases."
-  },
-  {
     "question": "What may happen if a graft that appears poor is automatically debrided?",
     "answer": "There is a risk of removing a graft that is adherent to the wound base and could still heal well."
   },
@@ -27238,10 +26750,6 @@
   {
     "question": "Why should hair-bearing skin not be used to replace any part of the urinary tract?",
     "answer": "Hair-bearing skin should not be used to replace any part of the urinary tract to avoid stone formation when hair comes in contact with urine."
-  },
-  {
-    "question": "Who is the author of this passage and where is their practice located?",
-    "answer": "The author is Richard Davis, MD FACS FCS(ECSA) from AIC Kijabe Hospital in Kenya."
   },
   {
     "question": "What should be done if there is no choice but to use hair-bearing skin in a procedure?",
@@ -28384,10 +27892,6 @@
     "answer": "Precautions should be taken to ensure the head is resting solidly on the head ring and cannot be rotated or extended further to avoid iatrogenic injury."
   },
   {
-    "question": "What does the extension of the neck with a head ring and shoulder roll allow in this procedure?",
-    "answer": "The extension of the neck allows the passage of a straight instrument through the mouth, down to the gastroesophageal junction."
-  },
-  {
     "question": "What is the recommended table rotation for this procedure?",
     "answer": "The table should be rotated 90 degrees away from the anesthesia station to allow the surgeon room to maneuver."
   },
@@ -28410,10 +27914,6 @@
   {
     "question": "Why is it important to adjust the table height or sit on a stool for this procedure?",
     "answer": "It is important for the surgeon's comfort and ability to perform the procedure effectively."
-  },
-  {
-    "question": "What is the advantage of using a head ring and shoulder roll during this procedure?",
-    "answer": "The head ring and shoulder roll allow for proper extension of the neck, facilitating instrument passage through the esophagus."
   },
   {
     "question": "How should the scope be inserted through the mouth for examination?",
@@ -28564,10 +28064,6 @@
     "answer": "Barium esophagoscopy is recommended."
   },
   {
-    "question": "What is advised if a contrast study shows passage into the parapharyngeal space or mediastinum?",
-    "answer": "Surgical exploration is mandatory."
-  },
-  {
     "question": "Why is simply making the patient 'NPO' not sufficient in cases of perforation?",
     "answer": "Simply making the patient \"NPO\" is not sufficient due to the average adult swallowing 1.5L of saliva per day."
   },
@@ -28576,24 +28072,8 @@
     "answer": "There should be a very low threshold for surgical exploration and repair."
   },
   {
-    "question": "When is exploration mandatory in cases of perforation during endoscopy?",
-    "answer": "Exploration is mandatory if a contrast study shows passage into the parapharyngeal space or mediastinum."
-  },
-  {
-    "question": "What does the lateral view barium swallow study show in the patient described?",
-    "answer": "The study shows extravasation of contrast from the posterior hypopharynx area, with arrows indicating the point of extravasation and the passage of contrast into the mediastinum."
-  },
-  {
     "question": "What specific procedures are mentioned as necessary for the patient with esophageal perforation?",
     "answer": "Debridement, exploration, and repair are mentioned as necessary procedures for the patient."
-  },
-  {
-    "question": "Who is the author of this case description regarding esophageal perforation?",
-    "answer": "The author is Richard Davis, MD FACS FCS(ECSA) from AIC Kijabe Hospital in Kenya."
-  },
-  {
-    "question": "When was this passage regarding esophageal perforation authored?",
-    "answer": "The passage was authored in January 2022."
   },
   {
     "question": "Who is credited with inventing the Pfannenstiel Incision technique?",
@@ -28784,10 +28264,6 @@
     "answer": "The retraction should be performed by the surgeon on the patient's right, while the dissection should be done by the surgeon on the patient's left."
   },
   {
-    "question": "Where is the fascia divided initially in the described surgical procedure?",
-    "answer": "The fascia is divided at the midline according to the passage."
-  },
-  {
     "question": "How should the right and left rectus muscles be separated during the procedure?",
     "answer": "The right and left rectus muscles should be separated from each other in the midline, with caution not to enter the peritoneum."
   },
@@ -28920,24 +28396,12 @@
     "answer": "Uterine rupture is an example where rapid exposure and extension of the incision might be needed."
   },
   {
-    "question": "Who are the authors of this passage and where are they affiliated?",
-    "answer": "The authors are Marianna Frazee MD from Vanderbilt University Medical Center in Tennessee, USA, and Richard Davis MD FACS FCS(ECSA) from AIC Kijabe Hospital in Kenya."
-  },
-  {
     "question": "What are some of the risks mentioned in the operating theatre for patients and staff members?",
     "answer": "The operating theatre poses unique risks to patients and staff members."
   },
   {
     "question": "Why is it important to understand how to properly set up a functioning operating theater?",
     "answer": "It is important to minimize risks to patients and staff members in the operating theatre environment."
-  },
-  {
-    "question": "Who provides commentary in the article after each paragraph?",
-    "answer": "One of the authors (JF) provides commentary after each paragraph."
-  },
-  {
-    "question": "What is the purpose of the commentary provided by the authors in the article?",
-    "answer": "The commentary provides compromises, tips, and other suggestions for adapting operating theatre standards to a low-resource setting."
   },
   {
     "question": "How many sections has the chapter been divided into regarding the operating theater?",
@@ -28954,10 +28418,6 @@
   {
     "question": "What is discussed in the 'Electricity' section?",
     "answer": "The 'Electricity' section involves information related to electricity in the operating theater."
-  },
-  {
-    "question": "What information is provided in the fourth section of the chapter?",
-    "answer": "The passage does not mention the content of the fourth section in the operating theater chapter."
   },
   {
     "question": "What aspects of the operating theater are covered in the outlined sections?",
@@ -29042,10 +28502,6 @@
   {
     "question": "What type of outlets should be present on all four walls of the operating room?",
     "answer": "There should be 220 and 110V outlets on all four walls of the operating room."
-  },
-  {
-    "question": "What discussion is mentioned to be covered elsewhere in the Manual regarding the approach to patient positioning and surgical positions?",
-    "answer": "The approach to patient positioning and various surgical positions is discussed elsewhere in this Manual."
   },
   {
     "question": "How should an operating room be designed to meet the various needs of operative patient care?",
@@ -30232,10 +29688,6 @@
     "answer": "The function of anesthesia machines will be discussed in depth in a separate chapter."
   },
   {
-    "question": "What criteria are used to deem an anesthesia machine obsolete?",
-    "answer": "The passage introduces the basics of an anesthesia workstation and criteria that deem an anesthesia machine obsolete."
-  },
-  {
     "question": "How often should anesthesia machines be checked, and what tests should be conducted?",
     "answer": "Every anesthesia machine should be checked daily with a \"leak test\" and system check."
   },
@@ -30274,10 +29726,6 @@
   {
     "question": "What guidelines can help determine if an anesthesia machine is obsolete?",
     "answer": "The Equipment and Facilities Committee Guidelines by the American Society of Anesthesiologists can help determine if an anesthesia machine is obsolete."
-  },
-  {
-    "question": "What are the absolute safety features that an anesthesia machine must contain?",
-    "answer": "The passage mentions absolute safety features that an anesthesia machine must contain, but the specific features are not listed here."
   },
   {
     "question": "Why is it important for anesthesia machines to deliver normoxic mixtures?",
@@ -30402,10 +29850,6 @@
   {
     "question": "Why is it important to maintain new equipment used in laparoscopic surgery?",
     "answer": "It is important to maintain new equipment to prevent issues related to malfunction and breakage."
-  },
-  {
-    "question": "What are the complications related to pneumoperitoneum in laparoscopic surgery?",
-    "answer": "Complications of pneumoperitoneum are among the specific complications mentioned in the passage."
   },
   {
     "question": "What is a potential consequence of vascular injury during trocar placement?",
@@ -30584,10 +30028,6 @@
     "answer": "The camera goes through the Purple trocar, and the camera operator stands on the patient's right."
   },
   {
-    "question": "Which trocars are used as the working trocars for the surgeon during laparoscopic procedures in this passage?",
-    "answer": "The Red and Blue trocars are used as the working trocars for the surgeon."
-  },
-  {
     "question": "What is the setup for bilateral inguinal hernia repair regarding the positioning of the Blue trocar?",
     "answer": "The Blue trocar is placed directly opposite the purple trocar for bilateral inguinal hernia repair."
   },
@@ -30602,10 +30042,6 @@
   {
     "question": "Which trocars are the working trocars in the \"diamond\" setup for laparoscopic cholecystectomy?",
     "answer": "The Blue and Purple trocars are the working trocars in the \"diamond\" setup for laparoscopic cholecystectomy."
-  },
-  {
-    "question": "Where do both the surgeon and camera operator stand during laparoscopic cholecystectomy in this passage?",
-    "answer": "Both the surgeon and camera operator stand on the patient's left side during laparoscopic cholecystectomy."
   },
   {
     "question": "Where is the Purple trocar preferred to be placed to avoid crowding the \"diamond\"?",
@@ -30654,10 +30090,6 @@
   {
     "question": "What is one method described for introducing laparoscopic trocars?",
     "answer": "One method involves open placement of the first trocar through the Hasson technique and percutaneous placement of subsequent trocars under direct laparoscopic visualization."
-  },
-  {
-    "question": "How many methods are described for introducing laparoscopic trocars?",
-    "answer": "One simple and reliable method is presented for introducing laparoscopic trocars in the passage."
   },
   {
     "question": "What are the key principles of laparoscopy related to trocar positioning and placement?",
@@ -30746,10 +30178,6 @@
   {
     "question": "What risks are associated with continuing the dissection through the peritoneum?",
     "answer": "Risks include increased gas leakage and potential complications."
-  },
-  {
-    "question": "How is entry into the abdominal cavity typically achieved in this context?",
-    "answer": "Entry into the abdominal cavity is typically achieved using the small finger to perforate the peritoneum."
   },
   {
     "question": "What should be done if adhesions or masses are noted during the intraperitoneal space probing?",
@@ -31208,10 +30636,6 @@
     "answer": "It is important to recognize and act upon hypoxia and hypoventilation quickly."
   },
   {
-    "question": "What types of patients are specifically mentioned in relation to the importance of recognizing hypoxia and hypoventilation?",
-    "answer": "The passage mentions that hypoxia and hypoventilation need to be recognized quickly in head-injured patients."
-  },
-  {
     "question": "Where should readers look for more information on the steps in the evaluation of airway patency and breathing adequacy?",
     "answer": "Readers are directed to Basic Life Support (BLS) and Advanced Cardiac Life Support (ACLS) for further explanation of these steps."
   },
@@ -31552,10 +30976,6 @@
     "answer": "Providers should assess whether the patient needs a hypnotic agent based on the clinical situation and patient factors."
   },
   {
-    "question": "What is the purpose of having a bougie in the airway equipment for intubation?",
-    "answer": "A bougie is used to facilitate the passage of the endotracheal tube into the trachea during intubation."
-  },
-  {
     "question": "Why is capnometry or an End Tidal CO2 detector included in the airway equipment preparation for intubation?",
     "answer": "Capnometry or End Tidal CO2 detector is used to monitor the patient's carbon dioxide levels and confirm proper placement of the endotracheal tube."
   },
@@ -31566,10 +30986,6 @@
   {
     "question": "What are the doses of rapid-acting neuromuscular blockade agents commonly used for intubation?",
     "answer": "Succinylcholine at 1 mg/kg or rocuronium at 1.2 mg/kg are commonly used neuromuscular blockade agents."
-  },
-  {
-    "question": "What are some commonly used sedation agents for intubation, and what are their side effects?",
-    "answer": "The passage mentions commonly used sedation agents for intubation, but specific details on the side effects are not provided."
   },
   {
     "question": "What is an important consideration during the onset of neuromuscular blockade for intubation?",
@@ -31594,10 +31010,6 @@
   {
     "question": "What is an important step in airway management before proceeding, if possible?",
     "answer": "Preoxygenation, if possible, is an important step in airway management."
-  },
-  {
-    "question": "What is the status of the cervical collar in the patient in this context?",
-    "answer": "The cervical collar has been opened but not removed from the patient."
   },
   {
     "question": "How does the assistant provide cervical stabilization in the procedure?",
@@ -32176,14 +31588,6 @@
     "answer": "If a high cervical ectopic gland is found above the superior pole of the thyroid lobe."
   },
   {
-    "question": "Where is the source of the information provided in this passage?",
-    "answer": "The source of the information is http://www.endocrinesurgery.net.au."
-  },
-  {
-    "question": "Under what license is the work mentioned in this passage licensed?",
-    "answer": "The work mentioned in the passage is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "What should be performed if initial measures fail in managing hyperparathyroidism?",
     "answer": "Transcervical thymectomy should be performed first and bisect the thymus to confirm the presence of parathyroid tissue."
   },
@@ -32234,10 +31638,6 @@
   {
     "question": "Which specific condition was the right parathyroid carcinoma invading?",
     "answer": "The right parathyroid carcinoma was invading the right thyroid lobe."
-  },
-  {
-    "question": "Where is the author affiliated with?",
-    "answer": "The author is affiliated with Vanderbilt University in Tennessee, USA."
   },
   {
     "question": "Why is subtotal parathyroidectomy performed during neck exploration?",
@@ -32604,10 +32004,6 @@
     "answer": "The rectus muscle is divided slowly with diathermy."
   },
   {
-    "question": "What is the initial step described in this passage for the procedure?",
-    "answer": "The initial step involves inserting a finger through the linea alba and perforating the peritoneum bluntly with your fingertip."
-  },
-  {
     "question": "What should be done to enter the peritoneum at the transversely divided linea alba?",
     "answer": "The peritoneum should be entered bluntly at the transversely divided linea alba."
   },
@@ -32912,10 +32308,6 @@
     "answer": "Polyglycolic acid (Vicryl®) is associated with an increased risk of incisional hernias."
   },
   {
-    "question": "Where did the author Richard Davis share insights on incisional hernias?",
-    "answer": "Richard Davis shared insights on incisional hernias at Kijabe Hospital, Kenya."
-  },
-  {
     "question": "What is priapism?",
     "answer": "Priapism is an erection lasting longer than 4 hours."
   },
@@ -33188,10 +32580,6 @@
     "answer": "The goal is to facilitate detumescence."
   },
   {
-    "question": "How does the glans appear after a bilateral distal corpoglanular shunt and skin closure with 3-0 chromic absorbable suture?",
-    "answer": "The passage does not provide this information."
-  },
-  {
     "question": "What is the difference between Winter's shunt and T-Shunt techniques?",
     "answer": "The Winter's shunt uses an 11-blade into the corpora, while T-Shunt uses a 10-blade inserted parallel to the urethral meatus and rotated away from the urethra."
   },
@@ -33420,16 +32808,8 @@
     "answer": "It is recommended to monitor for the effects of phenylephrine, such as hypertension, bradycardia or tachycardia, cardiac arrhythmias, and headaches."
   },
   {
-    "question": "Do most surgical training programs provide explicit leadership training?",
-    "answer": "No, most surgical training programs do not overtly supply \"leadership training\" according to the passage."
-  },
-  {
     "question": "What is the consequence of a surgeon lacking leadership skills at the end of their training?",
     "answer": "The surgeon's success and the fate of their patients will depend on their ability to lead others, even if they have not acquired leadership skills during training."
-  },
-  {
-    "question": "Which chapter of Schwartz's Principles of Surgery focuses on leadership training?",
-    "answer": "The first chapter of Schwartz's Principles of Surgery is \"Fundamental Principles of Leadership Training in Surgery,\" but it was not scheduled for study during the residency mentioned in the passage."
   },
   {
     "question": "How often was the chapter on leadership training in surgery discussed during the residency cycle through the textbook?",
@@ -33438,10 +32818,6 @@
   {
     "question": "What role are surgeons automatically placed in at the end of their training?",
     "answer": "Surgeons are automatically placed in the role of a leader at the end of their training, regardless of whether they have acquired leadership skills."
-  },
-  {
-    "question": "What license is this work published under?",
-    "answer": "This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What does being placed in a position of leadership not imply?",
@@ -33474,10 +32850,6 @@
   {
     "question": "What areas of the surgical setting involve complex team dynamics?",
     "answer": "The clinic, the ward, and the operating room all have complex team dynamics at play."
-  },
-  {
-    "question": "Why is it essential to understand and master oneself before understanding others?",
-    "answer": "According to the passage, there is no real understanding of others without understanding and mastering oneself."
   },
   {
     "question": "What is the importance of self-awareness in leadership?",
@@ -33568,10 +32940,6 @@
     "answer": "It is important for the leader to understand all of the team, their strengths and weaknesses, and the differences in strengths and weaknesses compared to the leader's own."
   },
   {
-    "question": "Why is it necessary for a leader to believe that understanding others is important?",
-    "answer": "It is necessary because the passage emphasizes that a leader will not be effective if they do not make the time and effort to understand their team members."
-  },
-  {
     "question": "What should a leader know about team members in terms of trustworthiness and skills?",
     "answer": "A leader should know whether someone is trustworthy or if they have the skills they claim to possess."
   },
@@ -33656,16 +33024,8 @@
     "answer": "Additional information on surgery in resource-limited settings can be found in the Open Manual of Surgery in Resource-Limited Settings at www.vumc.org/global-surgical-atlas."
   },
   {
-    "question": "What is the main message regarding the relationship between surgeons and the operating theater team in this passage?",
-    "answer": "The passage emphasizes that surgeons do not \"own\" the team and that the surgeon's behavior towards the team affects their response to their needs."
-  },
-  {
     "question": "What is highlighted as a strength rather than a weakness when it comes to the behavior of a leader towards the operating theater team?",
     "answer": "Kindness, when appropriately applied by a leader, is considered a strength rather than a weakness."
-  },
-  {
-    "question": "What is the significance of kindness in the context of a leader's behavior towards the operating theater team?",
-    "answer": "Kindness, when appropriately used by a leader, is seen as a strength rather than a weakness, according to the passage."
   },
   {
     "question": "What is the potential impact on the operating theater team if a surgeon is kind but not weak in their interactions?",
@@ -33752,10 +33112,6 @@
     "answer": "Senior residents are expected to teach, mentor, set positive examples, and help others achieve their goals."
   },
   {
-    "question": "Should the expectation of teaching and mentoring end when training is over?",
-    "answer": "No, the expectation should not end when training is over, according to the passage."
-  },
-  {
     "question": "What role should senior residents play to help others achieve their goals?",
     "answer": "Senior residents should play the role of a \"big brother\" or \"big sister\" and set positive examples to help others achieve their goals."
   },
@@ -33796,16 +33152,8 @@
     "answer": "The collapse occurs when the Founder finally retires or dies."
   },
   {
-    "question": "As a senior resident, what did the author realize about the responsibility for change?",
-    "answer": "The author realized that it was on the residents to prove they were ready for more responsibilities."
-  },
-  {
     "question": "What changes did the residents initially think the consultants needed to make?",
     "answer": "The residents thought consultants needed to be more friendly, trust residents with operative cases, and allow more decision-making."
-  },
-  {
-    "question": "What did the author realize residents needed to do to earn trust and more responsibilities?",
-    "answer": "Residents needed to show more responsibility, earn the trust of trainers, and prove readiness to run the training program."
   },
   {
     "question": "What advice is commonly given to young physicians regarding seeking leadership positions in their organization?",
@@ -33814,10 +33162,6 @@
   {
     "question": "Why is it recommended for young physicians to wait before seeking leadership roles in their organization?",
     "answer": "It is recommended because they may overestimate their skills and should gain experience in independent practice first."
-  },
-  {
-    "question": "Are there formal rules in many organizations regarding young physicians seeking leadership roles?",
-    "answer": "Yes, the passage mentions that many organizations have formal rules stating the same advice about not seeking leadership positions until a certain level of experience is gained."
   },
   {
     "question": "What is the recommended minimum duration of independent practice before pursuing leadership roles?",
@@ -33874,10 +33218,6 @@
   {
     "question": "Why is accepting advice from others considered beneficial in decision-making?",
     "answer": "Accepting advice from others is considered beneficial in decision-making because it can help avoid the pressure of always needing to appear decisive."
-  },
-  {
-    "question": "What is one way to avoid the pressure of needing to make quick decisions?",
-    "answer": "One way to avoid the pressure is to publicly and humbly accept the advice of others, according to the passage."
   },
   {
     "question": "What is emphasized as crucial for success in leadership roles?",
@@ -33962,10 +33302,6 @@
   {
     "question": "What is the significance of unethical behavior in a leader beyond the individual?",
     "answer": "It affects the entire department and even the whole hospital."
-  },
-  {
-    "question": "What is the main point or conclusion of the text?",
-    "answer": "The passage describes a technique to become a better leader through self-awareness and understanding."
   },
   {
     "question": "What is the key to managing others effectively?",
@@ -34058,10 +33394,6 @@
   {
     "question": "What is the recommended technique for effective bag-mask ventilation when using an Ambu-bag?",
     "answer": "The \"EC\" clamp technique is the recommended technique for effective bag-mask ventilation."
-  },
-  {
-    "question": "What technique is described for bag-mask ventilation in this passage?",
-    "answer": "The two-handed \"EC\" technique is described for bag-mask ventilation."
   },
   {
     "question": "What should the administration of a breath during bag-mask ventilation produce as an indication of proper ventilation?",
@@ -34404,10 +33736,6 @@
     "answer": "A shorter onset of paralytics is preferable because during the time of onset, the patient may not be able to breathe but may not be paralyzed enough to intubate."
   },
   {
-    "question": "What are some commonly used sedation agents for intubation?",
-    "answer": "The passage mentions a table with commonly used sedation agents for intubation, but specific agents are not listed."
-  },
-  {
     "question": "What information is provided in the table about paralytics for intubation?",
     "answer": "The table provides information about commonly used paralytics and their duration of onset, suggesting that a shorter onset is preferable for intubation."
   },
@@ -34618,10 +33946,6 @@
   {
     "question": "What is the purpose of the small “hook” on the stylet end in intubation procedures?",
     "answer": "The small “hook” on the stylet end allows it to pass under the epiglottis and enter the trachea."
-  },
-  {
-    "question": "What indicates successful passage of the stylet into the trachea during intubation?",
-    "answer": "The operator should feel the stylet passing along the tracheal rings and then encounter resistance at the carina."
   },
   {
     "question": "How can an endotracheal tube be passed after successful stylet placement during intubation?",
@@ -35144,10 +34468,6 @@
     "answer": "The retractor indicated by the red dot retracts the peritoneum superomedially."
   },
   {
-    "question": "Who are the authors of the study on the management of ureteric avulsion during ureteroscopy?",
-    "answer": "The authors are Shekar, P.A., Kochhar, G., Reddy, D. et al."
-  },
-  {
     "question": "What is the subject of Richard Davis's work on surgery?",
     "answer": "Richard Davis's work is on an open manual of surgery in resource-limited settings."
   },
@@ -35196,10 +34516,6 @@
     "answer": "Closing of the internal oblique or transversus abdominis muscles, followed by the external oblique aponeurosis, and then skin closure."
   },
   {
-    "question": "What should be considered if a Penrose drain is used during closure?",
-    "answer": "If a Penrose drain is used, the lateral part of the wound can be left open to allow the passage of the drain."
-  },
-  {
     "question": "What is one of the pitfalls mentioned when performing the procedure?",
     "answer": "Placing the incision in the wrong location is one of the pitfalls mentioned."
   },
@@ -35214,10 +34530,6 @@
   {
     "question": "What comes after reapproximating the internal oblique or transversus abdominis muscles during closure?",
     "answer": "Closing of the external oblique aponeurosis follows after reapproximating the muscles."
-  },
-  {
-    "question": "What is the reason for leaving the lateral portion of the wound open when using a Penrose drain?",
-    "answer": "The lateral part of the wound is left open to allow passage of the drain."
   },
   {
     "question": "Why is dissecting the retroperitoneum off of the transversus abdominis muscle recommended in case of misplaced incision?",
@@ -35484,10 +34796,6 @@
     "answer": "Securing the patient is important for patient safety, preventing movement, and maintaining the correct positioning."
   },
   {
-    "question": "Why is neck extension important during esophagoscopy?",
-    "answer": "Neck extension is important to provide a direct passage from the incisors to the esophagus."
-  },
-  {
     "question": "Why is it crucial to support the head during esophagoscopy?",
     "answer": "It is crucial to support the head to avoid cervical spine injury."
   },
@@ -35752,10 +35060,6 @@
     "answer": "Using positions such as Semi-Fowler’s or Reverse Trendelenburg increases the risk during surgery."
   },
   {
-    "question": "Who is the author of the statement?",
-    "answer": "Adrian Sarli, MD is the author of the statement."
-  },
-  {
     "question": "Where is Adrian Sarli, MD affiliated with?",
     "answer": "Adrian Sarli, MD is affiliated with the University of North Dakota School of Medicine."
   },
@@ -35950,10 +35254,6 @@
   {
     "question": "What is the next step after the clot removal process?",
     "answer": "The next step is shunt preparation steps."
-  },
-  {
-    "question": "What are the shunt preparation steps?",
-    "answer": "The passage doesn't fully provide the details of shunt preparation steps, but it would be an open-ended question for further elaboration."
   },
   {
     "question": "Why is it essential to leave an injured vessel intact during shunt placement?",
@@ -36154,10 +35454,6 @@
   {
     "question": "Which vessels are suitable for ligation in cases of life-threatening hemorrhage?",
     "answer": "The common carotid artery, external carotid arteries, subclavian artery, axillary artery, brachial artery, ulnar or radial artery, celiac trunk, and internal iliac artery are suitable for ligation."
-  },
-  {
-    "question": "What type of vessels may not be suitable for ligation?",
-    "answer": "The passage does not mention specific vessels that are not suitable for ligation."
   },
   {
     "question": "Which artery is generally better tolerated for ligation, radial, or ulnar?",
@@ -36644,14 +35940,6 @@
     "answer": "The colors Red, Yellow, and Green indicate the severity of malnutrition."
   },
   {
-    "question": "What does the child's measurement in this passage indicate?",
-    "answer": "The child's measurement indicates severe malnutrition."
-  },
-  {
-    "question": "Why is the patient's height needed in this context?",
-    "answer": "The patient's height is needed for calculating body mass index."
-  },
-  {
     "question": "What measurements can be used to calculate height if the patient's height cannot be measured directly?",
     "answer": "Ulna length, knee height, or demispan can be used to calculate height."
   },
@@ -36662,14 +35950,6 @@
   {
     "question": "In what scenarios is it preferable to use ulna length to estimate height?",
     "answer": "Ulna length is preferable for bed-bound patients, those with severe disabilities, and those with kyphosis or scoliosis."
-  },
-  {
-    "question": "How are the derived height values used in this passage?",
-    "answer": "The derived height values are used to calculate the body mass index."
-  },
-  {
-    "question": "What is the importance of calculating body mass index in this context?",
-    "answer": "Calculating body mass index helps in assessing the nutritional status of the patient."
   },
   {
     "question": "What are the implications of severe malnutrition in children if not addressed?",
@@ -37240,10 +36520,6 @@
     "answer": "A nutritionist provides complete data regarding the patient's requirements to the pharmacist."
   },
   {
-    "question": "What is the purpose of preparing a fresh infusion bag for 24 hours infusion in this context?",
-    "answer": "The purpose is to provide nutrition support."
-  },
-  {
     "question": "Are individual solutions of glucose, fat, and amino acids usually available in resource-limited settings?",
     "answer": "No, individual solutions of glucose, fat, and amino acids are not usually available in resource-limited settings."
   },
@@ -37410,10 +36686,6 @@
   {
     "question": "What is the consequence of the head \"bouncing\" when gently pressed on the forehead during a medical procedure?",
     "answer": "If the head \"bounces,\" it indicates that the head is being held up by the cervical spine rather than being well-supported."
-  },
-  {
-    "question": "What technique is suggested for supporting the head during a medical procedure?",
-    "answer": "The passage suggests using a head ring and shoulder roll for extending the neck and then gently pushing downward on the patient's head."
   },
   {
     "question": "Why is it important to ensure proper support of the head during a medical procedure?",
@@ -37684,10 +36956,6 @@
     "answer": "Forearm support should be provided from the elbow to the metacarpophalangeal joint."
   },
   {
-    "question": "How can the surgeon achieve the proper level of adjustment for the seat and table during surgery?",
-    "answer": "By following the guidelines provided in the passage regarding seat and table adjustment."
-  },
-  {
     "question": "What benefits can proper positioning of the patient and surgeon have during surgery?",
     "answer": "Proper positioning can lead to improved stability, precision, and comfort during the surgical procedure."
   },
@@ -37816,20 +37084,12 @@
     "answer": "Split thickness skin grafts are useful for covering wounds that have no living epidermal cells, such as deep abrasions, burns, venous stasis ulcers, and sites of tumor excision."
   },
   {
-    "question": "How can split thickness skin grafts cover more space than the area they came from?",
-    "answer": "Split thickness skin grafts can be expanded to cover more space through the process of \"meshing,\" as described further in the passage."
-  },
-  {
     "question": "Are split thickness skin grafts useful for pressure ulcers?",
     "answer": "No, split thickness skin grafts are not useful for pressure ulcers; a more pressure-tolerant option must be used in this situation."
   },
   {
     "question": "What happens to split thickness grafts after placement?",
     "answer": "Every split thickness graft will contract after being placed, with thinner grafts contracting more."
-  },
-  {
-    "question": "Can split thickness grafts be harvested in different thicknesses?",
-    "answer": "Yes, split thickness grafts can be harvested in various thicknesses, as discussed further in the passage."
   },
   {
     "question": "How does the thickness of a split thickness graft affect its contraction after placement?",
@@ -37850,10 +37110,6 @@
   {
     "question": "Why should meshed skin grafts be avoided when used on the face?",
     "answer": "Meshed skin grafts should be avoided on the face due to their tendency to contract and the resulting cosmetic effects."
-  },
-  {
-    "question": "What is the typical appearance of a meshed skin graft after healing?",
-    "answer": "The passage does not specifically mention the typical appearance of a meshed skin graft after healing, so this question might be beyond the given information."
   },
   {
     "question": "What are the considerations for using split thickness grafts on the face?",
@@ -38336,10 +37592,6 @@
     "answer": "Suturing monofilament nylon, applying dressing, and tying sutures over the dressing."
   },
   {
-    "question": "How is the dressing applied around the graft after suturing?",
-    "answer": "The dressing is applied in the same way as described above in the passage."
-  },
-  {
     "question": "Why is it important to consider the size of the defect when preparing for skin grafting?",
     "answer": "It is important to avoid running out of space for skin harvesting."
   },
@@ -38428,10 +37680,6 @@
     "answer": "A feeler gauge can be modified for use in skin grafts by disassembling it and keeping only the necessary sizes."
   },
   {
-    "question": "What is the relationship between manual dermatomes and skin grafts?",
-    "answer": "The passage mentions manual dermatomes but does not provide much information to form a direct answer based on the passage."
-  },
-  {
     "question": "What is the next step after placing the blade in the specified position?",
     "answer": "Once in place, the blade should be gently slid until its grooves are engaged by the tabs on the base of the knife."
   },
@@ -38506,10 +37754,6 @@
   {
     "question": "How does the throttle activation process work on the dermatome?",
     "answer": "The throttle is squeezed to activate the machine, and further steps are involved in raising the throttle, moving the black switch, and depressing the button to fully activate it."
-  },
-  {
-    "question": "What license is this work published under?",
-    "answer": "This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What should be aligned with the drive pin when placing the blade?",
@@ -39050,10 +38294,6 @@
   {
     "question": "How many patients could be accommodated into hallway spaces during a mass casualty event?",
     "answer": "The number of patients that could be accommodated into hallway spaces would depend on the total patient accommodation planning considerations for the event."
-  },
-  {
-    "question": "How many beds could be converted to provide ICU level care?",
-    "answer": "The passage does not specify the exact number of beds that could be converted to provide ICU level care."
   },
   {
     "question": "Why are beds near the nursing station used as a 'surrogate' for critical care beds?",
@@ -40428,10 +39668,6 @@
     "answer": "Near infrared parathyroid autofluorescence technology can aid in parathyroid identification and preservation."
   },
   {
-    "question": "What risks are associated with not utilizing intraoperative nerve monitoring during parathyroid surgery?",
-    "answer": "The passage does not explicitly state the risks, so this question may be beyond the given information."
-  },
-  {
     "question": "What does the confirmation of intraoperative biochemical cure with IOPTH monitoring indicate?",
     "answer": "The confirmation indicates that the parathyroidectomy was successful."
   },
@@ -40936,20 +40172,12 @@
     "answer": "Petroleum jelly (Vaseline ®) soaked gauze is commonly used."
   },
   {
-    "question": "How is petroleum jelly gauze made in this context?",
-    "answer": "Petroleum jelly gauze is made by impregnating plain gauze with jelly in a reusable sterilizable container."
-  },
-  {
     "question": "How is an autograft secured?",
     "answer": "An autograft is secured with a combination of staples and sutures."
   },
   {
     "question": "How is a graft over the sacral area secured?",
     "answer": "A graft over the sacral area is secured with negative pressure wound therapy."
-  },
-  {
-    "question": "What is the purpose of using a rectal tube in this context?",
-    "answer": "A rectal tube is being used to divert stool from the area."
   },
   {
     "question": "What preventive measures are taken to avoid shearing with dressing changes?",
@@ -40992,10 +40220,6 @@
     "answer": "The temperature should be adjusted to 74-95 F (23-35 C) depending on the size of the injury and the size of the patient."
   },
   {
-    "question": "Why is tangential excision more challenging with a wound that has been treated by the exposure method?",
-    "answer": "Tangential excision is more challenging due to the formation of an eschar over the wound, which limits the assessment of its depth and hinders the passage of the excision knife."
-  },
-  {
     "question": "What are the consequences of the excision knife getting snagged at the end of the blade?",
     "answer": "If the excision knife gets snagged, it will not advance forward easily and can begin to cut too deeply."
   },
@@ -41006,10 +40230,6 @@
   {
     "question": "What is an eschar, and how does it impact the assessment of wounds during tangential excision?",
     "answer": "An eschar is a layer that forms over the wound and limits the assessment of its depth, making it challenging to perform tangential excision effectively."
-  },
-  {
-    "question": "How does the exposure method affect the ease of passage of the excision knife during tangential excision?",
-    "answer": "The exposure method makes the passage of the excision knife difficult due to the eschar formation over the wound."
   },
   {
     "question": "What are some key considerations during tangential excision to ensure the proper technique is applied?",
@@ -41194,10 +40414,6 @@
   {
     "question": "What is considered the standard of care for partial thickness burns in Europe?",
     "answer": "Suprathel is the standard of care for partial thickness burns in Europe."
-  },
-  {
-    "question": "Which author is affiliated with the School of Medicine, University of Zambia?",
-    "answer": "Goran Jovic is affiliated with the School of Medicine, University of Zambia."
   },
   {
     "question": "When was this information published?",
@@ -41444,10 +40660,6 @@
     "answer": "The foam device can be placed beforehand or carefully guided onto the patient's face as they are rotated into position."
   },
   {
-    "question": "Where is the information from this passage sourced?",
-    "answer": "The information is from the Open Manual of Surgery in Resource-Limited Settings."
-  },
-  {
     "question": "What is the purpose of using a foam device during positioning for surgery?",
     "answer": "The purpose is to cover the patient's face during rotation into the desired position."
   },
@@ -41486,10 +40698,6 @@
   {
     "question": "What is the significance of the team guiding the patient into the face-down position during the turning process?",
     "answer": "Guiding the patient ensures a smooth transition and proper alignment in the prone position, helping maintain stability during the procedure."
-  },
-  {
-    "question": "What position does the patient reach in this passage?",
-    "answer": "The patient reaches the prone position."
   },
   {
     "question": "Where should the patient's arms be placed in the prone position?",
@@ -41590,10 +40798,6 @@
   {
     "question": "Where should the hip roll be placed to assist in checking the genitalia and foley catheter?",
     "answer": "The hip roll should be placed under the anterior superior iliac spine."
-  },
-  {
-    "question": "What is the recommended method for checking the genitalia and foley catheter in the prone position?",
-    "answer": "The passage suggests lifting up the thigh and checking on the genitalia and foley catheter."
   },
   {
     "question": "Why is it important to avoid pulling, squeezing, or pinching the foley catheter and genitalia during surgery?",
@@ -42174,10 +41378,6 @@
   {
     "question": "How can the extent of the cavity be determined after making the incision?",
     "answer": "The extent of the cavity can be determined by probing gently with a rigid suction catheter."
-  },
-  {
-    "question": "How can you irrigate and suction inside the abscess cavity?",
-    "answer": "The passage describes using a suction catheter to direct the tip around the inside of the abscess cavity."
   },
   {
     "question": "What instrument can be used to irrigate the cavity thoroughly?",
@@ -43476,22 +42676,6 @@
     "answer": "More information about the procedure can be found in another chapter of the Manual."
   },
   {
-    "question": "Who is the author of the document?",
-    "answer": "The author of the document is Mark W. Bowyer, MD, FACS, FRCS."
-  },
-  {
-    "question": "What institution is the author affiliated with?",
-    "answer": "The author is affiliated with the Uniformed Services University of the Health Sciences in Maryland, USA."
-  },
-  {
-    "question": "What credentials does the author hold?",
-    "answer": "The author holds the credentials of MD, FACS, FRCS."
-  },
-  {
-    "question": "Where is the author located?",
-    "answer": "The author is located in Maryland, USA."
-  },
-  {
     "question": "When was the document published?",
     "answer": "The document was published in November 2023."
   },
@@ -43680,14 +42864,6 @@
     "answer": "The technique for Ureteroneocystostomy can be found in the Therapeutic Advances in Urology publication with the specific DOI provided."
   },
   {
-    "question": "Under what type of license is the work on Ureteroneocystostomy in the given passage licensed?",
-    "answer": "The work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
-    "question": "Who are the authors of the Ureteroneocystostomy technique in the given passage?",
-    "answer": "The authors are George E. Koch and Niels V. Johnsen."
-  },
-  {
     "question": "What is the purpose of affixing the bladder to the psoas muscle?",
     "answer": "Affixing the bladder to the psoas muscle reduces tension on the anastomosis."
   },
@@ -43698,10 +42874,6 @@
   {
     "question": "What step is taken to identify the psoas muscle in the procedure?",
     "answer": "The psoas muscle is identified and exposed."
-  },
-  {
-    "question": "In what order are the bladder and psoas muscle-related procedures performed?",
-    "answer": "The order of the procedures follows the sequence mentioned in the passage."
   },
   {
     "question": "Why is it important to affix the bladder to the psoas muscle during the procedure?",
@@ -44044,10 +43216,6 @@
     "answer": "The difference in sizes (2-3 mm for normal and 5+ mm for enlarged) is not always easy to distinguish."
   },
   {
-    "question": "How does the method of diagnosing a hernia in an infant differ from that in an adult?",
-    "answer": "The passage indicates differences in the diagnosis methods, which are not further detailed."
-  },
-  {
     "question": "What role can parents play in assessing an inguinal hernia in their child?",
     "answer": "Parents can be asked to take a photo of the bulge for the surgeon to review."
   },
@@ -44058,10 +43226,6 @@
   {
     "question": "What does an enlarged cord size in an infant suggest during an examination for an inguinal hernia?",
     "answer": "An enlarged cord size suggests the likely presence of a hernia sac."
-  },
-  {
-    "question": "How does the diagnosis of an inguinal hernia in an infant differ from that in an adult?",
-    "answer": "The diagnosis methods differ between infants and adults, but the specifics are not provided in the passage."
   },
   {
     "question": "At what age may infantile hydroceles spontaneously resolve?",
@@ -45512,14 +44676,6 @@
     "answer": "The surgeon should use the index and middle fingers of one hand to gently press the fetal occiput and flex the maxilla to assist in the delivery."
   },
   {
-    "question": "Where is the information in this passage sourced from?",
-    "answer": "The information is sourced from Takeda, Jun with DOI: 10.1055/s-0040-1702985."
-  },
-  {
-    "question": "What is the main focus of the information provided in this passage?",
-    "answer": "The main focus is on assisting in the delivery of the fetal head during childbirth."
-  },
-  {
     "question": "When should the umbilical cord be clamped if no neonatal resuscitation is needed and maternal bleeding is not excessive?",
     "answer": "The cord should be clamped after 30-60 seconds."
   },
@@ -45932,10 +45088,6 @@
     "answer": "It is reasonable to consider both mechanical and pharmacologic prophylaxis once cleared from an anesthesia standpoint."
   },
   {
-    "question": "Who are the authors of this passage and where are they affiliated?",
-    "answer": "The authors are Lindsey E. Zamora, MD MPH from Vanderbilt University Medical Center, and Annelise Long, MSPH from the University of Washington."
-  },
-  {
     "question": "When should mechanical and pharmacologic prophylaxis be considered in high-risk patients post-surgery?",
     "answer": "Prophylaxis should be considered once cleared from an anesthesia standpoint."
   },
@@ -46316,14 +45468,6 @@
     "answer": "The nurse reported that a patient has a new chest tube."
   },
   {
-    "question": "Was the chest tube placement done without permission?",
-    "answer": "The passage does not provide information on whether the placement was done without permission."
-  },
-  {
-    "question": "Did the intern defy the plan from the consultant surgeon by placing the chest tube?",
-    "answer": "No, the passage explicitly states that none of that occurred."
-  },
-  {
     "question": "What is the significance of the nurse reporting a patient having a new chest tube?",
     "answer": "The significance is that it's the only information provided without additional context or implications."
   },
@@ -46536,10 +45680,6 @@
     "answer": "You can handle a conflict situation with a consultant by asking if it would be okay to call back shortly."
   },
   {
-    "question": "What should you do to manage emotions during acute conflicts?",
-    "answer": "You should take time to enact some of the techniques described in the passage to manage emotions during acute conflicts."
-  },
-  {
     "question": "Why is it recommended to convert acute conflicts to planned interactions?",
     "answer": "It is recommended to convert acute conflicts to planned interactions to create a calmer environment for resolving conflicts."
   },
@@ -46612,20 +45752,12 @@
     "answer": "Scheduling regular feedback sessions helps in normalizing a culture where feedback is expected and appreciated, creating a conducive environment for professional development."
   },
   {
-    "question": "Who are the authors of this passage and what are their affiliations?",
-    "answer": "The authors are Robert Sinyard, MD MBA from Massachusetts General Hospital (USA), Gady Barutwanayo MBBS from AIC Kijabe Hospital (Kenya), and Richard Davis MD FACS FCS(ECSA) from AIC Kijabe Hospital (Kenya)."
-  },
-  {
     "question": "What are the benefits of developing a workplace culture where feedback is expected and appreciated?",
     "answer": "Developing a culture of feedback helps in handling conflict and creating a thriving, productive workplace climate."
   },
   {
     "question": "How does soliciting honest input contribute to professional growth in surgery?",
     "answer": "Soliciting honest feedback is crucial for personal and professional improvement, especially in the field of surgery."
-  },
-  {
-    "question": "What countries are represented by the authors Robert Sinyard, Gady Barutwanayo, and Richard Davis?",
-    "answer": "The authors represent the USA and Kenya in the passage."
   },
   {
     "question": "Why is timely diagnosis and care essential for traumatic head injuries?",
@@ -46664,18 +45796,6 @@
     "answer": "The equipment needed includes a head ring, shoulder roll, diathermy, monopolar and bipolar instruments, bone wax, oxycellulose, Hudson Brace, appropriate perforators, functional suction machine, and either a power drill or Gigli saw for the craniotomy."
   },
   {
-    "question": "What is the first step in a lateral craniotomy for intracranial hematoma or abscess?",
-    "answer": "The passage mentions the first step but does not provide details."
-  },
-  {
-    "question": "What is the second step in a lateral craniotomy for intracranial hematoma or abscess?",
-    "answer": "The passage mentions the steps without specific details."
-  },
-  {
-    "question": "What is the third step in a lateral craniotomy for intracranial hematoma or abscess?",
-    "answer": "The passage mentions the steps without specific details."
-  },
-  {
     "question": "Why is general anesthesia required for a lateral craniotomy, especially in moribund patients?",
     "answer": "General anesthesia is required for better airway control, especially in moribund patients."
   },
@@ -46706,10 +45826,6 @@
   {
     "question": "How does placing the patient horizontal again help in case of entering a large cerebral sinus during surgery?",
     "answer": "Placing the patient horizontal again decreases the chances of air aspiration into the vein and embolization."
-  },
-  {
-    "question": "What device is used to hold the head in place during a procedure?",
-    "answer": "A head ring is used to hold the head in place during a procedure, according to the passage."
   },
   {
     "question": "Why is it important to adhere to cervical spine injury precautions in cases of acute trauma?",
@@ -46962,10 +46078,6 @@
   {
     "question": "What can happen if excessive heat is generated while using the electrical drill for bone cutting?",
     "answer": "Excessive heat can damage the bone and impair healing."
-  },
-  {
-    "question": "What are the advantages of using a gigli saw over an electrical drill for bone cutting?",
-    "answer": "The advantages could be related to the method of passage and potential heat generation."
   },
   {
     "question": "What is the relationship between the first layer and the bone in the separation process?",
@@ -48884,10 +47996,6 @@
     "answer": "The two main surgical approaches are a completely transcervical approach and an approach involving an additional extracervical approach."
   },
   {
-    "question": "Is there a clearly defined consensus on the indications for either approach to substernal thyroid goiter excision?",
-    "answer": "No, there is no clearly defined consensus on the indications for either approach to substernal thyroid goiter excision as mentioned in the passage."
-  },
-  {
     "question": "What difficulties can the thoracic component of a substernal goiter pose for clinical examination?",
     "answer": "The thoracic component of a substernal goiter can pose difficulty for ongoing clinical examination or fine needle aspiration."
   },
@@ -48934,10 +48042,6 @@
   {
     "question": "Why was a trans-cervical approach chosen for the retrosternal goiter described?",
     "answer": "The trans-cervical approach was chosen to deliver the goiter."
-  },
-  {
-    "question": "What is the importance of dissecting in the capsular plane of the thyroid during surgery?",
-    "answer": "Dissecting in the capsular plane of the thyroid is important for the surgical procedure described in the passage."
   },
   {
     "question": "What complications may some patients with substernal goiters experience during intubation?",
@@ -49058,10 +48162,6 @@
   {
     "question": "For very large glands, how should the incision be extended during total thyroidectomy?",
     "answer": "The incision should be extended upwards along the anterior border of the sternocleidomastoid."
-  },
-  {
-    "question": "What are the limitations of minimal access approaches for substernal goiter extrication?",
-    "answer": "Minimal access approaches are not appropriate for substernal goiter extrication, as mentioned in the passage."
   },
   {
     "question": "Why is routine transverse sectioning of the strap muscles not needed during thyroidectomy for substernal goiter?",
@@ -49488,10 +48588,6 @@
     "answer": "Proper intraoperative and postoperative care should be arranged."
   },
   {
-    "question": "Where can further description of the sternotomy incision be found?",
-    "answer": "Further description of the sternotomy incision can be found in another chapter of the manual authored by Salem I. Noureldine, George Washington University School of Medicine."
-  },
-  {
     "question": "Why is it beneficial to have thoracic surgical colleagues involved in thyroid surgery?",
     "answer": "It is beneficial for the assistance and care they can provide during and after the procedure."
   },
@@ -49522,10 +48618,6 @@
   {
     "question": "When is operative vaginal delivery recommended for fetal indications?",
     "answer": "Operative vaginal delivery is recommended for fetal indications in cases of suspicion of fetal compromise."
-  },
-  {
-    "question": "What are the risks involved in operative vaginal delivery?",
-    "answer": "The risks involved in operative vaginal delivery are not explicitly mentioned in the passage, so this question may be beyond the given information."
   },
   {
     "question": "What are the advantages of successful operative vaginal delivery compared to Cesarean birth?",
@@ -49808,10 +48900,6 @@
     "answer": "The red arrow below shows the overall direction of force during the delivery procedure."
   },
   {
-    "question": "What is the correct hand position for a right-handed person during delivery?",
-    "answer": "The caption describes the correct hand position for a right-handed person in the passage."
-  },
-  {
     "question": "How should the hand position be altered for a left-handed person during delivery?",
     "answer": "Hands should be reversed if the individual performing the delivery is left-handed."
   },
@@ -49920,20 +49008,12 @@
     "answer": "Ideally, the vacuum cup should be in the area shown by the green circle or in the approximately 6cm space between the anterior and posterior fontanelles."
   },
   {
-    "question": "What is the effect of proper vacuum cup placement on the flexion of the head during delivery?",
-    "answer": "When placed posteriorly in the midline, the head flexes forward when traction is applied, facilitating passage through the birth canal."
-  },
-  {
     "question": "What is the consequence of applying traction too far forward or to one side when using a vacuum cup during delivery?",
     "answer": "If traction is applied too far forward or to one side, the neck flexes in a way that is counterproductive during delivery."
   },
   {
     "question": "What is the recommended space between the anterior and posterior fontanelles for vacuum cup placement?",
     "answer": "The recommended space between the anterior and posterior fontanelles for vacuum cup placement is approximately 6cm."
-  },
-  {
-    "question": "How does the head flex when traction is applied with the vacuum cup placed properly in the midline?",
-    "answer": "When traction is applied with the vacuum cup placed properly in the midline, the head flexes forward, aiding in passage through the birth canal."
   },
   {
     "question": "What happens if the vacuum cup is placed over the anterior fontanelle or to either side during delivery?",
@@ -50428,10 +49508,6 @@
     "answer": "The gastroepiploic vessels are ligated on either side of the tumor."
   },
   {
-    "question": "What challenge is mentioned when trying to assess margins during the procedure?",
-    "answer": "Difficulty in assessing margins from outside the stomach is a challenge mentioned in the passage."
-  },
-  {
     "question": "How can the gastric wall adjacent to a tumor be evaluated before surgery?",
     "answer": "The gastric wall can be evaluated by gently pinching it."
   },
@@ -50540,14 +49616,6 @@
     "answer": "The best option is to convert the resection to a subtotal gastrectomy, provided the short gastric vessels are still intact as they are the main blood supply to the remnant stomach after a subtotal gastrectomy."
   },
   {
-    "question": "How are sutures typically placed in stomach procedures to minimize complications?",
-    "answer": "The passage suggests a technically perfect first layer followed by complete inversion with the second layer to help minimize complications."
-  },
-  {
-    "question": "What should surgeons be cautious of to avoid a devastating complication during stomach procedures?",
-    "answer": "Surgeons should be cautious of devascularizing the stomach by taking too large of a portion of it, which can lead to complications as described in the passage."
-  },
-  {
     "question": "When should the short gastric vessels be divided during a wedge gastrectomy?",
     "answer": "The short gastric vessels should only be divided if you are sure you will not need to convert to a subtotal gastrectomy, for example, if a tumor is confined to the fundus."
   },
@@ -50594,10 +49662,6 @@
   {
     "question": "Why is an omental patch utilized in patients at risk for complications following gastric or esophageal surgery?",
     "answer": "An omental patch serves as a \"safety net\" to prevent further complications in these high-risk patients."
-  },
-  {
-    "question": "Who is the author of the manual on partial \"Wedge\" Gastrectomy?",
-    "answer": "The author of the manual is Richard Davis, MD."
   },
   {
     "question": "Where can the manual on partial \"Wedge\" Gastrectomy be found?",
@@ -50976,20 +50040,8 @@
     "answer": "The supine position is preferred for optimal access and positioning during the procedure."
   },
   {
-    "question": "What distance is measured from the posterior aspect of the axilla to the most lateral aspect of the defect?",
-    "answer": "The distance between these points is measured according to the passage."
-  },
-  {
-    "question": "What distance is measured from the axilla to the closest edge of the defect?",
-    "answer": "The passage mentions measuring the distance from the axilla to the closest edge of the defect."
-  },
-  {
     "question": "Why is a gentle curve included in this procedure?",
     "answer": "A gentle curve is included to allow the flap to pass around, rather than directly anterior to, the shoulder."
-  },
-  {
-    "question": "What is done after the measurements and flap placement?",
-    "answer": "A temporary dressing is placed over the defect according to the passage."
   },
   {
     "question": "What position is the patient placed in for the procedure?",
@@ -51264,10 +50316,6 @@
     "answer": "The purpose is to position the flap correctly for the surgery."
   },
   {
-    "question": "Who are the authors of the Open Manual of Surgery in Resource-Limited Settings that provides information about the Latissimus Dorsi Flap procedure?",
-    "answer": "The authors are Richard Davis, Geoffrey Hallock, and Yoko Young Sang."
-  },
-  {
     "question": "What type of sutures are used for the first layer of skin closure in the described procedure?",
     "answer": "Absorbable sutures are used for the first layer of skin closure."
   },
@@ -51328,10 +50376,6 @@
     "answer": "All of the skin paddle should be harvested from directly above the latissimus dorsi muscle."
   },
   {
-    "question": "What type of license is this work published under?",
-    "answer": "This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
-  },
-  {
     "question": "Where can further information be found about the surgery in resource-limited settings?",
     "answer": "Further information can be found in the OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS at www.vumc.org/global-surgical-atlas."
   },
@@ -51370,10 +50414,6 @@
   {
     "question": "Why is it necessary to ensure that the neurovascular bundle is not under tension after the maneuver?",
     "answer": "It is necessary to prevent stretching of the pedicle by ensuring that the neurovascular bundle is not under tension after the maneuver."
-  },
-  {
-    "question": "How can skin necrosis be managed in this context?",
-    "answer": "Skin necrosis can be managed with debridement, resection of the dead portion, and the release of any purulent fluid underneath."
   },
   {
     "question": "If part of the skin pedicle necroses, does that mean the rest of the skin will die?",
@@ -51446,10 +50486,6 @@
   {
     "question": "Why may tactile sense alone be misleading in detecting bowel wall thinning in areas of concern?",
     "answer": "Tactile sense alone can be inaccurate due to edema in the bowel wall affecting accuracy."
-  },
-  {
-    "question": "What surgical procedures are recommended for severe typhoid fever?",
-    "answer": "The passage briefly mentions surgical procedures for severe typhoid fever, referring to the procedures mentioned in the passage."
   },
   {
     "question": "How can the injury to the intestinal wall worsen in cases of typhoid intestinal perforations?",
@@ -51724,10 +50760,6 @@
     "answer": "Care should be taken not to enter into the mucosa when using interrupted seromuscular (Lembert) stitches for the second layer of closure."
   },
   {
-    "question": "How is the abdominal cavity irrigated in the provided passage?",
-    "answer": "The abdominal cavity is irrigated quadrant by quadrant using warm normal saline."
-  },
-  {
     "question": "What is the purpose of cleaning the bilateral subdiaphragmatic spaces in the abdominal cavity?",
     "answer": "Cleaning the bilateral subdiaphragmatic spaces helps avoid reoperation for a subdiaphragmatic abscess."
   },
@@ -51738,10 +50770,6 @@
   {
     "question": "What should be done if the spaces superior and lateral to the liver are found to have exudative \"peel\"?",
     "answer": "Washing and removing the exudative \"peel\" are necessary to prevent complications."
-  },
-  {
-    "question": "What type of fluid is usually used for irrigation in the provided passage?",
-    "answer": "Multiple liters of warm normal saline are usually used for irrigation."
   },
   {
     "question": "What is the potential consequence of not removing exudative \"peel\" over the right and left lobes of the liver?",
@@ -51838,10 +50866,6 @@
   {
     "question": "How are the external retention sutures placed during fascial closure?",
     "answer": "The sutures are placed horizontally but not tied while closing the fascia with a running stitch."
-  },
-  {
-    "question": "Why do latex urinary catheter pieces often cause less skin damage during surgery than intravenous catheter tubing?",
-    "answer": "The passage suggests that latex urinary catheter pieces cause less skin damage due to certain characteristics compared to intravenous catheter tubing."
   },
   {
     "question": "What is the purpose of a close assessment of the repair site during a repeat washout?",
@@ -51982,10 +51006,6 @@
   {
     "question": "What is the rationale for creating the ostomy at the lateral edge of the rectus?",
     "answer": "Creating the ostomy at the lateral edge of the rectus allows for better post-surgical care and reduces the risk of complications."
-  },
-  {
-    "question": "What is the significance of mobilizing the two divided ends of the bowel in this context?",
-    "answer": "Mobilization of the two divided ends of the bowel is part of the process of creating the ostomy and ensuring proper placement and function."
   },
   {
     "question": "How does the placement of ostomies differ in malnourished children compared to other patients?",
@@ -52238,10 +51258,6 @@
   {
     "question": "Where can the \"OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS\" be accessed?",
     "answer": "The \"OPEN MANUAL OF SURGERY IN RESOURCE-LIMITED SETTINGS\" can be accessed at www.vumc.org/global-surgical-atlas."
-  },
-  {
-    "question": "What is the stance of the authors on the cosmetic appearance of a tracheostomy scar after tube removal?",
-    "answer": "The authors believe that a tracheostomy scar never looks good after tube removal, attributing the poor cosmetic appearance to the tube passing through it."
   },
   {
     "question": "Why would a surgeon use a slightly wider incision in a procedure?",
@@ -52510,10 +51526,6 @@
   {
     "question": "What is the role of the obturator in a tracheostomy procedure after removing the inner cannula?",
     "answer": "The obturator is placed after removing the inner cannula."
-  },
-  {
-    "question": "Why is it important to lubricate the tracheostomy tube before insertion?",
-    "answer": "It is important to lubricate the tracheostomy tube to ease passage into a desiccated trachea."
   },
   {
     "question": "What is the purpose of testing the balloon of the tracheostomy?",
@@ -52788,10 +51800,6 @@
     "answer": "The proper placement of a split gauze under the tracheostomy device is beneficial for the care of the tracheostomy."
   },
   {
-    "question": "Who are the authors of the source mentioned?",
-    "answer": "The authors of the source are Doyle, G. R. and McCutcheon, J. A."
-  },
-  {
     "question": "When was the source published?",
     "answer": "The source was published in 2015."
   },
@@ -52826,10 +51834,6 @@
   {
     "question": "Why is it important to completely remove any debris or impacted mucus from the inner cannula of a tracheostomy?",
     "answer": "It is important to prevent airway obstruction that can lead to fatal consequences."
-  },
-  {
-    "question": "What tools are suggested for cleaning the tracheostomy inner cannula?",
-    "answer": "The passage mentions that a brush or swab can be used to clean the inner cannula."
   },
   {
     "question": "Where can more information about clinical procedures for safer patient care be found?",
@@ -52974,10 +51978,6 @@
   {
     "question": "What is usually needed for the treatment of tracheal stenosis?",
     "answer": "Tracheal resection and reconstruction are usually needed for the treatment of tracheal stenosis."
-  },
-  {
-    "question": "Who are the authors of the manual of surgery in resource-limited settings?",
-    "answer": "The authors are Richard Davis and Joseph Nderitu."
   },
   {
     "question": "Which hospital are Richard Davis and Joseph Nderitu affiliated with?",
@@ -53306,10 +52306,6 @@
   {
     "question": "What gauge IV access is required for the procedure?",
     "answer": "A 14- or 16-gauge IV access is required."
-  },
-  {
-    "question": "Why is a second large peripheral line recommended?",
-    "answer": "Most authors recommend a second large peripheral line to ensure adequate access."
   },
   {
     "question": "What monitoring is required in all but the most minor resections?",
@@ -53838,10 +52834,6 @@
   {
     "question": "What post-operative complications are most commonly associated with mortality in patients undergoing liver resection?",
     "answer": "Postoperative mortality is most commonly due to myocardial infarction, cerebrovascular accident, sepsis with multiorgan failure, pulmonary embolism, and duodenal perforation."
-  },
-  {
-    "question": "Why is it important to have a good knowledge of liver pathophysiology for successful liver resection?",
-    "answer": "Having a good knowledge of liver pathophysiology is crucial for successful liver resection as outlined in the passage."
   },
   {
     "question": "How can traumatic diaphragmatic injuries be difficult to diagnose?",
@@ -54776,10 +53768,6 @@
     "answer": "Suturing through fascia is preferred to ensure proper closure and avoid complications."
   },
   {
-    "question": "What is the recommended technique for needle passage during fascial closure?",
-    "answer": "The recommended technique is to pass the needle through each side of the fascia separately."
-  },
-  {
     "question": "What is the advantage of midline incisions in emergency situations?",
     "answer": "Midline incisions can be made relatively quickly in emergency situations."
   },
@@ -55272,14 +54260,6 @@
     "answer": "A continuous subcuticular suture of 3-0 or 4-0 absorbable monofilament suture."
   },
   {
-    "question": "How is the wound described after the first layer of closure with interrupted absorbable dermal sutures?",
-    "answer": "The appearance of the wound after the first layer of closure is mentioned in the passage."
-  },
-  {
-    "question": "What is the appearance of the wound after subcuticular closure in a mastectomy procedure?",
-    "answer": "The passage describes the appearance of the wound after subcuticular closure."
-  },
-  {
     "question": "What are the final steps in dressing the wound after suturing in mastectomy procedures?",
     "answer": "The final steps involve using Steri-Strips and applying a sterile occlusive dressing."
   },
@@ -55290,10 +54270,6 @@
   {
     "question": "What is applied to the wound after the subcuticular suture in mastectomy procedures?",
     "answer": "Steri-Strips and a sterile occlusive dressing are applied to the wound."
-  },
-  {
-    "question": "How is the closure of the wound described in mastectomy procedures?",
-    "answer": "The passage provides details about the closure process, including the types of sutures used."
   },
   {
     "question": "How is a seroma typically managed?",
@@ -55370,10 +54346,6 @@
   {
     "question": "How is the band ligation procedure for esophageal varices performed?",
     "answer": "The procedure involves using a device attached to the end of an endoscope, which is loaded with bands ready to deploy. The targeted tissue is suctioned into a chamber creating a pseudopolyp, and a band is applied to the base of the tissue."
-  },
-  {
-    "question": "What advantage do multi-band ligating devices offer during the band ligation procedure?",
-    "answer": "Multi-band ligating devices allow for the application of more than one band per passage of the endoscope, providing efficiency in the procedure."
   },
   {
     "question": "What is the purpose of creating a pseudopolyp during the band ligation procedure for esophageal varices?",
@@ -55772,18 +54744,6 @@
     "answer": "AIC Kijabe Hospital in Kenya"
   },
   {
-    "question": "What is Mehret Enaro Dessalegn's role at AIC Kijabe Hospital?",
-    "answer": "The passage does not specify the role of Mehret Enaro Dessalegn."
-  },
-  {
-    "question": "What is Richard Davis's role at AIC Kijabe Hospital?",
-    "answer": "The passage does not specify the role of Richard Davis."
-  },
-  {
-    "question": "When is the information in this passage dated?",
-    "answer": "February 2022"
-  },
-  {
     "question": "What should be undertaken in a stable patient with a ureteropelvic junction or proximal ureteral injury?",
     "answer": "Primary repair should be undertaken over a stent, using absorbable, interrupted sutures."
   },
@@ -55882,10 +54842,6 @@
   {
     "question": "Where is the double-J stent placed during the procedure?",
     "answer": "The double-J stent is placed proximally into the renal pelvis and distally into the bladder."
-  },
-  {
-    "question": "What is the source of the information provided in this passage?",
-    "answer": "The information source is Burks FN and Santucci RA, Therapeutic Advances in Urology."
   },
   {
     "question": "How is the anterior wall of the anastomosis closed after an injury?",
@@ -56052,10 +55008,6 @@
     "answer": "Mediastinal lymph nodes located caudal to the brachiocephalic vein and adjacent to the tracheal bifurcation are rarely involved in patients with central compartment lymph node metastases."
   },
   {
-    "question": "What are some lymph node basins within the central neck?",
-    "answer": "Some lymph node basins mentioned in the passage include the pre-tracheal and left and right para-tracheal lymph nodes."
-  },
-  {
     "question": "Why are metastases to retropharyngeal or retroesophageal nodes less common than to more anterior lymphatics?",
     "answer": "Metastases to retropharyngeal or retroesophageal nodes are less common because they are less frequently involved compared to the more anterior lymphatics."
   },
@@ -56110,10 +55062,6 @@
   {
     "question": "Which lymph nodes are hidden deep to the right recurrent laryngeal nerve in the central neck?",
     "answer": "The right paratracheal lymph nodes are hidden deep to the right recurrent laryngeal nerve in the central neck."
-  },
-  {
-    "question": "Where is the information about central neck dissection sourced from?",
-    "answer": "The information is sourced from Friedman et al., as indicated in the passage."
   },
   {
     "question": "How is the posterior compartment lymphatic tissue mobilized during neck dissection?",
@@ -57136,24 +56084,12 @@
     "answer": "Consent should also be obtained for laparotomy."
   },
   {
-    "question": "What decision needs to be made in the management of upper GI bleeding cases?",
-    "answer": "Immediate vs. [missing continuation in the passage]"
-  },
-  {
     "question": "What is advised regarding resuscitation in patients with upper gastrointestinal hemorrhage?",
     "answer": "Blood and fluids should be given as needed, but over-resuscitation should be avoided."
   },
   {
     "question": "Why is it important to monitor patients for signs that bleeding has stopped and resuscitation end-points have been met?",
     "answer": "Monitoring is crucial, especially in elderly patients or those with pre-existing heart disease, to ensure appropriate care."
-  },
-  {
-    "question": "What are the signs that resuscitation end-points have been met in patients with upper gastrointestinal hemorrhage?",
-    "answer": "The passage does not specify particular signs, but it mentions the importance of monitoring for these signs."
-  },
-  {
-    "question": "What is the most important decision to be made regarding patients in this context?",
-    "answer": "The most important decision is whether the patient requires immediate intervention or can be integrated with the day's elective endoscopy list."
   },
   {
     "question": "How should the decision between immediate intervention and elective endoscopy be made?",
@@ -57268,14 +56204,6 @@
     "answer": "Patients with schistosomiasis and portal hypertension can tolerate general anesthesia and some blood loss during surgery."
   },
   {
-    "question": "In what situation is surgical treatment of portal hypertension recommended?",
-    "answer": "Surgical treatment of portal hypertension is recommended for patients with schistosomiasis, which is the only case mentioned in the passage."
-  },
-  {
-    "question": "What should be done in patients presenting with variceal upper GI bleed instead of immediately performing the operation?",
-    "answer": "Patients with variceal upper GI bleed should be managed as described in the passage, and the difficult operation should be deferred until it can be done electively."
-  },
-  {
     "question": "Why is a shunt operation considered extremely dangerous in patients in hemorrhagic shock?",
     "answer": "A shunt operation is considered extremely dangerous in patients in hemorrhagic shock due to the significant risks involved."
   },
@@ -57298,10 +56226,6 @@
   {
     "question": "How does the presence of varices and underlying hepatic dysfunction affect decision-making at the time of presentation?",
     "answer": "The etiology of the varices and the degree of underlying hepatic dysfunction are unclear at the time of presentation."
-  },
-  {
-    "question": "What are the treatment options described for varices and the distal splenorenal shunt in this Manual?",
-    "answer": "Splenectomy and distal splenorenal shunt are described as treatment options elsewhere in this Manual."
   },
   {
     "question": "Why is flexible upper endoscopy important in managing patients with upper GI bleeding?",
@@ -57438,10 +56362,6 @@
   {
     "question": "What setting is negative pressure therapy helpful in?",
     "answer": "Negative pressure therapy is very helpful in appropriate wounds and can be adapted to resource-limited settings."
-  },
-  {
-    "question": "What license is this work published under?",
-    "answer": "This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "When is negative pressure therapy quite useful in wound care?",
@@ -57806,10 +56726,6 @@
   {
     "question": "Where can more details on ultrasound be found for ultrasound-guided interventions?",
     "answer": "More details on ultrasound for ultrasound-guided interventions can be found in the Introduction to Ultrasonography."
-  },
-  {
-    "question": "What type of license is this work published under?",
-    "answer": "This work is published under a Creative Commons Attribution-ShareAlike 3.0 Unported License."
   },
   {
     "question": "What resource is mentioned for an open manual of surgery in resource-limited settings?",
@@ -58336,10 +57252,6 @@
     "answer": "An ultrasound probe and a biopsy needle are used in the practice."
   },
   {
-    "question": "Who are the authors of this practical guide for ultrasound-guided interventions?",
-    "answer": "The authors are Vallery Logedi and Richard Davis."
-  },
-  {
     "question": "Where is the AIC Kijabe Hospital located?",
     "answer": "The AIC Kijabe Hospital is located in Kenya."
   },
@@ -58362,14 +57274,6 @@
   {
     "question": "Why is there a need for treatments for moderate to severe perioperative pain in resource-limited settings?",
     "answer": "The need for treatments for moderate to severe perioperative pain will increase as the availability of surgical services increases in resource-limited settings."
-  },
-  {
-    "question": "How can the barriers to improving access to pain treatment be overcome in resource-limited settings?",
-    "answer": "The passage does not specify how the barriers can be overcome, so this question is beyond the given information."
-  },
-  {
-    "question": "What are some misconceptions about opioid addiction that contribute to the lack of access to pain treatments in resource-limited settings?",
-    "answer": "The passage mentions that misconceptions about opioid addiction are one of the barriers to improving access to pain treatment."
   },
   {
     "question": "What license is the work on pain management in resource-limited settings published under?",
@@ -58868,10 +57772,6 @@
     "answer": "The use of local anesthetics can have a significant beneficial impact on postoperative pain scores."
   },
   {
-    "question": "What do the authors encourage surgeons to consider for each intervention?",
-    "answer": "The authors encourage surgeons to consider the use of local anesthetics for each intervention whenever possible."
-  },
-  {
     "question": "What is the most deadly complication associated with the use of local anesthetics?",
     "answer": "The most deadly complication is local anesthetic systemic toxicity (LAST)."
   },
@@ -58910,14 +57810,6 @@
   {
     "question": "What factors should be considered when creating an analgesic plan for patients?",
     "answer": "The expected severity and duration of pain should be considered when creating an analgesic plan."
-  },
-  {
-    "question": "Who are the authors of the pain management section in the manual?",
-    "answer": "Gregory Sund and Matthew Kynes"
-  },
-  {
-    "question": "What is the title of the manual that includes the pain management section authored by Sund and Kynes?",
-    "answer": "The \"Open Manual of Surgery in Resource-Limited Settings\""
   },
   {
     "question": "Where can the 'Open Manual of Surgery in Resource-Limited Settings' be accessed?",
@@ -59086,14 +57978,6 @@
   {
     "question": "Where can detailed steps for peripartum hysterectomy be found?",
     "answer": "Detailed steps for peripartum hysterectomy can be found in Primary Surgery Volume 1 and the manual of surgery in resource-limited settings."
-  },
-  {
-    "question": "What is the relationship between Cesarean delivery and the steps for peripartum hysterectomy?",
-    "answer": "Cesarean delivery is mentioned as the mode of delivery in the passage."
-  },
-  {
-    "question": "What techniques are described to treat hemorrhage and potentially avoid uterine removal?",
-    "answer": "The passage describes various techniques to treat hemorrhage and potentially avoid the removal of the uterus."
   },
   {
     "question": "What is the first-line measure for significant bleeding due to uterine atony after childbirth?",
@@ -60208,10 +59092,6 @@
     "answer": "Repetitive trauma reduces the usefulness of the vein for a durable fistula."
   },
   {
-    "question": "What is the purpose of using a venous ultrasonography chart in this context?",
-    "answer": "The chart is used to document the sizes and patency of the veins for evaluation."
-  },
-  {
     "question": "Why should a feeble radial pulse not be used in the evaluation process?",
     "answer": "A feeble radial pulse is not recommended for use in the evaluation process."
   },
@@ -60222,10 +59102,6 @@
   {
     "question": "Why are calcified radial arteries in diabetic patients challenging for fistula formation?",
     "answer": "Calcified radial arteries in diabetic patients are hard to use for fistula formation, making them very difficult to work with."
-  },
-  {
-    "question": "What is the purpose of placing a phlebotomy tourniquet around the upper arm in this context?",
-    "answer": "The purpose is to assess the superficial venous system."
   },
   {
     "question": "How can patent veins be distinguished from thrombosed veins during the assessment?",
@@ -60342,10 +59218,6 @@
   {
     "question": "What is a potential benefit of renal transplantation for patients with predictable renal failure?",
     "answer": "A potential benefit is avoiding the need for dialysis altogether through renal transplantation."
-  },
-  {
-    "question": "What are the three symptoms that raise suspicion of Hirschsprung's Disease?",
-    "answer": "The symptoms are abdominal distention, vomiting, and delayed passage of first meconium."
   },
   {
     "question": "When should a patient with chronic constipation be evaluated for Hirschsprung's Disease?",
@@ -60480,10 +59352,6 @@
     "answer": "A digital rectal exam is performed."
   },
   {
-    "question": "What is done if abnormalities or strictures are noted during the digital rectal exam?",
-    "answer": "The passage does not provide information on the follow-up steps in this context."
-  },
-  {
     "question": "In rectal biopsy for Hirschsprung's Disease, how should the handle of the speculum be positioned?",
     "answer": "The handle of the speculum should be positioned vertically, facing upwards."
   },
@@ -60516,24 +59384,12 @@
     "answer": "The sutured gauze is directed upwards out of the way and can be removed by pulling the suture once the biopsy is complete."
   },
   {
-    "question": "What is the dentate line and why is it identified during this procedure?",
-    "answer": "The dentate line is identified as part of the procedure, but the passage does not provide the reason for its identification."
-  },
-  {
     "question": "What happens after the sutured betadine-soaked gauze is inserted into the rectum for the biopsy?",
     "answer": "The gauze can be removed by pulling the suture once the biopsy is complete."
   },
   {
     "question": "How is the suture used in the procedure involving the betadine-soaked gauze?",
     "answer": "The suture is used to direct the gauze upwards out of the way during the procedure."
-  },
-  {
-    "question": "Why is identifying the dentate line important during this procedure?",
-    "answer": "The passage does not specify the importance or relevance of identifying the dentate line in this context."
-  },
-  {
-    "question": "What is the purpose of soaking the gauze in betadine before insertion into the rectum?",
-    "answer": "The passage does not specify the purpose of soaking the gauze in betadine."
   },
   {
     "question": "What is the purpose of placing a traction suture about 1cm above a structure in this procedure?",
@@ -60708,10 +59564,6 @@
     "answer": "Rectal biopsies should be trusted in preterm infants after they have reached full term gestational age."
   },
   {
-    "question": "Who are the authors of this passage?",
-    "answer": "The authors of this passage are Catherine Jackson-Cole, Marlene Ishimwe, and Jason Axt."
-  },
-  {
     "question": "What is one of the most common procedures performed by urologists worldwide?",
     "answer": "Ureteral stent placement is one of the most common procedures performed by urologists worldwide."
   },
@@ -60752,10 +59604,6 @@
     "answer": "Ultrasound allows confirmation of the position of the guidewire and distal curl of the stent during endoscopic stent placement."
   },
   {
-    "question": "Why can't a retrograde pyelogram be done without fluoroscopy?",
-    "answer": "A retrograde pyelogram cannot be done without fluoroscopy as described in the passage."
-  },
-  {
     "question": "What should patients be counseled about regarding stents?",
     "answer": "Patients should be counseled that flank pain, urinary frequency, and urgency are common with indwelling stents."
   },
@@ -60766,10 +59614,6 @@
   {
     "question": "What method allows confirmation of the position of the guidewire and distal stent curl?",
     "answer": "Ultrasound allows confirmation of the position of the guidewire and distal curl of the stent."
-  },
-  {
-    "question": "What additional resource is suggested for more information on ultrasonography?",
-    "answer": "The passage suggests referring to the Introduction to Ultrasonography for more information."
   },
   {
     "question": "What position is the patient placed in for the procedure?",
@@ -60838,10 +59682,6 @@
   {
     "question": "How much contrast material may be required for a hydronephrotic system?",
     "answer": "Up to 30 cc of contrast may be needed."
-  },
-  {
-    "question": "What is the purpose of endoscopic placement of ureteral stents?",
-    "answer": "The passage does not directly mention the purpose of the placement."
   },
   {
     "question": "How can the ureter, renal pelvis, and calyces be fully characterized during the procedure?",
@@ -61060,10 +59900,6 @@
     "answer": "The term is \"de-torsing\" or \"de-torting\" the testicle."
   },
   {
-    "question": "What is the purpose of orchidopexy or orchiopexy in this context?",
-    "answer": "The purpose is to prevent further rotation of the testicle inside the scrotum."
-  },
-  {
     "question": "How are the testis and epididymis supplied with blood?",
     "answer": "The testis and epididymis are supplied by the gonadal vessels entering from above."
   },
@@ -61236,10 +60072,6 @@
     "answer": "The surgeon should be prepared to explore and affix the contralateral side."
   },
   {
-    "question": "What are the surgical procedures discussed in the context of this passage?",
-    "answer": "The surgical procedures discussed include Orchidopexy and Orchiectomy for Testicular Torsion."
-  },
-  {
     "question": "What are the anesthesia options for unilateral orchiectomy?",
     "answer": "The anesthesia options are general or spinal anesthesia."
   },
@@ -61356,10 +60188,6 @@
     "answer": "The purpose is to give it time to declare itself while the other hemiscrotum is evaluated."
   },
   {
-    "question": "Why is inspection and pexy of the contralateral testis important in this context?",
-    "answer": "Inspection and pexy of the contralateral testis are important after wrapping the testis in a warm moist gauze to ensure proper evaluation and management."
-  },
-  {
     "question": "What is the direction in which the testis should be untwisted if it appears dark but not necrotic?",
     "answer": "The testis should be untwisted in the direction as if \"opening a book.\""
   },
@@ -61378,10 +60206,6 @@
   {
     "question": "What is the action taken if a testis is clearly necrotic during the procedure?",
     "answer": "If a testis is clearly necrotic, the intra-scrotal spermatic cord is dissected away from the surrounding tissue at the superior aspect of the testis."
-  },
-  {
-    "question": "How are both testes treated in this procedure once the decision to preserve is made?",
-    "answer": "If the decision is made to preserve a testis, it is also pexied as described in the passage."
   },
   {
     "question": "What is done after a small incision is made in the visceral Tunica Vaginalis?",
@@ -61438,10 +60262,6 @@
   {
     "question": "What is the significance of the absence of torsion of the vascular pedicle in epididymo-orchitis?",
     "answer": "The absence of torsion of the vascular pedicle helps differentiate epididymo-orchitis from other conditions and indicates the potential for necrosis without torsion."
-  },
-  {
-    "question": "How is epididymo-orchitis managed when diagnosed correctly?",
-    "answer": "The operation should be abandoned, and the Dartos fascia and skin should be closed as described in the passage."
   },
   {
     "question": "When should tuberculosis be considered as a cause of epididymo-orchitis?",
@@ -61502,14 +60322,6 @@
   {
     "question": "How is the Dartos fascia closed in this procedure?",
     "answer": "The Dartos fascia of both sides is closed simultaneously by approximating them to the midline fascia using absorbable suture."
-  },
-  {
-    "question": "What surgical procedures are being described in this passage?",
-    "answer": "Orchidopexy and orchiectomy for testicular torsion are described in this passage."
-  },
-  {
-    "question": "In what type of settings are orchidopexy and orchiectomy being performed in this passage?",
-    "answer": "Orchidopexy and orchiectomy are being performed in resource-limited settings."
   },
   {
     "question": "What does using Allis clamps on both ends of the Dartos fascia incisions allow during the procedure?",
@@ -61884,10 +60696,6 @@
     "answer": "The placement of stays/hooks aids in visualization without causing injury during surgery."
   },
   {
-    "question": "How many sutures should be placed through the mucosa in the anal canal for the alternative self-retaining retractor system?",
-    "answer": "The number of sutures to be placed is not explicitly mentioned in the passage, so this question might not be answerable based on the given information."
-  },
-  {
     "question": "What instrument is recommended to visualize the lesion or mass during the procedure?",
     "answer": "A retractor, such as a rectal speculum, is recommended for visualization."
   },
@@ -61976,10 +60784,6 @@
     "answer": "The two options are an interrupted or running fashion."
   },
   {
-    "question": "What is the advantage of using an interrupted suture technique?",
-    "answer": "The advantage of using an interrupted suture technique is not explicitly mentioned in the passage."
-  },
-  {
     "question": "Which suture technique is more commonly used for closing defects?",
     "answer": "Either interrupted or running fashion can be used for closing defects."
   },
@@ -62030,10 +60834,6 @@
   {
     "question": "Why are complications like rectovaginal fistulae and urinary retention mentioned in relation to local transanal excision?",
     "answer": "These complications are crucial to be aware of post-operatively despite being rare in cases of local transanal excision."
-  },
-  {
-    "question": "Who are the authors of the document?",
-    "answer": "The authors are Megan Shroder, MD MPH, and Alexander Hawkins, MD MPH."
   },
   {
     "question": "Where are Megan Shroder and Alexander Hawkins affiliated?",
@@ -62304,10 +61104,6 @@
     "answer": "The hand should be kept horizontal and the entire needle and syringe should be depressed towards the floor until the tip passes underneath the clavicle."
   },
   {
-    "question": "What actions should be taken to ensure successful needle passage during subclavian catheter placement?",
-    "answer": "The needle should be kept horizontal and the entire needle and syringe should be depressed towards the floor until the tip passes underneath the clavicle."
-  },
-  {
     "question": "What visual indication should be observed when the needle is correctly inserted into the vein?",
     "answer": "A flash of dark, non-pulsatile blood in the syringe should be observed."
   },
@@ -62460,32 +61256,12 @@
     "answer": "The #11 blade should be held with the sharp edge facing upwards and the dull edge lying on the guidewire."
   },
   {
-    "question": "What is the purpose of cutting the skin during catheter placement?",
-    "answer": "The purpose of cutting the skin is to allow passage of the dilator and catheter."
-  },
-  {
     "question": "What should be done when advancing the dilator over the guidewire?",
     "answer": "When advancing the dilator, mild resistance is expected, but it should still slide smoothly over the guidewire."
   },
   {
-    "question": "Why is it important for the guidewire to move freely within the dilator?",
-    "answer": "It is important for the guidewire to move freely within the dilator to ensure the dilator follows the path of the guidewire and not a false passage."
-  },
-  {
-    "question": "How can you identify a false passage during catheter placement?",
-    "answer": "A false passage can be identified if the guidewire does not move freely within the dilator."
-  },
-  {
-    "question": "What might happen if the dilator follows a false passage instead of the guidewire path?",
-    "answer": "Incorrect catheter placement may occur if the dilator follows a false passage instead of the guidewire path."
-  },
-  {
     "question": "What level of resistance is expected when advancing the dilator over the guidewire?",
     "answer": "Mild resistance is expected when advancing the dilator over the guidewire."
-  },
-  {
-    "question": "What is the key technique described for successful catheter placement in this passage?",
-    "answer": "The key technique is using the #11 blade to cut the skin, advancing the dilator smoothly over the guidewire, and ensuring the guidewire moves freely within the dilator."
   },
   {
     "question": "What is the importance of having full control of the guidewire during the procedure?",
@@ -62922,10 +61698,6 @@
   {
     "question": "What are some alternative diagnoses to consider when a pancreatic cyst is present?",
     "answer": "Alternative diagnoses include Serous cystadenoma, Mucinous cystic neoplasm, Side branch intraductal papillary mucinous neoplasm (IPMN), Solid pseudopapillary neoplasm, Choledochal cyst, Mesenteric duplication cysts, and Gastric duplication cysts."
-  },
-  {
-    "question": "What is the importance of considering alternative diagnoses for pancreatic cysts?",
-    "answer": "Alternative diagnoses have entirely different treatment algorithms, which are not discussed in the passage."
   },
   {
     "question": "Is it appropriate to perform cholecystectomy during the same hospitalization as a pancreatitis episode if it was not done before?",
@@ -63736,14 +62508,6 @@
     "answer": "Sterilization techniques are broadly divided into physical methods (heat) and chemical methods."
   },
   {
-    "question": "Which types of organisms are more effectively targeted by physical sterilization methods?",
-    "answer": "The passage does not explicitly state which types of organisms are more effectively targeted by physical sterilization methods."
-  },
-  {
-    "question": "Which types of organisms are more effectively targeted by chemical sterilization methods?",
-    "answer": "The passage does not explicitly state which types of organisms are more effectively targeted by chemical sterilization methods."
-  },
-  {
     "question": "Why is it important to thoroughly clean medical instruments before sterilization?",
     "answer": "Thorough cleaning with water and detergent or enzymatic cleaners is necessary to remove all foreign material from the surface of the equipment, as failure to do so can significantly limit the effectiveness of the sterilization process."
   },
@@ -63826,10 +62590,6 @@
   {
     "question": "What happens if the release valve fails during steam sterilization?",
     "answer": "If the release valve fails, the autoclave can be turned into a dry heat autoclave, which creates higher temperatures and may melt plastics in the device."
-  },
-  {
-    "question": "What are the minimum cycle times for steam sterilization?",
-    "answer": "The minimum cycle times for steam sterilization are not explicitly mentioned in this passage."
   },
   {
     "question": "What preparations are necessary before using flash sterilization?",
@@ -64938,9 +63698,5 @@
   {
     "question": "Where can one find guidelines for disinfection and sterilization in healthcare facilities?",
     "answer": "Guidelines can be found in the United States Centers for Disease Control (CDC) Guideline for Disinfection and Sterilization in Healthcare Facilities (2008)."
-  },
-  {
-    "question": "Who are the authors of the material related to the Eco-Clave wood burning autoclave?",
-    "answer": "The authors are Chris Gross and Sanaz Dovell from the University of Florida College of Medicine."
   }
 ]
