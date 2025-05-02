@@ -6,6 +6,10 @@ from langchain_openai import AzureChatOpenAI
 import asyncio
 import functools
 import time
+import logging
+
+# Set up logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Load environment variables
 load_dotenv()
@@ -60,6 +64,7 @@ async def rate_limited_call(func, *args, **kwargs):
         rate_limiter.release()
 
 async def answer_question(question):
+    logging.info(f"Generating answer for question: {question[:50]}...")
     prompt = f"""You are a medical expert. Please answer the following question:
 
 Question: {question}
@@ -74,9 +79,11 @@ Respond in the following format:
     response = await rate_limited_call(to_thread(llm.invoke), prompt)
     thinking = response.content.split('<thinking>')[1].split('</thinking>')[0].strip()
     answer = response.content.split('<answer>')[1].split('</answer>')[0].strip()
+    logging.info(f"Answer generated for question: {question[:50]}...")
     return answer, thinking
 
 async def evaluate_answer(question, generated_answer, known_answer):
+    logging.info(f"Evaluating answer for question: {question[:50]}...")
     prompt = f"""You are a medical reasoning engine that compares two answers to a given question to determine whether the answers are the same. Here is the question and the two answers:
 
 Question:
@@ -99,11 +106,14 @@ Respond in the following format:
     evaluation = response.content.strip()
     thinking = evaluation.split('<thinking>')[1].split('</thinking>')[0].strip()
     is_correct = 'true' in evaluation.lower().split('<answer>')[-1].split('</answer>')[0].strip()
+    logging.info(f"Evaluation completed for question: {question[:50]}...")
     return is_correct, thinking
 
 async def process_question(item, results_file):
     question = item['question']
     known_answer = item['answer']
+    
+    logging.info(f"Processing question: {question[:50]}...")
     
     # Generate an answer
     generated_answer, CoT = await answer_question(question)
@@ -132,9 +142,12 @@ async def process_question(item, results_file):
             json.dump(data, f, indent=2)
             f.truncate()
 
+    logging.info(f"Question processed and result saved: {question[:50]}...")
     return result
 
 async def main():
+    logging.info("Starting the evaluation process...")
+    
     # Load the dataset
     with open('surgical_qa_dataset.json', 'r') as f:
         dataset = json.load(f)
@@ -145,6 +158,8 @@ async def main():
     with open(results_file, 'w') as f:
         json.dump([], f)
 
+    logging.info(f"Processing {len(dataset)} questions...")
+
     # Process questions concurrently
     tasks = [process_question(item, results_file) for item in dataset]
     results = await asyncio.gather(*tasks)
@@ -152,8 +167,8 @@ async def main():
     # Calculate accuracy
     accuracy = sum(1 for result in results if result['is_correct']) / len(results)
 
-    print(f"Accuracy: {accuracy:.2%}")
-    print(f"Results saved to {results_file}")
+    logging.info(f"Evaluation completed. Accuracy: {accuracy:.2%}")
+    logging.info(f"Results saved to {results_file}")
 
 if __name__ == "__main__":
     asyncio.run(main())
