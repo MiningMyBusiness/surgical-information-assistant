@@ -30,7 +30,7 @@ llm = AzureChatOpenAI(
 )
 
 # Rate limiting constants
-MAX_CALLS_PER_MINUTE = 125
+MAX_CALLS_PER_MINUTE = 50
 RATE_LIMIT_PERIOD = 60  # seconds
 
 class RateLimiter:
@@ -66,20 +66,20 @@ async def rate_limited_call(func, *args, **kwargs):
 async def answer_question(question):
     logging.info(f"Generating answer for question: {question[:50]}...")
     prompt = f"""You are a medical expert. Please answer the following question:
-
-Question: {question}
-
 Think step-by-step and provide a detailed reasoning process to arrive at your answer. Include at least 3 steps in your reasoning, but more as needed.
 
 Respond in the following format:
 
 <thinking> Your reasoning here... </thinking>
 <answer> Your final answer here... </answer>
+
+Question: {question}
 """
     response = await rate_limited_call(to_thread(llm.invoke), prompt)
     thinking = response.content.split('<thinking>')[1].split('</thinking>')[0].strip()
     answer = response.content.split('<answer>')[1].split('</answer>')[0].strip()
     logging.info(f"Answer generated for question: {question[:50]}...")
+    logging.info(f"Answer first few words: {answer[:50]}...")
     return answer, thinking
 
 async def evaluate_answer(question, generated_answer, known_answer):
@@ -107,6 +107,7 @@ Respond in the following format:
     thinking = evaluation.split('<thinking>')[1].split('</thinking>')[0].strip()
     is_correct = 'true' in evaluation.lower().split('<answer>')[-1].split('</answer>')[0].strip()
     logging.info(f"Evaluation completed for question: {question[:50]}...")
+    logging.info(f"Evalution result: {is_correct}")
     return is_correct, thinking
 
 async def process_question(item, results_file):

@@ -30,7 +30,7 @@ llm = AzureChatOpenAI(
 )
 
 # Rate limiting constants
-MAX_CALLS_PER_MINUTE = 125
+MAX_CALLS_PER_MINUTE = 50
 RATE_LIMIT_PERIOD = 60  # seconds
 
 class RateLimiter:
