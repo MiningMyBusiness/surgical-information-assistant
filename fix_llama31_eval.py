@@ -80,7 +80,7 @@ Respond in the following format:
 """
     response = await rate_limited_call(to_thread(llm.invoke), prompt)
     evaluation = response.content.strip()
-    thinking = response.split('<thinking>')[1].split('</thinking>')[0].strip()
+    thinking = evaluation.split('<thinking>')[1].split('</thinking>')[0].strip()
     is_correct = 'true' in evaluation.lower().split('<answer>')[-1].split('</answer>')[0].strip()
     return is_correct, thinking
 

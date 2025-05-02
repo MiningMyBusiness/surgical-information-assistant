@@ -71,8 +71,8 @@ Respond in the following format:
 <answer> Your final answer here... </answer>
 """
     response = await rate_limited_call(to_thread(llm.invoke), prompt)
-    thinking = response.split('<thinking>')[1].split('</thinking>')[0].strip()
-    answer = response.split('<answer>')[1].split('</answer>')[0].strip()
+    thinking = response.content.split('<thinking>')[1].split('</thinking>')[0].strip()
+    answer = response.content.split('<answer>')[1].split('</answer>')[0].strip()
     return answer, thinking
 
 async def evaluate_answer(question, generated_answer, known_answer):
@@ -96,7 +96,7 @@ Respond in the following format:
 """
     response = await rate_limited_call(to_thread(llm.invoke), prompt)
     evaluation = response.content.strip()
-    thinking = response.split('<thinking>')[1].split('</thinking>')[0].strip()
+    thinking = evaluation.split('<thinking>')[1].split('</thinking>')[0].strip()
     is_correct = 'true' in evaluation.lower().split('<answer>')[-1].split('</answer>')[0].strip()
     return is_correct, thinking
 
