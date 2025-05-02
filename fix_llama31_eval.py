@@ -85,12 +85,16 @@ Respond in the following format:
 <thinking> Your reasoning here... </thinking>
 <answer> TRUE if the answers are similar, FALSE otherwise... </answer>
 """
-    response = await rate_limited_call(to_thread(llm.invoke), prompt)
-    evaluation = response.content.strip()
-    thinking = evaluation.split('<thinking>')[1].split('</thinking>')[0].strip()
-    is_correct = 'true' in evaluation.lower().split('<answer>')[-1].split('</answer>')[0].strip()
-    logging.info(f"Evaluation completed for question: {question[:50]}...")
-    return is_correct, thinking
+    try:
+        response = await rate_limited_call(to_thread(llm.invoke), prompt)
+        evaluation = response.content.strip()
+        thinking = evaluation.split('<thinking>')[1].split('</thinking>')[0].strip()
+        is_correct = 'true' in evaluation.lower().split('<answer>')[-1].split('</answer>')[0].strip()
+        logging.info(f"Evaluation completed for question: {question[:50]}...")
+        return is_correct, thinking
+    except Exception as e:
+        logging.error(f"Error evaluating answer for question: {question[:50]}. Error: {str(e)}")
+        return False, "Could not evaluate answer for question."
 
 async def process_question(item, results_file):
     question = item['question']
