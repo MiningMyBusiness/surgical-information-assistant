@@ -35,7 +35,7 @@ llm_llama31 = ChatOpenAI(model=os.environ["TOGETHER_LLAMA31"],
                          temperature=0.7)
 
 # Rate limiting constants
-MAX_CALLS_PER_MINUTE = 50
+MAX_CALLS_PER_MINUTE = 100
 RATE_LIMIT_PERIOD = 60  # seconds
 
 class RateLimiter:
