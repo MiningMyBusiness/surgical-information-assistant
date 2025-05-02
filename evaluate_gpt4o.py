@@ -21,6 +21,7 @@ def to_thread(func):
 llm = AzureChatOpenAI(
     openai_api_version=os.environ["AZURE_API_VERSION"],
     azure_deployment=os.environ["AZURE_DEPLOYMENT"],
+    model_name="gpt-4o",
     temperature=0.7
 )
 
