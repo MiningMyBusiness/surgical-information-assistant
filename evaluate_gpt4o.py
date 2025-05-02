@@ -76,11 +76,16 @@ Respond in the following format:
 Question: {question}
 """
     response = await rate_limited_call(to_thread(llm.invoke), prompt)
-    thinking = response.content.split('<thinking>')[1].split('</thinking>')[0].strip()
-    answer = response.content.split('<answer>')[1].split('</answer>')[0].strip()
-    logging.info(f"Answer generated for question: {question[:50]}...")
-    logging.info(f"Answer first few words: {answer[:50]}...")
-    return answer, thinking
+    try:
+        thinking = response.content.split('<thinking>')[1].split('</thinking>')[0].strip()
+        answer = response.content.split('<answer>')[1].split('</answer>')[0].strip()
+        logging.info(f"Answer generated for question: {question[:50]}...")
+        logging.info(f"Answer first few words: {answer[:50]}...")
+        return answer, thinking
+    except Exception as e:
+        logging.error(f"Error generating answer for question: {question[:50]}...")
+        logging.error(str(e))
+        return "Could not generate answer for question.", "Could not generate answer for question."
 
 async def evaluate_answer(question, generated_answer, known_answer):
     logging.info(f"Evaluating answer for question: {question[:50]}...")
