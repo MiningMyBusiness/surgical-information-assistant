@@ -152,7 +152,7 @@ async def main():
     with open('surgical_qa_dataset.json', 'r') as f:
         dataset = json.load(f)
 
-    results_file = 'qa_results_4o.json'
+    results_file = 'qa_results_4o_wo_rag.json'
 
     # Initialize the results file
     with open(results_file, 'w') as f:
