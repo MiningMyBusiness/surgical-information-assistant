@@ -82,13 +82,13 @@ Think step-by-step and provide a detailed reasoning process that compares the tw
 
 Respond in the following format:
 
-<thinking> Your reasoning here... </thinking>
+<think> Your reasoning here... </think>
 <answer> TRUE if the answers are similar, FALSE otherwise... </answer>
 """
     try:
         response = await rate_limited_call(to_thread(llm.invoke), prompt)
         evaluation = response.content.strip()
-        thinking = evaluation.split('<thinking>')[1].split('</thinking>')[0].strip()
+        thinking = evaluation.split('<think>')[1].split('</think>')[0].strip()
         is_correct = 'true' in evaluation.lower().split('<answer>')[-1].split('</answer>')[0].strip()
         logging.info(f"Evaluation completed for question: {question[:50]}...")
         return is_correct, thinking

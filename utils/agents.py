@@ -45,7 +45,7 @@ decomposition_prompt = PromptTemplate.from_template(
     
     Create new sub-questions in the following format but do NOT answer the question. Respond in the following format:
     
-    <thinking> Your reasoning here... </thinking>
+    <think> Your reasoning here... </think>
     <sub-question> The first sub-question... </sub-question>
     <sub-question> The second sub-question... </sub-question>
     ...
@@ -137,7 +137,7 @@ Include snippets of the context that support your answer. Do NOT use any informa
 
 Respond in the following format:
 
-<thinking> Your reasoning here... </thinking>
+<think> Your reasoning here... </think>
 <answer> The generated answer... </answer>
 <snippet> First relevant snippet from the context... </snippet>
 <snippet> Second relevant snippet from the context... </snippet>
@@ -165,7 +165,7 @@ Include snippets of the context that support your answer. Do NOT use any informa
 
 Respond in the following format:
 
-<thinking> Your reasoning here... </thinking>
+<think> Your reasoning here... </think>
 <answer> The generated answer... </answer>
 <snippet> First relevant snippet from the context... </snippet>
 <snippet> Second relevant snippet from the context... </snippet>
@@ -200,7 +200,7 @@ Knowledge:
 {answers}
 
 Think step-by-step to reason through you answer and consider the relevant information. Respond in the following format:
-<thinking> Your reasoning here... </thinking>
+<think> Your reasoning here... </think>
 <can_answer> yes OR no </can_answer>
 <answer> The answer to the original question... </answer>
 <new_questions> The first new sub-question... </new_questions>
@@ -243,7 +243,7 @@ Knowledge:
 {state["wikipedia_results"]}
 
 Think step-by-step to reason through you answer and consider the relevant information. Respond in the following format:
-<thinking> Your reasoning here... </thinking>
+<think> Your reasoning here... </think>
 <answer> The answer to the original question... </answer>
 """
     llm = ChatOpenAI(model=state["model"],
@@ -288,7 +288,7 @@ Final Answer:
 {final_answer}
 
 Think step-by-step to reason through your answer and consider the relevant information. Respond in the following format:
-<thinking> Your reasoning here... </thinking>
+<think> Your reasoning here... </think>
 <follow_up_questions> follow-up question here... </follow_up_questions>
 <follow_up_questions> follow-up question here... </follow_up_questions>
 <follow_up_questions> follow-up question here... </follow_up_questions>"""
@@ -314,14 +314,14 @@ Knowledge:
 
 Provide your response in this format:
 
-<thinking> Your reasoning here... </thinking>
+<think> Your reasoning here... </think>
 <answer> The final answer here... </answer>
 """
     llm = ChatOpenAI(model=state["model"],
                      api_key=state["api_key"],
                      base_url=state["base_url"])
     response = llm.invoke(prompt).content.strip()
-    cot = response.split("<thinking>")[1].split("</thinking>")[0].strip()
+    cot = response.split("<think>")[1].split("</think>")[0].strip()
     state['cot_for_answer'] = cot
 
 
@@ -361,7 +361,7 @@ def orchestrator(state: DeRetSynState):
     yield {"step": "final", "state": state}
 
 
-def evaluate_answer(state: DeRetSynState, known_answer: str) -> bool:
+def evaluate_answer(state: DeRetSynState, known_answer: str, llm: ChatOpenAI=None) -> bool:
     prompt = f"""You are a medical reasoning engine that compares two answers to a given question to determine whether the answers are the same. Here is the question and the two answers:
 
 Question:
@@ -377,12 +377,13 @@ Think step-by-step and provide a detailed reasoning process that compares the tw
 
 Respond in the following format:
 
-<thinking> Your reasoning here... </thinking>
+<think> Your reasoning here... </think>
 <answer> TRUE if the answers are similar, FALSE otherwise... </answer>
 """
-    llm = ChatOpenAI(model=state["model"],
-                     api_key=state["api_key"],
-                     base_url=state["base_url"])
+    if not llm:
+        llm = ChatOpenAI(model=state["model"],
+                        api_key=state["api_key"],
+                        base_url=state["base_url"])
     response = llm.invoke(prompt)
     return 'true' in response.content.strip().lower()
 

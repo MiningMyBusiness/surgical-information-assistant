@@ -75,7 +75,7 @@ Think step-by-step and provide a detailed reasoning process to arrive at your an
 
 Respond in the following format:
 
-<thinking> Your reasoning here... </thinking>
+<think> Your reasoning here... </think>
 <answer> Your final answer here... </answer>
 
 Question: {question}
@@ -83,7 +83,7 @@ Question: {question}
     
     try:
         response = await rate_limited_call(to_thread(llm_llama31.invoke), prompt)
-        thinking = response.content.split('<thinking>')[1].split('</thinking>')[0].strip()
+        thinking = response.content.split('<think>')[1].split('</think>')[0].strip()
         answer = response.content.split('<answer>')[1].split('</answer>')[0].strip()
         logging.info(f"Answer generated for question: {question[:50]}...")
         logging.info(f"Answer first few words: {answer[:50]}...")
@@ -110,13 +110,13 @@ Think step-by-step and provide a detailed reasoning process that compares the tw
 
 Respond in the following format:
 
-<thinking> Your reasoning here... </thinking>
+<think> Your reasoning here... </think>
 <answer> TRUE if the answers are similar, FALSE otherwise... </answer>
 """
     try:
         response = await rate_limited_call(to_thread(llm_4o.invoke), prompt)
         evaluation = response.content.strip()
-        thinking = evaluation.split('<thinking>')[1].split('</thinking>')[0].strip()
+        thinking = evaluation.split('<think>')[1].split('</think>')[0].strip()
         is_correct = 'true' in evaluation.lower().split('<answer>')[-1].split('</answer>')[0].strip()
         logging.info(f"Evaluation completed for question: {question[:50]}...")
         logging.info(f"Evalution result: {is_correct}")
