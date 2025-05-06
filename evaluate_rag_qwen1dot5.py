@@ -73,8 +73,8 @@ async def process_question_async(qa_pair):
     # Initialize the state
     state = DeRetSynState(
         original_question=question,
-        model=os.getenv('TOGETHER_QWEN25_1dot5B'),
-        api_key=os.getenv('TOGETHER_API_KEY'),
+        model=os.getenv('OLLAMA_QWEN25_1dot5'),
+        api_key=os.getenv('OLLAMA_API_KEY'),
         base_url="https://api.together.xyz/v1/",
         faiss_index_path="surgical_faiss_index",
         verbose=False,
@@ -153,14 +153,14 @@ def process_question(qa_pair):
     # Initialize the state
     state = DeRetSynState(
         original_question=question,
-        model=os.getenv('TOGETHER_QWEN25_1dot5B'),
-        api_key=os.getenv('TOGETHER_API_KEY'),
+        model=os.getenv('OLLAMA_QWEN25_1dot5'),
+        api_key=os.getenv('OLLAMA_API_KEY'),
         base_url="https://api.together.xyz/v1/",
         faiss_index_path="surgical_faiss_index",
         verbose=False,
         iterations=0,
         wikipedia_results="",
-        run_async=True
+        run_async=False
     )
 
     # Run the orchestrator

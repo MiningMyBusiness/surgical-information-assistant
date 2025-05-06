@@ -1,4 +1,5 @@
 from langchain_openai import ChatOpenAI
+from langchain_ollama import ChatOllama
 from langchain.prompts import PromptTemplate
 from typing import List
 from utils.index_w_faiss import FaissReader
@@ -52,10 +53,19 @@ decomposition_prompt = PromptTemplate.from_template(
     <sub-question> The last sub-question... </sub-question>"""
 )
 
-def agent_a_decompose_question(state: DeRetSynState) -> None:
-    llm = ChatOpenAI(model=state["model"],
+def get_llm_object(state: DeRetSynState):
+    if "ollama" not in state['api_key']:
+        return ChatOpenAI(model=state["model"],
                      api_key=state["api_key"],
                      base_url=state["base_url"])
+    else:
+        return ChatOllama(model=state["model"],
+                          api_key=state["api_key"],
+                          base_url=state["base_url"],
+                          num_ctx=32000)
+
+def agent_a_decompose_question(state: DeRetSynState) -> None:
+    llm = get_llm_object(state)
     original_question = state["original_question"]
     prompt = decomposition_prompt.format(question=original_question)
     sub_questions = llm.invoke(prompt).content.strip().split("<sub-question>")[1:]
@@ -124,9 +134,7 @@ def get_default_vectorstore(faiss_index_path: str) -> FaissReader:
 def generate_answer_from_question_and_context(state: DeRetSynState,
                                               question: str,
                                               context: str) -> str:
-    llm = ChatOpenAI(model=state["model"],
-                     api_key=state["api_key"],
-                     base_url=state["base_url"])
+    llm = get_llm_object(state)
     prompt = f"""Based on the given question and context, generate an answer.
 Question: {question}
 Context: {context}
@@ -152,9 +160,7 @@ Respond in the following format:
 async def generate_answer_from_question_and_context_async(state: DeRetSynState,
                                                           question: str,
                                                           context: str) -> str:
-    llm = ChatOpenAI(model=state["model"],
-                     api_key=state["api_key"],
-                     base_url=state["base_url"])
+    llm = get_llm_object(state)
     prompt = f"""Based on the given question and context, generate an answer.
 Question: {question}
 Context: {context}
@@ -180,9 +186,7 @@ Respond in the following format:
 
 
 def agent_c_synthesize(state: DeRetSynState) -> None:
-    llm = ChatOpenAI(model=state["model"],
-                     api_key=state["api_key"],
-                     base_url=state["base_url"])
+    llm = get_llm_object(state)
     original_question = state["original_question"]
     answers = state["answers"]
 
@@ -246,9 +250,7 @@ Think step-by-step to reason through you answer and consider the relevant inform
 <think> Your reasoning here... </think>
 <answer> The answer to the original question... </answer>
 """
-    llm = ChatOpenAI(model=state["model"],
-                     api_key=state["api_key"],
-                     base_url=state["base_url"])
+    llm = get_llm_object(state)
     response = llm.invoke(generate_prompt).content.strip()
     answer_text = response.split("<answer>")[1].split("</answer>")[0].strip()
     answer_text += "\n\n" + "NOTE: I could not answer the question completely with the available documents. I have tried to use Wikipedia to help me answer the question to the best of my ability."
@@ -292,9 +294,7 @@ Think step-by-step to reason through your answer and consider the relevant infor
 <follow_up_questions> follow-up question here... </follow_up_questions>
 <follow_up_questions> follow-up question here... </follow_up_questions>
 <follow_up_questions> follow-up question here... </follow_up_questions>"""
-    llm = ChatOpenAI(model=state["model"],
-                     api_key=state["api_key"],
-                     base_url=state["base_url"])
+    llm = get_llm_object(state)
     response = llm.invoke(prompt).content.strip()
     follow_up_questions = response.split("<follow_up_questions>")[1:-1]
     follow_up_questions = [q.split("</follow_up_questions>")[0].strip() for q in follow_up_questions]
@@ -317,9 +317,7 @@ Provide your response in this format:
 <think> Your reasoning here... </think>
 <answer> The final answer here... </answer>
 """
-    llm = ChatOpenAI(model=state["model"],
-                     api_key=state["api_key"],
-                     base_url=state["base_url"])
+    llm = get_llm_object(state)
     response = llm.invoke(prompt).content.strip()
     cot = response.split("<think>")[1].split("</think>")[0].strip()
     state['cot_for_answer'] = cot
@@ -380,12 +378,16 @@ Respond in the following format:
 <think> Your reasoning here... </think>
 <answer> TRUE if the answers are similar, FALSE otherwise... </answer>
 """
-    if not llm:
-        llm = ChatOpenAI(model=state["model"],
-                        api_key=state["api_key"],
-                        base_url=state["base_url"])
-    response = llm.invoke(prompt)
-    return 'true' in response.content.strip().lower()
+    try:
+        if not llm:
+            llm = ChatOpenAI(model=state["model"],
+                            api_key=state["api_key"],
+                            base_url=state["base_url"])
+        response = llm.invoke(prompt)
+        return 'true' in response.content.strip().lower()
+    except Exception as e:
+        print(f"Error evaluating answer: {e}")
+        return None
 
 
 def handle_simple_question(user_input: str, chat_history: list[dict], llm: ChatOpenAI) -> dict:
