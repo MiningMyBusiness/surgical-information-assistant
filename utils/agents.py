@@ -34,13 +34,13 @@ class DeRetSynState(TypedDict):
     run_async: bool=False
 
 decomposition_prompt = PromptTemplate.from_template(
-    """You are an expert at breaking complex questions into simpler ones. Break the following question into smaller sub-questions:
+    """You are an expert at breaking complex surgical questions into simpler ones. Break the following question into smaller sub-questions:
     
     Question: {question}
 
     Each sub-question should be independent and answerable on it's own without needing reference to other sub-questions. Think of at least 3 sub-questions but no more than 7.
     
-    Think step-by-step and make sure to reason through how break the question in sub-questions. 
+    Think step-by-step and make sure to reason through how break the question into sub-questions. 
     
     Create new sub-questions in the following format but do NOT answer the question. Respond in the following format:
     

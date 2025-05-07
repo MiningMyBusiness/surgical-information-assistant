@@ -7,7 +7,7 @@ load_dotenv()
 def simple_test(question: str="How should I remove an object stuck in someone's eye?"):
     state = DeRetSynState(
         original_question=question,
-        model=os.getenv('TOGETHER_QWEN25_1dot5B'),
+        model=os.getenv('TOGETHER_LLAMA32'),
         api_key=os.getenv('TOGETHER_API_KEY'),
         base_url=os.getenv('TOGETHER_URL'),
         faiss_index_path="surgical_faiss_index",
