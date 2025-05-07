@@ -7,9 +7,7 @@ import dspy
 from typing import TypedDict, List
 from utils.wikipedia_helps import grab_wikipedia_context
 import asyncio
-from concurrent.futures import ProcessPoolExecutor
 import functools
-from functools import partial
 
 def to_thread(func):
     @functools.wraps(func)
@@ -68,9 +66,11 @@ def agent_a_decompose_question(state: DeRetSynState) -> None:
     llm = get_llm_object(state)
     original_question = state["original_question"]
     prompt = decomposition_prompt.format(question=original_question)
-    sub_questions = llm.invoke(prompt).content.strip().split("<sub-question>")[1:]
+    full_response = llm.invoke(prompt).content.strip()
+    sub_questions = full_response.strip().split("<sub-question>")[1:]
     sub_questions = [sub_q.split("</sub-question>")[0].strip() for sub_q in sub_questions]
     if state["verbose"]:
+        print(f"Full response for sub-question generation: {full_response}")
         print(f"Initial sub-questions: {sub_questions}")
     state["pending_queries"] = sub_questions
 
@@ -157,6 +157,8 @@ Respond in the following format:
     response = full_response.split("<answer>")[1].split("</answer>")[0].strip()
     snippets = full_response.split("<snippet>")[1:-1]
     snippets = [snippet.split("</snippet>")[0].strip() for snippet in snippets]
+    if state["verbose"]:
+        print(f"Full response for generating answer from question and context: {full_response}")
     return response, "\n".join(snippets)
 
 
@@ -185,6 +187,8 @@ Respond in the following format:
     answer = content.split("<answer>")[1].split("</answer>")[0].strip()
     snippets = content.split("<snippet>")[1:-1]
     snippets = [snippet.split("</snippet>")[0].strip() for snippet in snippets]
+    if state["verbose"]:
+        print(f"Generated answer for question and context (async): {content}")
     return answer, "\n".join(snippets)
 
 
@@ -255,6 +259,8 @@ Think step-by-step to reason through you answer and consider the relevant inform
 """
     llm = get_llm_object(state)
     response = llm.invoke(generate_prompt).content.strip()
+    if state["verbose"]:
+        print(f"Best-effort response with help from Wikipedia: {response}")
     answer_text = response.split("<answer>")[1].split("</answer>")[0].strip()
     answer_text += "\n\n" + "NOTE: I could not answer the question completely with the available documents. I have tried to use Wikipedia to help me answer the question to the best of my ability."
     state["done"] = True
@@ -299,6 +305,8 @@ Think step-by-step to reason through your answer and consider the relevant infor
 <follow_up_questions> follow-up question here... </follow_up_questions>"""
     llm = get_llm_object(state)
     response = llm.invoke(prompt).content.strip()
+    if state["verbose"]:
+        print(f"Follow-up questions response: {response}")
     follow_up_questions = response.split("<follow_up_questions>")[1:-1]
     follow_up_questions = [q.split("</follow_up_questions>")[0].strip() for q in follow_up_questions]
     state["pending_queries"] = follow_up_questions
@@ -322,6 +330,8 @@ Provide your response in this format:
 """
     llm = get_llm_object(state)
     response = llm.invoke(prompt).content.strip()
+    if state["verbose"]:
+        print(f"COT response: {response}")
     cot = response.split("<think>")[1].split("</think>")[0].strip()
     state['cot_for_answer'] = cot
 
@@ -386,8 +396,10 @@ Respond in the following format:
             llm = ChatOpenAI(model=state["model"],
                             api_key=state["api_key"],
                             base_url=state["base_url"])
-        response = llm.invoke(prompt)
-        return 'true' in response.content.strip().lower()
+        response = llm.invoke(prompt).content.strip()
+        if state["verbose"]:
+            print(f"Evaluation response: {response}")
+        return 'true' in response.lower()
     except Exception as e:
         print(f"Error evaluating answer: {e}")
         return None
