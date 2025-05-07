@@ -153,7 +153,7 @@ Respond in the following format:
 <snippet> The last relevant snippet from the context </snippet>"""
     full_response = llm.invoke(prompt).content.strip()
     if state["verbose"]:
-        print(f"Generated answer for question and context: {response}")
+        print(f"Generated answer for question and context: {full_response}")
     response = full_response.split("<answer>")[1].split("</answer>")[0].strip()
     snippets = full_response.split("<snippet>")[1:-1]
     snippets = [snippet.split("</snippet>")[0].strip() for snippet in snippets]
