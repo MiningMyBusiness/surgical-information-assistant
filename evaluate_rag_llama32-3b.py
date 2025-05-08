@@ -2,7 +2,7 @@ import json
 from utils.agents import orchestrator, evaluate_answer, DeRetSynState
 import os
 from dotenv import load_dotenv
-from langchain_openai import AzureChatOpenAI
+from langchain_openai import ChatOpenAI
 import asyncio
 import multiprocessing
 from tqdm import tqdm
@@ -24,7 +24,7 @@ def load_qa_dataset(file_path):
         return json.load(f)
     
 
-def load_eval_results(file_path: str="surgical_qa_dataset_evaluation_results_qwen1dot5.json"):
+def load_eval_results(file_path: str="surgical_qa_dataset_evaluation_results_llama32-3b.json"):
     try:
         with open(file_path, 'r') as f:
             return json.load(f)
@@ -40,14 +40,14 @@ ALL_EVAL_QUESTIONS_SO_FAR = get_all_evaluated_questions(load_eval_results())
 
 
 # Initialize the AzureChatOpenAI instance
-llm_4o = AzureChatOpenAI(
-    openai_api_version=os.environ["AZURE_API_VERSION"],
-    azure_deployment=os.environ["AZURE_DEPLOYMENT"],
-    model_name="gpt-4o",
+eval_llm = ChatOpenAI(
+    model=os.getenv('TOGETHER_LLAMA33'),
+    api_key=os.getenv('TOGETHER_API_KEY'),
+    base_url=os.getenv('TOGETHER_URL'),
     temperature=0.7
 )
 
-def append_to_json_file(result: dict, file_path: str="surgical_qa_dataset_evaluation_results_qwen1dot5.json"):
+def append_to_json_file(result: dict, file_path: str="surgical_qa_dataset_evaluation_results_llama32-3b.json"):
     try:
         if not os.path.exists(file_path):
             logging.info(f"Creating new file: {file_path}")
@@ -73,11 +73,11 @@ async def process_question_async(qa_pair):
     # Initialize the state
     state = DeRetSynState(
         original_question=question,
-        model=os.getenv('OLLAMA_QWEN25_1dot5'),
-        api_key=os.getenv('OLLAMA_API_KEY'),
-        base_url=os.getenv('OLLAMA_ROUTE'),
+        model=os.getenv('TOGETHER_LLAMA32'),
+        api_key=os.getenv('TOGETHER_API_KEY'),
+        base_url=os.getenv('TOGETHER_URL'),
         faiss_index_path="surgical_faiss_index",
-        verbose=False,
+        verbose=True,
         iterations=0,
         wikipedia_results="",
         run_async=False,
@@ -90,7 +90,7 @@ async def process_question_async(qa_pair):
             break
 
     # Evaluate the answer
-    is_correct = evaluate_answer(final_state, known_answer, llm_4o)
+    is_correct = evaluate_answer(final_state, known_answer, eval_llm)
 
     output = {
         'question': question,
@@ -153,14 +153,14 @@ def process_question(qa_pair):
     # Initialize the state
     state = DeRetSynState(
         original_question=question,
-        model=os.getenv('OLLAMA_QWEN25_1dot5'),
-        api_key=os.getenv('OLLAMA_API_KEY'),
-        base_url=os.getenv('OLLAMA_ROUTE'),
+        model=os.getenv('TOGETHER_LLAMA32'),
+        api_key=os.getenv('TOGETHER_API_KEY'),
+        base_url=os.getenv('TOGETHER_URL'),
         faiss_index_path="surgical_faiss_index",
         verbose=False,
         iterations=0,
         wikipedia_results="",
-        run_async=False
+        run_async=True
     )
 
     # Run the orchestrator
@@ -170,7 +170,7 @@ def process_question(qa_pair):
                 final_state = step['state']
                 break
         # Evaluate the answer
-        is_correct = evaluate_answer(final_state, known_answer, llm_4o)
+        is_correct = evaluate_answer(final_state, known_answer, eval_llm)
 
         output = {
             'question': question,
@@ -258,5 +258,5 @@ if __name__ == "__main__":
     print_results(results)
 
     # Save the evaluation results to a file
-    with open('surgical_qa_dataset_evaluation_results_qwen1dot5.json', 'w') as f:
+    with open('surgical_qa_dataset_evaluation_results_llama32-3b.json', 'w') as f:
         json.dump(results, f, indent=4)
