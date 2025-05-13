@@ -75,7 +75,7 @@ def append_to_json_file(result: dict, file_path: str="vanilla_rag_evaluation_res
 
 def generate_answer_from_context(question, context_docs, llm):
     """Generate an answer using the LLM based on the retrieved context."""
-    context_text = "\n\n".join([doc.page_content for doc in context_docs])
+    context_text = "\n\n".join(context_docs)
     
     prompt = f"""You are a medical assistant specializing in surgical information. Use the following context to answer the question. 
 If you cannot find the answer in the context, say "I don't have enough information to answer this question."
