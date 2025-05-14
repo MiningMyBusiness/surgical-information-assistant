@@ -11,6 +11,7 @@ from utils.index_w_faiss import FaissReader
 from utils.agents import evaluate_answer
 from langgraph.prebuilt import create_react_agent
 from langchain.tools import Tool
+from langchain_core.messages import ToolMessage
 from pydantic import BaseModel, Field
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -120,21 +121,20 @@ def append_to_json_file(result: dict, file_path: str="react_rag_evaluation_resul
 def extract_final_answer(agent_response):
     """Extract the final answer from the agent's response."""
     # The final answer is in the last agent output
-    return agent_response["messages"][-1].content
+    return agent_response["structured_response"].answer
 
 def extract_reasoning(agent_response):
     """Extract the reasoning process from the agent's response."""
     # Try to extract the intermediate steps if available
-    if hasattr(agent_response, "intermediate_steps") and agent_response.intermediate_steps:
-        reasoning = []
-        for step in agent_response.intermediate_steps:
-            if isinstance(step, tuple) and len(step) >= 2:
-                action, observation = step
-                reasoning.append(f"Action: {action.tool}\nInput: {action.tool_input}\nObservation: {observation}")
-        return "\n\n".join(reasoning)
-    
-    # If we can't extract intermediate steps, return a placeholder
-    return "Reasoning process not available in this format"
+    return agent_response["structured_response"].reasoning
+
+def extract_context(agent_response):
+    """Extract the context from the agent's response."""
+    contexts = []
+    for message in agent_response["messages"]:
+        if type(message) == ToolMessage:
+            contexts.append(message.content)
+    return "\n".join(contexts)
 
 def process_question(qa_pair):
     question = qa_pair['question']
@@ -153,12 +153,7 @@ def process_question(qa_pair):
         # Extract the final answer and reasoning
         final_answer = extract_final_answer(agent_response)
         reasoning = extract_reasoning(agent_response)
-        
-        # Extract context from the reasoning if possible
-        context = ""
-        for step in agent_response.intermediate_steps:
-            if step[0].tool == "DocumentSearch":
-                context += step[1] + "\n\n"
+        context = extract_context(agent_response)
         
         # Create a state-like object for evaluation
         state = {
