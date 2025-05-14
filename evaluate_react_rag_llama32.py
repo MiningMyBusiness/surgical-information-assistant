@@ -89,9 +89,9 @@ Remember that your answers may be used in medical education contexts, so accurac
 """
 
 react_agent = create_react_agent(
-    react_llm,
+    model=react_llm,
     tools=[document_search_tool],
-    system_prompt=system_prompt
+    prompt=system_prompt
 )
 
 def append_to_json_file(result: dict, file_path: str="react_rag_evaluation_results_llama32.json"):
@@ -149,7 +149,9 @@ def process_question(qa_pair):
 
     try:
         # Run the ReAct agent
-        agent_response = react_agent.invoke({"input": question})
+        messages = {"messages": [{"role": "user", "content": question}]}
+        agent_response = react_agent.invoke(messages)
+        
         
         # Extract the final answer and reasoning
         final_answer = extract_final_answer(agent_response)
