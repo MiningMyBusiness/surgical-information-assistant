@@ -89,7 +89,7 @@ Remember that your answers may be used in medical education contexts, so accurac
 """
 
 react_agent = create_react_agent(
-    llm=react_llm,
+    react_llm,
     tools=[document_search_tool],
     system_prompt=system_prompt
 )
