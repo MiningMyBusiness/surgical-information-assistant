@@ -11,7 +11,7 @@ from utils.index_w_faiss import FaissReader
 from utils.agents import evaluate_answer
 from langgraph.prebuilt import create_react_agent
 from langchain.tools import Tool
-from langchain.prompts import PromptTemplate
+from pydantic import BaseModel, Field
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -85,13 +85,18 @@ When answering questions:
 6. Cite specific parts of the retrieved documents when appropriate
 7. Focus on providing factual medical information rather than opinions
 
-Remember that your answers may be used in medical education contexts, so accuracy is crucial.
+Remember accuracy is crucial. Provide all reasoning and the final answer.
 """
+
+class SurgInfoResponse(BaseModel):
+    answer: str = Field(description="The final answer to the question.")
+    reasoning: str = Field(description="The reasoning process used to arrive at the final answer.")
 
 react_agent = create_react_agent(
     model=react_llm,
     tools=[document_search_tool],
-    prompt=system_prompt
+    prompt=system_prompt,
+    response_format=SurgInfoResponse,
 )
 
 def append_to_json_file(result: dict, file_path: str="react_rag_evaluation_results_llama32.json"):
@@ -115,15 +120,7 @@ def append_to_json_file(result: dict, file_path: str="react_rag_evaluation_resul
 def extract_final_answer(agent_response):
     """Extract the final answer from the agent's response."""
     # The final answer is in the last agent output
-    if isinstance(agent_response, dict) and "output" in agent_response:
-        return agent_response["output"]
-    
-    # For other response formats, try to extract the most relevant part
-    if hasattr(agent_response, "return_values") and "output" in agent_response.return_values:
-        return agent_response.return_values["output"]
-    
-    # If we can't extract a specific part, convert the whole response to string
-    return str(agent_response)
+    return agent_response["messages"][-1].content
 
 def extract_reasoning(agent_response):
     """Extract the reasoning process from the agent's response."""
