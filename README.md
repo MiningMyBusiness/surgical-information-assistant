@@ -13,7 +13,7 @@ Key benefits include:
 - Improved learning experience for students and access to medical information
 - Synthesis of information across multiple verified documents (and Wikipedia)
 
-This project aims to bridge the gap between vast amount of medical documentation and its immediate accessibility, making it an invaluable resource as a reference.
+This project aims to bridge the gap between vast amount of medical documentation and its immediate accessibility, making it an invaluable resource as a reference. You can try the Streamlit app for free [here](https://open-surgical-information-assistant.streamlit.app/)
 
 NOTE: This project is not associated with or endorsed by the Open Manual of Surgery in Resource-Limited Settings. It uses it as a reference and is meant to build upon it within the scope of the Creative Commons licensing structure.
 
