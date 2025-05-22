@@ -103,9 +103,21 @@ This project is licensed under the CC0 1.0 Universal - see the LICENSE file for 
 
 ## Citation
 
-If you use this project in your research or work, please cite it using the following BibTeX entry:
+If you use this project in your research or work, please cite it using the following BibTeX entries:
 
 ```bibtex
+@article {Bhattacharyya2025.05.20.25328046,
+	author = {Bhattacharyya, Kiran},
+	title = {Surgical Information Assistant: A technical report on an agentic information retrieval System for surgical information},
+	elocation-id = {2025.05.20.25328046},
+	year = {2025},
+	doi = {10.1101/2025.05.20.25328046},
+	publisher = {Cold Spring Harbor Laboratory Press},
+	URL = {https://www.medrxiv.org/content/10.1101/2025.05.20.25328046v1},
+	eprint = {https://www.medrxiv.org/content/10.1101/2025.05.20.25328046v1.full.pdf},
+	journal = {medRxiv}
+}
+
 @misc{surgical_information_assistant_codebase,
   author = {Bhattacharya, Kiran},
   title = {Surgical Information Assistant},
