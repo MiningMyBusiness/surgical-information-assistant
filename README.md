@@ -4,6 +4,8 @@ An implementation of a surgical information assistant based on documents from th
 
 ![Animated GIF Placeholder](figures/example_usage.gif)
 
+Find the full technical report [here](https://www.medrxiv.org/content/10.1101/2025.05.20.25328046v1) at Medrxiv.
+
 ## Motivation
 
 The Surgical Information Assistant is a tool designed help people access and utilize surgical information. By leveraging the documentation provided in the comprehensive [Open Manual of Surgery in Resource-Limited Settings](https://www.vumc.org/global-surgical-atlas/about), this assistant provides instant, accurate, and context-aware responses to surgical queries. If a question cannot be answered by the documents in the Open Manual of Surgery, then the system falls back upon Wikipedia and synthesizes information across pages to answer the query with a best effort model (the user is notified when this happens).
