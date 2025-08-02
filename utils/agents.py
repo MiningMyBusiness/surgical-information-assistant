@@ -32,6 +32,7 @@ class DeRetSynState(TypedDict):
     verbose: bool=False
     faiss_index_path: str="surgical_faiss_index"
     run_async: bool=False
+    use_implicit_knowledge: bool=False
 
 decomposition_prompt = PromptTemplate.from_template(
     """You are an expert at breaking complex surgical questions into simpler ones. Break the following question into smaller sub-questions:
@@ -75,19 +76,85 @@ def agent_a_decompose_question(state: DeRetSynState) -> None:
     state["pending_queries"] = sub_questions
 
 
-def agent_b_retrieve(state: DeRetSynState) -> None:
-    faiss_index_path = state["faiss_index_path"]
-    vectorstore = get_default_vectorstore(faiss_index_path)
+def generate_answer_from_implicit_knowledge(state: DeRetSynState, question: str) -> str:
+    """Generate answer using LLM's implicit knowledge without vectorstore search"""
+    llm = get_llm_object(state)
+    prompt = f"""You are a medical expert specializing in surgery. Answer the following question using your knowledge of surgical procedures, anatomy, and medical practices.
 
+Question: {question}
+
+Think step-by-step and provide a comprehensive answer based on your medical knowledge. If you're uncertain about any aspect, please indicate that in your response.
+
+Respond in the following format:
+
+<think> Your reasoning here... </think>
+<answer> The generated answer based on your medical knowledge... </answer>
+<confidence> High/Medium/Low - your confidence level in this answer </confidence>"""
+    
+    full_response = llm.invoke(prompt).content.strip()
+    if state["verbose"]:
+        print(f"Generated answer from implicit knowledge: {full_response}")
+    
+    try:
+        response = full_response.split("<answer>")[1].split("</answer>")[0].strip()
+        confidence = full_response.split("<confidence>")[1].split("</confidence>")[0].strip()
+        return response, f"Confidence: {confidence}"
+    except IndexError:
+        # Fallback if the format is not followed
+        return full_response, "Confidence: Unknown"
+
+
+async def generate_answer_from_implicit_knowledge_async(state: DeRetSynState, question: str) -> str:
+    """Async version of generate_answer_from_implicit_knowledge"""
+    llm = get_llm_object(state)
+    prompt = f"""You are a medical expert specializing in surgery. Answer the following question using your knowledge of surgical procedures, anatomy, and medical practices.
+
+Question: {question}
+
+Think step-by-step and provide a comprehensive answer based on your medical knowledge. If you're uncertain about any aspect, please indicate that in your response.
+
+Respond in the following format:
+
+<think> Your reasoning here... </think>
+<answer> The generated answer based on your medical knowledge... </answer>
+<confidence> High/Medium/Low - your confidence level in this answer </confidence>"""
+    
+    response = await to_thread(llm.invoke)(prompt)
+    content = response.content.strip()
+    if state["verbose"]:
+        print(f"Generated answer from implicit knowledge (async): {content}")
+    
+    try:
+        answer = content.split("<answer>")[1].split("</answer>")[0].strip()
+        confidence = content.split("<confidence>")[1].split("</confidence>")[0].strip()
+        return answer, f"Confidence: {confidence}"
+    except IndexError:
+        # Fallback if the format is not followed
+        return content, "Confidence: Unknown"
+
+
+def agent_b_retrieve(state: DeRetSynState) -> None:
     queries = state["pending_queries"]
     answers = state.get("answers", "")
     new_answers = []
 
-    for q in queries:  # TODO: make these calls asynchronously
-        results = vectorstore.search(q, k=3)
-        response, snippets = generate_answer_from_question_and_context(state, q, results)
-        answer_text = f"Question: {q}\nAnswer: {response}\n\n\n"
-        new_answers.append(answer_text)
+    if state.get("use_implicit_knowledge", False):
+        # Use LLM's implicit knowledge
+        for q in queries:
+            response, confidence = generate_answer_from_implicit_knowledge(state, q)
+            answer_text = f"Question: {q}\nAnswer: {response}\n{confidence}\n\n\n"
+            new_answers.append(answer_text)
+    else:
+        # Use vectorstore search (original behavior)
+        faiss_index_path = state["faiss_index_path"]
+        vectorstore = get_default_vectorstore(faiss_index_path)
+
+        for q in queries:  # TODO: make these calls asynchronously
+            results = vectorstore.search(q, k=3)
+            response, snippets = generate_answer_from_question_and_context(state, q, results)
+            answer_text = f"Question: {q}\nAnswer: {response}\n\n\n"
+            new_answers.append(answer_text)
+    
     combined_answers = "".join(new_answers)
     if state["verbose"]:
         print(f"New answers: {combined_answers}")
@@ -102,11 +169,16 @@ def agent_b_retrieve_async(state: DeRetSynState) -> None:
     new_answers = []
 
     async def process_query(q):
-        # Create a new vectorstore instance for each query
-        vectorstore = get_default_vectorstore(faiss_index_path)
-        results = await to_thread(vectorstore.search)(q, k=3)
-        response, snippets = await generate_answer_from_question_and_context_async(state, q, results)
-        return f"Question: {q}\nAnswer: {response}\n\n\n"
+        if state.get("use_implicit_knowledge", False):
+            # Use LLM's implicit knowledge
+            response, confidence = await generate_answer_from_implicit_knowledge_async(state, q)
+            return f"Question: {q}\nAnswer: {response}\n{confidence}\n\n\n"
+        else:
+            # Use vectorstore search (original behavior)
+            vectorstore = get_default_vectorstore(faiss_index_path)
+            results = await to_thread(vectorstore.search)(q, k=3)
+            response, snippets = await generate_answer_from_question_and_context_async(state, q, results)
+            return f"Question: {q}\nAnswer: {response}\n\n\n"
     
     async def run_queries():
         tasks = [process_query(q) for q in queries]
