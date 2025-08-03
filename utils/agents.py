@@ -33,6 +33,8 @@ class DeRetSynState(TypedDict):
     faiss_index_path: str="surgical_faiss_index"
     run_async: bool=False
     use_implicit_knowledge: bool=False
+    fixed_context: str=None  # New field for user-provided fixed context
+    use_wikipedia_fallback: bool=True  # New field to control Wikipedia fallback
 
 decomposition_prompt = PromptTemplate.from_template(
     """You are an expert at breaking complex surgical questions into simpler ones. Break the following question into smaller sub-questions:
@@ -43,7 +45,7 @@ decomposition_prompt = PromptTemplate.from_template(
     
     Think step-by-step and make sure to reason through how break the question into sub-questions. 
     
-    Create new sub-questions in the following format but do NOT answer the question. Respond in the following format:
+    Create new sub-questions in the following format but DO NOT answer the question. Respond in the following format:
     
     <think> Your reasoning here... </think>
     <sub-question> The first sub-question... </sub-question>
@@ -150,8 +152,12 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
         vectorstore = get_default_vectorstore(faiss_index_path)
 
         for q in queries:  # TODO: make these calls asynchronously
-            results = vectorstore.search(q, k=3)
-            response, snippets = generate_answer_from_question_and_context(state, q, results)
+            if state["fixed_context"]:
+                context = state["fixed_context"]
+            else:
+                results = vectorstore.search(q, k=3)
+                context = "\n".join([result['text'] for result in results])
+            response, snippets = generate_answer_from_question_and_context(state, q, context)
             answer_text = f"Question: {q}\nAnswer: {response}\n\n\n"
             new_answers.append(answer_text)
     
@@ -176,8 +182,12 @@ def agent_b_retrieve_async(state: DeRetSynState) -> None:
         else:
             # Use vectorstore search (original behavior)
             vectorstore = get_default_vectorstore(faiss_index_path)
-            results = await to_thread(vectorstore.search)(q, k=3)
-            response, snippets = await generate_answer_from_question_and_context_async(state, q, results)
+            if state["fixed_context"]:
+                context = state["fixed_context"]
+            else:
+                results = await to_thread(vectorstore.search)(q, k=3)
+                context = "\n".join([result['text'] for result in results])
+            response, snippets = await generate_answer_from_question_and_context_async(state, q, context)
             return f"Question: {q}\nAnswer: {response}\n\n\n"
     
     async def run_queries():
@@ -430,12 +440,13 @@ def orchestrator(state: DeRetSynState):
         keep_going = not state["done"]
 
         if state["iterations"] >= 2 and keep_going:
-            yield {"step": "start_best_effort"}
-            # Step 4: Best effort answer
-            agent_d_best_effort(state)
-            agent_e_follow_up_question_generator(state)
-            yield {"step": "best_effort_complete", "wiki_results": state["wikipedia_results"], "final_answer": state["final_answer"]}
-            keep_going = False
+            if state["use_wikipedia_fallback"]:
+                yield {"step": "start_best_effort"}
+                # Step 4: Best effort answer
+                agent_d_best_effort(state)
+                agent_e_follow_up_question_generator(state)
+                yield {"step": "best_effort_complete", "wiki_results": state["wikipedia_results"], "final_answer": state["final_answer"]}
+                keep_going = False
 
     # generate COT
     agent_f_cot_generator(state)
