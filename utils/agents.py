@@ -1,3 +1,9 @@
+import sys
+from pathlib import Path
+# Add parent directory to Python path
+parent_dir = Path(__file__).parent.parent
+sys.path.insert(0, str(parent_dir))
+
 from langchain_openai import ChatOpenAI
 from langchain_ollama import ChatOllama
 from langchain.prompts import PromptTemplate
@@ -8,6 +14,7 @@ from typing import TypedDict, List
 from utils.wikipedia_helps import grab_wikipedia_context
 import asyncio
 import functools
+from utils.llms import init_llm
 
 def to_thread(func):
     @functools.wraps(func)
@@ -22,8 +29,8 @@ class DeRetSynState(TypedDict):
     answers: str=""
     iterations: int=0
     model: str=""
-    api_key: str=""
-    base_url: str=""
+    api_key: str=None
+    base_url: str=None
     done: bool=False
     wikipedia_results: str=None
     pending_queries: List[str]=[]
@@ -55,15 +62,23 @@ decomposition_prompt = PromptTemplate.from_template(
 )
 
 def get_llm_object(state: DeRetSynState):
-    if "ollama" not in state['api_key']:
-        return ChatOpenAI(model=state["model"],
-                     api_key=state["api_key"],
-                     base_url=state["base_url"])
+    # Check if we can use the standard init_llm approach
+    if state.get('api_key') and state.get('base_url'):
+        # Use direct initialization for dynamic API keys/URLs
+        if "ollama" not in state['api_key']:
+            return ChatOpenAI(model=state["model"],
+                         api_key=state["api_key"],
+                         base_url=state["base_url"],
+                         temperature=0.7)
+        else:
+            return ChatOllama(model=state["model"],
+                              api_key=state["api_key"],
+                              base_url=state["base_url"],
+                              num_ctx=32000,
+                              temperature=0.7)
     else:
-        return ChatOllama(model=state["model"],
-                          api_key=state["api_key"],
-                          base_url=state["base_url"],
-                          num_ctx=32000)
+        # Fall back to init_llm for environment-based configuration
+        return init_llm(state["model"], llm_temperature=0.7)
 
 def agent_a_decompose_question(state: DeRetSynState) -> None:
     llm = get_llm_object(state)
@@ -168,11 +183,10 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
     state["pending_queries"] = []
 
 
-def agent_b_retrieve_async(state: DeRetSynState) -> None:
+async def agent_b_retrieve_async(state: DeRetSynState) -> None:
     faiss_index_path = state["faiss_index_path"]
     queries = state["pending_queries"]
     answers = state.get("answers", "")
-    new_answers = []
 
     async def process_query(q):
         if state.get("use_implicit_knowledge", False):
@@ -190,17 +204,9 @@ def agent_b_retrieve_async(state: DeRetSynState) -> None:
             response, snippets = await generate_answer_from_question_and_context_async(state, q, context)
             return f"Question: {q}\nAnswer: {response}\n\n\n"
     
-    async def run_queries():
-        tasks = [process_query(q) for q in queries]
-        return await asyncio.gather(*tasks)
-
-    # Create a new event loop and run the async function
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    try:
-        new_answers = loop.run_until_complete(run_queries())
-    finally:
-        loop.close()
+    # Run all queries concurrently
+    tasks = [process_query(q) for q in queries]
+    new_answers = await asyncio.gather(*tasks)
 
     combined_answers = "".join(new_answers)
     if state["verbose"]:
@@ -418,7 +424,7 @@ Provide your response in this format:
     state['cot_for_answer'] = cot
 
 
-def orchestrator(state: DeRetSynState):
+async def orchestrator_async(state: DeRetSynState):
     # Step 1: Decompose the question
     agent_a_decompose_question(state)
     yield {"step": "decompose_complete", "sub_questions": state["pending_queries"]}
@@ -426,10 +432,7 @@ def orchestrator(state: DeRetSynState):
     keep_going = True
     while keep_going:
         # Step 2: Retrieve relevant documents
-        if state["run_async"]:
-            agent_b_retrieve_async(state)
-        else:
-            agent_b_retrieve(state)
+        await agent_b_retrieve_async(state)
         yield {"step": "retrieve_complete", "answers": state["answers"]}
 
         # Step 3: Synthesize the answer
@@ -454,6 +457,67 @@ def orchestrator(state: DeRetSynState):
     # Return the final answer
     yield {"step": "final", "state": state}
 
+def orchestrator(state: DeRetSynState):
+    if state["run_async"]:
+        # For async execution, we need to handle it differently
+        return orchestrator_sync_wrapper(state)
+    else:
+        # Original synchronous orchestrator
+        # Step 1: Decompose the question
+        agent_a_decompose_question(state)
+        yield {"step": "decompose_complete", "sub_questions": state["pending_queries"]}
+
+        keep_going = True
+        while keep_going:
+            # Step 2: Retrieve relevant documents
+            agent_b_retrieve(state)
+            yield {"step": "retrieve_complete", "answers": state["answers"]}
+
+            # Step 3: Synthesize the answer
+            agent_c_synthesize(state)
+            yield {"step": "synthesize_complete", "done": state["done"], "final_answer": state.get("final_answer"), "new_queries": state.get("pending_queries")}
+
+            # Check if we are done
+            keep_going = not state["done"]
+
+            if state["iterations"] >= 2 and keep_going:
+                if state["use_wikipedia_fallback"]:
+                    yield {"step": "start_best_effort"}
+                    # Step 4: Best effort answer
+                    agent_d_best_effort(state)
+                    agent_e_follow_up_question_generator(state)
+                    yield {"step": "best_effort_complete", "wiki_results": state["wikipedia_results"], "final_answer": state["final_answer"]}
+                    keep_going = False
+
+        # generate COT
+        agent_f_cot_generator(state)
+        
+        # Return the final answer
+        yield {"step": "final", "state": state}
+
+def orchestrator_sync_wrapper(state: DeRetSynState):
+    """Wrapper to handle async orchestrator in sync context"""
+    async def run_async_orchestrator():
+        results = []
+        async for step in orchestrator_async(state):
+            results.append(step)
+        return results
+    
+    # Check if we're already in an async context
+    try:
+        loop = asyncio.get_running_loop()
+        # We're in an async context, so we need to use a different approach
+        import concurrent.futures
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            future = executor.submit(asyncio.run, run_async_orchestrator())
+            results = future.result()
+    except RuntimeError:
+        # No running loop, we can use asyncio.run
+        results = asyncio.run(run_async_orchestrator())
+    
+    # Yield the results
+    for result in results:
+        yield result
 
 def evaluate_answer(state: DeRetSynState, known_answer: str, llm: ChatOpenAI=None) -> bool:
     prompt = f"""You are a medical reasoning engine that compares two answers to a given question to determine whether the answers are the same. Here is the question and the two answers:

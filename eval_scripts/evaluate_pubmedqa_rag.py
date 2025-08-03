@@ -11,8 +11,7 @@ import argparse
 from dotenv import load_dotenv
 from datasets import load_dataset
 import logging
-from utils.agents import orchestrator, DeRetSynState, evaluate_answer
-from utils.llms import init_llm
+from utils.agents import orchestrator_async, DeRetSynState
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -31,21 +30,21 @@ def evaluate_pubmedqa_answer(generated_answer, known_answer):
     
     return is_correct, evaluation
 
-async def process_question(item, results_file, model_config, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
+async def process_question(item, results_file, llm_name, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
     question = item['question']
     context = item['context']
     known_answer = item['final_decision']
     
     logging.info(f"Processing question: {question[:50]}...")
     
-    # Initialize the state
+    # Initialize the state - get_llm_object will handle the LLM configuration
     state = DeRetSynState(
         original_question=question,
-        model=model_config['model'],
-        api_key=model_config['api_key'],
-        base_url=model_config['base_url'],
+        model=llm_name,
         faiss_index_path="surgical_faiss_index",
         verbose=False,
+        api_key=None,
+        base_url=None,
         iterations=0,
         wikipedia_results="",
         run_async=True,
@@ -55,8 +54,8 @@ async def process_question(item, results_file, model_config, use_implicit_knowle
     )
     
     try:
-        # Run the orchestrator
-        for step in orchestrator(state):
+        # Run the async orchestrator
+        async for step in orchestrator_async(state):
             if step['step'] == 'final':
                 final_state = step['state']
                 break
@@ -153,28 +152,7 @@ async def main():
     logging.info(f"Using fixed context: {args.use_fixed_context}")
     logging.info(f"Using Wikipedia fallback: {args.use_wikipedia_fallback}")
     
-    # Set up model configuration based on LLM choice
-    if args.llm.startswith('azure'):
-        model_config = {
-            'model': os.getenv('AZURE_OPENAI_MODEL', 'gpt-4'),
-            'api_key': os.getenv('AZURE_OPENAI_API_KEY'),
-            'base_url': os.getenv('AZURE_OPENAI_ENDPOINT')
-        }
-    elif args.llm.startswith('together'):
-        model_config = {
-            'model': os.getenv('TOGETHER_LLAMA31', 'meta-llama/Llama-3.1-70B-Instruct-Turbo'),
-            'api_key': os.getenv('TOGETHER_API_KEY'),
-            'base_url': 'https://api.together.xyz/v1/'
-        }
-    else:
-        # Default to environment variables
-        model_config = {
-            'model': os.getenv('DEFAULT_MODEL', 'gpt-4'),
-            'api_key': os.getenv('OPENAI_API_KEY'),
-            'base_url': os.getenv('OPENAI_BASE_URL', 'https://api.openai.com/v1/')
-        }
-    
-    logging.info(f"Using model: {model_config['model']}")
+    logging.info(f"Using model: {args.llm}")
     
     # Load the PubMedQA dataset (pqa_labeled subset only)
     logging.info("Loading PubMedQA dataset...")
@@ -215,7 +193,7 @@ async def main():
         result = await process_question(
             item, 
             results_file, 
-            model_config, 
+            args.llm, 
             use_implicit_knowledge=args.use_implicit_knowledge,
             use_fixed_context=args.use_fixed_context,
             use_wikipedia_fallback=args.use_wikipedia_fallback
