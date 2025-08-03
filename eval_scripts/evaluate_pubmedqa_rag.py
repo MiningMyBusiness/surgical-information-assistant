@@ -6,12 +6,11 @@ sys.path.insert(0, str(parent_dir))
 
 import json
 import os
-import asyncio
 import argparse
 from dotenv import load_dotenv
 from datasets import load_dataset
 import logging
-from utils.agents import orchestrator_async, DeRetSynState
+from utils.agents import orchestrator, DeRetSynState
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -30,7 +29,7 @@ def evaluate_pubmedqa_answer(generated_answer, known_answer):
     
     return is_correct, evaluation
 
-async def process_question(item, results_file, llm_name, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
+def process_question(item, results_file, llm_name, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
     question = item['question']
     context = item['context']
     known_answer = item['final_decision']
@@ -47,15 +46,15 @@ async def process_question(item, results_file, llm_name, use_implicit_knowledge=
         base_url=None,
         iterations=0,
         wikipedia_results="",
-        run_async=True,
+        run_async=False,
         use_implicit_knowledge=use_implicit_knowledge,
         fixed_context=context if use_fixed_context else None,
         use_wikipedia_fallback=use_wikipedia_fallback
     )
     
     try:
-        # Run the async orchestrator
-        async for step in orchestrator_async(state):
+        # Run the synchronous orchestrator
+        for step in orchestrator(state):
             if step['step'] == 'final':
                 final_state = step['state']
                 break
@@ -110,7 +109,8 @@ async def process_question(item, results_file, llm_name, use_implicit_knowledge=
             'evaluation': f"Error: {str(e)}",
             'used_implicit_knowledge': use_implicit_knowledge,
             'used_fixed_context': use_fixed_context,
-            'iterations': 0
+            'iterations': 0,
+            'verbose': True,
         }
 
     # Append the result to the JSON file
@@ -127,7 +127,7 @@ async def process_question(item, results_file, llm_name, use_implicit_knowledge=
     logging.info(f"Question processed and result saved: {question[:50]}...")
     return result
 
-async def main():
+def main():
     parser = argparse.ArgumentParser(description='Evaluate RAG system on PubMedQA dataset using DeRetSynState and orchestrator')
     parser.add_argument('--llm', type=str, default='azure-gpt4', 
                        help='LLM model to use (e.g., azure-gpt4, azure-gpt35, together-llama33)')
@@ -186,11 +186,11 @@ async def main():
 
     logging.info(f"Processing {len(dataset_list)} questions...")
 
-    # Process questions sequentially to avoid overwhelming the API
+    # Process questions sequentially
     results = []
     for i, item in enumerate(dataset_list):
         logging.info(f"Processing question {i+1}/{len(dataset_list)}")
-        result = await process_question(
+        result = process_question(
             item, 
             results_file, 
             args.llm, 
@@ -227,4 +227,4 @@ async def main():
     logging.info(f"Results saved to {results_file}")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

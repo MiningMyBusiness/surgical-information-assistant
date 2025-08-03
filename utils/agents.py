@@ -162,14 +162,13 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
             answer_text = f"Question: {q}\nAnswer: {response}\n{confidence}\n\n\n"
             new_answers.append(answer_text)
     else:
-        # Use vectorstore search (original behavior)
-        faiss_index_path = state["faiss_index_path"]
-        vectorstore = get_default_vectorstore(faiss_index_path)
-
         for q in queries:  # TODO: make these calls asynchronously
             if state["fixed_context"]:
                 context = state["fixed_context"]
             else:
+                        # Use vectorstore search (original behavior)
+                faiss_index_path = state["faiss_index_path"]
+                vectorstore = get_default_vectorstore(faiss_index_path)
                 results = vectorstore.search(q, k=3)
                 context = "\n".join([result['text'] for result in results])
             response, snippets = generate_answer_from_question_and_context(state, q, context)
@@ -195,10 +194,10 @@ async def agent_b_retrieve_async(state: DeRetSynState) -> None:
             return f"Question: {q}\nAnswer: {response}\n{confidence}\n\n\n"
         else:
             # Use vectorstore search (original behavior)
-            vectorstore = get_default_vectorstore(faiss_index_path)
             if state["fixed_context"]:
                 context = state["fixed_context"]
             else:
+                vectorstore = get_default_vectorstore(faiss_index_path)
                 results = await to_thread(vectorstore.search)(q, k=3)
                 context = "\n".join([result['text'] for result in results])
             response, snippets = await generate_answer_from_question_and_context_async(state, q, context)
