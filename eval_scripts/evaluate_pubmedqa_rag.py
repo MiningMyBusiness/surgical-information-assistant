@@ -25,7 +25,7 @@ def evaluate_pubmedqa_answer(generated_answer, known_answer):
     
     return is_correct, evaluation
 
-async def process_question(item, results_file, model_config, use_implicit_knowledge=False, use_fixed_context=False):
+async def process_question(item, results_file, model_config, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
     question = item['question']
     context = item['context']
     known_answer = item['final_decision']
@@ -45,7 +45,7 @@ async def process_question(item, results_file, model_config, use_implicit_knowle
         run_async=True,
         use_implicit_knowledge=use_implicit_knowledge,
         fixed_context=context if use_fixed_context else None,
-        use_wikipedia_fallback=False  # Disable Wikipedia fallback for PubMedQA
+        use_wikipedia_fallback=use_wikipedia_fallback
     )
     
     try:
@@ -134,6 +134,8 @@ async def main():
                        help='Use LLM implicit knowledge instead of document retrieval')
     parser.add_argument('--use_fixed_context', action='store_true',
                        help='Use the context from PubMedQA dataset as fixed context')
+    parser.add_argument('--use_wikipedia_fallback', action='store_true',
+                       help='Enable Wikipedia fallback when document retrieval is insufficient')
     
     args = parser.parse_args()
     
@@ -143,6 +145,7 @@ async def main():
     logging.info("Starting the PubMedQA RAG evaluation process...")
     logging.info(f"Using implicit knowledge: {args.use_implicit_knowledge}")
     logging.info(f"Using fixed context: {args.use_fixed_context}")
+    logging.info(f"Using Wikipedia fallback: {args.use_wikipedia_fallback}")
     
     # Set up model configuration based on LLM choice
     if args.llm.startswith('azure'):
@@ -187,9 +190,11 @@ async def main():
             mode_suffix = 'implicit_knowledge'
         elif args.use_fixed_context:
             mode_suffix = 'fixed_context'
+        elif args.use_wikipedia_fallback:
+            mode_suffix = 'wikipedia_fallback'
         else:
             mode_suffix = 'rag_retrieval'
-        results_file = f'pubmedqa_rag_results_{model_name}_{mode_suffix}.json'
+        results_file = f'pubmedqa_deretsyn_results_{model_name}_{mode_suffix}.json'
     
     # Initialize the results file
     with open(results_file, 'w') as f:
@@ -206,7 +211,8 @@ async def main():
             results_file, 
             model_config, 
             use_implicit_knowledge=args.use_implicit_knowledge,
-            use_fixed_context=args.use_fixed_context
+            use_fixed_context=args.use_fixed_context,
+            use_wikipedia_fallback=args.use_wikipedia_fallback
         )
         results.append(result)
 
