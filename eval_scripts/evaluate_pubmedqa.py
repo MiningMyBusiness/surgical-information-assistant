@@ -1,3 +1,9 @@
+import sys
+import Path
+# Add parent directory to Python path
+parent_dir = Path(__file__).parent.parent
+sys.path.insert(0, str(parent_dir))
+
 import json
 import os
 import asyncio
