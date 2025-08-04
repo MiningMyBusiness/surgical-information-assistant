@@ -470,42 +470,44 @@ async def orchestrator_async(state: DeRetSynState):
     yield {"step": "final", "state": state}
 
 def orchestrator(state: DeRetSynState):
-    if state["run_async"]:
-        # For async execution, we need to handle it differently
-        return orchestrator_sync_wrapper(state)
-    else:
-        # Original synchronous orchestrator
-        # Step 1: Decompose the question
-        agent_a_decompose_question(state)
-        yield {"step": "decompose_complete", "sub_questions": state["pending_queries"]}
+    # Step 1: Decompose the question
+    agent_a_decompose_question(state)
+    yield {"step": "decompose_complete", "sub_questions": state["pending_queries"]}
 
-        keep_going = True
-        while keep_going:
-            # Step 2: Retrieve relevant documents
+    keep_going = True
+    while keep_going:
+        # Step 2: Retrieve relevant documents
+        if state["run_async"]:
+            # Run async version in a new event loop
+            import asyncio
+            asyncio.run(agent_b_retrieve_async(state))
+        else:
+            # Run sync version
             agent_b_retrieve(state)
-            yield {"step": "retrieve_complete", "answers": state["answers"]}
-
-            # Step 3: Synthesize the answer
-            agent_c_synthesize(state)
-            yield {"step": "synthesize_complete", "done": state["done"], "final_answer": state.get("final_answer"), "new_queries": state.get("pending_queries")}
-
-            # Check if we are done
-            keep_going = not state["done"]
-
-            if state["iterations"] >= 2 and keep_going:
-                if state["use_wikipedia_fallback"]:
-                    yield {"step": "start_best_effort"}
-                    # Step 4: Best effort answer
-                    agent_d_best_effort(state)
-                    agent_e_follow_up_question_generator(state)
-                    yield {"step": "best_effort_complete", "wiki_results": state["wikipedia_results"], "final_answer": state["final_answer"]}
-                    keep_going = False
-
-        # generate COT
-        agent_f_cot_generator(state)
         
-        # Return the final answer
-        yield {"step": "final", "state": state}
+        yield {"step": "retrieve_complete", "answers": state["answers"]}
+
+        # Step 3: Synthesize the answer
+        agent_c_synthesize(state)
+        yield {"step": "synthesize_complete", "done": state["done"], "final_answer": state.get("final_answer"), "new_queries": state.get("pending_queries")}
+
+        # Check if we are done
+        keep_going = not state["done"]
+
+        if state["iterations"] >= 2 and keep_going:
+            if state["use_wikipedia_fallback"]:
+                yield {"step": "start_best_effort"}
+                # Step 4: Best effort answer
+                agent_d_best_effort(state)
+                agent_e_follow_up_question_generator(state)
+                yield {"step": "best_effort_complete", "wiki_results": state["wikipedia_results"], "final_answer": state["final_answer"]}
+                keep_going = False
+
+    # generate COT
+    agent_f_cot_generator(state)
+    
+    # Return the final answer
+    yield {"step": "final", "state": state}
 
 def orchestrator_sync_wrapper(state: DeRetSynState):
     """Wrapper to handle async orchestrator in sync context"""
