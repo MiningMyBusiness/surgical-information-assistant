@@ -12,6 +12,7 @@ from datasets import load_dataset
 import logging
 import asyncio
 import multiprocessing
+from functools import partial
 from tqdm import tqdm
 from utils.agents import orchestrator, DeRetSynState, evaluate_answer
 from utils.llms import init_llm
@@ -32,6 +33,18 @@ def evaluate_pubmedqa_answer(generated_answer, known_answer):
     evaluation = f"Generated: '{generated_clean}', Expected: '{known_clean}', Match: {is_correct}"
     
     return is_correct, evaluation
+
+def process_question_wrapper(args):
+    """Wrapper function for multiprocessing - unpacks arguments"""
+    item, llm_name, eval_llm_name, use_implicit_knowledge, use_fixed_context, use_wikipedia_fallback = args
+    return process_question(
+        item, 
+        llm_name,
+        eval_llm_name=eval_llm_name,
+        use_implicit_knowledge=use_implicit_knowledge,
+        use_fixed_context=use_fixed_context,
+        use_wikipedia_fallback=use_wikipedia_fallback
+    )
 
 def process_question(item, llm_name, eval_llm_name=None, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
     """Process a single question - modified to not write to file directly for parallel processing"""
@@ -229,40 +242,38 @@ async def process_question_async(item, llm_name, eval_llm_name=None, use_implici
 
 def append_to_json_file(result, results_file):
     """Append a single result to the JSON file"""
-    with open(results_file, 'r+') as f:
-        try:
-            data = json.load(f)
-        except json.JSONDecodeError:
-            data = []
-        data.append(result)
-        f.seek(0)
-        json.dump(data, f, indent=2)
-        f.truncate()
+    try:
+        with open(results_file, 'r+') as f:
+            try:
+                data = json.load(f)
+            except json.JSONDecodeError:
+                data = []
+            data.append(result)
+            f.seek(0)
+            json.dump(data, f, indent=2)
+            f.truncate()
+    except Exception as e:
+        logging.error(f"Error appending to file {results_file}: {str(e)}")
 
 def run_evaluation_multiprocessing(dataset_list, num_processes, llm_name, eval_llm_name, use_implicit_knowledge, use_fixed_context, use_wikipedia_fallback, results_file):
     """Run evaluation using multiprocessing"""
     
-    def process_with_args(item):
-        return process_question(
-            item, 
-            llm_name,
-            eval_llm_name=eval_llm_name,
-            use_implicit_knowledge=use_implicit_knowledge,
-            use_fixed_context=use_fixed_context,
-            use_wikipedia_fallback=use_wikipedia_fallback
-        )
+    # Prepare arguments for each item
+    args_list = [
+        (item, llm_name, eval_llm_name, use_implicit_knowledge, use_fixed_context, use_wikipedia_fallback) for item in dataset_list
+    ]
     
     if num_processes > 1:
         with multiprocessing.Pool(processes=num_processes) as pool:
             results = []
-            for result in tqdm(pool.imap_unordered(process_with_args, dataset_list), total=len(dataset_list)):
+            for result in tqdm(pool.imap_unordered(process_question_wrapper, args_list), total=len(dataset_list)):
                 if result:
                     append_to_json_file(result, results_file)
                     results.append(result)
     else:
         results = []
-        for item in tqdm(dataset_list, total=len(dataset_list)):
-            result = process_with_args(item)
+        for args in tqdm(args_list, total=len(dataset_list)):
+            result = process_question_wrapper(args)
             if result:
                 append_to_json_file(result, results_file)
                 results.append(result)
