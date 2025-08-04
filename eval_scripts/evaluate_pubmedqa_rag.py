@@ -172,8 +172,8 @@ async def process_question_async(item, llm_name, eval_llm_name=None, use_implici
     )
     
     try:
-        # Run the async orchestrator
-        async for step in orchestrator(state):
+        # Run the orchestrator - use regular for loop, not async for
+        for step in orchestrator(state):
             if step['step'] == 'final':
                 final_state = step['state']
                 break
