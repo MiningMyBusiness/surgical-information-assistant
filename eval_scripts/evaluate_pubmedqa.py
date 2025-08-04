@@ -63,11 +63,12 @@ async def rate_limited_call(func, *args, **kwargs):
     finally:
         rate_limiter.release()
 
-async def answer_question(question, context, llm, use_context=True):
+async def answer_question(question, context, llm, use_context=True, use_cot=True):
     logging.info(f"Generating answer for question: {question[:50]}...")
     
-    if use_context:
-        prompt = f"""You are a medical expert. Please answer the following question based on the provided context.
+    if use_cot:
+        if use_context:
+            prompt = f"""You are a medical expert. Please answer the following question based on the provided context.
 
 Context:
 {context}
@@ -83,8 +84,8 @@ Respond in the following format:
 <think> Your reasoning here... </think>
 <answer> yes/no/maybe </answer>
 """
-    else:
-        prompt = f"""You are a medical expert. Please answer the following question based on your medical knowledge.
+        else:
+            prompt = f"""You are a medical expert. Please answer the following question based on your medical knowledge.
 
 Question: {question}
 
@@ -97,11 +98,49 @@ Respond in the following format:
 <think> Your reasoning here... </think>
 <answer> yes/no/maybe </answer>
 """
+    else:
+        if use_context:
+            prompt = f"""You are a medical expert. Please answer the following question based on the provided context.
+
+Context:
+{context}
+
+Question: {question}
+
+Your answer must be exactly one of: "yes", "no", or "maybe"
+
+Answer: """
+        else:
+            prompt = f"""You are a medical expert. Please answer the following question based on your medical knowledge.
+
+Question: {question}
+
+Your answer must be exactly one of: "yes", "no", or "maybe"
+
+Answer: """
     
     try:
         response = await rate_limited_call(to_thread(llm.invoke), prompt)
-        thinking = response.content.split('<think>')[1].split('</think>')[0].strip()
-        answer = response.content.split('<answer>')[1].split('</answer>')[0].strip().lower()
+        
+        if use_cot:
+            try:
+                thinking = response.content.split('<think>')[1].split('</think>')[0].strip()
+                answer = response.content.split('<answer>')[1].split('</answer>')[0].strip().lower()
+            except IndexError:
+                # Fallback if the format is not followed
+                thinking = response.content
+                answer_text = response.content.lower()
+                if 'yes' in answer_text and 'no' not in answer_text:
+                    answer = 'yes'
+                elif 'no' in answer_text and 'yes' not in answer_text:
+                    answer = 'no'
+                elif 'maybe' in answer_text:
+                    answer = 'maybe'
+                else:
+                    answer = 'maybe'
+        else:
+            thinking = ""
+            answer = response.content.strip().lower()
         
         # Ensure answer is one of the valid options
         if answer not in ['yes', 'no', 'maybe']:
@@ -135,7 +174,7 @@ def evaluate_answer(generated_answer, known_answer):
     
     return is_correct, evaluation
 
-async def process_question(item, results_file, llm, use_context=True):
+async def process_question(item, results_file, llm, use_context=True, use_cot=True):
     question = item['question']
     context = item['context']
     known_answer = item['final_decision']
@@ -143,7 +182,7 @@ async def process_question(item, results_file, llm, use_context=True):
     logging.info(f"Processing question: {question[:50]}...")
     
     # Generate an answer
-    generated_answer, CoT = await answer_question(question, context, llm, use_context)
+    generated_answer, CoT = await answer_question(question, context, llm, use_context, use_cot)
     
     # Evaluate the answer
     is_correct, evaluation = evaluate_answer(generated_answer, known_answer)
@@ -153,10 +192,11 @@ async def process_question(item, results_file, llm, use_context=True):
         'context': context if use_context else None,
         'known_answer': known_answer,
         'generated_answer': generated_answer,
-        'CoT': CoT,
+        'CoT': CoT if use_cot else None,
         'is_correct': is_correct,
         'evaluation': evaluation,
-        'used_context': use_context
+        'used_context': use_context,
+        'used_cot': use_cot
     }
 
     # Append the result to the JSON file
@@ -184,13 +224,17 @@ async def main():
                        help='Output file name (default: auto-generated based on model)')
     parser.add_argument('--no_context', action='store_true',
                        help='Do not use context when answering questions (default: use context)')
+    parser.add_argument('--no_cot', action='store_true',
+                       help='Do not use Chain of Thought reasoning (default: use CoT)')
     
     args = parser.parse_args()
     
     use_context = not args.no_context
+    use_cot = not args.no_cot
     
     logging.info("Starting the PubMedQA evaluation process...")
     logging.info(f"Using context: {use_context}")
+    logging.info(f"Using Chain of Thought: {use_cot}")
     
     # Initialize the LLM
     llm = init_llm(args.llm)
@@ -213,7 +257,8 @@ async def main():
     else:
         model_name = args.llm.replace('-', '_')
         context_suffix = 'with_context' if use_context else 'no_context'
-        results_file = f'pubmedqa_cot_results_{model_name}_{context_suffix}.json'
+        cot_suffix = 'cot' if use_cot else 'no_cot'
+        results_file = f'pubmedqa_{cot_suffix}_results_{model_name}_{context_suffix}.json'
     
     # Initialize the results file
     with open(results_file, 'w') as f:
@@ -222,7 +267,7 @@ async def main():
     logging.info(f"Processing {len(dataset_list)} questions...")
 
     # Process questions concurrently
-    tasks = [process_question(item, results_file, llm, use_context) for item in dataset_list]
+    tasks = [process_question(item, results_file, llm, use_context, use_cot) for item in dataset_list]
     results = await asyncio.gather(*tasks)
 
     # Calculate accuracy
