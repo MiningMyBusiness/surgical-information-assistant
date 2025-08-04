@@ -67,7 +67,7 @@ def process_question(item, llm_name, eval_llm_name=None, use_implicit_knowledge=
         base_url=None,
         iterations=0,
         wikipedia_results="",
-        run_async=False,  # Set to False for multiprocessing compatibility
+        run_async=True,  # Set to False for multiprocessing compatibility
         use_implicit_knowledge=use_implicit_knowledge,
         fixed_context=context if use_fixed_context else None,
         use_wikipedia_fallback=use_wikipedia_fallback,
