@@ -10,6 +10,9 @@ import argparse
 from dotenv import load_dotenv
 from datasets import load_dataset
 import logging
+import asyncio
+import multiprocessing
+from tqdm import tqdm
 from utils.agents import orchestrator, DeRetSynState, evaluate_answer
 from utils.llms import init_llm
 
@@ -30,12 +33,16 @@ def evaluate_pubmedqa_answer(generated_answer, known_answer):
     
     return is_correct, evaluation
 
-def process_question(item, results_file, llm_name, eval_llm=None, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
+def process_question(item, llm_name, eval_llm_name=None, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
+    """Process a single question - modified to not write to file directly for parallel processing"""
     question = item['question']
     context = item['context']
     known_answer = item['final_decision']
     
     logging.info(f"Processing question: {question[:50]}...")
+    
+    # Initialize evaluation LLM for this process
+    eval_llm = init_llm(eval_llm_name) if eval_llm_name else None
     
     # Initialize the state - get_llm_object will handle the LLM configuration
     state = DeRetSynState(
@@ -47,7 +54,7 @@ def process_question(item, results_file, llm_name, eval_llm=None, use_implicit_k
         base_url=None,
         iterations=0,
         wikipedia_results="",
-        run_async=True,
+        run_async=False,  # Set to False for multiprocessing compatibility
         use_implicit_knowledge=use_implicit_knowledge,
         fixed_context=context if use_fixed_context else None,
         use_wikipedia_fallback=use_wikipedia_fallback,
@@ -120,7 +127,108 @@ def process_question(item, results_file, llm_name, eval_llm=None, use_implicit_k
             'verbose': True,
         }
 
-    # Append the result to the JSON file
+    logging.info(f"Question processed: {question[:50]}...")
+    return result
+
+async def process_question_async(item, llm_name, eval_llm_name=None, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
+    """Async version of process_question"""
+    question = item['question']
+    context = item['context']
+    known_answer = item['final_decision']
+    
+    logging.info(f"Processing question: {question[:50]}...")
+    
+    # Initialize evaluation LLM
+    eval_llm = init_llm(eval_llm_name) if eval_llm_name else None
+    
+    # Initialize the state
+    state = DeRetSynState(
+        original_question=question,
+        model=llm_name,
+        faiss_index_path="surgical_faiss_index",
+        verbose=False,
+        api_key=None,
+        base_url=None,
+        iterations=0,
+        wikipedia_results="",
+        run_async=True,
+        use_implicit_knowledge=use_implicit_knowledge,
+        fixed_context=context if use_fixed_context else None,
+        use_wikipedia_fallback=use_wikipedia_fallback,
+        answer_choices=['yes','no','maybe']
+    )
+    
+    try:
+        # Run the async orchestrator
+        async for step in orchestrator(state):
+            if step['step'] == 'final':
+                final_state = step['state']
+                break
+        
+        # Extract the final answer and try to map it to yes/no/maybe
+        final_answer = final_state['final_answer'].lower().strip()
+        
+        # Try to extract yes/no/maybe from the answer
+        if 'yes' in final_answer and 'no' not in final_answer:
+            generated_answer = 'yes'
+        elif 'no' in final_answer and 'yes' not in final_answer:
+            generated_answer = 'no'
+        elif 'maybe' in final_answer or 'uncertain' in final_answer or 'unclear' in final_answer:
+            generated_answer = 'maybe'
+        else:
+            # Default fallback - try to determine from context
+            generated_answer = 'maybe'
+        
+        # Use evaluate_answer function for evaluation
+        is_correct = evaluate_answer(final_state, known_answer, eval_llm)
+        
+        # Also keep the simple string matching for comparison
+        simple_is_correct, simple_evaluation = evaluate_pubmedqa_answer(generated_answer, known_answer)
+        
+        result = {
+            'question': question,
+            'context': context if use_fixed_context else None,
+            'document_context': final_state.get('answers', ''),
+            'wikipedia_context': final_state.get('wikipedia_results', ''),
+            'cot': final_state.get('cot_for_answer', ''),
+            'full_rag_answer': final_state['final_answer'],
+            'extracted_answer': generated_answer,
+            'known_answer': known_answer,
+            'is_correct': is_correct,
+            'simple_is_correct': simple_is_correct,
+            'simple_evaluation': simple_evaluation,
+            'used_implicit_knowledge': use_implicit_knowledge,
+            'used_fixed_context': use_fixed_context,
+            'iterations': final_state['iterations']
+        }
+        
+        logging.info(f"Generated answer: {generated_answer}, Known answer: {known_answer}, LLM Eval: {is_correct}, Simple Eval: {simple_is_correct}")
+        
+    except Exception as e:
+        logging.error(f"Error running orchestrator for question {question[:50]}...: {str(e)}")
+        result = {
+            'question': question,
+            'context': context if use_fixed_context else None,
+            'document_context': None,
+            'wikipedia_context': None,
+            'cot': None,
+            'full_rag_answer': None,
+            'extracted_answer': 'maybe',
+            'known_answer': known_answer,
+            'is_correct': False,
+            'simple_is_correct': False,
+            'simple_evaluation': f"Error: {str(e)}",
+            'used_implicit_knowledge': use_implicit_knowledge,
+            'used_fixed_context': use_fixed_context,
+            'iterations': 0,
+            'verbose': True,
+        }
+
+    logging.info(f"Question processed: {question[:50]}...")
+    return result
+
+def append_to_json_file(result, results_file):
+    """Append a single result to the JSON file"""
     with open(results_file, 'r+') as f:
         try:
             data = json.load(f)
@@ -131,8 +239,58 @@ def process_question(item, results_file, llm_name, eval_llm=None, use_implicit_k
         json.dump(data, f, indent=2)
         f.truncate()
 
-    logging.info(f"Question processed and result saved: {question[:50]}...")
-    return result
+def run_evaluation_multiprocessing(dataset_list, num_processes, llm_name, eval_llm_name, use_implicit_knowledge, use_fixed_context, use_wikipedia_fallback, results_file):
+    """Run evaluation using multiprocessing"""
+    
+    def process_with_args(item):
+        return process_question(
+            item, 
+            llm_name,
+            eval_llm_name=eval_llm_name,
+            use_implicit_knowledge=use_implicit_knowledge,
+            use_fixed_context=use_fixed_context,
+            use_wikipedia_fallback=use_wikipedia_fallback
+        )
+    
+    if num_processes > 1:
+        with multiprocessing.Pool(processes=num_processes) as pool:
+            results = []
+            for result in tqdm(pool.imap_unordered(process_with_args, dataset_list), total=len(dataset_list)):
+                if result:
+                    append_to_json_file(result, results_file)
+                    results.append(result)
+    else:
+        results = []
+        for item in tqdm(dataset_list, total=len(dataset_list)):
+            result = process_with_args(item)
+            if result:
+                append_to_json_file(result, results_file)
+                results.append(result)
+
+    return results
+
+async def run_evaluation_async(dataset_list, llm_name, eval_llm_name, use_implicit_knowledge, use_fixed_context, use_wikipedia_fallback, results_file):
+    """Run evaluation using async programming"""
+    
+    async def process_and_save(item):
+        result = await process_question_async(
+            item, 
+            llm_name,
+            eval_llm_name=eval_llm_name,
+            use_implicit_knowledge=use_implicit_knowledge,
+            use_fixed_context=use_fixed_context,
+            use_wikipedia_fallback=use_wikipedia_fallback
+        )
+        append_to_json_file(result, results_file)
+        return result
+    
+    # Create tasks for all questions
+    tasks = [process_and_save(item) for item in dataset_list]
+    
+    # Run all tasks concurrently
+    results = await asyncio.gather(*tasks)
+    
+    return results
 
 def main():
     parser = argparse.ArgumentParser(description='Evaluate RAG system on PubMedQA dataset using DeRetSynState and orchestrator')
@@ -150,6 +308,10 @@ def main():
                        help='Use the context from PubMedQA dataset as fixed context')
     parser.add_argument('--use_wikipedia_fallback', action='store_true',
                        help='Enable Wikipedia fallback when document retrieval is insufficient')
+    parser.add_argument('--use_async', action='store_true',
+                       help='Run evaluation asynchronously instead of using multiprocessing')
+    parser.add_argument('--num_processes', type=int, default=None,
+                       help='Number of processes to use for multiprocessing (default: auto-detect)')
     
     args = parser.parse_args()
     
@@ -160,13 +322,13 @@ def main():
     logging.info(f"Using implicit knowledge: {args.use_implicit_knowledge}")
     logging.info(f"Using fixed context: {args.use_fixed_context}")
     logging.info(f"Using Wikipedia fallback: {args.use_wikipedia_fallback}")
+    logging.info(f"Running asynchronously: {args.use_async}")
     
     logging.info(f"Using model: {args.llm}")
     
-    # Initialize evaluation LLM
+    # Initialize evaluation LLM name
     eval_llm_name = args.eval_llm if args.eval_llm else args.llm
     logging.info(f"Using evaluation model: {eval_llm_name}")
-    eval_llm = init_llm(eval_llm_name)
     
     # Load the PubMedQA dataset (pqa_labeled subset only)
     logging.info("Loading PubMedQA dataset...")
@@ -201,20 +363,17 @@ def main():
 
     logging.info(f"Processing {len(dataset_list)} questions...")
 
-    # Process questions sequentially
-    results = []
-    for i, item in enumerate(dataset_list):
-        logging.info(f"Processing question {i+1}/{len(dataset_list)}")
-        result = process_question(
-            item, 
-            results_file, 
-            args.llm,
-            eval_llm=eval_llm,
-            use_implicit_knowledge=args.use_implicit_knowledge,
-            use_fixed_context=args.use_fixed_context,
-            use_wikipedia_fallback=args.use_wikipedia_fallback
-        )
-        results.append(result)
+    # Determine number of processes
+    if args.num_processes:
+        num_processes = args.num_processes
+    else:
+        num_processes = multiprocessing.cpu_count()
+
+    # Run evaluation
+    if args.use_async:
+        results = asyncio.run(run_evaluation_async(dataset_list, args.llm, eval_llm_name, args.use_implicit_knowledge, args.use_fixed_context, args.use_wikipedia_fallback, results_file))
+    else:
+        results = run_evaluation_multiprocessing(dataset_list, num_processes, args.llm, eval_llm_name, args.use_implicit_knowledge, args.use_fixed_context, args.use_wikipedia_fallback, results_file)
 
     # Calculate accuracy for both evaluation methods
     llm_accuracy = sum(1 for result in results if result['is_correct']) / len(results)
