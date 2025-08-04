@@ -10,7 +10,8 @@ import argparse
 from dotenv import load_dotenv
 from datasets import load_dataset
 import logging
-from utils.agents import orchestrator, DeRetSynState
+from utils.agents import orchestrator, DeRetSynState, evaluate_answer
+from utils.llms import init_llm
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -29,7 +30,7 @@ def evaluate_pubmedqa_answer(generated_answer, known_answer):
     
     return is_correct, evaluation
 
-def process_question(item, results_file, llm_name, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
+def process_question(item, results_file, llm_name, eval_llm=None, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
     question = item['question']
     context = item['context']
     known_answer = item['final_decision']
@@ -46,10 +47,11 @@ def process_question(item, results_file, llm_name, use_implicit_knowledge=False,
         base_url=None,
         iterations=0,
         wikipedia_results="",
-        run_async=False,
+        run_async=True,
         use_implicit_knowledge=use_implicit_knowledge,
         fixed_context=context if use_fixed_context else None,
-        use_wikipedia_fallback=use_wikipedia_fallback
+        use_wikipedia_fallback=use_wikipedia_fallback,
+        answer_choices=['yes','no','maybe']
     )
     
     try:
@@ -73,8 +75,11 @@ def process_question(item, results_file, llm_name, use_implicit_knowledge=False,
             # Default fallback - try to determine from context
             generated_answer = 'maybe'
         
-        # Evaluate the answer
-        is_correct, evaluation = evaluate_pubmedqa_answer(generated_answer, known_answer)
+        # Use evaluate_answer function for evaluation
+        is_correct = evaluate_answer(final_state, known_answer, eval_llm)
+        
+        # Also keep the simple string matching for comparison
+        simple_is_correct, simple_evaluation = evaluate_pubmedqa_answer(generated_answer, known_answer)
         
         result = {
             'question': question,
@@ -86,13 +91,14 @@ def process_question(item, results_file, llm_name, use_implicit_knowledge=False,
             'extracted_answer': generated_answer,
             'known_answer': known_answer,
             'is_correct': is_correct,
-            'evaluation': evaluation,
+            'simple_is_correct': simple_is_correct,
+            'simple_evaluation': simple_evaluation,
             'used_implicit_knowledge': use_implicit_knowledge,
             'used_fixed_context': use_fixed_context,
             'iterations': final_state['iterations']
         }
         
-        logging.info(f"Generated answer: {generated_answer}, Known answer: {known_answer}, Correct: {is_correct}")
+        logging.info(f"Generated answer: {generated_answer}, Known answer: {known_answer}, LLM Eval: {is_correct}, Simple Eval: {simple_is_correct}")
         
     except Exception as e:
         logging.error(f"Error running orchestrator for question {question[:50]}...: {str(e)}")
@@ -106,7 +112,8 @@ def process_question(item, results_file, llm_name, use_implicit_knowledge=False,
             'extracted_answer': 'maybe',
             'known_answer': known_answer,
             'is_correct': False,
-            'evaluation': f"Error: {str(e)}",
+            'simple_is_correct': False,
+            'simple_evaluation': f"Error: {str(e)}",
             'used_implicit_knowledge': use_implicit_knowledge,
             'used_fixed_context': use_fixed_context,
             'iterations': 0,
@@ -131,6 +138,8 @@ def main():
     parser = argparse.ArgumentParser(description='Evaluate RAG system on PubMedQA dataset using DeRetSynState and orchestrator')
     parser.add_argument('--llm', type=str, default='azure-gpt4', 
                        help='LLM model to use (e.g., azure-gpt4, azure-gpt35, together-llama33)')
+    parser.add_argument('--eval_llm', type=str, default=None,
+                       help='LLM model to use for evaluation (default: same as --llm)')
     parser.add_argument('--num_questions', type=int, default=None,
                        help='Number of questions to evaluate (default: all)')
     parser.add_argument('--output_file', type=str, default=None,
@@ -154,6 +163,11 @@ def main():
     
     logging.info(f"Using model: {args.llm}")
     
+    # Initialize evaluation LLM
+    eval_llm_name = args.eval_llm if args.eval_llm else args.llm
+    logging.info(f"Using evaluation model: {eval_llm_name}")
+    eval_llm = init_llm(eval_llm_name)
+    
     # Load the PubMedQA dataset (pqa_labeled subset only)
     logging.info("Loading PubMedQA dataset...")
     dataset = load_dataset("qiaojin/PubMedQA", "pqa_labeled", split="train")
@@ -170,6 +184,7 @@ def main():
         results_file = args.output_file
     else:
         model_name = args.llm.replace('-', '_')
+        eval_model_name = eval_llm_name.replace('-', '_')
         if args.use_implicit_knowledge:
             mode_suffix = 'implicit_knowledge'
         elif args.use_fixed_context:
@@ -178,7 +193,7 @@ def main():
             mode_suffix = 'wikipedia_fallback'
         else:
             mode_suffix = 'rag_retrieval'
-        results_file = f'pubmedqa_deretsyn_results_{model_name}_{mode_suffix}.json'
+        results_file = f'pubmedqa_deretsyn_results_{model_name}_{mode_suffix}_eval_{eval_model_name}.json'
     
     # Initialize the results file
     with open(results_file, 'w') as f:
@@ -193,17 +208,19 @@ def main():
         result = process_question(
             item, 
             results_file, 
-            args.llm, 
+            args.llm,
+            eval_llm=eval_llm,
             use_implicit_knowledge=args.use_implicit_knowledge,
             use_fixed_context=args.use_fixed_context,
             use_wikipedia_fallback=args.use_wikipedia_fallback
         )
         results.append(result)
 
-    # Calculate accuracy
-    accuracy = sum(1 for result in results if result['is_correct']) / len(results)
+    # Calculate accuracy for both evaluation methods
+    llm_accuracy = sum(1 for result in results if result['is_correct']) / len(results)
+    simple_accuracy = sum(1 for result in results if result['simple_is_correct']) / len(results)
     
-    # Calculate per-class accuracy
+    # Calculate per-class accuracy for LLM evaluation
     yes_correct = sum(1 for result in results if result['known_answer'].lower() == 'yes' and result['is_correct'])
     no_correct = sum(1 for result in results if result['known_answer'].lower() == 'no' and result['is_correct'])
     maybe_correct = sum(1 for result in results if result['known_answer'].lower() == 'maybe' and result['is_correct'])
@@ -215,14 +232,16 @@ def main():
     # Calculate average iterations
     avg_iterations = sum(result['iterations'] for result in results) / len(results)
 
-    logging.info(f"Evaluation completed. Overall Accuracy: {accuracy:.2%}")
+    logging.info(f"Evaluation completed.")
+    logging.info(f"LLM Evaluation Accuracy: {llm_accuracy:.2%}")
+    logging.info(f"Simple String Matching Accuracy: {simple_accuracy:.2%}")
     logging.info(f"Average iterations: {avg_iterations:.2f}")
     if yes_total > 0:
-        logging.info(f"'Yes' Accuracy: {yes_correct/yes_total:.2%} ({yes_correct}/{yes_total})")
+        logging.info(f"'Yes' Accuracy (LLM Eval): {yes_correct/yes_total:.2%} ({yes_correct}/{yes_total})")
     if no_total > 0:
-        logging.info(f"'No' Accuracy: {no_correct/no_total:.2%} ({no_correct}/{no_total})")
+        logging.info(f"'No' Accuracy (LLM Eval): {no_correct/no_total:.2%} ({no_correct}/{no_total})")
     if maybe_total > 0:
-        logging.info(f"'Maybe' Accuracy: {maybe_correct/maybe_total:.2%} ({maybe_correct}/{maybe_total})")
+        logging.info(f"'Maybe' Accuracy (LLM Eval): {maybe_correct/maybe_total:.2%} ({maybe_correct}/{maybe_total})")
     
     logging.info(f"Results saved to {results_file}")
 

@@ -42,6 +42,7 @@ class DeRetSynState(TypedDict):
     use_implicit_knowledge: bool=False
     fixed_context: str=None  # New field for user-provided fixed context
     use_wikipedia_fallback: bool=True  # New field to control Wikipedia fallback
+    answer_choices: List[str]=None
 
 decomposition_prompt = PromptTemplate.from_template(
     """You are an expert at breaking complex surgical questions into simpler ones. Break the following question into smaller sub-questions:
@@ -283,6 +284,7 @@ def agent_c_synthesize(state: DeRetSynState) -> None:
     llm = get_llm_object(state)
     original_question = state["original_question"]
     answers = state["answers"]
+    answer_choices = state.get("answer_choices", None)
 
     check_prompt = f"""
 You are a reasoning engine. Given the following sub-question answers, determine whether they are enough to fully answer the original question. ONLY rely on the knowledge to determine whether the question can be answered.
@@ -297,16 +299,27 @@ Original Question:
 Knowledge:
 {answers}
 
-Think step-by-step to reason through you answer and consider the relevant information. Respond in the following format:
+"""
+    middle_prompt = ""
+    answer_string = " The answer to the original question... "
+    if answer_choices:
+        answer_string = " / ".join(answer_choices)
+        choices_text = "\n".join([f"{chr(65+i)}. {choice}" for i, choice in enumerate(answer_choices)])
+        middle_prompt = f"""This is a multiple choice question. You must select one of the following options:
+{choices_text}
+
+"""
+
+    suffix = f"""Think step-by-step to reason through you answer and consider the relevant information. Respond in the following format:
 <think> Your reasoning here... </think>
 <can_answer> yes OR no </can_answer>
-<answer> The answer to the original question... </answer>
+<answer>{answer_string}</answer>
 <new_questions> The first new sub-question... </new_questions>
 <new_questions> The second new sub-question... </new_questions>
 ...
 <new questions> The last new sub-question </new_questions>
 """
-    response = llm.invoke(check_prompt).content.strip()
+    response = llm.invoke(check_prompt+middle_prompt+suffix).content.strip()
     if state["verbose"]:
         print(f"Synthesizer response: {response}")
 
