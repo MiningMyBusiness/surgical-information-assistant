@@ -165,7 +165,7 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
     else:
         for q in queries:  # TODO: make these calls asynchronously
             if state["fixed_context"]:
-                context = state["fixed_context"]
+                results = state["fixed_context"]
             else:
                         # Use vectorstore search (original behavior)
                 faiss_index_path = state["faiss_index_path"]
@@ -195,7 +195,7 @@ async def agent_b_retrieve_async(state: DeRetSynState) -> None:
         else:
             # Use vectorstore search (original behavior)
             if state["fixed_context"]:
-                context = state["fixed_context"]
+                results = state["fixed_context"]
             else:
                 vectorstore = get_default_vectorstore(faiss_index_path)
                 results = await to_thread(vectorstore.search)(q, k=3)
