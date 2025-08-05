@@ -49,7 +49,7 @@ def process_question_wrapper(args):
 def process_question(item, llm_name, eval_llm_name=None, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
     """Process a single question - modified to not write to file directly for parallel processing"""
     question = item['question']
-    context = item['context']
+    context = "\n".join(item['context']["contexts"])
     known_answer = item['final_decision']
     
     logging.info(f"Processing question: {question[:50]}...")
@@ -146,7 +146,7 @@ def process_question(item, llm_name, eval_llm_name=None, use_implicit_knowledge=
 async def process_question_async(item, llm_name, eval_llm_name=None, use_implicit_knowledge=False, use_fixed_context=False, use_wikipedia_fallback=False):
     """Async version of process_question"""
     question = item['question']
-    context = item['context']
+    context = "\n".join(item['context']["contexts"])
     known_answer = item['final_decision']
     
     logging.info(f"Processing question: {question[:50]}...")
