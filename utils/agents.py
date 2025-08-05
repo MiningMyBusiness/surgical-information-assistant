@@ -171,8 +171,7 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
                 faiss_index_path = state["faiss_index_path"]
                 vectorstore = get_default_vectorstore(faiss_index_path)
                 results = vectorstore.search(q, k=3)
-                context = "\n".join([result['text'] for result in results])
-            response, snippets = generate_answer_from_question_and_context(state, q, context)
+            response, snippets = generate_answer_from_question_and_context(state, q, results)
             answer_text = f"Question: {q}\nAnswer: {response}\n\n\n"
             new_answers.append(answer_text)
     
@@ -200,8 +199,7 @@ async def agent_b_retrieve_async(state: DeRetSynState) -> None:
             else:
                 vectorstore = get_default_vectorstore(faiss_index_path)
                 results = await to_thread(vectorstore.search)(q, k=3)
-                context = "\n".join([result['text'] for result in results])
-            response, snippets = await generate_answer_from_question_and_context_async(state, q, context)
+            response, snippets = await generate_answer_from_question_and_context_async(state, q, results)
             return f"Question: {q}\nAnswer: {response}\n\n\n"
     
     # Run all queries concurrently
