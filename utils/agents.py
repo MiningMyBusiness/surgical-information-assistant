@@ -290,7 +290,7 @@ def agent_c_synthesize(state: DeRetSynState) -> None:
         context_string = ""
 
     check_prompt = f"""
-You are a reasoning engine. Given the following sub-question answers, determine whether they are enough to fully answer the original question. ONLY rely on the knowledge to determine whether the question can be answered.
+You are a reasoning engine. Given the following sub-question answers, determine whether they are enough to fully answer the original question. Rely on the provided context to determine whether the question can be answered.
 
 If yes, then provide the answer. Make your answer detailed and structured with sections, as appropriate. Include as much relevant information as possible from the knowledge provided.
 
@@ -345,6 +345,19 @@ Knowledge:
 
 def agent_d_best_effort(state: DeRetSynState):
     original_question = state["original_question"]
+    answer_choices = state.get("answer_choices", None)
+    middle_prompt = ""
+    answer_string = "The answer to the original question..."
+    if answer_choices:
+        answer_string = " / ".join(answer_choices)
+        choices_text = "\n".join([f"{i}. {choice}" for i, choice in enumerate(answer_choices)])
+        middle_prompt = f"""
+
+This is a multiple choice question. You must select one of the following options:
+{choices_text}
+
+"""
+
     search_wikipedia(state)
     generate_prompt = f"""
 You are a reasoning engine. Given the following original question and sub-question answers, formulate an answer to the best of your ability.
@@ -352,13 +365,15 @@ You are a reasoning engine. Given the following original question and sub-questi
 Original Question:
 {original_question}
 
-Knowledge:
+Context:
 {state["answers"]}
 {state["wikipedia_results"]}
+{middle_prompt}
+Think step-by-step to reason through you answer and consider the provided context as well as your own knowledge.
 
-Think step-by-step to reason through you answer and consider the relevant information. Respond in the following format:
+Respond in the following format:
 <think> Your reasoning here... </think>
-<answer> The answer to the original question... </answer>
+<answer> {answer_string} </answer>
 """
     llm = get_llm_object(state)
     response = llm.invoke(generate_prompt).content.strip()
@@ -537,23 +552,31 @@ def orchestrator_sync_wrapper(state: DeRetSynState):
         yield result
 
 def evaluate_answer(state: DeRetSynState, known_answer: str, llm: ChatOpenAI=None) -> bool:
-    prompt = f"""You are a medical reasoning engine that compares two answers to a given question to determine whether the answers are the same. Here is the question and the two answers:
+    prompt = f"""You are a medical reasoning engine that compares a ground truth answer against a generated answer to a given question to determine whether the generated answer is correct. Here is the question and the two answers:
 
 Question:
 {state["original_question"]}
 
-Answer 1:
+Ground Truth Answer:
 {known_answer}
 
-Answer 2:
+Generated Answer:
 {state['final_answer']}
+
+You must adhere to the following strict criteria:
+
+1.  **Factual Consistency:** The "Generated Answer" must be factually consistent with the "Ground Truth Answer". It must not contain information that directly contradicts the ground truth.
+2.  **Completeness:** The "Generated Answer" must address all parts of the "Query". It is considered "Incorrect" if it omits critical information that is present in the "Ground Truth Answer" and is necessary for a full response.
+3.  **Relevance:** The "Generated Answer" must directly answer the user's "Query". An answer that is factually correct but irrelevant to the question is "Incorrect".
+
+**Important Note:** Differences in phrasing, verbosity, or style between the "Generated Answer" and the "Ground Truth Answer" are acceptable as long as the core semantic meaning is the same and the criteria above are met.
 
 Think step-by-step and provide a detailed reasoning process that compares the two answers given the context of the question. Include at least 3 steps in your reasoning, but more as needed.
 
 Respond in the following format:
 
 <think> Your reasoning here... </think>
-<answer> TRUE if the answers are similar, FALSE otherwise... </answer>
+<answer> correct OR incorrect </answer>
 """
     try:
         if not llm:
@@ -563,7 +586,7 @@ Respond in the following format:
         response = llm.invoke(prompt).content.strip()
         if state["verbose"]:
             print(f"Evaluation response: {response}")
-        return 'true' in response.lower()
+        return 'incorrect' not in response.lower()
     except Exception as e:
         print(f"Error evaluating answer: {e}")
         return None
