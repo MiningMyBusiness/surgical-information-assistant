@@ -285,6 +285,11 @@ def agent_c_synthesize(state: DeRetSynState) -> None:
     original_question = state["original_question"]
     answers = state["answers"]
     answer_choices = state.get("answer_choices", None)
+    fixed_context = state.get("fixed_context", None)
+    if fixed_context:
+        context_string = f"{fixed_context}\n"
+    else:
+        context_string = ""
 
     check_prompt = f"""
 You are a reasoning engine. Given the following sub-question answers, determine whether they are enough to fully answer the original question. ONLY rely on the knowledge to determine whether the question can be answered.
@@ -297,14 +302,14 @@ Original Question:
 {original_question}
 
 Knowledge:
-{answers}
+{context_string}{answers}
 
 """
     middle_prompt = ""
     answer_string = " The answer to the original question... "
     if answer_choices:
         answer_string = " / ".join(answer_choices)
-        choices_text = "\n".join([f"{chr(65+i)}. {choice}" for i, choice in enumerate(answer_choices)])
+        choices_text = "\n".join([f"{i}. {choice}" for i, choice in enumerate(answer_choices)])
         middle_prompt = f"""This is a multiple choice question. You must select one of the following options:
 {choices_text}
 
