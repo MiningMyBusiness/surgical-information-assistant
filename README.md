@@ -4,7 +4,6 @@ An implementation of a surgical information assistant based on documents from th
 
 ![Animated GIF Placeholder](figures/example_usage.gif)
 
-Find the full technical report [here](https://www.medrxiv.org/content/10.1101/2025.05.20.25328046v1) at Medrxiv.
 
 ## Motivation
 
@@ -15,7 +14,7 @@ Key benefits include:
 - Improved learning experience for students and access to medical information
 - Synthesis of information across multiple verified documents (and Wikipedia)
 
-This project aims to bridge the gap between vast amount of medical documentation and its immediate accessibility, making it an invaluable resource as a reference. You can try the Streamlit app for free [here](https://open-surgical-information-assistant.streamlit.app/)
+This project aims to bridge the gap between vast amount of medical documentation and its immediate accessibility, making it an invaluable resource as a reference.
 
 NOTE: This project is not associated with or endorsed by the Open Manual of Surgery in Resource-Limited Settings. It uses it as a reference and is meant to build upon it within the scope of the Creative Commons licensing structure.
 
@@ -40,7 +39,7 @@ NOTE: This project is not associated with or endorsed by the Open Manual of Surg
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kbhattacha/surgical-information-assistant.git
+   git clone this-repo
    cd surgical-information-assistant
 2. Create a virtual environment:
     ```bash
@@ -100,29 +99,3 @@ Contributions to the Surgical Information Assistant are welcome! Please follow t
 
 ## License
 This project is licensed under the CC0 1.0 Universal - see the LICENSE file for details.
-
-## Citation
-
-If you use this project in your research or work, please cite it using the following BibTeX entries:
-
-```bibtex
-@article {Bhattacharyya2025.05.20.25328046,
-	author = {Bhattacharyya, Kiran},
-	title = {Surgical Information Assistant: A technical report on an agentic information retrieval System for surgical information},
-	elocation-id = {2025.05.20.25328046},
-	year = {2025},
-	doi = {10.1101/2025.05.20.25328046},
-	publisher = {Cold Spring Harbor Laboratory Press},
-	URL = {https://www.medrxiv.org/content/10.1101/2025.05.20.25328046v1},
-	eprint = {https://www.medrxiv.org/content/10.1101/2025.05.20.25328046v1.full.pdf},
-	journal = {medRxiv}
-}
-
-@misc{surgical_information_assistant_codebase,
-  author = {Bhattacharya, Kiran},
-  title = {Surgical Information Assistant},
-  year = {2025},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/kbhattacha/surgical-information-assistant}},
-}
