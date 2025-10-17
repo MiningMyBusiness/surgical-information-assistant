@@ -1,5 +1,7 @@
 import json
 import os
+import sys
+sys.path.append("../")
 import asyncio
 from dotenv import load_dotenv
 from langchain_openai import AzureChatOpenAI
