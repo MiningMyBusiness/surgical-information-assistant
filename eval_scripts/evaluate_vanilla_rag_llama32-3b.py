@@ -1,15 +1,16 @@
 import json
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
 import asyncio
 import multiprocessing
 from tqdm import tqdm
-import sys
 import time
 import logging
 from utils.index_w_faiss import FaissReader
 from utils.agents import evaluate_answer
+from utils.llms import init_llm
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -24,7 +25,7 @@ def load_qa_dataset(file_path):
     with open(file_path, 'r') as f:
         return json.load(f)
     
-def load_eval_results(file_path: str="vanilla_rag_evaluation_results_llama32.json"):
+def load_eval_results(file_path: str="vanilla_rag_evaluation_results_llama32_2025oct.json"):
     try:
         with open(file_path, 'r') as f:
             return json.load(f)
@@ -38,24 +39,14 @@ def get_all_evaluated_questions(eval_results):
 ALL_EVAL_QUESTIONS_SO_FAR = get_all_evaluated_questions(load_eval_results())
 
 # Initialize the LLM instances
-rag_llm = ChatOpenAI(
-    model=os.getenv('TOGETHER_LLAMA32'),
-    api_key=os.getenv('TOGETHER_API_KEY'),
-    base_url=os.getenv('TOGETHER_URL'),
-    temperature=0.2
-)
+rag_llm = init_llm('together-llama32', temperature=0.2)
 
-eval_llm = ChatOpenAI(
-    model=os.getenv('TOGETHER_MISTRAL'),
-    api_key=os.getenv('TOGETHER_API_KEY'),
-    base_url=os.getenv('TOGETHER_URL'),
-    temperature=0.7
-)
+eval_llm = init_llm('together-mistral', temperature=0.2)
 
 # Initialize the FAISS reader
 faiss_reader = FaissReader("surgical_faiss_index")
 
-def append_to_json_file(result: dict, file_path: str="vanilla_rag_evaluation_results_llama32.json"):
+def append_to_json_file(result: dict, file_path: str="vanilla_rag_evaluation_results_llama32_2025oct.json"):
     try:
         if not os.path.exists(file_path):
             logging.info(f"Creating new file: {file_path}")
@@ -159,7 +150,7 @@ async def process_question_async(qa_pair):
 
     try:
         # Retrieve relevant documents from FAISS
-        retrieved_docs = faiss_reader.search(question, k=5)
+        retrieved_docs = faiss_reader.search(question, k=3)
         
         # Generate answer using the LLM
         answer, thinking, context = generate_answer_from_context(question, retrieved_docs, rag_llm)
@@ -276,7 +267,7 @@ if __name__ == "__main__":
     num_processes = int(sys.argv[2]) if len(sys.argv) > 2 else None
 
     # Load the QA dataset
-    qa_dataset = load_qa_dataset('surgical_qa_dataset.json')
+    qa_dataset = load_qa_dataset('surgical_qa_dataset_2025oct.json')
 
     # Set the number of processes to use
     if num_processes is None:
@@ -295,5 +286,5 @@ if __name__ == "__main__":
     print_results(results)
 
     # Save the evaluation results to a file
-    with open('vanilla_rag_evaluation_results_llama32.json', 'w') as f:
+    with open('vanilla_rag_evaluation_results_llama32_2025oct.json', 'w') as f:
         json.dump(results, f, indent=4)

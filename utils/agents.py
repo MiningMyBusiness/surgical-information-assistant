@@ -38,6 +38,7 @@ class DeRetSynState(TypedDict):
     cot_for_answer: str=None
     verbose: bool=False
     faiss_index_path: str="surgical_faiss_index"
+    retrieval_k: int=3
     run_async: bool=False
     use_implicit_knowledge: bool=False
     fixed_context: str=None  # New field for user-provided fixed context
@@ -170,7 +171,7 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
                         # Use vectorstore search (original behavior)
                 faiss_index_path = state["faiss_index_path"]
                 vectorstore = get_default_vectorstore(faiss_index_path)
-                results = vectorstore.search(q, k=3)
+                results = vectorstore.search(q, k=state["retrieval_k"])
             response, snippets = generate_answer_from_question_and_context(state, q, results)
             answer_text = f"Question: {q}\nAnswer: {response}\n\n\n"
             new_answers.append(answer_text)
@@ -198,7 +199,7 @@ async def agent_b_retrieve_async(state: DeRetSynState) -> None:
                 results = state["fixed_context"]
             else:
                 vectorstore = get_default_vectorstore(faiss_index_path)
-                results = await to_thread(vectorstore.search)(q, k=3)
+                results = await to_thread(vectorstore.search)(q, k=state["retrieval_k"])
             response, snippets = await generate_answer_from_question_and_context_async(state, q, results)
             return f"Question: {q}\nAnswer: {response}\n\n\n"
     
@@ -391,7 +392,7 @@ def search_wikipedia(state: DeRetSynState) -> str:
 
 def search_wikipedia_fast(query: str) -> str:
     try:
-        results = dspy.ColBERTv2(url='http://20.102.90.50:2017/wiki17_abstracts')(query, k=3)
+        results = dspy.ColBERTv2(url='http://20.102.90.50:2017/wiki17_abstracts')(query, k=state["retrieval_k"])
         new_answer = "\n\n".join([x['text'] for x in results])
         return new_answer
     except Exception as e:

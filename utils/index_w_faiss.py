@@ -7,6 +7,9 @@ import os
 import json
 from typing import List, Dict, Tuple
 
+def cosine_similarity(a, b):
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+
 class FaissClient:
 
     def __init__(self, index_path: str, chunk_size: int = 1000, chunk_overlap: int = 200):
@@ -133,12 +136,54 @@ class FaissReader:
         with open(index_json_file, "r") as f:
             self.index_info = json.load(f)
 
-    def query(self, query_text: str, k: int = 5) -> List[Dict[str, any]]:
+    def _mmr_rerank(self, query_text: str, results: List[Dict[str, any]], k: int, lambda_mult: float = 0.7) -> List[Dict[str, any]]:
+        if not results:
+            return []
+
+        query_embedding = self.model.encode([query_text], normalize_embeddings=True)[0]
+        
+        # Get embeddings for all result chunks
+        result_chunks = [res["chunk"] for res in results]
+        result_embeddings = self.model.encode(result_chunks, normalize_embeddings=True)
+
+        # Initialize MMR
+        unranked_results = list(zip(results, result_embeddings))
+        ranked_results = []
+
+        # Select the first result (most relevant to the query)
+        first_result_idx = np.argmax([cosine_similarity(query_embedding, emb) for emb in result_embeddings])
+        ranked_results.append(unranked_results.pop(first_result_idx)[0])
+
+        # Iteratively select the rest
+        while unranked_results and len(ranked_results) < k:
+            mmr_scores = []
+            for res, res_emb in unranked_results:
+                relevance_score = cosine_similarity(query_embedding, res_emb)
+                
+                # Calculate similarity to already selected results
+                max_similarity = 0
+                if ranked_results:
+                    ranked_embeddings = self.model.encode([r["chunk"] for r in ranked_results], normalize_embeddings=True)
+                    max_similarity = np.max([cosine_similarity(res_emb, ranked_emb) for ranked_emb in ranked_embeddings])
+                
+                mmr_score = lambda_mult * relevance_score - (1 - lambda_mult) * max_similarity
+                mmr_scores.append(mmr_score)
+
+            best_idx = np.argmax(mmr_scores)
+            ranked_results.append(unranked_results.pop(best_idx)[0])
+
+        return ranked_results
+
+    def query(self, query_text: str, k: int = 5, rerank: bool = True) -> List[Dict[str, any]]:
+        # Fetch more results initially to have a good pool for MMR
+        initial_k = k * 4
         query_vector = self.model.encode([query_text], normalize_embeddings=True)
-        scores, indices = self.index.search(query_vector.astype("float32"), k)
+        scores, indices = self.index.search(query_vector.astype("float32"), initial_k)
         
         results = []
         for i, idx in enumerate(indices[0]):
+            if idx < 0 or idx >= len(self.index_info["passages"]):
+                continue # Skip invalid indices
             chunk = self.index_info["passages"][idx]
             metadata = self.index_info["metadata"][idx]
             results.append({
@@ -149,19 +194,23 @@ class FaissReader:
                 "end_line": metadata["end_line"]
             })
         
-        return results
+        if rerank:
+            results = self._mmr_rerank(query_text, results, k=k)
+            
+        return results[:k]
     
     def make_text_from_results(self, results: List[Dict[str, any]]) -> str:
         text = ""
         for result in results:
-            text += f"\n---\nChunk:\n{result['chunk']}\n---\nFile Path: {result['file_path']}\nStart Line: {result['start_line']}\nEnd Line: {result['end_line']}\n\n"
+            text += f"\n---\nChunk:\n{result['chunk']}\n---\nFile Path: {result['file_path']}\nStart Line: {result['start_line']}\nEnd Line: {result['end_line']}\nScore: {result['score']:.4f}\n\n"
         return text.strip()
     
-    def search(self, query_text: str, k: int = 5) -> str:
-        return self.make_text_from_results(self.query(query_text, k))
+    def search(self, query_text: str, k: int = 5, rerank: bool = True) -> str:
+        results = self.query(query_text, k, rerank=rerank)
+        return self.make_text_from_results(results)
 
-    def query_with_context(self, query_text: str, k: int = 5, context_size: int = 1) -> List[Dict[str, any]]:
-        initial_results = self.query(query_text, k)
+    def query_with_context(self, query_text: str, k: int = 5, rerank: bool = True, context_size: int = 1) -> List[Dict[str, any]]:
+        initial_results = self.query(query_text, k, rerank=rerank)
         
         contextualized_results = []
         for result in initial_results:
