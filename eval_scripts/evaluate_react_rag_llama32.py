@@ -1,7 +1,8 @@
 import json
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
 import multiprocessing
 from tqdm import tqdm
 import sys
@@ -27,7 +28,7 @@ def load_qa_dataset(file_path):
     with open(file_path, 'r') as f:
         return json.load(f)
     
-def load_eval_results(file_path: str="react_rag_evaluation_results_llama32.json"):
+def load_eval_results(file_path: str="react_rag_evaluation_results_llama32_2025oct.json"):
     try:
         with open(file_path, 'r') as f:
             return json.load(f)
@@ -41,19 +42,9 @@ def get_all_evaluated_questions(eval_results):
 ALL_EVAL_QUESTIONS_SO_FAR = get_all_evaluated_questions(load_eval_results())
 
 # Initialize the LLM instances
-react_llm = ChatOpenAI(
-    model=os.getenv('TOGETHER_LLAMA32'),
-    api_key=os.getenv('TOGETHER_API_KEY'),
-    base_url=os.getenv('TOGETHER_URL'),
-    temperature=0.2
-)
+rag_llm = init_llm('together-llama32')
 
-eval_llm = ChatOpenAI(
-    model=os.getenv('TOGETHER_MISTRAL'),
-    api_key=os.getenv('TOGETHER_API_KEY'),
-    base_url=os.getenv('TOGETHER_URL'),
-    temperature=0.7
-)
+eval_llm = init_llm('together-mistral')
 
 # Initialize the FAISS reader
 faiss_reader = FaissReader("surgical_faiss_index")
@@ -100,7 +91,7 @@ react_agent = create_react_agent(
     response_format=SurgInfoResponse,
 )
 
-def append_to_json_file(result: dict, file_path: str="react_rag_evaluation_results_llama32.json"):
+def append_to_json_file(result: dict, file_path: str="react_rag_evaluation_results_llama32_2025oct.json"):
     try:
         if not os.path.exists(file_path):
             logging.info(f"Creating new file: {file_path}")
@@ -231,7 +222,7 @@ if __name__ == "__main__":
     num_questions = int(sys.argv[2]) if len(sys.argv) > 2 else None  # default to 100 questions
 
     # Load the QA dataset
-    qa_dataset = load_qa_dataset('surgical_qa_dataset.json')
+    qa_dataset = load_qa_dataset('surgical_qa_dataset_2025oct.json')
 
     # Set the number of processes to use
     if num_processes is None:
@@ -245,5 +236,5 @@ if __name__ == "__main__":
     print_results(results)
 
     # Save the evaluation results to a file
-    with open('react_rag_evaluation_results_llama32.json', 'w') as f:
+    with open('react_rag_evaluation_results_llama32_2025oct.json', 'w') as f:
         json.dump(results, f, indent=4)
