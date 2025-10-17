@@ -14,6 +14,7 @@ from langgraph.prebuilt import create_react_agent
 from langchain.tools import Tool
 from langchain_core.messages import ToolMessage
 from pydantic import BaseModel, Field
+from utils.llms import init_llm
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -53,7 +54,7 @@ faiss_reader = FaissReader("surgical_faiss_index")
 def search_documents(query: str) -> str:
     """Search for relevant surgical information in the document database."""
     try:
-        results = faiss_reader.search(query, k=5)
+        results = faiss_reader.search(query, k=3)
         return results
     except Exception as e:
         return f"Error searching documents: {str(e)}"
