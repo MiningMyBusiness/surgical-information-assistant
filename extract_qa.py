@@ -4,6 +4,7 @@ import nltk
 from nltk.tokenize import sent_tokenize
 from pathlib import Path
 from utils.llms import init_llm
+from utils.qa_reviewer import review_qa_pair
 import asyncio
 from typing import List, Dict
 import time
@@ -12,6 +13,7 @@ import json
 from asyncio import TimeoutError
 import functools
 import sys
+import random
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -46,14 +48,36 @@ start_time = [time.time()]
 
 
 async def async_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
-    llm = init_llm('azure-gpt35')
+    llm = init_llm('azure-gpt4')
     prompt = get_prompt(chunk)
     logging.debug(f"Generating QA pair for chunk: {chunk[:50]}...")
     try:
         response = await to_thread(llm.invoke)(prompt)
         qa_pairs = parse_response(response.content)
-        await to_thread(append_to_json)(qa_pairs)  # Append to JSON after each LLM call
-        return qa_pairs
+
+        passed_qa_pairs = []
+        review_tasks = []
+
+        # Create review tasks for each QA pair
+        for pair in qa_pairs:
+            task = to_thread(review_qa_pair, pair['question'], pair['answer'], chunk)
+            review_tasks.append(task)
+
+        # Gather review results
+        reviews = await asyncio.gather(*review_tasks)
+
+        # Process results
+        for i, review in enumerate(reviews):
+            if review['overall_decision'].strip().lower() == 'pass':
+                pair = qa_pairs[i]
+                pair['review'] = review
+                pair['source_chunk'] = chunk
+                passed_qa_pairs.append(pair)
+
+        if passed_qa_pairs:
+            await to_thread(append_to_json)(passed_qa_pairs)
+
+        return passed_qa_pairs
     except TimeoutError:
         logging.error(f"Timeout occurred while generating QA pair for chunk: {chunk[:50]}...")
         return []
@@ -124,9 +148,15 @@ def extract_text_from_pdfs():
     logging.info("Finished extracting text from all PDFs")
 
 # 2. Generate QA pairs from a text chunk
-async def generate_qa_pairs_from_text(text: str, semaphore: asyncio.Semaphore, chunk_size: int = 10) -> List[Dict[str, str]]:
+async def generate_qa_pairs_from_text(text: str, semaphore: asyncio.Semaphore, min_chunk_size: int = 8, max_chunk_size: int = 30) -> List[Dict[str, str]]:
     sentences = sent_tokenize(text)
-    chunks = [" ".join(sentences[i:i + chunk_size]) for i in range(0, len(sentences), chunk_size)]
+    chunks = []
+    i = 0
+    while i < len(sentences):
+        chunk_size = random.randint(min_chunk_size, max_chunk_size)
+        chunk = " ".join(sentences[i:i + chunk_size])
+        chunks.append(chunk)
+        i += chunk_size
     chunks = [chunk for chunk in chunks if len(chunk.strip()) >= 100]
     logging.info(f"Generated {len(chunks)} chunks from text")
 
@@ -276,21 +306,36 @@ def generate_dataset():
     return dataset
 
 def serial_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
-    llm = init_llm('azure-gpt35')
+    llm = init_llm('azure-gpt4')
     prompt = get_prompt(chunk)
     logging.debug(f"Generating QA pair for chunk: {chunk[:50]}...")
     try:
         response = llm.invoke(prompt)
         qa_pairs = parse_response(response.content)
-        append_to_json(qa_pairs)  # Append to JSON after each LLM call
-        return qa_pairs
+        passed_qa_pairs = []
+        for pair in qa_pairs:
+            review = review_qa_pair(pair['question'], pair['answer'], chunk)
+            if review['overall_decision'].strip().lower() == 'pass':
+                pair['review'] = review
+                pair['source_chunk'] = chunk
+                passed_qa_pairs.append(pair)
+
+        if passed_qa_pairs:
+            append_to_json(passed_qa_pairs)  # Append to JSON after each LLM call
+        return passed_qa_pairs
     except Exception as e:
         logging.error(f"Error occurred while generating QA pair: {str(e)}")
         return []
 
-def serial_generate_qa_pairs_from_text(text: str, chunk_size: int = 5, return_chunks: bool = False) -> List[Dict[str, str]]:
+def serial_generate_qa_pairs_from_text(text: str, min_chunk_size: int = 8, max_chunk_size: int = 30, return_chunks: bool = False) -> List[Dict[str, str]]:
     sentences = sent_tokenize(text)
-    chunks = [" ".join(sentences[i:i + chunk_size]) for i in range(0, len(sentences), chunk_size)]
+    chunks = []
+    i = 0
+    while i < len(sentences):
+        chunk_size = random.randint(min_chunk_size, max_chunk_size)
+        chunk = " ".join(sentences[i:i + chunk_size])
+        chunks.append(chunk)
+        i += chunk_size
     chunks = [chunk for chunk in chunks if len(chunk.strip()) >= 100]
     logging.info(f"Generated {len(chunks)} chunks from text")
 
@@ -376,7 +421,7 @@ def serial_generate_dataset():
     return dataset
 
 
-def append_to_json(qa_pairs, filename="surgical_qa_dataset.json"):
+def append_to_json(qa_pairs, filename="surgical_qa_dataset_2025oct.json"):
     try:
         # Read existing data
         with open(filename, "r", encoding="utf-8") as f:
@@ -405,7 +450,7 @@ if __name__ == "__main__":
         else:
             qa_dataset = serial_generate_dataset()
 
-        logging.info(f"Generated {len(qa_dataset)} QA pairs. Saved incrementally to surgical_qa_dataset.json")
+        logging.info(f"Generated {len(qa_dataset)} QA pairs. Saved incrementally to surgical_qa_dataset_2025oct.json")
         print(f"Generated {len(qa_dataset)} QA pairs.")
     except Exception as e:
         logging.error(f"An error occurred during dataset generation: {str(e)}")
