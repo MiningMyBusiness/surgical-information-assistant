@@ -39,9 +39,9 @@ def get_all_evaluated_questions(eval_results):
 ALL_EVAL_QUESTIONS_SO_FAR = get_all_evaluated_questions(load_eval_results())
 
 # Initialize the LLM instances
-rag_llm = init_llm('together-llama32', temperature=0.2)
+rag_llm = init_llm('together-llama32')
 
-eval_llm = init_llm('together-mistral', temperature=0.2)
+eval_llm = init_llm('together-mistral')
 
 # Initialize the FAISS reader
 faiss_reader = FaissReader("surgical_faiss_index")
