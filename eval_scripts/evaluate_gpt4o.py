@@ -24,7 +24,7 @@ def to_thread(func):
     return wrapper
 
 # Initialize the AzureChatOpenAI instance
-llm = init_llm('azure-gpt4o')
+llm = init_llm('azure-gpt4')
 eval_llm = init_llm('azure-gpt35')
 
 # Rate limiting constants
