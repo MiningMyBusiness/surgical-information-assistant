@@ -25,7 +25,7 @@ def load_qa_dataset(file_path):
     with open(file_path, 'r') as f:
         return json.load(f)
     
-def load_eval_results(file_path: str="vanilla_rag_evaluation_results_llama32_2025oct.json"):
+def load_eval_results(file_path: str="vanilla_rag_evaluation_results_llama31_2025oct.json"):
     try:
         with open(file_path, 'r') as f:
             return json.load(f)
@@ -46,7 +46,7 @@ eval_llm = init_llm('together-mistral')
 # Initialize the FAISS reader
 faiss_reader = FaissReader("surgical_faiss_index")
 
-def append_to_json_file(result: dict, file_path: str="vanilla_rag_evaluation_results_llama32_2025oct.json"):
+def append_to_json_file(result: dict, file_path: str="vanilla_rag_evaluation_results_llama31_2025oct.json"):
     try:
         if not os.path.exists(file_path):
             logging.info(f"Creating new file: {file_path}")
@@ -286,5 +286,5 @@ if __name__ == "__main__":
     print_results(results)
 
     # Save the evaluation results to a file
-    with open('vanilla_rag_evaluation_results_llama32_2025oct.json', 'w') as f:
+    with open('vanilla_rag_evaluation_results_llama31_2025oct.json', 'w') as f:
         json.dump(results, f, indent=4)
