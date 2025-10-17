@@ -43,7 +43,7 @@ def get_all_evaluated_questions(eval_results):
 ALL_EVAL_QUESTIONS_SO_FAR = get_all_evaluated_questions(load_eval_results())
 
 # Initialize the LLM instances
-rag_llm = init_llm('together-llama32')
+react_llm = init_llm('together-llama32')
 
 eval_llm = init_llm('together-mistral')
 
