@@ -7,6 +7,7 @@ import asyncio
 import functools
 import time
 import logging
+from utils.llms import init_llm
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -22,12 +23,8 @@ def to_thread(func):
     return wrapper
 
 # Initialize the AzureChatOpenAI instance
-llm = AzureChatOpenAI(
-    openai_api_version=os.environ["AZURE_API_VERSION"],
-    azure_deployment=os.environ["AZURE_DEPLOYMENT"],
-    model_name="gpt-4o",
-    temperature=0.7
-)
+llm = init_llm('azure-gpt4o')
+eval_llm = init_llm('azure-gpt35')
 
 # Rate limiting constants
 MAX_CALLS_PER_MINUTE = 50
@@ -109,7 +106,7 @@ Respond in the following format:
 <answer> TRUE if the answers are similar, FALSE otherwise... </answer>
 """
     try:
-        response = await rate_limited_call(to_thread(llm.invoke), prompt)
+        response = await rate_limited_call(to_thread(eval_llm.invoke), prompt)
         evaluation = response.content.strip()
         thinking = evaluation.split('<think>')[1].split('</think>')[0].strip()
         is_correct = 'true' in evaluation.lower().split('<answer>')[-1].split('</answer>')[0].strip()
@@ -161,10 +158,10 @@ async def main():
     logging.info("Starting the evaluation process...")
     
     # Load the dataset
-    with open('surgical_qa_dataset.json', 'r') as f:
+    with open('surgical_qa_dataset_2025oct.json', 'r') as f:
         dataset = json.load(f)
 
-    results_file = 'qa_results_4o_wo_rag.json'
+    results_file = 'qa_results_4o_wo_rag_2025oct.json'
 
     # Initialize the results file
     with open(results_file, 'w') as f:
