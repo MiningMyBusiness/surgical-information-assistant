@@ -3,6 +3,7 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from dotenv import load_dotenv
+import asyncio
 import multiprocessing
 from tqdm import tqdm
 import sys
@@ -188,7 +189,7 @@ def process_question(qa_pair):
         }
         
         # Evaluate the answer
-        is_correct, thinking = evaluate_answer(question, final_answer, known_answer)
+        is_correct, thinking = asyncio.run(evaluate_answer(question, final_answer, known_answer))
 
         output = {
             'question': question,

@@ -153,7 +153,7 @@ def process_question(qa_pair):
         }
         
         # Evaluate the answer
-        is_correct, thinking = evaluate_answer(question, answer, known_answer)
+        is_correct, thinking = asyncio.run(evaluate_answer(question, answer, known_answer))
 
         output = {
             'question': question,
@@ -197,7 +197,7 @@ async def process_question_async(qa_pair):
         }
         
         # Evaluate the answer
-        is_correct, thinking = evaluate_answer(question, answer, known_answer)
+        is_correct, thinking = await evaluate_answer(question, answer, known_answer)
 
         output = {
             'question': question,

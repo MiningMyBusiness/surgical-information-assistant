@@ -161,10 +161,10 @@ async def main():
     logging.info("Starting the evaluation process...")
     
     # Load the dataset
-    with open('surgical_qa_dataset_2025oct.json', 'r') as f:
+    with open('surgical_qa_dataset_2025oct_2_cleaned.json', 'r') as f:
         dataset = json.load(f)
 
-    results_file = 'qa_results_llama31_wo_rag_2025oct.json'
+    results_file = 'qa_results_llama31_wo_rag_2025oct_2_cleaned.json'
 
     # Initialize the results file
     with open(results_file, 'w') as f:
