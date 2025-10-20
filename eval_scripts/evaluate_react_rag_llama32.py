@@ -92,7 +92,7 @@ faiss_reader = FaissReader("surgical_faiss_index")
 def search_documents(query: str) -> str:
     """Search for relevant surgical information in the document database."""
     try:
-        results = faiss_reader.search(query, k=3)
+        results = faiss_reader.search(query, k=5)
         return results
     except Exception as e:
         return f"Error searching documents: {str(e)}"
