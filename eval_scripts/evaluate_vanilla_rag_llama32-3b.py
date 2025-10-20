@@ -67,7 +67,7 @@ def generate_answer_from_context(question, context_docs, llm):
     """Generate an answer using the LLM based on the retrieved context."""
     
     prompt = f"""You are a medical assistant specializing in surgical information. Use the following context to answer the question. 
-If you cannot find the answer in the context, say "I don't have enough information to answer this question."
+If you cannot find the answer in the context, acknowledge the limitations and make your best guess based on your own knowledge and experience.
 
 Context:
 {context_docs}
@@ -139,7 +139,7 @@ def process_question(qa_pair):
 
     try:
         # Retrieve relevant documents from FAISS
-        retrieved_docs = faiss_reader.search(question, k=3)
+        retrieved_docs = faiss_reader.search(question, k=5)
         
         # Generate answer using the LLM
         answer, thinking, context = generate_answer_from_context(question, retrieved_docs, rag_llm)
@@ -183,7 +183,7 @@ async def process_question_async(qa_pair):
 
     try:
         # Retrieve relevant documents from FAISS
-        retrieved_docs = faiss_reader.search(question, k=3)
+        retrieved_docs = faiss_reader.search(question, k=5)
         
         # Generate answer using the LLM
         answer, thinking, context = generate_answer_from_context(question, retrieved_docs, rag_llm)

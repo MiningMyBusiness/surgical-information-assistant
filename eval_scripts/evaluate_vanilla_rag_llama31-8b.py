@@ -67,7 +67,7 @@ def generate_answer_from_context(question, context_docs, llm):
     """Generate an answer using the LLM based on the retrieved context."""
     
     prompt = f"""You are a medical assistant specializing in surgical information. Use the following context to answer the question. 
-If you cannot find the answer in the context, say "I don't have enough information to answer this question."
+If you cannot find the answer in the context, acknowledge the limitation and make your best guess based on your own knowledge and experience.
 
 Context:
 {context_docs}
