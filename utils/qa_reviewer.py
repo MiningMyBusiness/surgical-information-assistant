@@ -77,7 +77,7 @@ def parse_response(response: str):
         }
 
 def review_qa_pair(question: str, answer: str, source_chunk: str):
-    llm = init_llm('azure-gpt4o')
+    llm = init_llm('azure-gpt4')
     prompt = get_reviewer_prompt(question, answer, source_chunk)
     response = llm.invoke(prompt).content
     parsed_response = parse_response(response)
