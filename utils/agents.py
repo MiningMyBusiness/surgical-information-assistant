@@ -49,19 +49,21 @@ class DeRetSynState(TypedDict):
 decomposition_prompt = PromptTemplate.from_template(
     """You are an expert at breaking complex surgical questions into simpler ones. Break the following question into smaller sub-questions:
     
-    Question: {question}
+## Question
+{question}
+----
 
-    Each sub-question should be independent and answerable on it's own without needing reference to other sub-questions. Think of at least 3 sub-questions but no more than 7.
+Each sub-question should be independent and answerable on it's own without needing reference to other sub-questions. Think of at least 3 sub-questions but no more than 7.
     
-    Think step-by-step and make sure to reason through how break the question into sub-questions. 
+Think step-by-step and make sure to reason through how break the question into sub-questions. 
     
-    Create new sub-questions in the following format but DO NOT answer the question. Respond in the following format:
+Create new sub-questions in the following format but DO NOT answer the question. Respond in the following format:
     
-    <think> Your reasoning here... </think>
-    <sub-question> The first sub-question... </sub-question>
-    <sub-question> The second sub-question... </sub-question>
-    ...
-    <sub-question> The last sub-question... </sub-question>"""
+<think> Your reasoning here... </think>
+<sub-question> The first sub-question... </sub-question>
+<sub-question> The second sub-question... </sub-question>
+...
+<sub-question> The last sub-question... </sub-question>"""
 )
 
 def get_llm_object(state: DeRetSynState):
@@ -101,7 +103,9 @@ def generate_answer_from_implicit_knowledge(state: DeRetSynState, question: str)
     llm = get_llm_object(state)
     prompt = f"""You are a medical expert specializing in surgery. Answer the following question using your knowledge of surgical procedures, anatomy, and medical practices.
 
-Question: {question}
+## Question
+{question}
+----
 
 Think step-by-step and provide a comprehensive answer based on your medical knowledge. If you're uncertain about any aspect, please indicate that in your response.
 
@@ -129,7 +133,9 @@ async def generate_answer_from_implicit_knowledge_async(state: DeRetSynState, qu
     llm = get_llm_object(state)
     prompt = f"""You are a medical expert specializing in surgery. Answer the following question using your knowledge of surgical procedures, anatomy, and medical practices.
 
-Question: {question}
+## Question
+{question}
+----
 
 Think step-by-step and provide a comprehensive answer based on your medical knowledge. If you're uncertain about any aspect, please indicate that in your response.
 
@@ -224,12 +230,16 @@ def generate_answer_from_question_and_context(state: DeRetSynState,
                                               context: str) -> str:
     llm = get_llm_object(state)
     prompt = f"""Based on the given question and context, generate an answer.
-Question: {question}
-Context: {context}
+## Question
+{question}
+----
+## Context
+{context}
+----
 
-Think step-by-step and make sure to reason through how to generate an answer. ONLY rely on the given context to generate the answer. 
+Think step-by-step and make sure to reason through how to generate an answer. Rely on the given context and your own knowledge to generate the answer. 
 
-Include snippets of the context that support your answer. Do NOT use any information outside of the given context to generate the answer.
+Include snippets of the context that support your answer.
 
 Respond in the following format:
 
@@ -257,12 +267,16 @@ async def generate_answer_from_question_and_context_async(state: DeRetSynState,
                                                           context: str) -> str:
     llm = get_llm_object(state)
     prompt = f"""Based on the given question and context, generate an answer.
-Question: {question}
-Context: {context}
+## Question
+{question}
+----
+## Context
+{context}
+----
 
-Think step-by-step and make sure to reason through how to generate an answer. ONLY rely on the given context to generate the answer. 
+Think step-by-step and make sure to reason through how to generate an answer. Rely on the given context and your own knowledge to generate the answer. 
 
-Include snippets of the context that support your answer. Do NOT use any information outside of the given context to generate the answer.
+Include snippets of the context that support your answer.
 
 Respond in the following format:
 
@@ -302,12 +316,13 @@ If yes, then provide the answer. Make your answer detailed and structured with s
 
 If you determine that you cannot answer the original question, then suggest what additional questions should be asked.
 
-Original Question:
+## Original Question
 {original_question}
+----
 
-Knowledge:
+## Knowledge
 {context_string}{answers}
-
+----
 """
     middle_prompt = ""
     answer_string = " The answer to the original question... "
@@ -374,13 +389,16 @@ This is a multiple choice question. You must select one of the following options
     generate_prompt = f"""
 You are a reasoning engine. Given the following original question and sub-question answers, formulate an answer to the best of your ability.
 
-Original Question:
+## Original Question
 {original_question}
+----
 
-Context:
+## Context
 {state["answers"]}
 {state["wikipedia_results"]}
 {middle_prompt}
+----
+
 Think step-by-step to reason through you answer and consider the provided context as well as your own knowledge.
 
 Respond in the following format:
@@ -428,10 +446,11 @@ def agent_e_follow_up_question_generator(state: DeRetSynState) -> None:
     final_answer = state["final_answer"]
     prompt = f"""You are a reasoning engine. Given the following original question and final answer, generate 3 follow-up questions that help expand on the original question and the answer in a step-wise manner.
 
-Original Question:
+## Original Question:
 {original_question}
+----
 
-Final Answer:
+## Final Answer:
 {final_answer}
 
 Think step-by-step to reason through your answer and consider the relevant information. Respond in the following format:
@@ -452,12 +471,14 @@ def agent_f_cot_generator(state: DeRetSynState) -> None:
     prompt = f"""
 You are a reasoning engine. Based on the following question and knowledge, provide a detailed, step-by-step reasoning to arrive at an answer. Include at least 3 steps, but more as needed.
 
-Question:
+## Question:
 {state["original_question"]}
+----
 
-Knowledge:
+## Knowledge:
 {state["answers"]}
 {state["wikipedia_results"] if "wikipedia_results" in state else ""}
+----
 
 Provide your response in this format:
 
