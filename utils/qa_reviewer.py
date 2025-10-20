@@ -10,9 +10,9 @@ After evaluating all seven criteria individually, you will provide a final Overa
 
 ##Evaluation Criteria:##
 - Answerable from Passage: Is the question fully answerable using only the information present in the passage?
-- Question is Self-Referential: Does the question contain phrases that refer directly to the passage itself (e.g., "according to the passage," "in this document")? (Note: A 'No' is desired for this criterion).
+- Question is not Self-Referential: Does the question exclude phrases that refer directly to the passage itself (e.g., "according to the passage," "in this document")?
 - Question is Context-Independent: Is the question completely understandable on its own, without needing to read the passage first?
-- Question is Searchable: Is the question clear and specific enough that a person could reasonably use it as a search engine query to find the answer?
+- Question is Searchable: Is the question clear and specific enough that a person could reasonably use it as a search engine query to find the answer without any need to read the passage?
 - Answer is Complete: Does the provided answer fully and completely address all parts of the question?
 - Answer is Grounded: Is all of the information in the answer explicitly supported by the content of the passage?
 - Answer is Self-Contained: Does the answer make sense on its own without assuming the reader has context from the passage that isn't already in the question?
@@ -77,7 +77,7 @@ def parse_response(response: str):
         }
 
 def review_qa_pair(question: str, answer: str, source_chunk: str):
-    llm = init_llm('azure-gpt35')
+    llm = init_llm('azure-gpt4o')
     prompt = get_reviewer_prompt(question, answer, source_chunk)
     response = llm.invoke(prompt).content
     parsed_response = parse_response(response)

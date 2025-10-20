@@ -98,6 +98,7 @@ async def process_question_async(qa_pair):
         'wikipedia_context': final_state['wikipedia_results'],
         'cot': final_state['cot_for_answer'],
         'rag_answer': final_state['final_answer'],
+        'rag_confidence': final_state['final_confidence'],
         'known_answer': known_answer,
         'is_correct': is_correct
     }
@@ -178,6 +179,7 @@ def process_question(qa_pair):
             'wikipedia_context': final_state['wikipedia_results'],
             'cot': final_state['cot_for_answer'],
             'rag_answer': final_state['final_answer'],
+            'rag_confidence': final_state['final_confidence'],
             'known_answer': known_answer,
             'is_correct': is_correct
         }
@@ -191,6 +193,7 @@ def process_question(qa_pair):
         'wikipedia_context': None,
         'cot': None,
         'rag_answer': None,
+        'rag_confidence': None,
         'known_answer': known_answer,
         'is_correct': False
     }

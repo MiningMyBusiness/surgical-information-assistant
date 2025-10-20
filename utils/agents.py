@@ -35,6 +35,7 @@ class DeRetSynState(TypedDict):
     wikipedia_results: str=None
     pending_queries: List[str]=[]
     final_answer: str=None
+    final_confidence: str=None
     cot_for_answer: str=None
     verbose: bool=False
     faiss_index_path: str="surgical_faiss_index"
@@ -172,8 +173,8 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
                 faiss_index_path = state["faiss_index_path"]
                 vectorstore = get_default_vectorstore(faiss_index_path)
                 results = vectorstore.search(q, k=state["retrieval_k"])
-            response, snippets = generate_answer_from_question_and_context(state, q, results)
-            answer_text = f"Question: {q}\nAnswer: {response}\n\n\n"
+            response, confidence, snippets = generate_answer_from_question_and_context(state, q, results)
+            answer_text = f"Question: {q}\nAnswer: {response}\nConfidence: {confidence}\n\n\n"
             new_answers.append(answer_text)
     
     combined_answers = "".join(new_answers)
@@ -200,8 +201,8 @@ async def agent_b_retrieve_async(state: DeRetSynState) -> None:
             else:
                 vectorstore = get_default_vectorstore(faiss_index_path)
                 results = await to_thread(vectorstore.search)(q, k=state["retrieval_k"])
-            response, snippets = await generate_answer_from_question_and_context_async(state, q, results)
-            return f"Question: {q}\nAnswer: {response}\n\n\n"
+            response, confidence, snippets = await generate_answer_from_question_and_context_async(state, q, results)
+            return f"Question: {q}\nAnswer: {response}\nConfidence: {confidence}\n\n\n"
     
     # Run all queries concurrently
     tasks = [process_query(q) for q in queries]
@@ -234,6 +235,7 @@ Respond in the following format:
 
 <think> Your reasoning here... </think>
 <answer> The generated answer... </answer>
+<confidence> High/Medium/Low - your confidence level in this answer </confidence>
 <snippet> First relevant snippet from the context... </snippet>
 <snippet> Second relevant snippet from the context... </snippet>
 ...
@@ -242,11 +244,12 @@ Respond in the following format:
     if state["verbose"]:
         print(f"Generated answer for question and context: {full_response}")
     response = full_response.split("<answer>")[1].split("</answer>")[0].strip()
+    confidence = full_response.split("<confidence>")[1].split("</confidence>")[0].strip()
     snippets = full_response.split("<snippet>")[1:-1]
     snippets = [snippet.split("</snippet>")[0].strip() for snippet in snippets]
     if state["verbose"]:
         print(f"Full response for generating answer from question and context: {full_response}")
-    return response, "\n".join(snippets)
+    return response, confidence, "\n".join(snippets)
 
 
 async def generate_answer_from_question_and_context_async(state: DeRetSynState,
@@ -265,6 +268,7 @@ Respond in the following format:
 
 <think> Your reasoning here... </think>
 <answer> The generated answer... </answer>
+<confidence> High/Medium/Low - your confidence level in this answer </confidence>
 <snippet> First relevant snippet from the context... </snippet>
 <snippet> Second relevant snippet from the context... </snippet>
 ...
@@ -272,11 +276,12 @@ Respond in the following format:
     response = await to_thread(llm.invoke)(prompt)
     content = response.content.strip()
     answer = content.split("<answer>")[1].split("</answer>")[0].strip()
+    confidence = content.split("<confidence>")[1].split("</confidence>")[0].strip()
     snippets = content.split("<snippet>")[1:-1]
     snippets = [snippet.split("</snippet>")[0].strip() for snippet in snippets]
     if state["verbose"]:
         print(f"Generated answer for question and context (async): {content}")
-    return answer, "\n".join(snippets)
+    return answer, confidence, "\n".join(snippets)
 
 
 def agent_c_synthesize(state: DeRetSynState) -> None:
@@ -318,6 +323,7 @@ Knowledge:
 <think> Your reasoning here... </think>
 <can_answer> yes OR no </can_answer>
 <answer>{answer_string}</answer>
+<confidence> High/Medium/Low - your confidence level in this answer </confidence>
 <new_questions> The first new sub-question... </new_questions>
 <new_questions> The second new sub-question... </new_questions>
 ...
@@ -330,11 +336,16 @@ Knowledge:
     can_answer = response.split("<can_answer>")[1].split("</can_answer>")[0].strip().lower()
     if can_answer == "yes":
         answer_text = response.split("<answer>")[1].split("</answer>")[0].strip()
+        if "<confidence>" in answer_text:
+            confidence = response.split("<confidence>")[1].split("</confidence>")[0].strip()
+        else:
+            confidence = "Medium"
         if "<new_questions>" in answer_text:
             answer_text = answer_text.split("<new_questions>")[0].strip()
         state["done"] = True
         state["final_answer"] = answer_text
         state["iterations"] = 1
+        state["final_confidence"] = confidence
     else:
         state["done"] = False
         state["iterations"] += 1
@@ -375,6 +386,7 @@ Think step-by-step to reason through you answer and consider the provided contex
 Respond in the following format:
 <think> Your reasoning here... </think>
 <answer> {answer_string} </answer>
+<confidence> High/Medium/Low - your confidence level in this answer </confidence>
 """
     llm = get_llm_object(state)
     response = llm.invoke(generate_prompt).content.strip()
@@ -382,8 +394,13 @@ Respond in the following format:
         print(f"Best-effort response with help from Wikipedia: {response}")
     answer_text = response.split("<answer>")[1].split("</answer>")[0].strip()
     answer_text += "\n\n" + "NOTE: I could not answer the question completely with the available documents. I have tried to use Wikipedia to help me answer the question to the best of my ability."
+    if "<confidence>" in answer_text:
+        confidence = response.split("<confidence>")[1].split("</confidence>")[0].strip()
+    else:
+        confidence = "Medium"
     state["done"] = True
     state["final_answer"] = answer_text
+    state["final_confidence"] = confidence
 
 def search_wikipedia(state: DeRetSynState) -> str:
     results_fast = search_wikipedia_fast(state["original_question"])

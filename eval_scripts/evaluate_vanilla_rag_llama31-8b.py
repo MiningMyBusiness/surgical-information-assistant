@@ -9,7 +9,6 @@ from tqdm import tqdm
 import time
 import logging
 from utils.index_w_faiss import FaissReader
-from utils.agents import evaluate_answer
 from utils.llms import init_llm
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -41,7 +40,7 @@ ALL_EVAL_QUESTIONS_SO_FAR = get_all_evaluated_questions(load_eval_results())
 # Initialize the LLM instances
 rag_llm = init_llm('together-llama31')
 
-eval_llm = init_llm('together-mistral')
+eval_llm = init_llm('azure-gpt35')
 
 # Initialize the FAISS reader
 faiss_reader = FaissReader("surgical_faiss_index")
@@ -97,6 +96,39 @@ Think step-by-step to reason through your answer and consider the relevant infor
         
     return answer, thinking, context_docs
 
+async def evaluate_answer(question, generated_answer, known_answer):
+    logging.info(f"Evaluating answer for question: {question[:50]}...")
+    prompt = f"""You are a medical reasoning engine that compares two answers to a given question to determine whether the answers are the same. Here is the question and the two answers:
+
+Question:
+{question}
+
+Answer 1 (Known Answer):
+{known_answer}
+
+Answer 2 (Generated Answer):
+{generated_answer}
+
+Think step-by-step and provide a detailed reasoning process that compares the two answers given the context of the question. Include at least 3 steps in your reasoning, but more as needed.
+
+Respond in the following format:
+
+<think> Your reasoning here... </think>
+<answer> TRUE if the answers are similar, FALSE otherwise... </answer>
+"""
+    try:
+        response = await rate_limited_call(to_thread(eval_llm.invoke), prompt)
+        evaluation = response.content.strip()
+        thinking = evaluation.split('<think>')[1].split('</think>')[0].strip()
+        is_correct = 'true' in evaluation.lower().split('<answer>')[-1].split('</answer>')[0].strip()
+        logging.info(f"Evaluation completed for question: {question[:50]}...")
+        logging.info(f"Evalution result: {is_correct}")
+        return is_correct, thinking
+    except Exception as e:
+        logging.error(f"Error evaluating answer for question: {question[:50]}...")
+        logging.error(str(e))
+        return False, "Could not evaluate answer for question."
+
 def process_question(qa_pair):
     question = qa_pair['question']
     if question in ALL_EVAL_QUESTIONS_SO_FAR:
@@ -121,7 +153,7 @@ def process_question(qa_pair):
         }
         
         # Evaluate the answer
-        is_correct = evaluate_answer(state, known_answer, eval_llm)
+        is_correct, thinking = evaluate_answer(question, answer, known_answer)
 
         output = {
             'question': question,
@@ -129,7 +161,8 @@ def process_question(qa_pair):
             'cot': thinking,
             'rag_answer': answer,
             'known_answer': known_answer,
-            'is_correct': is_correct
+            'is_correct': is_correct,
+            'eval_thinking': thinking
         }
 
         return output
@@ -164,7 +197,7 @@ async def process_question_async(qa_pair):
         }
         
         # Evaluate the answer
-        is_correct = evaluate_answer(state, known_answer, eval_llm)
+        is_correct, thinking = evaluate_answer(question, answer, known_answer)
 
         output = {
             'question': question,
@@ -172,7 +205,8 @@ async def process_question_async(qa_pair):
             'cot': thinking,
             'rag_answer': answer,
             'known_answer': known_answer,
-            'is_correct': is_correct
+            'is_correct': is_correct,
+            'eval_thinking': thinking
         }
 
         return output

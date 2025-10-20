@@ -421,7 +421,7 @@ def serial_generate_dataset():
     return dataset
 
 
-def append_to_json(qa_pairs, filename="surgical_qa_dataset_2025oct.json"):
+def append_to_json(qa_pairs, filename="surgical_qa_dataset_2025oct_2.json"):
     try:
         # Read existing data
         with open(filename, "r", encoding="utf-8") as f:
@@ -450,7 +450,7 @@ if __name__ == "__main__":
         else:
             qa_dataset = serial_generate_dataset()
 
-        logging.info(f"Generated {len(qa_dataset)} QA pairs. Saved incrementally to surgical_qa_dataset_2025oct.json")
+        logging.info(f"Generated {len(qa_dataset)} QA pairs. Saved incrementally to surgical_qa_dataset_2025oct_2.json")
         print(f"Generated {len(qa_dataset)} QA pairs.")
     except Exception as e:
         logging.error(f"An error occurred during dataset generation: {str(e)}")
