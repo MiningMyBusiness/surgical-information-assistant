@@ -16,9 +16,46 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Load environment variables
 load_dotenv()
 
+def to_thread(func):
+    @functools.wraps(func)
+    async def wrapper(*args, **kwargs):
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(None, functools.partial(func, *args, **kwargs))
+    return wrapper
+
 # Rate limiting constants
-MAX_CALLS_PER_MINUTE = 40
+MAX_CALLS_PER_MINUTE = 120
 RATE_LIMIT_PERIOD = 60  # seconds
+
+class RateLimiter:
+    def __init__(self, max_calls, period):
+        self.max_calls = max_calls
+        self.period = period
+        self.calls = []
+        self.semaphore = asyncio.Semaphore(max_calls)
+
+    async def acquire(self):
+        await self.semaphore.acquire()
+        
+        now = time.time()
+        self.calls = [t for t in self.calls if now - t < self.period]
+        
+        if len(self.calls) >= self.max_calls:
+            await asyncio.sleep(self.period - (now - self.calls[0]))
+        
+        self.calls.append(time.time())
+
+    def release(self):
+        self.semaphore.release()
+
+rate_limiter = RateLimiter(MAX_CALLS_PER_MINUTE, RATE_LIMIT_PERIOD)
+
+async def rate_limited_call(func, *args, **kwargs):
+    await rate_limiter.acquire()
+    try:
+        return await func(*args, **kwargs)
+    finally:
+        rate_limiter.release()
 
 def load_qa_dataset(file_path):
     with open(file_path, 'r') as f:
