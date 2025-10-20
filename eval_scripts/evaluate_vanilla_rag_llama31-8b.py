@@ -24,7 +24,7 @@ def load_qa_dataset(file_path):
     with open(file_path, 'r') as f:
         return json.load(f)
     
-def load_eval_results(file_path: str="vanilla_rag_evaluation_results_llama31_2025oct.json"):
+def load_eval_results(file_path: str="vanilla_rag_evaluation_results_llama31_2025oct_2_cleaned.json"):
     try:
         with open(file_path, 'r') as f:
             return json.load(f)
@@ -45,7 +45,7 @@ eval_llm = init_llm('azure-gpt35')
 # Initialize the FAISS reader
 faiss_reader = FaissReader("surgical_faiss_index")
 
-def append_to_json_file(result: dict, file_path: str="vanilla_rag_evaluation_results_llama31_2025oct.json"):
+def append_to_json_file(result: dict, file_path: str="vanilla_rag_evaluation_results_llama31_2025oct_2_cleaned.json"):
     try:
         if not os.path.exists(file_path):
             logging.info(f"Creating new file: {file_path}")
@@ -301,7 +301,7 @@ if __name__ == "__main__":
     num_processes = int(sys.argv[2]) if len(sys.argv) > 2 else None
 
     # Load the QA dataset
-    qa_dataset = load_qa_dataset('surgical_qa_dataset_2025oct.json')
+    qa_dataset = load_qa_dataset('surgical_qa_dataset_2025oct_2_cleaned.json')
 
     # Set the number of processes to use
     if num_processes is None:
@@ -320,5 +320,5 @@ if __name__ == "__main__":
     print_results(results)
 
     # Save the evaluation results to a file
-    with open('vanilla_rag_evaluation_results_llama31_2025oct.json', 'w') as f:
+    with open('vanilla_rag_evaluation_results_llama31_2025oct_2_cleaned.json', 'w') as f:
         json.dump(results, f, indent=4)

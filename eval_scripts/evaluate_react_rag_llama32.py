@@ -28,7 +28,7 @@ def load_qa_dataset(file_path):
     with open(file_path, 'r') as f:
         return json.load(f)
     
-def load_eval_results(file_path: str="react_rag_evaluation_results_llama32_2025oct.json"):
+def load_eval_results(file_path: str="react_rag_evaluation_results_llama32_2025oct_2_cleaned.json"):
     try:
         with open(file_path, 'r') as f:
             return json.load(f)
@@ -72,7 +72,7 @@ When answering questions:
 1. Use the DocumentSearch tool to find relevant information in the surgical database
 2. Analyze the retrieved information carefully
 3. Provide comprehensive and accurate answers based on the retrieved content
-4. If the information is not available in the search results, acknowledge the limitations
+4. If the information is not available in the search results, acknowledge the limitations and make your best guess based on your own knowledge and experience.
 5. Think step-by-step to reason through complex questions
 6. Cite specific parts of the retrieved documents when appropriate
 7. Focus on providing factual medical information rather than opinions
@@ -91,7 +91,7 @@ react_agent = create_react_agent(
     response_format=SurgInfoResponse,
 )
 
-def append_to_json_file(result: dict, file_path: str="react_rag_evaluation_results_llama32_2025oct.json"):
+def append_to_json_file(result: dict, file_path: str="react_rag_evaluation_results_llama32_2025oct_2_cleaned.json"):
     try:
         if not os.path.exists(file_path):
             logging.info(f"Creating new file: {file_path}")
@@ -256,7 +256,7 @@ if __name__ == "__main__":
     num_questions = int(sys.argv[2]) if len(sys.argv) > 2 else None  # default to 100 questions
 
     # Load the QA dataset
-    qa_dataset = load_qa_dataset('surgical_qa_dataset_2025oct.json')
+    qa_dataset = load_qa_dataset('surgical_qa_dataset_2025oct_2_cleaned.json')
 
     # Set the number of processes to use
     if num_processes is None:
@@ -270,5 +270,5 @@ if __name__ == "__main__":
     print_results(results)
 
     # Save the evaluation results to a file
-    with open('react_rag_evaluation_results_llama32_2025oct.json', 'w') as f:
+    with open('react_rag_evaluation_results_llama32_2025oct_2_cleaned.json', 'w') as f:
         json.dump(results, f, indent=4)
