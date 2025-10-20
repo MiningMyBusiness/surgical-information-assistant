@@ -21,6 +21,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 nltk.download("punkt")
 nltk.download('punkt_tab')
 
+filename_map = json.load(open("filename_map.json"))
+
 def parse_args():
     if len(sys.argv) > 1:
         return sys.argv[1].lower() == 'async'
@@ -47,7 +49,7 @@ def to_thread(func):
 start_time = [time.time()]
 
 
-async def async_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
+async def async_generate_qa_pair(chunk: str, filename: str) -> List[Dict[str, str]]:
     llm = init_llm('azure-gpt4')
     prompt = get_prompt(chunk)
     logging.debug(f"Generating QA pair for chunk: {chunk[:50]}...")
@@ -72,6 +74,8 @@ async def async_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
                 pair = qa_pairs[i]
                 pair['review'] = review
                 pair['source_chunk'] = chunk
+                pair['source_filename'] = filename
+                pair['topic'] = filename_map[filename]
                 passed_qa_pairs.append(pair)
 
         if passed_qa_pairs:
@@ -100,7 +104,7 @@ async def async_generate_dataset():
                 try:
                     with open(os.path.join(text_folder, filename), "r", encoding="utf-8") as f:
                         text = f.read()
-                    qa_pairs = await generate_qa_pairs_from_text(text, semaphore)
+                    qa_pairs = await generate_qa_pairs_from_text(text, filename, semaphore)
                     request_count += len(qa_pairs)
                     
                     # Check if we need to pause to respect rate limit
@@ -148,7 +152,7 @@ def extract_text_from_pdfs():
     logging.info("Finished extracting text from all PDFs")
 
 # 2. Generate QA pairs from a text chunk
-async def generate_qa_pairs_from_text(text: str, semaphore: asyncio.Semaphore, min_chunk_size: int = 8, max_chunk_size: int = 30) -> List[Dict[str, str]]:
+async def generate_qa_pairs_from_text(text: str, filename: str, semaphore: asyncio.Semaphore, min_chunk_size: int = 8, max_chunk_size: int = 30) -> List[Dict[str, str]]:
     sentences = sent_tokenize(text)
     chunks = []
     i = 0
@@ -162,7 +166,7 @@ async def generate_qa_pairs_from_text(text: str, semaphore: asyncio.Semaphore, m
 
     async def process_chunk(chunk):
         async with semaphore:
-            return await async_generate_qa_pair(chunk)
+            return await async_generate_qa_pair(chunk, filename)
 
     tasks = [process_chunk(chunk) for chunk in chunks]
     results = await asyncio.gather(*tasks)
@@ -305,7 +309,7 @@ def generate_dataset():
                 dataset.extend(qa_pairs)
     return dataset
 
-def serial_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
+def serial_generate_qa_pair(chunk: str, filename: str) -> List[Dict[str, str]]:
     llm = init_llm('azure-gpt4')
     prompt = get_prompt(chunk)
     logging.debug(f"Generating QA pair for chunk: {chunk[:50]}...")
@@ -318,6 +322,8 @@ def serial_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
             if review['overall_decision'].strip().lower() == 'pass':
                 pair['review'] = review
                 pair['source_chunk'] = chunk
+                pair['source_filename'] = filename
+                pair['topic'] = filename_map[filename]
                 passed_qa_pairs.append(pair)
 
         if passed_qa_pairs:
@@ -327,7 +333,7 @@ def serial_generate_qa_pair(chunk: str) -> List[Dict[str, str]]:
         logging.error(f"Error occurred while generating QA pair: {str(e)}")
         return []
 
-def serial_generate_qa_pairs_from_text(text: str, min_chunk_size: int = 8, max_chunk_size: int = 30, return_chunks: bool = False) -> List[Dict[str, str]]:
+def serial_generate_qa_pairs_from_text(text: str, filename: str, min_chunk_size: int = 8, max_chunk_size: int = 30, return_chunks: bool = False) -> List[Dict[str, str]]:
     sentences = sent_tokenize(text)
     chunks = []
     i = 0
@@ -344,7 +350,7 @@ def serial_generate_qa_pairs_from_text(text: str, min_chunk_size: int = 8, max_c
 
     qa_pairs = []
     for chunk in chunks:
-        qa_pairs.extend(serial_generate_qa_pair(chunk))
+        qa_pairs.extend(serial_generate_qa_pair(chunk, filename))
 
     logging.info(f"Generated {len(qa_pairs)} QA pairs from text")
     return qa_pairs
@@ -366,11 +372,11 @@ def serial_generate_dataset():
                     text = f.read()
                 
                 file_start_time = time.time()
-                chunks = serial_generate_qa_pairs_from_text(text, return_chunks=True)
+                chunks = serial_generate_qa_pairs_from_text(text, filename, return_chunks=True)
                 
                 for i, chunk in enumerate(chunks):
                     chunk_start_time = time.time()
-                    qa_pairs = serial_generate_qa_pair(chunk)
+                    qa_pairs = serial_generate_qa_pair(chunk, filename)
                     chunk_end_time = time.time()
                     
                     chunk_time = chunk_end_time - chunk_start_time
