@@ -4,6 +4,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from dotenv import load_dotenv
 import asyncio
+import functools
 import multiprocessing
 from tqdm import tqdm
 import time
