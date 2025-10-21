@@ -73,13 +73,14 @@ async def answer_question(question, llm, use_cot=True, use_rag=False):
     if use_rag:
         faiss_reader = FaissReader("surgical_faiss_index")
         retrieved_docs = faiss_reader.search(question, k=5)
-        context_string = "\n----\n## Relevant Context ##\n" + retrieved_docs + "\n----\n\n"
+        context_string = "\n----\n## Relevant Context\n" + retrieved_docs + "\n----\n\n"
         use_context_instruction = " The following context may be helpful in answering the question."
     
     if use_cot:
         prompt = f"""You are a medical expert. Please answer the following question based on your medical knowledge.{use_context_instruction}
 
-Question: {question}
+## Question
+{question}
 {context_string}
 Think step-by-step and provide a detailed reasoning process to arrive at your answer. Include at least 3 steps in your reasoning, but more as needed.
 
@@ -95,7 +96,8 @@ Respond in the following format:
     else:
         prompt = f"""You are a medical expert. Please answer the following question based on your medical knowledge.
 
-Question: {question}
+## Question
+{question}
 
 Your answer must be : A / B / C / D (there may be more than 1 right answer)
 
