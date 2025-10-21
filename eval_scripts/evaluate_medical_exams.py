@@ -68,12 +68,13 @@ async def rate_limited_call(func, *args, **kwargs):
 async def answer_question(question, llm, use_cot=True, use_rag=False):
     logging.info(f"Generating answer for question: {question[:50]}...")
 
-    use_context_instruction = " The following context may be helpful in answering the question."
+    use_context_instruction = ""
     context_string = ""
     if use_rag:
         faiss_reader = FaissReader("surgical_faiss_index")
         retrieved_docs = faiss_reader.search(question, k=5)
         context_string = "\n----\n## Relevant Context ##\n" + retrieved_docs + "\n----\n\n"
+        use_context_instruction = " The following context may be helpful in answering the question."
     
     if use_cot:
         prompt = f"""You are a medical expert. Please answer the following question based on your medical knowledge.{use_context_instruction}
