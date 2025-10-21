@@ -32,7 +32,7 @@ def to_thread(func):
     return wrapper
 
 # Rate limiting constants
-MAX_CALLS_PER_MINUTE = 50
+MAX_CALLS_PER_MINUTE = 60
 RATE_LIMIT_PERIOD = 60  # seconds
 
 class RateLimiter:
@@ -122,14 +122,14 @@ Answer: """
 def organize_answer(answer_text: str) -> str:
     answer_text = answer_text.lower()
     answer = ""
-    if "A" in answer_text:
-        answer += "A"
-    if "B" in answer_text:
-        answer += "B"
-    if "C" in answer_text:
-        answer += "C"
-    if "D" in answer_text:
-        answer += "D"
+    if "a" in answer_text:
+        answer += "a"
+    if "b" in answer_text:
+        answer += "b"
+    if "c" in answer_text:
+        answer += "c"
+    if "d" in answer_text:
+        answer += "d"
     return answer
 
 def evaluate_answer(generated_answer, known_answer):
