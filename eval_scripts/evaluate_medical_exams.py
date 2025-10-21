@@ -238,7 +238,7 @@ async def main():
     logging.info(f"Processing {len(dataset_list)} questions...")
 
     # Process questions concurrently
-    tasks = [process_question(item, results_file, llm, use_context, use_cot) for item in dataset_list]
+    tasks = [process_question(item, results_file, llm, use_cot) for item in dataset_list]
     results = await asyncio.gather(*tasks)
 
     # Calculate accuracy
