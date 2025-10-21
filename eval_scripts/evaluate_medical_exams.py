@@ -206,7 +206,9 @@ async def main():
     # Load the Medical Exam dataset (pqa_labeled subset only)
     logging.info("Loading Medical Exam dataset...")
     parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    logging.info(f"Parent directory: {parent_dir}")
     dataset_files = glob.glob(os.path.join(parent_dir, 'medical_exams', '*.csv'))
+    logging.info(f"Dataset files: {dataset_files}")
     all_dfs = []
     for file in dataset_files:
         df = pd.read_csv(file)
