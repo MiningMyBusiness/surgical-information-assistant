@@ -65,13 +65,14 @@ async def rate_limited_call(func, *args, **kwargs):
     finally:
         rate_limiter.release()
 
+faiss_reader = FaissReader("surgical_faiss_index")
+
 async def answer_question(question, llm, use_cot=True, use_rag=False):
     logging.info(f"Generating answer for question: {question[:50]}...")
 
     use_context_instruction = ""
     context_string = ""
     if use_rag:
-        faiss_reader = FaissReader("surgical_faiss_index")
         retrieved_docs = faiss_reader.search(question, k=5)
         context_string = "\n----\n## Relevant Context\n" + retrieved_docs + "\n----\n\n"
         use_context_instruction = " The following context may be helpful in answering the question."
