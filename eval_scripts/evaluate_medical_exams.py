@@ -6,6 +6,8 @@ sys.path.insert(0, str(parent_dir))
 
 import json
 import os
+import glob
+import pandas as pd
 import asyncio
 import argparse
 from dotenv import load_dotenv
@@ -75,6 +77,8 @@ Think step-by-step and provide a detailed reasoning process to arrive at your an
 
 Your final answer must be : A / B / C / D (there may be more than 1 right answer)
 
+Answer with a single letter when you think there is only one clear right answer (e.g. "A" or "B" or "C" or "D"). If there are multiple possible answers, answer with "A, B" or "A, B, C" or "A, B, C, D".
+
 Respond in the following format:
 
 <think> Your reasoning here... </think>
@@ -85,7 +89,9 @@ Respond in the following format:
 
 Question: {question}
 
-Your answer must be : A / B / C / D
+Your answer must be : A / B / C / D (there may be more than 1 right answer)
+
+Answer with a single letter when you think there is only one clear right answer (e.g. "A" or "B" or "C" or "D"). If there are multiple possible answers, answer with "A, B" or "A, B, C" or "A, B, C, D".
 
 Answer: """
     
@@ -100,30 +106,10 @@ Answer: """
                 # Fallback if the format is not followed
                 thinking = response.content
                 answer_text = response.content.lower()
-                if 'yes' in answer_text and 'no' not in answer_text:
-                    answer = 'yes'
-                elif 'no' in answer_text and 'yes' not in answer_text:
-                    answer = 'no'
-                elif 'maybe' in answer_text:
-                    answer = 'maybe'
-                else:
-                    answer = 'maybe'
+                answer = organize_answer(answer_text)
         else:
             thinking = ""
-            answer = response.content.strip().lower()
-        
-        # Ensure answer is one of the valid options
-        if answer not in ['yes', 'no', 'maybe']:
-            # Try to extract from the answer text
-            answer_text = answer.lower()
-            if 'yes' in answer_text and 'no' not in answer_text:
-                answer = 'yes'
-            elif 'no' in answer_text and 'yes' not in answer_text:
-                answer = 'no'
-            elif 'maybe' in answer_text:
-                answer = 'maybe'
-            else:
-                answer = 'maybe'  # Default fallback
+            answer = organize_answer(response.content.strip().lower())
         
         logging.info(f"Answer generated for question: {question[:50]}...")
         logging.info(f"Answer: {answer}")
@@ -133,10 +119,23 @@ Answer: """
         logging.error(str(e))
         return "maybe", "Could not generate answer for question."
 
+def organize_answer(answer_text: str) -> str:
+    answer_text = answer_text.lower()
+    answer = ""
+    if "A" in answer_text:
+        answer += "A"
+    if "B" in answer_text:
+        answer += "B"
+    if "C" in answer_text:
+        answer += "C"
+    if "D" in answer_text:
+        answer += "D"
+    return answer
+
 def evaluate_answer(generated_answer, known_answer):
     """Simple string matching evaluation for yes/no/maybe answers"""
-    generated_clean = generated_answer.lower().strip()
-    known_clean = known_answer.lower().strip()
+    generated_clean = organize_answer(generated_answer)
+    known_clean = organize_answer(known_answer)
     
     is_correct = generated_clean == known_clean
     
@@ -146,7 +145,7 @@ def evaluate_answer(generated_answer, known_answer):
 
 async def process_question(item, results_file, llm, use_cot=True):
     question = item['question']
-    known_answer = item['final_decision']
+    known_answer = item['answer']
     
     logging.info(f"Processing question: {question[:50]}...")
     
@@ -163,7 +162,8 @@ async def process_question(item, results_file, llm, use_cot=True):
         'CoT': CoT if use_cot else None,
         'is_correct': is_correct,
         'evaluation': evaluation,
-        'used_cot': use_cot
+        'used_cot': use_cot,
+        'question_category': item['category']
     }
 
     # Append the result to the JSON file
@@ -189,8 +189,6 @@ async def main():
                        help='Number of questions to evaluate (default: all)')
     parser.add_argument('--output_file', type=str, default=None,
                        help='Output file name (default: auto-generated based on model)')
-    parser.add_argument('--no_context', action='store_true',
-                       help='Do not use context when answering questions (default: use context)')
     parser.add_argument('--no_cot', action='store_true',
                        help='Do not use Chain of Thought reasoning (default: use CoT)')
     
@@ -199,33 +197,38 @@ async def main():
     use_context = not args.no_context
     use_cot = not args.no_cot
     
-    logging.info("Starting the PubMedQA evaluation process...")
-    logging.info(f"Using context: {use_context}")
+    logging.info("Starting the Medical Exam evaluation process...")
     logging.info(f"Using Chain of Thought: {use_cot}")
     
     # Initialize the LLM
     llm = init_llm(args.llm)
     logging.info(f"Initialized LLM: {args.llm}")
     
-    # Load the PubMedQA dataset (pqa_labeled subset only)
-    logging.info("Loading PubMedQA dataset...")
-    dataset = load_dataset("qiaojin/PubMedQA", "pqa_labeled", split="train")
+    # Load the Medical Exam dataset (pqa_labeled subset only)
+    logging.info("Loading Medical Exam dataset...")
+    parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    dataset_files = glob.glob(os.path.join(parent_dir, 'medical_exams', '*.csv'))
+    all_dfs = []
+    for file in dataset_files:
+        df = pd.read_csv(file)
+        df['category'] = os.path.basename(file).split('.csv')[0]
+        all_dfs.append(df)
+    dataset = pd.concat(all_dfs, ignore_index=True)
+    dataset_list = dataset.to_dict('records')
     
     # Convert to list and optionally limit number of questions
-    dataset_list = list(dataset)
     if args.num_questions:
         dataset_list = dataset_list[:args.num_questions]
     
-    logging.info(f"Loaded {len(dataset_list)} questions from PubMedQA")
+    logging.info(f"Loaded {len(dataset_list)} questions from Medical exam datasets")
     
     # Set up results file
     if args.output_file:
         results_file = args.output_file
     else:
         model_name = args.llm.replace('-', '_')
-        context_suffix = 'with_context' if use_context else 'no_context'
         cot_suffix = 'cot' if use_cot else 'no_cot'
-        results_file = f'pubmedqa_{cot_suffix}_results_{model_name}_{context_suffix}.json'
+        results_file = f'medical_exams_{cot_suffix}_results_{model_name}.json'
     
     # Initialize the results file
     with open(results_file, 'w') as f:
@@ -239,23 +242,8 @@ async def main():
 
     # Calculate accuracy
     accuracy = sum(1 for result in results if result['is_correct']) / len(results)
-    
-    # Calculate per-class accuracy
-    yes_correct = sum(1 for result in results if result['known_answer'].lower() == 'yes' and result['is_correct'])
-    no_correct = sum(1 for result in results if result['known_answer'].lower() == 'no' and result['is_correct'])
-    maybe_correct = sum(1 for result in results if result['known_answer'].lower() == 'maybe' and result['is_correct'])
-    
-    yes_total = sum(1 for result in results if result['known_answer'].lower() == 'yes')
-    no_total = sum(1 for result in results if result['known_answer'].lower() == 'no')
-    maybe_total = sum(1 for result in results if result['known_answer'].lower() == 'maybe')
 
     logging.info(f"Evaluation completed. Overall Accuracy: {accuracy:.2%}")
-    if yes_total > 0:
-        logging.info(f"'Yes' Accuracy: {yes_correct/yes_total:.2%} ({yes_correct}/{yes_total})")
-    if no_total > 0:
-        logging.info(f"'No' Accuracy: {no_correct/no_total:.2%} ({no_correct}/{no_total})")
-    if maybe_total > 0:
-        logging.info(f"'Maybe' Accuracy: {maybe_correct/maybe_total:.2%} ({maybe_correct}/{maybe_total})")
     
     logging.info(f"Results saved to {results_file}")
 
