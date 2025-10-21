@@ -168,7 +168,7 @@ def extract_context(agent_response):
 
 async def evaluate_answer(question, generated_answer, known_answer):
     logging.info(f"Evaluating answer for question: {question[:50]}...")
-    prompt = f"""You are a medical reasoning engine that compares two answers to a given question to determine whether the answers are the same. Here is the question and the two answers:
+    prompt = f"""You are a medical reasoning engine that compares a generated answer with a known answer to a given question to determine whether the generated answer is correct. Here is the question and the two answers:
 
 Question:
 {question}
@@ -181,10 +181,16 @@ Answer 2 (Generated Answer):
 
 Think step-by-step and provide a detailed reasoning process that compares the two answers given the context of the question. Include at least 3 steps in your reasoning, but more as needed.
 
+Keep these criteria in mind:
+1. The generated answer should contain the core information in the known answer that is directly relevant to the question
+2. The generated answer can contain more detail but it should NOT contradict the known answer
+3. The generated answer can be more or less concise than the known answer
+4. The generated answer should answer the question
+
 Respond in the following format:
 
 <think> Your reasoning here... </think>
-<answer> TRUE if the answers are similar, FALSE otherwise... </answer>
+<answer> TRUE if the generated answer is correct, FALSE otherwise... </answer>
 """
     try:
         response = await rate_limited_call(to_thread(eval_llm.invoke), prompt)
