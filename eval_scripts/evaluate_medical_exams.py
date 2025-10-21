@@ -194,7 +194,6 @@ async def main():
     
     args = parser.parse_args()
     
-    use_context = not args.no_context
     use_cot = not args.no_cot
     
     logging.info("Starting the Medical Exam evaluation process...")
