@@ -11,7 +11,7 @@ import pandas as pd
 import asyncio
 import argparse
 from dotenv import load_dotenv
-from datasets import load_dataset
+from utils.index_w_faiss import FaissReader
 import asyncio
 import functools
 import time
@@ -65,14 +65,21 @@ async def rate_limited_call(func, *args, **kwargs):
     finally:
         rate_limiter.release()
 
-async def answer_question(question, llm, use_cot=True):
+async def answer_question(question, llm, use_cot=True, use_rag=False):
     logging.info(f"Generating answer for question: {question[:50]}...")
+
+    use_context_instruction = " The following context may be helpful in answering the question."
+    context_string = ""
+    if use_rag:
+        faiss_reader = FaissReader("surgical_faiss_index")
+        retrieved_docs = faiss_reader.search(question, k=5)
+        context_string = "\n----\n## Relevant Context ##\n" + retrieved_docs + "\n----\n\n"
     
     if use_cot:
-        prompt = f"""You are a medical expert. Please answer the following question based on your medical knowledge.
+        prompt = f"""You are a medical expert. Please answer the following question based on your medical knowledge.{use_context_instruction}
 
 Question: {question}
-
+{context_string}
 Think step-by-step and provide a detailed reasoning process to arrive at your answer. Include at least 3 steps in your reasoning, but more as needed.
 
 Your final answer must be : A / B / C / D (there may be more than 1 right answer)
@@ -143,14 +150,14 @@ def evaluate_answer(generated_answer, known_answer):
     
     return is_correct, evaluation
 
-async def process_question(item, results_file, llm, use_cot=True):
+async def process_question(item, results_file, llm, use_cot=True, use_rag=False):
     question = item['question']
     known_answer = item['answer']
     
     logging.info(f"Processing question: {question[:50]}...")
     
     # Generate an answer
-    generated_answer, CoT = await answer_question(question, llm, use_cot)
+    generated_answer, CoT = await answer_question(question, llm, use_cot, use_rag)
     
     # Evaluate the answer
     is_correct, evaluation = evaluate_answer(generated_answer, known_answer)
@@ -191,13 +198,17 @@ async def main():
                        help='Output file name (default: auto-generated based on model)')
     parser.add_argument('--no_cot', action='store_true',
                        help='Do not use Chain of Thought reasoning (default: use CoT)')
+    parser.add_argument('--use_rag', action='store_true',
+                       help='Use RAG (default: do not use RAG)')
     
     args = parser.parse_args()
     
     use_cot = not args.no_cot
+    use_rag = args.use_rag
     
     logging.info("Starting the Medical Exam evaluation process...")
     logging.info(f"Using Chain of Thought: {use_cot}")
+    logging.info(f"Using RAG: {use_rag}")
     
     # Initialize the LLM
     llm = init_llm(args.llm)
@@ -238,7 +249,7 @@ async def main():
     logging.info(f"Processing {len(dataset_list)} questions...")
 
     # Process questions concurrently
-    tasks = [process_question(item, results_file, llm, use_cot) for item in dataset_list]
+    tasks = [process_question(item, results_file, llm, use_cot, use_rag) for item in dataset_list]
     results = await asyncio.gather(*tasks)
 
     # Calculate accuracy

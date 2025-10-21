@@ -6,6 +6,9 @@ from sentence_transformers import SentenceTransformer
 import os
 import json
 from typing import List, Dict, Tuple
+import re
+from collections import Counter
+import string
 
 def cosine_similarity(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
@@ -136,6 +139,14 @@ class FaissReader:
         with open(index_json_file, "r") as f:
             self.index_info = json.load(f)
 
+    def _tokenize(self, text: str) -> List[str]:
+        text = text.lower()
+        text = text.translate(str.maketrans('', '', string.punctuation))
+        return re.findall(r'\b\w+\b', text)
+
+    def _get_ngrams(self, tokens: List[str], n: int) -> List[Tuple]:
+        return [tuple(tokens[i:i+n]) for i in range(len(tokens)-n+1)]
+
     def _mmr_rerank(self, query_text: str, results: List[Dict[str, any]], k: int, lambda_mult: float = 0.7) -> List[Dict[str, any]]:
         if not results:
             return []
@@ -174,7 +185,44 @@ class FaissReader:
 
         return ranked_results
 
-    def query(self, query_text: str, k: int = 5, rerank: bool = True) -> List[Dict[str, any]]:
+    def _fast_rerank(self, query_text: str, results: List[Dict[str, any]], k: int) -> List[Dict[str, any]]:
+        if not results:
+            return []
+
+        query_tokens = self._tokenize(query_text)
+        query_unigrams = self._get_ngrams(query_tokens, 1)
+        query_bigrams = self._get_ngrams(query_tokens, 2)
+
+        reranked_results = []
+        for res in results:
+            chunk_text = res["chunk"]
+            chunk_tokens = self._tokenize(chunk_text)
+            
+            # Keyword match score
+            keyword_score = sum(1 for token in query_tokens if token in chunk_tokens)
+            
+            # Unigram overlap
+            chunk_unigrams = self._get_ngrams(chunk_tokens, 1)
+            unigram_overlap = len(set(query_unigrams) & set(chunk_unigrams))
+            
+            # Bigram overlap
+            chunk_bigrams = self._get_ngrams(chunk_tokens, 2)
+            bigram_overlap = len(set(query_bigrams) & set(chunk_bigrams))
+            
+            # Combine scores
+            combined_score = (0.4 * keyword_score) + (0.2 * unigram_overlap) + (0.4 * bigram_overlap)
+            
+            res['rerank_score'] = combined_score
+            reranked_results.append(res)
+
+        reranked_results.sort(key=lambda x: x['rerank_score'], reverse=True)
+        
+        for res in reranked_results:
+            del res['rerank_score']
+
+        return reranked_results[:k]
+
+    def query(self, query_text: str, k: int = 5, rerank: str = 'fast') -> List[Dict[str, any]]:
         # Fetch more results initially to have a good pool for MMR
         initial_k = k * 4
         query_vector = self.model.encode([query_text], normalize_embeddings=True)
@@ -194,8 +242,10 @@ class FaissReader:
                 "end_line": metadata["end_line"]
             })
         
-        if rerank:
+        if rerank == 'mmr':
             results = self._mmr_rerank(query_text, results, k=k)
+        elif rerank == 'fast':
+            results = self._fast_rerank(query_text, results, k=k)
             
         return results[:k]
     
@@ -205,11 +255,11 @@ class FaissReader:
             text += f"\n---\nChunk:\n{result['chunk']}\n---\nFile Path: {result['file_path']}\nStart Line: {result['start_line']}\nEnd Line: {result['end_line']}\nScore: {result['score']:.4f}\n\n"
         return text.strip()
     
-    def search(self, query_text: str, k: int = 5, rerank: bool = True) -> str:
+    def search(self, query_text: str, k: int = 5, rerank: str = 'mmr') -> str:
         results = self.query(query_text, k, rerank=rerank)
         return self.make_text_from_results(results)
 
-    def query_with_context(self, query_text: str, k: int = 5, rerank: bool = True, context_size: int = 1) -> List[Dict[str, any]]:
+    def query_with_context(self, query_text: str, k: int = 5, rerank: str = 'mmr', context_size: int = 1) -> List[Dict[str, any]]:
         initial_results = self.query(query_text, k, rerank=rerank)
         
         contextualized_results = []
