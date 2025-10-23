@@ -193,7 +193,7 @@ async def process_question(item, results_file, llm, use_cot=True, use_rag=False)
         "+2": item["2"],
     }
     
-    logging.info(f"Processing question: {question[:50]}...")
+    logging.info(f"Processing question: {scenario[:50]}...")
     
     # Generate an answer
     generated_answer, CoT = await answer_question(scenario, hypothesis, additional_info, llm, use_cot, use_rag)
