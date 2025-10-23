@@ -261,6 +261,23 @@ async def main():
     logging.info(f"Dataset file: {dataset_file}")
     df = pd.read_csv(dataset_file)
     df.rename(columns={'sct_stem': 'scenario', 'question': 'hypothesis'}, inplace=True)
+
+    # Normalize the score columns
+    score_columns = ['-2', '-1', '0', '1', '2']
+    # Ensure score columns are numeric, coercing errors to NaN
+    for col in score_columns:
+        df[col] = pd.to_numeric(df[col], errors='coerce')
+
+    # Calculate the maximum value per row across the score columns
+    row_max = df[score_columns].max(axis=1)
+
+    # Avoid division by zero. If row_max is 0, the values in that row will not be changed.
+    # The apply function will only be executed for rows where row_max > 0.
+    df[score_columns] = df.apply(
+        lambda row: row[score_columns] / row_max[row.name] if row_max[row.name] > 0 else row[score_columns],
+        axis=1
+    )
+
     dataset_list = df.to_dict('records')
     
     # Convert to list and optionally limit number of questions
@@ -289,7 +306,7 @@ async def main():
     results = await asyncio.gather(*tasks)
 
     # Calculate accuracy
-    accuracy = sum(1 for result in results if result['is_correct']) / len(results)
+    accuracy = sum(result['is_correct'] for result in results) / len(results)
 
     logging.info(f"Evaluation completed. Overall Accuracy: {accuracy:.2%}")
     
