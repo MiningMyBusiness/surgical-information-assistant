@@ -121,6 +121,44 @@ class FaissClient:
                     file_path = os.path.join(root, file)
                     self.process_file(file_path)
 
+    def process_dataset(self, dataset, content_keys: List[str], metadata_keys: List[str]):
+        all_chunks = []
+        all_metadata = []
+
+        for item in dataset:
+            # 1. Combine content from specified keys
+            content_list = [str(item[key]) for key in content_keys if key in item and item[key] is not None]
+            full_content = "\n".join(content_list)
+
+            if not full_content:
+                continue
+
+            # 2. Chunk the content
+            chunks = self.chunk_text(full_content)
+            all_chunks.extend(chunks)
+
+            # 3. Create metadata for each chunk
+            base_metadata = {key: item.get(key) for key in metadata_keys}
+            for chunk in chunks:
+                chunk_metadata = base_metadata.copy()
+                all_metadata.append(chunk_metadata)
+        
+        if not all_chunks:
+            print("No content to process from the dataset.")
+            return
+
+        # 4. Get vectors for all chunks in a batch
+        vectors = self.get_vectors(all_chunks)
+
+        # 5. Write vectors to FAISS index
+        self.write_with_faiss(vectors)
+
+        # 6. Save index info
+        ids = list(range(len(all_chunks)))
+        self.save_index_info(all_chunks, ids, all_metadata)
+
+        print(f"Successfully processed {len(dataset)} items from the dataset and added to the index.")
+
 
 class FaissReader:
     def __init__(self, index_path: str):
@@ -231,16 +269,15 @@ class FaissReader:
         results = []
         for i, idx in enumerate(indices[0]):
             if idx < 0 or idx >= len(self.index_info["passages"]):
-                continue # Skip invalid indices
+                continue  # Skip invalid indices
             chunk = self.index_info["passages"][idx]
             metadata = self.index_info["metadata"][idx]
-            results.append({
+            result_item = {
                 "chunk": chunk,
                 "score": float(scores[0][i]),
-                "file_path": metadata["file_path"],
-                "start_line": metadata["start_line"],
-                "end_line": metadata["end_line"]
-            })
+            }
+            result_item.update(metadata)  # Add all metadata to the result
+            results.append(result_item)
         
         if rerank == 'mmr':
             results = self._mmr_rerank(query_text, results, k=k)
@@ -252,7 +289,13 @@ class FaissReader:
     def make_text_from_results(self, results: List[Dict[str, any]]) -> str:
         text = ""
         for result in results:
-            text += f"\n---\nChunk:\n{result['chunk']}\n---\nFile Path: {result['file_path']}\nStart Line: {result['start_line']}\nEnd Line: {result['end_line']}\nScore: {result['score']:.4f}\n\n"
+            text += f"\n---\nChunk:\n{result['chunk']}\n"
+            text += f"Score: {result['score']:.4f}\n"
+            # Dynamically add other metadata
+            for key, value in result.items():
+                if key not in ['chunk', 'score']:
+                    text += f"{key.replace('_', ' ').title()}: {value}\n"
+            text += "\n"
         return text.strip()
     
     def search(self, query_text: str, k: int = 5, rerank: str = 'mmr') -> str:
@@ -274,6 +317,9 @@ class FaissReader:
         return contextualized_results
 
     def get_context(self, result: Dict[str, any], context_size: int) -> Tuple[List[str], List[str]]:
+        if 'file_path' not in result or 'start_line' not in result or 'end_line' not in result:
+            return [], []
+
         file_path = result["file_path"]
         start_line = result["start_line"]
         end_line = result["end_line"]
@@ -281,11 +327,13 @@ class FaissReader:
         context_before = []
         context_after = []
         
+        # This assumes that passages from the same file are somewhat contiguous in the index
+        # which is true for process_file and process_directory, but not guaranteed for datasets.
         for idx, metadata in enumerate(self.index_info["metadata"]):
-            if metadata["file_path"] == file_path:
-                if metadata["end_line"] < start_line and len(context_before) < context_size:
+            if metadata.get("file_path") == file_path:
+                if metadata.get("end_line", -1) < start_line and len(context_before) < context_size:
                     context_before.insert(0, self.index_info["passages"][idx])
-                elif metadata["start_line"] > end_line and len(context_after) < context_size:
+                elif metadata.get("start_line", -1) > end_line and len(context_after) < context_size:
                     context_after.append(self.index_info["passages"][idx])
         
         return context_before, context_after
