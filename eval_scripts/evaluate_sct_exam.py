@@ -149,11 +149,11 @@ Answer: """
             thinking = ""
             answer = organize_answer(response.content.strip().lower())
         
-        logging.info(f"Answer generated for question: {question[:50]}...")
+        logging.info(f"Answer generated for question: {scenario[:50]}...")
         logging.info(f"Answer: {answer}")
         return answer, thinking
     except Exception as e:
-        logging.error(f"Error generating answer for question: {question[:50]}...")
+        logging.error(f"Error generating answer for question: {scenario[:50]}...")
         logging.error(str(e))
         return "maybe", "Could not generate answer for question."
 
@@ -224,7 +224,7 @@ async def process_question(item, results_file, llm, use_cot=True, use_rag=False)
             json.dump(data, f, indent=2)
             f.truncate()
 
-    logging.info(f"Question processed and result saved: {question[:50]}...")
+    logging.info(f"Question processed and result saved: {scenario[:50]}...")
     return result
 
 async def main():
