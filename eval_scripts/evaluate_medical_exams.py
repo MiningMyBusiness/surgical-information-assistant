@@ -65,14 +65,14 @@ async def rate_limited_call(func, *args, **kwargs):
     finally:
         rate_limiter.release()
 
-faiss_reader = FaissReader("surgical_faiss_index")
-
-async def answer_question(question, llm, use_cot=True, use_rag=False):
+async def answer_question(question, llm, use_cot=True, use_rag=False, faiss_reader: FaissReader=None):
     logging.info(f"Generating answer for question: {question[:50]}...")
 
     use_context_instruction = ""
     context_string = ""
     if use_rag:
+        if faiss_reader is None:
+            raise ValueError("FaissReader instance must be provided when using RAG")
         retrieved_docs = faiss_reader.search(question, k=5)
         context_string = "\n----\n## Relevant Context\n" + retrieved_docs + "\n----\n\n"
         use_context_instruction = " The following context may be helpful in answering the question."
@@ -154,14 +154,14 @@ def evaluate_answer(generated_answer, known_answer):
     
     return is_correct, evaluation
 
-async def process_question(item, results_file, llm, use_cot=True, use_rag=False):
+async def process_question(item, results_file, llm, use_cot=True, use_rag=False, faiss_reader: FaissReader=None):
     question = item['question']
     known_answer = item['answer']
     
     logging.info(f"Processing question: {question[:50]}...")
     
     # Generate an answer
-    generated_answer, CoT = await answer_question(question, llm, use_cot, use_rag)
+    generated_answer, CoT = await answer_question(question, llm, use_cot, use_rag, faiss_reader)
     
     # Evaluate the answer
     is_correct, evaluation = evaluate_answer(generated_answer, known_answer)
@@ -204,11 +204,14 @@ async def main():
                        help='Do not use Chain of Thought reasoning (default: use CoT)')
     parser.add_argument('--use_rag', action='store_true',
                        help='Use RAG (default: do not use RAG)')
+    parser.add_argument('--faiss_index', type=str, default='surgical_faiss_index',
+                       help='Path to FAISS index (default: surgical_faiss_index)')
     
     args = parser.parse_args()
     
     use_cot = not args.no_cot
     use_rag = args.use_rag
+    faiss_index = args.faiss_index
     
     logging.info("Starting the Medical Exam evaluation process...")
     logging.info(f"Using Chain of Thought: {use_cot}")
@@ -252,8 +255,13 @@ async def main():
 
     logging.info(f"Processing {len(dataset_list)} questions...")
 
+    if use_rag:
+        faiss_reader = FaissReader(faiss_index)
+    else:
+        faiss_reader = None
+
     # Process questions concurrently
-    tasks = [process_question(item, results_file, llm, use_cot, use_rag) for item in dataset_list]
+    tasks = [process_question(item, results_file, llm, use_cot, use_rag, faiss_reader) for item in dataset_list]
     results = await asyncio.gather(*tasks)
 
     # Calculate accuracy
