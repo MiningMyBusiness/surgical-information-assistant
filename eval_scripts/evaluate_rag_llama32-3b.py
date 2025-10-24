@@ -85,7 +85,7 @@ async def process_question_async(qa_pair):
     )
 
     # Run the orchestrator
-    async for step in orchestrator(state):
+    for step in orchestrator(state):
         if step['step'] == 'final':
             final_state = step['state']
             break
