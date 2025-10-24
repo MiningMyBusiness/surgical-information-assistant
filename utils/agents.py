@@ -524,6 +524,12 @@ async def orchestrator_async(state: DeRetSynState):
     yield {"step": "final", "state": state}
 
 def orchestrator(state: DeRetSynState):
+    if state.get("run_async", False):
+        return orchestrator_async_wrapper(state)
+    else:
+        return orchestrator_sync(state)
+
+def orchestrator_sync(state: DeRetSynState):
     # Step 1: Decompose the question
     agent_a_decompose_question(state)
     yield {"step": "decompose_complete", "sub_questions": state["pending_queries"]}
@@ -531,13 +537,7 @@ def orchestrator(state: DeRetSynState):
     keep_going = True
     while keep_going:
         # Step 2: Retrieve relevant documents
-        if state["run_async"]:
-            # Run async version in a new event loop
-            import asyncio
-            asyncio.run(agent_b_retrieve_async(state))
-        else:
-            # Run sync version
-            agent_b_retrieve(state)
+        agent_b_retrieve(state)
         
         yield {"step": "retrieve_complete", "answers": state["answers"]}
 
@@ -563,7 +563,7 @@ def orchestrator(state: DeRetSynState):
     # Return the final answer
     yield {"step": "final", "state": state}
 
-def orchestrator_sync_wrapper(state: DeRetSynState):
+def orchestrator_async_wrapper(state: DeRetSynState):
     """Wrapper to handle async orchestrator in sync context"""
     async def run_async_orchestrator():
         results = []

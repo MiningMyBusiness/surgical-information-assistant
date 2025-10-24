@@ -80,7 +80,7 @@ async def process_question_async(qa_pair):
         verbose=True,
         iterations=0,
         wikipedia_results="",
-        run_async=False,
+        run_async=True,
         vectorstore=faiss_reader
     )
 
@@ -167,7 +167,7 @@ def process_question(qa_pair):
         verbose=False,
         iterations=0,
         wikipedia_results="",
-        run_async=True,
+        run_async=False,
         vectorstore=faiss_reader
     )
 
