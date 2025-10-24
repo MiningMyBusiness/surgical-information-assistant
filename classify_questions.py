@@ -9,7 +9,9 @@ print("Initializing zero-shot classification model...")
 classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli") # Automatically uses GPU if available, otherwise CPU
 print("Model initialized.")
 
-CANDIDATE_LABELS = ['fetal-maternal pathology', 'Cesarean delivery', 'herniorrhaphy']
+CANDIDATE_LABELS = ['fetal-maternal pathology', 'Cesarean delivery', 'herniorrhaphy',
+                    'wound debridement', 'wound care', 'wound infection',
+                    'abscess', 'percutaneous infection', 'circumcision']
 CLASSIFICATION_THRESHOLD = 0.9
 
 def classify_question(question):
