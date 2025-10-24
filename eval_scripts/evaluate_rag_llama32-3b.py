@@ -11,7 +11,7 @@ from tqdm import tqdm
 import sys
 import time
 import logging
-from utils.llms import init_llms
+from utils.llms import init_llm
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -43,7 +43,7 @@ ALL_EVAL_QUESTIONS_SO_FAR = get_all_evaluated_questions(load_eval_results())
 
 
 # Initialize the AzureChatOpenAI instance
-eval_llm = init_llms('azure-gpt35')
+eval_llm = init_llm('azure-gpt35')
 
 faiss_reader = FaissReader("surgical_faiss_index")
 
