@@ -74,8 +74,8 @@ async def answer_question(scenario, hypothesis, additional_info, llm, use_cot=Tr
     context_string = ""
     if use_rag:
         search_string = f"{scenario}\n{hypothesis}\n{additional_info}"
-        retrieved_docs = faiss_reader.search(search_string, k=5)
-        context_string = "\n----\n## Relevant Context\n" + retrieved_docs + "\n----\n\n"
+        retrieved_docs = faiss_reader.search(search_string, k=3)
+        context_string = "\n----\n## Context\n" + retrieved_docs + "\n----\n\n"
         use_context_instruction = " The following context may be helpful."
     
     if use_cot:
@@ -91,13 +91,13 @@ In this test, you will evaluate how new information impacts a specific hypothesi
 
 {use_context_instruction}{context_string}
 
-## Scenario
+# Scenario
 {scenario}
 
-## Hypothesis
+# Hypothesis
 {hypothesis}
 
-## Additional Information
+# Additional Information
 {additional_info}
 
 Think step-by-step and provide a detailed reasoning process to arrive at your answer. Include at least 3 steps in your reasoning, but more as needed.
@@ -120,13 +120,13 @@ In this test, you will evaluate how new information impacts a specific hypothesi
 +1: Slightly increases the likelihood of the hypothesis
 +2: Strongly increases the likelihood of the hypothesis
 
-## Scenario
+# Scenario
 {scenario}
 
-## Hypothesis
+# Hypothesis
 {hypothesis}
 
-## Additional Information
+# Additional Information
 {additional_info}
 
 Your answer must be : -2 or -1 or 0 or +1 or +2. Respond only with the answer.
