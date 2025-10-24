@@ -39,12 +39,13 @@ class DeRetSynState(TypedDict):
     cot_for_answer: str=None
     verbose: bool=False
     faiss_index_path: str="surgical_faiss_index"
-    retrieval_k: int=3
+    retrieval_k: int=5
     run_async: bool=False
     use_implicit_knowledge: bool=False
     fixed_context: str=None  # New field for user-provided fixed context
     use_wikipedia_fallback: bool=True  # New field to control Wikipedia fallback
     answer_choices: List[str]=None
+    vectorstore: FaissReader=None
 
 decomposition_prompt = PromptTemplate.from_template(
     """You are an expert at breaking complex surgical questions into simpler ones. Break the following question into smaller sub-questions:
@@ -177,7 +178,7 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
             else:
                         # Use vectorstore search (original behavior)
                 faiss_index_path = state["faiss_index_path"]
-                vectorstore = get_default_vectorstore(faiss_index_path)
+                vectorstore = state['vectorstore']
                 results = vectorstore.search(q, k=state["retrieval_k"])
             response, confidence, snippets = generate_answer_from_question_and_context(state, q, results)
             answer_text = f"Question: {q}\nAnswer: {response}\nConfidence: {confidence}\n\n\n"
@@ -205,7 +206,7 @@ async def agent_b_retrieve_async(state: DeRetSynState) -> None:
             if state["fixed_context"]:
                 results = state["fixed_context"]
             else:
-                vectorstore = get_default_vectorstore(faiss_index_path)
+                vectorstore = state['vectorstore']
                 results = await to_thread(vectorstore.search)(q, k=state["retrieval_k"])
             response, confidence, snippets = await generate_answer_from_question_and_context_async(state, q, results)
             return f"Question: {q}\nAnswer: {response}\nConfidence: {confidence}\n\n\n"
@@ -219,10 +220,6 @@ async def agent_b_retrieve_async(state: DeRetSynState) -> None:
         print(f"New answers: {combined_answers}")
     state["answers"] = answers + combined_answers
     state["pending_queries"] = []
-
-
-def get_default_vectorstore(faiss_index_path: str) -> FaissReader:
-    return FaissReader(faiss_index_path)
 
 
 def generate_answer_from_question_and_context(state: DeRetSynState,

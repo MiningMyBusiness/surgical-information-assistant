@@ -25,7 +25,7 @@ def to_thread(func):
     return wrapper
 
 # Rate limiting constants
-MAX_CALLS_PER_MINUTE = 120
+MAX_CALLS_PER_MINUTE = 60
 RATE_LIMIT_PERIOD = 60  # seconds
 
 class RateLimiter:

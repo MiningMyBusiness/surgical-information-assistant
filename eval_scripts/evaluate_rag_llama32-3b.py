@@ -1,14 +1,17 @@
-import json
-from utils.agents import orchestrator, evaluate_answer, DeRetSynState
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import json
+from utils.agents import orchestrator, DeRetSynState
+from utils.index_w_faiss import FaissReader
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
 import asyncio
 import multiprocessing
 from tqdm import tqdm
 import sys
 import time
 import logging
+from utils.llms import init_llms
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -16,7 +19,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 load_dotenv()
 
 # Rate limiting constants
-MAX_CALLS_PER_MINUTE = 40
+MAX_CALLS_PER_MINUTE = 60
 RATE_LIMIT_PERIOD = 60  # seconds
 
 def load_qa_dataset(file_path):
@@ -40,14 +43,11 @@ ALL_EVAL_QUESTIONS_SO_FAR = get_all_evaluated_questions(load_eval_results())
 
 
 # Initialize the AzureChatOpenAI instance
-eval_llm = ChatOpenAI(
-    model=os.getenv('TOGETHER_LLAMA33'),
-    api_key=os.getenv('TOGETHER_API_KEY'),
-    base_url=os.getenv('TOGETHER_URL'),
-    temperature=0.7
-)
+eval_llm = init_llms('azure-gpt35')
 
-def append_to_json_file(result: dict, file_path: str="surgical_qa_dataset_evaluation_results_llama32-3b.json"):
+faiss_reader = FaissReader("surgical_faiss_index")
+
+def append_to_json_file(result: dict, file_path: str="surgical_qa_dataset_evaluation_results_llama32-3b_2025oct_2.json"):
     try:
         if not os.path.exists(file_path):
             logging.info(f"Creating new file: {file_path}")
@@ -81,6 +81,7 @@ async def process_question_async(qa_pair):
         iterations=0,
         wikipedia_results="",
         run_async=False,
+        vectorstore=faiss_reader
     )
 
     # Run the orchestrator
@@ -90,7 +91,11 @@ async def process_question_async(qa_pair):
             break
 
     # Evaluate the answer
-    is_correct = evaluate_answer(final_state, known_answer, eval_llm)
+    is_correct, thinking = await evaluate_answer(
+        question=question,
+        generated_answer=final_state['final_answer'],
+        known_answer=known_answer
+    )
 
     output = {
         'question': question,
@@ -100,7 +105,8 @@ async def process_question_async(qa_pair):
         'rag_answer': final_state['final_answer'],
         'rag_confidence': final_state['final_confidence'],
         'known_answer': known_answer,
-        'is_correct': is_correct
+        'is_correct': is_correct,
+        'eval_thinking': thinking
     }
 
     return output
@@ -161,7 +167,8 @@ def process_question(qa_pair):
         verbose=False,
         iterations=0,
         wikipedia_results="",
-        run_async=True
+        run_async=True,
+        vectorstore=faiss_reader
     )
 
     # Run the orchestrator
@@ -171,7 +178,11 @@ def process_question(qa_pair):
                 final_state = step['state']
                 break
         # Evaluate the answer
-        is_correct = evaluate_answer(final_state, known_answer, eval_llm)
+        is_correct, thinking = asyncio.run(evaluate_answer(
+            question=question,
+            generated_answer=final_state['final_answer'],
+            known_answer=known_answer
+        ))
 
         output = {
             'question': question,
@@ -181,7 +192,8 @@ def process_question(qa_pair):
             'rag_answer': final_state['final_answer'],
             'rag_confidence': final_state['final_confidence'],
             'known_answer': known_answer,
-            'is_correct': is_correct
+            'is_correct': is_correct,
+            'eval_thinking': thinking
         }
 
         return output
@@ -195,7 +207,8 @@ def process_question(qa_pair):
         'rag_answer': None,
         'rag_confidence': None,
         'known_answer': known_answer,
-        'is_correct': False
+        'is_correct': False,
+        'eval_thinking': None
     }
 
 def run_evaluation(qa_dataset, num_processes):
@@ -215,6 +228,45 @@ def run_evaluation(qa_dataset, num_processes):
                 results.append(result)
 
     return results
+
+async def evaluate_answer(question, generated_answer, known_answer):
+    logging.info(f"Evaluating answer for question: {question[:50]}...")
+    prompt = f"""You are a medical reasoning engine that compares a generated answer with a known answer to a given question to determine whether the generated answer is correct. Here is the question and the two answers:
+
+Question:
+{question}
+
+Answer 1 (Known Answer):
+{known_answer}
+
+Answer 2 (Generated Answer):
+{generated_answer}
+
+Think step-by-step and provide a detailed reasoning process that compares the two answers given the context of the question. Include at least 3 steps in your reasoning, but more as needed.
+
+Keep these criteria in mind:
+1. The generated answer should contain the core information in the known answer that is directly relevant to the question
+2. The generated answer can contain more detail but it should NOT contradict the known answer
+3. The generated answer can be more or less concise than the known answer
+4. The generated answer should answer the question
+
+Respond in the following format:
+
+<think> Your reasoning here... </think>
+<answer> TRUE if the generated answer is correct, FALSE otherwise... </answer>
+"""
+    try:
+        response = await rate_limited_call(to_thread(eval_llm.invoke), prompt)
+        evaluation = response.content.strip()
+        thinking = evaluation.split('<think>')[1].split('</think>')[0].strip()
+        is_correct = 'true' in evaluation.lower().split('<answer>')[-1].split('</answer>')[0].strip()
+        logging.info(f"Evaluation completed for question: {question[:50]}...")
+        logging.info(f"Evalution result: {is_correct}")
+        return is_correct, thinking
+    except Exception as e:
+        logging.error(f"Error evaluating answer for question: {question[:50]}...")
+        logging.error(str(e))
+        return False, "Could not evaluate answer for question."
 
 def print_results(results):
     total_questions = len(results)
@@ -244,7 +296,7 @@ if __name__ == "__main__":
     print(f"Running evaluation with {num_processes} processes...")
 
     # Load the QA dataset
-    qa_dataset = load_qa_dataset('surgical_qa_dataset.json')
+    qa_dataset = load_qa_dataset('surgical_qa_dataset_2025oct_2_cleaned.json')
 
     # Set the number of processes to use
     if num_processes is None:
@@ -261,5 +313,5 @@ if __name__ == "__main__":
     print_results(results)
 
     # Save the evaluation results to a file
-    with open('surgical_qa_dataset_evaluation_results_llama32-3b.json', 'w') as f:
+    with open('surgical_qa_dataset_evaluation_results_llama32-3b_2025oct_2.json', 'w') as f:
         json.dump(results, f, indent=4)
