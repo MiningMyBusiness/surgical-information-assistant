@@ -247,7 +247,9 @@ async def main():
     else:
         model_name = args.llm.replace('-', '_')
         cot_suffix = 'cot' if use_cot else 'no_cot'
-        results_file = f'medical_exams_{cot_suffix}_results_{model_name}.json'
+        rag_suffix = 'rag' if use_rag else 'no_rag'
+        faiss_suffix = faiss_index.replace('-', '_')
+        results_file = f'medical_exams_{cot_suffix}_{rag_suffix}_{faiss_suffix}_results_{model_name}.json'
     
     # Initialize the results file
     with open(results_file, 'w') as f:
