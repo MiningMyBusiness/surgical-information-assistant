@@ -167,7 +167,7 @@ def process_question(qa_pair):
         verbose=False,
         iterations=0,
         wikipedia_results="",
-        run_async=False,
+        run_async=True,
         vectorstore=faiss_reader
     )
 
