@@ -298,11 +298,11 @@ class FaissReader:
             text += "\n"
         return text.strip()
     
-    def search(self, query_text: str, k: int = 5, rerank: str = 'mmr') -> str:
+    def search(self, query_text: str, k: int = 5, rerank: str = 'fast') -> str:
         results = self.query(query_text, k, rerank=rerank)
         return self.make_text_from_results(results)
 
-    def query_with_context(self, query_text: str, k: int = 5, rerank: str = 'mmr', context_size: int = 1) -> List[Dict[str, any]]:
+    def query_with_context(self, query_text: str, k: int = 5, rerank: str = 'fast', context_size: int = 1) -> List[Dict[str, any]]:
         initial_results = self.query(query_text, k, rerank=rerank)
         
         contextualized_results = []
