@@ -74,9 +74,9 @@ async def answer_question(scenario, hypothesis, additional_info, llm, use_cot=Tr
     context_string = ""
     if use_rag:
         search_string = f"{scenario}\n{hypothesis}\n{additional_info}"
-        retrieved_docs = faiss_reader.search(search_string, k=3)
+        retrieved_docs = faiss_reader.search(search_string, k=5)
         context_string = "\n----\n## Context\n" + retrieved_docs + "\n----\n\n"
-        use_context_instruction = " The following context may be helpful."
+        use_context_instruction = " The following context may be helpful. If it is not, then ignore it."
     
     if use_cot:
         prompt = f"""You are taking a Script Concordance Test, which evaluates your understanding of medical knowledge.
