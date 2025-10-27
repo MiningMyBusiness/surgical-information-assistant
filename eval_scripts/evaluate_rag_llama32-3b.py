@@ -18,6 +18,10 @@ load_dotenv()
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+MODEL_NAME = os.getenv('TOGETHER_LLAMA32')
+API_KEY = os.getenv('TOGETHER_API_KEY')
+BASE_URL = os.getenv('TOGETHER_URL')
+
 # Rate limiting constants
 MAX_CALLS_PER_MINUTE = 60
 RATE_LIMIT_PERIOD = 60  # seconds
@@ -73,9 +77,9 @@ async def process_question_async(qa_pair):
     # Initialize the state
     state = DeRetSynState(
         original_question=question,
-        model=os.getenv('TOGETHER_LLAMA32'),
-        api_key=os.getenv('TOGETHER_API_KEY'),
-        base_url=os.getenv('TOGETHER_URL'),
+        model=MODEL_NAME,
+        api_key=API_KEY,
+        base_url=BASE_URL,
         faiss_index_path="surgical_faiss_index",
         verbose=True,
         iterations=0,
@@ -157,9 +161,9 @@ def process_question(qa_pair):
     # Initialize the state
     state = DeRetSynState(
         original_question=question,
-        model=os.getenv('TOGETHER_LLAMA32'),
-        api_key=os.getenv('TOGETHER_API_KEY'),
-        base_url=os.getenv('TOGETHER_URL'),
+        model=MODEL_NAME,
+        api_key=API_KEY,
+        base_url=BASE_URL,
         faiss_index_path="surgical_faiss_index",
         verbose=False,
         iterations=0,
@@ -170,10 +174,7 @@ def process_question(qa_pair):
 
     # Run the orchestrator
     try:
-        for step in orchestrator(state):
-            if step['step'] == 'final':
-                final_state = step['state']
-                break
+        final_state = orchestrator_straight_run(state)
         # Evaluate the answer
         is_correct, thinking = asyncio.run(evaluate_answer(
             question=question,
