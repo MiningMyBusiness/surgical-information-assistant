@@ -9,7 +9,7 @@ faiss_reader = FaissReader("surgical_faiss_index")
 
 MODEL_NAME = os.getenv('TOGETHER_LLAMA32')
 API_KEY = os.getenv('TOGETHER_API_KEY')
-BASE_URL = os.getenv('TOGETHER_URL')
+BASE_URL = "https://api.together.xyz/v1/"
 
 state = DeRetSynState(
     original_question="What is the most common cause of acute appendicitis?",
