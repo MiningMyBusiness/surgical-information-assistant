@@ -26,6 +26,37 @@ BASE_URL = os.getenv('TOGETHER_URL')
 MAX_CALLS_PER_MINUTE = 60
 RATE_LIMIT_PERIOD = 60  # seconds
 
+def to_thread(func):
+    @functools.wraps(func)
+    async def wrapper(*args, **kwargs):
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(None, functools.partial(func, *args, **kwargs))
+    return wrapper
+
+class RateLimiter:
+    def __init__(self, max_calls, period):
+        self.max_calls = max_calls
+        self.period = period
+        self.calls = []
+        self.semaphore = asyncio.Semaphore(max_calls)
+
+    async def __aenter__(self):
+        await self.semaphore.acquire()
+        now = time.time()
+        # Remove calls older than the rate-limit period
+        self.calls = [t for t in self.calls if now - t < self.period]
+        if len(self.calls) >= self.max_calls:
+            # Wait until the oldest call is outside the period
+            sleep_time = self.period - (now - self.calls[0])
+            if sleep_time > 0:
+                await asyncio.sleep(sleep_time)
+        self.calls.append(time.time())
+
+    async def __aexit__(self, exc_type, exc, tb):
+        self.semaphore.release()
+
+rate_limiter = RateLimiter(MAX_CALLS_PER_MINUTE, RATE_LIMIT_PERIOD)
+
 def load_qa_dataset(file_path):
     with open(file_path, 'r') as f:
         return json.load(f)
@@ -114,30 +145,9 @@ def process_question_async(qa_pair):
 
 
 async def run_evaluation_async(qa_dataset):
-    semaphore = asyncio.Semaphore(MAX_CALLS_PER_MINUTE)
-    start_time = time.time()
-    calls_made = 0
-
     async def process_with_rate_limit(qa_pair):
-        nonlocal start_time, calls_made
-
-        async with semaphore:
-            # Check if we need to reset the timer
-            current_time = time.time()
-            if current_time - start_time >= RATE_LIMIT_PERIOD:
-                start_time = current_time
-                calls_made = 0
-
-            # If we've reached the limit, wait until the next period
-            if calls_made >= MAX_CALLS_PER_MINUTE:
-                wait_time = RATE_LIMIT_PERIOD - (current_time - start_time)
-                if wait_time > 0:
-                    await asyncio.sleep(wait_time)
-                start_time = time.time()
-                calls_made = 0
-
-            result = process_question_async(qa_pair)
-            calls_made += 1
+        async with rate_limiter:
+            result = await to_thread(process_question_async)(qa_pair)
             append_to_json_file(result)
             return result
 
