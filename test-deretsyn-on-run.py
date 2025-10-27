@@ -1,6 +1,7 @@
 from utils.agents import orchestrator_straight_run, DeRetSynState
 from utils.index_w_faiss import FaissReader
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 
