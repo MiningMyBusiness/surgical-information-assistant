@@ -22,7 +22,8 @@ state = DeRetSynState(
     wikipedia_results="",
     run_async=True,
     vectorstore=faiss_reader,
-    fixed_context=None
+    fixed_context=None,
+    retrieval_k=5,
 )
 
 final_state = orchestrator_straight_run(state)
