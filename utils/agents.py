@@ -69,6 +69,7 @@ Create new sub-questions in the following format but DO NOT answer the question.
 
 def get_llm_object(state: DeRetSynState):
     # Check if we can use the standard init_llm approach
+    print("Model name: ", state["model"])
     if state.get('api_key') and state.get('base_url'):
         # Use direct initialization for dynamic API keys/URLs
         if "ollama" not in state['api_key']:
@@ -87,7 +88,6 @@ def get_llm_object(state: DeRetSynState):
         return init_llm(state["model"], llm_temperature=0.7)
 
 def agent_a_decompose_question(state: DeRetSynState) -> bool:
-    print("Model name: ", state["model"])
     llm = get_llm_object(state)
     original_question = state["original_question"]
     prompt = decomposition_prompt.format(question=original_question)
