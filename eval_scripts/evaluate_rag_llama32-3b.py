@@ -70,7 +70,7 @@ def append_to_json_file(result: dict, file_path: str="surgical_qa_dataset_evalua
         logging.error(f"Error appending to file {file_path}: {str(e)}")
 
 
-async def process_question_async(qa_pair):
+def process_question_async(qa_pair):
     question = qa_pair['question']
     known_answer = qa_pair['answer']
 
@@ -92,11 +92,11 @@ async def process_question_async(qa_pair):
     final_state = orchestrator_straight_run(state)
 
     # Evaluate the answer
-    is_correct, thinking = await evaluate_answer(
+    is_correct, thinking = asyncio.run(evaluate_answer(
         question=question,
         generated_answer=final_state['final_answer'],
         known_answer=known_answer
-    )
+    ))
 
     output = {
         'question': question,
@@ -136,7 +136,7 @@ async def run_evaluation_async(qa_dataset):
                 start_time = time.time()
                 calls_made = 0
 
-            result = await process_question_async(qa_pair)
+            result = process_question_async(qa_pair)
             calls_made += 1
             append_to_json_file(result)
             return result
