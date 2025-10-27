@@ -13,10 +13,10 @@ import time
 import logging
 from utils.llms import init_llm
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 # Load environment variables
 load_dotenv()
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Rate limiting constants
 MAX_CALLS_PER_MINUTE = 60
