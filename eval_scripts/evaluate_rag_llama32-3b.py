@@ -58,6 +58,13 @@ class RateLimiter:
 
 rate_limiter = RateLimiter(MAX_CALLS_PER_MINUTE, RATE_LIMIT_PERIOD)
 
+async def rate_limited_call(func, *args, **kwargs):
+    await rate_limiter.acquire()
+    try:
+        return await func(*args, **kwargs)
+    finally:
+        rate_limiter.release()
+
 def load_qa_dataset(file_path):
     with open(file_path, 'r') as f:
         return json.load(f)
