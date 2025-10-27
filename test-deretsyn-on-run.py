@@ -11,6 +11,9 @@ MODEL_NAME = os.getenv('TOGETHER_LLAMA32')
 API_KEY = os.getenv('TOGETHER_API_KEY')
 BASE_URL = os.getenv('TOGETHER_URL')
 
+print(MODEL_NAME)
+
+
 state = DeRetSynState(
     original_question="What is the most common cause of acute appendicitis?",
     model=MODEL_NAME,
