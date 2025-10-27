@@ -2,7 +2,7 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import json
-from utils.agents import orchestrator, DeRetSynState
+from utils.agents import orchestrator_straight_run, DeRetSynState
 from utils.index_w_faiss import FaissReader
 from dotenv import load_dotenv
 import asyncio
@@ -85,10 +85,7 @@ async def process_question_async(qa_pair):
     )
 
     # Run the orchestrator
-    for step in orchestrator(state):
-        if step['step'] == 'final':
-            final_state = step['state']
-            break
+    final_state = orchestrator_straight_run(state)
 
     # Evaluate the answer
     is_correct, thinking = await evaluate_answer(

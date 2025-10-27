@@ -90,13 +90,25 @@ def agent_a_decompose_question(state: DeRetSynState) -> None:
     llm = get_llm_object(state)
     original_question = state["original_question"]
     prompt = decomposition_prompt.format(question=original_question)
-    full_response = llm.invoke(prompt).content.strip()
-    sub_questions = full_response.strip().split("<sub-question>")[1:]
-    sub_questions = [sub_q.split("</sub-question>")[0].strip() for sub_q in sub_questions]
-    if state["verbose"]:
-        print(f"Full response for sub-question generation: {full_response}")
-        print(f"Initial sub-questions: {sub_questions}")
-    state["pending_queries"] = sub_questions
+    try:
+        full_response = llm.invoke(prompt).content.strip()
+        sub_questions = full_response.strip().split("<sub-question>")[1:]
+        if len(sub_questions) < 2:
+            logging.error(f"Not enough sub-questions generated for question: {original_question}")
+            return False
+        sub_questions = [sub_q.split("</sub-question>")[0].strip() for sub_q in sub_questions]
+        for sub_q in sub_questions:
+            if len(sub_q) < 2:
+                logging.error(f"Sub-question too short: {sub_q}")
+                return False
+        if state["verbose"]:
+            print(f"Full response for sub-question generation: {full_response}")
+            print(f"Initial sub-questions: {sub_questions}")
+        state["pending_queries"] = sub_questions
+        return True
+    except Exception as e:
+        logging.error(f"Error decomposing question: {str(e)}")
+        return False
 
 
 def generate_answer_from_implicit_knowledge(state: DeRetSynState, question: str) -> str:
@@ -176,11 +188,16 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
             if state["fixed_context"]:
                 results = state["fixed_context"]
             else:
-                        # Use vectorstore search (original behavior)
-                faiss_index_path = state["faiss_index_path"]
+                # Use vectorstore search (original behavior)
                 vectorstore = state['vectorstore']
                 results = vectorstore.search(q, k=state["retrieval_k"])
-            response, confidence, snippets = generate_answer_from_question_and_context(state, q, results)
+            response = None
+            while response is None:
+                try:
+                    response, confidence, snippets = generate_answer_from_question_and_context(state, q, results)
+                except Exception as e:
+                    logging.error(f"Error generating answer from question and context: {str(e)}")
+                    response = None
             answer_text = f"Question: {q}\nAnswer: {response}\nConfidence: {confidence}\n\n\n"
             new_answers.append(answer_text)
     
@@ -192,7 +209,6 @@ def agent_b_retrieve(state: DeRetSynState) -> None:
 
 
 async def agent_b_retrieve_async(state: DeRetSynState) -> None:
-    faiss_index_path = state["faiss_index_path"]
     queries = state["pending_queries"]
     answers = state.get("answers", "")
 
@@ -246,16 +262,31 @@ Respond in the following format:
 <snippet> Second relevant snippet from the context... </snippet>
 ...
 <snippet> The last relevant snippet from the context </snippet>"""
-    full_response = llm.invoke(prompt).content.strip()
-    if state["verbose"]:
-        print(f"Generated answer for question and context: {full_response}")
-    response = full_response.split("<answer>")[1].split("</answer>")[0].strip()
-    confidence = full_response.split("<confidence>")[1].split("</confidence>")[0].strip()
-    snippets = full_response.split("<snippet>")[1:-1]
-    snippets = [snippet.split("</snippet>")[0].strip() for snippet in snippets]
-    if state["verbose"]:
-        print(f"Full response for generating answer from question and context: {full_response}")
-    return response, confidence, "\n".join(snippets)
+    try:
+        full_response = llm.invoke(prompt).content.strip()
+        if state["verbose"]:
+            print(f"Generated answer for question and context: {full_response}")
+        if "<answer>" not in full_response or "</answer>" not in full_response or "<confidence>" not in full_response or "</confidence>" not in full_response or "<snippet>" not in full_response or "</snippet>" not in full_response:
+            return None, None, None
+        response = full_response.split("<answer>")[1].split("</answer>")[0].strip()
+        if len(response) == 0:
+            return None, None, None
+        confidence = full_response.split("<confidence>")[1].split("</confidence>")[0].strip()
+        if len(confidence) == 0:
+            return None, None, None
+        snippets = full_response.split("<snippet>")[1:-1]
+        snippets = [snippet.split("</snippet>")[0].strip() for snippet in snippets]
+        if len(snippets) == 0:
+            return None, None, None
+        for snippet in snippets:
+            if len(snippet) == 0:
+                return None, None, None
+        if state["verbose"]:
+            print(f"Full response for generating answer from question and context: {full_response}")
+        return response, confidence, "\n".join(snippets)
+    except Exception as e:
+        logging.error(f"Error generating answer from question and context: {str(e)}")
+        return None, None, None
 
 
 async def generate_answer_from_question_and_context_async(state: DeRetSynState,
@@ -340,30 +371,41 @@ If you determine that you cannot answer the original question, then suggest what
 ...
 <new questions> The last new sub-question </new_questions>
 """
-    response = llm.invoke(check_prompt+middle_prompt+suffix).content.strip()
-    if state["verbose"]:
-        print(f"Synthesizer response: {response}")
+    try:
+        response = llm.invoke(check_prompt+middle_prompt+suffix).content.strip()
+        if state["verbose"]:
+            print(f"Synthesizer response: {response}")
 
-    can_answer = response.split("<can_answer>")[1].split("</can_answer>")[0].strip().lower()
-    if can_answer == "yes":
-        answer_text = response.split("<answer>")[1].split("</answer>")[0].strip()
-        if "<confidence>" in answer_text:
+        if "<think>" not in response or "</think>" not in response or "<can_answer>" not in response or "</can_answer>" not in response:
+            return False
+        can_answer = response.split("<can_answer>")[1].split("</can_answer>")[0].strip().lower()
+        if can_answer == "yes":
+            if "<answer>" not in response or "</answer>" not in response:
+                return False
+            answer_text = response.split("<answer>")[1].split("</answer>")[0].strip()
+            if "<confidence>" not in response or "</confidence>" not in response:
+                return False
             confidence = response.split("<confidence>")[1].split("</confidence>")[0].strip()
+            state["done"] = True
+            state["final_answer"] = answer_text
+            state["iterations"] = 1
+            state["final_confidence"] = confidence
+            return True
         else:
-            confidence = "Medium"
-        if "<new_questions>" in answer_text:
-            answer_text = answer_text.split("<new_questions>")[0].strip()
-        state["done"] = True
-        state["final_answer"] = answer_text
-        state["iterations"] = 1
-        state["final_confidence"] = confidence
-    else:
-        state["done"] = False
-        state["iterations"] += 1
-    new_queries = []
-    new_q_block = response.split("<new_questions>")[1:]
-    new_queries = [q.split("</new_questions>")[0].strip() for q in new_q_block]
-    state["pending_queries"] = new_queries
+            state["done"] = False
+            state["iterations"] += 1
+        new_queries = []
+        if "<new_questions>" not in response or "</new_questions>" not in response:
+            return False
+        new_q_block = response.split("<new_questions>")[1:]
+        new_queries = [q.split("</new_questions>")[0].strip() for q in new_q_block]
+        if len(new_queries) == 0:
+            return False
+        state["pending_queries"] = new_queries
+        return True
+    except Exception as e:
+        logging.error(f"Error running synthesizer for question {state['original_question']}: {str(e)}")
+        return False
 
 
 def agent_d_best_effort(state: DeRetSynState):
@@ -402,19 +444,25 @@ Respond in the following format:
 <answer> {answer_string} </answer>
 <confidence> High/Medium/Low - your confidence level in this answer </confidence>
 """
-    llm = get_llm_object(state)
-    response = llm.invoke(generate_prompt).content.strip()
-    if state["verbose"]:
-        print(f"Best-effort response with help from Wikipedia: {response}")
-    answer_text = response.split("<answer>")[1].split("</answer>")[0].strip()
-    answer_text += "\n\n" + "NOTE: I could not answer the question completely with the available documents. I have tried to use Wikipedia to help me answer the question to the best of my ability."
-    if "<confidence>" in answer_text:
+    try:
+        llm = get_llm_object(state)
+        response = llm.invoke(generate_prompt).content.strip()
+        if state["verbose"]:
+            print(f"Best-effort response with help from Wikipedia: {response}")
+        if "<answer>" not in response or "</answer>" not in response:
+            return False
+        answer_text = response.split("<answer>")[1].split("</answer>")[0].strip()
+        answer_text += "\n\n" + "NOTE: I could not answer the question completely with the available documents. I have tried to use Wikipedia to help me answer the question to the best of my ability."
+        if "<confidence>" not in response or "</confidence>" not in response:
+            return False
         confidence = response.split("<confidence>")[1].split("</confidence>")[0].strip()
-    else:
-        confidence = "Medium"
-    state["done"] = True
-    state["final_answer"] = answer_text
-    state["final_confidence"] = confidence
+        state["done"] = True
+        state["final_answer"] = answer_text
+        state["final_confidence"] = confidence
+        return True
+    except Exception as e:
+        logging.error(f"Error running best-effort agent for question {state['original_question']}: {str(e)}")
+        return False
 
 def search_wikipedia(state: DeRetSynState) -> str:
     results_fast = search_wikipedia_fast(state["original_question"])
@@ -454,13 +502,22 @@ Think step-by-step to reason through your answer and consider the relevant infor
 <follow_up_questions> follow-up question here... </follow_up_questions>
 <follow_up_questions> follow-up question here... </follow_up_questions>
 <follow_up_questions> follow-up question here... </follow_up_questions>"""
-    llm = get_llm_object(state)
-    response = llm.invoke(prompt).content.strip()
-    if state["verbose"]:
-        print(f"Follow-up questions response: {response}")
-    follow_up_questions = response.split("<follow_up_questions>")[1:-1]
-    follow_up_questions = [q.split("</follow_up_questions>")[0].strip() for q in follow_up_questions]
-    state["pending_queries"] = follow_up_questions
+    try:
+        llm = get_llm_object(state)
+        response = llm.invoke(prompt).content.strip()
+        if state["verbose"]:
+            print(f"Follow-up questions response: {response}")
+        if "<follow_up_questions>" not in response or "</follow_up_questions>" not in response:
+            return False
+        follow_up_questions = response.split("<follow_up_questions>")[1:-1]
+        follow_up_questions = [q.split("</follow_up_questions>")[0].strip() for q in follow_up_questions]
+        if len(follow_up_questions) < 1:
+            return False
+        state["pending_queries"] = follow_up_questions
+        return True
+    except Exception as e:
+        logging.error(f"Error running follow-up question generator for question {state['original_question']}: {str(e)}")
+        return False
 
 
 def agent_f_cot_generator(state: DeRetSynState) -> None:
@@ -485,9 +542,50 @@ Provide your response in this format:
     response = llm.invoke(prompt).content.strip()
     if state["verbose"]:
         print(f"COT response: {response}")
+    if "<think>" not in response or "</think>" not in response:
+        return False
     cot = response.split("<think>")[1].split("</think>")[0].strip()
     state['cot_for_answer'] = cot
+    return True
 
+def orchestrator_straight_run(state: DeRetSynState):
+    # Step 1: Decompose the question
+    agent_a_complete = False
+    while not agent_a_complete:
+        agent_a_complete = agent_a_decompose_question(state)
+    
+    keep_going = True
+    while keep_going:
+        # Step 2: Retrieve relevant documents
+        agent_b_retrieve(state)
+        
+        # Step 3: Synthesize the answer
+        agent_c_complete = False
+        while not agent_c_complete:
+            agent_c_complete = agent_c_synthesize(state)
+        
+        # Check if we are done
+        keep_going = not state["done"]
+
+        # Stop after 3 iterations
+        if state["iterations"] >= 2 and keep_going:
+            if state["use_wikipedia_fallback"]:
+                agend_d_complete = False
+                while not agend_d_complete:
+                    agend_d_complete = agent_d_best_effort(state)
+                keep_going = False
+    
+    agent_e_complete = False
+    while not agent_e_complete:
+        agent_e_complete = agent_e_follow_up_question_generator(state)
+    
+    # generate COT
+    agent_f_complete = False
+    while not agent_f_complete:
+        agent_f_complete = agent_f_cot_generator(state)
+    
+    # Return the final answer
+    return state
 
 async def orchestrator_async(state: DeRetSynState):
     # Step 1: Decompose the question
