@@ -70,6 +70,8 @@ Create new sub-questions in the following format but DO NOT answer the question.
 def get_llm_object(state: DeRetSynState):
     # Check if we can use the standard init_llm approach
     print("Model name: ", state["model"])
+    print("API key: ", state.get('api_key'))
+    print("Base URL: ", state.get('base_url'))
     if state.get('api_key') and state.get('base_url'):
         # Use direct initialization for dynamic API keys/URLs
         if "ollama" not in state['api_key']:
