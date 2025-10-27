@@ -86,7 +86,8 @@ def get_llm_object(state: DeRetSynState):
         # Fall back to init_llm for environment-based configuration
         return init_llm(state["model"], llm_temperature=0.7)
 
-def agent_a_decompose_question(state: DeRetSynState) -> None:
+def agent_a_decompose_question(state: DeRetSynState) -> bool:
+    print("Model name: ", state["model"])
     llm = get_llm_object(state)
     original_question = state["original_question"]
     prompt = decomposition_prompt.format(question=original_question)
@@ -325,7 +326,7 @@ Respond in the following format:
     return answer, confidence, "\n".join(snippets)
 
 
-def agent_c_synthesize(state: DeRetSynState) -> None:
+def agent_c_synthesize(state: DeRetSynState) -> bool:
     llm = get_llm_object(state)
     original_question = state["original_question"]
     answers = state["answers"]
@@ -485,7 +486,7 @@ def search_wikipedia_slow(query: str) -> str:
         return "Could not retrieve information from Wikipedia from a slow search."
 
 
-def agent_e_follow_up_question_generator(state: DeRetSynState) -> None:
+def agent_e_follow_up_question_generator(state: DeRetSynState) -> bool:
     original_question = state["original_question"]
     final_answer = state["final_answer"]
     prompt = f"""You are a reasoning engine. Given the following original question and final answer, generate 3 follow-up questions that help expand on the original question and the answer in a step-wise manner.
@@ -520,7 +521,7 @@ Think step-by-step to reason through your answer and consider the relevant infor
         return False
 
 
-def agent_f_cot_generator(state: DeRetSynState) -> None:
+def agent_f_cot_generator(state: DeRetSynState) -> bool:
     prompt = f"""
 You are a reasoning engine. Based on the following question and knowledge, provide a detailed, step-by-step reasoning to arrive at an answer. Include at least 3 steps, but more as needed.
 
