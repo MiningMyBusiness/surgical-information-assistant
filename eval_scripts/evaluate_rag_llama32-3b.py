@@ -12,6 +12,7 @@ import sys
 import time
 import logging
 from utils.llms import init_llm
+import functools
 
 # Load environment variables
 load_dotenv()
