@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 MODEL_NAME = os.getenv('TOGETHER_LLAMA32')
 API_KEY = os.getenv('TOGETHER_API_KEY')
-BASE_URL = os.getenv('TOGETHER_URL')
+BASE_URL = "https://api.together.xyz/v1/"
 
 # Rate limiting constants
 MAX_CALLS_PER_MINUTE = 60
@@ -117,7 +117,9 @@ def process_question_async(qa_pair):
         iterations=0,
         wikipedia_results="",
         run_async=True,
-        vectorstore=faiss_reader
+        vectorstore=faiss_reader,
+        fixed_context=None,
+        retrieval_k=5,
     )
 
     # Run the orchestrator
@@ -180,7 +182,9 @@ def process_question(qa_pair):
         iterations=0,
         wikipedia_results="",
         run_async=True,
-        vectorstore=faiss_reader
+        vectorstore=faiss_reader,
+        fixed_context=None,
+        retrieval_k=5,
     )
 
     # Run the orchestrator
